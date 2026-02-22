@@ -1,0 +1,438 @@
+# baoyu.io 博客目录（页 1–8）
+
+## 文档信息
+- 来源：
+  - https://baoyu.io/blog?page=1
+  - https://baoyu.io/blog?page=2
+  - https://baoyu.io/blog?page=3
+  - https://baoyu.io/blog?page=4
+  - https://baoyu.io/blog?page=5
+  - https://baoyu.io/blog?page=6
+  - https://baoyu.io/blog?page=7
+  - https://baoyu.io/blog?page=8
+- 形式：目录汇总
+- 记录日期：2026-02-22
+- 条目数：390
+- 覆盖发布日期范围：2016-06-16 ~ 2026-02-21
+
+## 摘要
+
+### 1) 一句话总结
+该博客目录收录了 2016 至 2026 年间的 390 篇文章，真实记录了技术焦点从传统软件工程向 AI 提示词工程、AI 智能体（Agent）及 AI 重塑软件开发范式的演进历程。
+
+### 2) 核心要点
+*   **时间跨度与规模**：目录覆盖 2016 年 6 月 16 日至 2026 年 2 月 21 日，共计 390 个条目。
+*   **早期关注点（2016-2020）**：主要聚焦于传统软件工程、项目管理（如平衡质量与时间、Deadline 驱动）、团队招聘与个人生活记录。
+*   **AI 技术的全面转向（2023起）**：2023 年内容开始大量探讨大语言模型（LLM），重点分享提示词工程（Prompt Engineering）技巧，如提升翻译质量、控制 JSON 输出格式及“退一步提示法”。
+*   **智能体（Agent）时代的爆发（2025-2026）**：核心议题升级为 AI Agent 的构建与扩展，深入探讨了 Skills、SubAgent、MCP（模型上下文协议）的区别与正确用法，以及上下文工程（Context Engineering）的实践。
+*   **重塑软件工程范式**：持续追踪 AI 对编程的颠覆，记录了“AI 写出 90% 代码”、“Vibe Coding 方法论”的兴起，并强调在 AI 时代，“品味与工程思维”比纯写代码能力更难被替代。
+*   **行业前沿访谈与洞察**：汇总了大量头部科技公司（OpenAI, Anthropic, xAI, Google）高管的深度访谈、内部会议实录，以及 Stack Overflow 和 Anthropic 的年度趋势报告。
+*   **实战提示词与工具库**：开源并分享了大量具体的系统提示词（System Prompts），涵盖 Claude Code、NotebookLM、Gemini、Codex 等工具在翻译、PPT 制作、学术科普和代码生成等场景的实际应用。
+
+### 3) 风险/缺口
+*   **代码质量与维护风险**：明确指出“AI 编码效率 x10，Bug 风险也 x10”；且完全依赖 AI 快速生成的复杂项目（如两天开发出的视频编辑器）面临无法维护的困境。
+*   **职业替代危机**：明确提及“只会画按钮的设计师有麻烦了”，并探讨了在 AI 时代“写代码如果不值钱了”以及“马斯克预言编程消亡”带来的传统岗位生存危机。
+*   **行业泡沫与硬件危机**：记录了 2025 年末全球 AI 行业“狂热退潮，分化开始”的流量现状，以及“硅谷惊变：12万张 H100 的挽歌”所反映的产业波动。
+*   **项目落地失败风险**：明确记录了 AI Agent 在前端实际落地过程中经历过失败，并进行了真实复盘。
+
+## 关联主题
+
+- [[00-元语/learning-resource]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/prompt]]
+- [[00-元语/workflow]]
+- [[00-元语/软件工程]]
+
+## 正文
+- 2026-02-21 OpenAI 应用 CTO 和 Codex 负责人：AI 正在重塑构建软件的方式（https://baoyu.io/blog/2026-02-21/the-pragmatic-summit-inside-openai）
+- 2026-02-21 Cursor 设计负责人：只会画按钮的设计师，有麻烦了（https://baoyu.io/blog/2026-02-21/cursor-ryo-lu-design-team）
+- 2026-02-19 提示词救不了平庸的 AI 写作（https://baoyu.io/blog/2026-02-19/ai-writing-beyond-prompts）
+- 2026-02-19 Notion CEO：不能被 Agent 用的产品没有未来（https://baoyu.io/blog/2026-02-19/notion-ceo-agent-future）
+- 2026-02-18 用 Claude Code 的 Hook + Skill，实现每次提交后自从 commit 提交变更（https://baoyu.io/blog/2026-02-13/claude-code-auto-commit）
+- 2026-02-17 高中辍学生靠 ChatGPT 自学成才成了 OpenAI 的研究科学家（https://baoyu.io/blog/2026-02-17/gabriel-petersson-openai-dropout）
+- 2026-02-17 Jeff Dean 深度访谈：一页纸备忘录促成 Gemini 的诞生，Google AI 的反击与 10,000 Token 的未来（https://baoyu.io/blog/2026-02-17/jeff-dean-latent-space）
+- 2026-02-17 59% 用户投票选了更便宜的那个：Sonnet 4.6 全面解读（https://baoyu.io/blog/2026-02-17/claude-sonnet-4-6-release）
+- 2026-02-15 快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么（https://baoyu.io/blog/2026-02-15/fast-mode-vs-codex-spark）
+- 2026-02-14 别再用提示词去 AI 味了，方向就是错的（https://baoyu.io/blog/2026-02-14/remove-ai-writing-flavor）
+- 2026-02-14 Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点（https://baoyu.io/blog/2026-02-14/dario-amodei-interview-analysis）
+- 2026-02-13 马斯克说今年编程就要死了，你信吗？（https://baoyu.io/blog/2026-02-13/musk-coding-dead）
+- 2026-02-13 只有 30 个工程师的 X，是怎么重新杀回 App Store 第二的（https://baoyu.io/blog/2026-02-13/nikita-bier-x-growth）
+- 2026-02-12 我们真的变成巫师了：OpenAI API 负责人谈 AI 如何重塑软件工程（https://baoyu.io/blog/2026-02-12/sherwin-wu-ai-software-engineering）
+- 2026-02-12 OpenAI 智能体工程指南：10 条实战技巧和 3 种构建模式（https://baoyu.io/blog/2026-02-12/skills-shell-tips）
+- 2026-02-11 xAI 全员大会实录：递归自我改进、5000 万视频/天、月球上的质量驱动器（https://baoyu.io/blog/2026-02-11/xai-all-hands-meeting）
+- 2026-02-11 PC 软件为手机重做了一遍，现在轮到 Agent 了（https://baoyu.io/blog/2026/02/11/ai-agent-software-remake）
+- 2026-02-09 2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势（https://baoyu.io/blog/2026/02/09/anthropic-agentic-coding-trends-2026）
+- 2026-02-08 既然 AI 越来越聪明，那么学习提示词不是浪费时间吗？（https://baoyu.io/blog/2026/02/08/prompt-engineering-matters）
+- 2026-02-07 【访谈对话】造过 Codex 的人，为什么每天用 Claude Code（https://baoyu.io/blog/2026/02/07/segment-creator-interview）
+- 2026-02-05 马斯克三小时访谈实录：36 个月后，太空是训练和运行 AI 最便宜的地方（https://baoyu.io/blog/2026/02/05/musk-ai-space-energy）
+- 2026-02-03 品味 + 工程思维：AI 时代最难被替代的两件事（https://baoyu.io/blog/2026/02/03/taste-engineering-thinking）
+- 2026-02-01 栏目对话和访谈：Sebastian Raschka 和 Nathan Lambert 在 Lex Fridman 播客深度解读 AI 现状：中美竞争、模型对比、规模定律、AGI 时间线。（https://baoyu.io/blog/state-of-ai-in-2026-lex-fridman-podcast）
+- 2026-02-01 【栏目对话和访谈】ClawdBot 创始人 Peter：AI 是杠杆，不是替代品；编程语言不重要了，重要的是我的工程思维（https://baoyu.io/blog/2026/02/01/peter-steinberger-interview）
+- 2026-02-01 Claude Code 团队的 10 个内部技巧，但你不一定都要学（https://baoyu.io/blog/2026/02/01/claude-code-tips-from-creator）
+- 2026-01-31 How I Used Codex to \"Recover\" Lost Source Code in 5 Days（https://baoyu.io/blog/2026/01/31/codex-recover-source-code）
+- 2026-01-29 当每个人都能指挥一支 AI 大军，什么能力最重要？（https://baoyu.io/blog/2026/01/29/management-ai-superpower）
+- 2026-01-28 燃尽、重启、爆火：Clawdbot 创始人的 35 分钟访谈实录（https://baoyu.io/blog/2026/01/28/clawdbot-peter-steinberger-interview）
+- 2026-01-27 Sam Altman 与开发者的一小时：GPT-5 的坦白、招聘放缓、以及 2026 年最担心的事（https://baoyu.io/blog/2026/01/27/sam-altman-developer-townhall-gpt5）
+- 2026-01-25 Skills 不就是脚本套个壳吗？我十几年前就玩 AutoIt 了（https://baoyu.io/blog/2026/01/25/script-vs-agent-skills）
+- 2026-01-24 Skill 不就是长一点的提示词吗？（https://baoyu.io/blog/2026/01/24/skill-vs-prompt）
+- 2026-01-22 别把整个 GitHub 装进 Skills，Skills 的正确用法（https://baoyu.io/blog/2026/01/22/skills-usage-principles）
+- 2026-01-20 MCP 和 Skills 到底什么区别？一篇文章说清楚（https://baoyu.io/blog/2026/01/20/mcp-vs-skills）
+- 2026-01-19 SubAgent 与 Skills：AI Agent 的两种扩展方式（https://baoyu.io/blog/2026/01/19/skills-vs-subagent）
+- 2026-01-18 “关于 AI Agent，你最想知道的 3 个问题——为什么我说”垂直 Agent“是个伪命题”（https://baoyu.io/blog/2026/01/18/ai-agent-interview）
+- 2026-01-18 Skills 究竟是短期红利还是长期壁垒？（https://baoyu.io/blog/skills-short-term-vs-long-term-advantage）
+- 2026-01-16 AI 会取代你的工作吗？Anthropic 用 200 万对话告诉你答案（https://baoyu.io/blog/2026/01/16/anthropic-economic-index-primitives）
+- 2026-01-15 我写了个 Skill，让 Agent 自动给文章配图（https://baoyu.io/blog/2026/01/15/agent-skills-illustrator-tutorial）
+- 2026-01-14 Claude Code 的"懒加载"更新：AI 终于学会了"随叫随到（https://baoyu.io/blog/2026/01/14/claude-code-mcp-tool-search）
+- 2026-01-11 小红书视觉内容策划师提示词（https://baoyu.io/blog/red-book-visual-content-prompts）
+- 2026-01-10 清华 AGI 峰会圆桌对话：笨笨的坚持，也许走到最后的就是我们（https://baoyu.io/blog/2026/01/10/china-ai-roundtable）
+- 2026-01-10 你可能不再需要 workflow，大部分场景 skills 足矣——五步框架把 Workflow 变成可进化的 Skill（https://baoyu.io/blog/2026/01/10/agent-skills-replace-workflow）
+- 2026-01-10 Vibe Coding 方法论：不会编程的人如何用 AI 写出能跑的代码（https://baoyu.io/blog/vibe-coding-ai-code-for-non-programmers）
+- 2026-01-08 2025年末全球 AI 行业流量报告：狂热退潮，分化开始（https://baoyu.io/blog/2025-global-ai-report-hype-fades-differentiation-starts）
+- 2026-01-07 当翻译层消失，还剩下什么？（https://baoyu.io/blog/2026/01/07/ai-pm-new-era）
+- 2026-01-05 Google 团队一年都没做出来的项目 Claude Code 一小时就把代码写出来了（https://baoyu.io/blog/claude-code-beats-google-team-on-year-long-project-in-hour）
+- 2026-01-03 Code Review in the AI Era: Why Writing It Twice Is Actually Faster（https://baoyu.io/blog/code-review-ai-era-writing-twice-faster）
+- 2026-01-03 AI 时代的代码审核：写两遍，反而更快（https://baoyu.io/blog/ai-era-code-review-write-twice-faster）
+- 2026-01-02 Claude Code  之父 Boris 的 9 条实战技巧：原来高手的配置这么“朴实无华”（https://baoyu.io/blog/claude-code-boris-9-practical-tips-simple-config）
+- 2025-12-31 Manus 谈 AI Agent 之道：做对一千件小事，比做对三件大事更重要（https://baoyu.io/blog/manus-ai-agent-small-things-more-important）
+- 2025-12-31 AI 2025-2026 众包调研年终总结:从「聊天」到「干活」的范式转变（https://baoyu.io/blog/ai-2025-2026-crowdsource-paradigm-shift-chat-to-work）
+- 2025-12-30 Claude Code 5亿美元背后的AI工程革命（https://baoyu.io/blog/claude-code-500m-ai-engineering-revolution）
+- 2025-12-29 运气表面积公式：让好运找到你（https://baoyu.io/blog/luck-surface-area-formula-good-luck）
+- 2025-12-28 将文章、故事变成漫画脚本提示词参考（https://baoyu.io/blog/convert-articles-stories-to-comic-scripts-prompts）
+- 2025-12-27 深度之赌：从卧室到上帝机器（https://baoyu.io/blog/deep-bet-from-bedroom-to-god-machine）
+- 2025-12-26 设计师该不该写代码？一个被问错的问题——AI时代的设计价值与慢思考（https://baoyu.io/blog/designers-code-rethinking-ai-era-design-value）
+- 2025-12-26 Stack Overflow 2025 年度报告：写代码如果不值钱了，我们该去哪？（https://baoyu.io/blog/stack-overflow-2025-report-future-coding）
+- 2025-12-24 蒸汽、钢铁与无限的大脑（https://baoyu.io/blog/steam-steel-and-infinite-brains）
+- 2025-12-24 AI 新纪元：无限大脑的重构力——从钢铁蒸汽到未来组织，告别后视镜思维（https://baoyu.io/blog/ai-new-era-reconstructive-power-future-organizations）
+- 2025-12-24 AI Agent 要变强：两条路径（Skills vs SubAgent）（https://baoyu.io/blog/ai-agent-stronger-skills-vs-subagent）
+- 2025-12-21 预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT（https://baoyu.io/blog/most-valuable-prompts-for-high-quality-editable-ppts）
+- 2025-12-21 The complete "Editable NotebookLM Slides" solution（https://baoyu.io/blog/the-complete-editable-notebooklm-slides-solution）
+- 2025-12-20 从失败中重生：一个 AI Agent 前端落地的真实复盘（https://baoyu.io/blog/ai-agent-frontend-rebirth-from-failure）
+- 2025-12-20 Redis 之父 Salvatore Sanfilippo 的年终 AI 反思（https://baoyu.io/blog/redis-creator-salvatore-sanfilippos-year-end-ai-reflections）
+- 2025-12-20 Reborn from Failure: A Real-World Retrospective on Landing a Frontend AI Agent（https://baoyu.io/blog/reborn-from-failure-frontend-ai-agent-retrospective）
+- 2025-12-19 Coding Agent 的舒适区（https://baoyu.io/blog/coding-agents-comfort-zone）
+- 2025-12-18 4人28天，85%AI代码：揭秘Sora Android背后的“凡尔赛”开发法（https://baoyu.io/blog/sora-android-85-ai-code-development-method）
+- 2025-12-17 Gemini 引导式学习系统提示词（https://baoyu.io/blog/gemini-guided-learning-system-prompts-cn）
+- 2025-12-17 Gemini Guided Learning System Prompt（https://baoyu.io/blog/gemini-guided-learning-system-prompt）
+- 2025-12-16 《AI 与自动化的讽刺》读后感（https://baoyu.io/blog/the-irony-of-ai-and-automation-review）
+- 2025-12-11 在画了几百张 nano banana pro 图片收获了几百万流量之后的一些提示词写作经验（https://baoyu.io/blog/ai-prompt-writing-tips-for-millions-of-traffic）
+- 2025-12-03 一些我用 AI 翻译文章的心得（https://baoyu.io/blog/my-ai-article-translation-experience）
+- 2025-11-26 Ilya：扩展时代已经结束了，研究的时代已经开始（https://baoyu.io/blog/ilya-from-scaling-to-research）
+- 2025-11-24 System prompt of NotebookLM Infographic（https://baoyu.io/blog/system-prompt-of-notebooklm-infographic）
+- 2025-11-20 Prompt to build a "Retro Camera Web App" by Gemini 3（https://baoyu.io/blog/retro-camera-web-app-prompt）
+- 2025-11-20 NotebookLM Slide Deck System Prompt（https://baoyu.io/blog/notebooklm-slide-deck-system-prompt）
+- 2025-11-07 为什么依赖“自驱”的学习这么难坚持？（https://baoyu.io/blog/self-driven-learning-secrets-positive-feedback-learning-loops）
+- 2025-11-05 MCP 遇上代码执行：构建更高效率的 AI 智能体（https://baoyu.io/blog/code-execution-with-mcp）
+- 2025-11-02 Text to Markdown Prompt（https://baoyu.io/blog/text-to-markdown-prompt）
+- 2025-10-29 AI 编码效率 x10，Bug 风险也 x10（https://baoyu.io/blog/ai-coding-efficiency-x10-bug-risk-x10）
+- 2025-10-27 基于大语言模型的 Vibe Coding 综述（https://baoyu.io/blog/a-survey-of-vibe-coding-with-llm）
+- 2025-10-23 A prompt designed to transform dense, jargon-heavy academic papers into accessible, engaging popular science articles.（https://baoyu.io/blog/academic-paper-to-popular-science-prompt）
+- 2025-10-22 “学术论文科普”提示词，把枯燥的学术论文变成通俗易懂的科普文（https://baoyu.io/blog/turn-academic-papers-into-popular-science-prompt）
+- 2025-10-22 ChatGPT Atlas 系统提示词（https://baoyu.io/blog/chatgpt-atlas-system-prompt-cn）
+- 2025-10-15 The Art of Conversing with AI: Beyond Prompting, Mastering the Mysteries of Agentic Context Engineering（https://baoyu.io/blog/the-art-of-conversing-with-ai-master-context-engineering-for-ai-agents）
+- 2025-10-15 Prompt to produce a script for a NotebookLM explainer video（https://baoyu.io/blog/notebooklm-explainer-video-script-prompt）
+- 2025-10-06 为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？（https://baoyu.io/blog/why-i-cant-write-good-prompts-with-ai-and-templates）
+- 2025-10-06 Why do so many people struggle with prompt engineering despite using templates and AI assistance?（https://baoyu.io/blog/why-people-struggle-with-prompt-engineering）
+- 2025-10-04 软件正在吞噬劳动力：一场静默却深刻的产业革命（https://baoyu.io/blog/software-is-eating-labor）
+- 2025-09-28 雷军演讲生成 Prompt（https://baoyu.io/blog/leijun-speech-prompt）
+- 2025-09-27 Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with speaker labels and timestamps（https://baoyu.io/blog/prompt-transcribes-youtube-videos）
+- 2025-09-24 YouTube Video -> Blog Post Prompt (Gemini Only)（https://baoyu.io/blog/gemini-youtube-blog-prompt）
+- 2025-09-22 AI 还没有改变软件工程范式（https://baoyu.io/blog/ai-hasnt-changed-software-engineering）
+- 2025-09-22 AI 真的会写 90% 的代码了（https://baoyu.io/blog/ai-writes-90-percent-code）
+- 2025-09-17 释放创造力：解密 AI 贴纸生成器的“神级”提示词模板（https://baoyu.io/blog/ai-sticker-generator-prompts）
+- 2025-09-16 从 Shopify 构建 Agent 的经验中可以学到的（https://baoyu.io/blog/shopify-agent-building-experience）
+- 2025-09-16 YC 编写的 Vibe Coding 指南（https://baoyu.io/blog/yc-vibe-coding-guide）
+- 2025-09-16 Summarize YouTube Video Prompt（https://baoyu.io/blog/summarize-youtube-video-prompt）
+- 2025-09-16 Codex system prompt （2025-09-16）（https://baoyu.io/blog/codex-system-prompt-2025-09-16）
+- 2025-09-14 ReAct 框架与 AI Agent：当 AI 学会自己思考和行动（https://baoyu.io/blog/react-ai-agent-self-thinking-acting）
+- 2025-09-12 Claude Code 为何如此强大？Anthropic 万字长文揭秘 AI Agent 工具开发五大“心法”（https://baoyu.io/blog/claude-code-anthropic-ai-agent-development）
+- 2025-09-06 推荐文章的提示词（https://baoyu.io/blog/recommended-article-prompts）
+- 2025-09-04 硅谷惊变：12万张H100的挽歌（https://baoyu.io/blog/silicon-valley-h100-crisis）
+- 2025-08-26 System Prompt of "Brainstomer"（https://baoyu.io/blog/system-prompt-of-brainstomer）
+- 2025-08-25 “都什么年代了程序员还在手搓代码，连小白都能写 Prompt 生成代码了”（https://baoyu.io/blog/ai-prompt-code-generation-vs-manual-coding）
+- 2025-08-25 System prompt of "Writing editor"（https://baoyu.io/blog/system-prompt-of-writing-editor）
+- 2025-08-22 Gemini Coding partner System Prompt（https://baoyu.io/blog/gemini-coding-partner-system-prompt）
+- 2025-08-04 普通人也能用得上的 Context Engineering 技巧（https://baoyu.io/blog/context-engineering-skills-for-normal-users）
+- 2025-08-01 Claude Code 最佳实践视频文稿（https://baoyu.io/blog/claude-code-best-practices-video-transcription）
+- 2025-07-30 ChatGPT Study  Mode System Prompt（https://baoyu.io/blog/chatgpt-study-mode-prompt）
+- 2025-07-20 深度解读《AI 智能体的上下文工程》：构建高效 Agent 的七个宝贵教训（https://baoyu.io/blog/explain-Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus）
+- 2025-07-18 ChatGPT Agent 系统提示词中文版（https://baoyu.io/blog/chatgpt-agent-prompts-chinese）
+- 2025-07-18 ChatGPT Agent System Prompt（https://baoyu.io/blog/chatgpt-agent-system-prompt）
+- 2025-07-14 当你感到AI编程无所不能时，也许正站在“愚昧之巅”——理性看待AI时代的软件开发与应用变革（https://baoyu.io/blog/ai-programming-limitations-software-development）
+- 2025-07-14 xAI Ani System Prompt（https://baoyu.io/blog/xai-ani-system-prompt）
+- 2025-07-08 老虎机 和 Vibe Coding 的异同 ​​​（https://baoyu.io/blog/slot-machine-vibe-coding-comparison）
+- 2025-07-02 让 Claude Code 超深度思考（ultrathink）的自定义指令（https://baoyu.io/blog/claude-code-ultrathink-custom-instructions）
+- 2025-07-02 一文看懂“提示词” vs “提示词工程” vs “上下文工程”（https://baoyu.io/blog/prompt-engineering-vs-context-engineering）
+- 2025-06-27 大语言模型高考数学拿高分靠强化学习，那文科考高分得靠什么？（https://baoyu.io/blog/large-language-model-arts-exam-success）
+- 2025-06-26 AI 播客原理解析（https://baoyu.io/blog/ai-podcast-explained）
+- 2025-06-23 先设计再写代码，还是先实现再重构？AI 编程让这种选择变的简单（https://baoyu.io/blog/design-code-or-refactor-ai-simplifies）
+- 2025-06-22 我用 Claude Code 花 2 小时没写一行代码做了一个翻译智能体，并且开源了整个过程（https://baoyu.io/blog/claude-code-translation-agent-opensource）
+- 2025-06-22 Claude Code 强大的秘密究竟是什么？（https://baoyu.io/blog/claude-code-secrets）
+- 2025-06-10 Vibe Coding 的最佳实践仍然是 Agile 的版本迭代模式，而不是一次性完成一个庞大的无法运行和维护的半成品（https://baoyu.io/blog/agile-iterative-coding-best-practices）
+- 2025-06-10 Ilya Sutskever 最新毕业演讲：我们正处在人类史上最不寻常的时代，因为 AI 终将无所不能，你的未来无法逃避（https://baoyu.io/blog/ilya-sutskever-ai-future）
+- 2025-06-08 从 Cloudflare Workers OAuth Provider 学习 AI 结对编程：深入分析 AI 编程的最佳实践（https://baoyu.io/blog/cloudflare-workers-ai-pair-programming）
+- 2025-06-03 假设 AI 未来真的能在写代码和系统设计上超过人类，那还有必要学习编程和系统设计吗？（https://baoyu.io/blog/ai-surpass-humans-coding-necessary）
+- 2025-06-02 AI 编程越来越厉害了，我要怎么提升自己的系统架构能力？（https://baoyu.io/blog/improve-system-architecture-ai-era）
+- 2025-05-25 使用最新的 Claude 4，我用两天就开发出一个视频编辑器，但却无法维护（https://baoyu.io/blog/claude-4-video-editor-development-maintenance）
+- 2025-05-23 Google stitch system prompt（https://baoyu.io/blog/google-stitch-system-prompt）
+- 2025-05-19 Image 风格提取的提示词参考（https://baoyu.io/blog/image-style-prompt-reference）
+- 2025-05-18 我对 Codex 的初步评测结果：AI 编程智能体不再是需要结对编程的实习生而是外包员工（https://baoyu.io/blog/codex-ai-programming-outsourcing）
+- 2025-05-17 System Prompt of Codex（https://baoyu.io/blog/codex-system-prompt）
+- 2025-05-10 问：要开设一门AI通识课，但需要全程在机房上课无法平衡理论和上机操作（https://baoyu.io/blog/ai-introductory-course-lab-balance）
+- 2025-05-09 用AI创作手办照片：从灵感到提示词模板的实战案例（https://baoyu.io/blog/ai-generated-hand-model-photos）
+- 2025-05-08 如何轻松写出好用的提示词模板？（https://baoyu.io/blog/how-to-write-prompt-templates）
+- 2025-05-05 我是如何破解 NotebookLM 系统提示词的？（https://baoyu.io/blog/how-i-cracked-notebooklm-prompts）
+- 2025-05-04 如果我把一个主播平时回答过的问题都交给 AI 训练，是不是以后问 AI 就可以和问主播一样的效果了？（https://baoyu.io/blog/ai-streamer-qa-simulation）
+- 2025-05-01 Google NotebookLM 系统提示词（https://baoyu.io/blog/google-notebooklm-prompts）
+- 2025-05-01 Google NotebookLM system prompt（https://baoyu.io/blog/google-notebooklm-system-prompt-en）
+- 2025-04-27 将照片人像化作梦幻水晶玻璃球的提示词，以及如何衍生版本（https://baoyu.io/blog/photo-portrait-crystal-ball-prompts）
+- 2025-04-20 如何给知识类文章画信息图风格的配图（https://baoyu.io/blog/knowledge-article-infographics）
+- 2025-04-15 纽约客：如何在人工智能革命中生存下来？（https://baoyu.io/blog/ny-times-how-to-survive-the-ai-revolution）
+- 2025-04-14 我是如何高效翻译 65 页 Google 官方提示工程白皮书 PDF 文件的（https://baoyu.io/blog/efficiently-translate-google-prompt-engineering-pdf）
+- 2025-04-12 让 GPT 根据你的历史记忆创作一幅个人专属的创意科技工作场景图像 v2（https://baoyu.io/blog/gpt-personalized-tech-artwork-v2）
+- 2025-04-10 根据日期生成时尚日历插画（https://baoyu.io/blog/date-fashion-calendar-illustration）
+- 2025-04-10 Google 官方提示工程 (Prompt Engineering)白皮书（https://baoyu.io/blog/google-prompt-engineering-whitepaper）
+- 2025-04-10 Google Firebase Studio 使用初体验（https://baoyu.io/blog/firebase-studio-first-experience）
+- 2025-04-07 Shopify 新标准：将 AI 融入日常工作，已是基本要求（https://baoyu.io/blog/shopify-ai-integration-standard）
+- 2025-04-04 把照片变成 3D Q版风格（https://baoyu.io/blog/photo-to-3d-q-version）
+- 2025-04-04 把人物变成拍立得照片并且突破二维相片边框（https://baoyu.io/blog/photo-booth-3d-portraits）
+- 2025-04-04 将人像变成可爱 3D 微缩立体模型（https://baoyu.io/blog/cute-3d-miniature-portraits）
+- 2025-04-04 从“首个 AI 软件工程师” Devin 2.0 的系统提示词看提示词工程的奥秘（https://baoyu.io/blog/ai-software-engineer-prompt-engineering）
+- 2025-04-04 3D风格的Q版人物APP图标（https://baoyu.io/blog/3d-q-version-character-app-icon）
+- 2025-04-03 为什么靠 AI“什么都懂一点”，却并不能真正变专业？（https://baoyu.io/blog/ai-generalist-vs-specialist）
+- 2025-04-03 GPT-4o 绘制色彩鲜艳、手绘风格的旅游手账插画（https://baoyu.io/blog/gpt-4-vibrant-travel-journal-illustrations）
+- 2025-04-03 GPT-4o 画手绘风格的信息图卡片（https://baoyu.io/blog/gpt-4-hand-drawn-infographic-cards）
+- 2025-04-03 AI 画图技巧：让指定文字变成红色（https://baoyu.io/blog/ai-image-tip-red-text）
+- 2025-04-03 AI 画图技巧：让指定文字变成红色（https://baoyu.io/blog/ai-image-red-text-html）
+- 2025-04-02 解密AI的“性格密码”：从“周一（Monday）”音色提示词看提示词工程的魔力（https://baoyu.io/blog/ai-personality-prompt-engineering-openai-monday）
+- 2025-04-02 GPT-4o 生成复杂四格漫画提示词（https://baoyu.io/blog/gpt-4-complex-comic-prompts）
+- 2025-04-01 提示词高手们到底是怎么发现 GPT-4o 画图新玩法的？（https://baoyu.io/blog/gpt-4-image-generation-new-tricks）
+- 2025-03-31 模型即产品：未来 AI 产品演化的新范式（https://baoyu.io/blog/model-as-product-ai-evolution）
+- 2025-03-25 程序员究竟怎样用 AI？深度解读 WIRED 调查报告《How Software Engineers Actually Use AI》（https://baoyu.io/blog/programmers-use-ai-wired-report）
+- 2025-03-23 如何写好提示词？手把手教你用提示词玩转 AI（1）（https://baoyu.io/blog/how-to-write-effective-ai-prompts）
+- 2025-03-20 如何提升情绪智能，实现“情绪清晰度”？（https://baoyu.io/blog/improve-emotional-intelligence）
+- 2025-03-19 AI 时代，该怎么选专业？（https://baoyu.io/blog/ai-career-choices）
+- 2025-03-18 纽约时报揭秘揭秘AI时代背后的“超级工厂”，一座耗电超 60 万户家庭用电！（https://baoyu.io/blog/ai-data-centers.html）
+- 2025-03-15 问答：知识库和微调的差别（https://baoyu.io/blog/knowledge-base-vs-fine-tuning）
+- 2025-03-15 问答：智能体跟Ai编程这两者的区别，智能体适合什么场景，Ai编程适合什么场景？（https://baoyu.io/blog/ai-vs-intelligent-agents-applications）
+- 2025-03-13 X 平台大规模 DDoS 攻击调查：幕后黑客浮出水面（https://baoyu.io/blog/x-platform-ddos-attack-investigation）
+- 2025-03-11 SemiAnalysis: 美国正在错失新型劳动力经济——机器人革命（第一篇）（https://baoyu.io/blog/america-is-missing-the-new-labor-economy-robotics-part-1）
+- 2025-03-09 不会考察候选人的「AI能力」？你可能招不到未来的人才！（https://baoyu.io/blog/ai-skills-future-talent）
+- 2025-03-07 Manus 的护城河在哪里？（https://baoyu.io/blog/where-is-manus-moat）
+- 2025-03-05 人工智能的最高奖项——图灵奖，近日颁给了强化学习领域的两位先驱：安德鲁·巴托和理查德·萨顿（https://baoyu.io/blog/turing-award-reinforcement-learning-pioneers）
+- 2025-02-27 Deep Research 实践经验总结：从“进度条”到“提示词”，一次搞懂！（https://baoyu.io/blog/deep-research-progress-to-prompt）
+- 2025-02-26 Deep Research 提示词模板参考（https://baoyu.io/blog/deep-research-prompt-templates）
+- 2025-02-24 如何用 AI 来批量切割视频（https://baoyu.io/blog/ai-batch-video-cutting）
+- 2025-02-23 如何使用 Gemini 把播客转成格式良好文本（https://baoyu.io/blog/gemini-podcast-to-text）
+- 2025-02-23 Booking.com 在 AI 落地方面的探索（https://baoyu.io/blog/booking-com-ai-exploration）
+- 2025-02-23 Anthropic 在和客户合作的过程中总结的的企业落地 AI 最佳实践以及常见错误（https://baoyu.io/blog/anthropic-ai-best-practices-common-errors）
+- 2025-02-22 AI 正在推动程序员的进化，而不是灭亡（https://baoyu.io/blog/ai-is-evolving-programmers）
+- 2025-02-21 马斯克号称 Grok 3 的知识库是实时更新的，别被他忽悠了！（https://baoyu.io/blog/grok-3-knowledge-base-update-myth）
+- 2025-02-21 Coinbase 使用 AI 编程工具提升开发效率，同时正在欺诈预防、客户支持、风险评分、设计等多个业务领域积极应用 AI 技术（https://baoyu.io/blog/coinbase-ai-improves-development-efficiency）
+- 2025-02-20 Grok 3 越狱提示词（https://baoyu.io/blog/grok-3-jailbreak-prompts-cn）
+- 2025-02-20 Grok 3 Jailbreak Prompt（https://baoyu.io/blog/grok-3-jailbreak-prompt）
+- 2025-02-14 Windsurf Chat Mode System Prompt（https://baoyu.io/blog/windsurf-chat-system-prompt）
+- 2025-02-14 Cursor Composer System Prompt（https://baoyu.io/blog/cursor-composer-system-prompt）
+- 2025-02-14 Cursor Chat System Prompt（https://baoyu.io/blog/cursor-chat-system-prompt）
+- 2025-02-14 Cursor Agent mode System Prompt（https://baoyu.io/blog/cursor-agent-system-prompt）
+- 2025-02-12 在 AI 时代，新手算法工程师如何既依赖 AI，又能真正掌控代码？（https://baoyu.io/blog/ai-era-newbie-algorithm-engineer-code-mastery）
+- 2025-02-09 那些 DeepSeek 的聊天截图是真的还是假的？怎么鉴别？（https://baoyu.io/blog/deepseek-chat-screenshots-real-fake）
+- 2025-02-09 人工智能普及后哪些职业的边际价值反而会上升？（https://baoyu.io/blog/jobs-rising-value-post-ai）
+- 2025-02-08 System prompt of GitHub Copilot Agent Mode（https://baoyu.io/blog/github-copilot-agent-mode）
+- 2025-02-08 GitHub Copilot Agent 模式的系统提示词泄漏（https://baoyu.io/blog/github-copilot-agent-prompt-leak）
+- 2025-02-07 思维链摘要系统提示词（https://baoyu.io/blog/chain-of-thought-summary-system）
+- 2025-02-07 喜欢看 arxiv 上论文的朋友推荐使用 alphaxiv 这个网站看论文，官方出品，集成了 AI 功能还免费（https://baoyu.io/blog/alphaxiv-arxiv-paper-reader）
+- 2025-02-06 Anthropic CEO Dario 再谈 DeepSeek 和中美 AI 竞争（https://baoyu.io/blog/anthropic-ceo-deepseek-us-china-ai）
+- 2025-02-04 AI 搜索进化：深度体验 OpenAI Deep Research（https://baoyu.io/blog/ai-search-evolution-openai-deep-research）
+- 2025-01-29 Google 旧闻重温：《我们没有护城河，OpenAI 也没有》（https://baoyu.io/blog/google-openai-no-moat）
+- 2025-01-27 别再羡慕那些写公众号“神文”的人了，一句简单提示词让你写的东西不再干巴巴！（https://baoyu.io/blog/write-better-articles-with-simple-prompts）
+- 2025-01-27 7B 小模型：如何用 8000 个示例，“炼”出会自我反思的 AI？（https://baoyu.io/blog/small-model-self-reflection-ai）
+- 2025-01-26 教你如何破解 DeepSeek R1 系统提示词（https://baoyu.io/blog/crack-deepseek-r1-prompts）
+- 2025-01-26 小明的烦恼：代码高手，不爱写文档，老板让写调研报告，还好有 AI 帮忙（https://baoyu.io/blog/xiaomings-coding-report-ai-help）
+- 2025-01-26 一句话提示词，让 AI 帮你总结整理论坛的讨论帖子（https://baoyu.io/blog/ai-summarize-forum-discussion）
+- 2025-01-26 DeepSeek-R1 System Prompt（https://baoyu.io/blog/deepseek-r1-system-prompt）
+- 2025-01-25 OpenAI Operator 的工作原理（https://baoyu.io/blog/openai-operator-how-it-works）
+- 2025-01-24 让 o1 pro 帮忙分析了一下 Twitter 的评分算法（https://baoyu.io/blog/o1-pro-twitter-rating-algorithm）
+- 2025-01-24 一些“小模型”的使用案例（https://baoyu.io/blog/small-model-use-cases）
+- 2025-01-24 OpenAI Operator 系统提示词中文翻译（https://baoyu.io/blog/openai-operator-system-prompts-cn）
+- 2025-01-24 OpenAI Operator System Prompt（https://baoyu.io/blog/openai-operator-system-prompt）
+- 2025-01-22 一句简单的提示词就可以让 LLM 在翻译的时候更好的“意译”（https://baoyu.io/blog/llm-translation-better-idiom）
+- 2025-01-21 写提示词的功夫，代码都写出来了，还有必要用 AI 编程吗？（https://baoyu.io/blog/ai-coding-necessary）
+- 2025-01-17 为什么 AI 还不能完成复杂项目？（https://baoyu.io/blog/why-ai-cant-complete-complex-projects）
+- 2025-01-16 21 世纪什么最贵？人才！AI 时代什么人才最贵？（https://baoyu.io/blog/ai-era-most-valuable-talent）
+- 2025-01-15 非专业程序员借助 AI 能干好专业程序员的活吗？（https://baoyu.io/blog/ai-help-for-non-professional-programmers）
+- 2025-01-15 一个“退后一步 Step back”的提示词技巧（https://baoyu.io/blog/step-back-prompt-technique）
+- 2025-01-15 “2025年 AI coding 将如何演进”播客文稿（https://baoyu.io/blog/ai-coding-evolution-2025）
+- 2025-01-14 o1 pro 值一个月 $200 吗？（https://baoyu.io/blog/o1-pro-worth-200）
+- 2025-01-13 问：研发团队要怎么衡量ai coding带来的价值呢？（https://baoyu.io/blog/ai-coding-value-measurement）
+- 2025-01-13 问：是模型在限制 tokens 长度还是应用在限制？（https://baoyu.io/blog/model-token-limit-program-or-model）
+- 2025-01-13 问：写提示词的时候还需要角色设定吗？（https://baoyu.io/blog/prompt-engineering-character-design）
+- 2025-01-13 让 AI 给你当学生，你自己当老师教 AI（https://baoyu.io/blog/teach-ai-student）
+- 2025-01-13 简单有效的将音频转成各式良好对话文本的方案（https://baoyu.io/blog/audio-to-text-transcription-solution）
+- 2025-01-13 提示词不那么重要了吗？（https://baoyu.io/blog/prompt-importance-diminished）
+- 2025-01-12 现在AI是否能做到记忆能力？（https://baoyu.io/blog/ai-memory-ability）
+- 2025-01-12 在DevOps过程中，我们是否可以使用AI去把整个流程串起来？（https://baoyu.io/blog/ai-in-devops-workflow）
+- 2025-01-12 AI编程革命：代码的未来，由AI重塑！（https://baoyu.io/blog/ai-programming-revolution）
+- 2025-01-10 用提示词可以把20 美金的o1 变成200 美金的 “o1 pro”吗？（https://baoyu.io/blog/prompt-engineering-20-to-200-upgrade）
+- 2025-01-09 我对非专业工程师使用 AI 辅助编程的建议（https://baoyu.io/blog/ai-assisted-programming-for-non-engineers）
+- 2025-01-09 使用 Cursor 编程的一些建议（https://baoyu.io/blog/cursor-programming-tips）
+- 2025-01-08 2025 年了，不要再去迷信提示词了（https://baoyu.io/blog/2025-stop-believing-prompts）
+- 2025-01-07 OpenAI 官方出的三个结构化提取示例应用（https://baoyu.io/blog/openai-structured-extraction-examples）
+- 2025-01-07 AI 将何去何从？[译]（https://baoyu.io/blog/ai-future-translation）
+- 2025-01-06 新手 Cursor 用户 vs 专业 Cursor 用户（https://baoyu.io/blog/beginner-vs-pro-cursor-users）
+- 2025-01-05 Cursor 弃之可惜，食之无味？（https://baoyu.io/blog/cursor-use-or-discard）
+- 2025-01-04 为什么Cursor中有的问题解决不了，反而Claude 能给出更好的代码？（https://baoyu.io/blog/claude-better-code-than-cursor-sometimes）
+- 2025-01-03 “你有没有发现很多知乎/微博大v越写越厉害，认知越来越高的样子？”（https://baoyu.io/blog/zhihu-weibo-influencers-growing-expertise）
+- 2025-01-03 Cursor Agent 使用体验（https://baoyu.io/blog/cursor-agent-experience）
+- 2025-01-01 2025 年的三点半提示词技巧（https://baoyu.io/blog/2025-prompt-engineering-tips）
+- 2024-12-31 我教孩子学习编程的方法（https://baoyu.io/blog/teaching-kids-coding）
+- 2024-12-30 对于编程小白来说如何可以高效结合ai来做小项目?（https://baoyu.io/blog/ai-programming-projects-beginners）
+- 2024-12-29 问：强推某种固定格式的开发设计文档，要求组员按格式补充写完，再借助o1或则别的模型实现代码细节，是否可行？（https://baoyu.io/blog/standardized-dev-docs-feasible）
+- 2024-12-29 问：低耦合设计怎么写prompt，能给我们一个小例子吗？（https://baoyu.io/blog/low-coupling-design-prompt-example）
+- 2024-12-29 对刚晋升没有管理经验的建议（https://baoyu.io/blog/advice-to-new-managers）
+- 2024-12-29 实例演示我是如何和 AI 结对编程的（https://baoyu.io/blog/ai-pair-programming-demo）
+- 2024-12-29 如果是在国内的程序员普通的后端java开发，能怎么往llm的方向靠呢？（https://baoyu.io/blog/java-backend-developer-llm-transition）
+- 2024-12-27 怎么能让ai更好的读我的prompt里 结构化数组对象数据呢？（https://baoyu.io/blog/improve-ai-prompt-structured-data）
+- 2024-12-27 传统编程是手动档，在 Cursor 辅助下编程是自动档，用 Devin 的感觉是自动驾驶（https://baoyu.io/blog/cursor-assisted-programming-autopilot）
+- 2024-12-26 用 AI 做绘本（https://baoyu.io/blog/ai-picture-book-creation）
+- 2024-12-26 o1 之后，AI 已经从我的实习生变成了结对编程伙伴（https://baoyu.io/blog/ai-pair-programming-partner）
+- 2024-12-24 2025 会被 AI“平替”的行业？程序员真的会被取代吗？（https://baoyu.io/blog/ai-replace-jobs-programmers-future-2025）
+- 2024-12-20 OpenAI 连续 12 天 AI 发布会：第十二天 —— 最新一代推理模型 o3 和 o3-mini 发布介绍（https://baoyu.io/blog/openai-day12-o3-o3-mini-model-release）
+- 2024-12-20 OpenAI 连续 12 天 AI 发布会：第十一天 —— ChatGPT 桌面应用如何与各类应用无缝协作，让工作更高效（https://baoyu.io/blog/openai-day11-chatgpt-desktop-app-seamless-workflow）
+- 2024-12-18 OpenAI 连续 12 天 AI 发布会：第十天 —— 通过  1-800-CHAT-GPT 电话和 ChatGPT 聊天（https://baoyu.io/blog/openai-12-day-ai-event-800-chatgpt）
+- 2024-12-17 OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day（https://baoyu.io/blog/openai-dev-day-9）
+- 2024-12-16 简单说一下 GitHub Copilot 和 Cursor 的差别，以及为什么我觉得 Cursor 要更好（https://baoyu.io/blog/github-copilot-vs-cursor）
+- 2024-12-16 报高考志愿该选好学校还是好专业？毕业该进大厂还是创业公司？（https://baoyu.io/blog/choosing-school-or-major-and-big-company-or-startup）
+- 2024-12-16 OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）（https://baoyu.io/blog/openais-12-day-ai-event-day-8-search）
+- 2024-12-13 OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）（https://baoyu.io/blog/openai-12-day-ai-day-7-projects）
+- 2024-12-12 我日常 AI 辅助编程的模型和工具搭配（https://baoyu.io/blog/ai-assisted-coding-tools）
+- 2024-12-11 OpenAI 连续 12 天 AI 发布会：第五天完整视频（中英文双语字幕）（https://baoyu.io/blog/openai-12-day-ai-event-day-5-video）
+- 2024-12-10 OpenAI 连续 12 天 AI 发布会：第四天完整视频（中英文双语字幕）（https://baoyu.io/blog/openai-12-day-ai-event-day-4-video）
+- 2024-12-09 OpenAI 连续 12 天 AI 发布会：第三天完整视频（中英文双语字幕）（https://baoyu.io/blog/openai-12-days-ai-event-day-2-video）
+- 2024-12-07 让 Gemini 帮我分析 14 万行混淆后的 js 代码（https://baoyu.io/blog/gemini-analyze-140k-lines-js-code）
+- 2024-12-07 AI内容时代的反直觉现象：编辑需求不减反增（https://baoyu.io/blog/ai-content-editor-demand-increase）
+- 2024-12-06 OpenAI 连续 12 天 AI 发布会：第二天完整视频（中英文双语字幕）（https://baoyu.io/blog/openai-12-day-ai-event-day-2-video）
+- 2024-12-06 OpenAI 连续 12 天 AI 发布会：第一天完整视频（中英文双语字幕）（https://baoyu.io/blog/openai-12-day-launch-event-day1-video）
+- 2024-12-02 AI 辅助编程给软件工程带来的需求开发范式变化（https://baoyu.io/blog/ai-assisted-programming-software-engineering）
+- 2024-11-30 一个有意思的 AI 智能体黑客比赛（https://baoyu.io/blog/ai-challenge-hackathon）
+- 2024-11-30 What Happens if I Ask v0.dev to Help Me Clone a Page by URL?（https://baoyu.io/blog/clone-page-by-url-v0dev）
+- 2024-11-29 现在 AI 编程这么厉害，还适合选计算机专业吗？（https://baoyu.io/blog/ai-programming-computer-science-future）
+- 2024-11-28 问：演员想学 AI 可以从哪个角度切入？（https://baoyu.io/blog/actor-ai-learning-path）
+- 2024-11-28 有了 v0 的完整提示词，是不是就能做一个 v0出来了？（https://baoyu.io/blog/complete-prompt-can-make-v0）
+- 2024-11-23 v0 提示词解析说明（https://baoyu.io/blog/v0-prompt-explaination）
+- 2024-11-22 v0 system prompt (2024-11-22)（https://baoyu.io/blog/v0-system-prompt-2024）
+- 2024-11-21 借助 AI 辅助写代码，如果不学CS的基础内容，写代码是否能进行下去？如果要学，学到什么程度？（https://baoyu.io/blog/ai-coding-without-cs-basics）
+- 2024-11-19 如何能用 AI 撰写一份专业的“某地区域经济报告”？（https://baoyu.io/blog/ai-write-professional-regional-economic-report）
+- 2024-11-19 如何写一个批改英语作业的 Prompt？（https://baoyu.io/blog/write-english-homework-prompt）
+- 2024-11-18 借助 AI 学习编程，最重要的是打通学习和反馈的循环（https://baoyu.io/blog/ai-programming-learning-feedback-loop）
+- 2024-11-16 如果没有编程基础，但是如何能做一个像grammar那种可以实时进行语法修正的ai软件？（https://baoyu.io/blog/build-grammar-ai-no-coding）
+- 2024-11-16 AI 编程能力受限于上下文的限制，对于大型项目的构建能力偏弱该怎么办？（https://baoyu.io/blog/ai-programming-limitations-large-projects）
+- 2024-11-15 AI 知道自己答案错了吗？（https://baoyu.io/blog/ai-knows-its-answers-wrong）
+- 2024-11-14 用类比的方式点评下神级 Prompt，以及它和 o1 推理模型的差距（https://baoyu.io/blog/comparing-god-level-prompts-to-o1-reasoning-models）
+- 2024-11-14 对于一个IT新人，如果往5年后看，现在值得学的技能有哪些？（https://baoyu.io/blog/it-newbie-skills-for-future-success）
+- 2024-11-14 ChatGPT 的 Mac 客户端是是怎么读取应用程序内容并让 GPT 知道的？（https://baoyu.io/blog/chatgpt-mac-client-read-app-content-gpt）
+- 2024-11-12 提示词是越详尽越好吗，还是更加富有创造性，让 AI 自己在一个大框架内展开就行呢？（https://baoyu.io/blog/detailed-prompts-vs-creative-ai-framework）
+- 2024-11-12 我常用的画图工具（https://baoyu.io/blog/my-usual-drawing-tools）
+- 2024-11-12 如何使用 DALL-E 给 PPT 画风格稳定的配图？（https://baoyu.io/blog/dall-e-ppt-image-style-guide）
+- 2024-11-12 和 AI 对话多少轮之后重开新的会比较合适？（https://baoyu.io/blog/how-many-rounds-ai-conversation-before-new-session）
+- 2024-11-11 让 AI 当人生导师帮助寻找人生方向（https://baoyu.io/blog/ai-life-coach-find-direction）
+- 2024-11-10 如何让 AI 生成小说中的人物关系图？（https://baoyu.io/blog/generate-ai-character-relationship-chart）
+- 2024-11-10 如何可以向 ChatGPT 输入大量文本内容并提问？（https://baoyu.io/blog/how-to-input-large-text-into-chatgpt）
+- 2024-11-10 AI可以帮助人写出好的Prompt，但只有人能写出高水平的Prompt（https://baoyu.io/blog/ai-can-help-write-prompts-humans-write-high-level-prompts）
+- 2024-11-03 从小黄鸭到 AI 助手：程序员的新时代调试秘诀（https://baoyu.io/blog/from-rubber-duck-to-ai-assistant-programmer-debugging-secrets）
+- 2024-10-31 OpenAI 在 Reddit 上的 Ask Me Anything 的一些回复（https://baoyu.io/blog/openai-reddit-ama-responses）
+- 2024-10-30 v0.dev prompt 结构详细解释（10/24/2024）（https://baoyu.io/blog/v0-dev-prompt-structure-explanation）
+- 2024-10-29 微服务的本质不是模块的拆分，而是组织架构的拆分（https://baoyu.io/blog/microservices-organizational-structure-split）
+- 2024-10-28 我的一点不成熟的程序员学习设计经验（https://baoyu.io/blog/programmer-learning-design-experience）
+- 2024-10-23 如何写好提示词？（https://baoyu.io/blog/how-to-write-good-prompt）
+- 2024-10-19 为什么越是老程序员学 React 越是难学（https://baoyu.io/blog/why-senior-developers-find-react-harder-to-learn）
+- 2024-10-14 如何用 AI 自动生成一张“智慧卡片”？（https://baoyu.io/blog/prompt/smart-card-prompt）
+- 2024-10-14 伪代码提示词“汉语新解”详解（https://baoyu.io/blog/prompt/chinese-new-interpretation-pseudocode-explanation）
+- 2024-10-12 如何在输入内容很长的情况下，让 GPT 不“偷懒”？（https://baoyu.io/blog/prompt-engineering/how-to-prevent-gpt-from-being-lazy-with-long-inputs）
+- 2024-10-09 What You Need Is Not an AI Agent, But an AI-Friendly Workflow（https://baoyu.io/blog/ai-agent/what-you-need-is-ai-friendly-workflow）
+- 2024-10-09 GPT 无法翻译超长内容的提示词优化尝试（https://baoyu.io/blog/gpt/gpt-translation-long-content-optimization）
+- 2024-10-07 用 AI 反向代码案例：揭秘 OpenAI Canvas 如何根据用户操作拼接生成 Prompt（https://baoyu.io/blog/ai/reverse-engineering-openai-canvas-prompt-generation）
+- 2024-10-07 AI 的笨是可知的，小弟的笨是不可知的（https://baoyu.io/blog/ai/ai-dumbness-is-knowable-human-dumbness-is-unknowable）
+- 2024-10-06 对比一下两种不同生成摘要提示词的效果（https://baoyu.io/blog/software-engineering/compare-two-methods-for-generating-summary-prompts）
+- 2024-10-06 对于小型团队而言，当代码量逐渐变大，有什么更好的控制代码质量的方法吗？（https://baoyu.io/blog/software-engineering/better-code-quality-control-for-growing-small-teams）
+- 2024-10-06 如何摆脱烂代码陷阱：从重构到最佳实践的实战经验（https://baoyu.io/blog/software-engineering/escape-bad-code-trap-refactoring-best-practices）
+- 2024-10-06 分享一点前沿 AI 用法：用 o1 逆向代码（https://baoyu.io/blog/ai/o1-cutting-edge-ai-use-reverse-engineering-code）
+- 2024-10-06 CloudFlare 使用 Workers 和 Nextjs 的深度集成（https://baoyu.io/blog/cloudflare/cloudflare-workers-nextjs-deep-integration）
+- 2024-10-05 像用实习生一样用 AI 辅助你编程（https://baoyu.io/blog/ai/use-ai-to-assist-programming-like-an-intern）
+- 2024-10-03 在构建 Prompt 时，如何避免把翻译内容当成对话内容？（https://baoyu.io/blog/prompt-engineering/how-to-avoid-translated-content-being-treated-as-dialog）
+- 2024-10-03 OpenAI 的 PlayGround 新增加的提示词优化工具，以及它的提示词（https://baoyu.io/blog/prompt/openais-meta-prompt-for-optimizing-gpt-prompts）
+- 2024-10-03 Full Prompt of ChatGPT 4o with canvas（https://baoyu.io/blog/prompt/full-prompt-chatgpt-4o-with-canvas）
+- 2024-10-02 将博客系统迁移至了 CloudFlare（https://baoyu.io/blog/tech/migrate-blog-to-cloud-flare）
+- 2024-09-20 提示工程师是最短命的职业吗？提示工程已经死了吗？（https://baoyu.io/blog/prompt-engineering/is-prompt-engineering-dead）
+- 2024-09-15 推理规模扩展定律（inference scaling law）会成为大力出奇迹的新方向吗？它能带我们走进 AGI 吗？（https://baoyu.io/blog/ai/o1-and-inference-scaling-law）
+- 2024-09-15 在 o1 发布后，回顾当年 Jim Fan 对 Q*的预测，他对了吗？（https://baoyu.io/blog/ai/o1-and-alphago）
+- 2024-09-07 AI 让所有人都是程序员，程序员要被替代了吗？（https://baoyu.io/blog/ai-will-programmers-be-replaced）
+- 2024-08-25 大厂与其山寨 Cursor，不如做个好用的 AI 邮件客户端（https://baoyu.io/blog/ai/big-companies-instead-of-copying-cursor-should-make-ai-email-client）
+- 2024-08-24 我的代码编辑器使用史，从语法高亮到 AI 生成（https://baoyu.io/blog/coding/my-experience-with-code-editor-evolution）
+- 2024-08-21 The full prompt of v0.dev（https://baoyu.io/blog/prompt-engineering/v0-dev-prompt）
+- 2024-07-31 翻译 GPT 的提示词更新和优化（https://baoyu.io/blog/prompt-engineering/translator-gpt-prompt-v2-1-improvement）
+- 2024-07-31 生成式 AI 路由（https://baoyu.io/blog/ai/generative-ai-router）
+- 2024-07-28 LinkedIn 团队构建生成式 AI 产品的经验教训（https://baoyu.io/blog/ai/linkedin-team-building-generative-ai-lessons）
+- 2024-07-22 我的隐私信息会被大语言模型拿去训练吗？（https://baoyu.io/blog/ai/will-my-private-information-be-used-for-training）
+- 2024-07-07 你需要的不是智能体，而是一个适合 AI 的工作流（https://baoyu.io/blog/ai/you-dont-need-agent-but-ai-suitable-workflow）
+- 2024-07-05 梅琳达·盖茨在斯坦福 2024 毕业典礼上的演讲（https://baoyu.io/blog/life/2024-stanford-commencement-speech-melinda-french-gates）
+- 2024-06-29 AI 时代计算机专业会涨薪还是降薪？（https://baoyu.io/blog/ai/ai-computer-science-salary-rise-or-fall）
+- 2024-06-27 高考志愿一点建议：在纠结的时候尽量让自己的决定是“双向门”决策（https://baoyu.io/blog/life/college-application-tip-make-decisions-two-way-doors）
+- 2024-06-26 什么时候该用多智能体是不是一定要用多智能体？（https://baoyu.io/blog/ai/when-to-use-multi-agent-systems-or-cot）
+- 2024-06-25 当 AI 能考上一本，十年寒窗苦读还有意义吗？（https://baoyu.io/blog/ai/ai-get-into-top-colleges-meaning-of-hard-study）
+- 2024-06-15 Prompt 高级技巧：借助伪代码精准的控制 LLM 的输出结果和定义其执行逻辑（https://baoyu.io/blog/prompt-engineering/advanced-prompting-using-pseudocode-to-control-llm-output）
+- 2024-06-14 小技巧：GPT 多了怎么管理？（https://baoyu.io/blog/gpt/tips-for-managing-multiple-gpts）
+- 2024-06-13 计算机专业还值得报考吗？（https://baoyu.io/blog/career/is-computer-science-still-worth-studying）
+- 2024-06-13 AI 民科和 AI 科学家之间的差距（https://baoyu.io/blog/ai/gap-between-ai-amateurs-and-ai-scientists）
+- 2024-06-08 测试 Chrome 内置  Gemini Nano 大语言模型 (4bit 3.25B) 的方法（https://baoyu.io/blog/ai/how-to-enable-gemini-nano-for-chrome）
+- 2024-06-07 问答：有校对好的视频文稿如何用文稿纠正字幕错误？（https://baoyu.io/blog/prompt-engineering/qa-how-to-correct-subtitle-with-text）
+- 2024-06-07 问答：如何使用 GPT 知道我写 R 代码？（https://baoyu.io/blog/ai/qa-how-to-use-gpt-to-write-code）
+- 2024-06-02 为什么对于有的人来说 ChatGPT 并没有什么卵用？（https://baoyu.io/blog/ai/why-do-someone-think-chatgpt-doesnot-really-work-for-them）
+- 2024-04-16 问答：在 RAG 应用中，GPT-3.5 足够就足够了吗？（https://baoyu.io/blog/rag/qa-is-gpt35-good-enough-for-rag）
+- 2024-03-28 一段能帮你给代码生成单元测试的提示词分析（https://baoyu.io/blog/prompt-engineering/prompt-for-generating-unit-tests-for-your-code）
+- 2024-03-22 一个相对通用的翻译 Prompt，可以适用于多种不同的语言翻译（https://baoyu.io/blog/prompt-engineering/a-common-translation-prompt-for-different-languages）
+- 2024-03-20 如何让 GPT-4 生成更好的摘要（https://baoyu.io/blog/prompt-engineering/how-to-get-a-better-summary-result）
+- 2024-03-20 Prompt Engineering 的核心是逻辑（https://baoyu.io/blog/prompt-engineering/the-core-of-prompt-engineering）
+- 2024-03-18 小孩搭乐高和 AI 写程序（https://baoyu.io/blog/ai/kid-plays-lego-vs-ai-writes-code）
+- 2024-03-13 程序员是不是要被 AI 替代？（https://baoyu.io/blog/software-engineering/will-ai-replace-sde）
+- 2024-03-01 学习成为善用 AI 的人（https://baoyu.io/blog/ai/recommendation-for-book-developing-apps-with-gpt-4-and-chatgpt）
+- 2024-02-24 给年轻人的副业建议（https://baoyu.io/blog/career/suggestions-for-side-projects）
+- 2024-02-24 现阶段 AI 的价值和盈利方向？（https://baoyu.io/blog/ai/ai-values-and-how-to-make-money-with-ai）
+- 2024-02-22 Sora 将如何改变我们的生活？（https://baoyu.io/blog/ai/will-sora-change-our-life）
+- 2024-02-17 Sora 和之前 Runway 那些在架构上有啥区别呢？（https://baoyu.io/blog/ai/sora-vs-runway）
+- 2024-02-07 Tutor Me Prompt（https://baoyu.io/blog/prompt-engineering/tutor-me-prompt）
+- 2024-02-07 Scholar GPT Prompt（https://baoyu.io/blog/prompt-engineering/scholar-gpt-prompt）
+- 2024-01-27 新论文：《WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models》（https://baoyu.io/blog/ai/webvoyager）
+- 2024-01-04 我使用的双语字幕文件格式，以及如何将字幕嵌入视频（https://baoyu.io/blog/translation/subtitle-and-ffmpeg）
+- 2023-12-22 2024 年，AI 会影响普通人吗？（https://baoyu.io/blog/ai/will-ai-impact-us-in-2024）
+- 2023-12-20 直译、反思、意译：提升 GPT 翻译质量的一种新策略（https://baoyu.io/blog/prompt-engineering/translator-gpt-prompt-v2）
+- 2023-12-15 OpenAI 的 Chat Completions API 的一些更新（https://baoyu.io/blog/openai/chat-completion-api-changes）
+- 2023-12-15 Google DeepMind 最新的 FunSearch（https://baoyu.io/blog/ai/about-funsearch）
+- 2023-12-13 如果 AI 直译 + 意译后的效果还不理想该怎么办？（https://baoyu.io/blog/prompt-engineering/how-to-improve-translation-quality）
+- 2023-12-12 2023 年，我患上了 AI 焦虑症（https://baoyu.io/blog/ai/i-am-suffering-from-ai-anxiety-in-2023）
+- 2023-11-27 北美科技公司对工程技术角色的区分（https://baoyu.io/blog/engineering-management/engineering-roles）
+- 2023-11-09 自用的“科技文章翻译 GPT”和它的 Prompt（https://baoyu.io/blog/prompt-engineering/my-translator-bot）
+- 2023-11-03 如何控制 LLM 的输出格式和解析其输出结果？（https://baoyu.io/blog/prompt-engineering/how-to-parse-the-output-from-llm）
+- 2023-10-29 如何用代码从 ChatGPT 网页中获取原始 Markdown 格式？（https://baoyu.io/blog/fontend/how-to-get-markdown-from-chatgpt-webpage）
+- 2023-10-28 退一步提示法解读（https://baoyu.io/blog/prompt-engineering/step-back-prompting）
+- 2023-10-24 如何让 GPT-4 帮你写 Prompt？（https://baoyu.io/blog/prompt-engineering/how-to-write-prompt-with-gpt-4）
+- 2023-10-15 ChatGPT 中 DALL-E 3 的系统提示词 [译]（https://baoyu.io/blog/prompt-engineering/chatgpt-dall-e-3-system-prompt）
+- 2023-10-09 怎么让 ChatGPT 的翻译结果更准确？（https://baoyu.io/blog/prompt-engineering/three-ai-agents-and-four-steps-flow-prompt）
+- 2023-10-07 简单通俗的解释《一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”》（https://baoyu.io/blog/prompt-engineering/two-ai-agents-in-one-prompt）
+- 2023-10-05 如何让 ChatGPT 3.5 这样的小模型也能大幅提升翻译质量？也能像 GPT-4 一样执行复杂指令？（https://baoyu.io/blog/prompt-engineering/divide-your-prompt-to-mutiple-prompts）
+- 2023-10-05 一种新的 Prompt 方法——“类推提示法”（https://baoyu.io/blog/prompt-engineering/introduct-analogical-prompting）
+- 2023-09-28 一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”（https://baoyu.io/blog/prompt-engineering/a-prompt-for-better-translation-result）
+- 2023-09-22 字幕翻译、书籍翻译的福音，如何借助 ChatGPT 得到高质量的翻译结果？（https://baoyu.io/blog/prompt-engineering/how-to-get-high-quality-translation-results-with-chatgpt）
+- 2023-09-01 Prompt 技巧：使用 Type 定义得到想要的 JSON 输出格式（https://baoyu.io/blog/prompt-engineering/prompt-skills-using-type-to-define-json-output）
+- 2023-08-22 为啥很多人觉得编程难学？（https://baoyu.io/blog/software-engineering/why-programming-is-hard）
+- 2023-07-18 如何写出高质量的 Prompt？（https://baoyu.io/blog/prompt-engineering/how-to-write-high-quality-prompt）
+- 2023-07-08 Prompt 技巧：在翻译字幕时，如何让英文字幕中文字幕更好的对应起来（https://baoyu.io/blog/prompt-engineering/prompt-skills-subtitle-translation-align-english-chinese-better）
+- 2023-06-24 这么多年还等着主管给你们下发任务？（https://baoyu.io/blog/software-engineering/still-waiting-for-your-supervisor-to-give-you-assignments）
+- 2023-04-18 你是否听说过 MLOps 或者 LLMOps 呢？（https://baoyu.io/blog/software-engineering/what-is-llm-ops）
+- 2020-08-24 从两周发布上线到一周发布上线，如何做到高效稳定？（https://baoyu.io/blog/software-engineering/how-to-go-from-two-week-to-one-week-release）
+- 2020-06-29 项目一再跳票？试试这一招：用 Deadline 倒逼生产力（https://baoyu.io/blog/project-management/deadline-is-the-first-productivity）
+- 2019-04-01 怎样平衡软件质量与时间成本范围的关系？（https://baoyu.io/blog/project-management/balance-project-triangle）
+- 2019-01-04 从软件工程的角度解读任正非的新年公开信（https://baoyu.io/blog/software-engineering/interpreting-ren-zhengfei-open-letter-from-a-software-engineering-perspective）
+- 2018-11-15 记在美国的一次校园招聘（https://baoyu.io/blog/engineering-management/a-campus-recruitment）
+- 2016-06-16 记录下两个孩子在 MineCraft 里面还原公寓的经历（https://baoyu.io/blog/life/two-kids-recreate-apartment-in-minecraft）
