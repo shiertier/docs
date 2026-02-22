@@ -120,6 +120,7 @@ description: 获取网页文章“完整正文”并由助手整理成最终 Mar
 - 抽取字段：`#activity-name`（标题）、`#js_name`（作者）、`#publish_time`（展示日期）、`#js_content`（正文）；
 - 若正文命中 `完成验证后即可继续访问`、`wappoc_appmsgcaptcha`、`环境异常`，判定为失败，禁止落盘为正文文档；
 - 中间产物必须写 `.tmp/`（例如 `.tmp/wx-<id>.firefox.json`、`.tmp/wx-<id>.firefox.raw.md`）。
+- 若本机缺少 `playwright` Python 运行库，允许在 `.tmp/.venv-playwright` 创建临时虚拟环境并安装 `playwright + firefox` 后执行抓取；抓取完成后可按需清理该环境。
 
 3) 日期与排版修复（必须）：
 - 优先使用页面展示日期（如 `2025年11月30日 13:57`）规范化为 `YYYY-MM-DD`；
@@ -130,6 +131,12 @@ description: 获取网页文章“完整正文”并由助手整理成最终 Mar
 4) 失败边界（必须）：
 - 微信来源不得写“失败即结束”的结论；必须优先完成浏览器渲染链路，再补齐其他可行链路后再判断；
 - 若最终仍失败，只保留“访问受限记录”，且不得包含抓取日志/脚本报错。
+
+5) 批量归档实战经验（微信第一优先）：
+- 批量任务先统一拿到 `.tmp/wx-<id>.firefox.raw.md` 与 `.tmp/wx-<id>.firefox.json`，再进入 Gemini 流程，避免“边抓边写”导致的漏文或中断返工；
+- 微信文章常见版式问题是断句碎、列表粘连、段落过密，默认先做 `subtitles_blog` 再 `review/summarize`；
+- 批量任务建议采用固定中间文件前缀（如 `.tmp/add-wechat-<id>.*`），保证排版稿、审阅稿、摘要稿可一一追溯；
+- 若同批次包含非微信来源，仍按“微信先走 Playwright Firefox，其他来源按通用抓取策略”执行，避免混用流程。
 
 ## 整理规则（关键：最终文档必须由助手整理）
 
@@ -238,6 +245,12 @@ rg -n "跳至主要内容|返回主菜单|研究索引|商业应用概览|开发
 
 ```bash
 rg -n "微信公众号专项 SOP|第一优先|Playwright Firefox|#js_content|wappoc_appmsgcaptcha" skills/web-full-archive.md
+```
+
+微信批量经验规则自检（必做，命中表示经验已写入）：
+
+```bash
+rg -n "批量归档实战经验|微信第一优先|add-wechat-<id>" skills/web-full-archive.md
 ```
 
 脚本/Notebook 链接自检（必做，命中即阻断发布）：
