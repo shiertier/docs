@@ -7,6 +7,7 @@ const SOURCE_DIR = path.join(process.cwd(), ".tmp", "gitbook-src");
 const GRAPH_DATA_FILE = "graph-data.json";
 const WIKI_LINK_RE = /\[\[([^\]]+)\]\]/g;
 const MD_LINK_RE = /(?<!!)\[[^\]]+\]\(([^)]+)\)/g;
+const MERMAID_FENCE_RE = /```mermaid[^\n]*\n([\s\S]*?)```/g;
 
 function toPosix(p) {
   return p.split(path.sep).join("/");
@@ -230,6 +231,13 @@ function renderSummary(docs) {
   return `${lines.join("\n")}\n`;
 }
 
+function convertMermaidFences(markdown) {
+  return markdown.replace(MERMAID_FENCE_RE, (_match, body) => {
+    const normalized = body.replace(/\s+$/, "");
+    return `<div class="mermaid">\n${normalized}\n</div>`;
+  });
+}
+
 async function main() {
   await removeAndRecreateDir(SOURCE_DIR);
 
@@ -307,6 +315,8 @@ async function main() {
       edges.add(`${doc.slug}=>${targetSlug}`);
     }
 
+    transformed = convertMermaidFences(transformed);
+
     doc.outgoing = [...outgoing].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
 
     const outAbs = path.join(SOURCE_DIR, doc.relPath);
@@ -370,7 +380,7 @@ async function main() {
       {
         title: "wsl-docs 知识库",
         language: "zh-hans",
-        plugins: ["relation-graph", "mermaid-gb3"],
+        plugins: ["relation-graph"],
       },
       null,
       2

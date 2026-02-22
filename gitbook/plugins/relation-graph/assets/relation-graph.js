@@ -4,6 +4,7 @@
   var GRAPH_DATA_FILE = "graph-data.json";
   var GRAPH_MAX_NODES = 320;
   var graphDataPromise = null;
+  var mermaidReadyPromise = null;
   var tocCleanup = null;
 
   function $(selector, root) {
@@ -49,6 +50,79 @@
     })();
 
     return graphDataPromise;
+  }
+
+  function ensureMermaidLibrary() {
+    if (window.mermaid && typeof window.mermaid.initialize === "function") {
+      return Promise.resolve(window.mermaid);
+    }
+    if (mermaidReadyPromise) return mermaidReadyPromise;
+
+    mermaidReadyPromise = new Promise(function (resolve, reject) {
+      var script = document.createElement("script");
+      script.src = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js";
+      script.async = true;
+      script.onload = function () {
+        if (window.mermaid) {
+          resolve(window.mermaid);
+        } else {
+          reject(new Error("Mermaid script loaded but window.mermaid is unavailable"));
+        }
+      };
+      script.onerror = function () {
+        reject(new Error("Failed to load Mermaid runtime from CDN"));
+      };
+      document.head.appendChild(script);
+    })
+      .then(function (mermaid) {
+        mermaid.initialize({ startOnLoad: false, securityLevel: "loose", theme: "default" });
+        return mermaid;
+      })
+      .catch(function (err) {
+        console.error("[relation-graph] mermaid init failed", err);
+        mermaidReadyPromise = null;
+        throw err;
+      });
+
+    return mermaidReadyPromise;
+  }
+
+  function renderMermaidBlocks() {
+    var blocks = $all(".markdown-section .mermaid").filter(function (block) {
+      return block && !block.dataset.rendered;
+    });
+    if (blocks.length === 0) return Promise.resolve();
+
+    return ensureMermaidLibrary()
+      .then(function (mermaid) {
+        var chain = Promise.resolve();
+        blocks.forEach(function (block, index) {
+          chain = chain.then(function () {
+            var source = block.textContent || "";
+            var id = "mermaid-" + Date.now() + "-" + index;
+            return mermaid
+              .render(id, source)
+              .then(function (result) {
+                block.innerHTML = result.svg;
+                block.dataset.rendered = "1";
+              })
+              .catch(function (err) {
+                block.dataset.rendered = "error";
+                block.classList.add("mermaid-error");
+                console.error("[relation-graph] mermaid render failed", err);
+              });
+          });
+        });
+        return chain;
+      })
+      .catch(function () {
+        blocks.forEach(function (block) {
+          if (!block.dataset.rendered) {
+            block.dataset.rendered = "error";
+            block.classList.add("mermaid-error");
+          }
+        });
+      });
   }
 
   function getPathCandidateFromLocation() {
@@ -686,9 +760,13 @@
       var idToNode = new Map((data.nodes || []).map(function (node) { return [node.id, node]; }));
       var currentSlug = resolveCurrentSlug(data);
 
-      renderRightToc(currentSlug);
-      renderBacklinks(data, currentSlug, idToNode);
-      renderHomeGraph(data, currentSlug);
+      renderMermaidBlocks()
+        .catch(function () {})
+        .then(function () {
+          renderRightToc(currentSlug);
+          renderBacklinks(data, currentSlug, idToNode);
+          renderHomeGraph(data, currentSlug);
+        });
     });
   }
 
