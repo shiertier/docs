@@ -1,4 +1,4 @@
-name: GitBook Build And Deploy
+name: Quartz Build And Deploy
 
 on:
   push:
@@ -13,32 +13,38 @@ permissions:
   id-token: write
 
 concurrency:
-  group: gitbook-pages-${{ github.ref }}
+  group: quartz-pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
 
-      - name: Install Dependencies
+      - name: Prepare Quartz Runtime
+        run: bash scripts/prepare_quartz_site.sh
+
+      - name: Install Quartz Dependencies
+        working-directory: /tmp/quartz-runtime
         run: npm ci
 
-      - name: Build GitBook
-        run: npm run gitbook:build
+      - name: Build Quartz
+        working-directory: /tmp/quartz-runtime
+        run: npx quartz build
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: gitbook-dist
+          path: /tmp/quartz-runtime/public
 
   deploy:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
