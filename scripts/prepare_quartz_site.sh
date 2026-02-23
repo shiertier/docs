@@ -175,6 +175,19 @@ cat > "$RUNTIME_DIR/quartz.layout.ts" <<'LAYOUT_EOF'
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+const graphOptions = {
+  localGraph: {
+    repelForce: 0.95,
+    linkDistance: 70,
+    centerForce: 0.22,
+  },
+  globalGraph: {
+    repelForce: 1.25,
+    linkDistance: 110,
+    centerForce: 0.15,
+  },
+}
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -212,7 +225,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph(graphOptions),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -234,9 +247,47 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [Component.Graph()],
+  right: [Component.Graph(graphOptions)],
 }
 LAYOUT_EOF
+
+cat > "$RUNTIME_DIR/quartz/styles/custom.scss" <<'CUSTOM_STYLE_EOF'
+@use "./base.scss";
+
+/* Desktop: give left explorer a bit more room for long Chinese titles */
+@media all and (min-width: 1200px) {
+  .page > #quartz-body {
+    grid-template-columns: 360px minmax(0, 1fr) 320px;
+  }
+}
+
+/* Tablet: keep a readable explorer width */
+@media all and (min-width: 800px) and (max-width: 1199px) {
+  .page > #quartz-body {
+    grid-template-columns: 340px minmax(0, 1fr);
+  }
+}
+
+/* Long titles in explorer: 2-line clamp + safe wrapping */
+.explorer .explorer-content li > a,
+.explorer .folder-container .folder-title,
+.explorer .folder-container .folder-button > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.35;
+  max-height: 2.7em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.explorer .explorer-content li > a,
+.explorer .folder-container .folder-title {
+  padding: 0.05rem 0.12rem;
+}
+CUSTOM_STYLE_EOF
 
 echo "[quartz:prepare] runtime prepared at $RUNTIME_DIR"
 echo "[quartz:prepare] baseUrl=$BASE_URL"
