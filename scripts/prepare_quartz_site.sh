@@ -3,12 +3,13 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TMP_DIR="$ROOT_DIR/.tmp"
-RUNTIME_DIR="$TMP_DIR/quartz-runtime"
-TARBALL="$TMP_DIR/quartz-v4.tar.gz"
+RUNTIME_DIR="${QUARTZ_RUNTIME_DIR:-/tmp/quartz-runtime}"
+TARBALL="${QUARTZ_TARBALL:-/tmp/quartz-v4.tar.gz}"
 QUARTZ_REF="${QUARTZ_REF:-v4}"
 
 mkdir -p "$TMP_DIR"
 rm -rf "$RUNTIME_DIR"
+mkdir -p "$(dirname "$RUNTIME_DIR")" "$(dirname "$TARBALL")"
 
 curl -fsSL "https://codeload.github.com/jackyzha0/quartz/tar.gz/refs/heads/$QUARTZ_REF" -o "$TARBALL"
 TOP_DIR="$(tar -tzf "$TARBALL" | awk -F/ 'NR==1 { print $1 }')"

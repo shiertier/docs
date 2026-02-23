@@ -34,17 +34,17 @@ jobs:
         run: bash scripts/prepare_quartz_site.sh
 
       - name: Install Quartz Dependencies
-        working-directory: .tmp/quartz-runtime
+        working-directory: /tmp/quartz-runtime
         run: npm ci
 
       - name: Build Quartz
-        working-directory: .tmp/quartz-runtime
+        working-directory: /tmp/quartz-runtime
         run: npx quartz build
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .tmp/quartz-runtime/public
+          path: /tmp/quartz-runtime/public
 
   deploy:
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
