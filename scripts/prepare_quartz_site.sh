@@ -35,7 +35,8 @@ for src_dir in "$ROOT_DIR"/0[0-4]-*; do
 done
 shopt -u nullglob
 
-cat > "$CONTENT_DIR/index.md" <<'INDEX_EOF'
+{
+  cat <<'INDEX_HEAD'
 ---
 title: 文档首页
 ---
@@ -45,14 +46,25 @@ title: 文档首页
 本页面由 Quartz 自动发布，内容来自仓库文档目录。
 
 ## 目录
+INDEX_HEAD
 
-- [[00-元语/README|元语词条]]
-- [[00-元语/关系图谱|关系图谱]]
-- [[01-博客|博客归档]]
-- [[02-资源|资源档案]]
-- [[03-图书|图书记录]]
-- [[04-聊天|聊天整理]]
-INDEX_EOF
+  if [ -d "$CONTENT_DIR/00-元语" ]; then
+    echo "- [[00-元语/README|元语词条]]"
+    echo "- [[00-元语/关系图谱|关系图谱]]"
+  fi
+  if [ -d "$CONTENT_DIR/01-博客" ]; then
+    echo "- [[01-博客|博客归档]]"
+  fi
+  if [ -d "$CONTENT_DIR/02-资源" ]; then
+    echo "- [[02-资源|资源档案]]"
+  fi
+  if [ -d "$CONTENT_DIR/03-图书" ]; then
+    echo "- [[03-图书|图书记录]]"
+  fi
+  if [ -d "$CONTENT_DIR/04-聊天" ]; then
+    echo "- [[04-聊天|聊天整理]]"
+  fi
+} > "$CONTENT_DIR/index.md"
 
 BASE_URL="${QUARTZ_BASE_URL:-}"
 if [ -z "$BASE_URL" ] && [ -n "${GITHUB_REPOSITORY:-}" ]; then
