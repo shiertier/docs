@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_try_1.outputs.page_url || steps.deployment_try_2.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
       - name: Best-Effort Cancel Previous Pages Build
         if: github.event_name == 'push' && github.event.before != '' && github.event.before != '0000000000000000000000000000000000000000'
@@ -126,6 +126,26 @@ jobs:
             }
 
             core.setFailed("Timed out waiting for active Pages deployments to clear.")
-      - name: Deploy To GitHub Pages
+      - name: Deploy To GitHub Pages (Attempt 1)
+        id: deployment_try_1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait Before Retry 2
+        if: steps.deployment_try_1.outcome != 'success'
+        run: sleep 20
+
+      - name: Deploy To GitHub Pages (Attempt 2)
+        if: steps.deployment_try_1.outcome != 'success'
+        id: deployment_try_2
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait Before Final Retry
+        if: steps.deployment_try_1.outcome != 'success' && steps.deployment_try_2.outcome != 'success'
+        run: sleep 30
+
+      - name: Deploy To GitHub Pages (Final Attempt)
+        if: steps.deployment_try_1.outcome != 'success' && steps.deployment_try_2.outcome != 'success'
         id: deployment
         uses: actions/deploy-pages@v4
