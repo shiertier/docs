@@ -82,3 +82,4 @@ WeClone 是一个基于 Python 的开源一站式解决方案，通过提取聊�
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
 - [[00-元语/deepfake]]
+- [[00-元语/self-hosting]]

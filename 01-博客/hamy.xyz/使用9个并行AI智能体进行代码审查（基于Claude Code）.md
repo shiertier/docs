@@ -62,8 +62,10 @@ title: "使用9个并行AI智能体进行代码审查（基于Claude Code）"
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/code-review]]
 - [[00-元语/workflow]]
+- [[00-元语/vibe-coding]]
 - [[00-元语/软件工程]]

@@ -63,8 +63,14 @@ The React Framework
 - README：https://raw.githubusercontent.com/vercel/next.js/canary/README.md
 - Releases：https://github.com/vercel/next.js/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/ai-chatbot：Next.js AI 聊天机器人模板|ai-chatbot：Next.js AI 聊天机器人模板]]；关联理由：上下游；说明：该项目是基于 Next.js 的官方 AI 聊天机器人模板，属于 Next.js 在 AI 应用层的直接落地案例。
+- [[02-资源/AI-应用框架与平台/next-ai-draw-io：基于 Next.js 开发的 Web 应用，通过集成多种大语言模型（LLM）|next-ai-draw-io：基于 Next.js 开发的 Web 应用，通过集成多种大语言模型（LLM）]]；关联理由：解说；说明：该项目展示了 Next.js 结合 LLM 与前端交互能力的产品化实现路径，可用于补充本条目的应用视角。
+
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/react]]
 - [[00-元语/github]]
 - [[00-元语/serverless]]

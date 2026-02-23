@@ -72,6 +72,7 @@ The AI Browser Automation Framework
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/typescript]]
+- [[00-元语/sdk]]
 - [[00-元语/browser-automation]]
 - [[00-元语/protocol]]
 - [[00-元语/github]]

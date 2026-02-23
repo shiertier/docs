@@ -371,5 +371,6 @@ _完_
 - [[00-元语/prompt]]
 - [[00-元语/evals]]
 - [[00-元语/compliance]]
+- [[00-元语/security]]
 - [[00-元语/workflow]]
 - [[00-元语/productivity]]

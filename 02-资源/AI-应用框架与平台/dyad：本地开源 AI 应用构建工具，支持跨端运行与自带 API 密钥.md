@@ -72,3 +72,4 @@ Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bo
 - [[00-元语/windows]]
 - [[00-元语/v0]]
 - [[00-元语/typescript]]
+- [[00-元语/llm]]

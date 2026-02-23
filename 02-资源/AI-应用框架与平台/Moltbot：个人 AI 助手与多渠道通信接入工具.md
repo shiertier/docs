@@ -67,7 +67,8 @@ Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
 ## 相关文档
 
-- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了.md|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：同一项目的系统提示词拆解文可补充理解其多智能体行为约束与运行机制。
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：版本演进；说明：Moltbot 是该项目历史命名阶段之一，两个条目可互证同一产品线在命名与定位上的演进关系。
+- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：该文拆解同一产品体系的系统提示词设计，可补充理解助手行为约束与记忆机制。
 
 ## 关联主题
 
@@ -76,6 +77,7 @@ Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 - [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/llm]]
+- [[00-元语/audio]]
 - [[00-元语/multimodal]]
 - [[00-元语/security]]
 - [[00-元语/self-hosting]]

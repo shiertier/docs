@@ -122,4 +122,5 @@ title: "管理能力：AI 时代的超级能力"
 - [[00-元语/Agent]]
 - [[00-元语/decision-making]]
 - [[00-元语/prompt]]
+- [[00-元语/workflow]]
 - [[00-元语/知识工作]]

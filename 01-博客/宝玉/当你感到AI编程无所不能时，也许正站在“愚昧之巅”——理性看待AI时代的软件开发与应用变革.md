@@ -121,3 +121,4 @@ AI 可以加速领域知识的学习，但真正做到跨领域的深度理解�
 - [[00-元语/design]]
 - [[00-元语/productivity]]
 - [[00-元语/decision-making]]
+- [[00-元语/prompt]]

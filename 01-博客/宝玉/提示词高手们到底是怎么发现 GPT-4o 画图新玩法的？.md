@@ -122,9 +122,9 @@ title: "提示词高手们到底是怎么发现 GPT-4o 画图新玩法的？"
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/OpenAI]]
 - [[00-元语/prompt]]
 - [[00-元语/multimodal]]
 - [[00-元语/image-editing]]
 - [[00-元语/community]]
-- [[00-元语/workflow]]

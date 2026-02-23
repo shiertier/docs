@@ -69,6 +69,7 @@ Connect any LLM to your internal knowledge sources and chat with it in real time
 
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/context-database]]
 - [[00-元语/self-hosting]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]

@@ -66,12 +66,12 @@ Claude Code Security 建立在对 Claude 网络安全能力一年多的研究基
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Code Security：为防御者提供前沿网络安全能力|Claude Code Security：为防御者提供前沿网络安全能力]]；关联理由：同一事件；说明：两篇文档都整理自同一篇 Anthropic 发布稿（`/news/claude-code-security`），属于同一发布事件的并行归档。
 - [[01-博客/Anthropic/为网络防御者构建 AI 系统|为网络防御者构建 AI 系统]]；关联理由：上下游；说明：本文提到的 Claude Code Security 能力建立在一年多网络防御研究基础上，关联文档展开了该上游能力建设与评测证据。
 
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/Claude]]
 - [[00-元语/security]]
 - [[00-元语/risk]]

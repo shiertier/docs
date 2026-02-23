@@ -295,3 +295,4 @@ rmsnorm = get_kernel("your-org/your-kernel")
 - [[00-元语/Claude]]
 - [[00-元语/benchmark]]
 - [[00-元语/llm]]
+- [[00-元语/skills]]

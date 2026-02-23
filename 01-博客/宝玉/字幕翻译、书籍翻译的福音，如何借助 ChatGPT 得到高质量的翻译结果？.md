@@ -173,6 +173,8 @@ ChatGPT 这类 LLM 有个天然缺陷，就是上下文窗口无法太长，比�
 - [[00-元语/prompt]]
 - [[00-元语/context-optimization]]
 - [[00-元语/asr]]
+- [[00-元语/video]]
+- [[00-元语/book]]
 - [[00-元语/workflow]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/OpenAI]]

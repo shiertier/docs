@@ -66,4 +66,4 @@ LTX Studio 是一个 AI 驱动的视频制作平台，其前端打包文件揭�
 - [[00-元语/video]]
 - [[00-元语/multimodal]]
 - [[00-元语/web-crawling]]
-- [[00-元语/tool]]
+- [[00-元语/browser-automation]]

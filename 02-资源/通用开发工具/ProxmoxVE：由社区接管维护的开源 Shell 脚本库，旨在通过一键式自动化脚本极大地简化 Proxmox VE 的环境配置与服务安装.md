@@ -67,5 +67,6 @@ Proxmox VE Helper-Scripts (Community Edition)
 
 - [[00-元语/self-hosting]]
 - [[00-元语/cli]]
+- [[00-元语/terminal]]
 - [[00-元语/github]]
 - [[00-元语/community]]

@@ -71,4 +71,4 @@ An open-source, self-hosted note-taking service. Your thoughts, your data, your 
 - [[00-元语/react]]
 - [[00-元语/security]]
 - [[00-元语/wiki]]
-- [[00-元语/productivity]]
+- [[00-元语/memory]]

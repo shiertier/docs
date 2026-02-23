@@ -65,6 +65,11 @@ OBS Studio - Free and open source software for live streaming and screen recordi
 - README：https://raw.githubusercontent.com/obsproject/obs-studio/master/README.md
 - Releases：https://github.com/obsproject/obs-studio/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Cap：Open source Loom alternative, Beautiful, shareable screen recordings|Cap：Open source Loom alternative, Beautiful, shareable screen recordings]]；关联理由：观点一致；说明：两者都定位开源屏幕录制工具，适合在录屏与分享场景下做横向选型对比。
+- [[02-资源/AI-应用框架与平台/livekit：开源实时音视频与数据通信栈项目|livekit：开源实时音视频与数据通信栈项目]]；关联理由：上下游；说明：LiveKit 文档明确将 OBS Studio 作为外部推流输入源，二者可组成采集到分发的链路。
+
 ## 关联主题
 
 - [[00-元语/tool]]
@@ -72,3 +77,4 @@ OBS Studio - Free and open source software for live streaming and screen recordi
 - [[00-元语/audio]]
 - [[00-元语/desktop-client]]
 - [[00-元语/github]]
+- [[00-元语/stream-processing]]

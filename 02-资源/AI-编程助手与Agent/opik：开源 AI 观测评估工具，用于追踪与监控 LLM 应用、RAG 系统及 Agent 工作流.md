@@ -69,6 +69,7 @@ Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic wor
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/github]]
 - [[00-元语/Agent]]
 - [[00-元语/CI]]
 - [[00-元语/llm]]

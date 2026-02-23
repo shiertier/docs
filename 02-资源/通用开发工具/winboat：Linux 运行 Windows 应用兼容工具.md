@@ -71,3 +71,4 @@ Run Windows apps on 🐧 Linux with ✨ seamless integration
 - [[00-元语/github]]
 - [[00-元语/windows]]
 - [[00-元语/desktop-client]]
+- [[00-元语/typescript]]

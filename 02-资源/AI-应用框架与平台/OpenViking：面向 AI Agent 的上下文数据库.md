@@ -62,6 +62,10 @@ OpenViking 将自己定位为 AI Agent 的 Context Database，而不是传统意
 - X：https://x.com/openvikingai
 - Discord：https://discord.gg/eHvx8E9XF3
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/volcengine-OpenViking：AI 记忆与检索基础设施|volcengine-OpenViking：AI 记忆与检索基础设施]]；关联理由：解说；说明：同一项目在“模型与推理基础设施”分类下提供了更偏底层能力的定位补充。
+
 ## 关联主题
 
 - [[00-元语/context-database]]

@@ -68,6 +68,11 @@ A community-supported supercharged document management system: scan, index and a
 - README：https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/dev/README.md
 - Releases：https://github.com/paperless-ngx/paperless-ngx/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/zerox：视觉模型驱动的文档 OCR 与抽取工具|zerox：视觉模型驱动的文档 OCR 与抽取工具]]；关联理由：上下游；说明：paperless-ngx 侧重文档归档与检索，zerox 可补充前置 OCR 与抽取能力，二者可形成文档处理链路上下游。
+- [[02-资源/通用开发工具/marker：Convert PDF to markdown + JSON quickly with high accuracy|marker：Convert PDF to markdown + JSON quickly with high accuracy]]；关联理由：延伸思考；说明：marker 聚焦 PDF 结构化提取，可用于与 paperless-ngx 的内置 OCR 路线做能力对照与组合评估。
+
 ## 关联主题
 
 - [[00-元语/ocr]]

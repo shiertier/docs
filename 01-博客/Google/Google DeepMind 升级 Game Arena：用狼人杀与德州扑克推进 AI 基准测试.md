@@ -70,7 +70,11 @@ Google DeepMind 升级了 Kaggle Game Arena 基准测试平台，在原有的国
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/alignment]]
 - [[00-元语/benchmark]]
+- [[00-元语/decision-making]]
 - [[00-元语/evals]]
 - [[00-元语/game]]
+- [[00-元语/gemini]]
+- [[00-元语/llm]]
 - [[00-元语/risk]]

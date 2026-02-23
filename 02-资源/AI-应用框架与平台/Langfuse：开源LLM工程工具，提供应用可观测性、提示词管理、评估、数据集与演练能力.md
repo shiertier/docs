@@ -64,6 +64,10 @@ Langfuse 是一个开源的大语言模型（LLM）工程平台，提供应用�
 - README：https://raw.githubusercontent.com/langfuse/langfuse/main/README.md
 - Releases：https://github.com/langfuse/langfuse/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Langflow：AI agent 与工作流可视化构建工具.md|Langflow：AI agent 与工作流可视化构建工具]]；关联理由：上下游；说明：Langflow 文档明确提到可与 Langfuse 集成，Langfuse 可作为其可观测与评估能力的后端支撑。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -74,5 +78,6 @@ Langfuse 是一个开源的大语言模型（LLM）工程平台，提供应用�
 - [[00-元语/observability]]
 - [[00-元语/prompt]]
 - [[00-元语/evals]]
+- [[00-元语/benchmark]]
 - [[00-元语/sdk]]
 - [[00-元语/self-hosting]]

@@ -348,10 +348,15 @@ Pi的设计告诉我们：在AI时代，减法比加法更难，但也更有价�
   - `@mariozechner/pi-pods`：vLLM GPU Pod 部署管理 CLI
 - 仓库备注：README 顶部标注 OSS Vacation，Issue 与 PR 在 2026-02-23 重新开放。
 
+## 相关文档
+
+- [[01-博客/微信公众平台/OpenClaw 背后的极简革命：Pi只带 4 个工具可能是 AI Agent 的未来|OpenClaw 背后的极简革命：Pi只带 4 个工具可能是 AI Agent 的未来]]；关联理由：同一事件；说明：两文都围绕 Pi 作为 OpenClaw 底层框架的同一轮传播与技术解读展开，核心论点和代码脉络高度重合。
+
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
+- [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/cli]]
 - [[00-元语/prompt]]

@@ -69,8 +69,10 @@ OpenCut 是一款免费、开源的视频编辑器，旨在成为剪映（CapCut
 
 ## 关联主题
 
+- [[00-元语/github]]
 - [[00-元语/AI]]
 - [[00-元语/video]]
 - [[00-元语/desktop-client]]
 - [[00-元语/typescript]]
+- [[00-元语/react]]
 - [[00-元语/PostgreSQL]]

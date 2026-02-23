@@ -74,6 +74,7 @@ Open source Loom alternative. Beautiful, shareable screen recordings.
 
 - [[00-元语/tool]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/video]]
 - [[00-元语/productivity]]
 - [[00-元语/desktop-client]]

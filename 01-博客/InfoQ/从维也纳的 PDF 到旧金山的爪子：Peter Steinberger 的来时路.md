@@ -262,5 +262,6 @@ Peter Steinberger 不是先知，也不是圣人。他是一个诚实的 builder
 - [[00-元语/Claude]]
 - [[00-元语/github]]
 - [[00-元语/vibe-coding]]
+- [[00-元语/community]]
 - [[00-元语/career]]
 - [[00-元语/cli]]

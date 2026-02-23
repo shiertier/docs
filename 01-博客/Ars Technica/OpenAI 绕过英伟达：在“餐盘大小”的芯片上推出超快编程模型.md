@@ -77,6 +77,7 @@ AI 编程智能体迎来了爆发的一年。OpenAI、谷歌和 Anthropic 都在
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
+- [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/benchmark]]
 - [[00-元语/llmops]]

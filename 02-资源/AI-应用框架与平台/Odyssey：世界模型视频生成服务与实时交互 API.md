@@ -77,4 +77,5 @@ Odyssey 的定位是通用世界模型平台。其核心产品 Odyssey-2 Pro 强
 - [[00-元语/video]]
 - [[00-元语/stream-processing]]
 - [[00-元语/multimodal]]
+- [[00-元语/protocol]]
 - [[00-元语/sdk]]

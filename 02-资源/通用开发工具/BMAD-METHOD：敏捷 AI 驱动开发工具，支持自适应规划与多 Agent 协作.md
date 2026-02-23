@@ -64,7 +64,7 @@ Breakthrough Method for Agile Ai Driven Development
 
 ## 相关文档
 
-- [[02-资源/AI-编程助手与Agent/BMAD-METHOD：AI 驱动敏捷开发的多智能体工作流框架|BMAD-METHOD：AI 驱动敏捷开发的多智能体工作流框架]]；关联理由：同一事件；说明：两篇文档都围绕同一项目 BMAD-METHOD 展开，视角分别偏向“通用开发工具”与“AI 代理工作流”。
+- [[02-资源/AI-编程助手与Agent/BMAD-METHOD：多智能体工作流方法用于 AI 驱动敏捷开发|BMAD-METHOD：多智能体工作流方法用于 AI 驱动敏捷开发]]；关联理由：同一事件；说明：两篇文档都围绕同一项目 BMAD-METHOD 展开，视角分别偏向“通用开发工具”与“AI 代理工作流”。
 
 ## 关联主题
 

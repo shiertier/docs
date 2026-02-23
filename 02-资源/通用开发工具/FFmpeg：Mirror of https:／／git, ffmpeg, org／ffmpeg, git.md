@@ -65,6 +65,10 @@ Mirror of https://git.ffmpeg.org/ffmpeg.git
 - README：https://raw.githubusercontent.com/FFmpeg/FFmpeg/master/README.md
 - Releases：https://github.com/FFmpeg/FFmpeg/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/yt-dlp：跨站点音视频下载工具|yt-dlp：跨站点音视频下载工具]]；关联理由：上下游；说明：yt-dlp 在完整音视频处理链路中依赖 ffmpeg/ffprobe，属于下游工具对上游基础能力的复用关系。
+
 ## 关联主题
 
 - [[00-元语/tool]]

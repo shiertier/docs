@@ -44,7 +44,7 @@ nanoclaw 是一个 AI 编程助手与 Agent 工具，定位为 Clawdbot 和 Open
 ## 相关文档
 
 - [[02-资源/AI-编程助手与Agent/Clawdbot：面向代码与数据的智能体工具|Clawdbot：面向代码与数据的智能体工具]]；关联理由：解说；说明：nanoclaw 明确以 Clawdbot 作为替代参照，适合对照两者的能力取舍。
-- [[02-资源/AI-应用框架与平台/OpenClaw：跨平台个人 AI 助手与多渠道网关|OpenClaw：跨平台个人 AI 助手与多渠道网关]]；关联理由：上下游；说明：nanoclaw 以 OpenClaw 为对标对象，可用于理解同生态下网关与助手能力边界。
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：解说；说明：nanoclaw 明确以 OpenClaw 为对标对象，结合该条目可更清楚理解其“轻量替代”的定位差异。
 - [[02-资源/AI-编程助手与Agent/ComposioHQ-secure-openclaw：AI 编程助手与Agent工具|ComposioHQ-secure-openclaw：AI 编程助手与Agent工具]]；关联理由：观点一致；说明：两者都聚焦在 IM 平台上提供带记忆与任务调度能力的个人 Agent。
 
 ## 关联主题

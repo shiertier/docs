@@ -63,6 +63,11 @@ Repomix 是一个基于 TypeScript 开发的开源工具，能够将整个代码
 - README：https://raw.githubusercontent.com/yamadashy/repomix/main/README.md
 - Releases：https://github.com/yamadashy/repomix/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Context7：面向 LLM 的文档上下文服务|Context7：面向 LLM 的文档上下文服务]]；关联理由：上下游；说明：两者都服务于 LLM 上下文构建，Repomix 提供项目内代码上下文，Context7 补充第三方库与 API 的最新文档上下文。
+- [[02-资源/AI-应用框架与平台/gitdiagram：GitHub 仓库代码结构可交互架构图生成工具|gitdiagram：GitHub 仓库代码结构可交互架构图生成工具]]；关联理由：延伸思考；说明：两者都以“仓库到 AI 可消费表示”为目标，一个偏结构化文本打包，一个偏架构图可视化理解。
+
 ## 关联主题
 
 - [[00-元语/AI]]

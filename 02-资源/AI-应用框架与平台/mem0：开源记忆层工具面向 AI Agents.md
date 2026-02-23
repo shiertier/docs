@@ -72,3 +72,4 @@ Universal memory layer for AI Agents
 - [[00-元语/context-database]]
 - [[00-元语/sdk]]
 - [[00-元语/self-hosting]]
+- [[00-元语/github]]

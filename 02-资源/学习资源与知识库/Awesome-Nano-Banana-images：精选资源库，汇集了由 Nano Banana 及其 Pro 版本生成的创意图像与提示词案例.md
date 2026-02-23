@@ -68,6 +68,7 @@ A curated collection of fun and creative examples generated with Nano Banana & N
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/image-editing]]

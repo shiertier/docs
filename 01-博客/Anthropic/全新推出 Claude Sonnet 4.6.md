@@ -86,14 +86,16 @@ Claude Sonnet 4.6 现已在所有 Claude 计划、Claude Cowork、Claude Code、
 
 ## 相关文档
 
-- [[01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型|推出 Claude Opus 4.6：全面升级的最智能模型]]；关联理由：同一事件；说明：两篇内容都属于 Anthropic 同期 4.6 系列发布，可对照 Sonnet 与 Opus 的产品定位与能力边界；
-- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：同一事件；说明：本文在相关动态提到 Claude Code Security，可与该文互补理解其安全能力与使用边界；
-- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：上下游；说明：Sonnet 4.6 的能力升级为受监管行业落地提供模型基础，而 Infosys 合作文档呈现其企业应用场景；
+- [[01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型-2|推出 Claude Opus 4.6：全面升级的最智能模型]]；关联理由：同一事件；说明：两篇内容都属于 Anthropic 同期 4.6 系列发布，可对照 Sonnet 与 Opus 的产品定位与能力边界。
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：解说；说明：本文仅概述了 Claude Code Security 动态，该文补足其工作机制、人工审批边界与实战发现。
+- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：上下游；说明：Sonnet 4.6 的模型能力构成企业落地基础，而该文展开了其在受监管行业的交付场景与合作路径。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]
 - [[00-元语/mcp]]
 - [[00-元语/security]]
 - [[00-元语/benchmark]]
+- [[00-元语/context-optimization]]

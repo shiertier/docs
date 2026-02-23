@@ -89,5 +89,6 @@ Cherry Studio 的定位是“AI 生产力工作室”桌面客户端，强调在
 - [[00-元语/multimodal]]
 - [[00-元语/mcp]]
 - [[00-元语/productivity]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/compliance]]

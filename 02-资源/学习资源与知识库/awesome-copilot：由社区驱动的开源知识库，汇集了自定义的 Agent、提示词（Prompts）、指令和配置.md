@@ -67,6 +67,10 @@ Community-contributed instructions, prompts, and configurations to help you make
 - README：https://raw.githubusercontent.com/github/awesome-copilot/main/README.md
 - Releases：https://github.com/github/awesome-copilot/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/GitHub Copilot SDK：Copilot agent 工作流多语言集成开发包|GitHub Copilot SDK：Copilot agent 工作流多语言集成开发包]]；关联理由：上下游；说明：本文提到的官方插件包含 Copilot SDK，而该文档详细展开了 SDK 的接入方式与权限边界。
+
 ## 关联主题
 
 - [[00-元语/copilot]]
@@ -82,3 +86,4 @@ Community-contributed instructions, prompts, and configurations to help you make
 - [[00-元语/learning-resource]]
 - [[00-元语/sdk]]
 - [[00-元语/security]]
+- [[00-元语/workflow]]

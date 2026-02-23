@@ -68,4 +68,4 @@ A topic-centric list of HQ open datasets.
 
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
-- [[00-元语/benchmark]]
+- [[00-元语/wiki]]

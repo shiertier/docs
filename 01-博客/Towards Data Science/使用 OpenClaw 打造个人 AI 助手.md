@@ -121,5 +121,7 @@ OpenClaw 最棒的地方在于它的个性化能力：你可以准确地告诉�
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
 - [[00-元语/github]]
+- [[00-元语/memory]]
 - [[00-元语/security]]
+- [[00-元语/self-hosting]]
 - [[00-元语/skills]]

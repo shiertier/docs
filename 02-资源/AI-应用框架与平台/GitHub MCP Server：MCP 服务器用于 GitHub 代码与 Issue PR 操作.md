@@ -64,7 +64,9 @@ GitHub's official MCP Server
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/cli]]
 - [[00-元语/github]]
+- [[00-元语/ide]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
 - [[00-元语/workflow]]

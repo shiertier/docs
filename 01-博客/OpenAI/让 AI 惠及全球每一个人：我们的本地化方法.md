@@ -68,3 +68,4 @@ OpenAI 的使命是确保通用人工智能（AGI）造福全人类。为了实�
 - [[00-元语/ChatGPT]]
 - [[00-元语/alignment]]
 - [[00-元语/compliance]]
+- [[00-元语/risk]]

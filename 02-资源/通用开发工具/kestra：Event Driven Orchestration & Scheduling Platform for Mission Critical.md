@@ -65,10 +65,15 @@ Event Driven Orchestration & Scheduling Platform for Mission Critical Applicatio
 - README：https://raw.githubusercontent.com/kestra-io/kestra/develop/README.md
 - Releases：https://github.com/kestra-io/kestra/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Conductor：面向微服务与 AI Agent 的事件驱动工作流编排引擎|Conductor：面向微服务与 AI Agent 的事件驱动工作流编排引擎]]；关联理由：观点一致；说明：两者都聚焦事件驱动工作流编排与任务调度，强调生产级可靠执行能力。
+
 ## 关联主题
 
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/ETL]]
+- [[00-元语/stream-processing]]
 - [[00-元语/github]]

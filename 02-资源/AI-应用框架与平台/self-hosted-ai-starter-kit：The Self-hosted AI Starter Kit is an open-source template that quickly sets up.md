@@ -64,10 +64,17 @@ The Self-hosted AI Starter Kit is an open-source template that quickly sets up a
 - README：https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/README.md
 - Releases：https://github.com/n8n-io/self-hosted-ai-starter-kit/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/n8n：可视化与代码结合的工作流自动化工具|n8n：可视化与代码结合的工作流自动化工具]]；关联理由：上下游；说明：self-hosted-ai-starter-kit 由 n8n 团队维护并以 n8n 平台能力为基础，属于平台到落地模板的上下游关系。
+- [[02-资源/AI-应用框架与平台/n8n-workflows：n8n 自动化工作流模板集合|n8n-workflows：n8n 自动化工作流模板集合]]；关联理由：延伸思考；说明：两者都服务于 n8n 工作流复用，一个聚焦本地 AI 环境起步，另一个聚焦模板检索与复用扩展。
+
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]
 - [[00-元语/security]]
+- [[00-元语/compliance]]

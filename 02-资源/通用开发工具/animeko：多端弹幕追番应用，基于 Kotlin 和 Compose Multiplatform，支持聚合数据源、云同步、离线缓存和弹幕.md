@@ -63,6 +63,10 @@ Animeko 是一款基于 Kotlin 和 Compose Multiplatform 构建的跨平台一�
 - README：https://raw.githubusercontent.com/open-ani/animeko/main/README.md
 - Releases：https://github.com/open-ani/animeko/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Kazumi：基于 Flutter 开发的高人气开源番剧采集与在线观看应用，支持通过自定义 Xpath 规则抓取视频源|Kazumi：基于 Flutter 开发的高人气开源番剧采集与在线观看应用，支持通过自定义 Xpath 规则抓取视频源]]；关联理由：延伸思考；说明：同为开源跨平台番剧与弹幕应用，便于横向比较技术栈与数据源组织方式。
+
 ## 关联主题
 
 - [[00-元语/tool]]

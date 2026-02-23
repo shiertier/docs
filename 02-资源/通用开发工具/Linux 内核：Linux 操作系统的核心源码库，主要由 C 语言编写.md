@@ -61,6 +61,10 @@ Linux kernel source tree
 - README：https://raw.githubusercontent.com/torvalds/linux/main/README.md
 - Releases：https://github.com/torvalds/linux/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/WSL：微软开源的通用开发工具，允许用户在 Windows 上直接运行原生 Linux 命令行工具和应用程序|WSL：微软开源的通用开发工具，允许用户在 Windows 上直接运行原生 Linux 命令行工具和应用程序]]；关联理由：上下游；说明：WSL2 运行环境依赖 Linux 内核分支，Linux 内核仓库是其上游基础。
+
 ## 关联主题
 
 - [[00-元语/github]]

@@ -65,6 +65,10 @@ RAG-Anything 是一个开源项目，归档分类为“AI-模型与推理基础�
 - README：https://raw.githubusercontent.com/HKUDS/RAG-Anything/main/README.md
 - Releases：https://github.com/HKUDS/RAG-Anything/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/LightRAG：简单且快速的检索增强生成（RAG）系统，通过结合知识图谱、双层检索机制以及多模态支持|LightRAG：简单且快速的检索增强生成（RAG）系统，通过结合知识图谱、双层检索机制以及多模态支持]]；关联理由：上下游；说明：RAG-Anything 官方 README 明确标注其构建于 LightRAG 之上，二者属于同一 RAG 能力链路的上下游关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]

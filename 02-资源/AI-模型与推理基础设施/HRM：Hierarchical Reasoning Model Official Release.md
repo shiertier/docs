@@ -71,3 +71,4 @@ Hierarchical Reasoning Model Official Release
 - [[00-元语/benchmark]]
 - [[00-元语/evals]]
 - [[00-元语/github]]
+- [[00-元语/llm]]

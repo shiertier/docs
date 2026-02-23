@@ -136,3 +136,4 @@ To make the most of AI, the key is to design workflows that fit AI's strengths. 
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]
 - [[00-元语/tool]]
+- [[00-元语/github]]

@@ -44,7 +44,7 @@ OpenViking 是一个由火山引擎（volcengine）开源的 AI 记忆与检索�
 
 ## 相关文档
 
-- [[02-资源/AI-应用框架与平台/OpenViking：面向 AI Agent 的上下文数据库|OpenViking：面向 AI Agent 的上下文数据库]]；关联理由：解说；说明：同一项目在“应用框架与平台”分类下补充了定位、场景与使用方式。
+- [[02-资源/AI-应用框架与平台/OpenViking：面向 AI Agent 的上下文数据库|OpenViking：面向 AI Agent 的上下文数据库]]；关联理由：解说；说明：同一项目在“应用框架与平台”分类下补充了定位、场景与使用方式；
 
 ## 关联主题
 

@@ -42,4 +42,6 @@ title: "00-元语：关系图谱入口"
 - [[00-元语/wiki]]
 - [[00-元语/关系图谱]]
 - [[00-元语/knowledge-graph]]
+- [[00-元语/learning-resource]]
+- [[00-元语/book]]
 - [[00-元语/workflow]]

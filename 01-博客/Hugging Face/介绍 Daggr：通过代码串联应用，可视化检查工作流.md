@@ -293,5 +293,5 @@ Daggr 目前处于测试阶段，且被有意设计为轻量级。API 可能会�
 
 - [[00-元语/AI]]
 - [[00-元语/workflow]]
+- [[00-元语/data-pipeline]]
 - [[00-元语/multimodal]]
-- [[00-元语/tool]]

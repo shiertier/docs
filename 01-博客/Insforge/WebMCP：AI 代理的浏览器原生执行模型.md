@@ -141,6 +141,7 @@ InsForge 利用模型上下文协议（MCP）为 AI 代理提供结构化、由 
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/mcp]]
 - [[00-元语/Agent]]
 - [[00-元语/browser-automation]]

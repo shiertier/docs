@@ -69,6 +69,4 @@ A new bootable USB solution.
 
 - [[00-元语/tool]]
 - [[00-元语/github]]
-- [[00-元语/cli]]
 - [[00-元语/windows]]
-- [[00-元语/hardware-control]]

@@ -67,3 +67,4 @@ title: "谷歌突发Gemini 3.1 Pro：首次采用「.1」版本号，推理性�
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/benchmark]]
+- [[00-元语/vibe-coding]]

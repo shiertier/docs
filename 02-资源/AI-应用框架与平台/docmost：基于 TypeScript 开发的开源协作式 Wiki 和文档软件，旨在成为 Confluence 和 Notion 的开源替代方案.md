@@ -63,6 +63,10 @@ Docmost is an open-source collaborative wiki and documentation software. It is a
 - README：https://raw.githubusercontent.com/docmost/docmost/main/README.md
 - Releases：https://github.com/docmost/docmost/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/AppFlowy：Bring projects, wikis, and teams together with AI|AppFlowy：Bring projects, wikis, and teams together with AI]]；关联理由：观点一致；说明：两者都定位为面向团队协作与知识沉淀的开源工作区，并明确强调对 Notion/Confluence 类产品的替代方向。
+
 ## 关联主题
 
 - [[00-元语/wiki]]
@@ -70,3 +74,4 @@ Docmost is an open-source collaborative wiki and documentation software. It is a
 - [[00-元语/github]]
 - [[00-元语/知识工作]]
 - [[00-元语/typescript]]
+- [[00-元语/productivity]]

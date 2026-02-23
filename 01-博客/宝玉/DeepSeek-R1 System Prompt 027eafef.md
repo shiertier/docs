@@ -69,12 +69,19 @@ Key Guidelines:
 
 Knowledge cutoff: {{current_date}}
 
+## 相关文档
+
+- [[01-博客/宝玉/教你如何破解 DeepSeek R1 系统提示词.md|教你如何破解 DeepSeek R1 系统提示词]]；关联理由：同一事件；说明：两文都围绕 DeepSeek R1 的系统提示词，一篇给出提示词文本，一篇讨论提取与验证过程。
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d.md|ChatGPT Agent System Prompt]]；关联理由：解说；说明：同属系统提示词文档，可用于对照不同模型在身份声明、安全边界和输出规范上的差异。
+- [[01-博客/宝玉/OpenAI Operator System Prompt bf11c9d9.md|OpenAI Operator System Prompt]]；关联理由：延伸思考；说明：从通用聊天助手提示词延伸到工具调用型代理提示词，有助于比较能力边界与约束强度。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
+- [[00-元语/markdown]]
 - [[00-元语/compliance]]
 - [[00-元语/security]]
 - [[00-元语/alignment]]

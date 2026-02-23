@@ -22,6 +22,7 @@ virtual-file-system（VFS）是将底层数据库、对象存储或本地磁盘�
 ## 相关词条
 
 - [[00-元语/context-database]]
+- [[00-元语/context-optimization]]
 - [[00-元语/Agent]]
 - [[00-元语/memory]]
 - [[00-元语/mcp]]
@@ -30,12 +31,14 @@ virtual-file-system（VFS）是将底层数据库、对象存储或本地磁盘�
 ## 相关文档
 
 - [[01-博客/LangChain/Agent Builder 记忆系统构建方法|Agent Builder 记忆系统构建方法]]；关联理由：解说；说明：该文详细解释了“Postgres 存储 + 文件系统暴露给 Agent”的 VFS 实践路径。
+- [[01-博客/LangChain/Deep Agents 的上下文管理|Deep Agents 的上下文管理]]；关联理由：解说；说明：该文解释了 Agent 如何借助文件系统抽象进行上下文卸载与检索，体现了 VFS 在长任务中的作用。
 - [[02-资源/AI-应用框架与平台/AgentFS：将 SQLite 映射为 agent 可挂载虚拟文件系统|AgentFS：将 SQLite 映射为 agent 可挂载虚拟文件系统]]；关联理由：上下游；说明：该项目提供了将数据库映射为可挂载 VFS 的实现，可视为该概念的工程化落地。
 
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/context-database]]
+- [[00-元语/context-optimization]]
 - [[00-元语/memory]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]

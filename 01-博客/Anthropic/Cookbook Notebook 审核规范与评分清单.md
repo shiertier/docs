@@ -501,5 +501,6 @@ client = anthropic.Anthropic()
 - [[00-元语/skills]]
 - [[00-元语/Claude]]
 - [[00-元语/evals]]
+- [[00-元语/compliance]]
 - [[00-元语/security]]
 - [[00-元语/markdown]]

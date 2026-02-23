@@ -155,3 +155,5 @@ AI 的新篇章由您书写。
 - [[00-元语/mcp]]
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
+- [[00-元语/self-hosting]]
+- [[00-元语/security]]

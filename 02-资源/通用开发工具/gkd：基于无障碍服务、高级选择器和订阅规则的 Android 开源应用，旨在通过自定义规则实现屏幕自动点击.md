@@ -67,7 +67,6 @@ GKD 是一款基于无障碍服务、高级选择器和订阅规则的 Android �
 ## 关联主题
 
 - [[00-元语/tool]]
-- [[00-元语/browser-automation]]
 - [[00-元语/github]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]

@@ -74,3 +74,4 @@ Turn any PDF or image document into structured data for your AI. A powerful, lig
 - [[00-元语/mcp]]
 - [[00-元语/Agent]]
 - [[00-元语/markdown]]
+- [[00-元语/github]]

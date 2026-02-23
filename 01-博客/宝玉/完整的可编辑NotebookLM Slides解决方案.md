@@ -227,6 +227,11 @@ If you found this helpful, a Like/Retweet is appreciated! Let me know in the com
 
 [https://x.com/dotey/status/2002561113842495805](https://x.com/dotey/status/2002561113842495805)
 
+## 相关文档
+
+- [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：同一事件；说明：两篇文章都围绕“可编辑版 NotebookLM Slides”给出同源工作流与提示词框架，属于同一主题的不同表述。
+- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：上下游；说明：该文提供用于产出幻灯片大纲的系统提示词，是本文“先规划后生成”流程中的上游输入。
+
 ## 关联主题
 
 - [[00-元语/AI]]

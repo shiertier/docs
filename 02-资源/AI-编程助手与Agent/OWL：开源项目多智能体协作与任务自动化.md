@@ -72,3 +72,4 @@ OWL 是一个基于 CAMEL-AI 框架构建的多智能体协作框架，旨在通
 - [[00-元语/browser-automation]]
 - [[00-元语/benchmark]]
 - [[00-元语/multimodal]]
+- [[00-元语/workflow]]

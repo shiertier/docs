@@ -98,4 +98,6 @@ Frontier 今天已向部分客户开放，并将在未来几个月内扩大可�
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/workflow]]
+- [[00-元语/memory]]
 - [[00-元语/security]]
+- [[00-元语/compliance]]

@@ -303,3 +303,4 @@ title: "AI Memory：高质量仓库与博客产品清单"
 - [[00-元语/context-optimization]]
 - [[00-元语/knowledge-graph]]
 - [[00-元语/github]]
+- [[00-元语/learning-resource]]

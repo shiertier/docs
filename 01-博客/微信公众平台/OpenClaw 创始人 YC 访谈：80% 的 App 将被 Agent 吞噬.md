@@ -134,5 +134,10 @@ Peter 在访谈最后感慨：“We are so early.” 我们确实还处在非常
 
 - [[00-元语/Agent]]
 - [[00-元语/memory]]
+- [[00-元语/hardware-control]]
+- [[00-元语/cli]]
 - [[00-元语/mcp]]
+- [[00-元语/Codex]]
+- [[00-元语/github]]
+- [[00-元语/OpenAI]]
 - [[00-元语/workflow]]

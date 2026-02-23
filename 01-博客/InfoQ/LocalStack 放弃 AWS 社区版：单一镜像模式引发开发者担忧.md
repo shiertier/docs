@@ -66,5 +66,7 @@ LocalStack 允许应用程序在不连接到实时 AWS 云的情况下，在本�
 - [[00-元语/serverless]]
 - [[00-元语/CI]]
 - [[00-元语/community]]
+- [[00-元语/security]]
 - [[00-元语/risk]]
 - [[00-元语/workflow]]
+- [[00-元语/cli]]

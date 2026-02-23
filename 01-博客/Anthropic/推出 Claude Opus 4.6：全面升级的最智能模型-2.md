@@ -91,4 +91,5 @@ Claude Opus 4.6 今日起在 claude.ai、我们的 API 以及所有主要云平�
 - [[00-元语/Agent]]
 - [[00-元语/benchmark]]
 - [[00-元语/context-optimization]]
+- [[00-元语/alignment]]
 - [[00-元语/security]]

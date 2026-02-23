@@ -72,6 +72,7 @@ Curated coding interview preparation materials for busy software engineers
 
 - [[00-元语/interview]]
 - [[00-元语/career]]
+- [[00-元语/roadmap]]
 - [[00-元语/软件工程]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]

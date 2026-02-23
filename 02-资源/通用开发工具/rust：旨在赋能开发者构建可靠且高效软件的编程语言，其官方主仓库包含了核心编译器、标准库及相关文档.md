@@ -69,5 +69,5 @@ Empowering everyone to build reliable and efficient software.
 
 - [[00-元语/github]]
 - [[00-元语/cli]]
-- [[00-元语/tool]]
+- [[00-元语/security]]
 - [[00-元语/软件工程]]

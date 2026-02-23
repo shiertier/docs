@@ -43,12 +43,10 @@ OpenAI：[https://platform.openai.com/playground](https://platform.openai.com/pl
 
 截图来源：[https://baoyu.io/blog/how-to-write-good-prompt](https://baoyu.io/blog/how-to-write-good-prompt)
 
-[ite-good-prompt](https://baoyu.io/blog/how-to-write-good-prompt)
-
 ## 相关文档
 
 - [[01-博客/宝玉/如何写好提示词？|如何写好提示词？]]；关联理由：引用；说明：本文正文明确标注该文为截图来源，且两文都讨论如何提升 Prompt 质量。
-- [[01-博客/宝玉/如何写出高质量的 Prompt？|如何写出高质量的 Prompt？]]；关联理由：延伸思考；说明：两文都强调高质量 Prompt 依赖人类策略，该文进一步给出更系统的模板与分层方法。
+- [[01-博客/宝玉/如何写出高质量的 Prompt？|如何写出高质量的 Prompt？]]；关联理由：延伸思考；说明：两文都聚焦 Prompt 质量提升，这篇强调人机协作分工，而关联文补充了模板化与分步推理方法。
 
 ## 关联主题
 

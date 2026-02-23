@@ -86,8 +86,8 @@ Genie 3 有望为教育和培训创造新机会，帮助学生学习并让专家
 
 ## 相关文档
 
-- [[01-博客/Google DeepMind/Genie 2：大规模基础3D世界模型|Genie 2：大规模基础3D世界模型]]；关联理由：版本演进；说明：本文中的 Genie 3 明确承接 Genie 2，并在实时交互与长期一致性上继续提升。；
-- [[01-博客/Google/Project Genie：探索无限的交互式世界|Project Genie：探索无限的交互式世界]]；关联理由：上下游；说明：Project Genie 以 Genie 3 作为核心引擎，将模型能力落地为可面向用户体验的交互式原型。；
+- [[01-博客/Google DeepMind/Genie 2：大规模基础3D世界模型|Genie 2：大规模基础3D世界模型]]；关联理由：版本演进；说明：Genie 3 在文中明确承接 Genie 2，并重点提升了实时交互与长时一致性。
+- [[01-博客/Google/Project Genie：探索无限的交互式世界|Project Genie：探索无限的交互式世界]]；关联理由：上下游；说明：Project Genie 把 Genie 3 的世界模型能力封装为可直接体验的交互式原型应用。
 
 ## 关联主题
 
@@ -95,4 +95,6 @@ Genie 3 有望为教育和培训创造新机会，帮助学生学习并让专家
 - [[00-元语/Agent]]
 - [[00-元语/multimodal]]
 - [[00-元语/video]]
+- [[00-元语/game]]
 - [[00-元语/risk]]
+- [[00-元语/interactive-storytelling]]

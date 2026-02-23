@@ -110,6 +110,7 @@ _**超越学者 GPT？**_ 尝试 Browser Pro 进行跨领域搜索：[https://ch
 ## 关联主题
 
 - [[00-元语/prompt]]
+- [[00-元语/ChatGPT]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/compliance]]

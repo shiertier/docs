@@ -64,9 +64,16 @@ Data Engineering Zoomcamp is a free 9-week course on building production-ready d
 - README：https://raw.githubusercontent.com/DataTalksClub/data-engineering-zoomcamp/main/README.md
 - Releases：https://github.com/DataTalksClub/data-engineering-zoomcamp/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/data-engineer-handbook：拥有超4万Stars的数据工程（Data Engineering）综合知识库|data-engineer-handbook：拥有超4万Stars的数据工程综合知识库]]；关联理由：上下游；说明：Zoomcamp 提供结构化实战课程，适合作为数据工程知识库条目的进阶学习路径。
+
 ## 关联主题
 
 - [[00-元语/learning-resource]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/ETL]]
+- [[00-元语/workflow]]
+- [[00-元语/stream-processing]]
+- [[00-元语/PostgreSQL]]
 - [[00-元语/github]]

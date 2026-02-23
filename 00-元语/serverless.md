@@ -7,7 +7,7 @@ title: "serverless"
 
 ## 定义
 
-用于聚合 serverless 相关文档。
+serverless（无服务器）是一种以云平台托管运行时为核心的应用交付模型。开发者主要负责业务代码与配置，计算资源供给、自动扩缩容与基础设施维护由平台完成。
 
 ## 核心内涵
 
@@ -24,6 +24,13 @@ title: "serverless"
 - [[00-元语/observability]]
 - [[00-元语/self-hosting]]
 - [[00-元语/wasm]]
+
+## 相关文档
+
+- [[00-元语/cloudflare|cloudflare]]；关联理由：解说；说明：Cloudflare Workers 是 serverless 在边缘计算场景中的代表性实现，可用于理解该模型的工程落地方式。
+- [[00-元语/durable-objects|durable-objects]]；关联理由：上下游；说明：Durable Objects 为 serverless 提供有状态执行能力，补足传统函数计算的无状态短板。
+- [[00-元语/self-hosting|self-hosting]]；关联理由：观点相悖；说明：self-hosting 与 serverless 在基础设施控制权与运维责任分配上形成直接对照。
+- [[00-元语/wasm|wasm]]；关联理由：上下游；说明：Wasm 常作为 serverless 平台中的高性能沙箱运行形态，二者在边缘执行中经常组合使用。
 
 ## 关联主题
 

@@ -62,9 +62,19 @@ aie-book 是一个开源项目，归档分类为“学习资源与知识库”�
 - README：https://raw.githubusercontent.com/chiphuyen/aie-book/main/README.md
 - Releases：https://github.com/chiphuyen/aie-book/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/AI Engineering Hub：AI 工程实践与资源合集|AI Engineering Hub：AI 工程实践与资源合集]]；关联理由：观点一致；说明：两者都聚焦 AI 工程实践与学习资料整理，适合作为互补入口。
+- [[02-资源/学习资源与知识库/Prompt-Engineering-Guide：极具人气且全面的开源知识库，专注于提供提示工程（Prompt Engineering）、RAG 和 AI 代理相关的指南、论文、课程及工具资源|Prompt-Engineering-Guide：提示工程与 RAG 学习资源]]；关联理由：上下游；说明：aie-book 覆盖提示工程与 RAG 的框架化问题，Prompt-Engineering-Guide 提供更细粒度的方法与资料索引。
+
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/prompt]]
+- [[00-元语/rag]]
+- [[00-元语/evals]]
 - [[00-元语/book]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]

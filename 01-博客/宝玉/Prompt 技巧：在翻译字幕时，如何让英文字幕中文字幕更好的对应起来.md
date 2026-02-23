@@ -208,5 +208,3 @@ required: ["fullTranslatedContent", "translatedSentences"],
 - [[00-元语/OpenAI]]
 - [[00-元语/protocol]]
 - [[00-元语/video]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]

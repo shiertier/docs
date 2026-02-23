@@ -94,6 +94,7 @@ ComfyUI 是一个强大且高度模块化的视觉 AI 引擎和应用程序。�
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/github]]
 - [[00-元语/workflow]]
 - [[00-元语/multimodal]]
 - [[00-元语/image-editing]]

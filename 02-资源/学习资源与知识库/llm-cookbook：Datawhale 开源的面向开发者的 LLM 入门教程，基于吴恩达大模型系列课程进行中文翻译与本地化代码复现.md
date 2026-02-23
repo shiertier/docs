@@ -66,6 +66,11 @@ title: "llm-cookbook：Datawhale 开源的面向开发者的 LLM 入门教程，
 - README：https://raw.githubusercontent.com/datawhalechina/llm-cookbook/main/README.md
 - Releases：https://github.com/datawhalechina/llm-cookbook/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/happy-llm：大语言模型学习与实践教程|happy-llm：大语言模型学习与实践教程]]；关联理由：上下游；说明：两者同属 Datawhale 的 LLM 学习路线，llm-cookbook 偏应用课程复现，happy-llm 更偏原理与从零实践。
+- [[02-资源/学习资源与知识库/self-llm：专为国内初学者打造的开源大模型教程，提供基于 Linux 环境的模型部署、应用集成与高效微调的全流程指导|self-llm：专为国内初学者打造的开源大模型教程，提供基于 Linux 环境的模型部署、应用集成与高效微调的全流程指导]]；关联理由：延伸思考；说明：可从课程复现延伸到国内环境下的模型部署、应用集成与微调实操。
+
 ## 关联主题
 
 - [[00-元语/llm]]
@@ -74,3 +79,5 @@ title: "llm-cookbook：Datawhale 开源的面向开发者的 LLM 入门教程，
 - [[00-元语/prompt]]
 - [[00-元语/rag]]
 - [[00-元语/Agent]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]

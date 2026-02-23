@@ -81,6 +81,7 @@ Open WebUI 的定位是面向团队与个人的 AI 交互与应用承载平台�
 - [[00-元语/self-hosting]]
 - [[00-元语/rag]]
 - [[00-元语/AI]]
+- [[00-元语/github]]
 - [[00-元语/observability]]
 - [[00-元语/llm]]
 - [[00-元语/llmops]]

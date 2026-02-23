@@ -67,7 +67,8 @@ The universal proxy platform
 
 ## 相关文档
 
-- [[02-资源/风险边界与合规/v2rayN：基于 C# 开发的跨平台代理 GUI 客户端，支持 Xray、sing-box 等多种代理核心|v2rayN：基于 C# 开发的跨平台代理 GUI 客户端，支持 Xray、sing-box 等多种代理核心]]；关联理由：上下游；说明：v2rayN 可调用 sing-box 作为代理核心，二者在部署形态与风险边界上存在直接依赖关系。
+- [[02-资源/风险边界与合规/v2rayN：桌面端图形界面客户端，支持 Xray、sing-box 等代理核心|v2rayN：桌面端图形界面客户端，支持 Xray、sing-box 等代理核心]]；关联理由：上下游；说明：v2rayN 明确支持 sing-box 作为代理核心，属于客户端与核心引擎的直接配套关系。
+- [[02-资源/风险边界与合规/karing：基于 Sing-box 的跨平台代理客户端|karing：基于 Sing-box 的跨平台代理客户端]]；关联理由：上下游；说明：karing 基于 Sing-box 构建图形客户端，直接复用 sing-box 能力并继承相应风险边界。
 
 ## 关联主题
 

@@ -70,4 +70,5 @@ A curated list of 120+ LLM libraries category wise.
 - [[00-元语/learning-resource]]
 - [[00-元语/reading]]
 - [[00-元语/llm]]
+- [[00-元语/tool]]
 - [[00-元语/github]]

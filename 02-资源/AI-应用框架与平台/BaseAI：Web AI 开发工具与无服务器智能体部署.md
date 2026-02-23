@@ -48,6 +48,10 @@ BaseAI 是一个 Web AI 框架，旨在为开发者提供便捷的途径，用�
 
 * GitHub 仓库：https://github.com/CommandCodeAI/BaseAI
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行|Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行]]；关联理由：观点一致；说明：两者都聚焦无服务器 AI Agent 构建，可用于对比不同平台的运行模型与部署路径。
+
 ## 关联主题
 
 - [[00-元语/memory]]

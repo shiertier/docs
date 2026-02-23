@@ -246,6 +246,10 @@ _图片来自_[_Latent Space_](https://x.com/nlpguy_/status/1883776497858883669)
 
 **Jordan Schneider：** 如果你将来不搞 AI 了，我看你很适合写 Substack……非常感谢你做客 ChinaTalk！
 
+## 相关文档
+
+- [[01-博客/宝玉/Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点.md|Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点]]；关联理由：版本演进；说明：同为 Dario 访谈脉络，后文延展了本篇对中美竞争与安全治理的后续判断。
+
 ## 关联主题
 
 - [[00-元语/AI]]

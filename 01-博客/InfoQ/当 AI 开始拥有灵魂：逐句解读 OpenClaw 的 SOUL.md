@@ -207,7 +207,9 @@ OpenClaw 的创造者是奥地利开发者 Peter Steinberger。他曾创办 PSPD
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/memory]]
 - [[00-元语/alignment]]
+- [[00-元语/security]]

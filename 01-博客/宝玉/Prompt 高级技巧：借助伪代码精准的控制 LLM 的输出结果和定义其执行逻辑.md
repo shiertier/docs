@@ -362,6 +362,7 @@ image_generation(image_prompt.style, image_prompt.prompt, image_prompt.aspectRat
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]
 - [[00-元语/video]]
 - [[00-元语/multimodal]]

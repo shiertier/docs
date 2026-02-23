@@ -72,4 +72,5 @@ FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive 
 - [[00-元语/rag]]
 - [[00-元语/workflow]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

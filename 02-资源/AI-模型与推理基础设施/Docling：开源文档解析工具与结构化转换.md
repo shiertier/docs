@@ -68,6 +68,10 @@ Get your documents ready for gen AI
 - README：https://raw.githubusercontent.com/docling-project/docling/main/README.md
 - Releases：https://github.com/docling-project/docling/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/docling：Get your documents ready for gen AI|docling：Get your documents ready for gen AI]]；关联理由：解说；说明：同一仓库的早期档案版本，可对照查看信息粒度从元数据汇总到能力细节化的补全过程。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -77,6 +81,7 @@ Get your documents ready for gen AI
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]
 - [[00-元语/asr]]
+- [[00-元语/ETL]]
 - [[00-元语/markdown]]
 - [[00-元语/mcp]]
 - [[00-元语/github]]

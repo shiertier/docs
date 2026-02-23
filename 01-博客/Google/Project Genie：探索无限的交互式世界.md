@@ -69,3 +69,4 @@ Project Genie 的访问权限从今天开始向美国的 Google AI Ultra 订阅�
 - [[00-元语/gemini]]
 - [[00-元语/multimodal]]
 - [[00-元语/interactive-storytelling]]
+- [[00-元语/game]]

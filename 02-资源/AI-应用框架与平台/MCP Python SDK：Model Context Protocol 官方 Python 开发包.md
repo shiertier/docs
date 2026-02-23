@@ -63,6 +63,11 @@ The official Python SDK for Model Context Protocol servers and clients
 - README：https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md
 - Releases：https://github.com/modelcontextprotocol/python-sdk/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/MCP Servers：MCP 官方参考实现与服务器生态索引|MCP Servers：MCP 官方参考实现与服务器生态索引]]；关联理由：解说；说明：该条目提供官方参考服务器与多语言 SDK 入口，可作为理解本 Python SDK 在 MCP 生态中定位的对照文档。
+- [[02-资源/AI-应用框架与平台/FastMCP：MCP 服务与客户端开发的 Python 工具库|FastMCP：MCP 服务与客户端开发的 Python 工具库]]；关联理由：版本演进；说明：FastMCP 1.0 曾并入官方 Python SDK，后续独立演进，与本条目存在明确的版本与能力边界关联。
+
 ## 关联主题
 
 - [[00-元语/AI]]

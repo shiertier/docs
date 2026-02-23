@@ -258,7 +258,7 @@ LTX-2 擅长的方面 (What Works Well with LTX-2)
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/prompt]]
 - [[00-元语/multimodal]]
 - [[00-元语/video]]
 - [[00-元语/audio]]
+- [[00-元语/prompt]]

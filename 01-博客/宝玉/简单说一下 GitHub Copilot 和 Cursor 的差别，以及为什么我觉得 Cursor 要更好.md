@@ -83,6 +83,7 @@ Agent 功能 Windsurf 做的非常好，Cursor 可能是借鉴的 Windsurf，Git
 - [[00-元语/github]]
 - [[00-元语/ide]]
 - [[00-元语/Agent]]
+- [[00-元语/AI]]
 - [[00-元语/context-optimization]]
 - [[00-元语/productivity]]
 - [[00-元语/prompt]]

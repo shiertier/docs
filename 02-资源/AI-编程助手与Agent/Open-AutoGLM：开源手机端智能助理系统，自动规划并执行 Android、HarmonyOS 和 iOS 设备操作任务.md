@@ -70,6 +70,11 @@ An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone
 - README：https://raw.githubusercontent.com/zai-org/Open-AutoGLM/main/README.md
 - Releases：https://github.com/zai-org/Open-AutoGLM/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/midscene：Driving all platforms UI automation with vision-based model|midscene：Driving all platforms UI automation with vision-based model]]；关联理由：上下游；说明：Open-AutoGLM 已声明适配 Midscene.js，可将其手机端操作能力接入 Midscene 的跨平台 UI 自动化链路。
+- [[02-资源/AI-编程助手与Agent/UI-TARS：Pioneering Automated GUI Interaction with Native Agents|UI-TARS：Pioneering Automated GUI Interaction with Native Agents]]；关联理由：观点一致；说明：两者都以视觉驱动的 GUI Agent 为核心，关注自然语言到设备界面操作的自动执行。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -77,5 +82,6 @@ An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/hardware-control]]
-- [[00-元语/sdk]]
+- [[00-元语/self-hosting]]
+- [[00-元语/github]]
 - [[00-元语/compliance]]

@@ -80,6 +80,7 @@ Cursor 既不是牛马，也不是老师，更不是玄学，它是工具
 ## 关联主题
 
 - [[00-元语/Cursor]]
+- [[00-元语/vibe-coding]]
 - [[00-元语/context-optimization]]
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]
@@ -87,6 +88,7 @@ Cursor 既不是牛马，也不是老师，更不是玄学，它是工具
 - [[00-元语/code-review]]
 - [[00-元语/security]]
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/ide]]
 - [[00-元语/Claude]]
 - [[00-元语/ChatGPT]]

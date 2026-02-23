@@ -135,7 +135,7 @@ title: "ReAct 框架与 AI Agent：当 AI 学会自己思考和行动"
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/prompt]]
-- [[00-元语/react]]
 - [[00-元语/llm]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
+- [[00-元语/decision-making]]

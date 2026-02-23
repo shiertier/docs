@@ -40,6 +40,10 @@ memU 是一款 AI 编程助手与 Agent 工具，其核心定位是为全天候�
 
 * https://github.com/NevaMind-AI/memU
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/Clawdbot：面向代码与数据的智能体工具|Clawdbot：面向代码与数据的智能体工具]]；关联理由：上下游；说明：memU 提供持续记忆能力，而 Clawdbot 属于文内明确提到的相关机器人生态，形成记忆基础层与智能体应用层关系。
+
 ## 关联主题
 
 - [[00-元语/memory]]

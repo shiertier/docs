@@ -285,5 +285,6 @@ Boris 在推文开头强调“没有唯一正确的使用方式”，这是最�
 - [[00-元语/bug-fix]]
 - [[00-元语/code-review]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/workflow]]
 - [[00-元语/productivity]]

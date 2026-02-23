@@ -107,6 +107,12 @@ Based on the outline above, design each key slide (or each core knowledge point)
 
         *   ...
 
+## 相关文档
+
+- [[01-博客/宝玉/Google NotebookLM 系统提示词|Google NotebookLM 系统提示词]]；关联理由：解说；说明：该文解释了 NotebookLM 的底层提示词设计目标，可作为本篇“讲解视频脚本提示词”的人设与目标来源背景。
+- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：版本演进；说明：两篇都面向 NotebookLM 的幻灯片叙事生成，本篇偏讲解视频脚本，该文延展到可读型 Slide Deck 大纲。
+- [[01-博客/宝玉/完整的可编辑NotebookLM Slides解决方案|The complete "Editable NotebookLM Slides" solution]]；关联理由：上下游；说明：本篇给出脚本生成提示词，而该文提供后续把大纲落到可编辑幻灯片与图像生成的执行工作流。
+
 ## 关联主题
 
 - [[00-元语/AI]]

@@ -71,6 +71,7 @@ The Frontend for Agents & Generative UI. React + Angular
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/copilot]]
 - [[00-元语/github]]
 - [[00-元语/sdk]]
 - [[00-元语/typescript]]

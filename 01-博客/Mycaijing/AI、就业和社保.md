@@ -124,7 +124,6 @@ title: "AI、就业和社保"
 
 - [[00-元语/AI]]
 - [[00-元语/career]]
-- [[00-元语/decision-making]]
 - [[00-元语/productivity]]
 - [[00-元语/知识工作]]
 - [[00-元语/risk]]

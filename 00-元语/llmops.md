@@ -18,6 +18,7 @@ LLMOps（Large Language Model Operations）是 DevOps 与机器学习工程在�
 - 评测驱动：建立系统化的评测基准（Evals），在模型版本切换或提示词修改时进行自动化回归测试，确保输出质量不降级。
 - 全链路观测：对 Token 消耗、推理延迟、用户反馈及系统错误进行细粒度监控，核心关注质量、成本、延迟、稳定性与合规性。
 - 提示词与配置管理：将提示词、模型参数及系统预设视为代码资产，纳入版本控制系统，实现变更的可追溯与快速回滚。
+- 质量门禁与发布编排：把评测阈值、回归结果与发布策略纳入 CI 流程，确保模型与应用版本在上线前满足统一门禁标准。
 - 安全与护栏：在输入与输出两端部署安全护栏，防范提示词注入攻击，过滤有害内容，确保应用符合伦理与合规标准。
 
 ## 相关词条
@@ -28,6 +29,7 @@ LLMOps（Large Language Model Operations）是 DevOps 与机器学习工程在�
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/evals]]
 - [[00-元语/observability]]
@@ -35,6 +37,7 @@ LLMOps（Large Language Model Operations）是 DevOps 与机器学习工程在�
 - [[00-元语/context-optimization]]
 - [[00-元语/rag]]
 - [[00-元语/workflow]]
+- [[00-元语/CI]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/compliance]]
 - [[00-元语/security]]

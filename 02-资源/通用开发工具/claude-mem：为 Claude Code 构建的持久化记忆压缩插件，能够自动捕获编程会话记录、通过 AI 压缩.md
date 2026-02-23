@@ -77,5 +77,6 @@ A Claude Code plugin that automatically captures everything Claude does during y
 - [[00-元语/memory]]
 - [[00-元语/Agent]]
 - [[00-元语/cli]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]

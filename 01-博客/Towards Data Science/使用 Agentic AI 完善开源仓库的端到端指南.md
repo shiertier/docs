@@ -139,4 +139,6 @@ GAN-MFS 是一个提供 Wasserstein GAN 带有梯度惩罚 (WGAN-GP) 的 PyTorch
 - [[00-元语/llm]]
 - [[00-元语/github]]
 - [[00-元语/CI]]
+- [[00-元语/README]]
+- [[00-元语/cli]]
 - [[00-元语/软件工程]]

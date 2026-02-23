@@ -69,4 +69,3 @@ Opensource IDE For Exploring and Testing API's (lightweight alternative to Postm
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]

@@ -69,6 +69,8 @@ LlamaIndex is the leading document agent and OCR platform
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/rag]]
 - [[00-元语/ocr]]
 - [[00-元语/mcp]]
 - [[00-元语/workflow]]

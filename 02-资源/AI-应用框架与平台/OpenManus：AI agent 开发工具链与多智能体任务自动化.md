@@ -78,4 +78,5 @@ OpenManus 面向“可自行部署、可自行改造”的通用 AI agent 开发
 - [[00-元语/browser-automation]]
 - [[00-元语/llm]]
 - [[00-元语/cli]]
+- [[00-元语/workflow]]
 - [[00-元语/self-hosting]]

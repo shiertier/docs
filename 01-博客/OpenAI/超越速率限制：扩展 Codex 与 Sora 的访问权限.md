@@ -115,6 +115,7 @@ title: "超越速率限制：扩展 Codex 与 Sora 的访问权限"
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
+- [[00-元语/video]]
 - [[00-元语/rate-limiting]]
 - [[00-元语/stream-processing]]
 - [[00-元语/observability]]

@@ -67,6 +67,10 @@ The best ChatGPT that $100 can buy.
 - README：https://raw.githubusercontent.com/karpathy/nanochat/master/README.md
 - Releases：https://github.com/karpathy/nanochat/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/nanoGPT：极简且高效的开源 Python 仓库，专用于训练和微调中型 GPT 模型（如复现 GPT-2）|nanoGPT：极简且高效的开源 Python 仓库，专用于训练和微调中型 GPT 模型（如复现 GPT-2）]]；关联理由：版本演进；说明：该文档明确记录 nanoGPT 已弃用并推荐迁移到 nanochat，可作为该项目的前代背景与演进脉络。
+
 ## 关联主题
 
 - [[00-元语/AI]]

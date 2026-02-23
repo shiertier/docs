@@ -79,3 +79,4 @@ Data Formulator 是微软开源的一款 AI 驱动的数据可视化与探索工
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

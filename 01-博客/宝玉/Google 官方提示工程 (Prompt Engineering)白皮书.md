@@ -1155,11 +1155,13 @@ Toggle theme
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/gemini]]
-- [[00-元语/react]]
+- [[00-元语/multimodal]]
 - [[00-元语/Agent]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/paper]]
 - [[00-元语/learning-resource]]

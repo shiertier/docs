@@ -83,6 +83,7 @@ title: "如何写一个批改英语作业的 Prompt？"
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]
 - [[00-元语/learning-resource]]

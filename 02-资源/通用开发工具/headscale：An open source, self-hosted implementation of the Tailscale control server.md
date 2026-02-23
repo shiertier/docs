@@ -63,6 +63,10 @@ An open source, self-hosted implementation of the Tailscale control server
 - README：https://raw.githubusercontent.com/juanfont/headscale/main/README.md
 - Releases：https://github.com/juanfont/headscale/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/webvm：浏览器中的无服务器 Linux 虚拟机|webvm：浏览器中的无服务器 Linux 虚拟机]]；关联理由：上下游；说明：该工具支持接入 Headscale 网络，体现了 Headscale 在浏览器虚拟机场景中的落地关系。
+
 ## 关联主题
 
 - [[00-元语/github]]

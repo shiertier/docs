@@ -88,3 +88,4 @@ title: "Generative AI for Beginners：微软 21 课生成式 AI 入门课程"
 - [[00-元语/prompt]]
 - [[00-元语/typescript]]
 - [[00-元语/OpenAI]]
+- [[00-元语/security]]

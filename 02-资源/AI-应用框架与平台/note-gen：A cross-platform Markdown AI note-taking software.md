@@ -70,6 +70,7 @@ A cross-platform Markdown AI note-taking software.
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/markdown]]
+- [[00-元语/typescript]]
 - [[00-元语/desktop-client]]
 - [[00-元语/productivity]]
 - [[00-元语/github]]

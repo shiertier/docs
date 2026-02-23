@@ -69,5 +69,6 @@ title: "awesome-mac：macOS 应用与工具清单"
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/desktop-client]]
+- [[00-元语/community]]
 - [[00-元语/productivity]]
 - [[00-元语/tool]]

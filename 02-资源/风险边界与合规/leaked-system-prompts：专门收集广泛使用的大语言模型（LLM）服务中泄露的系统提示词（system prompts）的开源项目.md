@@ -67,6 +67,10 @@ Collection of leaked system prompts
 - README：https://raw.githubusercontent.com/jujumilk3/leaked-system-prompts/main/README.md
 - Releases：https://github.com/jujumilk3/leaked-system-prompts/releases
 
+## 相关文档
+
+- [[02-资源/风险边界与合规/system_prompts_leaks：专门收集和公开 ChatGPT、Claude 和 Gemini 等主流 AI 聊天机器人系统提示词（System Prompts）的开源项目|system_prompts_leaks：专门收集和公开 ChatGPT、Claude 和 Gemini 等主流 AI 聊天机器人系统提示词（System Prompts）的开源项目]]；关联理由：观点一致；说明：两者都以公开收集主流 LLM 产品泄露的 system prompts 为核心定位，可用于交叉核对覆盖范围与合规边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]

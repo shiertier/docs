@@ -220,5 +220,6 @@ Agent Builder 唯一缺失的 COALA 记忆类型是情景记忆：Agent 过去�
 - [[00-元语/virtual-file-system]]
 - [[00-元语/PostgreSQL]]
 - [[00-元语/prompt]]
+- [[00-元语/security]]
 - [[00-元语/skills]]
 - [[00-元语/llm]]

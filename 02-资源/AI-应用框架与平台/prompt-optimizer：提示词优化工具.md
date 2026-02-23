@@ -68,6 +68,7 @@ Prompt Optimizer 是一款基于 TypeScript 开发的开源提示词优化工具
 - [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
 - [[00-元语/Claude]]

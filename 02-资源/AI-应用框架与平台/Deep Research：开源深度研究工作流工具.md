@@ -63,6 +63,11 @@ An AI-powered research assistant that performs iterative, deep research on any t
 - README：https://raw.githubusercontent.com/dzhng/deep-research/main/README.md
 - Releases：https://github.com/dzhng/deep-research/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Firecrawl：面向 LLM 的网页抓取与结构化提取服务|Firecrawl：面向 LLM 的网页抓取与结构化提取服务]]；关联理由：上下游；说明：本项目依赖 Firecrawl 完成搜索与网页内容提取，Firecrawl 文档可补充底层能力与边界。
+- [[02-资源/AI-应用框架与平台/deep-searcher：Open Source Deep Research Alternative to Reason and Search on Private Data|deep-searcher：Open Source Deep Research Alternative to Reason and Search on Private Data]]；关联理由：观点一致；说明：两者都以“检索 + 推理 + 报告输出”为核心流程，属于开源深度研究工具的同类方案。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -74,3 +79,4 @@ An AI-powered research assistant that performs iterative, deep research on any t
 - [[00-元语/self-hosting]]
 - [[00-元语/typescript]]
 - [[00-元语/github]]
+- [[00-元语/markdown]]

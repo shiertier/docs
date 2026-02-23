@@ -71,4 +71,5 @@ Nuxt Studio 引入了一系列旨在弥合开发者与内容创作者之间鸿�
 
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
+- [[00-元语/CI]]
 - [[00-元语/workflow]]

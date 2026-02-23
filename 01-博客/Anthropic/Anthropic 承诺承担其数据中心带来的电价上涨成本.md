@@ -66,13 +66,14 @@ Sonnet 4.6 在编程、智能体（agents）以及大规模专业工作方面展
 
 ## 相关文档
 
-- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：同一事件；说明：本文“其他相关动态”中提到的 Claude Code Security 在该文中有独立展开。
-- [[01-博客/Anthropic/Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用|Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用]]；关联理由：同一事件；说明：本文提及与卢旺达政府签署 MOU，该文是同一合作事项的详细版。
-- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：同一事件；说明：本文“其他相关动态”同步宣布 Sonnet 4.6，该文提供模型发布细节。
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：解说；说明：本文仅简要提到 Claude Code Security，该文提供功能机制与使用边界的完整说明。
+- [[01-博客/Anthropic/Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用|Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用]]；关联理由：解说；说明：本文把卢旺达 MOU 作为动态摘要，该文补充了合作范围与落地细节。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：解说；说明：本文对 Sonnet 4.6 仅做同步通报，该文完整展开了模型能力与发布信息。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Claude]]
+- [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

@@ -206,6 +206,7 @@ trainer.push_to_hub()
 
 - [[00-元语/llm]]
 - [[00-元语/lora]]
+- [[00-元语/llmops]]
 - [[00-元语/cli]]
 - [[00-元语/skills]]
 - [[00-元语/Agent]]

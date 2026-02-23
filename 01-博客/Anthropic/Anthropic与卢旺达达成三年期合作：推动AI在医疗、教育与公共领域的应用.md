@@ -53,12 +53,15 @@ title: "Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育�
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Anthropic与卢旺达政府签署谅解备忘录：推动AI在医疗与教育领域的应用|Anthropic与卢旺达政府签署谅解备忘录：推动AI在医疗与教育领域的应用]]；关联理由：同一事件；说明：两文均基于同一官方链接，核心事实都是卢旺达与 Anthropic 的三年期 MOU 合作。
-- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：解说；说明：本篇“相关动态”直接提及该合作，后者对 Anthropic 在受监管行业的落地方向做了展开说明。
+- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：引用；说明：本文“相关动态”直接提到该合作，关联文档展开了受监管行业中的 AI 智能体落地路径。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：引用；说明：本文将 Sonnet 4.6 列为同期动态，关联文档补充了该模型的能力升级与应用边界。
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：引用；说明：本文提到 Claude Code Security 预览，关联文档详细说明其漏洞扫描机制与人工审核边界。
+- [[01-博客/Anthropic/Anthropic 携手 CodePath：将 Claude 引入美国最大高校计算机科学项目|Anthropic 携手 CodePath：将 Claude 引入美国最大高校计算机科学项目]]；关联理由：延伸思考；说明：本文提到该合作建立在既有教育项目基础上，关联文档补充了卢旺达与 ALX 学习助手相关的教育落地背景。
 
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
 - [[00-元语/Claude]]
 - [[00-元语/compliance]]
 - [[00-元语/learning-resource]]

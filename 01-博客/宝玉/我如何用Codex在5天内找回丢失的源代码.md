@@ -141,4 +141,6 @@ Different directions, but the same core methodology: treat Codex as a highly cap
 - [[00-元语/terminal]]
 - [[00-元语/cli]]
 - [[00-元语/typescript]]
+- [[00-元语/desktop-client]]
+- [[00-元语/evals]]
 - [[00-元语/软件工程]]

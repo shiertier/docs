@@ -78,5 +78,6 @@ Claude 支持多种连接器，可将 AI 与团队现有的平台（如 Microsof
 
 - [[00-元语/Claude]]
 - [[00-元语/AI]]
+- [[00-元语/community]]
+- [[00-元语/productivity]]
 - [[00-元语/workflow]]
-- [[00-元语/compliance]]

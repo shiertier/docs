@@ -7,7 +7,7 @@ title: "terminal"
 
 ## 定义
 
-用于聚合 terminal 相关文档。
+terminal 指用户通过字符界面与操作系统及工具链交互的运行环境，常作为 CLI 的承载层。
 
 ## 核心内涵
 
@@ -22,6 +22,7 @@ title: "terminal"
 - [[00-元语/workflow]]
 - [[00-元语/windows]]
 - [[00-元语/tool]]
+- [[00-元语/Agent]]
 
 ## 关联主题
 
@@ -31,3 +32,4 @@ title: "terminal"
 - [[00-元语/security]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
+- [[00-元语/Agent]]

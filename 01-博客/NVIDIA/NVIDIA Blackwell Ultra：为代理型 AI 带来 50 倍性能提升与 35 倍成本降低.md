@@ -67,4 +67,5 @@ CoreWeave 工程高级副总裁 Chen Goldberg 表示：“随着推理成为 AI 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/benchmark]]

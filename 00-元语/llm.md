@@ -29,6 +29,7 @@ title: "llm"
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/evals]]
 - [[00-元语/context-optimization]]

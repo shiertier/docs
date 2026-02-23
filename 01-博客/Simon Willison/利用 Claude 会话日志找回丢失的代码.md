@@ -45,5 +45,6 @@ title: "利用 Claude 会话日志找回丢失的代码"
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Agent]]
 - [[00-元语/memory]]
 - [[00-元语/workflow]]

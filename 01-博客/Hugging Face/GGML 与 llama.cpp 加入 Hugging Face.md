@@ -467,9 +467,14 @@ ggml 的 gguf 格式现在是 executorch（端侧）推理的首选默认格式 
 
 [模型](https://huggingface.co/models)[数据集](https://huggingface.co/datasets)[空间](https://huggingface.co/spaces)[定价](https://huggingface.co/pricing)[文档](https://huggingface.co/docs)
 
+## 相关文档
+
+- [[01-博客/Hugging Face/GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来|GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来]]；关联理由：版本演进；说明：该文是同一事件的去噪重整版本，内容结构更聚焦核心信息。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/community]]
+- [[00-元语/self-hosting]]
 - [[00-元语/tool]]

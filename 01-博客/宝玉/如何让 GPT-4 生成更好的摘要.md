@@ -55,7 +55,5 @@ title: "如何让 GPT-4 生成更好的摘要"
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
 - [[00-元语/Claude]]
 - [[00-元语/workflow]]
-- [[00-元语/learning-resource]]

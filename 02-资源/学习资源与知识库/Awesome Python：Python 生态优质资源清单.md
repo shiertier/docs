@@ -62,5 +62,4 @@ Awesome Python 是一个拥有超 28 万 Star 的开源精选列表项目，致�
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
 - [[00-元语/community]]
-- [[00-元语/README]]
 - [[00-元语/软件工程]]

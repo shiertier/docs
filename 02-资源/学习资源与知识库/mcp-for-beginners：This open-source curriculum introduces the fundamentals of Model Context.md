@@ -77,4 +77,5 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
+- [[00-元语/security]]
 - [[00-元语/workflow]]

@@ -232,6 +232,7 @@ id: string,
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]
 - [[00-元语/compliance]]
+- [[00-元语/alignment]]
 - [[00-元语/prompt]]
 - [[00-元语/security]]
 - [[00-元语/risk]]

@@ -100,3 +100,5 @@ title: "在SQL表中构建高性价比的Agentic RAG系统处理长文本"
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/context-database]]
+- [[00-元语/prompt]]
+- [[00-元语/tool]]

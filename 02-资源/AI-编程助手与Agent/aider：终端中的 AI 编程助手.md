@@ -75,3 +75,4 @@ aider is AI pair programming in your terminal
 - [[00-元语/ide]]
 - [[00-元语/llm]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]

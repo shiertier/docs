@@ -249,3 +249,4 @@ Transformer最初就是为此任务创建的，由一个“编码器（Encoder�
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/数学]]
+- [[00-元语/learning-resource]]

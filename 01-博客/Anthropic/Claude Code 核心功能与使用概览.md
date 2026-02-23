@@ -67,5 +67,8 @@ Claude Code 打破了设备与平台的限制，支持跨端无缝协作：
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]
 - [[00-元语/cli]]
+- [[00-元语/workflow]]
 - [[00-元语/terminal]]
 - [[00-元语/ide]]
+- [[00-元语/desktop-client]]
+- [[00-元语/CI]]

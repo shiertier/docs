@@ -34,5 +34,6 @@ Minions 是 Stripe 推出的一次性、端到端编程智能体（coding agents
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/AI]]
 - [[00-元语/软件工程]]
 - [[00-元语/productivity]]

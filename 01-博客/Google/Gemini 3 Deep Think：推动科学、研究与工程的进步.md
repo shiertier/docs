@@ -64,5 +64,6 @@ title: "Gemini 3 Deep Think：推动科学、研究与工程的进步"
 - [[00-元语/gemini]]
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/multimodal]]
 - [[00-元语/benchmark]]
 - [[00-元语/数学]]

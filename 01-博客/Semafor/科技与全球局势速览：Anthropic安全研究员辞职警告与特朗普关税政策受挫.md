@@ -87,3 +87,4 @@ Anthropic成立的初衷是为了创造安全的AI。其首席执行官Dario Amo
 - [[00-元语/AI]]
 - [[00-元语/alignment]]
 - [[00-元语/risk]]
+- [[00-元语/trading]]

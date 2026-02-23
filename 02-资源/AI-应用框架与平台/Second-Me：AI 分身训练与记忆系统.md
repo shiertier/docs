@@ -78,4 +78,6 @@ Train your AI self, amplify you, bridge the world
 - [[00-元语/alignment]]
 - [[00-元语/self-hosting]]
 - [[00-元语/rag]]
+- [[00-元语/knowledge-graph]]
+- [[00-元语/security]]
 - [[00-元语/blockchain]]

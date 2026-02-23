@@ -179,5 +179,6 @@ LangChain 是一个构建 LLM 驱动系统的框架，结合了推理和执行�
 
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/workflow]]
 - [[00-元语/observability]]

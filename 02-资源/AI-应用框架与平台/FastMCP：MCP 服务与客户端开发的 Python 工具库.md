@@ -65,10 +65,17 @@ FastMCP 是一个基于 Python 的高效框架，旨在通过模型上下文协�
 - README：https://raw.githubusercontent.com/jlowin/fastmcp/main/README.md
 - Releases：https://github.com/jlowin/fastmcp/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/MCP Python SDK：Model Context Protocol 官方 Python 开发包|MCP Python SDK：Model Context Protocol 官方 Python 开发包]]；关联理由：版本演进；说明：FastMCP 1.0 曾并入官方 Python SDK，后续独立版本与官方 SDK 在能力边界和使用方式上形成演进关系。
+- [[02-资源/AI-应用框架与平台/MCP Servers：MCP 官方参考实现与服务器生态索引|MCP Servers：MCP 官方参考实现与服务器生态索引]]；关联理由：上下游；说明：FastMCP 提供 Python 侧的服务与客户端开发框架，官方参考实现与服务器索引可作为其生态接入与对照样本。
+- [[01-博客/TM DevLab/多语言 MCP 服务器性能基准测试|多语言 MCP 服务器性能基准测试]]；关联理由：解说；说明：该文对多语言 MCP 服务端方案做性能对比，包含 FastMCP 的落地表现与适用判断。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/cli]]
 - [[00-元语/mcp]]
 - [[00-元语/llm]]
 - [[00-元语/protocol]]

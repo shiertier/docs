@@ -80,6 +80,7 @@ Google ADK（Agent Development Kit）是一个灵活、模块化的 Agent 开发
 - [[00-元语/sdk]]
 - [[00-元语/workflow]]
 - [[00-元语/llm]]
+- [[00-元语/gemini]]
 - [[00-元语/protocol]]
 - [[00-元语/multimodal]]
 - [[00-元语/observability]]

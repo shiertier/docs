@@ -71,4 +71,5 @@ Open Source Alternative to Vercel, Netlify and Heroku.
 - [[00-元语/self-hosting]]
 - [[00-元语/observability]]
 - [[00-元语/cli]]
+- [[00-元语/typescript]]
 - [[00-元语/security]]

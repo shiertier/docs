@@ -181,5 +181,6 @@ Claude Code 已成为 Anthropic 最成功的产品之一，但这不仅仅是因
 - [[00-元语/compliance]]
 - [[00-元语/multimodal]]
 - [[00-元语/github]]
+- [[00-元语/llm]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]

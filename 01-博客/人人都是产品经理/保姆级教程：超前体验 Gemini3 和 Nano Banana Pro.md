@@ -42,6 +42,6 @@ title: "保姆级教程：超前体验 Gemini3 和 Nano Banana Pro"
 - [[00-元语/gemini]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/image-editing]]
 - [[00-元语/benchmark]]
-- [[00-元语/ocr]]
 - [[00-元语/risk]]

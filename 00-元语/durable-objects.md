@@ -32,7 +32,7 @@ title: "durable-objects"
 
 ## 相关文档
 
-- [[02-资源/AI-应用框架与平台/Cloudflare Agents：无服务器 AI Agent 平台|Cloudflare Agents：无服务器 AI Agent 平台]]；关联理由：上下游；说明：该平台以 Durable Objects 作为有状态 Agent 的运行基础，体现了该能力的实际落地场景。
+- [[02-资源/AI-应用框架与平台/Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行|Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行]]；关联理由：上下游；说明：该平台以 Durable Objects 作为有状态 Agent 的运行基础，体现了该能力的实际落地场景。
 
 ## 关联主题
 

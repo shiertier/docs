@@ -119,6 +119,8 @@ title: "基于大语言模型的 Vibe Coding 综述"
 - [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/security]]
+- [[00-元语/risk]]
+- [[00-元语/compliance]]
 - [[00-元语/vibe-coding]]
 - [[00-元语/workflow]]
 - [[00-元语/软件工程]]

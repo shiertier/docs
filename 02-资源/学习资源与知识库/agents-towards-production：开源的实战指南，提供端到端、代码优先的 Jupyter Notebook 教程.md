@@ -71,4 +71,5 @@ This repository delivers end-to-end, code-first tutorials covering every layer o
 - [[00-元语/rag]]
 - [[00-元语/knowledge-graph]]
 - [[00-元语/observability]]
+- [[00-元语/workflow]]
 - [[00-元语/security]]

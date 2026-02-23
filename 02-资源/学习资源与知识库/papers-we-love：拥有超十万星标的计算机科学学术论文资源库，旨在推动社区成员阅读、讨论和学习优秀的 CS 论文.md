@@ -70,7 +70,6 @@ Papers from the computer science community to read and discuss.
 ## 关联主题
 
 - [[00-元语/github]]
-- [[00-元语/cli]]
 - [[00-元语/paper]]
 - [[00-元语/reading]]
 - [[00-元语/community]]

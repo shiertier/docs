@@ -69,4 +69,3 @@ Make beautiful isometric infrastructure diagrams
 - [[00-元语/github]]
 - [[00-元语/design]]
 - [[00-元语/软件工程]]
-- [[00-元语/productivity]]

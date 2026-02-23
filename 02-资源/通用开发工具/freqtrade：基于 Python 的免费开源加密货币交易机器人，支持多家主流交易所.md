@@ -74,5 +74,6 @@ Free, open source crypto trading bot
 - [[00-元语/trading]]
 - [[00-元语/blockchain]]
 - [[00-元语/github]]
+- [[00-元语/cli]]
 - [[00-元语/self-hosting]]
 - [[00-元语/risk]]

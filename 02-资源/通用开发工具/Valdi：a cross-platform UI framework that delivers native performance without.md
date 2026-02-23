@@ -70,4 +70,5 @@ Valdi is a cross-platform UI framework that delivers native performance without 
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/design]]
+- [[00-元语/ui-protocol]]
 - [[00-元语/软件工程]]

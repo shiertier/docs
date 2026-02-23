@@ -66,6 +66,11 @@ Professional Antigravity Account Manager & Switcher. One-click seamless account 
 - README：https://raw.githubusercontent.com/lbjlaq/Antigravity-Manager/main/README.md
 - Releases：https://github.com/lbjlaq/Antigravity-Manager/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/CLIProxyAPI：多 AI CLI 的统一代理 API 网关|CLIProxyAPI：多 AI CLI 的统一代理 API 网关]]；关联理由：上下游；说明：两者都将多来源能力统一为标准 API，前者侧重账号与协议转换，后者侧重网关聚合与统一出口。
+- [[02-资源/AI-编程助手与Agent/claude-relay-service：一站式开源 AI API 中转服务|claude-relay-service：一站式开源 AI API 中转服务]]；关联理由：观点一致；说明：两者都强调多模型兼容与 API 中转，可用于对比鉴权与部署边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -75,3 +80,5 @@ Professional Antigravity Account Manager & Switcher. One-click seamless account 
 - [[00-元语/react]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
+- [[00-元语/security]]
+- [[00-元语/rate-limiting]]

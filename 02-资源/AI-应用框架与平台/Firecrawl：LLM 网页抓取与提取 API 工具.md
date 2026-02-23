@@ -76,4 +76,5 @@ Firecrawl 是一个专为 AI 提取 Web 数据的 API 工具，能够抓取、�
 - [[00-元语/rag]]
 - [[00-元语/markdown]]
 - [[00-元语/browser-automation]]
+- [[00-元语/typescript]]
 - [[00-元语/self-hosting]]

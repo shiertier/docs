@@ -64,3 +64,4 @@ Cohere Labs 致力于拓展基础机器学习（ML）研究的边界，同时改
 - [[00-元语/llm]]
 - [[00-元语/community]]
 - [[00-元语/alignment]]
+- [[00-元语/paper]]

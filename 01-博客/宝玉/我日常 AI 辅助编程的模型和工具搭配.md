@@ -60,5 +60,6 @@ Gemini 可能被很多人低估，一直被笼罩在 OpenAI 和 Claude 的光环
 - [[00-元语/v0]]
 - [[00-元语/vibe-coding]]
 - [[00-元语/workflow]]
+- [[00-元语/软件工程]]
 - [[00-元语/context-optimization]]
 - [[00-元语/multimodal]]

@@ -67,5 +67,6 @@ Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencie
 
 - [[00-元语/tool]]
 - [[00-元语/design]]
+- [[00-元语/ui-protocol]]
 - [[00-元语/软件工程]]
 - [[00-元语/github]]

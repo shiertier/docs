@@ -75,5 +75,6 @@ Nuxt Studio 是由 Nuxt 团队开发的开源内容管理模块，在 MIT 许可
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
 - [[00-元语/CI]]
+- [[00-元语/workflow]]
 - [[00-元语/community]]
 - [[00-元语/roadmap]]

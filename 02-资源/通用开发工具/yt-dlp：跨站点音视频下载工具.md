@@ -82,6 +82,7 @@ yt-dlp 是一个面向命令行和自动化场景的音视频下载工具项目�
 ## 相关文档
 
 - [[02-资源/通用开发工具/Seal：基于 yt-dlp 的开源 Android 音视频下载工具，采用纯 Kotlin 编写|Seal：基于 yt-dlp 的开源 Android 音视频下载工具，采用纯 Kotlin 编写]]；关联理由：上下游；说明：Seal 以 yt-dlp 为下载核心，属于上游能力被下游应用封装的直接关系。
+- [[02-资源/通用开发工具/FFmpeg：Mirror of https:／／git, ffmpeg, org／ffmpeg, git|FFmpeg：Mirror of https:／／git, ffmpeg, org／ffmpeg, git]]；关联理由：上下游；说明：yt-dlp 在完整处理链路中依赖 ffmpeg/ffprobe 完成合并与转码，属于直接的下游复用关系。
 
 ## 关联主题
 

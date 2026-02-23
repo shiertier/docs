@@ -65,6 +65,12 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 - README：https://raw.githubusercontent.com/czlonkowski/n8n-mcp/main/README.md
 - Releases：https://github.com/czlonkowski/n8n-mcp/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/typescript-sdk：The official TypeScript SDK for Model Context Protocol servers and clients|typescript-sdk：The official TypeScript SDK for Model Context Protocol servers and clients]]；关联理由：上下游；说明：n8n-mcp 是 TypeScript 实现的 MCP 服务，typescript-sdk 提供同一协议生态下的服务端与客户端开发基础。
+- [[02-资源/AI-编程助手与Agent/Claude Code：终端智能编程助手|Claude Code：终端智能编程助手]]；关联理由：解说；说明：n8n-mcp 明确以 Claude Code 为目标接入端之一，该文档补充了客户端侧的能力边界与使用形态。
+- [[02-资源/AI-编程助手与Agent/mcp-playwright：Playwright 浏览器自动化 MCP 服务器|mcp-playwright：Playwright 浏览器自动化 MCP 服务器]]；关联理由：观点一致；说明：两者都以 MCP 服务器方式向 Claude Desktop 与 Cursor 一类客户端提供外部工具能力，可用于同类方案对照。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
@@ -72,6 +78,7 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
 - [[00-元语/workflow]]
+- [[00-元语/cli]]
 - [[00-元语/Claude]]
 - [[00-元语/Cursor]]
 - [[00-元语/ide]]

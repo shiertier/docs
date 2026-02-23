@@ -71,6 +71,7 @@ CROP_TOOL = {
 
 - [[01-博客/Anthropic/Claude 第三方集成 Cookbook 语音与多模态应用|Claude 第三方集成 Cookbook 语音与多模态应用]]；关联理由：解说；说明：两文都处理多模态输入理解链路，本文聚焦原生视觉与裁剪，关联文补充语音与外部检索集成。
 - [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：上下游；说明：本文解决视觉信息提取，上游结果可直接进入 `vision_with_tools` 一类工具执行链路完成生产化动作。
+- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：延伸思考；说明：本文的子代理协同可映射到 Orchestrator-Workers 模式，关联文补充任务拆分与并行执行模板。
 - [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出 cookbooks 全局能力地图并明确 multimodal 分组位置，是本文所属模块的总览入口。
 
 ## 关联主题

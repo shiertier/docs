@@ -65,10 +65,6 @@ Video translation and dubbing tool powered by LLMs. The video translator offers 
 - README：https://raw.githubusercontent.com/krillinai/KrillinAI/master/README.md
 - Releases：https://github.com/krillinai/KrillinAI/releases
 
-## 相关文档
-
-- [[02-资源/AI-应用框架与平台/VideoCaptioner：基于 LLM 的智能字幕助手|VideoCaptioner：基于 LLM 的智能字幕助手]]；关联理由：解说；说明：两者都覆盖字幕生成与翻译链路，关联文档可用于对照本项目在配音与本地化上的差异化能力。
-
 ## 关联主题
 
 - [[00-元语/tool]]

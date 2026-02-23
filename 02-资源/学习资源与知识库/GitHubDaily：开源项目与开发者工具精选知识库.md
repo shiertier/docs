@@ -68,5 +68,6 @@ GitHubDaily 是一个拥有超 4.5 万 Star 的开源知识库，自 2015 年起
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/community]]
+- [[00-元语/tool]]
 - [[00-元语/AI]]
 - [[00-元语/Agent]]

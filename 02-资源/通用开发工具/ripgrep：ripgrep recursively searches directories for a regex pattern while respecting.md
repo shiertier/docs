@@ -65,7 +65,7 @@ ripgrep recursively searches directories for a regex pattern while respecting yo
 
 ## 相关文档
 
-- [[02-资源/通用开发工具/yazi：使用 Rust 编写、基于异步 I／O 的极速终端文件管理器，旨在提供高效、易用且高度可定制的文件管理体验|yazi：使用 Rust 编写、基于异步 I／O 的极速终端文件管理器，旨在提供高效、易用且高度可定制的文件管理体验]]；关联理由：上下游；说明：yazi 在工具说明中明确提到与 ripgrep 集成，ripgrep可作为其文件检索能力的基础组件。
+- [[02-资源/通用开发工具/yazi：使用 Rust 编写、基于异步 I／O 的极速终端文件管理器，旨在提供高效、易用且高度可定制的文件管理体验|yazi：使用 Rust 编写、基于异步 I／O 的极速终端文件管理器，旨在提供高效、易用且高度可定制的文件管理体验]]；关联理由：上下游；说明：yazi 在工具说明中明确提到与 ripgrep 集成，ripgrep 可作为其文件检索能力的基础组件。
 - [[01-博客/宝玉/Codex system prompt （2025-09-16） 89587280|Codex system prompt （2025-09-16）]]；关联理由：引用；说明：该文档把 `rg` 作为代码库搜索的默认工具，直接对应 ripgrep 的核心使用场景。
 
 ## 关联主题

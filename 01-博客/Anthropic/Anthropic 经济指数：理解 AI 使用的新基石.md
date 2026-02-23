@@ -94,6 +94,8 @@ Anthropic 通过引入包含五个“经济基元”的经济指数，量化分�
 - [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
+- [[00-元语/evals]]
+- [[00-元语/benchmark]]
 - [[00-元语/productivity]]
 - [[00-元语/career]]
 - [[00-元语/risk]]

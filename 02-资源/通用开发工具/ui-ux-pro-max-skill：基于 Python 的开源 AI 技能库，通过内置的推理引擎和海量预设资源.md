@@ -68,8 +68,11 @@ An AI SKILL that provide design intelligence for building professional UI/UX mul
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
-- [[00-元语/skills]]
-- [[00-元语/workflow]]
 - [[00-元语/design]]
 - [[00-元语/cli]]
+- [[00-元语/skills]]
+- [[00-元语/Claude]]
+- [[00-元语/Cursor]]
+- [[00-元语/copilot]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]

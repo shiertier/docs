@@ -80,7 +80,7 @@ NVIDIA 将为 ANRF 的受资助机构提供 NVIDIA AI Enterprise 软件的免费
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/multimodal]]
 - [[00-元语/audio]]
 - [[00-元语/tts]]

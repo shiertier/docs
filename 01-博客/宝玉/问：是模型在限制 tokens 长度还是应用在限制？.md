@@ -36,5 +36,4 @@ Token长度限制是由模型本身的上下文窗口大小和AI应用程序的�
 
 - [[00-元语/llm]]
 - [[00-元语/context-optimization]]
-- [[00-元语/prompt]]
 - [[00-元语/llmops]]

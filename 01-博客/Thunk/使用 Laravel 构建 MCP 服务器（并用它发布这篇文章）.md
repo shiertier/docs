@@ -106,3 +106,4 @@ Laravel 官方的 `laravel/mcp` 扩展包让你能够构建 MCP 服务器，将�
 - [[00-元语/protocol]]
 - [[00-元语/Claude]]
 - [[00-元语/tool]]
+- [[00-元语/Agent]]

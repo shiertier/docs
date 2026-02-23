@@ -99,6 +99,8 @@ Google Research 提出的原生自适应界面（Natively Adaptive Interfaces, N
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/gemini]]
 - [[00-元语/Agent]]
 - [[00-元语/design]]
 - [[00-元语/multimodal]]

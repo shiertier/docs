@@ -150,4 +150,5 @@ GPU 是昂贵的硬件，无论是否使用都有实际的每小时成本。预�
 - [[00-元语/self-hosting]]
 - [[00-元语/PostgreSQL]]
 - [[00-元语/fastapi]]
+- [[00-元语/compliance]]
 - [[00-元语/security]]

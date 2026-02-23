@@ -71,5 +71,3 @@ LibreTV 是一个开源项目，归档分类为“通用开发工具”。GitHub
 - [[00-元语/self-hosting]]
 - [[00-元语/serverless]]
 - [[00-元语/video]]
-- [[00-元语/compliance]]
-- [[00-元语/risk]]

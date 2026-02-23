@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-元语/wasm.md",
+                "file": "01-博客/阿布/神经网络速览与语言模型推理：从 Transformer 到提示方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wasm"
+              "title": "神经网络速览与语言模型推理：从 Transformer 到提示方法"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-元语/wasm.md",
+                "file": "01-博客/阿布/神经网络速览与语言模型推理：从 Transformer 到提示方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "wasm 的出链列表"
+              "title": "神经网络速览与语言模型推理：从 Transformer 到提示方法 的出链列表"
             }
           },
           {
@@ -185,32 +185,34 @@
   },
   "active": "f8952b3405eee351",
   "lastOpenFiles": [
+    "02-资源/通用开发工具/core：vuejs-core项目.md",
+    "02-资源/通用开发工具/refined-github：GitHub 界面简化与增强浏览器扩展项目.md",
+    "02-资源/AI-模型与推理基础设施/LMCache：大模型 KV 缓存核心库.md",
+    "02-资源/通用开发工具/refine：React 后台与 B2B 应用开发框架.md",
+    "02-资源/风险边界与合规/gpt4free：多模型聚合与API转换工具.md",
+    "02-资源/学习资源与知识库/awesome-openclaw-skills：OpenClaw Skills 资源集合.md",
+    "02-资源/通用开发工具/fuck-u-code：遗留代码质量评估工具.md",
+    "02-资源/AI-应用框架与平台/paperless-ai：Paperless-ngx 的 AI 增强扩展项目.md",
+    "02-资源/AI-编程助手与Agent/oTTomator Agents：开源 AI Agent 集合与运行平台.md",
+    "02-资源/AI-模型与推理基础设施/Z-Image：高效的单流扩散Transformer图像生成基础模型.md",
+    "02-资源/风险边界与合规/daily_stock_analysis：基于 AI 大模型的多市场自选股分析与推送工具.md",
+    "02-资源/通用开发工具/uutils coreutils：GNU coreutils 的 Rust 重写项目.md",
+    "02-资源/AI-编程助手与Agent/Fabric：AI 能力增强与工作流框架.md",
+    "02-资源/风险边界与合规/maigret：用户名跨站点信息收集工具.md",
+    "02-资源/通用开发工具/scalar：现代化的 OpenAPI-Swagger 接口文档与客户端工具.md",
+    "02-资源/通用开发工具/polar：开源开发者变现与支付基础设施项目.md",
+    "02-资源/通用开发工具/heroui：packages-core-react-README.md项目.md",
+    "02-资源/通用开发工具/FileConverter：Windows 右键文件转换工具.md",
+    "02-资源/通用开发工具/invoify：基于 Web 的开源发票生成器项目.md",
+    "02-资源/AI-编程助手与Agent/openai-cs-agents-demo：基于 OpenAI Agents SDK 的客服多智能体演示项目.md",
+    "02-资源/AI-应用框架与平台/deepchat：开源 AI 聊天应用平台.md",
+    "02-资源/AI-模型与推理基础设施/sed3rh3Rt",
+    "02-资源/AI-编程助手与Agent/AgentNeo：Agent 可观测与评测框架.md",
+    "02-资源/通用开发工具/pot-desktop：划词翻译与 OCR 桌面工具.md",
+    "02-资源/AI-应用框架与平台/gibberlink：机器语音通信协议实验项目.md",
+    "02-资源/风险边界与合规/authentik：身份认证与访问管理平台.md",
+    "02-资源/学习资源与知识库/project-layout：Go 项目目录结构参考模板.md",
     "scripts/normalize_h2_spacing.py",
-    "00-元语/virtual-file-system.md",
-    "00-元语/tool.md",
-    "00-元语/slideredit.md",
-    "00-元语/security.md",
-    "00-元语/rate-limiting.md",
-    "00-元语/lora.md",
-    "00-元语/deepfake.md",
-    "00-元语/context-database.md",
-    "00-元语/bug-fix.md",
-    "00-元语/audio.md",
-    "00-元语/后视镜思维.md",
-    "00-元语/软件工程.md",
-    "00-元语/知识图谱.md",
-    "00-元语/design.md",
-    "00-元语/Cursor.md",
-    "00-元语/CRPG.md",
-    "00-元语/copilot.md",
-    "00-元语/context-optimization.md",
-    "00-元语/community.md",
-    "00-元语/cloudflare.md",
-    "00-元语/Claude.md",
-    "00-元语/ChatGPT.md",
-    "00-元语/career.md",
-    "00-元语/browser-automation.md",
-    "00-元语/blockchain.md",
     "02-资源/AI-应用框架与平台/XXucDPPt",
     "skills/文档关联性.md.tmp.1955720",
     "skills/web-full-archive.md.tmp.1955720",
@@ -219,8 +221,6 @@
     "skills/new-content-discovery.md.tmp.1955720",
     "skills/github-repo-blog-archive.md.tmp.1955720",
     "skills/gemini-task-usage.md.tmp.1955720",
-    "skills/book-record.md.tmp.1955720",
-    "03-图书/马丁·海德格尔/存在与时间：修订译本.md.tmp.1955720",
     "node_modules/cpr/cpr.jpg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/fonts/fontawesome/fontawesome-webfont.svg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/images/apple-touch-icon-precomposed-152.png",

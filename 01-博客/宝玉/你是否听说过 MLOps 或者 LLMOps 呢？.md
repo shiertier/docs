@@ -86,6 +86,7 @@ MLOps 时代所需的知识也更为丰富：
 - [[00-元语/llmops]]
 - [[00-元语/llm]]
 - [[00-元语/AI]]
+- [[00-元语/OpenAI]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/observability]]
 - [[00-元语/CI]]

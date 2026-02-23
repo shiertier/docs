@@ -121,4 +121,5 @@ Benjamin 进一步把“资源”说得更像“公共基础设施”：
 - [[00-元语/community]]
 - [[00-元语/learning-resource]]
 - [[00-元语/tool]]
+- [[00-元语/risk]]
 - [[00-元语/interview]]

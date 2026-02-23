@@ -46,8 +46,14 @@ Gemini 3.1 Pro 是 Gemini 3.1 系列的首款模型。它的定价与 Gemini 3 P
 
 从官方消息来看，上周发布的 Gemini 3 Deep Think 其实是我们首次接触 3.1 系列。正如谷歌所说，上周的 Deep Think 旨在解决科学、研究和工程领域的现代挑战，而今天发布的 Gemini 3.1 Pro 则是实现这些突破的“升级版核心智能”。
 
+## 相关文档
+
+- [[01-博客/Google/Gemini 3 Deep Think：推动科学、研究与工程的进步|Gemini 3 Deep Think：推动科学、研究与工程的进步]]；关联理由：版本演进；说明：本文明确指出 3.1 Pro 承接上周发布的 Deep Think，可补齐 Gemini 3.1 系列的发布脉络。
+- [[01-博客/InfoQ/代码界新王登基！Gemini 3.1 Pro 血洗 Claude 与 GPT，12 项基准测试第一！|代码界新王登基！Gemini 3.1 Pro 血洗 Claude 与 GPT，12 项基准测试第一！]]；关联理由：同一事件；说明：两文都围绕 Gemini 3.1 Pro 发布展开，该文补充了基准与上线范围等媒体侧信息。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/benchmark]]

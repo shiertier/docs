@@ -36,6 +36,7 @@ title: "gemini"
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/prompt]]
+- [[00-元语/workflow]]
 - [[00-元语/audio]]
 - [[00-元语/video]]
 - [[00-元语/compliance]]

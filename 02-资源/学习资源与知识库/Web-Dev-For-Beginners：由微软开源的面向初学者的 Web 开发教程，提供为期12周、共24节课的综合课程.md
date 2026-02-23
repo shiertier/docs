@@ -64,11 +64,17 @@ title: "Web-Dev-For-Beginners：由微软开源的面向初学者的 Web 开发�
 - README：https://raw.githubusercontent.com/microsoft/Web-Dev-For-Beginners/main/README.md
 - Releases：https://github.com/microsoft/Web-Dev-For-Beginners/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/ML-For-Beginners：为期12周、包含26堂课的经典机器学习基础教程，采用基于项目的教学法并支持50多种语言翻译|ML-For-Beginners：为期12周、包含26堂课的经典机器学习基础教程，采用基于项目的教学法并支持50多种语言翻译]]；关联理由：同一事件；说明：两者同属微软面向初学者的课程系列，均采用按周推进与项目驱动的教学组织方式。
+- [[02-资源/学习资源与知识库/AI-For-Beginners：Weeks, 24 Lessons, AI for All!|AI-For-Beginners：Weeks, 24 Lessons, AI for All!]]；关联理由：延伸思考；说明：在掌握前端基础后，可通过该课程继续补齐 AI 基础概念与实践视角。
+- [[02-资源/学习资源与知识库/Generative AI for Beginners：微软 21 课生成式 AI 入门课程|Generative AI for Beginners：微软 21 课生成式 AI 入门课程]]；关联理由：上下游；说明：本文已引入生成式 AI 与 Copilot 相关实践，可衔接该课程完成更系统的生成式 AI 学习。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
 - [[00-元语/软件工程]]
 - [[00-元语/copilot]]
-- [[00-元语/Agent]]
+- [[00-元语/AI]]
+- [[00-元语/roadmap]]

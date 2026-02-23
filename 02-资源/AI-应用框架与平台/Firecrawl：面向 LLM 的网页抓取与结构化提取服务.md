@@ -83,11 +83,12 @@ Firecrawl 是一个专为 AI 时代设计的 Web 数据 API 工具。它的核�
 
 ## 相关文档
 
-- [[02-资源/AI-应用框架与平台/Firecrawl：面向 LLM 的网页抓取与提取平台|Firecrawl：面向 LLM 的网页抓取与提取平台]]；关联理由：版本演进；说明：两篇均归档同一项目，本篇信息更细，关联文档可用于核对同版本下的表述差异。
+- [[02-资源/AI-应用框架与平台/Firecrawl：LLM 网页抓取与提取 API 工具|Firecrawl：LLM 网页抓取与提取 API 工具]]；关联理由：版本演进；说明：两篇均归档同一项目，本篇信息更细，关联文档可用于核对同版本下的表述差异。
 - [[02-资源/AI-应用框架与平台/Deep Research：开源深度研究工作流工具|Deep Research：开源深度研究工作流工具]]；关联理由：上下游；说明：Deep Research 把 Firecrawl 作为网页搜索与内容提取依赖，本篇可补充其底层能力边界。
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/web-crawling]]
 - [[00-元语/browser-automation]]
 - [[00-元语/llm]]
@@ -96,3 +97,4 @@ Firecrawl 是一个专为 AI 时代设计的 Web 数据 API 工具。它的核�
 - [[00-元语/sdk]]
 - [[00-元语/markdown]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]

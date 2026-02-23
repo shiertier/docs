@@ -67,4 +67,5 @@ title: "hello-algo：算法与数据结构入门教程"
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
 - [[00-元语/数学]]
-- [[00-元语/reading]]
+- [[00-元语/软件工程]]
+- [[00-元语/book]]

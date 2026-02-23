@@ -71,3 +71,5 @@ freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming,
 - [[00-元语/community]]
 - [[00-元语/github]]
 - [[00-元语/career]]
+- [[00-元语/interview]]
+- [[00-元语/roadmap]]

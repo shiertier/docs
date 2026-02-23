@@ -162,9 +162,15 @@ MAST 是一种检查智能体系统轨迹以识别细粒度故障类型的工具
 *   **MAST 代码：** https://github.com/multi-agent-systems-failure-taxonomy/MAST
 *   **MAST 数据集：** https://huggingface.co/datasets/mcemri/MAST-Data
 
+## 相关文档
+
+- [[01-博客/Hugging Face/实践中的 OpenEnv：在真实环境中评估工具调用智能体.md|实践中的 OpenEnv：在真实环境中评估工具调用智能体]]；关联理由：解说；说明：两文都基于真实环境讨论工具调用智能体的评测与故障诊断，本文可与 OpenEnv 的工程化经验互补阅读。
+- [[01-博客/Hugging Face/社区评估：打破黑盒排行榜，将评估权交还社区.md|社区评估：打破黑盒排行榜，将评估权交还社区]]；关联理由：观点一致；说明：两文都强调评估不能停留在黑盒分数，而应提升可解释性与可复核性。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/alignment]]
 - [[00-元语/benchmark]]
 - [[00-元语/evals]]
 - [[00-元语/llm]]

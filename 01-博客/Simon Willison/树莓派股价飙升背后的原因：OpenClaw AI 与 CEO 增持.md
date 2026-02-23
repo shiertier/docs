@@ -2,7 +2,7 @@
 title: "树莓派股价飙升背后的原因：OpenClaw AI 与 CEO 增持"
 
 来源: "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything"
-发布日期: "2026-02-22"
+发布日期: 2026-02-22
 ---
 
 ## 摘要

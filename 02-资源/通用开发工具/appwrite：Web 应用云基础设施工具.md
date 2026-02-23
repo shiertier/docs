@@ -65,10 +65,15 @@ Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Inc
 - README：https://raw.githubusercontent.com/appwrite/appwrite/main/README.md
 - Releases：https://github.com/appwrite/appwrite/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Supabase：开源后端服务与PostgreSQL数据库|Supabase：开源后端服务与PostgreSQL数据库]]；关联理由：观点一致；说明：两者都面向 Web/移动应用提供认证、数据库、存储与函数等后端基础能力，可用于同类选型对比。
+
 ## 关联主题
 
 - [[00-元语/tool]]
 - [[00-元语/AI]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/serverless]]
 - [[00-元语/self-hosting]]

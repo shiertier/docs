@@ -92,6 +92,8 @@ Voxtral 正在为各行各业的语音工作流提供强大动力：
 ## 关联主题
 
 - [[00-元语/asr]]
+- [[00-元语/Agent]]
 - [[00-元语/audio]]
 - [[00-元语/benchmark]]
+- [[00-元语/compliance]]
 - [[00-元语/self-hosting]]

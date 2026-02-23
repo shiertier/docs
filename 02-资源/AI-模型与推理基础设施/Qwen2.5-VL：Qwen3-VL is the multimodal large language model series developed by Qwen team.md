@@ -64,6 +64,10 @@ Qwen3-VL is the multimodal large language model series developed by Qwen team, A
 - README：https://raw.githubusercontent.com/QwenLM/Qwen3-VL/main/README.md
 - Releases：https://github.com/QwenLM/Qwen3-VL/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/MNN：高效轻量级深度学习框架|MNN：高效轻量级深度学习框架]]；关联理由：上下游；说明：MNN 文档明确将 Qwen3-VL 列为支持模型，本条目可作为模型侧上游背景与兼容性参考。
+
 ## 关联主题
 
 - [[00-元语/AI]]

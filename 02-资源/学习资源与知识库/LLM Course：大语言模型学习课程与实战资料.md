@@ -79,5 +79,6 @@ title: "LLM Course：大语言模型学习课程与实战资料"
 - [[00-元语/github]]
 - [[00-元语/evals]]
 - [[00-元语/lora]]
+- [[00-元语/knowledge-graph]]
 - [[00-元语/roadmap]]
 - [[00-元语/workflow]]

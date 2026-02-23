@@ -243,4 +243,5 @@ Your responses must:
 - [[00-元语/xAI]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/audio]]
 - [[00-元语/tts]]

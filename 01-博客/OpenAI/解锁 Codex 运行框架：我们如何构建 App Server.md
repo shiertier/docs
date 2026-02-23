@@ -162,6 +162,8 @@ TypeScript 代码库，用于在你自己的应用程序中以编程方式控制
 - [[00-元语/protocol]]
 - [[00-元语/ui-protocol]]
 - [[00-元语/cli]]
+- [[00-元语/tool]]
+- [[00-元语/terminal]]
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
 - [[00-元语/sdk]]

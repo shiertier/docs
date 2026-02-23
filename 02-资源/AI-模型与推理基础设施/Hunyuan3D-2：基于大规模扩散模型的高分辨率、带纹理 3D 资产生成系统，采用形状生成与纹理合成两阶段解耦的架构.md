@@ -66,10 +66,15 @@ High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models
 - README：https://raw.githubusercontent.com/Tencent/Hunyuan3D-2/main/README.md
 - Releases：https://github.com/Tencent/Hunyuan3D-2/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/ComfyUI：节点式 Stable Diffusion 工作流界面|ComfyUI：节点式 Stable Diffusion 工作流界面]]；关联理由：上下游；说明：ComfyUI 明确支持 Hunyuan3D 2.0 作为 3D 生成模型，属于该模型的下游编排与运行入口。
+- [[02-资源/AI-编程助手与Agent/blender-mcp：Blender 的 MCP 集成服务|blender-mcp：Blender 的 MCP 集成服务]]；关联理由：上下游；说明：blender-mcp 将 Hunyuan3D 接入 Blender 工作流，用于模型检索与 3D 资产生产链路整合。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/multimodal]]
 - [[00-元语/benchmark]]
 - [[00-元语/github]]
-- [[00-元语/tool]]
+- [[00-元语/community]]

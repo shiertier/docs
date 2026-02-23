@@ -67,6 +67,7 @@ A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Liv
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/gemini]]
 - [[00-元语/audio]]
 - [[00-元语/multimodal]]
 - [[00-元语/video]]

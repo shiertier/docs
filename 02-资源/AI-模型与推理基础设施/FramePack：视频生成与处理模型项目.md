@@ -76,3 +76,4 @@ Lets make video diffusion practical!
 - [[00-元语/tool]]
 - [[00-元语/risk]]
 - [[00-元语/windows]]
+- [[00-元语/desktop-client]]

@@ -51,5 +51,6 @@ LightAgent 是一个开源的轻量级 AI 智能体（Agent）框架，旨在为
 - [[00-元语/github]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
+- [[00-元语/stream-processing]]
 - [[00-元语/tool]]
 - [[00-元语/learning-resource]]

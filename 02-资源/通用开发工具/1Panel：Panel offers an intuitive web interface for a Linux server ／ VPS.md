@@ -65,6 +65,10 @@ title: "1Panel：Panel offers an intuitive web interface for a Linux server ／ 
 - README：https://raw.githubusercontent.com/1Panel-dev/1Panel/dev-v2/README.md
 - Releases：https://github.com/1Panel-dev/1Panel/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：上下游；说明：1Panel 明确包含对 OpenClaw agents 的管理能力，结合该条目可补足其在 AI 助手部署链路中的定位。
+
 ## 关联主题
 
 - [[00-元语/tool]]
@@ -72,4 +76,5 @@ title: "1Panel：Panel offers an intuitive web interface for a Linux server ／ 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/security]]
 - [[00-元语/github]]

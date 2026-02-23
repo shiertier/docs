@@ -81,6 +81,8 @@ AgentFS 定位为“agent 运行时文件系统层”。它不是单纯的文件
 - [[00-元语/Agent]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/context-database]]
+- [[00-元语/memory]]
+- [[00-元语/observability]]
 - [[00-元语/cli]]
 - [[00-元语/sdk]]
 - [[00-元语/protocol]]

@@ -63,7 +63,7 @@ Snowflake支持包括金融服务、医疗保健、零售、媒体、制造和�
 
 - [[01-博客/OpenAI/推出 OpenAI Frontier：企业级 AI 代理平台.md|推出 OpenAI Frontier：企业级 AI 代理平台]]；关联理由：上下游；说明：Frontier提供企业级代理部署与治理框架，Snowflake合作是将该能力接入企业数据平台的落地路径。
 - [[01-博客/OpenAI/PVH集团携手OpenAI：以AI重塑时尚行业的未来.md|PVH集团携手OpenAI：以AI重塑时尚行业的未来]]；关联理由：观点一致；说明：两文都聚焦在安全合规前提下把OpenAI能力嵌入企业核心业务流程。
-- [[01-博客/OpenAI/沃尔夫斯堡足球俱乐部：将 ChatGPT 转化为全俱乐部的核心能力.md|沃尔夫斯堡足球俱乐部：将 ChatGPT 转化为全俱乐部的核心能力]]；关联理由：延伸思考；说明：该案例展示企业将ChatGPT Enterprise转化为组织能力的实践，可作为本篇合作价值的应用层参考。
+- [[01-博客/OpenAI/沃尔夫斯堡足球俱乐部：将 ChatGPT 转化为全俱乐部的核心能力.md|沃尔夫斯堡足球俱乐部：将 ChatGPT 转化为全俱乐部的核心能力]]；关联理由：解说；说明：本篇提到Snowflake将继续内部使用ChatGPT Enterprise，该案例可直接补充企业内部规模化落地与治理的实践细节。
 
 ## 关联主题
 
@@ -72,3 +72,6 @@ Snowflake支持包括金融服务、医疗保健、零售、媒体、制造和�
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/compliance]]
+- [[00-元语/workflow]]
+- [[00-元语/multimodal]]
+- [[00-元语/llmops]]

@@ -60,6 +60,7 @@ Toggle theme
 - [[00-元语/prompt]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/multimodal]]
+- [[00-元语/image-editing]]
 - [[00-元语/design]]
 - [[00-元语/OpenAI]]
 - [[00-元语/llm]]

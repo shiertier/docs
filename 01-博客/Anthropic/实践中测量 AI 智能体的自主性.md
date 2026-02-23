@@ -139,6 +139,8 @@ Miles McCain, Thomas Millar, Saffron Huang, Jake Eaton, Kunal Handa, Michael Ste
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/Claude]]
+- [[00-元语/alignment]]
 - [[00-元语/evals]]
 - [[00-元语/observability]]
 - [[00-元语/risk]]

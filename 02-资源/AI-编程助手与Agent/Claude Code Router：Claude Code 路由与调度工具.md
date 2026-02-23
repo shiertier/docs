@@ -75,3 +75,5 @@ Use Claude Code as the foundation for coding infrastructure, allowing you to dec
 - [[00-元语/CI]]
 - [[00-元语/github]]
 - [[00-元语/typescript]]
+- [[00-元语/security]]
+- [[00-元语/observability]]

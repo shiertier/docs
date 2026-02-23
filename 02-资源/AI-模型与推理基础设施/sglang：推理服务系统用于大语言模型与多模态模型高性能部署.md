@@ -28,7 +28,7 @@ SGLang 是一个由非营利组织 LMSYS 托管的高性能大语言模型与多
 
 ## 功能与定位
 
-SGLang is a high-performance serving framework for large language models and multimodal models.
+SGLang 是一个面向大语言模型与多模态模型的高性能推理服务框架。
 
 ## 典型使用场景
 
@@ -63,6 +63,11 @@ SGLang is a high-performance serving framework for large language models and mul
 - 官网：https://sglang.io
 - README：https://raw.githubusercontent.com/sgl-project/sglang/main/README.md
 - Releases：https://github.com/sgl-project/sglang/releases
+
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/verl：开源大语言模型强化学习训练系统|verl：开源大语言模型强化学习训练系统]]；关联理由：上下游；说明：`verl` 将 sglang 作为推理生成后端之一，二者在训练与推理链路上形成直接协同。
+- [[01-博客/LMSYS Org/SGLang Diffusion：加速视频与图像生成|SGLang Diffusion：加速视频与图像生成]]；关联理由：版本演进；说明：该文档聚焦 SGLang 在扩散模型方向的扩展能力，可视为同一项目在多模态推理上的演进补充。
 
 ## 关联主题
 

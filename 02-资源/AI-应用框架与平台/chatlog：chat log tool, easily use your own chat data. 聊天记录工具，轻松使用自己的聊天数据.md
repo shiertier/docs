@@ -61,6 +61,10 @@ chat log tool, easily use your own chat data. 聊天记录工具，轻松使用�
 - README：https://raw.githubusercontent.com/sjzar/chatlog/main/README.md
 - Releases：https://github.com/sjzar/chatlog/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/WeClone：个人数字分身与对话克隆项目|WeClone：个人数字分身与对话克隆项目]]；关联理由：上下游；说明：两者都围绕聊天记录数据利用，WeClone 的数字分身构建可把聊天数据处理工具作为前置环节。
+
 ## 关联主题
 
 - [[00-元语/AI]]

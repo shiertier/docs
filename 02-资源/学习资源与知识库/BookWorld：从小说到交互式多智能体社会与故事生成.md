@@ -79,4 +79,6 @@ BookWorld 是一个把“小说世界”转成可推演的多智能体社会模�
 - [[00-元语/game]]
 - [[00-元语/llm]]
 - [[00-元语/paper]]
+- [[00-元语/github]]
+- [[00-元语/learning-resource]]
 - [[00-元语/workflow]]

@@ -51,6 +51,12 @@ title: "1Code：Claude Code 与 Codex 的并行开发 GUI 客户端"
 - 官网：https://1code.dev/
 - 社区：https://discord.gg/8ektTZGnj4
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/Conductor：Mac 端多 agent 编排与工作树协作工具|Conductor：Mac 端多 agent 编排与工作树协作工具]]；关联理由：观点一致；说明：两者都以多 agent 并行、Git worktree 隔离和可视化审查为核心工作流。
+- [[02-资源/AI-编程助手与Agent/Superset：面向 AI agent 的并行工作区与编排工具|Superset：面向 AI agent 的并行工作区与编排工具]]；关联理由：延伸思考；说明：Superset 同样强调并行工作区与 GUI 编排，可用于对照 1Code 在工具兼容和交互层的取舍。
+- [[02-资源/AI-编程助手与Agent/Agentastic：Mac 端 terminal-first 多 agent IDE|Agentastic：Mac 端 terminal-first 多 agent IDE]]；关联理由：观点一致；说明：两者都覆盖多会话并行与改动审查，但 Agentastic 更偏 terminal-first，可形成清晰对照。
+
 ## 关联主题
 
 - [[00-元语/tool]]
@@ -61,4 +67,5 @@ title: "1Code：Claude Code 与 Codex 的并行开发 GUI 客户端"
 - [[00-元语/git-worktree]]
 - [[00-元语/desktop-client]]
 - [[00-元语/code-review]]
+- [[00-元语/cli]]
 - [[00-元语/workflow]]

@@ -68,5 +68,5 @@ CloudSaver 是一个开源项目，归档分类为“通用开发工具”。Git
 - [[00-元语/tool]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
-- [[00-元语/productivity]]
-- [[00-元语/workflow]]
+- [[00-元语/typescript]]
+- [[00-元语/security]]

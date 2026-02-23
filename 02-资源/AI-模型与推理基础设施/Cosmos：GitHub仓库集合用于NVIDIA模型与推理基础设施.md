@@ -63,9 +63,15 @@ New repo collection for NVIDIA Cosmos: https://github.com/nvidia-cosmos
 - README：https://raw.githubusercontent.com/NVIDIA/Cosmos/main/README.md
 - Releases：https://github.com/NVIDIA/Cosmos/releases
 
+## 相关文档
+
+- [[01-博客/NVIDIA/走进 Omniverse：物理 AI 开源模型与框架如何推动机器人与自主系统发展|走进 Omniverse：物理 AI 开源模型与框架如何推动机器人与自主系统发展]]；关联理由：解说；说明：该文详细展开了 Cosmos 在物理 AI 技术栈中的角色与典型落地路径。
+- [[01-博客/NVIDIA/奔驰发布全新S级轿车：搭载NVIDIA DRIVE AV，迈向L4级自动驾驶|奔驰发布全新S级轿车：搭载NVIDIA DRIVE AV，迈向L4级自动驾驶]]；关联理由：上下游；说明：该文展示了 Cosmos 世界模型在自动驾驶量产方案中的下游应用场景。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/llmops]]
 - [[00-元语/evals]]
+- [[00-元语/multimodal]]

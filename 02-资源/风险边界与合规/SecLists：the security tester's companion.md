@@ -71,5 +71,3 @@ SecLists is the security tester's companion. It's a collection of multiple types
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/github]]
-- [[00-元语/tool]]
-- [[00-元语/learning-resource]]

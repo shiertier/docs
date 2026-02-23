@@ -65,6 +65,11 @@ edgetunnel 2.0 VLESS/Trojan 多功能面板
 - README：https://raw.githubusercontent.com/cmliu/edgetunnel/main/README.md
 - Releases：https://github.com/cmliu/edgetunnel/releases
 
+## 相关文档
+
+- [[02-资源/风险边界与合规/v2rayN：桌面端图形界面客户端，支持 Xray、sing-box 等代理核心|v2rayN：桌面端图形界面客户端，支持 Xray、sing-box 等代理核心]]；关联理由：引用；说明：edgetunnel 的 README 在客户端适配列表中直接推荐了 v2rayN（Windows 端）。
+- [[02-资源/风险边界与合规/v2rayNG：Android V2Ray 客户端，支持 Xray 和 v2fly 核心|v2rayNG：Android V2Ray 客户端，支持 Xray 和 v2fly 核心]]；关联理由：引用；说明：edgetunnel 的 README 直接列出 v2rayNG 作为 Android 端适配客户端。
+
 ## 关联主题
 
 - [[00-元语/risk]]
@@ -72,3 +77,6 @@ edgetunnel 2.0 VLESS/Trojan 多功能面板
 - [[00-元语/compliance]]
 - [[00-元语/github]]
 - [[00-元语/protocol]]
+- [[00-元语/cloudflare]]
+- [[00-元语/serverless]]
+- [[00-元语/self-hosting]]

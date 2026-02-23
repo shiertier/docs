@@ -63,6 +63,10 @@ Anthropic's educational courses
 - README：https://raw.githubusercontent.com/anthropics/courses/master/README.md
 - Releases：https://github.com/anthropics/courses/releases
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文介绍的 Claude Cookbooks 明确建议先学习本仓库中的 Claude API 基础课程。
+
 ## 关联主题
 
 - [[00-元语/learning-resource]]

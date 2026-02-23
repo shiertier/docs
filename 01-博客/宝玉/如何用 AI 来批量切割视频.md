@@ -59,6 +59,7 @@ Grok 对话历史：[https://grok.com/share/bGVnYWN5_0a552222-56dc-4551-95fd-403
 ## 关联主题
 
 - [[00-元语/video]]
+- [[00-元语/audio]]
 - [[00-元语/workflow]]
 - [[00-元语/tool]]
 - [[00-元语/AI]]

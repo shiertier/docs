@@ -1239,6 +1239,7 @@ title: "ninehills/blog 技术 issue 提及文档索引"
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]
+- [[00-元语/软件工程]]
 - [[00-元语/benchmark]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]

@@ -67,6 +67,10 @@ RustFS 是一个基于 Rust 构建的高性能、兼容 S3 的开源分布式对
 - README：https://raw.githubusercontent.com/rustfs/rustfs/main/README.md
 - Releases：https://github.com/rustfs/rustfs/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/minio：a high-performance, S3 compatible object store|minio：a high-performance, S3 compatible object store]]；关联理由：引用；说明：本文多处将 RustFS 与 MinIO 做性能与兼容性对照，属于同一对象存储赛道的直接参照。
+
 ## 关联主题
 
 - [[00-元语/tool]]

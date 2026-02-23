@@ -81,3 +81,4 @@ Beta release of Archon OS - the knowledge and task management backbone for AI co
 - [[00-元语/context-database]]
 - [[00-元语/PostgreSQL]]
 - [[00-元语/llmops]]
+- [[00-元语/workflow]]

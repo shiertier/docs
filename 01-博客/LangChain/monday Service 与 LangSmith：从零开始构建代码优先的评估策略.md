@@ -134,5 +134,6 @@ monday Service 是一个 AI 原生的企业服务管理（ESM）平台，旨在�
 - [[00-元语/Agent]]
 - [[00-元语/evals]]
 - [[00-元语/observability]]
+- [[00-元语/llmops]]
 - [[00-元语/CI]]
 - [[00-元语/workflow]]

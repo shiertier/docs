@@ -74,9 +74,14 @@ _“OpenAI 与塔塔集团之间的这项战略合作，标志着印度实现成
 
 —— 塔塔之子（Tata Sons）董事长 N Chandrasekaran
 
+## 相关文档
+
+- [[01-博客/OpenAI/OpenAI正式推出“OpenAI for India”全国性计划|OpenAI正式推出“OpenAI for India”全国性计划]]；关联理由：同一事件；说明：两文均报道 2026-02-18 发布的 OpenAI for India 计划，可用于交叉核对同一发布事实与表述差异。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/AI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/Codex]]
+- [[00-元语/compliance]]

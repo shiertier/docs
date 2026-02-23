@@ -69,3 +69,5 @@ https://www.youtube.com/watch?v=rvwBsWDOFIE
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/alignment]]
+- [[00-元语/数学]]

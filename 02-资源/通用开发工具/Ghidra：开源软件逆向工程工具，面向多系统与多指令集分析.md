@@ -72,4 +72,5 @@ Ghidra is a software reverse engineering (SRE) framework
 - [[00-元语/desktop-client]]
 - [[00-元语/tool]]
 - [[00-元语/security]]
+- [[00-元语/cli]]
 - [[00-元语/github]]

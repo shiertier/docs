@@ -297,9 +297,241 @@ const config: QuartzConfig = {
 export default config
 CONFIG_EOF
 
+cat > "$RUNTIME_DIR/quartz/components/FrontmatterMeta.tsx" <<'META_EOF'
+import { Date, getDate } from "./Date"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import readingTime from "reading-time"
+import { classNames } from "../util/lang"
+import { i18n } from "../i18n"
+import { JSX } from "preact"
+import style from "./styles/contentMeta.scss"
+
+interface FrontmatterMetaOptions {
+  showReadingTime: boolean
+  showOriginalLink: boolean
+}
+
+const defaultOptions: FrontmatterMetaOptions = {
+  showReadingTime: true,
+  showOriginalLink: true,
+}
+
+function pickString(
+  frontmatter: Record<string, unknown> | undefined,
+  keys: string[],
+): string | undefined {
+  if (!frontmatter) return undefined
+  for (const key of keys) {
+    const value = frontmatter[key]
+    if (value === null || value === undefined) continue
+    const text = String(value).trim()
+    if (text) return text
+  }
+  return undefined
+}
+
+export default ((opts?: Partial<FrontmatterMetaOptions>) => {
+  const options: FrontmatterMetaOptions = { ...defaultOptions, ...opts }
+
+  function FrontmatterMeta({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    const text = fileData.text
+    const frontmatter = (fileData.frontmatter ?? undefined) as Record<string, unknown> | undefined
+
+    const publishDate = pickString(frontmatter, ["发布日期", "published", "publishDate", "date"])
+    const source = pickString(frontmatter, ["来源", "source"])
+    const originalLink = pickString(frontmatter, ["原文链接", "originalLink", "original_url", "url"])
+
+    const segments: JSX.Element[] = []
+    if (publishDate) {
+      segments.push(<span>发布日期：{publishDate}</span>)
+    } else if (fileData.dates) {
+      segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+    }
+
+    if (source) {
+      segments.push(<span>来源：{source}</span>)
+    }
+
+    if (options.showOriginalLink && originalLink) {
+      segments.push(
+        <span>
+          原文链接：
+          <a href={originalLink} rel="noopener noreferrer">
+            {originalLink}
+          </a>
+        </span>,
+      )
+    }
+
+    if (options.showReadingTime && text) {
+      const { minutes } = readingTime(text)
+      const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
+        minutes: Math.ceil(minutes),
+      })
+      segments.push(<span>{displayedTime}</span>)
+    }
+
+    if (segments.length === 0) return null
+
+    const nodes: JSX.Element[] = []
+    segments.forEach((segment, index) => {
+      if (index > 0) {
+        nodes.push(
+          <span aria-hidden="true" class="meta-sep">
+            ·
+          </span>,
+        )
+      }
+      nodes.push(segment)
+    })
+
+    return <p class={classNames(displayClass, "content-meta")}>{nodes}</p>
+  }
+
+  FrontmatterMeta.css = style
+  return FrontmatterMeta
+}) satisfies QuartzComponentConstructor
+META_EOF
+
+cat > "$RUNTIME_DIR/quartz/components/scripts/randomDoc.inline.ts" <<'RANDOM_SCRIPT_EOF'
+const RANDOM_DOC_CACHE_KEY = "__randomDocCandidates"
+const allowedPrefixes = ["01-博客/", "02-资源/", "03-图书/", "04-聊天/"]
+
+type ContentIndexEntry = {
+  slug?: string
+  filePath?: string
+}
+
+function isAllowedEntry(entry: ContentIndexEntry): boolean {
+  const slug = String(entry.slug || "").trim()
+  const filePath = String(entry.filePath || "").trim()
+  if (!slug) return false
+  if (slug === "index" || slug === "README") return false
+  if (slug.startsWith("00-元语/")) return false
+  if (slug.startsWith("最近更新/")) return false
+  if (slug.startsWith("tags/")) return false
+  if (slug.endsWith("/README") || slug.endsWith("/index")) return false
+
+  return allowedPrefixes.some((prefix) => slug.startsWith(prefix) || filePath.startsWith(prefix))
+}
+
+function simplifySlug(slug: string): string {
+  if (!slug) return ""
+  if (slug === "index") return ""
+  if (slug.endsWith("/index")) return slug.slice(0, -"/index".length)
+  return slug
+}
+
+function pathToRoot(slug: string): string {
+  const parts = slug
+    .split("/")
+    .filter((item) => item.length > 0)
+    .slice(0, -1)
+  if (parts.length === 0) return "."
+  return parts.map(() => "..").join("/")
+}
+
+function joinSegments(...parts: string[]): string {
+  const segments = parts
+    .filter((segment) => segment && segment !== "/")
+    .map((segment) => segment.replace(/^\/+|\/+$/g, ""))
+    .filter((segment) => segment.length > 0)
+  return segments.length > 0 ? segments.join("/") : "."
+}
+
+function resolveRelative(currentSlug: string, targetSlug: string): string {
+  const currentRoot = pathToRoot(currentSlug)
+  const simplified = simplifySlug(targetSlug)
+  return simplified ? joinSegments(currentRoot, simplified) : currentRoot
+}
+
+async function getCandidates(): Promise<string[]> {
+  const cached = (window as any)[RANDOM_DOC_CACHE_KEY]
+  if (Array.isArray(cached) && cached.length > 0) return cached
+
+  const indexData =
+    (typeof (window as any).fetchData !== "undefined"
+      ? await (window as any).fetchData
+      : await fetch("./static/contentIndex.json").then((resp) => resp.json())) || {}
+
+  const slugs = Object.values(indexData as Record<string, ContentIndexEntry>)
+    .filter(isAllowedEntry)
+    .map((entry) => String(entry.slug || "").trim())
+    .filter((slug) => slug.length > 0)
+
+  const unique = Array.from(new Set(slugs))
+  ;(window as any)[RANDOM_DOC_CACHE_KEY] = unique
+  return unique
+}
+
+document.addEventListener("nav", () => {
+  const buttons = document.querySelectorAll<HTMLButtonElement>(".random-doc-button")
+  if (!buttons.length) return
+
+  const onClick = async () => {
+    const currentSlug = String(document.body?.dataset?.slug || "").trim()
+    if (!currentSlug) return
+
+    const candidates = await getCandidates()
+    const pool = candidates.filter((slug) => slug !== currentSlug)
+    if (!pool.length) return
+
+    const targetSlug = pool[Math.floor(Math.random() * pool.length)]
+    const targetHref = resolveRelative(currentSlug, targetSlug)
+    const url = new URL(targetHref, window.location.toString())
+
+    if (typeof (window as any).spaNavigate === "function") {
+      ;(window as any).spaNavigate(url)
+      return
+    }
+    window.location.assign(url.toString())
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", onClick)
+    window.addCleanup(() => button.removeEventListener("click", onClick))
+  })
+})
+RANDOM_SCRIPT_EOF
+
+cat > "$RUNTIME_DIR/quartz/components/RandomDoc.tsx" <<'RANDOM_COMPONENT_EOF'
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { classNames } from "../util/lang"
+
+// @ts-ignore
+import script from "./scripts/randomDoc.inline"
+
+interface RandomDocOptions {
+  label: string
+}
+
+const defaultOptions: RandomDocOptions = {
+  label: "随机文档",
+}
+
+export default ((opts?: Partial<RandomDocOptions>) => {
+  const options: RandomDocOptions = { ...defaultOptions, ...opts }
+
+  function RandomDoc({ displayClass }: QuartzComponentProps) {
+    return (
+      <div class={classNames(displayClass, "random-doc-widget")}>
+        <button type="button" class="random-doc-button">
+          {options.label}
+        </button>
+      </div>
+    )
+  }
+
+  RandomDoc.afterDOMLoaded = script
+  return RandomDoc
+}) satisfies QuartzComponentConstructor
+RANDOM_COMPONENT_EOF
+
 cat > "$RUNTIME_DIR/quartz.layout.ts" <<'LAYOUT_EOF'
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import FrontmatterMeta from "./quartz/components/FrontmatterMeta"
+import RandomDoc from "./quartz/components/RandomDoc"
 
 const graphOptions = {
   localGraph: {
@@ -332,7 +564,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    FrontmatterMeta({}),
     Component.TagList(),
   ],
   left: [
@@ -348,6 +580,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    RandomDoc({ label: "随机文档" }),
     Component.Explorer(),
   ],
   right: [
@@ -358,7 +591,7 @@ export const defaultContentPageLayout: PageLayout = {
 }
 
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), FrontmatterMeta({})],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -371,6 +604,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    RandomDoc({ label: "随机文档" }),
     Component.Explorer(),
   ],
   right: [Component.Graph(graphOptions)],

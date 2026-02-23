@@ -79,3 +79,4 @@ Lightpanda: the headless browser designed for AI and automation
 - [[00-元语/protocol]]
 - [[00-元语/web-crawling]]
 - [[00-元语/github]]
+- [[00-元语/benchmark]]

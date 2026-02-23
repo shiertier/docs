@@ -29,8 +29,14 @@ Google DeepMind 在 X 发文称：
 
 抓取时显示浏览量：1200 万次浏览。
 
+## 相关文档
+
+- [[01-博客/Google/Project Genie：探索无限的交互式世界|Project Genie：探索无限的交互式世界]]；关联理由：同一事件；说明：该文是同一项目发布的完整说明，可补全这条 X 帖的产品能力与开放范围细节。
+- [[01-博客/Google DeepMind/Genie 3：探索世界模型的新前沿|Genie 3：探索世界模型的新前沿]]；关联理由：上下游；说明：Project Genie 的交互式体验建立在 Genie 3 世界模型能力之上，二者构成技术到产品的承接关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/game]]
+- [[00-元语/interactive-storytelling]]
 - [[00-元语/x]]

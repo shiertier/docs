@@ -81,9 +81,11 @@ Acontext 是一个专为生产级和自学习 AI Agent 打造的上下文数据�
 
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/memory]]
 - [[00-元语/context-database]]
 - [[00-元语/context-optimization]]
 - [[00-元语/observability]]
+- [[00-元语/llmops]]
 - [[00-元语/multimodal]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/sdk]]

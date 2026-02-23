@@ -53,7 +53,7 @@ Hugging Face 维护着极具影响力的 `Transformers` 库，当今大多数的
 
 - [[01-博客/Hugging Face/GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来|GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来]]；关联理由：同一事件；说明：该文是 Hugging Face 官方公告，对本文讨论的加入事件与整合目标提供一手信息。
 - [[02-资源/AI-模型与推理基础设施/llama.cpp：轻量级本地大模型推理引擎|llama.cpp：轻量级本地大模型推理引擎]]；关联理由：解说；说明：本文将 llama.cpp 视为本地模型运动关键节点，该档案补充了其能力边界与工程定位。
-- [[02-资源/AI-模型与推理基础设施/Transformers：Hugging Face 大模型框架|Transformers：Hugging Face 大模型框架]]；关联理由：上下游；说明：本文强调 transformers 与 ggml 生态的衔接，该档案对应模型定义层的上游框架背景。
+- [[02-资源/AI-模型与推理基础设施/Transformers：开源模型定义库，面向多模态模型训练与推理|Transformers：开源模型定义库，面向多模态模型训练与推理]]；关联理由：上下游；说明：本文强调 transformers 与 ggml 生态的衔接，该档案对应模型定义层的上游框架背景。
 
 ## 关联主题
 

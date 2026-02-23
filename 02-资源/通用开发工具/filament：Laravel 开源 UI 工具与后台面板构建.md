@@ -65,6 +65,10 @@ A powerful open source UI framework for Laravel • Build and ship admin panels 
 - README：https://raw.githubusercontent.com/filamentphp/filament/4.x/README.md
 - Releases：https://github.com/filamentphp/filament/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Laravel：PHP Web 应用框架|Laravel：PHP Web 应用框架]]；关联理由：上下游；说明：Filament 明确构建于 Laravel 生态之上，该文档可补充其底层框架定位与通用能力边界。
+
 ## 关联主题
 
 - [[00-元语/tool]]

@@ -74,5 +74,6 @@ title: "system-prompts-and-models-of-ai-tools：AI 工具 system prompts 与内�
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/github]]
+- [[00-元语/risk]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]

@@ -75,3 +75,4 @@ A Conversational Speech Generation Model
 - [[00-元语/deepfake]]
 - [[00-元语/github]]
 - [[00-元语/compliance]]
+- [[00-元语/risk]]

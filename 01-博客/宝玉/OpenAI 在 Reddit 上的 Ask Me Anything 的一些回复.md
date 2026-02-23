@@ -410,5 +410,6 @@ Kevin Weil（OpenAI 产品总监）：这是个好问题——今天刚发布的
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/memory]]
 - [[00-元语/roadmap]]
 - [[00-元语/compliance]]

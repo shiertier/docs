@@ -80,5 +80,6 @@ Persistent Systems 正在与 NVIDIA 合作，将早期药物发现推向速度�
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/compliance]]
 - [[00-元语/workflow]]

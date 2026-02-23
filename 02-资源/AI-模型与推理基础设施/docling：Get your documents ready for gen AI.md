@@ -66,6 +66,10 @@ Get your documents ready for gen AI
 - README：https://raw.githubusercontent.com/docling-project/docling/main/README.md
 - Releases：https://github.com/docling-project/docling/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Docling：开源文档解析工具与结构化转换|Docling：开源文档解析工具与结构化转换]]；关联理由：解说；说明：同一项目的更完整档案，补充了格式支持、OCR/ASR、生态集成与版本边界信息。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -74,5 +78,5 @@ Get your documents ready for gen AI
 - [[00-元语/ocr]]
 - [[00-元语/multimodal]]
 - [[00-元语/data-pipeline]]
-- [[00-元语/cli]]
+- [[00-元语/ETL]]
 - [[00-元语/github]]

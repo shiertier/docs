@@ -93,9 +93,15 @@ NVIDIA 在计算、网络和软件等堆栈各个层面的极致协同设计，�
 
 这一势头将在 NVIDIA Rubin 平台上继续延续——该平台将六款新芯片集成到一台 AI 超级计算机中，旨在提供比 Blackwell 高 10 倍的性能，并将 Token 成本再降低 10 倍。
 
+## 相关文档
+
+- [[01-博客/NVIDIA/NVIDIA Blackwell Ultra：为代理型 AI 带来 50 倍性能提升与 35 倍成本降低|NVIDIA Blackwell Ultra：为代理型 AI 带来 50 倍性能提升与 35 倍成本降低]]；关联理由：版本演进；说明：同属 NVIDIA 在推理经济性上的连续叙事，且都以 Blackwell 对比 Hopper 量化成本下降。
+- [[01-博客/Towards Data Science/构建企业级本地 AI 的 GPUaaS 架构|构建企业级本地 AI 的 GPUaaS 架构]]；关联理由：延伸思考；说明：该文给出按每百万 Token 计算成本的工程方法，可用于补充本文的落地测算视角。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]
 - [[00-元语/llmops]]
 - [[00-元语/benchmark]]

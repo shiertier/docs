@@ -27,9 +27,11 @@ dns（Domain Name System）是把域名解析到网络资源地址的基础互�
 - [[00-元语/protocol]]
 - [[00-元语/security]]
 - [[00-元语/cloudflare]]
+- [[00-元语/self-hosting]]
 
 ## 关联主题
 
 - [[00-元语/domain-name]]
 - [[00-元语/protocol]]
 - [[00-元语/security]]
+- [[00-元语/self-hosting]]

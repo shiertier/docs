@@ -76,6 +76,7 @@ Vercel 也深入剖析了 `Agent.md` 能够胜过 Skills 的深层原因：
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/skills]]
 - [[00-元语/rag]]
 - [[00-元语/prompt]]

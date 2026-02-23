@@ -69,5 +69,6 @@ Ultralytics YOLO 🚀
 - [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/sdk]]
+- [[00-元语/tool]]
 - [[00-元语/benchmark]]
 - [[00-元语/compliance]]

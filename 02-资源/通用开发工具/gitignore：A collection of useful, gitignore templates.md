@@ -65,6 +65,6 @@ A collection of useful .gitignore templates
 ## 关联主题
 
 - [[00-元语/github]]
-- [[00-元语/cli]]
+- [[00-元语/tool]]
 - [[00-元语/软件工程]]
 - [[00-元语/workflow]]

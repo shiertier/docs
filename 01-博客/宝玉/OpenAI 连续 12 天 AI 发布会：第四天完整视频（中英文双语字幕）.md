@@ -132,5 +132,7 @@ OpenAI 在其 12 天系列发布会的第四天宣布了 Canvas 的三项核心�
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/roadmap]]
+- [[00-元语/video]]
 - [[00-元语/wasm]]
 - [[00-元语/workflow]]

@@ -74,3 +74,4 @@ LLM agents built for control. Designed for real-world use. Deployed in minutes.
 - [[00-元语/evals]]
 - [[00-元语/observability]]
 - [[00-元语/github]]
+- [[00-元语/tool]]

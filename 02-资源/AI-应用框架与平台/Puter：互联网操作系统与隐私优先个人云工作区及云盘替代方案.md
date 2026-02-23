@@ -69,4 +69,4 @@ Puter 是一个免费、开源且支持自托管的互联网操作系统（Inter
 - [[00-元语/self-hosting]]
 - [[00-元语/desktop-client]]
 - [[00-元语/virtual-file-system]]
-- [[00-元语/workflow]]
+- [[00-元语/security]]

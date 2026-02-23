@@ -66,6 +66,8 @@ Vim-fork focused on extensibility and usability
 ## 相关文档
 
 - [[02-资源/通用开发工具/kickstart.nvim：A launch point for your personal nvim configuration|kickstart.nvim：A launch point for your personal nvim configuration]]；关联理由：上下游；说明：kickstart.nvim 是基于 Neovim 的配置起点项目，属于 Neovim 生态的直接下游实践。
+- [[02-资源/通用开发工具/lazy.nvim：Neovim 插件管理器|lazy.nvim：Neovim 插件管理器]]；关联理由：上下游；说明：lazy.nvim 提供 Neovim 插件管理能力，直接依赖 Neovim 的扩展机制与运行环境。
+- [[02-资源/通用开发工具/snacks.nvim：Neovim 体验增强插件集|snacks.nvim：Neovim 体验增强插件集]]；关联理由：上下游；说明：snacks.nvim 作为 Neovim 的体验增强插件集合，属于围绕 Neovim 的功能扩展层。
 - [[02-资源/AI-编程助手与Agent/avante.nvim：Use your Neovim like using Cursor AI IDE!|avante.nvim：Use your Neovim like using Cursor AI IDE!]]；关联理由：上下游；说明：avante.nvim 以 Neovim 为运行宿主提供 AI 开发能力，依赖 Neovim 的插件与 API 机制。
 
 ## 关联主题
@@ -73,7 +75,7 @@ Vim-fork focused on extensibility and usability
 - [[00-元语/ide]]
 - [[00-元语/terminal]]
 - [[00-元语/cli]]
-- [[00-元语/desktop-client]]
-- [[00-元语/sdk]]
+- [[00-元语/productivity]]
+- [[00-元语/workflow]]
 - [[00-元语/github]]
 - [[00-元语/tool]]

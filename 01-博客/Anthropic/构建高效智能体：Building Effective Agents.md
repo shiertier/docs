@@ -263,15 +263,16 @@ LLM 有时可以同时处理一项任务，并通过编程方式汇总它们的�
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Building Effective Agents 常见工作流最小实现|Building Effective Agents 常见工作流最小实现]]；关联理由：解说；说明：该文给出同一主题的最小工作流实现，可作为本文方法论的代码化补充。
+- [[01-博客/Anthropic/Building Effective Agents 常见工作流最小实现|Building Effective Agents 常见工作流最小实现]]；关联理由：引用；说明：该文明确是本文的配套参考实现，可直接对照本文五类模式的最小代码示例。
 - [[01-博客/Anthropic/使用 Claude Agent SDK 构建强大智能体教程|使用 Claude Agent SDK 构建强大智能体教程]]；关联理由：上下游；说明：本文提供方法框架，该文提供基于 Claude Agent SDK 的工程化落地路径。
-- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：延伸思考；说明：本文讨论工作流与智能体边界，该文延伸到上下文工程的具体策略与取舍。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：版本演进；说明：该文直接回溯并扩展本文观点，给出后续在长周期智能体中的上下文工程实践。
 
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
 - [[00-元语/llm]]
+- [[00-元语/memory]]
 - [[00-元语/evals]]
 - [[00-元语/prompt]]
 - [[00-元语/mcp]]

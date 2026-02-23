@@ -128,6 +128,7 @@ hack the planet~
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/OpenAI]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]

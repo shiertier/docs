@@ -69,6 +69,12 @@ Antigma 将自身定位为“自组织智能基础设施”提供方，核心产
 - Hugging Face：https://huggingface.co/Antigma
 - X：https://x.com/antigma_labs
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Terminal-Bench：终端智能体评测基准与论文关联|Terminal-Bench：终端智能体评测基准与论文关联]]；关联理由：上下游；说明：本文引用该基准作为性能依据，而该文档提供了基准定义与评测边界。
+- [[02-资源/AI-编程助手与Agent/autonomous-coding：基于 Claude Agent SDK 的长运行自主编程智能体|autonomous-coding：基于 Claude Agent SDK 的长运行自主编程智能体]]；关联理由：观点一致；说明：两者都围绕自主编程智能体在真实开发流程中的持续执行与工程化落地。
+- [[01-博客/LangChain/通过脚手架工程提升深度智能体性能|通过脚手架工程提升深度智能体性能]]；关联理由：延伸思考；说明：该文从脚手架工程视角补充了同类智能体在 Terminal Bench 上的性能提升路径。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -81,3 +87,5 @@ Antigma 将自身定位为“自组织智能基础设施”提供方，核心产
 - [[00-元语/llm]]
 - [[00-元语/meta]]
 - [[00-元语/security]]
+- [[00-元语/risk]]
+- [[00-元语/compliance]]

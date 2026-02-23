@@ -9,6 +9,7 @@ title: "asr"
 
 asr 是 Automatic Speech Recognition 的缩写，指将人类语音自动转换为可读文本的技术能力。
 在语音 Agent 等场景中，asr 常作为上游环节，与下游的 llm 推理和 tts 合成串联工作。
+在评估上，asr 常用词错误率（WER）或字符错误率（CER）衡量识别质量。
 
 ## 相关词条
 
@@ -16,6 +17,7 @@ asr 是 Automatic Speech Recognition 的缩写，指将人类语音自动转换�
 - [[00-元语/tts]]
 - [[00-元语/multimodal]]
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
 
 ## 关联主题
 
@@ -25,3 +27,4 @@ asr 是 Automatic Speech Recognition 的缩写，指将人类语音自动转换�
 - [[00-元语/AI]]
 - [[00-元语/video]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]

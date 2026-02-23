@@ -298,6 +298,7 @@ Sherwin 说：
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
+- [[00-元语/Cursor]]
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/llm]]
@@ -308,6 +309,5 @@ Sherwin 说：
 - [[00-元语/vibe-coding]]
 - [[00-元语/multimodal]]
 - [[00-元语/audio]]
-- [[00-元语/workflow]]
 - [[00-元语/benchmark]]
-- [[00-元语/skills]]
+- [[00-元语/组织设计]]

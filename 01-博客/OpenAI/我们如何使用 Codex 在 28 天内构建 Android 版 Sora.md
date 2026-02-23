@@ -154,6 +154,7 @@ iOS 版 Sora 一经发布，使用量就呈爆炸式增长。人们立即开始�
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/CI]]
+- [[00-元语/cli]]
 - [[00-元语/code-review]]
 - [[00-元语/context-optimization]]
 - [[00-元语/multimodal]]

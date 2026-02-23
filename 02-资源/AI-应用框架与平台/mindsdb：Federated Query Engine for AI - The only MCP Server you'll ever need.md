@@ -71,6 +71,5 @@ Federated Query Engine for AI - The only MCP Server you'll ever need
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
 - [[00-元语/Agent]]
-- [[00-元语/llm]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/github]]

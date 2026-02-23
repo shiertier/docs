@@ -77,7 +77,7 @@ title: "Deepgram 与 LlamaIndex 集成入口"
 
 ## 相关文档
 
-- [[01-博客/Anthropic/ElevenLabs 与 Claude 低延迟语音助手实践|ElevenLabs 与 Claude 低延迟语音助手实践]]；关联理由：同一事件；说明：两篇都来自 Claude Cookbooks 的 third_party 集成目录，分别覆盖语音场景中的不同服务实现。
+- [[01-博客/Anthropic/ElevenLabs 与 Claude 低延迟语音助手实践|ElevenLabs 与 Claude 低延迟语音助手实践]]；关联理由：解说；说明：两篇都属于 Claude Cookbooks 的 third_party 集成实践，本文补充了 Deepgram 语音能力与 LlamaIndex 结构化检索入口。
 - [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：上下游；说明：本篇 LlamaIndex 的 RAG 查询能力通常以上游 Embeddings 质量为基础，该文对应向量化环节。
 - [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：引用；说明：总览文档将 Deepgram 与 LlamaIndex 列在 third_party 集成中，本篇是对应条目的下钻入口。
 

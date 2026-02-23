@@ -72,3 +72,4 @@ maxun 是一个开源项目，归档分类为“AI-应用框架与平台”。Gi
 - [[00-元语/github]]
 - [[00-元语/web-crawling]]
 - [[00-元语/browser-automation]]
+- [[00-元语/mcp]]

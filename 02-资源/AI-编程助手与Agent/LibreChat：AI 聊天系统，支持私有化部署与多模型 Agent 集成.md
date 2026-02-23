@@ -67,6 +67,12 @@ Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, 
 - README：https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md
 - Releases：https://github.com/danny-avila/LibreChat/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/chatbox：开源 GPLv3 多端 AI 客户端与多模型接入工具|chatbox：开源 GPLv3 多端 AI 客户端与多模型接入工具]]；关联理由：观点一致；说明：两者都聚焦多模型接入的 AI 聊天产品，并强调面向个人或团队的实际使用体验。
+- [[02-资源/AI-编程助手与Agent/LocalAI：开源、本地优先的 AI 推理引擎，作为 OpenAI、Claude 等 API 的直接替代方案|LocalAI：开源、本地优先的 AI 推理引擎，作为 OpenAI、Claude 等 API 的直接替代方案]]；关联理由：上下游；说明：LibreChat 可作为上层交互界面，对接 LocalAI 这类本地推理后端完成私有化部署。
+- [[02-资源/AI-编程助手与Agent/mcp-playwright：Playwright 浏览器自动化 MCP 服务器|mcp-playwright：Playwright 浏览器自动化 MCP 服务器]]；关联理由：上下游；说明：LibreChat 支持 MCP 扩展，mcp-playwright 提供可接入的浏览器自动化工具能力。
+
 ## 关联主题
 
 - [[00-元语/AI]]

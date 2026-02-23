@@ -46,5 +46,8 @@ Anthropic 推出了全新的计算机操作模型 Sonnet 4.6，并利用 Kernel 
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/Claude]]
+- [[00-元语/llm]]
+- [[00-元语/benchmark]]
 - [[00-元语/evals]]
 - [[00-元语/browser-automation]]

@@ -120,5 +120,7 @@ Anthropic 推出了由 Claude 驱动的自动化定性研究工具 Anthropic Int
 - [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/interview]]
-- [[00-元语/mcp]]
+- [[00-元语/productivity]]
 - [[00-元语/risk]]
+- [[00-元语/career]]
+- [[00-元语/知识工作]]

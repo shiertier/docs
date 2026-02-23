@@ -113,14 +113,16 @@ GPT-5.3-Codex 是在 NVIDIA GB200 NVL72 系统上进行协同设计、训练和�
 
 - [[01-博客/OpenAI/GPT-5.3-Codex 系统卡：迄今最强大的代理编程模型|GPT-5.3-Codex 系统卡：迄今最强大的代理编程模型]]；关联理由：同一事件；说明：系统卡与本文围绕同一模型发布，补充了安全评估分级与防护边界。
 - [[01-博客/OpenAI/推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型|推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型]]；关联理由：版本演进；说明：该文展示了 GPT-5.3-Codex 在实时低延迟场景中的轻量化分支与后续产品化方向。
-- [[01-博客/OpenAI/在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签|在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签]]；关联理由：上下游；说明：该文解释高风险标签与锁定模式，和本文的可信访问与高风险降级策略形成安全治理闭环。
+- [[01-博客/OpenAI/推出网络安全可信访问计划|推出网络安全可信访问计划]]；关联理由：上下游；说明：本文提到 Trusted Access for Cyber 试点，该文给出了访问机制、适用对象与资助计划等落地细节。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/benchmark]]
 - [[00-元语/evals]]
 - [[00-元语/security]]
+- [[00-元语/risk]]
 - [[00-元语/ChatGPT]]

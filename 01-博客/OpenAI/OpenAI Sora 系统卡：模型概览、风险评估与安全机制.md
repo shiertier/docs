@@ -135,6 +135,7 @@ OpenAI 将采取迭代部署策略，持续优化 Sora：
 - [[00-元语/OpenAI]]
 - [[00-元语/video]]
 - [[00-元语/multimodal]]
+- [[00-元语/deepfake]]
 - [[00-元语/risk]]
 - [[00-元语/security]]
 - [[00-元语/alignment]]

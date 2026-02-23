@@ -118,6 +118,7 @@ CopilotKit 也提供了一个公开的 [A2UI Widget Builder](https://go.copilotk
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/AI]]
 - [[00-元语/ui-protocol]]
 - [[00-元语/protocol]]
 - [[00-元语/llm]]

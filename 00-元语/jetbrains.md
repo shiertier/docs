@@ -26,6 +26,11 @@ JetBrains 体系代表了一系列面向专业开发者的集成开发环境（I
 - [[00-元语/tool]]
 - [[00-元语/Agent]]
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/Junie：JetBrains 的 LLM-agnostic coding agent|Junie：JetBrains 的 LLM-agnostic coding agent]]；关联理由：上下游；说明：该工具是 JetBrains 体系直接推出的 coding agent 产品，体现其从 IDE 向 Agent 工作流延展。
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：同一事件；说明：文中明确将 JetBrains 列为 Codex IDE 级智能体体验的集成场景之一。
+
 ## 关联主题
 
 - [[00-元语/ide]]

@@ -65,11 +65,15 @@ Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that help
 - README：https://raw.githubusercontent.com/zaidmukaddam/scira/main/README.md
 - Releases：https://github.com/zaidmukaddam/scira/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Perplexica：an AI-powered answering engine|Perplexica：an AI-powered answering engine]]；关联理由：观点一致；说明：两者都定位于面向互联网检索与答案生成的开源 AI 搜索/问答引擎，便于横向比较架构与产品取舍。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/rag]]
 - [[00-元语/sdk]]
 - [[00-元语/typescript]]
-- [[00-元语/tool]]
 - [[00-元语/github]]

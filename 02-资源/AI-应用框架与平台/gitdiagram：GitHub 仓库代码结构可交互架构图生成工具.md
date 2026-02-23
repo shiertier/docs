@@ -69,6 +69,10 @@ Free, simple, fast interactive diagrams for any GitHub repository
 - README：https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/main/README.md
 - Releases：https://github.com/ahmedkhaleel2004/gitdiagram/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/GitHub MCP Server：MCP 服务器用于 GitHub 代码与 Issue PR 操作|GitHub MCP Server：MCP 服务器用于 GitHub 代码与 Issue PR 操作]]；关联理由：上下游；说明：两者都围绕 GitHub 仓库理解与操作，常见流程是先用架构图理解代码结构，再通过 MCP 工具执行仓库协作与自动化操作。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -76,6 +80,7 @@ Free, simple, fast interactive diagrams for any GitHub repository
 - [[00-元语/OpenAI]]
 - [[00-元语/llm]]
 - [[00-元语/typescript]]
+- [[00-元语/fastapi]]
 - [[00-元语/tool]]
 - [[00-元语/self-hosting]]
 - [[00-元语/PostgreSQL]]

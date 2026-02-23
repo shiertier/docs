@@ -73,6 +73,6 @@ Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchma
 - [[00-元语/workflow]]
 - [[00-元语/sdk]]
 - [[00-元语/benchmark]]
-- [[00-元语/browser-automation]]
+- [[00-元语/desktop-client]]
 - [[00-元语/github]]
 - [[00-元语/windows]]

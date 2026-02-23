@@ -63,6 +63,10 @@ Lightweight server monitoring hub with historical data, docker stats, and alerts
 - README：https://raw.githubusercontent.com/henrygd/beszel/main/README.md
 - Releases：https://github.com/henrygd/beszel/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/pocketbase：开源的、基于 Go 语言编写的单文件实时后端服务，内置 SQLite 数据库、用户与文件管理系统、管理后台 UI 以及 REST API|pocketbase：单文件实时后端服务]]；关联理由：上下游；说明：Beszel 的 Hub 端基于 PocketBase 构建，属于 PocketBase 在监控场景中的下游应用。
+
 ## 关联主题
 
 - [[00-元语/observability]]

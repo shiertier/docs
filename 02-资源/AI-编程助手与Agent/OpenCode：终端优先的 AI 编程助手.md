@@ -89,3 +89,4 @@ OpenCode 是一个完全开源的 AI 编程智能体（Coding Agent）。项目�
 - [[00-元语/protocol]]
 - [[00-元语/desktop-client]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

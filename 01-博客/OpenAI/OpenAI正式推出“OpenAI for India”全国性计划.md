@@ -72,3 +72,4 @@ OpenAI将在印度扩展“OpenAI认证”项目，TCS将成为美国本土以�
 - [[00-元语/AI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/compliance]]
+- [[00-元语/Codex]]

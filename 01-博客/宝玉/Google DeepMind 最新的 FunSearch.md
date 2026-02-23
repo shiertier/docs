@@ -56,6 +56,11 @@ Voyager 完整的数据流设计，这个设计能在一个庞大的 3D 世界�
 
 相关文章：《[FunSearch：利用大语言模型在数学科学领域探索新奇发现 [译]](https://baoyu.io/translations/google/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models)》
 
+## 相关文档
+
+- [[01-博客/Google DeepMind/使用 Gemini Deep Think 加速数学与科学发现-2|使用 Gemini Deep Think 加速数学与科学发现]]；关联理由：版本演进；说明：同属 Google DeepMind 的数学发现方向，体现了从 FunSearch 程序搜索到研究级推理与验证智能体的阶段性演进。
+- [[01-博客/宝玉/新论文：《WebVoyager Building an End-to-End Web Agent with Large Multimodal Models》|新论文：《WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models》]]；关联理由：观点一致；说明：两文都采用“模型生成方案 + 外部执行/验证 + 反馈迭代”的闭环机制来提升复杂任务求解能力。
+
 ## 关联主题
 
 - [[00-元语/AI]]

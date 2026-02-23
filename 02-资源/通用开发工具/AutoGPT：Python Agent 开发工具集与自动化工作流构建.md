@@ -73,5 +73,6 @@ AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our
 - [[00-元语/cli]]
 - [[00-元语/benchmark]]
 - [[00-元语/self-hosting]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/github]]

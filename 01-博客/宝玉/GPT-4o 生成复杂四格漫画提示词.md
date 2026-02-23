@@ -84,6 +84,7 @@ title: "GPT-4o 生成复杂四格漫画提示词"
 - [[00-元语/AI]]
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/image-editing]]
 - [[00-元语/multimodal]]

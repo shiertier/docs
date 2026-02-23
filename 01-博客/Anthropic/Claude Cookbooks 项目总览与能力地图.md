@@ -100,11 +100,14 @@ Claude Cookbooks 的蓬勃发展离不开开发者社区的贡献。我们非常
 
 - [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：本篇是目录与能力地图，上述文档给出该仓库的贡献和实现规范，形成从总览到落地的上下游关系。
 - [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：解说；说明：该文对本篇列出的 capabilities 分组做了展开，并补充了评测方法与执行细节。
+- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单上篇|Claude Tool Use Cookbook 实战清单上篇]]；关联理由：解说；说明：该文细化了本篇 tool_use 分组中的工具定义、调用策略与并行执行实践。
+- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：解说；说明：该文对应本篇 multimodal 分组，补充视觉输入、裁剪工具与子代理协同的落地方法。
 - [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：引用；说明：本篇在 third_party 集成中明确列出 Voyage AI embeddings 条目，该文是对应的实作细化页。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Agent]]
 - [[00-元语/github]]
 - [[00-元语/rag]]
 - [[00-元语/multimodal]]

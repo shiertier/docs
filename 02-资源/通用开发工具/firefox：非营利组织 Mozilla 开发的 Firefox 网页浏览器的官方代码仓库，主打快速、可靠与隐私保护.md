@@ -63,6 +63,10 @@ The official repository of Mozilla's Firefox web browser.
 - README：https://raw.githubusercontent.com/mozilla-firefox/firefox/main/README.md
 - Releases：https://github.com/mozilla-firefox/firefox/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Zen Browser Desktop：开源浏览器桌面端项目.md|Zen Browser Desktop：开源浏览器桌面端项目]]；关联理由：上下游；说明：Zen Browser 明确基于 Firefox 版本构建，Firefox 仓库文档可作为其上游参考。
+
 ## 关联主题
 
 - [[00-元语/github]]

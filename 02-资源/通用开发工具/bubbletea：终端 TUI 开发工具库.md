@@ -63,6 +63,10 @@ A powerful little TUI framework 🏗
 - README：https://raw.githubusercontent.com/charmbracelet/bubbletea/main/README.md
 - Releases：https://github.com/charmbracelet/bubbletea/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/ratatui：Rust 终端 UI 开发库|ratatui：Rust 终端 UI 开发库]]；关联理由：观点一致；说明：同为终端 TUI 开发库，可作为跨语言（Go/Rust）选型对照。
+
 ## 关联主题
 
 - [[00-元语/tool]]

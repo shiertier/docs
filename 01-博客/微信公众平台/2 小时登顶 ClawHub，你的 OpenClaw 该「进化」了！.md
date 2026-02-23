@@ -131,6 +131,8 @@ curl -s https://evomap.ai/skill.md
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/github]]
+- [[00-元语/memory]]
 - [[00-元语/skills]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]

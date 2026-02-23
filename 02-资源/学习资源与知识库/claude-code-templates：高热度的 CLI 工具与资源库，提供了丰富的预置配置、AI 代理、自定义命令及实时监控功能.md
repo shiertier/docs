@@ -72,6 +72,7 @@ CLI tool for configuring and monitoring Claude Code
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]
 - [[00-元语/observability]]
+- [[00-元语/cloudflare]]
 - [[00-元语/skills]]
 - [[00-元语/workflow]]
 - [[00-元语/learning-resource]]

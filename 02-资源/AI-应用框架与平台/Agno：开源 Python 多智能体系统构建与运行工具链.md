@@ -66,6 +66,11 @@ The programming language for agentic software. Build, run, and manage multi-agen
 - README：https://raw.githubusercontent.com/agno-agi/agno/main/README.md
 - Releases：https://github.com/agno-agi/agno/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/OpenAI Agents Python：OpenAI 智能体 Python SDK|OpenAI Agents Python：OpenAI 智能体 Python SDK]]；关联理由：观点一致；说明：两者都面向 Python 智能体开发并支持多智能体工作流，适合作为同场景选型对照。
+- [[02-资源/AI-应用框架与平台/Acontext：Agent 上下文存储与可观测服务|Acontext：Agent 上下文存储与可观测服务]]；关联理由：上下游；说明：Acontext 文档明确包含与 Agno 的集成信息，可作为 Agno 体系的上下文与可观测能力补充。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -75,3 +80,5 @@ The programming language for agentic software. Build, run, and manage multi-agen
 - [[00-元语/sdk]]
 - [[00-元语/observability]]
 - [[00-元语/workflow]]
+- [[00-元语/llmops]]
+- [[00-元语/github]]

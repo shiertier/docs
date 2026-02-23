@@ -67,7 +67,4 @@ OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be search
 
 - [[00-元语/ocr]]
 - [[00-元语/cli]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]
 - [[00-元语/github]]
-- [[00-元语/productivity]]

@@ -69,5 +69,6 @@ Scan for React performance issues and eliminate slow renders in your app
 
 - [[00-元语/tool]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/observability]]

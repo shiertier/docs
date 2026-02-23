@@ -70,7 +70,7 @@ Presentation Slides for Developers
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/productivity]]
-- [[00-元语/README]]
+- [[00-元语/design]]
 - [[00-元语/markdown]]
 - [[00-元语/typescript]]
 - [[00-元语/cli]]

@@ -65,12 +65,12 @@ Anthropic是一家公共利益公司（Public Benefit Corporation），其董事
 
 ## 相关文档
 
-- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：同一事件；说明：本文“相关最新动态”明确提到该能力发布，该文是对应事件的完整展开。
-- [[01-博客/Anthropic/Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用|Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用]]；关联理由：同一事件；说明：本文提及与卢旺达签署 MOU，该文提供同一合作事项的独立详细说明。
-- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：同一事件；说明：本文将 Sonnet 4.6 列为同期进展，该文对应同一模型发布事件。
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：解说；说明：本文仅简述 Claude Code Security 动态，该文提供该功能定位与能力边界的详细展开。
+- [[01-博客/Anthropic/Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用|Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用]]；关联理由：解说；说明：本文把卢旺达合作作为简讯提及，该文对合作目标、场景和期限做了完整说明。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：解说；说明：本文仅概述 Sonnet 4.6 发布动态，该文可作为模型能力更新的主文档。
 
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/Claude]]
 - [[00-元语/compliance]]
+- [[00-元语/组织设计]]

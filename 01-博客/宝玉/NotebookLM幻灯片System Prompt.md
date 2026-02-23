@@ -45,6 +45,5 @@ We have also attached some producer notes below for this slide deck which will h
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
-- [[00-元语/gemini]]
 - [[00-元语/prompt]]
 - [[00-元语/design]]

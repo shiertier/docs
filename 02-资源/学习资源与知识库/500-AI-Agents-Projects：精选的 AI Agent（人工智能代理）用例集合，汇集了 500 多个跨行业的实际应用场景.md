@@ -64,10 +64,14 @@ The 500 AI Agents Projects is a curated collection of AI agent use cases across 
 - README：https://raw.githubusercontent.com/ashishpatel26/500-AI-Agents-Projects/main/README.md
 - Releases：https://github.com/ashishpatel26/500-AI-Agents-Projects/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/awesome-ai-agents：AI Agent 项目清单与选型导航|awesome-ai-agents：AI Agent 项目清单与选型导航]]；关联理由：延伸思考；说明：两者同属高热度 Agent 清单型资源，但该文更偏“项目/产品导航”，可与本条的“行业用例集合”互补使用。
+- [[02-资源/学习资源与知识库/AI Agents for Beginners：AI Agent 入门课程|AI Agents for Beginners：AI Agent 入门课程]]；关联理由：上下游；说明：本条用于收集可落地用例方向，而该课程提供从基础到实践的学习路径，适合作为后续上手材料。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
-- [[00-元语/rag]]

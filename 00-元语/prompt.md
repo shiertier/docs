@@ -34,4 +34,5 @@ title: "prompt"
 - [[00-元语/context-optimization]]
 - [[00-元语/evals]]
 - [[00-元语/Agent]]
+- [[00-元语/mcp]]
 - [[00-元语/workflow]]

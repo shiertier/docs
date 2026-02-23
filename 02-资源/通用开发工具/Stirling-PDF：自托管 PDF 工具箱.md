@@ -64,6 +64,11 @@ Stirling-PDF 是一个高人气的开源 PDF 编辑平台，支持在桌面、�
 - README：https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/README.md
 - Releases：https://github.com/Stirling-Tools/Stirling-PDF/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Umi-OCR：基于 Python 开发的开源、免费且完全离线的文字识别（OCR）工具，支持截图、批量图片、PDF文档及二维码识别|Umi-OCR：基于 Python 开发的开源、免费且完全离线的文字识别（OCR）工具，支持截图、批量图片、PDF文档及二维码识别]]；关联理由：延伸思考；说明：两者都覆盖本地 PDF 与 OCR 处理，但 Umi-OCR 更聚焦识别提取，适合与 Stirling-PDF 做能力边界对照。
+- [[02-资源/通用开发工具/marker：Convert PDF to markdown + JSON quickly with high accuracy|marker：Convert PDF to markdown + JSON quickly with high accuracy]]；关联理由：上下游；说明：Stirling-PDF 可先做拆分、脱敏与格式整理，marker 再做结构化抽取，二者可组成 PDF 处理链路。
+
 ## 关联主题
 
 - [[00-元语/self-hosting]]
@@ -71,3 +76,4 @@ Stirling-PDF 是一个高人气的开源 PDF 编辑平台，支持在桌面、�
 - [[00-元语/security]]
 - [[00-元语/github]]
 - [[00-元语/typescript]]
+- [[00-元语/cli]]

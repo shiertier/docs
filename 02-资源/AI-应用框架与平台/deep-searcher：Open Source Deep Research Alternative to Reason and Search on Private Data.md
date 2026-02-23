@@ -77,5 +77,6 @@ Open Source Deep Research Alternative to Reason and Search on Private Data. Writ
 - [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/context-database]]
+- [[00-元语/self-hosting]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]

@@ -65,6 +65,10 @@ Payload is the open-source, fullstack Next.js framework, giving you instant back
 - README：https://raw.githubusercontent.com/payloadcms/payload/main/README.md
 - Releases：https://github.com/payloadcms/payload/releases
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/next.js：React 全栈 Web 应用开发工具，集成 Rust JavaScript 工具链以加速构建|next.js：React 全栈 Web 应用开发工具，集成 Rust JavaScript 工具链以加速构建]]；关联理由：上下游；说明：Payload 以 Next.js 全栈能力为核心定位，阅读 Next.js 框架条目可补齐其底层框架背景。
+
 ## 关联主题
 
 - [[00-元语/react]]

@@ -66,6 +66,7 @@ Open Source Continuous File Synchronization
 
 - [[00-元语/tool]]
 - [[00-元语/github]]
+- [[00-元语/cli]]
 - [[00-元语/self-hosting]]
 - [[00-元语/security]]
 - [[00-元语/windows]]

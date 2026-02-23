@@ -69,5 +69,6 @@ High performance UI layout library in C.
 
 - [[00-元语/tool]]
 - [[00-元语/design]]
+- [[00-元语/ui-protocol]]
 - [[00-元语/sdk]]
 - [[00-元语/github]]

@@ -168,15 +168,18 @@ Agent Builder 目前唯一缺失的 COALA 记忆类型是情景记忆：Agent �
 ## 相关文档
 
 - [[01-博客/LangChain/Agent Builder 记忆系统构建方法|Agent Builder 记忆系统构建方法]]；关联理由：同一事件；说明：两文来自同一篇 LangChain 原文，均围绕 Agent Builder 记忆系统的实现细节展开。
-- [[01-博客/LangChain/如何在 Agent Builder 中使用记忆功能|如何在 Agent Builder 中使用记忆功能]]；关联理由：上下游；说明：本文讲系统设计与经验，该文补充用户在产品中实际使用和维护记忆的操作路径。
-- [[01-博客/LangChain/Deep Agents 的上下文管理|Deep Agents 的上下文管理]]；关联理由：解说；说明：本文多次提到 Deep Agents 的文件系统与上下文工程能力，该文提供这些底层机制的专项说明。
+- [[01-博客/LangChain/如何在 Agent Builder 中使用记忆功能|如何在 Agent Builder 中使用记忆功能]]；关联理由：上下游；说明：本文定义记忆系统设计原则与机制，该文对应讲解用户侧的落地使用方式。
+- [[01-博客/LangChain/Deep Agents 的上下文管理|Deep Agents 的上下文管理]]；关联理由：解说；说明：本文依赖 Deep Agents 的文件系统与上下文压缩能力，该文补充其底层实现与评估方法。
 
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/memory]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/mcp]]
 - [[00-元语/PostgreSQL]]
+- [[00-元语/context-optimization]]
 - [[00-元语/prompt]]
+- [[00-元语/security]]
 - [[00-元语/skills]]

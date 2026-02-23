@@ -181,4 +181,6 @@ $$ \frac{\partial L}{\partial S_h} = - \sum_i P_{i,h} \left( \sum_{j \in \{1,\ld
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/evals]]
-- [[00-元语/memory]]
+- [[00-元语/benchmark]]
+- [[00-元语/tool]]
+- [[00-元语/llmops]]

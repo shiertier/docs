@@ -218,3 +218,4 @@ gh extension install github/gh-aw
 - [[00-元语/mcp]]
 - [[00-元语/code-review]]
 - [[00-元语/workflow]]
+- [[00-元语/CI]]

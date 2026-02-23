@@ -68,9 +68,16 @@ Aya 项目在多语言 AI 领域不断取得突破，其重要发布历程如下
 *   **ACL 2024 最佳论文奖**：授予《Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model》。
 *   **斯坦福大学 HAI 2024 年度精选发布**：授予《Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning》。
 
+## 相关文档
+
+- [[01-博客/Cohere/Tiny Aya：在规模与多语言深度之间架起桥梁.md|Tiny Aya：在规模与多语言深度之间架起桥梁]]；关联理由：版本演进；说明：本文把 Tiny Aya 作为 Aya 系列里程碑之一，该文提供这一版本的独立技术细节。
+- [[01-博客/Cohere/塑造机器学习研究的前沿：Cohere Labs 的使命与愿景.md|塑造机器学习研究的前沿：Cohere Labs 的使命与愿景]]；关联理由：上下游；说明：该文解释 Cohere Labs 的研究使命与开放科学路径，是 Aya 系列发布背景的上游语境。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/benchmark]]
+- [[00-元语/paper]]
+- [[00-元语/community]]

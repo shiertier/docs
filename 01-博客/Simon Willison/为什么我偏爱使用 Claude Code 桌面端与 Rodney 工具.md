@@ -52,4 +52,7 @@ Mac 桌面端应用有一个让我特别欣赏的功能：它允许你查看 Cla
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/desktop-client]]
+- [[00-元语/security]]
+- [[00-元语/browser-automation]]
+- [[00-元语/cli]]
 - [[00-元语/tool]]

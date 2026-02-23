@@ -68,6 +68,7 @@ a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co
 - [[00-元语/AI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/Claude]]
+- [[00-元语/community]]
 - [[00-元语/github]]
 - [[00-元语/gemini]]
 - [[00-元语/llm]]

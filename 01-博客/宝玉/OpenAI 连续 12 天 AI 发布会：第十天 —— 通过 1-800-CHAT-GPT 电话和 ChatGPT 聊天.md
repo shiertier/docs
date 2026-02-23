@@ -118,6 +118,8 @@ Kevin Weil (总结):
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/audio]]
+- [[00-元语/asr]]
+- [[00-元语/tts]]
 - [[00-元语/multimodal]]
 - [[00-元语/roadmap]]
 - [[00-元语/compliance]]

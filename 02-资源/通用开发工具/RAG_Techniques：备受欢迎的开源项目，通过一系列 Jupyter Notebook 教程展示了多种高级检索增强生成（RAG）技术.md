@@ -60,6 +60,11 @@ This repository showcases various advanced techniques for Retrieval-Augmented Ge
 - README：https://raw.githubusercontent.com/NirDiamant/RAG_Techniques/main/README.md
 - Releases：https://github.com/NirDiamant/RAG_Techniques/releases
 
+## 相关文档
+
+- [[02-资源/学习资源与知识库/agents-towards-production：开源的实战指南，提供端到端、代码优先的 Jupyter Notebook 教程|agents-towards-production：开源的实战指南，提供端到端、代码优先的 Jupyter Notebook 教程]]；关联理由：引用；说明：本文摘要将该仓库列为同作者关联项目矩阵之一，属于直接引用关系。
+- [[02-资源/AI-编程助手与Agent/GenAI_Agents：备受欢迎的开源项目，提供了从基础到高级的生成式 AI Agent（智能体）全面构建教程与丰富的实用代码实现|GenAI_Agents：备受欢迎的开源项目，提供了从基础到高级的生成式 AI Agent（智能体）全面构建教程与丰富的实用代码实现]]；关联理由：引用；说明：本文摘要明确提及该仓库为同作者配套项目，与本条目的 RAG 教程形成同一学习矩阵。
+
 ## 关联主题
 
 - [[00-元语/rag]]

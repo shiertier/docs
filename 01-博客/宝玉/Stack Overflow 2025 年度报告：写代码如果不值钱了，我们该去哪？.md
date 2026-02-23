@@ -291,3 +291,6 @@ AI 正在融入开发者的工作流，但是以一种比媒体叙事更慢、�
 - [[00-元语/copilot]]
 - [[00-元语/github]]
 - [[00-元语/PostgreSQL]]
+- [[00-元语/community]]
+- [[00-元语/productivity]]
+- [[00-元语/observability]]

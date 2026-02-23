@@ -71,6 +71,10 @@ LightRAG 是一个简单且快速的检索增强生成（RAG）系统，通过�
 - README：https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md
 - Releases：https://github.com/HKUDS/LightRAG/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/RAG-Anything：RAG-Anything: All-in-One RAG Framework”|RAG-Anything：RAG-Anything: All-in-One RAG Framework”]]；关联理由：上下游；说明：LightRAG 明确以集成 RAG-Anything 作为多模态扩展路径，二者属于同一能力链路中的上下游关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -81,4 +85,4 @@ LightRAG 是一个简单且快速的检索增强生成（RAG）系统，通过�
 - [[00-元语/multimodal]]
 - [[00-元语/llm]]
 - [[00-元语/observability]]
-- [[00-元语/workflow]]
+- [[00-元语/PostgreSQL]]

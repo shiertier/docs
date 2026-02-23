@@ -46,6 +46,12 @@ supermemory-mcp 是一个完全免费的通用大模型记忆 MCP 项目，旨�
 
 * GitHub 仓库：https://github.com/supermemoryai/supermemory-mcp
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/doobidoo-mcp-memory-service：AI 编程助手与Agent工具|doobidoo-mcp-memory-service：AI 编程助手与Agent工具]]；关联理由：观点一致；说明：两者都以“长期记忆 + MCP/Agent 工作流”为核心能力，适合并行对比选型。
+- [[02-资源/AI-模型与推理基础设施/supermemoryai-supermemory：AI 记忆与检索基础设施|supermemoryai-supermemory：AI 记忆与检索基础设施]]；关联理由：上下游；说明：该条目是同一生态中的记忆基础设施层，可作为理解 supermemory-mcp 能力边界的上游背景。
+- [[02-资源/AI-应用框架与平台/mem0：开源记忆层工具面向 AI Agents|mem0：开源记忆层工具面向 AI Agents]]；关联理由：延伸思考；说明：同为“AI 记忆层”路线，可用于比较“通用记忆层”与“MCP 接入层”的定位差异。
+
 ## 关联主题
 
 - [[00-元语/memory]]

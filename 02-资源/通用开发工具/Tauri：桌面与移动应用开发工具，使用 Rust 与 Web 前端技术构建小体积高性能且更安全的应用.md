@@ -63,6 +63,12 @@ Build smaller, faster, and more secure desktop and mobile applications with a we
 - README：https://raw.githubusercontent.com/tauri-apps/tauri/dev/README.md
 - Releases：https://github.com/tauri-apps/tauri/releases
 
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/claudia：基于 Tauri 2 构建的 Claude Code 图形化桌面客户端与工具包|claudia：基于 Tauri 2 构建的 Claude Code 图形化桌面客户端与工具包]]；关联理由：上下游；说明：claudia 明确以 Tauri 2 作为桌面容器框架，属于 Tauri 的典型下游应用实践。
+- [[02-资源/AI-应用框架与平台/yaak：基于 Tauri、Rust 和 React 构建的直观、快速且注重隐私的桌面 API 客户端|yaak：基于 Tauri、Rust 和 React 构建的直观、快速且注重隐私的桌面 API 客户端]]；关联理由：上下游；说明：yaak 的桌面 API 客户端能力建立在 Tauri + Rust 技术栈之上，可直接体现 Tauri 在工具型应用中的落地方式。
+- [[02-资源/AI-应用框架与平台/HuLa：基于 Tauri 与 Vue 3 的跨平台即时通讯系统|HuLa：基于 Tauri 与 Vue 3 的跨平台即时通讯系统]]；关联理由：上下游；说明：HuLa 以 Tauri 支撑跨平台 IM 客户端发布，反映了 Tauri 在多端桌面与移动场景的工程可行性。
+
 ## 关联主题
 
 - [[00-元语/tool]]

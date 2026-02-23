@@ -76,3 +76,4 @@ Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcr
 - [[00-元语/desktop-client]]
 - [[00-元语/windows]]
 - [[00-元语/security]]
+- [[00-元语/compliance]]

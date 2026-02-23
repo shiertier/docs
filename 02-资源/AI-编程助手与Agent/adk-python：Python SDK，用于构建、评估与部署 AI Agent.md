@@ -75,3 +75,4 @@ An open-source, code-first Python toolkit for building, evaluating, and deployin
 - [[00-元语/protocol]]
 - [[00-元语/evals]]
 - [[00-元语/cli]]
+- [[00-元语/fastapi]]

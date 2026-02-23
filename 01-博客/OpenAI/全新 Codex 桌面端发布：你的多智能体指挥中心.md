@@ -100,6 +100,7 @@ Codex 的构建基于一个简单的理念：一切皆由代码控制。智能�
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
+- [[00-元语/ChatGPT]]
 - [[00-元语/Agent]]
 - [[00-元语/desktop-client]]
 - [[00-元语/skills]]
@@ -107,4 +108,5 @@ Codex 的构建基于一个简单的理念：一切皆由代码控制。智能�
 - [[00-元语/git-worktree]]
 - [[00-元语/cli]]
 - [[00-元语/ide]]
+- [[00-元语/rate-limiting]]
 - [[00-元语/security]]

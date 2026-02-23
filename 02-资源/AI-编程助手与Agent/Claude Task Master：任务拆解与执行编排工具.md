@@ -76,3 +76,4 @@ An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf
 - [[00-元语/llm]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]
+- [[00-元语/软件工程]]

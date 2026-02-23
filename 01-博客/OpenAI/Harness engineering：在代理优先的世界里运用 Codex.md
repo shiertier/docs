@@ -216,9 +216,9 @@ title: "Harness engineering：在代理优先的世界里运用 Codex"
 
 ## 相关文档
 
-- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文拆解了智能体循环与上下文管理机制，是本文工程实践的底层运行逻辑。
-- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：解说；说明：该文展开了 harness 的协议与运行框架实现，补齐本文的系统层细节。
-- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：延伸思考；说明：该文把本文强调的反馈回路落到可执行评测方法，形成质量保障闭环。
+- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文拆解了智能体循环与上下文管理机制，是本文工程实践的底层运行逻辑；
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：解说；说明：该文展开了 harness 的协议与运行框架实现，补齐本文的系统层细节；
+- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：延伸思考；说明：该文把本文强调的反馈回路落到可执行评测方法，形成质量保障闭环；
 
 ## 关联主题
 

@@ -71,5 +71,6 @@ Run frontier AI locally.
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
 - [[00-元语/self-hosting]]
+- [[00-元语/hardware-control]]
 - [[00-元语/observability]]
 - [[00-元语/benchmark]]

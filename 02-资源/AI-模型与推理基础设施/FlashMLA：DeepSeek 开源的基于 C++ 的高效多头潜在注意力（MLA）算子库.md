@@ -65,6 +65,10 @@ FlashMLA: Efficient Multi-head Latent Attention Kernels
 - README：https://raw.githubusercontent.com/deepseek-ai/FlashMLA/main/README.md
 - Releases：https://github.com/deepseek-ai/FlashMLA/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/DeepSeek-V3：开源 MoE 大模型.md|DeepSeek-V3：开源 MoE 大模型]]；关联理由：上下游；说明：FlashMLA 提供 MLA 底层算子实现，而 DeepSeek-V3 在模型架构层采用 MLA，二者构成“算子实现-模型应用”的上下游关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]

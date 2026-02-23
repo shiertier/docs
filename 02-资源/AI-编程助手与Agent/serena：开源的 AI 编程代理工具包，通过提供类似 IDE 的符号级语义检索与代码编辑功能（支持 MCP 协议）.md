@@ -78,3 +78,4 @@ A powerful coding agent toolkit providing semantic retrieval and editing capabil
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
+- [[00-元语/tool]]

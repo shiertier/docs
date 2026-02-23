@@ -25,10 +25,19 @@ title: "design"
 - [[00-元语/ui-protocol]]
 - [[00-元语/image-editing]]
 - [[00-元语/interactive-storytelling]]
+- [[00-元语/game]]
+
+## 相关文档
+
+- [[00-元语/ui-protocol|ui-protocol]]；关联理由：上下游；说明：设计规范通常需要通过 UI 协议落地为可渲染、可交互的界面结构。
+- [[00-元语/image-editing|image-editing]]；关联理由：解说；说明：图像编辑是视觉设计在素材处理与表达层面的直接实践场景。
+- [[00-元语/interactive-storytelling|interactive-storytelling]]；关联理由：解说；说明：交互叙事中的分支结构、反馈机制与沉浸体验本质上依赖设计方法。
+- [[00-元语/软件工程|软件工程]]；关联理由：上下游；说明：软件工程中的架构与交互方案需要以设计决策为前置输入并持续迭代。
 
 ## 关联主题
 
 - [[00-元语/ui-protocol]]
 - [[00-元语/image-editing]]
 - [[00-元语/interactive-storytelling]]
+- [[00-元语/game]]
 - [[00-元语/软件工程]]

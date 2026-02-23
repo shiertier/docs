@@ -71,6 +71,7 @@ A simple screen parsing tool towards pure vision based GUI agent
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/ocr]]
 - [[00-元语/benchmark]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/windows]]

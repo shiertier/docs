@@ -5,11 +5,13 @@ title: "productivity"
 ## 定义
 
 `productivity` 指单位时间或单位投入下所产出的有效结果，常用于衡量个人、团队、组织或经济体在资源约束下的产出效率。
+在 AI 与知识工作场景中，`productivity` 通常同时看任务完成时间、结果质量与单位成本变化，而不是只看速度提升。
 
 ## 相关文档
 
 - [[01-博客/Anthropic/估算 Claude 对话带来的 AI 生产力收益|估算 Claude 对话带来的 AI 生产力收益]]；关联理由：解说；说明：该文直接量化了 Claude 在真实工作中的产出变化，是 productivity 在 AI 场景中的实证案例。
-- [[01-博客/Anthropic/印度国家简报：Anthropic 经济指数|印度国家简报：Anthropic 经济指数]]；关联理由：解说；说明：该文从国家层面的任务数据分析 AI 对劳动效率与岗位结构的影响，补充了 productivity 的宏观视角。
+- [[01-博客/Anthropic/印度国家简报：Anthropic 经济指数|印度国家简报：Anthropic 经济指数]]；关联理由：版本演进；说明：该文延续 Anthropic Economic Index 研究主线，在国家样本上细化了生产力变化的区域与职业差异。
+- [[01-博客/Denny Britz/关于代码智能体（Coding Agents）的思考|关于代码智能体（Coding Agents）的思考]]；关联理由：观点相悖；说明：该文强调不同任务中的生产力可能从负增长到高增长波动，补充了“平均提升”之外的边界条件。
 
 ## 关联主题
 

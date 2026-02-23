@@ -70,6 +70,7 @@ Spark-TTS Inference Code
 - [[00-元语/AI]]
 - [[00-元语/audio]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/tts]]
 - [[00-元语/github]]
 - [[00-元语/deepfake]]

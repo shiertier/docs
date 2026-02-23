@@ -77,4 +77,3 @@ Admin Dashboard UI built with Shadcn and Vite.
 - [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/design]]
-- [[00-元语/ui-protocol]]

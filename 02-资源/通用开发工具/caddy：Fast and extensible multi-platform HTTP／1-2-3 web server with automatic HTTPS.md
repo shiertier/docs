@@ -68,6 +68,7 @@ Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 ## 关联主题
 
 - [[00-元语/protocol]]
+- [[00-元语/dns]]
 - [[00-元语/domain-name]]
 - [[00-元语/self-hosting]]
 - [[00-元语/security]]

@@ -66,6 +66,10 @@ Open Source realtime backend in 1 file
 - README：https://raw.githubusercontent.com/pocketbase/pocketbase/master/README.md
 - Releases：https://github.com/pocketbase/pocketbase/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Beszel：服务器监控工具与容器指标告警|Beszel：服务器监控工具与容器指标告警]]；关联理由：上下游；说明：Beszel 的 Hub 端基于 PocketBase 构建，属于 PocketBase 在监控场景中的下游应用实例。
+
 ## 关联主题
 
 - [[00-元语/github]]

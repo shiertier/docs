@@ -66,6 +66,7 @@ Toolkit for linearizing PDFs for LLM datasets/training
 - [[00-元语/AI]]
 - [[00-元语/ocr]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/multimodal]]
 - [[00-元语/benchmark]]

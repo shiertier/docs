@@ -75,3 +75,4 @@ Teleport 联合创始人兼首席执行官 Ev Kontsevoy 强调：“统一的身
 - [[00-元语/security]]
 - [[00-元语/mcp]]
 - [[00-元语/compliance]]
+- [[00-元语/observability]]

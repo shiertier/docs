@@ -68,11 +68,19 @@ verl: Volcano Engine Reinforcement Learning for LLMs
 - README：https://raw.githubusercontent.com/volcengine/verl/main/README.md
 - Releases：https://github.com/volcengine/verl/releases
 
+## 相关文档
+
+- [[01-博客/Hugging Face/解锁 GPT-OSS 的智能体强化学习训练：一次实践回顾|解锁 GPT-OSS 的智能体强化学习训练：一次实践回顾]]；关联理由：解说；说明：该文记录了在 `verl` 上进行 Agentic RL 训练的工程问题与修复路径，可作为本项目的实践补充。
+- [[02-资源/AI-模型与推理基础设施/TinyZero：DeepSeek R1-Zero 强化学习极简复现工具|TinyZero：DeepSeek R1-Zero 强化学习极简复现工具]]；关联理由：上下游；说明：TinyZero 明确基于 verl 框架构建，属于 `verl` 在推理模型强化学习方向的下游复现项目。
+- [[02-资源/AI-模型与推理基础设施/sglang：推理服务系统用于大语言模型与多模态模型高性能部署|sglang：推理服务系统用于大语言模型与多模态模型高性能部署]]；关联理由：上下游；说明：`verl` 将 sglang 作为推理生成端后端之一，二者在训练与推理链路上形成协同关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/alignment]]
 - [[00-元语/llmops]]
+- [[00-元语/multimodal]]
+- [[00-元语/benchmark]]
 - [[00-元语/github]]
 - [[00-元语/paper]]

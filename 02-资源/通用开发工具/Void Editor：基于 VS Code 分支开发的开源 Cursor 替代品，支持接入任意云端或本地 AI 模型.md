@@ -69,7 +69,7 @@ Void 是一款基于 VS Code 分支开发的开源 Cursor 替代品，支持接�
 ## 相关文档
 
 - [[02-资源/AI-编程助手与Agent/Cline：直接运行在 IDE 内的开源自治 coding agent，能够在用户全程授权与监控下|Cline：直接运行在 IDE 内的开源自治 coding agent，能够在用户全程授权与监控下]]；关联理由：观点一致；说明：两者都定位为开源的 IDE 内 AI 编程助手，并强调可接入多模型与工程内集成能力。
-- [[02-资源/AI-编程助手与Agent/tabby：基于 Rust 开发的开源、自托管 AI 编程助手，旨在提供 GitHub Copilot 的本地化替代方案|tabby：基于 Rust 开发的开源、自托管 AI 编程助手，旨在提供 GitHub Copilot 的本地化替代方案]]；关联理由：解说；说明：Tabby 作为另一类开源替代方案，可用于对照 Void 在“开源替代商业 AI 编程工具”这一方向上的取舍差异。
+- [[02-资源/AI-编程助手与Agent/Tabby：GitHub Copilot 本地替代的开源自托管 AI 编程助手|Tabby：GitHub Copilot 本地替代的开源自托管 AI 编程助手]]；关联理由：解说；说明：Tabby 作为另一类开源替代方案，可用于对照 Void 在“开源替代商业 AI 编程工具”这一方向上的取舍差异。
 - [[01-博客/宝玉/简单说一下 GitHub Copilot 和 Cursor 的差别，以及为什么我觉得 Cursor 要更好|简单说一下 GitHub Copilot 和 Cursor 的差别，以及为什么我觉得 Cursor 要更好]]；关联理由：解说；说明：该文解释了 Cursor 的产品特性与体验基线，有助于理解 Void“Cursor 替代品”这一定位。
 
 ## 关联主题
@@ -81,3 +81,4 @@ Void 是一款基于 VS Code 分支开发的开源 Cursor 替代品，支持接�
 - [[00-元语/github]]
 - [[00-元语/typescript]]
 - [[00-元语/self-hosting]]
+- [[00-元语/desktop-client]]

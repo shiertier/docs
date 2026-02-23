@@ -70,6 +70,10 @@ Flowseal/zapret-discord-youtube 是一个基于 Windows 的流量拦截与过滤
 - README：https://raw.githubusercontent.com/Flowseal/zapret-discord-youtube/main/README.md
 - Releases：https://github.com/Flowseal/zapret-discord-youtube/releases
 
+## 相关文档
+
+- [[02-资源/风险边界与合规/zapret：DPI 绕过网络工具集|zapret：DPI 绕过网络工具集]]；关联理由：上下游；说明：该工具以 zapret 为参照并提供 Windows 场景下的替代实现路径。
+
 ## 关联主题
 
 - [[00-元语/compliance]]

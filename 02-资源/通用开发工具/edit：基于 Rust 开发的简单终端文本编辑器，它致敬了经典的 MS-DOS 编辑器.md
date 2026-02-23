@@ -65,6 +65,10 @@ We all edit.
 - README：https://raw.githubusercontent.com/microsoft/edit/main/README.md
 - Releases：https://github.com/microsoft/edit/releases
 
+## 相关文档
+
+- [[02-资源/通用开发工具/Visual Studio Code：开源代码编辑器|Visual Studio Code：开源代码编辑器]]；关联理由：引用；说明：本文摘要明确提到 edit 提供“类似 VS Code 的现代界面和输入控制”，该文可作为被引用对象的背景说明。
+
 ## 关联主题
 
 - [[00-元语/github]]

@@ -215,6 +215,7 @@ Hacker News上的这次讨论围绕ByteDance推出的AI驱动IDE "Trae" 展开�
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/gemini]]

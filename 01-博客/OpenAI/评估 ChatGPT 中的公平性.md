@@ -72,6 +72,8 @@ title: "评估 ChatGPT 中的公平性"
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/AI]]
 - [[00-元语/alignment]]
+- [[00-元语/llm]]
 - [[00-元语/evals]]
 - [[00-元语/risk]]

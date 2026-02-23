@@ -65,6 +65,10 @@ We write your reusable computer vision tools. 💜
 - README：https://raw.githubusercontent.com/roboflow/supervision/develop/README.md
 - Releases：https://github.com/roboflow/supervision/releases
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Ultralytics：计算机视觉模型工具库，覆盖 YOLOv3 至 YOLO26 系列|Ultralytics：计算机视觉模型工具库，覆盖 YOLOv3 至 YOLO26 系列]]；关联理由：观点一致；说明：两者都定位于计算机视觉工程工具链，强调可复用能力与落地集成。
+
 ## 关联主题
 
 - [[00-元语/AI]]

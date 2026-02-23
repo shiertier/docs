@@ -218,13 +218,15 @@ Task:
 
 ## 相关文档
 
-- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文补充 Operator 的产品机制与执行流程，可用于解释本篇规则在实际运行中的落地方式。
-- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文均为 OpenAI 浏览器代理提示词，后者在安全与工具规范上可视为同路线的后续扩展。
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文补充 Operator 的产品机制与执行流程，可用于解释本篇规则在实际运行中的落地方式；
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文均为 OpenAI 浏览器代理提示词，后者在安全与工具规范上可视为同路线的后续扩展；
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
 - [[00-元语/browser-automation]]
 - [[00-元语/compliance]]
 - [[00-元语/security]]

@@ -84,7 +84,7 @@ Deep Agents 框架的所有功能都是开源的。欢迎尝试最新版本，�
 
 ## 相关文档
 
-- [[01-博客/LangChain/Agent Builder 记忆系统构建方法|Agent Builder 记忆系统构建方法]]；关联理由：上下游；说明：该文说明了 Deep Agents 的上下文压缩与虚拟文件系统能力如何被上层 Agent Builder 记忆系统直接复用。
+- [[01-博客/LangChain/Agent Builder 记忆系统构建方法|Agent Builder 记忆系统构建方法]]；关联理由：版本演进；说明：该文展示了 Deep Agents 的上下文压缩与虚拟文件系统能力在 Agent Builder 中的产品化延展。
 - [[01-博客/LangChain/Agent Builder 中的记忆使用方法|Agent Builder 中的记忆使用方法]]；关联理由：解说；说明：该文从使用层面补充了本文提到的文件系统记忆、上下文卸载与按需检索机制。
 - [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：延伸思考；说明：该文提供了通用上下文工程原则，可用于对照本文的压缩阈值、总结策略与可恢复性测试思路。
 
@@ -95,5 +95,6 @@ Deep Agents 框架的所有功能都是开源的。欢迎尝试最新版本，�
 - [[00-元语/memory]]
 - [[00-元语/context-optimization]]
 - [[00-元语/virtual-file-system]]
+- [[00-元语/tool]]
 - [[00-元语/evals]]
 - [[00-元语/benchmark]]

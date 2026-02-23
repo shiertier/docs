@@ -341,6 +341,12 @@ Built by[宝玉](https://twitter.com/dotey). [RSS](https://baoyu.io/feed.xml) . 
 
 Toggle theme
 
+## 相关文档
+
+- [[01-博客/微信公众平台/OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬|OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬]]；关联理由：观点一致；说明：两篇访谈都强调 OpenClaw 的本地执行能力，并提出“80% 的 App 将被 Agent 替代”的同一核心判断。
+- [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：引用；说明：该文在并行开发方法部分直接引用了 Peter 的多目录工作流，是本篇实践观点在开发流程层面的延伸。
+- [[01-博客/InfoQ/从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路|从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路]]；关联理由：解说；说明：该文补充了 Peter 的长期工程背景与 OpenClaw 演进脉络，能解释本篇观点形成的上下文。
+
 ## 关联主题
 
 - [[00-元语/interview]]
@@ -354,6 +360,7 @@ Toggle theme
 - [[00-元语/browser-automation]]
 - [[00-元语/hardware-control]]
 - [[00-元语/community]]
+- [[00-元语/github]]
 - [[00-元语/workflow]]
 - [[00-元语/memory]]
 - [[00-元语/Codex]]

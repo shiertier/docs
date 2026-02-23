@@ -71,3 +71,4 @@ The Postgres development platform. Supabase gives you a dedicated Postgres datab
 - [[00-元语/self-hosting]]
 - [[00-元语/serverless]]
 - [[00-元语/sdk]]
+- [[00-元语/typescript]]

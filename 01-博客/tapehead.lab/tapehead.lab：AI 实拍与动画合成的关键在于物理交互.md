@@ -33,5 +33,6 @@ tapehead.lab 认为使用 AI（如 viduQ3）进行实拍与动画合成的最大
 
 - [[00-元语/x]]
 - [[00-元语/AI]]
+- [[00-元语/multimodal]]
 - [[00-元语/image-editing]]
 - [[00-元语/video]]
