@@ -61,6 +61,7 @@ import math
 import pathlib
 import re
 import sys
+import urllib.parse
 
 content_dir = pathlib.Path(sys.argv[1])
 page_size = max(1, int(sys.argv[2]))
@@ -158,7 +159,8 @@ def render_page(page_no: int, page_entries: list[dict], include_catalog: bool = 
         lines.append("- 暂无可展示的博客条目")
     else:
         for idx, item in enumerate(page_entries, start=(page_no - 1) * page_size + 1):
-            lines.append(f"{idx}. [[{item['slug']}|{item['title']}]]")
+            safe_slug = urllib.parse.quote(item["slug"], safe="/-_.~")
+            lines.append(f"{idx}. [[{safe_slug}|{item['title']}]]")
             lines.append(f"   - 发布日期：{item['date']}")
 
     if include_catalog:
