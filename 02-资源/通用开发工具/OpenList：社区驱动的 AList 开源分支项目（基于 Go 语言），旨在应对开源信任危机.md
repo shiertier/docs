@@ -58,6 +58,9 @@ A new AList Fork to Anti Trust Crisis
 - README：https://raw.githubusercontent.com/OpenListTeam/OpenList/main/README.md
 - Releases：https://github.com/OpenListTeam/OpenList/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/alist：A file list／WebDAV program that supports multiple storages, powered by Gin and S|alist：A file list／WebDAV program that supports multiple storages, powered by Gin and S]]；关联理由：版本演进；说明：OpenList 明确定位为 AList 的社区分支，理解上游项目有助于判断其功能基线与分叉动因。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]

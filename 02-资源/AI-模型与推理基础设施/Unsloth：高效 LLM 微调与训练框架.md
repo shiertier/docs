@@ -32,16 +32,6 @@ Unsloth 是一个开源的大语言模型高效微调与强化学习框架，通
 * **依赖版本强绑定**：在复杂环境或使用高级 Pip 安装时，必须严格匹配 PyTorch 与 CUDA 的版本号（需使用特定的包名后缀）。
 * **Conda 环境冲突**：官方建议优先使用 Pip 安装；若使用 Conda 环境，需遵循特定配置流程，严禁混用高级 Pip 安装指令以避免冲突。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/llmops]]
-- [[00-元语/lora]]
-- [[00-元语/multimodal]]
-- [[00-元语/tts]]
-- [[00-元语/github]]
-
 ## 功能与定位
 Unsloth 是一个针对大语言模型（LLMs）的微调（Fine-tuning）与强化学习（RL）加速库。其核心定位是通过底层优化，在大幅减少显存占用（最高减少 70%）的同时，将模型训练速度提升（最高达 2 倍），使开发者能够在消费级硬件或有限的计算资源上高效训练主流大模型（如 DeepSeek、Llama、Qwen、Gemma 等）。
 
@@ -82,3 +72,13 @@ Unsloth 是一个针对大语言模型（LLMs）的微调（Fine-tuning）与强
 * 模型目录：https://unsloth.ai/docs/get-started/unsloth-model-catalog
 * Docker 镜像：https://hub.docker.com/r/unsloth/unsloth
 * 最新 Release：https://github.com/unslothai/unsloth/releases/tag/February-2026
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/llmops]]
+- [[00-元语/lora]]
+- [[00-元语/multimodal]]
+- [[00-元语/tts]]
+- [[00-元语/github]]

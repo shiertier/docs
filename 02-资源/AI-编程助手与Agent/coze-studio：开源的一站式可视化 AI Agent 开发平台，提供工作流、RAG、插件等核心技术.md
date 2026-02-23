@@ -58,9 +58,11 @@ An AI agent development platform with all-in-one visual tools, simplifying agent
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/workflow]]
 - [[00-元语/rag]]
 - [[00-元语/sdk]]
+- [[00-元语/typescript]]
 - [[00-元语/observability]]
 - [[00-元语/self-hosting]]
 - [[00-元语/security]]

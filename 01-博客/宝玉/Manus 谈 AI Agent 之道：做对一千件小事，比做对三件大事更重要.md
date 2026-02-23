@@ -98,5 +98,7 @@ Peak 把这种方法论总结为：做对一千件小事，比做对三件大事
 - [[00-元语/llm]]
 - [[00-元语/interview]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/软件工程]]
 - [[00-元语/workflow]]
+- [[00-元语/browser-automation]]

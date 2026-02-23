@@ -56,8 +56,13 @@ Open source Loom alternative. Beautiful, shareable screen recordings.
 - README：https://raw.githubusercontent.com/CapSoftware/Cap/main/README.md
 - Releases：https://github.com/CapSoftware/Cap/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/obs-studio：OBS Studio - Free and open source software for live streaming and screen|obs-studio：OBS Studio - Free and open source software for live streaming and screen]]；关联理由：观点一致；说明：两者都聚焦开源屏幕录制场景，可用于录屏工具选型时的横向对比。
+- [[01-博客/微信公众平台/推荐 4 个实用、好玩儿的 GitHub 开源项目|推荐 4 个实用、好玩儿的 GitHub 开源项目]]；关联理由：解说；说明：该文在独立章节补充了 Cap 的录制、编辑与分享能力描述，可作为本档案的补充说明。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/video]]
 - [[00-元语/productivity]]
+- [[00-元语/desktop-client]]

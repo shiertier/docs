@@ -58,4 +58,5 @@ The official repository of Mozilla's Firefox web browser.
 - [[00-元语/github]]
 - [[00-元语/security]]
 - [[00-元语/community]]
+- [[00-元语/desktop-client]]
 - [[00-元语/软件工程]]

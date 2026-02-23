@@ -174,8 +174,8 @@ Schema 与查询历史能描述一张表的形状与使用方式，但它的真�
 
 ## 相关文档
 
-- [[01-博客/OpenAI/GPT-5.1 如何助力 Tolan 构建语音交互 AI|GPT-5.1 如何助力 Tolan 构建语音交互 AI]]；关联理由：延伸思考；说明：两文都把“分层上下文 + 可持续记忆”作为 Agent 稳定性的核心，但分别落在语音陪伴与数据分析场景。
-- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：解说；说明：本文提到用 Evals 持续防回归，该文系统展开了 Agent Skills 的评估设计与落地检查方法。
+- [[01-博客/OpenAI/GPT-5.1 如何助力 Tolan 构建语音交互 AI|GPT-5.1 如何助力 Tolan 构建语音交互 AI]]；关联理由：延伸思考；说明：两文都强调“分层上下文 + 长期记忆”对 Agent 稳定性的作用，只是应用场景分别是语音交互与企业数据分析。
+- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：解说；说明：本文将 Evals 作为防回归机制，该文详细展开了 Agent Skills 的评测方法、评分结构与持续回归实践。
 
 ## 关联主题
 
@@ -187,6 +187,7 @@ Schema 与查询历史能描述一张表的形状与使用方式，但它的真�
 - [[00-元语/llmops]]
 - [[00-元语/prompt]]
 - [[00-元语/context-database]]
+- [[00-元语/memory]]
 - [[00-元语/rag]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/security]]

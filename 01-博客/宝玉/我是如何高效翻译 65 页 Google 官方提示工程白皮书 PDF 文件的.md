@@ -24,18 +24,6 @@
 *   **MistralOCR使用门槛**：该工具没有提供UI，需要借助代码或开源项目辅助，且作者在实际测试中未能成功提取图片。
 *   **Deep Research长度极限**：Deep Research的翻译长度受限于产品限制，65页已接近极限，更长的文档必须拆分为多个小PDF进行翻译。
 
-## 关联主题
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
-- [[00-元语/gemini]]
-- [[00-元语/OpenAI]]
-- [[00-元语/ocr]]
-- [[00-元语/markdown]]
-- [[00-元语/prompt]]
-- [[00-元语/paper]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
-
 ## 正文
 前几天翻译 Google 官方提示工程白皮书 PDF 的时候，尝试了一些自动化的方法来提升效率，分享一些我翻译 PDF 的经验和心得。
 
@@ -124,3 +112,15 @@ OpenAI 的 DeepResearch 和 Google Gemini 的 DeepResearch 都可以胜任这个
 *   OpenAI DeepResearch：[https://chatgpt.com/share/67fd2597-843c-800f-811c-eb0d9047f71c](https://chatgpt.com/share/67fd2597-843c-800f-811c-eb0d9047f71c)
 
 注意用 DeepResearch 翻译也不是无限长度的，依旧受限于其产品长度限制，65页已经是接近极限的长度了，更长建议就要拆分成多个小 PDF 去翻译了。
+
+## 关联主题
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/gemini]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ocr]]
+- [[00-元语/markdown]]
+- [[00-元语/prompt]]
+- [[00-元语/paper]]
+- [[00-元语/tool]]
+- [[00-元语/workflow]]

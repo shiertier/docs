@@ -64,3 +64,4 @@ Continue 是一个开源的 AI 编程助手与 Agent 项目，主要通过 Conti
 - [[00-元语/github]]
 - [[00-元语/ide]]
 - [[00-元语/security]]
+- [[00-元语/workflow]]

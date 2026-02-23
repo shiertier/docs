@@ -63,5 +63,6 @@ Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer 
 - [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/copilot]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/self-hosting]]

@@ -61,6 +61,6 @@ Code at the speed of thought – Zed is a high-performance, multiplayer code edi
 ## 关联主题
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
 - [[00-元语/github]]
+- [[00-元语/CI]]
+- [[00-元语/compliance]]

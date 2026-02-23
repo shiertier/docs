@@ -62,5 +62,6 @@ Conductor 面向“多 agent 并行开发”场景，定位是把多分支并发
 - [[00-元语/mcp]]
 - [[00-元语/git-worktree]]
 - [[00-元语/desktop-client]]
+- [[00-元语/ide]]
 - [[00-元语/workflow]]
 - [[00-元语/code-review]]

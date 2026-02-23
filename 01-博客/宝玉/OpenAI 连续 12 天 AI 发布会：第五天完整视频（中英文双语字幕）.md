@@ -20,15 +20,6 @@ OpenAI “12 天发布会”第五天重点展示了 ChatGPT 与苹果生态（i
 *   **Mac 端长文档处理**：在 Mac 上，用户可通过 Siri 上传长篇文档（如演示中的 49 页 PDF），让 ChatGPT 进行总结或生成数据可视化图表代码。
 *   **跨设备同步**：ChatGPT 的对话记录可在 iPhone、iPad 和 Mac 等不同设备间保持同步。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/roadmap]]
-- [[00-元语/desktop-client]]
-- [[00-元语/multimodal]]
-- [[00-元语/video]]
-
 ## 正文
 视频：[https://youtu.be/wWYYq9nUxcg](https://youtu.be/wWYYq9nUxcg)
 
@@ -123,3 +114,13 @@ Dave：是的，这实在太酷了。我还可以让 ChatGPT 根据 PDF 内容�
 Miqdad：从 iPhone 到 iPad 再到 Mac，这样的整合让 ChatGPT 无处不在。
 
 Sam：是的，我们对这次发布非常兴奋。这让与 ChatGPT 的交互变得前所未有的简单，希望你们会喜欢。感谢苹果团队的支持，祝大家有个愉快的一天！
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/roadmap]]
+- [[00-元语/desktop-client]]
+- [[00-元语/multimodal]]
+- [[00-元语/hardware-control]]
+- [[00-元语/video]]

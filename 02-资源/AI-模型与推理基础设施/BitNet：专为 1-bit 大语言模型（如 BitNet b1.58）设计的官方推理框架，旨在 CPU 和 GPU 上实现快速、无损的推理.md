@@ -58,9 +58,12 @@ Official inference framework for 1-bit LLMs
 - README：https://raw.githubusercontent.com/microsoft/BitNet/main/README.md
 - Releases：https://github.com/microsoft/BitNet/releases
 
+## 相关文档
+- [[02-资源/AI-模型与推理基础设施/llama.cpp：轻量级本地大模型推理引擎|llama.cpp：轻量级本地大模型推理引擎]]；关联理由：上下游；说明：BitNet 的推理实现基于 llama.cpp，且文档提到上游变更会直接影响 BitNet 的编译与运行。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/benchmark]]
 - [[00-元语/github]]
-- [[00-元语/tool]]
+- [[00-元语/self-hosting]]

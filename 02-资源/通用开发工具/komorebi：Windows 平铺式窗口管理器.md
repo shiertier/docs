@@ -29,16 +29,6 @@ komorebi 是一款专为 Windows 10 及以上版本设计的平铺窗口管理�
 *   **严格的商业使用限制**：采用 Komorebi 2.0.0 许可证，完全禁止任何形式的商业或工作场所使用（需单独购买许可证）；在注册了 MDM（移动设备管理）的设备上运行会强制弹出商业使用警告。
 *   **边框功能稳定性风险**：由于微软 Win32 API 的限制，自定义活动窗口边框功能在实现上属于“粗糙的 Hack”，开发者明确指出该功能可能存在 Bug。
 
-## 关联主题
-
-- [[00-元语/windows]]
-- [[00-元语/cli]]
-- [[00-元语/terminal]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
-- [[00-元语/compliance]]
-- [[00-元语/productivity]]
-
 ## 功能与定位
 
 komorebi 是面向 Windows 的平铺式窗口管理器。它以扩展 Microsoft Desktop Window Manager 的方式工作：不替换桌面环境，而是让你用命令行控制窗口平铺、工作区与显示器等行为，并把“如何绑定热键”交给外部工具（例如 `whkd`、AutoHotKey）。
@@ -93,3 +83,14 @@ komorebi 是面向 Windows 的平铺式窗口管理器。它以扩展 Microsoft 
 - Awesome komorebi：https://github.com/LGUG2Z/awesome-komorebi
 - Discord：https://discord.gg/mGkn66PHkx
 - komorebi for Mac：https://github.com/LGUG2Z/komorebi-for-mac
+
+## 关联主题
+
+- [[00-元语/windows]]
+- [[00-元语/desktop-client]]
+- [[00-元语/cli]]
+- [[00-元语/terminal]]
+- [[00-元语/tool]]
+- [[00-元语/workflow]]
+- [[00-元语/compliance]]
+- [[00-元语/productivity]]

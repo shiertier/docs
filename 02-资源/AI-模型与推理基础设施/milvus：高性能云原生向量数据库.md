@@ -63,4 +63,3 @@ Milvus is a high-performance, cloud-native vector database built for scalable ve
 - [[00-元语/llm]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/llmops]]
-- [[00-元语/github]]

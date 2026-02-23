@@ -22,14 +22,6 @@
 * **语气与风格**：要求使用学术、正式的语气，确保翻译结果具有学术严谨性。
 * **标准化输出**：要求严格按照指定的Markdown标题和分隔符（`***`），依次输出直译、评估与反思、意译三部分内容。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/prompt]]
-- [[00-元语/markdown]]
-- [[00-元语/workflow]]
-
 ## 正文
 ## Role and Goal:
 
@@ -100,3 +92,11 @@ Please output strictly in the following format
 {FREE_TRANSLATION}
 
 Please translate the following content into ${LANGUAGE}:
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/markdown]]
+- [[00-元语/workflow]]

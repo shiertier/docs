@@ -60,5 +60,6 @@ Multi-lingual large voice generation model, providing inference, training and de
 - [[00-元语/AI]]
 - [[00-元语/audio]]
 - [[00-元语/tts]]
+- [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/github]]

@@ -7,7 +7,7 @@
 
 ## 定义
 
-用于聚合 LoRA 相关文档。
+用于聚合 LoRA 相关文档。LoRA 常用于大语言模型与扩散模型的参数高效微调。
 
 ## 核心内涵
 
@@ -25,11 +25,9 @@ LoRA（Low-Rank Adaptation）是一种参数高效的微调技术。它通过冻
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/image-editing]]
-- [[00-元语/context-optimization]]
 
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/image-editing]]
 - [[00-元语/multimodal]]
-- [[00-元语/context-optimization]]

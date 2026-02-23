@@ -57,8 +57,8 @@ The Free Software Media System - Server Backend & API
 - Releases：https://github.com/jellyfin/jellyfin/releases
 
 ## 关联主题
-- [[00-元语/tool]]
 - [[00-元语/video]]
+- [[00-元语/audio]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
 - [[00-元语/protocol]]

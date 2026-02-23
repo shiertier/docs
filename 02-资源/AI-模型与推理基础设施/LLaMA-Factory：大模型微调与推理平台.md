@@ -61,5 +61,6 @@ Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - [[00-元语/lora]]
 - [[00-元语/multimodal]]
 - [[00-元语/llmops]]
+- [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/tool]]

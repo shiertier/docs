@@ -61,3 +61,4 @@ Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Inc
 - [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/serverless]]
+- [[00-元语/self-hosting]]

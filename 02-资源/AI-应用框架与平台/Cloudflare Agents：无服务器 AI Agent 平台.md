@@ -87,3 +87,4 @@ Cloudflare Agents 面向需要“持续运行 + 持久状态 + 实时连接”�
 - [[00-元语/sdk]]
 - [[00-元语/protocol]]
 - [[00-元语/workflow]]
+- [[00-元语/typescript]]

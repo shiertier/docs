@@ -61,7 +61,7 @@ PlayStation 4 emulator for Windows, Linux and macOS written in C++
 
 ## 关联主题
 - [[00-元语/game]]
-- [[00-元语/windows]]
+- [[00-元语/cli]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
 - [[00-元语/tool]]

@@ -61,5 +61,5 @@ Reference implementation of Anoma
 ## 关联主题
 - [[00-元语/blockchain]]
 - [[00-元语/protocol]]
-- [[00-元语/tool]]
+- [[00-元语/cli]]
 - [[00-元语/github]]

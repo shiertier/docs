@@ -23,15 +23,6 @@ OpenAI Operator 依托结合了 GPT-4o 视觉与强化学习推理的 CUA（Comp
 *   **像素计算误差风险**：准确计算像素对于执行鼠标命令至关重要，模型偶尔会出现类似“数错单词内字母数量”的错误，导致难以准确完成鼠标操作。
 *   **敏感操作受限**：模型无法完全自动化所有流程，在遇到输入登录信息或处理验证码（CAPTCHA）等敏感操作时，必须中断并请求用户进行人工确认。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/Agent]]
-- [[00-元语/browser-automation]]
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
-- [[00-元语/workflow]]
-
 ## 正文
 为 Operator 提供支持的是 Computer-Using Agent (CUA)，它结合了 GPT-4o 的视觉能力与通过强化学习获得的高级推理能力。
 
@@ -67,3 +58,12 @@ CUA 通过处理原始像素数据来理解屏幕上发生的内容，并通过�
 相关文章：[https://openai.com/index/computer-using-agent/](https://openai.com/index/computer-using-agent/)
 
 系统提示词：[https://baoyu.io/blog/openai-operator-system-prompts-cn](https://baoyu.io/blog/openai-operator-system-prompts-cn)
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/Agent]]
+- [[00-元语/browser-automation]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/workflow]]

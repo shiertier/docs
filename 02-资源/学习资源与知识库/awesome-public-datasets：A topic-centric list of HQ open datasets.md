@@ -58,5 +58,4 @@ A topic-centric list of HQ open datasets.
 ## 关联主题
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
-- [[00-元语/data-pipeline]]
 - [[00-元语/benchmark]]

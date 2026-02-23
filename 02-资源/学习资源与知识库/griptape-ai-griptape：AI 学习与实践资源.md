@@ -42,3 +42,6 @@ Griptape 是一个基于 Python 开发的模块化框架，专为构建 AI 智�
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]
+- [[00-元语/tool]]
+- [[00-元语/learning-resource]]

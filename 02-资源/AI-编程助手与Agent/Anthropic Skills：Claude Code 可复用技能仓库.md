@@ -28,18 +28,6 @@
 *   **生产环境风险**：在将技能用于关键任务之前，必须在用户自己的环境中进行充分测试。
 *   **协议合规限制**：部分核心文档技能（位于 `skills/docx`、`skills/pdf` 等目录）并非开源协议，仅为源码可见，开发者在使用或借鉴时需注意合规性限制。
 
-## 关联主题
-
-- [[00-元语/skills]]
-- [[00-元语/Agent]]
-- [[00-元语/AI]]
-- [[00-元语/Claude]]
-- [[00-元语/cli]]
-- [[00-元语/mcp]]
-- [[00-元语/protocol]]
-- [[00-元语/github]]
-- [[00-元语/compliance]]
-
 ## 功能与定位
 该仓库是 Anthropic 官方提供的 Claude Agent Skills（智能体技能）的实现与示例集合。
 
@@ -87,3 +75,15 @@
 - Claude 文档能力介绍：https://www.anthropic.com/news/create-files
 - Skills API 快速入门：https://docs.claude.com/en/api/skills-guide#creating-a-skill
 - 合作伙伴技能示例 (Notion)：https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0
+
+## 关联主题
+- [[00-元语/skills]]
+- [[00-元语/Agent]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Claude]]
+- [[00-元语/cli]]
+- [[00-元语/mcp]]
+- [[00-元语/protocol]]
+- [[00-元语/github]]
+- [[00-元语/compliance]]

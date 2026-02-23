@@ -58,6 +58,7 @@ An open-source, code-first Python toolkit for building, evaluating, and deployin
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/github]]
 - [[00-元语/sdk]]
 - [[00-元语/llm]]
 - [[00-元语/mcp]]

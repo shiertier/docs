@@ -35,4 +35,5 @@ MemoryOS 是一个专为个性化 AI 智能体（AI agents）设计的记忆操�
 - [[00-元语/memory]]
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/paper]]
 - [[00-元语/github]]

@@ -134,9 +134,17 @@ AI时代，真的是最好的时代，也是最坏的时代。
 >/ 作者：卡兹克
 >/ 投稿或爆料，请联系邮箱：wzglyay@virxact.com
 
+## 相关文档
+
+- [[01-博客/微信公众平台/Nano-Banana Pro看这一篇就够了，Google刚发布官方最强教程！|Nano-Banana Pro看这一篇就够了，Google刚发布官方最强教程！]]；关联理由：同一事件；说明：两文都围绕 2025 年 11 月下旬 Nano-Banana Pro 能力演进与生图范式变化展开。
+- [[01-博客/人人都是产品经理/保姆级教程：超前体验 Gemini3 和 Nano Banana Pro|保姆级教程：超前体验 Gemini3 和 Nano Banana Pro]]；关联理由：解说；说明：该文给出 Gemini 3 Pro 与 Nano Banana Pro 的体验与能力说明，可补足本文中的对比背景。
+
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/gemini]]
+- [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/image-editing]]
 - [[00-元语/benchmark]]
 - [[00-元语/risk]]

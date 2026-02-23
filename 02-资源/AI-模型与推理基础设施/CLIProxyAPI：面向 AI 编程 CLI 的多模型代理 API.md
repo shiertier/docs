@@ -28,19 +28,6 @@ CLIProxyAPI 是一个支持多模型兼容与多账户负载均衡的 CLI 代理
 * **安全访问限制**：管理 API 默认仅限本地主机（localhost）访问，且所有管理请求均需验证 Secret Key；官方建议将 pprof 调试服务器也绑定在本地以确保安全。
 * **请求失败与重试触发**：当遇到 403、408 或 50x（500/502/503/504）错误状态码时，系统默认最多重试 3 次，需注意配置凭据冷却的最大等待时间。
 
-## 关联主题
-
-- [[00-元语/cli]]
-- [[00-元语/terminal]]
-- [[00-元语/llm]]
-- [[00-元语/protocol]]
-- [[00-元语/llmops]]
-- [[00-元语/sdk]]
-- [[00-元语/rate-limiting]]
-- [[00-元语/self-hosting]]
-- [[00-元语/security]]
-- [[00-元语/compliance]]
-
 ## 功能与定位
 
 CLIProxyAPI 是一个“代理与协议兼容层”：把不同厂商的大模型服务接入到一个对外统一的兼容接口之下，目标是让各类 AI 编程 CLI/IDE 扩展可以用更一致的方式接入多个模型提供方，并支持 OAuth 登录、多账户轮询与一定程度的路由策略。
@@ -72,3 +59,19 @@ CLIProxyAPI 是一个“代理与协议兼容层”：把不同厂商的大模�
 - 用户手册（英文）：https://help.router-for.me/
 - 管理 API 文档（中文）：https://help.router-for.me/cn/management/api
 - SDK 使用文档（仓库内，中文）：https://github.com/router-for-me/CLIProxyAPI/blob/main/docs/sdk-usage_CN.md
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/cli]]
+- [[00-元语/terminal]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/protocol]]
+- [[00-元语/llmops]]
+- [[00-元语/sdk]]
+- [[00-元语/rate-limiting]]
+- [[00-元语/self-hosting]]
+- [[00-元语/security]]
+- [[00-元语/compliance]]

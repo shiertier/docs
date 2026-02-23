@@ -27,16 +27,6 @@ Zie619/n8n-workflows 是一个开源的 n8n 自动化工作流模板集合库，
 *   **合规性历史风险**：项目仓库历史曾因 DMCA（数字千年版权法）合规性问题进行过重写（最新 Release 为 `dmca-compliance-2025-08-14`）。
 *   **工作流安全隐患**：由于工作流来源于广泛收集，部分模板可能存在硬编码 API 密钥、未认证的 Webhook 暴露或危险的工具组合等安全风险，导入生产环境前需进行人工审查或使用 AI-BOM 等工具进行安全扫描。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]
-- [[00-元语/github]]
-- [[00-元语/self-hosting]]
-- [[00-元语/security]]
-- [[00-元语/compliance]]
-
 ## 功能与定位
 该项目是一个大规模的 n8n 自动化工作流（Workflows）收集库，旨在为 n8n 用户提供现成的自动化模板和灵感。项目不仅包含了数千个工作流的 JSON 文件，还提供了一个基于 Python 和 FastAPI 构建的检索系统，支持通过 Web 界面或 API 快速查找、过滤和下载所需的工作流。
 
@@ -69,3 +59,12 @@ Zie619/n8n-workflows 是一个开源的 n8n 自动化工作流模板集合库，
 - 项目 GitHub 页：https://github.com/Zie619/n8n-workflows
 - 在线浏览与搜索页：https://zie619.github.io/n8n-workflows
 - 推荐的 AI 安全扫描工具 (AI-BOM)：https://github.com/Trusera/ai-bom
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/workflow]]
+- [[00-元语/tool]]
+- [[00-元语/github]]
+- [[00-元语/self-hosting]]
+- [[00-元语/security]]
+- [[00-元语/compliance]]

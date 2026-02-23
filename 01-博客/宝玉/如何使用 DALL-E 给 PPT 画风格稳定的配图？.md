@@ -20,15 +20,6 @@
 **3) 风险/缺口**
 *   直接使用 GPT-4o 绘图存在不稳定性，可能会出现拒绝出图或单次仅生成一张图的情况。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/multimodal]]
-- [[00-元语/prompt]]
-- [[00-元语/image-editing]]
-- [[00-元语/design]]
-
 ## 正文
 我之前在准备《如何写好提示词？》 [https://baoyu.io/blog/how-to-write-good-prompt](https://baoyu.io/blog/how-to-write-good-prompt) 的配图时，都是用 DALL-E 帮我画的，整体效果还是挺满意的。
 
@@ -71,3 +62,12 @@ GPT-4o 并不是一个专门用来画图的模型，所以有时候它不会给�
 ![Image 7](https://baoyu.io/uploads/2024-11-12/1731385471465.png)
 
 有兴趣你也可以试试。
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/multimodal]]
+- [[00-元语/prompt]]
+- [[00-元语/image-editing]]
+- [[00-元语/design]]

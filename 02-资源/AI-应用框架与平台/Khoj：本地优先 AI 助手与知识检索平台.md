@@ -62,3 +62,4 @@ Your AI second brain. Self-hostable. Get answers from the web or your docs. Buil
 - [[00-元语/self-hosting]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
+- [[00-元语/memory]]

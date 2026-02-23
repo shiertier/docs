@@ -63,3 +63,4 @@ MCP server to provide Figma layout information to AI coding agents like Cursor
 - [[00-元语/ide]]
 - [[00-元语/context-optimization]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

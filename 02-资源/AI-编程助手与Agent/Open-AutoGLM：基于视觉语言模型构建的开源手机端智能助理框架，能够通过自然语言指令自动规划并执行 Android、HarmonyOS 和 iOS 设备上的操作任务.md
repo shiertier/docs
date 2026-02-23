@@ -67,8 +67,5 @@ An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/hardware-control]]
-- [[00-元语/github]]
 - [[00-元语/sdk]]
 - [[00-元语/compliance]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]

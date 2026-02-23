@@ -30,17 +30,6 @@ ComfyUI 是一个基于 Python 开发的、高度模块化的节点式视觉 AI 
 * **版本稳定性风险**：稳定发布标签（Stable release tags）之外的最新提交（commits）可能非常不稳定，并有可能导致许多自定义节点失效。
 * **性能限制**：虽然支持纯 CPU 运行，但在此模式下生成速度会非常慢。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/workflow]]
-- [[00-元语/image-editing]]
-- [[00-元语/video]]
-- [[00-元语/audio]]
-- [[00-元语/lora]]
-- [[00-元语/desktop-client]]
-- [[00-元语/cli]]
-
 ## 功能与定位
 ComfyUI 是一个强大且高度模块化的视觉 AI 引擎和应用程序。它提供了一个基于图/节点/流程图的交互界面，可作为图形用户界面（GUI）、API 和后端使用，专门用于设计和执行高级的 Stable Diffusion 工作流。
 
@@ -92,3 +81,15 @@ ComfyUI 是一个强大且高度模块化的视觉 AI 引擎和应用程序。�
 - https://www.comfy.org/
 - https://github.com/Comfy-Org/ComfyUI/releases
 - https://comfyanonymous.github.io/ComfyUI_examples/
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/workflow]]
+- [[00-元语/multimodal]]
+- [[00-元语/image-editing]]
+- [[00-元语/video]]
+- [[00-元语/audio]]
+- [[00-元语/lora]]
+- [[00-元语/desktop-client]]
+- [[00-元语/cli]]
+- [[00-元语/self-hosting]]

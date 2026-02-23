@@ -56,8 +56,12 @@ Database diagrams editor that allows you to visualize and design your DB with a 
 - README：https://raw.githubusercontent.com/chartdb/chartdb/main/README.md
 - Releases：https://github.com/chartdb/chartdb/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/drawdb：免费、直观的在线数据库实体关系（DBER）图表编辑器和 SQL 生成器，用户无需注册即可在浏览器中构建图表并导出 SQL 脚本|drawdb：在线数据库 ER 图编辑器与 SQL 生成器]]；关联理由：观点一致；说明：两者都聚焦数据库结构可视化与建模，适合做同类工具横向对比。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/软件工程]]
 - [[00-元语/design]]
+- [[00-元语/typescript]]

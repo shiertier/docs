@@ -58,6 +58,7 @@ A launch point for your personal nvim configuration
 - [[00-元语/ide]]
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/productivity]]
 - [[00-元语/github]]

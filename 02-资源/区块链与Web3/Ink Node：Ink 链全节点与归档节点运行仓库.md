@@ -50,9 +50,13 @@
 - README：https://raw.githubusercontent.com/inkonchain/node/main/README.md
 - 上游项目：https://github.com/smartcontracts/simple-optimism-node
 
+## 相关文档
+- [[02-资源/区块链与Web3/Ink 文档站：基于 Next.js 与 Nextra 的官方文档仓库|Ink 文档站：基于 Next.js 与 Nextra 的官方文档仓库]]；关联理由：解说；说明：该仓库维护 Ink 官方文档站，而本项目的节点运行说明以该站点为主要入口。
+
 ## 关联主题
 - [[00-元语/blockchain]]
 - [[00-元语/protocol]]
 - [[00-元语/self-hosting]]
 - [[00-元语/observability]]
+- [[00-元语/cli]]
 - [[00-元语/github]]

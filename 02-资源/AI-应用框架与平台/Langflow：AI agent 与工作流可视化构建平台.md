@@ -66,6 +66,11 @@ Langflow 的定位是“AI 工作流与 agent 的可视化编排平台”。它�
 - RELEASE 流程：https://github.com/langflow-ai/langflow/blob/main/RELEASE.md
 - LICENSE：https://github.com/langflow-ai/langflow/blob/main/LICENSE
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/langfuse：开源的大语言模型（LLM）工程平台，提供应用可观测性、提示词管理、评估、数据集和演练场等核心功能.md|langfuse：开源的大语言模型（LLM）工程平台，提供应用可观测性、提示词管理、评估、数据集和演练场等核心功能]]；关联理由：引用；说明：当前文档明确提到 Langflow 可与 LangFuse 集成做可观测性对接。
+- [[02-资源/AI-应用框架与平台/MCP Servers：MCP 官方参考实现与服务器生态索引.md|MCP Servers：MCP 官方参考实现与服务器生态索引]]；关联理由：解说；说明：Langflow 提供 MCP server 集成能力，MCP Servers 文档可补充协议生态与实现背景。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -77,10 +82,4 @@ Langflow 的定位是“AI 工作流与 agent 的可视化编排平台”。它�
 - [[00-元语/rag]]
 - [[00-元语/observability]]
 - [[00-元语/llmops]]
-
-## 相关文档
-
-- [[02-资源/AI-应用框架与平台/LangChain：LLM 应用开发框架.md|LangChain：LLM 应用开发框架]]；关联理由：上下游；说明：Langflow 以可视化方式承接 LLM 应用编排，和 LangChain 在构建层与编排层形成上下游关系。
-- [[02-资源/AI-应用框架与平台/Dify：LLM 应用与 agent 工作流开发平台.md|Dify：LLM 应用与 agent 工作流开发平台]]；关联理由：观点一致；说明：两者都面向 LLM 应用与 agent 工作流构建，关注从编排到落地的同类问题域。
-- [[02-资源/AI-应用框架与平台/langfuse：开源的大语言模型（LLM）工程平台，提供应用可观测性、提示词管理、评估、数据集和演练场等核心功能.md|langfuse：开源的大语言模型（LLM）工程平台，提供应用可观测性、提示词管理、评估、数据集和演练场等核心功能]]；关联理由：引用；说明：当前文档明确提到 Langflow 可与 LangFuse 集成做可观测性对接。
-- [[02-资源/AI-应用框架与平台/MCP Servers：MCP 官方参考实现与服务器生态索引.md|MCP Servers：MCP 官方参考实现与服务器生态索引]]；关联理由：解说；说明：Langflow 提供 MCP server 集成能力，MCP Servers 文档可补充协议生态与实现背景。
+- [[00-元语/github]]

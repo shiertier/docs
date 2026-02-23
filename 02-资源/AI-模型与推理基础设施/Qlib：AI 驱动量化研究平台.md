@@ -67,3 +67,4 @@ Qlib is an AI-oriented Quant investment platform that aims to use AI tech to emp
 - [[00-元语/workflow]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/github]]

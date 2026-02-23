@@ -59,6 +59,7 @@ Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/fastapi]]
 - [[00-元语/github]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]

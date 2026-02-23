@@ -54,6 +54,11 @@
 - 指定 issue：https://github.com/yeongpin/cursor-free-vip/issues/35668
 - 检索页：https://github.com/search?q=cursor-free-vip&type=repositories
 
+## 相关文档
+
+- [[02-资源/风险边界与合规/go-cursor-help：Cursor 相关工具风险提示|go-cursor-help：Cursor 相关工具风险提示]]；关联理由：观点一致；说明：两者都围绕 Cursor 限制规避场景，核心价值均是提示合规与账号风险边界。
+- [[02-资源/风险边界与合规/cursor-auto-free：基于 Python 开发的 Cursor Pro 自动化工具，采用 CC BY-NC-ND 4.0 协议|cursor-auto-free：基于 Python 开发的 Cursor Pro 自动化工具，采用 CC BY-NC-ND 4.0 协议]]；关联理由：延伸思考；说明：该条目可作为同类项目的可访问对照样本，补充本条“仓库不可访问”情况下的信息缺口。
+
 ## 关联主题
 
 - [[00-元语/Cursor]]

@@ -56,14 +56,14 @@ Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 20
 - README：https://raw.githubusercontent.com/Zyphra/Zonos/main/README.md
 - Releases：https://github.com/Zyphra/Zonos/releases
 
+## 相关文档
+- [[02-资源/AI-模型与推理基础设施/Spark-TTS：基于 Qwen2.5 构建的高效中英双语文本转语音（TTS）推理项目，支持零样本语音克隆与多参数可控的语音生成|Spark-TTS：基于 Qwen2.5 构建的高效中英双语文本转语音（TTS）推理项目，支持零样本语音克隆与多参数可控的语音生成]]；关联理由：观点一致；说明：同为开源 TTS 模型项目，可直接对比多语言生成质量与推理成本取舍。
+- [[02-资源/AI-模型与推理基础设施/index-tts：由 Bilibili 团队开源的一款工业级、可控且高效的自回归零样本（Zero-Shot）文本转语音系统，其最新版本 IndexTTS2 实现了音色与情感的解耦|index-tts：由 Bilibili 团队开源的一款工业级、可控且高效的自回归零样本（Zero-Shot）文本转语音系统，其最新版本 IndexTTS2 实现了音色与情感的解耦]]；关联理由：观点一致；说明：同属文本转语音基础模型方向，适合与 Zonos 在零样本与可控生成能力上做横向评估。
+- [[02-资源/AI-模型与推理基础设施/GPT-SoVITS：语音克隆与语音生成框架|GPT-SoVITS：语音克隆与语音生成框架]]；关联理由：延伸思考；说明：其语音克隆与生成实践可作为 Zonos 之外的工程化实现参照，用于扩展选型视角。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/audio]]
 - [[00-元语/tts]]
 - [[00-元语/multimodal]]
 - [[00-元语/github]]
-
-## 相关文档
-- [[02-资源/AI-模型与推理基础设施/Spark-TTS：基于 Qwen2.5 构建的高效中英双语文本转语音（TTS）推理项目，支持零样本语音克隆与多参数可控的语音生成|Spark-TTS：基于 Qwen2.5 构建的高效中英双语文本转语音（TTS）推理项目，支持零样本语音克隆与多参数可控的语音生成]]；关联理由：观点一致；说明：同为开源 TTS 模型项目，可直接对比多语言生成质量与推理成本取舍。
-- [[02-资源/AI-模型与推理基础设施/index-tts：由 Bilibili 团队开源的一款工业级、可控且高效的自回归零样本（Zero-Shot）文本转语音系统，其最新版本 IndexTTS2 实现了音色与情感的解耦|index-tts：由 Bilibili 团队开源的一款工业级、可控且高效的自回归零样本（Zero-Shot）文本转语音系统，其最新版本 IndexTTS2 实现了音色与情感的解耦]]；关联理由：观点一致；说明：同属文本转语音基础模型方向，适合与 Zonos 在零样本与可控生成能力上做横向评估。
-- [[02-资源/AI-模型与推理基础设施/GPT-SoVITS：语音克隆与语音生成框架|GPT-SoVITS：语音克隆与语音生成框架]]；关联理由：延伸思考；说明：其语音克隆与生成实践可作为 Zonos 之外的工程化实现参照，用于扩展选型视角。

@@ -38,10 +38,15 @@ tnm/zclaw 是一个定位为个人 AI 助手与 Agent 的工具，专为资源�
 ## 链接
 * https://github.com/tnm/zclaw
 
+## 相关文档
+
+- [[01-博客/内容发现/AI Memory：高质量仓库与博客产品清单|AI Memory：高质量仓库与博客产品清单]]；关联理由：引用；说明：该清单明确收录 tnm/zclaw，并给出评分与项目链接。
 
 ## 关联主题
 
 - [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
 - [[00-元语/github]]
+- [[00-元语/hardware-control]]
 - [[00-元语/tool]]

@@ -55,7 +55,7 @@ Free, simple, and intuitive online database diagram editor and SQL generator.
 - Releases：https://github.com/drawdb-io/drawdb/releases
 
 ## 关联主题
-- [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/tool]]
 - [[00-元语/self-hosting]]
+- [[00-元语/软件工程]]

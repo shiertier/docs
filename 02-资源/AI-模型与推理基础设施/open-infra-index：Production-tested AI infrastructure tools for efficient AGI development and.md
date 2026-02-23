@@ -61,3 +61,4 @@ Production-tested AI infrastructure tools for efficient AGI development and comm
 - [[00-元语/evals]]
 - [[00-元语/observability]]
 - [[00-元语/github]]
+- [[00-元语/learning-resource]]

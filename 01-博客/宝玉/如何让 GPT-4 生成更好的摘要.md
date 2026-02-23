@@ -19,15 +19,6 @@
 *   **步骤三（提取要点）**：基于每个话题，使用项目符号（bullet points）列出核心要点。
 *   **步骤四（展开生成）**：严格以话题为章节，基于要点用 1-3 个自然段落总结每个话题（不使用项目符号），使整体效果呈现为一篇连贯的科普文章。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/Claude]]
-- [[00-元语/workflow]]
-- [[00-元语/learning-resource]]
-
 ## 正文
 很多人都说 GPT-4 总结的时候会偷懒，Claude 更好，但如果你提示词得当，GPT-4 的效果其实一样可以做到很好，甚至比 Claude 效果还好。
 
@@ -56,3 +47,13 @@
 <你要总结的内容>
 
 ![Image 1](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt0.webp)![Image 2](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt1.webp)![Image 3](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt2.webp)![Image 4](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt3.webp)
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/Claude]]
+- [[00-元语/workflow]]
+- [[00-元语/learning-resource]]

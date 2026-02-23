@@ -324,5 +324,6 @@ Google 的个性化 Gemini 何时真正落地？“可安装知识”的模块�
 - [[00-元语/context-optimization]]
 - [[00-元语/evals]]
 - [[00-元语/llm]]
+- [[00-元语/rag]]
 - [[00-元语/数学]]
 - [[00-元语/prompt]]

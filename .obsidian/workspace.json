@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eeece7c4449e567b",
+        "id": "c179a3e78bd7ebc4",
         "type": "tabs",
         "children": [
           {
-            "id": "b0784e24eeeed87e",
+            "id": "f8952b3405eee351",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "00-元语/windows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "windows"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-元语/windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "windows 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-元语/windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "windows 的出链列表"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-元语/windows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "windows 的大纲"
             }
           }
         ],
@@ -176,44 +183,44 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b0784e24eeeed87e",
+  "active": "f8952b3405eee351",
   "lastOpenFiles": [
+    "scripts/push_dual_remote.sh",
+    "00-元语/web-crawling.md",
+    "00-元语/virtual-file-system.md",
+    "00-元语/Spec驱动开发.md",
+    "00-元语/react.md",
+    "00-元语/meta.md",
+    "00-元语/hardware-control.md",
+    "00-元语/context-optimization.md",
+    "00-元语/blockchain.md",
+    "00-元语/audio.md",
+    "01-博客/宝玉/有了 v0 的完整提示词，是不是就能做一个 v0出来了？.md",
+    "01-博客/Anthropic/构建高效智能体：Building Effective Agents.md",
+    "00-元语/无限大脑.md",
+    "02-资源/AI-编程助手与Agent/sedlpNSM3",
+    "02-资源/AI-编程助手与Agent/XXsTYv8f",
+    "00-元语/fastapi.md",
+    "00-元语/typescript.md",
+    "01-博客/微信公众平台/FLUX.2开源了，但是我好像也看到了小公司的无力。.md",
+    "00-元语/xAI.md",
+    "00-元语/alignment.md",
+    "01-博客/Anthropic/Building Effective Agents：构建高效智能体.md",
+    "01-博客/Anthropic/构建高效智能体.md",
+    "scripts/prepare_quartz_site.sh",
+    "node_modules/qs/CHANGELOG.md",
+    "node_modules/es-define-property/test/index.js",
+    "node_modules/es-define-property/test",
+    "node_modules/livereload-js/dist/livereload.js",
+    "node_modules/livereload-js/dist",
+    "node_modules/tmp/lib/tmp.js",
+    "node_modules/tmp/lib",
+    "node_modules/gitbook-plugin-livereload/book/plugin.js",
     "01-博客/微信公众平台/SuperDesign：输入自然语言即可生成UI界面的开源设计Agent.md",
     "01-博客/微信公众平台/微软开源！80.6K星工具 MarkItDown，一键转换20+文件格式.md",
     "01-博客/微信公众平台/推荐 4 个实用、好玩儿的 GitHub 开源项目.md",
     "01-博客/知乎/为什么感觉现在AI Agent都是雷声大雨点小？.md",
     "01-博客/微信公众平台/终于有个简单的多Agent入门教程了，蚂蚁这次上大分.md",
-    "01-博客/微信公众平台/推荐 4 个实用、好玩儿的 GitHub 开源项目。.md",
-    "01-博客/微信公众平台/产品游戏化设计理论基础（下）.md",
-    "01-博客/微信公众平台/Agent 架构综述：从 Prompt 到 Context.md",
-    "01-博客/知乎",
-    "02-资源/学习资源与知识库/VoidLight：独立生存射击游戏项目.md",
-    "02-资源/通用开发工具/react-bits：React 动效组件工具库.md",
-    "02-资源/通用开发工具/Socket.IO：实时双向事件通信框架.md",
-    "01-博客/小红书/小红书页面访问提示：当前笔记暂时无法浏览.md",
-    "01-博客/微信公众平台/让 Obsidian 会自动工作：用 n8n 打造智能知识库.md",
-    "01-博客/微信公众平台/Claude Code Hooks 从入门到实战（附安全检查+代码质量+Git工作流脚本）.md",
-    "01-博客/微信公众平台/面试官问：Function Call 的训练数据怎么构建？.md",
-    "01-博客/微信公众平台/在小红书卖测试链接，2个月卖出去24.3万单，赚了21.87w.md",
-    "01-博客/微信公众平台/一次创作，多平台分发：营销矩阵的自动化实现.md",
-    "01-博客/微信公众平台/Vercel 给 Agent Skills 泼了一盆冷水.md",
-    "01-博客/微信公众平台/OpenClaw 背后的极简革命：Pi只带 4 个工具可能是 AI Agent 的未来.md",
-    "01-博客/微信公众平台/Agent 原生通讯协议：从传递代码，到传递认知.md",
-    "01-博客/微信公众平台/对话 Elys 创始人：他的 10 个产品洞察，和他想创造的下一代社交网络.md",
-    "01-博客/微信公众平台/Claude Task Viewer：Claude Code可视化的实时看板.md",
-    "01-博客/微信公众平台/Agent sandbox 可能的选型以及 unikernel 的机会.md",
-    "01-博客/小红书",
-    "01-博客/OpenAI/在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签.md",
-    "01-博客/OpenAI/GPT-5.2 在理论物理中推导出新结果.md",
-    "01-博客/OpenAI/Introducing Lockdown Mode and Elevated Risk labels in ChatGPT.md",
-    "node_modules/mermaid/src/diagrams/sequenceDiagram/parser/sequenceDiagram.js",
-    "node_modules/mermaid/src/diagrams/sequenceDiagram/parser/sequenceDiagram.jison",
-    "node_modules/mermaid/src/diagrams/flowchart/parser/flow.jison",
-    "node_modules/mermaid/src/diagrams/flowchart/parser/flow.js",
-    "node_modules/mermaid/src/diagrams/flowchart/parser/flow.spec.js",
-    "node_modules/mermaid/src/diagrams/flowchart/parser/dot.js",
-    "node_modules/mermaid/src/diagrams/flowchart/parser/dot.jison",
-    "node_modules/mermaid/src/diagrams/gantt/parser/gantt.js",
     "node_modules/cpr/cpr.jpg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/fonts/fontawesome/fontawesome-webfont.svg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/images/apple-touch-icon-precomposed-152.png",

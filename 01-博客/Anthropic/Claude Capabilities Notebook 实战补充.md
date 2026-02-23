@@ -66,6 +66,7 @@ def evaluate_retrieval(
 
 ## 关联主题
 - [[00-元语/Claude]]
+- [[00-元语/llm]]
 - [[00-元语/github]]
 - [[00-元语/rag]]
 - [[00-元语/evals]]

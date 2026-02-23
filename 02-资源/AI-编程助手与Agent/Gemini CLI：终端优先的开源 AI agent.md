@@ -81,3 +81,5 @@ Gemini CLI 的定位是终端原生的 AI agent 工具，面向开发者在命�
 - [[00-元语/mcp]]
 - [[00-元语/CI]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]
+- [[00-元语/typescript]]

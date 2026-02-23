@@ -54,6 +54,10 @@ An opinionated GoLang framework for accelerated microservice development. Built 
 - README：https://raw.githubusercontent.com/gofr-dev/gofr/development/README.md
 - Releases：https://github.com/gofr-dev/gofr/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/go：The Go programming language|go：The Go programming language]]；关联理由：上下游；说明：GoFr 以 Go 为核心实现语言，框架能力与 Go 生态和版本演进直接相关。
+- [[02-资源/通用开发工具/kubernetes：Production-Grade Container Scheduling and Management|kubernetes：Production-Grade Container Scheduling and Management]]；关联理由：上下游；说明：GoFr 明确面向 Kubernetes 部署场景，服务编排与运维流程与 Kubernetes 强耦合。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]

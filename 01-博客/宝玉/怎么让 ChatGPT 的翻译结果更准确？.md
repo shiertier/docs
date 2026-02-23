@@ -25,16 +25,6 @@
 *   **成本与效率问题**：完成一次翻译需要执行五个步骤，耗费时间长，且消耗的 Token 数量多，性价比相对不高。
 *   **首稿依赖风险**：整个工作流的最终翻译质量受第一稿（直译稿）影响极大；如果第一稿质量不佳，后续所有环节的翻译质量都会受到负面连带影响。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/Agent]]
-- [[00-元语/workflow]]
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-
 ## 正文
 在《[一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”](https://baoyu.io/blog/prompt-engineering/a-prompt-for-better-translation-result)》中，借助直译 + 意译，我们让翻译的质量大幅提升，但是也有朋友反馈，意译的时候，可能会偏离原意，那么有没有办法，让 ChatGPT 意译的结果更准确呢？
 
@@ -266,3 +256,13 @@ Step 5：中文老师基于校长的修改意见，修改初稿
 ![Image 2: Two AI Agents](https://baoyu.io/images/prompt-engineering/three-ai-agents-and-four-steps-flow-prompt/three-ai-agents.jpeg)
 
 Two AI Agents
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/workflow]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]

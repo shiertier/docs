@@ -61,6 +61,6 @@ The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a fre
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
-- [[00-元语/react]]
 - [[00-元语/sdk]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

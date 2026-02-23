@@ -487,3 +487,4 @@ sudo apt-get install libta-lib0-dev
 - [[00-元语/self-hosting]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
+- [[00-元语/security]]

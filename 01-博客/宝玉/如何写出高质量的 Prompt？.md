@@ -22,15 +22,6 @@
 **3) 风险/不足**
 *   **复杂推理出错风险**：对于复杂的推理过程，如果直接让 GPT 给出最终答案，很容易出现错误（需通过分步思考和打印中间步骤来规避）。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/llm]]
-- [[00-元语/OpenAI]]
-- [[00-元语/learning-resource]]
-- [[00-元语/workflow]]
-
 ## 正文
 看到有人发《全网都在找的 GPT 最权威的 160 条指令》，其实没人记得住 160 条 Prompt，也没有必要去记 160 条 Prompt！
 
@@ -107,3 +98,12 @@
 ![Image 2](https://baoyu.io/images/prompt-engineering/how-to-write-high-quality-prompt/image2.png)
 
 ![Image 3](https://baoyu.io/images/prompt-engineering/how-to-write-high-quality-prompt/image3.png)
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/llm]]
+- [[00-元语/OpenAI]]
+- [[00-元语/learning-resource]]
+- [[00-元语/workflow]]

@@ -26,17 +26,6 @@
 *   **盲目编辑风险**：明确指出在未事先读取现有文件内容的情况下尝试进行编辑，会导致无法正确应用更改。
 *   **工具幻觉风险**：明确警告禁止使用不存在的工具，或直接写出包含工具输入的 JSON 代码块（如错误使用 `multi_tool_use.parallel`）。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/Agent]]
-- [[00-元语/copilot]]
-- [[00-元语/github]]
-- [[00-元语/compliance]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
-- [[00-元语/软件工程]]
-
 ## 正文
 ```
 You are an AI programming assistant.
@@ -240,3 +229,14 @@ recipient_name: string,
 
 You are trained on data up to October 2023.
 ```
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/Agent]]
+- [[00-元语/copilot]]
+- [[00-元语/github]]
+- [[00-元语/compliance]]
+- [[00-元语/tool]]
+- [[00-元语/workflow]]
+- [[00-元语/软件工程]]

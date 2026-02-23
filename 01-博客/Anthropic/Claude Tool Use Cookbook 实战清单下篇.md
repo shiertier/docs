@@ -74,14 +74,17 @@ tools = [
 ## 相关文档
 - [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单上篇|Claude Tool Use Cookbook 实战清单上篇]]；关联理由：版本演进；说明：两篇同属 Tool Use Cookbook 的连续整理，上篇提供基础能力，下篇聚焦生产化能力扩展。
 - [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：解说；说明：下篇覆盖 tool search notebook，关联文提供官方文档级机制说明与接口细节。
+- [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：同一事件；说明：该文发布了 tool search 与 programmatic tool calling，和本文覆盖的下篇 notebook 能力一一对应。
 
 ## 关联主题
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/tool]]
+- [[00-元语/sdk]]
 - [[00-元语/context-optimization]]
 - [[00-元语/context-database]]
+- [[00-元语/memory]]
 - [[00-元语/multimodal]]
 - [[00-元语/observability]]
 - [[00-元语/llmops]]

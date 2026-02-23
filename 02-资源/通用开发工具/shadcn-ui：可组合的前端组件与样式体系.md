@@ -59,5 +59,6 @@ A set of beautifully-designed, accessible components and a code distribution pla
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/ui-protocol]]
 - [[00-元语/design]]

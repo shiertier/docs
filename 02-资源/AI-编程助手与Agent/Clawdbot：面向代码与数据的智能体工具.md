@@ -59,7 +59,9 @@ Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
-- [[00-元语/tool]]
-- [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/security]]
+- [[00-元语/typescript]]
+- [[00-元语/github]]
+- [[00-元语/llm]]
+- [[00-元语/tool]]

@@ -96,10 +96,18 @@ Deep Agents SDK 维护了一套针对性评估（targeted evals），旨在隔�
 
 Deep Agents 框架的所有功能都是开源的。尝试最新版本，并告诉我们哪些压缩策略最适合您的用例！
 
+## 相关文档
+
+- [[01-博客/LangChain/Agent Builder 记忆系统构建方法|Agent Builder 记忆系统构建方法]]；关联理由：上下游；说明：该文展示了 Deep Agents 在 Agent Builder 中的落地，并解释了摘要与工具卸载等上下文工程能力如何支撑记忆系统。
+- [[01-博客/LangChain/Agent Builder 中的记忆使用方法|Agent Builder 中的记忆使用方法]]；关联理由：解说；说明：该文从使用视角补充了 Deep Agents 文件系统记忆与上下文压缩机制在实际任务中的操作方式。
+
 ## 关联主题
 
-- [[00-元语/memory]]
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/memory]]
 - [[00-元语/context-optimization]]
-- [[00-元语/learning-resource]]
+- [[00-元语/virtual-file-system]]
+- [[00-元语/evals]]
+- [[00-元语/benchmark]]
+- [[00-元语/sdk]]

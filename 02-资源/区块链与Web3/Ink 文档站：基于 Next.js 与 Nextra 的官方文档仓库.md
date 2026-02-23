@@ -48,9 +48,13 @@
 - README：https://raw.githubusercontent.com/inkonchain/docs/main/README.md
 - 组织主页：https://github.com/inkonchain
 
+## 相关文档
+- [[02-资源/区块链与Web3/Ink Node：Ink 链全节点与归档节点运行仓库|Ink Node：Ink 链全节点与归档节点运行仓库]]；关联理由：上下游；说明：该仓库维护 `docs.inkonchain.com` 文档站，而 Ink Node 文档以该站点作为官方入口，属于直接上下游关系。
+
 ## 关联主题
 - [[00-元语/blockchain]]
 - [[00-元语/CI]]
 - [[00-元语/github]]
 - [[00-元语/markdown]]
 - [[00-元语/react]]
+- [[00-元语/serverless]]

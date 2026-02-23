@@ -63,4 +63,4 @@ Collection of handy online tools for developers, with great UX.
 - [[00-元语/ide]]
 - [[00-元语/CI]]
 - [[00-元语/productivity]]
-- [[00-元语/workflow]]
+- [[00-元语/typescript]]

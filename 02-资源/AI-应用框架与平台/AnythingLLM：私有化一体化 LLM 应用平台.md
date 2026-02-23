@@ -60,6 +60,7 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-
 - [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/Agent]]
+- [[00-元语/workflow]]
 - [[00-元语/mcp]]
 - [[00-元语/self-hosting]]
 - [[00-元语/desktop-client]]

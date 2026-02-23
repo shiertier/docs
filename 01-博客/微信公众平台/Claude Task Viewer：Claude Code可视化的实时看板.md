@@ -72,5 +72,6 @@ npx claude-task-viewer
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Agent]]
 - [[00-元语/observability]]
 - [[00-元语/workflow]]

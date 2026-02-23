@@ -19,15 +19,6 @@ Sora 采用了融合扩散模型与 Transformer 的 Diffusion Transformer 架构
 *   **物理规律模拟**：Sora 能够模拟出逼真的物理现象（如咖啡溅出的液体动力学），并非依赖游戏引擎，而是从海量视频训练数据中学习到了物理规则。
 *   **技术理论来源**：Sora 的技术基础与 Google 在 2022 年底至 2023 年中发表的两篇关于 Scalable Diffusion Models 和 NaViT（Vision Transformer）的论文密切相关。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/OpenAI]]
-- [[00-元语/video]]
-- [[00-元语/multimodal]]
-- [[00-元语/llm]]
-- [[00-元语/paper]]
-
 ## 正文
 问：Sora 和之前 Runway 那些在架构上有啥区别呢？
 
@@ -70,3 +61,12 @@ Patch 的创新之处——以及 Sora 之所以显得如此强大——在于�
 顺便说一下，两篇论文好像都来自 Google，并且似乎 Sora 项目是在这两篇论文发表后才启动的。
 
 还有电影胶片 + 变形虫的例子来自《How Sora Works (And What It Means)》 [https://every.to/chain-of-thought/sora-and-the-future-of-filmmaking](https://every.to/chain-of-thought/sora-and-the-future-of-filmmaking) 译文：[https://baoyu.io/translations/sora/sora-and-the-future-of-filmmaking](https://baoyu.io/translations/sora/sora-and-the-future-of-filmmaking)
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/OpenAI]]
+- [[00-元语/video]]
+- [[00-元语/multimodal]]
+- [[00-元语/llm]]
+- [[00-元语/paper]]

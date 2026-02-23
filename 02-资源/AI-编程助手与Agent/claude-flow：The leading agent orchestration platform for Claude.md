@@ -66,6 +66,7 @@ claude-flow 是一个开源项目，归档分类为“AI-编程助手与Agent”
 - [[00-元语/protocol]]
 - [[00-元语/github]]
 - [[00-元语/llm]]
+- [[00-元语/typescript]]
 - [[00-元语/observability]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]

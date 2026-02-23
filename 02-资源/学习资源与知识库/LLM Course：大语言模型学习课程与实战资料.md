@@ -27,17 +27,6 @@
 **风险与不足**
 * **预训练成本限制**：课程明确指出，大模型的预训练（Pre-Training）是计算密集且极其昂贵的过程，个人爱好者通常只能在参数量小于 1B 的小模型上进行小规模的预训练实践。
 
-## 关联主题
-
-- [[00-元语/llm]]
-- [[00-元语/llmops]]
-- [[00-元语/learning-resource]]
-- [[00-元语/github]]
-- [[00-元语/evals]]
-- [[00-元语/lora]]
-- [[00-元语/roadmap]]
-- [[00-元语/workflow]]
-
 ## 功能与定位
 `mlabonne/llm-course` 是一个旨在帮助学习者系统掌握大语言模型（LLMs）的开源课程项目。该项目通过提供清晰的分阶学习路线图（Roadmaps）和大量可直接运行的 Google Colab 笔记本，将理论知识与前沿的工程实践相结合，适合从零基础到希望深入模型构建与应用部署的各阶段开发者。
 
@@ -72,3 +61,13 @@
 - GitHub 仓库：https://github.com/mlabonne/llm-course
 - 作者博客：https://mlabonne.github.io/blog/
 - DeepWiki 扩展版：https://deepwiki.com/mlabonne/llm-course/
+
+## 关联主题
+- [[00-元语/llm]]
+- [[00-元语/llmops]]
+- [[00-元语/learning-resource]]
+- [[00-元语/github]]
+- [[00-元语/evals]]
+- [[00-元语/lora]]
+- [[00-元语/roadmap]]
+- [[00-元语/workflow]]

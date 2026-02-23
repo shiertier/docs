@@ -71,6 +71,7 @@ def build_input_prompt(animal_statement):
 - [[00-元语/evals]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/llm]]
+- [[00-元语/protocol]]
 - [[00-元语/prompt]]
 - [[00-元语/security]]
 - [[00-元语/workflow]]

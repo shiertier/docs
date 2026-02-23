@@ -61,3 +61,4 @@ A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Opti
 - [[00-元语/lora]]
 - [[00-元语/benchmark]]
 - [[00-元语/hardware-control]]
+- [[00-元语/github]]

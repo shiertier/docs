@@ -3,7 +3,7 @@
 ## 文档信息
 
 - 类型：元语词条
-- 更新日期：2026-02-22
+- 更新日期：2026-02-23
 
 ## 定义
 
@@ -25,10 +25,12 @@ desktop-client 指运行在桌面操作系统上的本地应用客户端形态�
 - [[00-元语/windows]]
 - [[00-元语/wasm]]
 - [[00-元语/hardware-control]]
+- [[00-元语/ui-protocol]]
 
 ## 关联主题
 
 - [[00-元语/windows]]
 - [[00-元语/hardware-control]]
 - [[00-元语/wasm]]
+- [[00-元语/ui-protocol]]
 - [[00-元语/productivity]]

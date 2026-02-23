@@ -61,5 +61,4 @@ Stirling-PDF 是一个高人气的开源 PDF 编辑平台，支持在桌面、�
 - [[00-元语/ocr]]
 - [[00-元语/security]]
 - [[00-元语/github]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
+- [[00-元语/typescript]]

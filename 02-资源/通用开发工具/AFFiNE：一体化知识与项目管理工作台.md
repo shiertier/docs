@@ -58,6 +58,7 @@ There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/self-hosting]]
 - [[00-元语/desktop-client]]
 - [[00-元语/知识工作]]

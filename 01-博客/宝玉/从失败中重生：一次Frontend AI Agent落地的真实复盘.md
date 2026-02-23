@@ -223,5 +223,6 @@ Failure is acceptable. It is infinitely better than doing nothing at all.
 - [[00-元语/evals]]
 - [[00-元语/sdk]]
 - [[00-元语/skills]]
+- [[00-元语/github]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/workflow]]

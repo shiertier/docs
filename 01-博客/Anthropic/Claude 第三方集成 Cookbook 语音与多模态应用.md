@@ -71,6 +71,7 @@ message = anthropic_client.messages.create(
 - [[00-元语/asr]]
 - [[00-元语/tts]]
 - [[00-元语/rag]]
+- [[00-元语/sdk]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/stream-processing]]

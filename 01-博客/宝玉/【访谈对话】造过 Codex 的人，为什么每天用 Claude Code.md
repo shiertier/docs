@@ -282,6 +282,12 @@ Anthropic 的“人类工具”路线和 OpenAI 的“通用智能”路线哪�
 *   访谈来源：YC Lightcone 播客，[https://www.youtube.com/watch?v=qwmmWzPnhog](https://www.youtube.com/watch?v=qwmmWzPnhog)
 *   配图工具：baoyu-article-illustrator skill [https://github.com/jimliu/baoyu-skills](https://github.com/jimliu/baoyu-skills)
 
+## 相关文档
+
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践.md|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：该文系统解释了访谈里反复出现的子 Agent、上下文压缩与即时检索机制。
+- [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学.md|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：延伸思考；说明：两文都围绕 Claude Code 的实践方法，后者提供更细颗粒度的执行技巧。
+- [[01-博客/宝玉/OpenAI 应用 CTO 和 Codex 负责人：AI 正在重塑构建软件的方式.md|OpenAI 应用 CTO 和 Codex 负责人：AI 正在重塑构建软件的方式]]；关联理由：观点一致；说明：两篇都指出 AI 编程将工程瓶颈从“写代码”迁移到评审、集成与任务编排。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
@@ -289,12 +295,15 @@ Anthropic 的“人类工具”路线和 OpenAI 的“通用智能”路线哪�
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
+- [[00-元语/Cursor]]
 - [[00-元语/cli]]
+- [[00-元语/ide]]
 - [[00-元语/llm]]
 - [[00-元语/context-optimization]]
 - [[00-元语/evals]]
 - [[00-元语/code-review]]
 - [[00-元语/CI]]
+- [[00-元语/PostgreSQL]]
 - [[00-元语/mcp]]
 - [[00-元语/prompt]]
 - [[00-元语/security]]

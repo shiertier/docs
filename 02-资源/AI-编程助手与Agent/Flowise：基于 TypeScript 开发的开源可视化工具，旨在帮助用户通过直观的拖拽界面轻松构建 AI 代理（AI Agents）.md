@@ -64,4 +64,5 @@ Build AI Agents, Visually
 - [[00-元语/observability]]
 - [[00-元语/react]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]

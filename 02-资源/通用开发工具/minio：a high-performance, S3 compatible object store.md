@@ -54,6 +54,9 @@ MinIO is a high-performance, S3 compatible object store, open sourced under GNU 
 - README：https://raw.githubusercontent.com/minio/minio/master/README.md
 - Releases：https://github.com/minio/minio/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/rustfs：基于 Rust 构建的高性能、兼容 S3 的开源分布式对象存储系统，采用商业友好的 Apache 2.0 许可|rustfs：基于 Rust 构建的高性能、兼容 S3 的开源分布式对象存储系统，采用商业友好的 Apache 2.0 许可]]；关联理由：引用；说明：该文档直接以 MinIO 作为性能与兼容性对比对象，属于同一对象存储赛道的直接参照。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]

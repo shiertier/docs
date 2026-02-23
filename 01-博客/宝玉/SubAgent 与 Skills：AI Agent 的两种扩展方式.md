@@ -123,4 +123,5 @@ Skills 是应用程序，装在主系统里按需调用；SubAgent 是虚拟机�
 - [[00-元语/llm]]
 - [[00-元语/skills]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/workflow]]

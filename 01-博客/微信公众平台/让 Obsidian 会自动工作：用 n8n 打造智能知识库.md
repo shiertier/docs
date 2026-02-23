@@ -318,6 +318,8 @@ return {
 
 ## 关联主题
 
-- [[00-元语/knowledge-graph]]
 - [[00-元语/workflow]]
-- [[00-元语/tool]]
+- [[00-元语/知识工作]]
+- [[00-元语/web-crawling]]
+- [[00-元语/mcp]]
+- [[00-元语/markdown]]

@@ -56,8 +56,12 @@ Send push notifications to your phone or desktop using PUT/POST
 - README：https://raw.githubusercontent.com/binwiederhier/ntfy/main/README.md
 - Releases：https://github.com/binwiederhier/ntfy/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/TrendRadar：趋势追踪与内容信号分析工具|TrendRadar：趋势追踪与内容信号分析工具]]；关联理由：上下游；说明：TrendRadar 将 ntfy 作为内置通知渠道之一，属于对 ntfy 的下游集成使用场景。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/protocol]]
+- [[00-元语/self-hosting]]
 - [[00-元语/desktop-client]]

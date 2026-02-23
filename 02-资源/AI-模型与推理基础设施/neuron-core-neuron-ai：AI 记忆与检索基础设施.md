@@ -45,7 +45,9 @@ neuron-core/neuron-ai 是一个专为构建生产级 AI 驱动应用而设计的
 
 - [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/Agent]]
-- [[00-元语/github]]
 - [[00-元语/rag]]
+- [[00-元语/workflow]]
 - [[00-元语/context-database]]
+- [[00-元语/github]]

@@ -31,6 +31,7 @@ blockchain 指通过分布式共识维护不可篡改账本的数据结构与网
 - [[00-元语/protocol]]
 - [[00-元语/decision-making]]
 - [[00-元语/trading]]
+- [[00-元语/community]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

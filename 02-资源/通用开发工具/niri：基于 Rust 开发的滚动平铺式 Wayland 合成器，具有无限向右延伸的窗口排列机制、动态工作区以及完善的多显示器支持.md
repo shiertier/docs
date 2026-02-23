@@ -58,6 +58,9 @@ A scrollable-tiling Wayland compositor.
 - README：https://raw.githubusercontent.com/YaLTeR/niri/main/README.md
 - Releases：https://github.com/YaLTeR/niri/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/Hyprland：an independent, highly customizable|Hyprland：an independent, highly customizable]]；关联理由：观点一致；说明：两者都是 Wayland 平铺式合成器，适合并行对比窗口布局机制与可定制能力。
+
 ## 关联主题
 - [[00-元语/desktop-client]]
 - [[00-元语/ui-protocol]]

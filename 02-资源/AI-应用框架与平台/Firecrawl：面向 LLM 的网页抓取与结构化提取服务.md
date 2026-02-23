@@ -29,16 +29,6 @@ Firecrawl 是一个基于 TypeScript 开发的开源 Web 数据提取 API，专�
 *   **生产环境自托管未就绪**：目前单体仓库仍在开发和整合自定义模块中，尚未完全准备好用于生产环境的自托管部署（当前仅支持在本地运行测试）。
 *   **数据统计不一致**：文档指出用户提供的参考 GitHub Stars 数量（22839）与 API 实际抓取到的公开数量（84622）存在不一致。
 
-## 关联主题
-
-- [[00-元语/web-crawling]]
-- [[00-元语/llm]]
-- [[00-元语/Agent]]
-- [[00-元语/mcp]]
-- [[00-元语/sdk]]
-- [[00-元语/markdown]]
-- [[00-元语/self-hosting]]
-
 ## 功能与定位
 Firecrawl 是一个专为 AI 时代设计的 Web 数据 API 工具。它的核心定位是将任意网站的内容抓取、爬取并转换为大语言模型（LLM）可直接使用的干净 Markdown 或结构化数据，从而为 AI Agent 和应用程序提供实时的网络上下文。
 
@@ -81,3 +71,17 @@ Firecrawl 是一个专为 AI 时代设计的 Web 数据 API 工具。它的核�
 - MCP Server 仓库：https://github.com/firecrawl/firecrawl-mcp-server
 - Python SDK 下载：https://pepy.tech/project/firecrawl-py
 - API Playground：https://firecrawl.dev/playground
+
+## 相关文档
+- [[02-资源/AI-应用框架与平台/Firecrawl：面向 LLM 的网页抓取与提取平台|Firecrawl：面向 LLM 的网页抓取与提取平台]]；关联理由：版本演进；说明：两篇均归档同一项目，本篇信息更细，关联文档可用于核对同版本下的表述差异。
+- [[02-资源/AI-应用框架与平台/Deep Research：开源深度研究工作流工具|Deep Research：开源深度研究工作流工具]]；关联理由：上下游；说明：Deep Research 把 Firecrawl 作为网页搜索与内容提取依赖，本篇可补充其底层能力边界。
+
+## 关联主题
+- [[00-元语/web-crawling]]
+- [[00-元语/browser-automation]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/mcp]]
+- [[00-元语/sdk]]
+- [[00-元语/markdown]]
+- [[00-元语/self-hosting]]

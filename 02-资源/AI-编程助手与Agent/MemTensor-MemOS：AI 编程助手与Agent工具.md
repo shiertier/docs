@@ -42,5 +42,5 @@ MemOS 是一款专为大语言模型（LLM）和智能体（Agent）系统设计
 - [[00-元语/memory]]
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/github]]
-- [[00-元语/context-database]]

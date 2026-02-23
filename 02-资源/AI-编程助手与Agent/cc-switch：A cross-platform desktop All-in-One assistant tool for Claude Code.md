@@ -63,5 +63,7 @@ A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenC
 - [[00-元语/desktop-client]]
 - [[00-元语/github]]
 - [[00-元语/mcp]]
+- [[00-元语/workflow]]
 - [[00-元语/cli]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]

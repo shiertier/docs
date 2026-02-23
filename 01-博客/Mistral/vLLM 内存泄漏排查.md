@@ -356,6 +356,9 @@ AI 的下一章由你书写。
 ## 关联主题
 
 - [[00-元语/memory]]
+- [[00-元语/bug-fix]]
+- [[00-元语/observability]]
+- [[00-元语/llmops]]
+- [[00-元语/llm]]
+- [[00-元语/cli]]
 - [[00-元语/AI]]
-- [[00-元语/learning-resource]]
-- [[00-元语/tool]]

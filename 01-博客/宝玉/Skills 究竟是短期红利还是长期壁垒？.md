@@ -77,6 +77,12 @@ Skills 本身不会成为长期壁垒，但你在 Skills 上投入的学习和�
 
 ![Image 1](https://baoyu.io/uploads/2026-01-18/Gemini_Generated_Image_nevx9tnevx9tnevx.png)
 
+## 相关文档
+
+- [[01-博客/宝玉/Skill 不就是长一点的提示词吗？|Skill 不就是长一点的提示词吗？]]；关联理由：解说；说明：该文细化了 Skill 的工程化结构与能力边界，可作为本文“Skills 是形式而非壁垒本体”观点的技术拆解。
+- [[01-博客/宝玉/Skills 不就是脚本套个壳吗？我十几年前就玩 AutoIt 了|Skills 不就是脚本套个壳吗？我十几年前就玩 AutoIt 了]]；关联理由：观点一致；说明：两文都强调应投资可迁移能力而非固化形式，并讨论 Skills 可能被新范式替代的风险。
+- [[01-博客/宝玉/你可能不再需要 workflow，大部分场景 skills 足矣——五步框架把 Workflow 变成可进化的 Skill|你可能不再需要 workflow，大部分场景 skills 足矣——五步框架把 Workflow 变成可进化的 Skill]]；关联理由：延伸思考；说明：该文把本文的阶段判断进一步落地为“如何把 workflow 演进为 skills”的方法论与实践路径。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -87,9 +93,3 @@ Skills 本身不会成为长期壁垒，但你在 Skills 上投入的学习和�
 - [[00-元语/skills]]
 - [[00-元语/workflow]]
 - [[00-元语/career]]
-
-## 相关文档
-
-- [[01-博客/宝玉/Skill 不就是长一点的提示词吗？|Skill 不就是长一点的提示词吗？]]；关联理由：解说；说明：该文细化了 Skill 的工程化结构与能力边界，可作为本文“Skills 是形式而非壁垒本体”观点的技术拆解。
-- [[01-博客/宝玉/Skills 不就是脚本套个壳吗？我十几年前就玩 AutoIt 了|Skills 不就是脚本套个壳吗？我十几年前就玩 AutoIt 了]]；关联理由：观点一致；说明：两文都强调应投资可迁移能力而非固化形式，并讨论 Skills 可能被新范式替代的风险。
-- [[01-博客/宝玉/你可能不再需要 workflow，大部分场景 skills 足矣——五步框架把 Workflow 变成可进化的 Skill|你可能不再需要 workflow，大部分场景 skills 足矣——五步框架把 Workflow 变成可进化的 Skill]]；关联理由：延伸思考；说明：该文把本文的阶段判断进一步落地为“如何把 workflow 演进为 skills”的方法论与实践路径。

@@ -104,10 +104,15 @@ Claude Sonnet 4.5 代表了一项有意义的进步，但我们知道它的许�
 
 2. Zhun Wang et al., "CyberGym: Evaluating AI Agents' Cybersecurity Capabilities with Real-World Vulnerabilities at Scale," arXiv preprint arXiv:2506.02548 (2025), https://arxiv.org/abs/2506.02548 .
 
-## 相关内容
+## 相关文档
 
-### 在实践中衡量 AI 智能体的自主性
+- [[01-博客/Anthropic/衡量 AI 智能体在实践中的自主性|衡量 AI 智能体在实践中的自主性]]；关联理由：延伸思考；说明：两文都讨论在高风险任务中如何平衡 AI 自主性与人类监督，本文聚焦网络防御场景，关联文档提供通用部署证据。
 
-### 印度国家简报：Anthropic 经济指数
+## 关联主题
 
-### AI 辅助如何影响编程技能的形成
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Claude]]
+- [[00-元语/security]]
+- [[00-元语/evals]]
+- [[00-元语/risk]]

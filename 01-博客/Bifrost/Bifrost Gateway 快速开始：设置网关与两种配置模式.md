@@ -23,17 +23,6 @@ Bifrost 是一款支持 30 秒零配置启动的 HTTP API 网关，它提供统�
 *   **配置模式互斥**：系统不支持同时使用 Web UI 配置和纯文件配置模式。
 *   **文件修改失效风险**：在 `config.json` 中启用 `config_store` 后，文件仅用于首次数据库引导（Bootstrap），此后直接修改 `config.json` 将完全无效，必须通过 UI 或 HTTP API 进行后续更改。
 
-## 关联主题
-
-- [[00-元语/llmops]]
-- [[00-元语/protocol]]
-- [[00-元语/OpenAI]]
-- [[00-元语/cli]]
-- [[00-元语/observability]]
-- [[00-元语/rate-limiting]]
-- [[00-元语/mcp]]
-- [[00-元语/self-hosting]]
-
 ## 正文
 
 ### 设置
@@ -234,3 +223,14 @@ Bifrost 支持**两种配置方法** - 您不能同时使用两者：
 * * *
 
 **祝您使用 Bifrost 开发愉快！** 🚀
+
+## 关联主题
+
+- [[00-元语/llmops]]
+- [[00-元语/protocol]]
+- [[00-元语/OpenAI]]
+- [[00-元语/cli]]
+- [[00-元语/observability]]
+- [[00-元语/rate-limiting]]
+- [[00-元语/mcp]]
+- [[00-元语/self-hosting]]

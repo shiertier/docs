@@ -27,15 +27,6 @@ OpenCut 是一款基于 TypeScript 开发的免费、开源且注重隐私的跨
 **3) 风险/不足**
 * **核心功能重构中**：项目目前正使用新的二进制渲染方法重构“预览面板（含字体、贴纸、特效）”和“导出功能”，官方建议开发者暂时避开这些区域，将贡献精力集中在时间轴、项目管理、性能优化及 Bug 修复上。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/video]]
-- [[00-元语/desktop-client]]
-- [[00-元语/github]]
-- [[00-元语/tool]]
-- [[00-元语/PostgreSQL]]
-
 ## 功能与定位
 OpenCut 是一款免费、开源的视频编辑器，旨在成为剪映（CapCut）的开源替代方案。项目支持 Web、桌面和移动端，主打简单易用的操作体验，并致力于解决商业软件日益增加的付费墙问题。
 
@@ -67,3 +58,10 @@ OpenCut 是一款免费、开源的视频编辑器，旨在成为剪映（CapCut
 - [官方网站](https://opencut.app)
 - [Databuddy](https://www.databuddy.cc?utm_source=opencut)
 - [Marble CMS](https://marblecms.com?utm_source=opencut)
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/video]]
+- [[00-元语/desktop-client]]
+- [[00-元语/typescript]]
+- [[00-元语/PostgreSQL]]

@@ -61,4 +61,5 @@ A full-featured, hackable Next.js AI chatbot built by Vercel
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

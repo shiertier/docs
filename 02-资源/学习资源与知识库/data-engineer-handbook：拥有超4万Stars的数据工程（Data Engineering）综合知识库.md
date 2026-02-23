@@ -52,6 +52,9 @@ This is a repo with links to everything you'd ever want to learn about data engi
 - README：https://raw.githubusercontent.com/DataExpert-io/data-engineer-handbook/main/README.md
 - Releases：https://github.com/DataExpert-io/data-engineer-handbook/releases
 
+## 相关文档
+- [[02-资源/学习资源与知识库/data-engineering-zoomcamp：Data Engineering Zoomcamp is a free 9-week course on building production-ready|data-engineering-zoomcamp：Data Engineering Zoomcamp 数据工程实战课程]]；关联理由：上下游；说明：本条目侧重全景资料导航，Zoomcamp 可作为其中“从学习到落地”的实操进阶路径。
+
 ## 关联主题
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]

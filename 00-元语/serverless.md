@@ -3,7 +3,7 @@
 ## 文档信息
 
 - 类型：主题词条
-- 更新日期：2026-02-22
+- 更新日期：2026-02-23
 
 ## 定义
 
@@ -23,9 +23,11 @@
 - [[00-元语/durable-objects]]
 - [[00-元语/observability]]
 - [[00-元语/self-hosting]]
+- [[00-元语/wasm]]
 
 ## 关联主题
 - [[00-元语/cloudflare]]
 - [[00-元语/durable-objects]]
 - [[00-元语/observability]]
 - [[00-元语/self-hosting]]
+- [[00-元语/wasm]]

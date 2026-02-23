@@ -41,4 +41,5 @@
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/prompt]]
+- [[00-元语/design]]
 - [[00-元语/image-editing]]

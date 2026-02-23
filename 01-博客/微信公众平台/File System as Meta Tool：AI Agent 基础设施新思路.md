@@ -122,5 +122,10 @@ fi
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/cli]]
+- [[00-元语/memory]]
+- [[00-元语/mcp]]
+- [[00-元语/protocol]]
 - [[00-元语/virtual-file-system]]
+- [[00-元语/wasm]]
 - [[00-元语/workflow]]

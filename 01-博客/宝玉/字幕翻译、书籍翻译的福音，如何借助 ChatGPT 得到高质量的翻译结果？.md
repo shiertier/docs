@@ -26,16 +26,6 @@
 * **上下文超限导致“幻觉”**：当输入或输出超出最大上下文长度（如 GPT-4 上限约 8K Token，折合近 6000 英文或 4000 中文）时，模型会产生“幻觉”并输出完全不相关的内容。
 * **长文本质量衰减**：单次要求模型输出过长的翻译内容会导致质量下降（即“Lost in the Middle”现象）。
 
-## 关联主题
-
-- [[00-元语/llm]]
-- [[00-元语/prompt]]
-- [[00-元语/context-optimization]]
-- [[00-元语/asr]]
-- [[00-元语/workflow]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/OpenAI]]
-
 ## 正文
 过去几个月里，我独立翻译了一百多部视频（[http://t.cn/A6OHJzs0），可以说绝大部分翻译质量还是相当不错的。](http://t.cn/A6OHJzs0%EF%BC%89%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%AF%B4%E7%BB%9D%E5%A4%A7%E9%83%A8%E5%88%86%E7%BF%BB%E8%AF%91%E8%B4%A8%E9%87%8F%E8%BF%98%E6%98%AF%E7%9B%B8%E5%BD%93%E4%B8%8D%E9%94%99%E7%9A%84%E3%80%82)
 
@@ -174,3 +164,13 @@ ChatGPT 这类 LLM 有个天然缺陷，就是上下文窗口无法太长，比�
 图五：帮找原文中的错别字
 
 ![Image 6](https://baoyu.io/images/prompt-engineering/how-to-get-high-quality-translation-results-with-chatgpt/image5.png)
+
+## 关联主题
+
+- [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
+- [[00-元语/asr]]
+- [[00-元语/workflow]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/OpenAI]]

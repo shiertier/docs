@@ -58,5 +58,6 @@ A curated list of awesome skills, hooks, slash-commands, agent orchestrators, ap
 - [[00-元语/prompt]]
 - [[00-元语/github]]
 - [[00-元语/skills]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/learning-resource]]

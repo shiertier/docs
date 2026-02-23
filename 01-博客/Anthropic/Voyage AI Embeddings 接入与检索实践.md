@@ -262,7 +262,7 @@ total_tokens = vo.count_tokens(["Sample text"])
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：延伸思考；说明：该文把 embeddings 接入进一步扩展到 RAG 评测与效果验证流程。
+- [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：上下游；说明：本篇提供 Voyage Embeddings 接入与参数边界，作为该文 RAG 评测流程的前置依赖。
 - [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：引用；说明：该文在 third_party 集成目录中直接引用本篇作为 Voyage embeddings 入口。
 
 ## 关联主题
@@ -270,5 +270,3 @@ total_tokens = vo.count_tokens(["Sample text"])
 - [[00-元语/llm]]
 - [[00-元语/sdk]]
 - [[00-元语/context-database]]
-- [[00-元语/Claude]]
-- [[00-元语/tool]]

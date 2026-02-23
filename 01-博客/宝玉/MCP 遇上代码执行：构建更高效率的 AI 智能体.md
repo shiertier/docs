@@ -292,5 +292,6 @@ _本文由 Adam Jones 和 Conor Kelly 撰写。感谢 Jeremy Fox、Jerome Swanna
 - [[00-元语/llm]]
 - [[00-元语/tool]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/skills]]
 - [[00-元语/security]]

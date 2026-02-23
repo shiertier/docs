@@ -63,8 +63,11 @@ Guovin/iptv-api 是一个基于 Python 的开源 IPTV 直播源自动更新平�
 ## 关联主题
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
+- [[00-元语/security]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]
 - [[00-元语/protocol]]
 - [[00-元语/stream-processing]]
 - [[00-元语/cli]]
+- [[00-元语/video]]
+- [[00-元语/self-hosting]]

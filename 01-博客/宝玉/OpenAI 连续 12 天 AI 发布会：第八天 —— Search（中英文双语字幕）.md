@@ -20,15 +20,6 @@ OpenAI 宣布 ChatGPT 搜索功能全面升级并整合至高级语音模式，�
 *   **账号权益提示**：虽然免登录即可使用基础 ChatGPT，但注册并登录账号才能使用 Search 和 Canvas 等高级功能，并获得更高的使用额度。
 *   **后续预告**：发布会第九天将是面向开发者的“小型开发者日”（Mini DevDay）。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/multimodal]]
-- [[00-元语/audio]]
-- [[00-元语/roadmap]]
-- [[00-元语/llm]]
-
 ## 正文
 [https://youtu.be/8oVEwe0Jdog](https://youtu.be/8oVEwe0Jdog)
 
@@ -175,3 +166,18 @@ _[进入语音对话演示]_
 再见。
 
 **All**: 节日快乐。
+
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）]]；关联理由：同一事件；说明：两篇同属 OpenAI 连续 12 天发布会，且第七天内容中已出现对搜索能力的功能联动与铺垫。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day|OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day]]；关联理由：同一事件；说明：本文结尾直接预告第九天开发者专场，两篇构成同一发布会连续议程的前后衔接。
+- [[01-博客/宝玉/AI 搜索进化：深度体验 OpenAI Deep Research|AI 搜索进化：深度体验 OpenAI Deep Research]]；关联理由：版本演进；说明：本文介绍 ChatGPT Search 的公开发布与能力边界，关联文档展示后续 Deep Research 在搜索深度与工作流上的升级。
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/multimodal]]
+- [[00-元语/audio]]
+- [[00-元语/roadmap]]
+- [[00-元语/llm]]

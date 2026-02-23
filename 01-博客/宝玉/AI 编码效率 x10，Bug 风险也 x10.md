@@ -124,4 +124,6 @@ AI Coding 的真正价值，不仅仅是写得快，更是它让那些过去“�
 - [[00-元语/productivity]]
 - [[00-元语/软件工程]]
 - [[00-元语/risk]]
+- [[00-元语/bug-fix]]
 - [[00-元语/decision-making]]
+- [[00-元语/workflow]]

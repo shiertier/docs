@@ -56,6 +56,7 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 - Releases：https://github.com/fastapi/fastapi/releases
 
 ## 关联主题
+- [[00-元语/fastapi]]
 - [[00-元语/tool]]
 - [[00-元语/protocol]]
 - [[00-元语/github]]

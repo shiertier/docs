@@ -60,6 +60,7 @@ Stable Diffusion web UI
 - [[00-元语/github]]
 - [[00-元语/image-editing]]
 - [[00-元语/lora]]
+- [[00-元语/prompt]]
 - [[00-元语/self-hosting]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]

@@ -56,9 +56,14 @@ A utility-first CSS framework for rapid UI development.
 - README：https://raw.githubusercontent.com/tailwindlabs/tailwindcss/main/README.md
 - Releases：https://github.com/tailwindlabs/tailwindcss/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/shadcn-ui：可组合的前端组件与样式体系|shadcn-ui：可组合的前端组件与样式体系]]；关联理由：上下游；说明：该组件体系以 Tailwind CSS 作为核心样式基础，二者在前端实现链路中直接衔接。
+- [[02-资源/通用开发工具/Onlook：可视化前端开发与设计工具|Onlook：可视化前端开发与设计工具]]；关联理由：解说；说明：该工具明确限定支持 Next.js 与 TailwindCSS 项目，可用于理解 Tailwind 在可视化开发中的落地方式。
+- [[02-资源/通用开发工具/react-bits：React 动效组件工具库|react-bits：React 动效组件工具库]]；关联理由：上下游；说明：该组件库提供 TS/JS 与 CSS/Tailwind 多变体实现，Tailwind 是其主要样式集成路径之一。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/design]]
-- [[00-元语/workflow]]
+- [[00-元语/typescript]]
 - [[00-元语/productivity]]

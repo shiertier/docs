@@ -54,9 +54,12 @@ BongoCat 是一款基于 Tauri 开发的开源跨平台互动桌宠应用，能�
 - README：https://raw.githubusercontent.com/ayangweb/BongoCat/master/README.md
 - Releases：https://github.com/ayangweb/BongoCat/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/tauri：基于 Rust 的开源框架，允许开发者使用 Web 前端技术（HTML、JS、CSS）构建体积小、速度快且更安全的跨平台桌面和移动端应用程序.md|tauri：基于 Rust 的开源框架，允许开发者使用 Web 前端技术（HTML、JS、CSS）构建体积小、速度快且更安全的跨平台桌面和移动端应用程序]]；关联理由：上下游；说明：BongoCat 以 Tauri 作为核心框架，属于上游技术依赖关系。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/desktop-client]]
-- [[00-元语/windows]]
 - [[00-元语/hardware-control]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

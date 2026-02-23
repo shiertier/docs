@@ -58,6 +58,7 @@ best way to save what you love
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/video]]
+- [[00-元语/audio]]
 - [[00-元语/self-hosting]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

@@ -140,9 +140,9 @@ scripts/           # 验证脚本
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Cookbook Notebook 审核规范与评分清单|Cookbook Notebook 审核规范与评分清单]]；关联理由：解说；说明：该文给出了 notebook 审核评分细则，直接细化了本文的质量门禁与审查要求。
-- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出仓库模块划分与能力入口，本文则规定这些模块的统一开发与提交流程。
-- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：上下游；说明：该文是 `skills/` 子目录的实践手册，直接落地了本文的环境、模型与质量检查规范。
+- [[01-博客/Anthropic/Cookbook Notebook 审核规范与评分清单|Cookbook Notebook 审核规范与评分清单]]；关联理由：解说；说明：该文给出了 notebook 审核评分细则，直接细化了本文的质量门禁与审查要求
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出仓库模块划分与能力入口，本文则规定这些模块的统一开发与提交流程
+- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：上下游；说明：该文是 `skills/` 子目录的实践手册，直接落地了本文的环境、模型与质量检查规范
 
 ## 关联主题
 - [[00-元语/Claude]]
@@ -152,4 +152,5 @@ scripts/           # 验证脚本
 - [[00-元语/code-review]]
 - [[00-元语/security]]
 - [[00-元语/cli]]
+- [[00-元语/skills]]
 - [[00-元语/软件工程]]

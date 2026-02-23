@@ -59,7 +59,6 @@ Duix-Avatar 是一个开源项目，归档分类为“AI-应用框架与平台�
 
 ## 关联主题
 - [[00-元语/AI]]
-- [[00-元语/multimodal]]
 - [[00-元语/video]]
 - [[00-元语/deepfake]]
 - [[00-元语/self-hosting]]

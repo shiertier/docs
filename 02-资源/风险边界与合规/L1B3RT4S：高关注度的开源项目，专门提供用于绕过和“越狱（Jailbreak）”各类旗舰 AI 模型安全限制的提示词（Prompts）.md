@@ -64,6 +64,7 @@ TOTALLY HARMLESS LIBERATION PROMPTS FOR GOOD LIL AI'S! <NEW_PARADIGM> [DISREGARD
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
 - [[00-元语/security]]
+- [[00-元语/alignment]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/github]]

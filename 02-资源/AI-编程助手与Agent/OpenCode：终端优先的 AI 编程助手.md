@@ -28,17 +28,6 @@ OpenCode 是一款采用 MIT 协议、基于 C/S 架构的完全开源 AI 编程
 *   **软件稳定性**：桌面版客户端（Desktop App）目前仍处于 BETA（测试）阶段。
 *   **社区合规要求**：基于 OpenCode 开发的第三方关联项目（如命名包含 "opencode"），必须在 README 中明确声明非官方构建且无附属关系。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/Agent]]
-- [[00-元语/terminal]]
-- [[00-元语/cli]]
-- [[00-元语/llm]]
-- [[00-元语/protocol]]
-- [[00-元语/desktop-client]]
-- [[00-元语/github]]
-
 ## 功能与定位
 OpenCode 是一个完全开源的 AI 编程智能体（Coding Agent）。项目主打终端用户界面（TUI），采用客户端/服务端架构，旨在提供不绑定特定大模型供应商的自动化编程与代码探索体验。
 
@@ -80,3 +69,14 @@ OpenCode 是一个完全开源的 AI 编程智能体（Coding Agent）。项目�
 - 桌面端下载: https://opencode.ai/download
 - Discord 社区: https://discord.gg/opencode
 - X (Twitter): https://x.com/opencode
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/terminal]]
+- [[00-元语/cli]]
+- [[00-元语/llm]]
+- [[00-元语/protocol]]
+- [[00-元语/desktop-client]]
+- [[00-元语/github]]

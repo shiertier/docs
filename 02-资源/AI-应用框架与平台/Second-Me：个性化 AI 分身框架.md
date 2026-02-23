@@ -62,7 +62,10 @@ Train your AI self, amplify you, bridge the world
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/github]]
 - [[00-元语/llm]]
+- [[00-元语/memory]]
+- [[00-元语/alignment]]
 - [[00-元语/self-hosting]]
 - [[00-元语/rag]]
 - [[00-元语/blockchain]]

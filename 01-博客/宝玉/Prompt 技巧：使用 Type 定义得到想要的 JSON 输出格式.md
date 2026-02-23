@@ -68,3 +68,4 @@ firstWord: string;
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/OpenAI]]
+- [[00-元语/typescript]]

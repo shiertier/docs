@@ -55,6 +55,9 @@ Welcome to a calmer internet
 - README：https://raw.githubusercontent.com/zen-browser/desktop/main/README.md
 - Releases：https://github.com/zen-browser/desktop/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/firefox：非营利组织 Mozilla 开发的 Firefox 网页浏览器的官方代码仓库，主打快速、可靠与隐私保护.md|firefox：非营利组织 Mozilla 开发的 Firefox 网页浏览器的官方代码仓库，主打快速、可靠与隐私保护]]；关联理由：上下游；说明：Zen Browser Desktop 明确基于 Firefox 版本构建，Firefox 项目文档可作为其上游基础。
+
 ## 关联主题
 - [[00-元语/desktop-client]]
 - [[00-元语/productivity]]

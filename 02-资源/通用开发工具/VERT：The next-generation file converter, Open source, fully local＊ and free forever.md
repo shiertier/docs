@@ -58,7 +58,8 @@ The next-generation file converter. Open source, fully local* and free forever.
 
 ## 关联主题
 - [[00-元语/tool]]
-- [[00-元语/multimodal]]
 - [[00-元语/github]]
-- [[00-元语/workflow]]
-- [[00-元语/productivity]]
+- [[00-元语/multimodal]]
+- [[00-元语/wasm]]
+- [[00-元语/audio]]
+- [[00-元语/video]]

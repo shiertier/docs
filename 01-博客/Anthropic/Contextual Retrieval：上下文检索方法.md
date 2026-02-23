@@ -182,9 +182,10 @@ RAG 解决方案可以通过结合嵌入和 BM25 技术，使用以下步骤更�
 
 ## 关联主题
 
-- [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/context-optimization]]
-- [[00-元语/observability]]
-- [[00-元语/learning-resource]]
+- [[00-元语/Claude]]
+- [[00-元语/prompt]]
+- [[00-元语/evals]]

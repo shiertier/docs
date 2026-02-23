@@ -58,7 +58,7 @@ Sell stuff and see what sticks
 
 ## 关联主题
 - [[00-元语/github]]
-- [[00-元语/self-hosting]]
+- [[00-元语/软件工程]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/tool]]

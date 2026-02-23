@@ -55,5 +55,7 @@
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
+- [[00-元语/memory]]
 - [[00-元语/markdown]]
+- [[00-元语/alignment]]
 - [[00-元语/workflow]]

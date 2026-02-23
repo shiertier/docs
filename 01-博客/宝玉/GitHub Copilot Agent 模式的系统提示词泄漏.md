@@ -519,3 +519,4 @@ You are trained on data up to October 2023.
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/tool]]
+- [[00-元语/terminal]]

@@ -62,4 +62,5 @@ Mirror of https://git.ffmpeg.org/ffmpeg.git
 - [[00-元语/terminal]]
 - [[00-元语/audio]]
 - [[00-元语/video]]
+- [[00-元语/stream-processing]]
 - [[00-元语/github]]

@@ -66,5 +66,5 @@ A Git-compatible VCS that is both simple and powerful
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
 - [[00-元语/workflow]]
-- [[00-元语/git-worktree]]
+- [[00-元语/软件工程]]
 - [[00-元语/github]]

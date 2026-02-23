@@ -63,4 +63,5 @@ Playwright is a framework for Web Testing and Automation. It allows testing Chro
 - [[00-元语/CI]]
 - [[00-元语/github]]
 - [[00-元语/软件工程]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]

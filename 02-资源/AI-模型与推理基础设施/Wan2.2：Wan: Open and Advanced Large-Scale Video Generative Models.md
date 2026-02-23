@@ -56,6 +56,10 @@ Wan: Open and Advanced Large-Scale Video Generative Models
 - README：https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/README.md
 - Releases：https://github.com/Wan-Video/Wan2.2/releases
 
+## 相关文档
+- [[02-资源/AI-模型与推理基础设施/Wan2.1：视频生成大模型项目|Wan2.1：视频生成大模型项目]]；关联理由：版本演进；说明：Wan2.2 与 Wan2.1 同属 Wan 系列视频生成模型，前者可视为后者后的版本迭代脉络。
+- [[01-博客/LMSYS Org/SGLang Diffusion：加速视频与图像生成|SGLang Diffusion：加速视频与图像生成]]；关联理由：上下游；说明：该文档给出 Wan 系列在推理引擎中的加速与接入实践，可作为 Wan2.2 的部署与性能参考上下游材料。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/multimodal]]

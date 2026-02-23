@@ -63,4 +63,5 @@ a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co
 - [[00-元语/gemini]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
+- [[00-元语/self-hosting]]
 - [[00-元语/learning-resource]]

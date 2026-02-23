@@ -25,18 +25,6 @@ OpenAI 在其连续12天发布会的第11天推出了 ChatGPT 桌面应用的重
 *   **平台可用性限制**：目前所有演示的新功能仅限 Mac 版本可用，Windows 用户暂无法使用（处于“即将推出”状态）。
 *   **隐私与授权边界**：ChatGPT 必须在用户明确授权特定应用程序后才能读取其内容，未授权应用的内容无法被访问。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/desktop-client]]
-- [[00-元语/ide]]
-- [[00-元语/terminal]]
-- [[00-元语/multimodal]]
-- [[00-元语/audio]]
-- [[00-元语/workflow]]
-- [[00-元语/Agent]]
-
 ## 正文
 [https://www.bilibili.com/video/BV1nzkkYvE8H/](https://www.bilibili.com/video/BV1nzkkYvE8H/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=e71f65cbc40a72fce570b20ffcb28b22)
 
@@ -291,3 +279,22 @@ Kevin Weil: 所以这就是第 11 天的内容。今天我们主要讲如何使�
 John Nastos: 是的,我们迫不及待地想让你使用这些新功能,我们真的非常兴奋。但与此同时,我得开始练习圣诞老人推荐的这些东西。
 
 Kevin Weil: 好吧,让我们看看。
+
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第十天 —— 通过 1-800-CHAT-GPT 电话和 ChatGPT 聊天|OpenAI 连续 12 天 AI 发布会：第十天 —— 通过 1-800-CHAT-GPT 电话和 ChatGPT 聊天]]；关联理由：同一事件；说明：同属 OpenAI 连续 12 天发布会，展示了 ChatGPT 从桌面端到电话/WhatsApp 渠道的连续能力扩展。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第十二天 —— 最新一代推理模型 o3 和 o3-mini 发布介绍|OpenAI 连续 12 天 AI 发布会：第十二天 —— 最新一代推理模型 o3 和 o3-mini 发布介绍]]；关联理由：同一事件；说明：本文结尾直接承接“第十二天”预告，该文对应同一发布会下一日的正式发布内容。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第五天完整视频（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第五天完整视频（中英文双语字幕）]]；关联理由：版本演进；说明：第五天强调 Apple 生态内调用 ChatGPT，第十一天进一步演进为桌面应用跨终端、IDE 与文档工具的深度协作。
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/desktop-client]]
+- [[00-元语/ide]]
+- [[00-元语/terminal]]
+- [[00-元语/multimodal]]
+- [[00-元语/audio]]
+- [[00-元语/workflow]]
+- [[00-元语/Agent]]
+- [[00-元语/productivity]]

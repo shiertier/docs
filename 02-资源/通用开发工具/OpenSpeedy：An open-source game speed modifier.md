@@ -58,4 +58,6 @@ OpenSpeedy 是一个开源项目，归档分类为“通用开发工具”。Git
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/game]]
+- [[00-元语/windows]]
 - [[00-元语/risk]]
+- [[00-元语/compliance]]

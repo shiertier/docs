@@ -52,9 +52,9 @@ Vibe Coder 定位为“代码上下文组织 + 多模型协作”的桌面工具
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/Agent]]
 - [[00-元语/tool]]
 - [[00-元语/desktop-client]]
+- [[00-元语/ide]]
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
 - [[00-元语/context-optimization]]

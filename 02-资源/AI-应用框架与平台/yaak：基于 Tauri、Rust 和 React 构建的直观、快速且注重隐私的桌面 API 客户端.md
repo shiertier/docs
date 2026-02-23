@@ -63,5 +63,6 @@ The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSo
 - [[00-元语/protocol]]
 - [[00-元语/security]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/tool]]

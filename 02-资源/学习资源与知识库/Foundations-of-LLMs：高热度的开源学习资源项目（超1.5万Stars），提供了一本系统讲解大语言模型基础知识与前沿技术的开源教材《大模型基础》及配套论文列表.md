@@ -56,8 +56,10 @@ A book for Learning the Foundations of LLMs
 
 ## 关联主题
 - [[00-元语/learning-resource]]
+- [[00-元语/book]]
 - [[00-元语/github]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/rag]]
 - [[00-元语/paper]]
+- [[00-元语/Agent]]

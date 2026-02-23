@@ -62,4 +62,5 @@ Plane 是一个开源的现代化项目管理平台（Jira、Linear 等工具的
 - [[00-元语/productivity]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]
 - [[00-元语/roadmap]]

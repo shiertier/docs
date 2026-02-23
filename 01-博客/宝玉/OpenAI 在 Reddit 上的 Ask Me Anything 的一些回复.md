@@ -25,17 +25,6 @@ OpenAI 高管团队在 Reddit 问答中透露了关于模型演进、产品规�
 *   **成人（NSFW）内容支持搁置**：虽然高管支持允许成年人访问适度 NSFW 内容的理念，但因实现难度大且当前有更紧迫的优先事项，该计划暂被搁置。
 *   **合规与区域限制**：明确表示必须遵守欧盟政策，这意味着欧盟用户在获取新功能时仍需受制于当地监管框架；医疗领域的 HIPAA 合规仍在逐步推进中。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/Agent]]
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
-- [[00-元语/roadmap]]
-- [[00-元语/compliance]]
-
 ## 正文
 [https://www.reddit.com/r/ChatGPT/comments/1ggixzy/am _with_ openai _sam_ altma _kevin_ weil_srinivas/](https://www.reddit.com/r/ChatGPT/comments/1ggixzy/ama_with_openais_sam_altman_kevin_weil_srinivas/)
 
@@ -410,3 +399,14 @@ Kevin Weil（OpenAI 产品总监）：可以！
 过去，商家、网络发布者、联盟等关注 SEO 以确保自己网站的“排名”。你会建议这些人该怎么做，以确保他们在 ChatGPT 的搜索中被找到？
 
 Kevin Weil（OpenAI 产品总监）：这是个好问题——今天刚发布的这个产品仍有很多需要探讨的地方，比如哪些方面会与传统搜索相似，哪些会在 AI 世界中有所不同。很乐意听取你的意见！
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/roadmap]]
+- [[00-元语/compliance]]

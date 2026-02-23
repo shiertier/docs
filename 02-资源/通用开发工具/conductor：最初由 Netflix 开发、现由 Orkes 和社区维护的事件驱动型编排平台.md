@@ -59,6 +59,7 @@ Conductor is an event driven agentic orchestration platform providing durable an
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/rag]]
 - [[00-元语/observability]]
 - [[00-元语/sdk]]

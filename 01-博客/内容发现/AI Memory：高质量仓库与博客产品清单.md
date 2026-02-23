@@ -296,8 +296,10 @@
 
 - [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/rag]]
 - [[00-元语/mcp]]
 - [[00-元语/context-optimization]]
 - [[00-元语/knowledge-graph]]
+- [[00-元语/github]]

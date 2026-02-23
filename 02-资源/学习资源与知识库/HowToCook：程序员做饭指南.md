@@ -27,15 +27,6 @@
 * **语言限制**：该指南目前仅提供简体中文版本（Simplified Chinese only）。
 * **数据不一致**：文档记录的参考 Stars 数量（22967）与 GitHub API 抓取显示的公开 Stars 数量（98098）存在不一致。
 
-## 关联主题
-
-- [[00-元语/learning-resource]]
-- [[00-元语/reading]]
-- [[00-元语/github]]
-- [[00-元语/markdown]]
-- [[00-元语/self-hosting]]
-- [[00-元语/community]]
-
 ## 功能与定位
 本项目是一个专为程序员编写的“在家做饭指南”。其核心定位是解决传统菜谱中常见的模糊描述（如“适量”、“少许”、“莫名出现的材料”）问题，转而采用清晰、精准、类似形式语言的描述方式来整理常见菜品的做法，使其对程序员群体更加友好。该项目由社区驱动并持续维护。
 
@@ -70,3 +61,11 @@
 - 首页：https://cook.aiursoft.com
 - PDF 下载：https://cook.aiursoft.com/document.pdf
 - 最新 Release：https://github.com/Anduin2017/HowToCook/releases/tag/1.5.0
+
+## 关联主题
+- [[00-元语/learning-resource]]
+- [[00-元语/reading]]
+- [[00-元语/github]]
+- [[00-元语/markdown]]
+- [[00-元语/self-hosting]]
+- [[00-元语/community]]

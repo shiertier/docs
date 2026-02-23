@@ -53,4 +53,7 @@ Haystack 是一个开源的 AI 编排框架，定位为 AI 记忆与检索的基
 - [[00-元语/github]]
 - [[00-元语/rag]]
 - [[00-元语/context-optimization]]
-- [[00-元语/observability]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/workflow]]

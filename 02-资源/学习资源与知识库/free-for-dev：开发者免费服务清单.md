@@ -62,7 +62,4 @@ A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devo
 ## 关联主题
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
-- [[00-元语/CI]]
-- [[00-元语/dns]]
-- [[00-元语/serverless]]
-- [[00-元语/security]]
+- [[00-元语/community]]

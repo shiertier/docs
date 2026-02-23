@@ -61,4 +61,5 @@ Virtual whiteboard for sketching hand-drawn like diagrams
 - [[00-元语/community]]
 - [[00-元语/productivity]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]

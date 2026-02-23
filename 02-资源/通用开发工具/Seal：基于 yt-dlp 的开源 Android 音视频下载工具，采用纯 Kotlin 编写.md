@@ -55,9 +55,13 @@ Seal 是一款基于 yt-dlp 的开源 Android 音视频下载工具，采用纯 
 - README：https://raw.githubusercontent.com/JunkFood02/Seal/main/README.md
 - Releases：https://github.com/JunkFood02/Seal/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/yt-dlp：跨站点音视频下载工具|yt-dlp：跨站点音视频下载工具]]；关联理由：上下游；说明：Seal 以内置和封装 yt-dlp 为核心能力，二者属于直接的工具依赖关系。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/audio]]
 - [[00-元语/video]]
+- [[00-元语/compliance]]

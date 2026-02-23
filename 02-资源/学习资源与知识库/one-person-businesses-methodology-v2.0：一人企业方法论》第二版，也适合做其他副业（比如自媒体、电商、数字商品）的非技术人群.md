@@ -61,5 +61,5 @@ one-person-businesses-methodology-v2.0 是一个开源项目，归档分类为�
 - [[00-元语/career]]
 - [[00-元语/知识工作]]
 - [[00-元语/productivity]]
-- [[00-元语/decision-making]]
+- [[00-元语/workflow]]
 - [[00-元语/github]]

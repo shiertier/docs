@@ -62,4 +62,5 @@ AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) �
 - [[00-元语/github]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]

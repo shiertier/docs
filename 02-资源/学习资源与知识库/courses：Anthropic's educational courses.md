@@ -60,6 +60,3 @@ Anthropic's educational courses
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/Claude]]
-- [[00-元语/sdk]]
-- [[00-元语/prompt]]
-- [[00-元语/evals]]

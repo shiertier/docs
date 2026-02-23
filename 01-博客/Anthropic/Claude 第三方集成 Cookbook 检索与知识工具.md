@@ -70,6 +70,7 @@ response = query_engine.query("What did author do growing up?")
 - [[00-元语/Claude]]
 - [[00-元语/rag]]
 - [[00-元语/context-database]]
+- [[00-元语/Agent]]
 - [[00-元语/react]]
 - [[00-元语/llm]]
 - [[00-元语/tool]]

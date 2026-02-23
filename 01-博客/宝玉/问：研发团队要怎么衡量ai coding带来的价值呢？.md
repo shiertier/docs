@@ -67,4 +67,3 @@
 - [[00-元语/evals]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]
-- [[00-元语/CI]]

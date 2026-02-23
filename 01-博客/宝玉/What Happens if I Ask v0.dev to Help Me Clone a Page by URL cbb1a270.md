@@ -21,15 +21,6 @@
 *   **实时预览的工程挑战**：构建实时预览环境是一项重大工程挑战，系统必须能够实时处理更新并优雅地管理运行环境中的错误。
 *   **AI 代码生成错误**：AI 可能会生成错误的代码，系统需要具备即时修复轻微问题的能力，以确保流畅的用户体验。
 
-## 关联主题
-
-- [[00-元语/v0]]
-- [[00-元语/Claude]]
-- [[00-元语/llm]]
-- [[00-元语/workflow]]
-- [[00-元语/prompt]]
-- [[00-元语/react]]
-
 ## 正文
 Have you ever wondered what really happens behind the scenes when you ask an AI assistant to clone a webpage just by providing its URL? Let’s take a look at how v0.dev, a coding assistant, tackles this challenging request with a combination of sophisticated engineering and smart processing.
 
@@ -96,3 +87,14 @@ Real-time previews are a big engineering challenge. Not only do they require a w
 The entire process involves more than just passing along a prompt to the AI. v0.dev’s effectiveness relies on carefully structuring the input to Claude, managing the returned data, and seamlessly integrating all these parts into an online environment that provides a responsive and easy-to-use code editing experience. It’s not simply about having the “perfect” system prompt—v0.dev also needs the engineering know-how to handle the complexities of project management, prompt crafting, and real-time rendering.
 
 Ultimately, the process of cloning a webpage by URL is an intricate dance of AI prompt engineering, thoughtful pre-processing, and robust user interface design—all working together to create something as simple (and powerful) as an interactive code preview that lets you build a site like Taobao with just a few messages.
+
+## 关联主题
+
+- [[00-元语/v0]]
+- [[00-元语/Claude]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/workflow]]
+- [[00-元语/stream-processing]]
+- [[00-元语/prompt]]
+- [[00-元语/react]]

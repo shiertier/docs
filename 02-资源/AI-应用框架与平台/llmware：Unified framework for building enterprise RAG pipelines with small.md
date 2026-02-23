@@ -60,6 +60,7 @@ Unified framework for building enterprise RAG pipelines with small, specialized 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/llmops]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/workflow]]
 - [[00-元语/github]]

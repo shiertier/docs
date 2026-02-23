@@ -63,3 +63,5 @@ An AI-powered research assistant that performs iterative, deep research on any t
 - [[00-元语/workflow]]
 - [[00-元语/OpenAI]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]
+- [[00-元语/github]]

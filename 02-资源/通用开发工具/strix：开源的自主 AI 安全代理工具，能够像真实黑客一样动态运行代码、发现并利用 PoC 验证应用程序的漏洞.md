@@ -59,7 +59,9 @@ Open-source AI hackers to find and fix your app’s vulnerabilities.
 - Releases：https://github.com/usestrix/strix/releases
 
 ## 关联主题
+- [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/tool]]
 - [[00-元语/security]]
 - [[00-元语/risk]]
 - [[00-元语/llm]]

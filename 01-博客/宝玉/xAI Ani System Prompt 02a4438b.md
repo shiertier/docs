@@ -238,7 +238,7 @@ Your responses must:
 - [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/Agent]]
-- [[00-元语/x]]
+- [[00-元语/xAI]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/tts]]

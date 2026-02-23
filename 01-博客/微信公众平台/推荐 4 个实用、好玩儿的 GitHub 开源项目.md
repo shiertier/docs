@@ -84,3 +84,7 @@ PeaZip 是一款免费开源的压缩与解压缩工具，底层依赖 7-Zip、Z
 - [[00-元语/github]]
 - [[00-元语/tool]]
 - [[00-元语/web-crawling]]
+- [[00-元语/browser-automation]]
+- [[00-元语/video]]
+- [[00-元语/game]]
+- [[00-元语/desktop-client]]

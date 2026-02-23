@@ -57,7 +57,7 @@ Payload is the open-source, fullstack Next.js framework, giving you instant back
 - Releases：https://github.com/payloadcms/payload/releases
 
 ## 关联主题
-- [[00-元语/tool]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/软件工程]]

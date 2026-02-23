@@ -81,6 +81,8 @@ Skill 是 Claude Code 的技能模块 ，放在 .claude/skills/ 目录下，用 
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Agent]]
 - [[00-元语/skills]]
+- [[00-元语/cli]]
 - [[00-元语/workflow]]
 - [[00-元语/软件工程]]

@@ -60,5 +60,6 @@ Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that help
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/sdk]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]
 - [[00-元语/github]]

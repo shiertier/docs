@@ -64,3 +64,4 @@ A2A（Agent2Agent）是一个最初由 Google 开发并捐赠给 Linux 基金会
 - [[00-元语/sdk]]
 - [[00-元语/security]]
 - [[00-元语/observability]]
+- [[00-元语/workflow]]

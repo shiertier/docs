@@ -247,6 +247,7 @@ _图片来自_[_Latent Space_](https://x.com/nlpguy_/status/1883776497858883669)
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/alignment]]
 - [[00-元语/security]]
 - [[00-元语/risk]]
 - [[00-元语/compliance]]

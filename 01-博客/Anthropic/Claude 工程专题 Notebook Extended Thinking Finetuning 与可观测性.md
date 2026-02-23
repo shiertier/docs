@@ -69,6 +69,7 @@ def print_thinking_response(response):
 ## 关联主题
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/sdk]]
 - [[00-元语/observability]]
 - [[00-元语/evals]]

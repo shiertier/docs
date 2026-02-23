@@ -22,17 +22,6 @@
 *   **质量上限**：即使采用了拆分指令的方法，GPT-3.5 的翻译结果在稳定性和高质量方面依然不及 GPT-4。
 *   **资源消耗**：拆分指令分步执行会增加 API 的调用次数，从而消耗更多的 Token。
 
-## 关联主题
-
-- [[00-元语/ChatGPT]]
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/workflow]]
-
-## 相关文档
-
-- [[01-博客/宝玉/一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”|一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”]]；关联理由：引用；说明：正文开头明确引用该文，并将其作为“直译+意译”方法的前置背景。
-
 ## 正文
 前面我分享了如何通过《[一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”](https://baoyu.io/blog/prompt-engineering/a-prompt-for-better-translation-result)》，简单来说，这个 Prompt 就是让 ChatGPT 翻译时先按字面意思直译，然后再根据直译结果和原文意译，这样可以得到很好的翻译结果，阅读起来更自然。
 
@@ -76,3 +65,14 @@
 对翻译结果进行二次意译和润色的 Prompt
 
 会话记录：[https://chat.openai.com/share/3628b10d-e970-4e28-bade-2a00de75e08e](https://chat.openai.com/share/3628b10d-e970-4e28-bade-2a00de75e08e)
+
+## 相关文档
+
+- [[01-博客/宝玉/一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”|一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”]]；关联理由：引用；说明：正文开头明确引用该文，并将其作为“直译+意译”方法的前置背景。
+
+## 关联主题
+
+- [[00-元语/ChatGPT]]
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/workflow]]

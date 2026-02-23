@@ -119,4 +119,3 @@
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
 - [[00-元语/知识工作]]
-- [[00-元语/learning-resource]]

@@ -278,4 +278,6 @@ _Audrey Tang 是台湾的数位大使、前数位发展部长，并合著《Plur
 - [[00-元语/productivity]]
 - [[00-元语/risk]]
 - [[00-元语/security]]
+- [[00-元语/alignment]]
+- [[00-元语/community]]
 - [[00-元语/roadmap]]

@@ -115,9 +115,6 @@ OWL 客户端库提供了一个简洁的公共 Swift API，对宿主服务层公
 
 特别感谢 Darin Fisher 和 Marie Shin 对本文的贡献，以及所有参与构建 Atlas 的 OpenAI 团队成员。
 
-## 相关文档
-
-
 ## 关联主题
 
 - [[00-元语/OpenAI]]

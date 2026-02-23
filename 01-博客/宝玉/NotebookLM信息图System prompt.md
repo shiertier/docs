@@ -66,6 +66,10 @@ Rule 3: No new information. Do not add any information that is not present in th
 
 Rule 4: Handling of source data. All data from the source document MUST be copied verbatim. Do not summarize or rephrase.
 
+## 相关文档
+
+- [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：上下游；说明：两文都采用“Gemini 先生成结构化内容，再用 Nano Banana Pro 绘制”的分步生产流程。
+
 ## 关联主题
 
 - [[00-元语/gemini]]

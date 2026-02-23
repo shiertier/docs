@@ -64,5 +64,6 @@
 - [[00-元语/multimodal]]
 - [[00-元语/video]]
 - [[00-元语/evals]]
+- [[00-元语/alignment]]
 - [[00-元语/llm]]
 - [[00-元语/paper]]

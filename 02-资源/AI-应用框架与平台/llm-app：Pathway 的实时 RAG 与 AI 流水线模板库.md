@@ -62,13 +62,18 @@ llm-app 是 Pathway 提供的开源模板库，定位是让团队以更低集成
 - 模板目录：https://github.com/pathwaycom/llm-app/tree/main/templates
 - Releases：https://github.com/pathwaycom/llm-app/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/Pathway：实时流处理与 LLM 数据管道框架|Pathway：实时流处理与 LLM 数据管道框架]]；关联理由：上下游；说明：llm-app 的模板能力建立在 Pathway 实时数据处理框架之上，属于基础框架到应用模板的直接上下游关系。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/multimodal]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/ETL]]
 - [[00-元语/stream-processing]]
+- [[00-元语/self-hosting]]
 - [[00-元语/mcp]]
 - [[00-元语/workflow]]

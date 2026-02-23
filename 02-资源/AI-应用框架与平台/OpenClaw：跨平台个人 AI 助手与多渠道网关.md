@@ -71,13 +71,16 @@ OpenClaw 的定位是“运行在你自己设备上的个人 AI 助手网关”�
 - README：https://raw.githubusercontent.com/openclaw/openclaw/main/README.md
 - Releases：https://github.com/openclaw/openclaw/releases
 
-## 关联主题
+## 相关文档
+- [[02-资源/AI-编程助手与Agent/Clawdbot：面向代码与数据的智能体工具|Clawdbot：面向代码与数据的智能体工具]]；关联理由：版本演进；说明：该条目覆盖同一产品体系在命名与版本阶段上的连续演进，可互证核心能力与安装路径。
+- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：该文从系统提示词与记忆文件机制解释 OpenClaw 的行为设计，补充本档案的架构细节。
 
+## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/self-hosting]]
 - [[00-元语/cli]]
 - [[00-元语/llm]]
 - [[00-元语/security]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]
+- [[00-元语/typescript]]
+- [[00-元语/github]]

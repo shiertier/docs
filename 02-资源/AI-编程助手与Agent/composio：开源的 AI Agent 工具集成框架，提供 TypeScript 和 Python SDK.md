@@ -61,5 +61,6 @@ Composio powers 1000+ toolkits, tool search, context management, authentication,
 - [[00-元语/github]]
 - [[00-元语/sdk]]
 - [[00-元语/mcp]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]

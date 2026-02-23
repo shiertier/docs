@@ -18,12 +18,6 @@
 * **核心提示词**：“将场景中的角色转化为3D Q版风格，同时保持原本的场景布置和服装造型不变。”
 * **效果约束**：在改变人物画风的同时，严格要求 AI 保持原照片的场景布置与服装造型不发生改变。
 
-## 关联主题
-- [[00-元语/image-editing]]
-- [[00-元语/prompt]]
-- [[00-元语/OpenAI]]
-- [[00-元语/multimodal]]
-
 ## 正文
 [宝玉的分享](https://baoyu.io/)[博客](https://baoyu.io/blog)[翻译](https://baoyu.io/translations)
 
@@ -42,3 +36,9 @@ Published on 2025-04-04
 * * *
 
 [See all posts](https://baoyu.io/translations)
+
+## 关联主题
+- [[00-元语/image-editing]]
+- [[00-元语/prompt]]
+- [[00-元语/OpenAI]]
+- [[00-元语/multimodal]]

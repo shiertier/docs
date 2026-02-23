@@ -28,16 +28,6 @@ Open R1 是由 Hugging Face 发起的开源项目，旨在通过提供完整的�
 * **PyTorch 版本严格绑定**：项目依赖的 vLLM 二进制文件专为 PyTorch `v2.6.0` 编译，必须严格使用该版本，否则可能导致运行失败。
 * **聊天模板与 EOS Token 配置要求**：对于自带聊天模板的模型（如 Qwen2.5 系列），必须在训练参数中手动将 EOS Token 设置为与模板匹配的标记；若使用自定义模板，需同时提供模板文件和对应的 EOS Token。
 
-## 关联主题
-
-- [[00-元语/llm]]
-- [[00-元语/llmops]]
-- [[00-元语/evals]]
-- [[00-元语/benchmark]]
-- [[00-元语/data-pipeline]]
-- [[00-元语/roadmap]]
-- [[00-元语/github]]
-
 ## 功能与定位
 Open R1 是由 Hugging Face 发起的开源项目，旨在完全开源地复现 DeepSeek-R1。该项目的核心定位是补全 R1 研发管线中缺失的环节，使得整个社区都能够复现该模型并在其基础上进行二次开发。项目目前处于持续开发状态（Work in progress）。
 
@@ -74,3 +64,14 @@ Open R1 是由 Hugging Face 发起的开源项目，旨在完全开源地复现 
 * OpenR1-Distill-7B 模型：https://huggingface.co/open-r1/OpenR1-Distill-7B
 * CodeForces-CoTs 数据集：https://huggingface.co/datasets/open-r1/codeforces-cots
 * OpenR1-Math-220k 数据集：https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
+
+## 关联主题
+
+- [[00-元语/llm]]
+- [[00-元语/llmops]]
+- [[00-元语/alignment]]
+- [[00-元语/evals]]
+- [[00-元语/benchmark]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/roadmap]]
+- [[00-元语/github]]

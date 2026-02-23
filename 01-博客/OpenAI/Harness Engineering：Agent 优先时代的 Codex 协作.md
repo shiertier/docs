@@ -238,8 +238,12 @@ OpenAI 团队通过一项为期五个月的实验，在人类零手动编写代�
 
 ## 关联主题
 
-- [[00-元语/memory]]
-- [[00-元语/AI]]
+- [[00-元语/OpenAI]]
+- [[00-元语/Codex]]
 - [[00-元语/Agent]]
-- [[00-元语/rag]]
-- [[00-元语/learning-resource]]
+- [[00-元语/observability]]
+- [[00-元语/context-optimization]]
+- [[00-元语/workflow]]
+- [[00-元语/code-review]]
+- [[00-元语/CI]]
+- [[00-元语/软件工程]]

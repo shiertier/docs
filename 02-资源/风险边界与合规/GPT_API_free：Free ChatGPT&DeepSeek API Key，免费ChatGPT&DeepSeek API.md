@@ -62,6 +62,7 @@ Free ChatGPT&DeepSeek API Key，免费ChatGPT&DeepSeek API。免费接入DeepSee
 - [[00-元语/Claude]]
 - [[00-元语/OpenAI]]
 - [[00-元语/gemini]]
+- [[00-元语/xAI]]
 - [[00-元语/llm]]
 - [[00-元语/risk]]
 - [[00-元语/security]]

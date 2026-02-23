@@ -175,6 +175,12 @@ Anthropic 文章中透露，**Claude Sonnet 3.5** 在权威的 SWE-bench 编程�
 
 *   **文中提到的 Manus 文章**：[Context Engineering for AI Agents: Lessons from Building Manus 《AI 智能体的上下文工程：构建 Manus 的经验教训》](https://baoyu.io/blog/explain-Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
 
+## 相关文档
+
+- [[01-博客/宝玉/深度解读《AI 智能体的上下文工程》：构建高效 Agent 的七个宝贵教训|深度解读《AI 智能体的上下文工程》：构建高效 Agent 的七个宝贵教训]]；关联理由：引用；说明：本文在正文中直接引用了该文并借其观点解释工具命名、上下文与纠错策略。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：两文都围绕 Claude Code 与 Agent 工具设计，且对“最小工具集、按需加载、上下文效率”给出互补阐释。
+- [[01-博客/宝玉/Claude Code 的懒加载更新：AI 终于学会了随叫随到|Claude Code 的懒加载更新：AI 终于学会了随叫随到]]；关联理由：版本演进；说明：该文展示了本文“优化 Token 效率、按需工具调用”原则在 Claude Code 产品侧的后续落地。
+
 ## 关联主题
 
 - [[00-元语/AI]]

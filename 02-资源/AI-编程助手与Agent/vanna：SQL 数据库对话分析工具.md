@@ -61,5 +61,5 @@ vanna 是一个开源项目，归档分类为“AI-编程助手与Agent”。Git
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
-- [[00-元语/mcp]]
+- [[00-元语/context-database]]
 - [[00-元语/github]]

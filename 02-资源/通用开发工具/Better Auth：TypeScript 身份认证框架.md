@@ -58,4 +58,4 @@ The most comprehensive authentication framework for TypeScript
 - [[00-元语/github]]
 - [[00-元语/security]]
 - [[00-元语/protocol]]
-- [[00-元语/sdk]]
+- [[00-元语/typescript]]

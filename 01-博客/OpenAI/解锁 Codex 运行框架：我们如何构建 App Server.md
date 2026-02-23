@@ -151,7 +151,7 @@ TypeScript 代码库，用于在你自己的应用程序中以编程方式控制
 ## 相关文档
 
 - [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文解释 Codex 内部智能体循环，本篇则解释其如何通过 App Server 协议对外暴露运行框架。
-- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：解说；说明：该文从工程实践侧说明 harness 落地方式，本篇从协议与线程机制侧补齐其运行框架细节。
+- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：该文从团队工程实践讨论 harness 的组织方式，本篇从协议与线程机制展开其运行框架实现。
 
 ## 关联主题
 
@@ -163,4 +163,5 @@ TypeScript 代码库，用于在你自己的应用程序中以编程方式控制
 - [[00-元语/ui-protocol]]
 - [[00-元语/cli]]
 - [[00-元语/ide]]
+- [[00-元语/desktop-client]]
 - [[00-元语/sdk]]

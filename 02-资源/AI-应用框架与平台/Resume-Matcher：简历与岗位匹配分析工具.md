@@ -56,6 +56,7 @@ Improve your resumes with Resume Matcher. Get insights, keyword suggestions and 
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/typescript]]
 - [[00-元语/career]]
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]

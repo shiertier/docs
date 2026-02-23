@@ -54,6 +54,10 @@ Vim-fork focused on extensibility and usability
 - README：https://raw.githubusercontent.com/neovim/neovim/master/README.md
 - Releases：https://github.com/neovim/neovim/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/kickstart.nvim：A launch point for your personal nvim configuration|kickstart.nvim：A launch point for your personal nvim configuration]]；关联理由：上下游；说明：kickstart.nvim 是基于 Neovim 的配置起点项目，属于 Neovim 生态的直接下游实践。
+- [[02-资源/AI-编程助手与Agent/avante.nvim：Use your Neovim like using Cursor AI IDE!|avante.nvim：Use your Neovim like using Cursor AI IDE!]]；关联理由：上下游；说明：avante.nvim 以 Neovim 为运行宿主提供 AI 开发能力，依赖 Neovim 的插件与 API 机制。
+
 ## 关联主题
 - [[00-元语/ide]]
 - [[00-元语/terminal]]

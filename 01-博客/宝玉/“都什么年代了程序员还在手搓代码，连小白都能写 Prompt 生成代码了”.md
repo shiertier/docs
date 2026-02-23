@@ -123,5 +123,7 @@ AI Coding 和手搓代码不是对立的，搭配用很好的。**AI Coding 可�
 - [[00-元语/prompt]]
 - [[00-元语/vibe-coding]]
 - [[00-元语/code-review]]
+- [[00-元语/bug-fix]]
 - [[00-元语/软件工程]]
 - [[00-元语/workflow]]
+- [[00-元语/productivity]]

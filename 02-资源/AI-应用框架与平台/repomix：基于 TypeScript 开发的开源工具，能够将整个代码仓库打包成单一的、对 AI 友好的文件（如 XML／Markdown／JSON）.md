@@ -57,6 +57,7 @@ Repomix 是一个基于 TypeScript 开发的开源工具，能够将整个代码
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/typescript]]
 - [[00-元语/cli]]
 - [[00-元语/markdown]]
 - [[00-元语/github]]

@@ -57,7 +57,7 @@ The web framework for content-driven websites. ⭐️ Star to support our work!
 - Releases：https://github.com/withastro/astro/releases
 
 ## 关联主题
-- [[00-元语/markdown]]
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/软件工程]]
+- [[00-元语/typescript]]

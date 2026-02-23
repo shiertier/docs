@@ -159,6 +159,7 @@ Coinbase 正在全面整合 AI 技术以提升业务效率与安全性，涵盖�
 - [[00-元语/productivity]]
 - [[00-元语/llmops]]
 - [[00-元语/llm]]
+- [[00-元语/prompt]]
 - [[00-元语/multimodal]]
 - [[00-元语/ide]]
 - [[00-元语/code-review]]
@@ -168,3 +169,4 @@ Coinbase 正在全面整合 AI 技术以提升业务效率与安全性，涵盖�
 - [[00-元语/risk]]
 - [[00-元语/design]]
 - [[00-元语/软件工程]]
+- [[00-元语/workflow]]

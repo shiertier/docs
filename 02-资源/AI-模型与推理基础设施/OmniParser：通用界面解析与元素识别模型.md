@@ -66,3 +66,4 @@ A simple screen parsing tool towards pure vision based GUI agent
 - [[00-元语/data-pipeline]]
 - [[00-元语/windows]]
 - [[00-元语/compliance]]
+- [[00-元语/github]]

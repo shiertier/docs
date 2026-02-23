@@ -127,5 +127,9 @@ MCP 为智能体连接众多工具和系统提供了一个基础协议。然而�
 
 - [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
 - [[00-元语/mcp]]
+- [[00-元语/protocol]]
+- [[00-元语/security]]
+- [[00-元语/context-optimization]]
 - [[00-元语/learning-resource]]

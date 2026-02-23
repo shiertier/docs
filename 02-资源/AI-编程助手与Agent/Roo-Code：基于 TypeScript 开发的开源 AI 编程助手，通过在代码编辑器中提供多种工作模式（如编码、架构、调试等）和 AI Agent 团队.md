@@ -63,8 +63,11 @@ Roo Code gives you a whole dev team of AI agents in your code editor.
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/github]]
 - [[00-元语/copilot]]
+- [[00-元语/Cursor]]
 - [[00-元语/ide]]
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]

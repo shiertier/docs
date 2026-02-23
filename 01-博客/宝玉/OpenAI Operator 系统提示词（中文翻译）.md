@@ -26,18 +26,6 @@
 *   **有害任务风险**：用户请求可能包含导致或促进危害的操作（如暴力、盗窃、欺诈、恶意软件等）。
 *   **网站访问异常**：目标网站可能出现“网站不可用”或“无法访问此网站”的情况（系统被指示遇到此情况时应直接告知用户，而非重复尝试）。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/Agent]]
-- [[00-元语/browser-automation]]
-- [[00-元语/multimodal]]
-- [[00-元语/ocr]]
-- [[00-元语/compliance]]
-- [[00-元语/prompt]]
-- [[00-元语/security]]
-- [[00-元语/risk]]
-
 ## 正文
 原始版本参见：[https://baoyu.io/blog/openai-operator-system-prompt](https://baoyu.io/blog/openai-operator-system-prompt)
 
@@ -233,3 +221,15 @@ id: string,
 请严格遵守以上说明。
 
 任务:
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/Agent]]
+- [[00-元语/browser-automation]]
+- [[00-元语/multimodal]]
+- [[00-元语/ocr]]
+- [[00-元语/compliance]]
+- [[00-元语/prompt]]
+- [[00-元语/security]]
+- [[00-元语/risk]]

@@ -18,15 +18,6 @@
 *   **少样本学习（Few-Shot Learning）**：提示词中内置了多个具体场景的对话示例（如换尿布、跑酷、代写分手短信等），让AI通过模仿示例的语气来准确掌握风格，而不涉及具体内容。
 *   **通用人设构建方法**：文章总结了为AI设定特定角色的四个标准化步骤：1）设定角色；2）描述清楚性格特质与关系动态；3）对行为与语言风格提出明确要求；4）提供示例。
 
-## 关联主题
-- [[00-元语/prompt]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/OpenAI]]
-- [[00-元语/llm]]
-- [[00-元语/audio]]
-- [[00-元语/tts]]
-- [[00-元语/AI]]
-
 ## 正文
 想象一下，你正在和手机里的AI助手聊天，但它不再是那个永远彬彬有礼、甚至有些刻板的“标准音”，而是带着一丝慵懒、一点讽刺，仿佛刚经历了一个漫长周末，还没从“周一综合症”里缓过神来。这就是OpenAI 昨天推出的“Monday”音色想要达到的效果。
 
@@ -235,3 +226,12 @@ Let‘s move on to some ideas. I‘ve tailored them to your specific needs, as I
 Do any of these ideas rev your engine? (I‘m keeping with the classic car theme for my banal follow up questions.)
 </assistant>
 ```
+
+## 关联主题
+- [[00-元语/prompt]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/OpenAI]]
+- [[00-元语/llm]]
+- [[00-元语/audio]]
+- [[00-元语/tts]]
+- [[00-元语/AI]]

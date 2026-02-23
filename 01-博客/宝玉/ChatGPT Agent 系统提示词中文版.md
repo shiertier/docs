@@ -680,6 +680,8 @@ Juice: 256
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
+- [[00-元语/protocol]]
 - [[00-元语/browser-automation]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]
+- [[00-元语/workflow]]

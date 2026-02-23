@@ -58,11 +58,15 @@ TradingAgents-CN 是一个基于多智能体和大语言模型（LLM）的中文
 - README：https://raw.githubusercontent.com/hsliuping/TradingAgents-CN/main/README.md
 - Releases：https://github.com/hsliuping/TradingAgents-CN/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/TradingAgents：交易场景多智能体框架.md|TradingAgents：交易场景多智能体框架]]；关联理由：版本演进；说明：该项目是 TradingAgents-CN 的上游基础框架，对照阅读可明确中文增强版的继承关系与架构变化。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/trading]]
+- [[00-元语/fastapi]]
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/compliance]]

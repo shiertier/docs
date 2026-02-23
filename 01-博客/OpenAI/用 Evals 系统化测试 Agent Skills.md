@@ -410,5 +410,8 @@ codex exec \
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
+- [[00-元语/react]]
+- [[00-元语/typescript]]
+- [[00-元语/observability]]
 - [[00-元语/workflow]]
 - [[00-元语/软件工程]]

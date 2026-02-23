@@ -64,4 +64,5 @@ Zama Bounty Program: Contribute to the FHE space and Zama's open source librarie
 - [[00-元语/github]]
 - [[00-元语/risk]]
 - [[00-元语/community]]
+- [[00-元语/blockchain]]
 - [[00-元语/security]]

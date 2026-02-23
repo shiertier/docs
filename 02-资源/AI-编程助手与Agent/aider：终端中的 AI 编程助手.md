@@ -59,6 +59,7 @@ aider is AI pair programming in your terminal
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/tool]]
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
 - [[00-元语/ide]]

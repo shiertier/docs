@@ -19,12 +19,6 @@
 *   **控制台测试**：在浏览器开发者控制台输入 `window.ai` 检查 API 是否可用。
 *   **代码调用**：可通过 `window.ai.canCreateGenericSession()` 检查权限，并使用 `createTextSession()` 创建会话，通过 `promptStreaming()` 实现流式对话输出测试。
 
-## 关联主题
-- [[00-元语/AI]]
-- [[00-元语/gemini]]
-- [[00-元语/llm]]
-- [[00-元语/desktop-client]]
-
 ## 正文
 测试 Chrome 内置 Gemini Nano 的方法：
 
@@ -65,3 +59,9 @@ session.destroy()
 console.error(" can't create generic session", canCreate)
 
 }
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/gemini]]
+- [[00-元语/llm]]
+- [[00-元语/desktop-client]]

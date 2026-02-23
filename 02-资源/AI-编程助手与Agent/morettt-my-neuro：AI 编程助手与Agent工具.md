@@ -48,7 +48,11 @@ my-neuro 是一个 AI 桌面伴侣与 Agent 工具项目。它允许用户创建
 
 ## 关联主题
 
-- [[00-元语/memory]]
 - [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/desktop-client]]
+- [[00-元语/llm]]
+- [[00-元语/memory]]
+- [[00-元语/multimodal]]
+- [[00-元语/tts]]
 - [[00-元语/github]]
-- [[00-元语/tool]]

@@ -30,18 +30,6 @@ Context7 是一个基于 MCP 协议的开源服务器，专为大语言模型（
 *   **OAuth 认证限制**：OAuth 2.0 认证仅适用于远程 HTTP 连接（需使用 `/mcp/oauth` 端点）；若使用本地 stdio 传输的 MCP 连接，则必须使用 API Key 进行认证。
 *   **数据一致性差异**：文档指出当前 GitHub 公开 Stars 数（46469）与用户提供的参考数字（26003）存在不一致。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/Agent]]
-- [[00-元语/github]]
-- [[00-元语/mcp]]
-- [[00-元语/llm]]
-- [[00-元语/context-optimization]]
-- [[00-元语/protocol]]
-- [[00-元语/cli]]
-- [[00-元语/tool]]
-
 ## 功能与定位
 Context7 是一个基于 MCP (Model Context Protocol) 的服务器，旨在为大语言模型（LLM）和 AI 代码编辑器提供最新、特定版本的代码文档和示例。它的核心目的是解决 LLM 依赖过时训练数据、捏造不存在的 API（幻觉）以及针对旧版本包提供通用回答的问题。
 
@@ -75,3 +63,14 @@ Context7 是一个基于 MCP (Model Context Protocol) 的服务器，旨在为�
 - 官方网站：https://context7.com
 - 控制台（获取 API Key）：https://context7.com/dashboard
 - NPM 包：https://www.npmjs.com/package/@upstash/context7-mcp
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/github]]
+- [[00-元语/mcp]]
+- [[00-元语/llm]]
+- [[00-元语/context-optimization]]
+- [[00-元语/protocol]]
+- [[00-元语/cli]]
+- [[00-元语/tool]]

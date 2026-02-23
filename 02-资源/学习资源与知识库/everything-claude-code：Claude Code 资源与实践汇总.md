@@ -61,6 +61,7 @@ Complete Claude Code configuration collection - agents, skills, hooks, commands,
 - [[00-元语/skills]]
 - [[00-元语/mcp]]
 - [[00-元语/cli]]
+- [[00-元语/memory]]
 - [[00-元语/workflow]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]

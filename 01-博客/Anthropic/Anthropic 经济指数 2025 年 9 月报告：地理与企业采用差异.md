@@ -398,10 +398,18 @@ Miles McCain, Tyler Neylon, Michael Stern
 
 提供有益评论、讨论和其他协助的人员：Alex Sanchez, Andrew Ho, Ankur Rathi, Asa Kittner, Ben Merkel, Bianca Lindner, Biran Shah, Carl De Torres, Cecilia Callas, Daisy McGregor, Dario Amodei, Deep Ganguli, Dexter Callender III, Esin Durmus, Evan Frondorf, Heather Whitney, Jack Clark, Jakob Kerr, Janel Thamkul, Jared Kaplan, Jared Mueller, Jennifer Martinez, Kaileen Kelly, Kamya Jagadish, Katie Streu, Keir Bradwell, Kelsey Nanan, Kevin Troy, Kim O'Rourke, Kunal Handa, Landon Goldberg, Linsey Fields, Lisa Cohen, Lisa Rager, Maria Gonzalez, Mengyi Xu, Michael Sellitto, Mike Schiraldi, Olivia Chen, Paola Renteria, Rebecca Jacobs, Rebecca Lee, Ronan Davy, Ryan Donegan, Saffron Huang, Sarah Heck, Stuart Ritchie, Sylvie Carr, Tim Belonax, Tina Chin, Zoe Richards
 
-## 相关内容
+## 相关文档
 
-### 在实践中衡量 AI 代理的自主性 (Measuring AI agent autonomy in practice)
+- [[01-博客/Anthropic/Anthropic 经济指数：美国与全球 AI 采用地理分布|Anthropic 经济指数：美国与全球 AI 采用地理分布]]；关联理由：版本演进；说明：同属 Anthropic 经济指数地理与企业采用主题，可用于对照本报告在指标口径与结论上的延续和变化。
+- [[01-博客/Anthropic/衡量 AI 智能体在实践中的自主性|衡量 AI 智能体在实践中的自主性]]；关联理由：延伸思考；说明：本文给出任务自动化占比与委托趋势，该文可延伸评估智能体自主执行的可控性与风险边界。
+- [[01-博客/Anthropic/印度国家简报：Anthropic 经济指数|印度国家简报：Anthropic 经济指数]]；关联理由：同一事件；说明：同属 Anthropic 经济指数体系，提供本报告地理分析在印度样本上的细化观察。
+- [[01-博客/Anthropic/AI 辅助如何影响编程技能的形成|AI 辅助如何影响编程技能的形成]]；关联理由：解说；说明：本文指出编程任务占比与自动化趋势，该文从技能形成角度补足微观影响机制。
 
-### 印度国家简报：Anthropic 经济指数 (India Country Brief: The Anthropic Economic Index)
+## 关联主题
 
-### AI 协助如何影响编程技能的形成 (How AI assistance impacts the formation of coding skills)
+- [[00-元语/AI]]
+- [[00-元语/Claude]]
+- [[00-元语/知识工作]]
+- [[00-元语/productivity]]
+- [[00-元语/career]]
+- [[00-元语/risk]]

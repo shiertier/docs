@@ -66,3 +66,4 @@ Bash is all you need - A nano Claude Code–like agent, built from 0 to 1
 - [[00-元语/workflow]]
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
+- [[00-元语/typescript]]

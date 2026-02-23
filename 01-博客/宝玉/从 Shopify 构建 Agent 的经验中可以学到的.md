@@ -81,6 +81,8 @@ Agent 要做得好，很重要的一点就是要能评估它生成的结果是�
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/evals]]
+- [[00-元语/alignment]]
 - [[00-元语/prompt]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
+- [[00-元语/context-optimization]]

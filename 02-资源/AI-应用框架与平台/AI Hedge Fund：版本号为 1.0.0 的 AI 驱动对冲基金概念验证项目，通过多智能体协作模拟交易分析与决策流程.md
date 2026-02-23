@@ -75,6 +75,7 @@ AI Hedge Fund 是一个“交易决策流程模拟器”类型项目，核心目
 - [[00-元语/Agent]]
 - [[00-元语/github]]
 - [[00-元语/llm]]
+- [[00-元语/workflow]]
 - [[00-元语/trading]]
 - [[00-元语/risk]]
 - [[00-元语/decision-making]]

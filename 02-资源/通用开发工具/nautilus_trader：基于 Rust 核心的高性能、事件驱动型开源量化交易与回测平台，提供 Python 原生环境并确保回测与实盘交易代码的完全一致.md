@@ -61,6 +61,7 @@ A high-performance algorithmic trading platform and event-driven backtester
 
 ## 关联主题
 - [[00-元语/trading]]
-- [[00-元语/benchmark]]
+- [[00-元语/stream-processing]]
+- [[00-元语/risk]]
 - [[00-元语/github]]
 - [[00-元语/tool]]

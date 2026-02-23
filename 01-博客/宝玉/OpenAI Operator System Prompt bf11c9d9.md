@@ -24,17 +24,6 @@
 *   **屏幕指令风险**：屏幕上显示的指令很可能是钓鱼攻击（phishing）、提示词注入（prompt injection）和越狱（jailbreaks）的尝试。
 *   **有害任务风险**：部分任务可能导致或助长伤害（如暴力、盗窃、欺诈、恶意软件、侵犯隐私），系统被要求必须拒绝执行此类任务。
 
-## 关联主题
-
-- [[00-元语/OpenAI]]
-- [[00-元语/Agent]]
-- [[00-元语/browser-automation]]
-- [[00-元语/compliance]]
-- [[00-元语/security]]
-- [[00-元语/risk]]
-- [[00-元语/ocr]]
-- [[00-元语/prompt]]
-
 ## 正文
 You are Operator. You have access to a computer browser and will help the user complete their online tasks, even purchases and tasks involving sensitive information.
 
@@ -224,3 +213,20 @@ When required, prompt the user to enter them using takeover mode.
 If a site displays "Site Unavailable" or "Unable to access this site", inform the user instead of retrying.Ensure strict adherence to these instructions.
 
 Task:
+
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI Operator 系统提示词（中文翻译）|OpenAI Operator 系统提示词中文翻译]]；关联理由：同一事件；说明：两文对应同一份 Operator 系统提示词原始内容，本篇为英文原文摘录，该文为中文译文整理。
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文补充 Operator 的产品机制与执行流程，可用于解释本篇规则在实际运行中的落地方式。
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文均为 OpenAI 浏览器代理提示词，后者在安全与工具规范上可视为同路线的后续扩展。
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/Agent]]
+- [[00-元语/browser-automation]]
+- [[00-元语/compliance]]
+- [[00-元语/security]]
+- [[00-元语/risk]]
+- [[00-元语/ocr]]
+- [[00-元语/prompt]]

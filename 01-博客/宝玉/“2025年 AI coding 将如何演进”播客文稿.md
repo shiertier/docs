@@ -26,25 +26,6 @@
 *   **Code Review 难以 AI 化**：有效的代码审查需要极深的业务需求理解和历史上下文，目前的 AI 只能检查基础的样式或逻辑错误（约解决 20%-30% 的问题），无法发现深层的业务逻辑缺陷。
 *   **企业数据安全风险**：企业级落地面临严格的代码泄露担忧，必须依赖私有化部署结合企业内部知识库（RAG/微调）来解决安全与定制化需求。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/vibe-coding]]
-- [[00-元语/Agent]]
-- [[00-元语/Cursor]]
-- [[00-元语/copilot]]
-- [[00-元语/llm]]
-- [[00-元语/ide]]
-- [[00-元语/prompt]]
-- [[00-元语/context-optimization]]
-- [[00-元语/code-review]]
-- [[00-元语/软件工程]]
-- [[00-元语/workflow]]
-- [[00-元语/productivity]]
-- [[00-元语/rag]]
-- [[00-元语/career]]
-- [[00-元语/security]]
-
 ## 正文
 YouTube：[https://www.youtube.com/watch?v=Ux5k0ACfgDU](https://www.youtube.com/watch?v=Ux5k0ACfgDU)
 
@@ -557,3 +538,23 @@ o1 的一个限制是每周只有 50 次使用机会，这个额度很容易就�
 **张海龙：** 拜拜！
 
 宝玉、陈鑫、**郑勤锴：** 谢谢大家，再见！
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/Cursor]]
+- [[00-元语/copilot]]
+- [[00-元语/Claude]]
+- [[00-元语/llm]]
+- [[00-元语/ide]]
+- [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
+- [[00-元语/code-review]]
+- [[00-元语/bug-fix]]
+- [[00-元语/软件工程]]
+- [[00-元语/workflow]]
+- [[00-元语/productivity]]
+- [[00-元语/rag]]
+- [[00-元语/career]]
+- [[00-元语/security]]

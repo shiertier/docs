@@ -60,6 +60,7 @@ An extremely fast Python type checker and language server, written in Rust.
 
 ## 关联主题
 - [[00-元语/tool]]
+- [[00-元语/benchmark]]
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
 - [[00-元语/ide]]

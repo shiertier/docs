@@ -57,8 +57,10 @@ Full stack, modern web application template. Using FastAPI, React, SQLModel, Pos
 
 ## 关联主题
 - [[00-元语/github]]
+- [[00-元语/fastapi]]
 - [[00-元语/react]]
 - [[00-元语/PostgreSQL]]
+- [[00-元语/typescript]]
 - [[00-元语/CI]]
 - [[00-元语/security]]
 - [[00-元语/workflow]]

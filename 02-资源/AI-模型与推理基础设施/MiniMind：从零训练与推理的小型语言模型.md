@@ -29,16 +29,6 @@ MiniMind 是一个旨在降低大语言模型学习门槛的开源项目，提�
 * **成本估算存在条件限制**：官方宣称的“2小时”与“3块钱”训练成本是基于单张 RTX 3090 的特定测试结果，实际耗时与成本会因硬件配置和服务器定价波动而异。
 * **数据一致性差异**：文档记录显示，用户提供的参考 Stars 数量与当前公开的实际 Stars 数量存在不一致。
 
-## 关联主题
-
-- [[00-元语/llm]]
-- [[00-元语/llmops]]
-- [[00-元语/lora]]
-- [[00-元语/multimodal]]
-- [[00-元语/protocol]]
-- [[00-元语/github]]
-- [[00-元语/learning-resource]]
-
 ## 功能与定位
 MiniMind 是一个旨在降低大语言模型（LLM）学习门槛的开源项目与入门教程。它提供了一套完全从零开始构建和训练极小参数语言模型（如 25.8M）的完整代码。项目拒绝高度封装的“黑盒”调用，致力于让开发者通过阅读原生代码理解大模型的底层运作机制。
 
@@ -77,3 +67,13 @@ MiniMind 是一个旨在降低大语言模型（LLM）学习门槛的开源项�
 * HuggingFace 集合：https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5
 * ModelScope 体验：https://www.modelscope.cn/studios/gongjy/minimind
 * 视觉多模态拓展（MiniMind-V）：https://github.com/jingyaogong/minimind-v
+
+## 关联主题
+
+- [[00-元语/llm]]
+- [[00-元语/llmops]]
+- [[00-元语/lora]]
+- [[00-元语/multimodal]]
+- [[00-元语/protocol]]
+- [[00-元语/github]]
+- [[00-元语/learning-resource]]

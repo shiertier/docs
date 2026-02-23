@@ -20,14 +20,6 @@
     *   **解决初始问题**：要求 LLM 再次输出原始问题（防止模型在生成长文本后遗忘），并参考前面生成的示例来解答。
 *   **格式控制**：在 Prompt 中应明确规定输出格式（例如使用“Q:”表示问题，“A:”表示包含步骤的解答，并将最终答案放在特定符号如 `\boxed` 中），以确保推理过程的结构化和清晰度。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/paper]]
-- [[00-元语/llm]]
-- [[00-元语/数学]]
-- [[00-元语/learning-resource]]
-
 ## 正文
 今天读了一篇有意思的论文《[Large Language Models as Analogical Reasoners](https://arxiv.org/abs/2310.01714)》，提到了一种新的 Prompt 方法——“类推提示法”，我已经翻译成了中文版：《[大语言模型的类比推理能力 [译]](https://baoyu.io/blog/translations/large-language-models-as-analogical-reasoners)》，跟大家一起分享一下。
 
@@ -140,3 +132,10 @@ LLM 会输出如下的结果：
 ### A：我们可以使用类似的解决方案来处理这个问题。我们有三名可以选择鱼的飞行员，我们要选择其中的两名。这有 \( \binom{3}{2} = 3 \) 种方式。总的分配方式是从六名飞行员中选出两名，即 \( \binom{6}{2} = 15 \) 种方式。所以概率是 \( \frac{3}{15} = \frac{1}{5} \)。最终答案是 \( \boxed{\frac{1}{5}} \)。
 
 参考聊天记录：[https://chat.openai.com/share/581de7ae-9bee-49f5-8d7d-90d063b56655](https://chat.openai.com/share/581de7ae-9bee-49f5-8d7d-90d063b56655)
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/paper]]
+- [[00-元语/llm]]
+- [[00-元语/数学]]

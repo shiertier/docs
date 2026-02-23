@@ -39,7 +39,10 @@ OpenMemory 是一个专为大语言模型（LLM）应用设计的本地持久化
 
 ## 关联主题
 
+- [[00-元语/Agent]]
 - [[00-元语/memory]]
+- [[00-元语/context-database]]
+- [[00-元语/llm]]
 - [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/tool]]

@@ -54,11 +54,16 @@ This open-source curriculum introduces the fundamentals of Model Context Protoco
 - README：https://raw.githubusercontent.com/microsoft/mcp-for-beginners/main/README.md
 - Releases：https://github.com/microsoft/mcp-for-beginners/releases
 
+## 相关文档
+- [[02-资源/学习资源与知识库/AI Agents for Beginners：AI Agent 入门课程|AI Agents for Beginners：AI Agent 入门课程]]；关联理由：延伸思考；说明：两者同属微软面向初学者的课程资源，前者补足 Agent 设计与实践路径，后者聚焦 MCP 协议基础。
+- [[02-资源/学习资源与知识库/Awesome MCP Servers：MCP 服务目录与生态索引|Awesome MCP Servers：MCP 服务目录与生态索引]]；关联理由：上下游；说明：本文讲解 MCP 入门与工作流基础，关联文档提供可落地接入的 MCP 服务器生态清单。
+
 ## 关联主题
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/workflow]]

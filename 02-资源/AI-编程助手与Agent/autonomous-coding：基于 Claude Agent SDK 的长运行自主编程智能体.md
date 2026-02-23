@@ -27,18 +27,6 @@ Autonomous Coding Agent 是一个基于 Claude 的双智能体系统，支持跨
 * **命令执行受限**：安全系统会拦截白名单之外的命令，若需使用新命令，必须手动修改源码 `security.py` 中的 `ALLOWED_COMMANDS`。
 * **授权限制**：文档明确标注该项目的许可证为“内部 Anthropic 使用 (Internal Anthropic use)”。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/Agent]]
-- [[00-元语/Claude]]
-- [[00-元语/sdk]]
-- [[00-元语/github]]
-- [[00-元语/workflow]]
-- [[00-元语/cli]]
-- [[00-元语/security]]
-- [[00-元语/compliance]]
-
 ## 功能与定位
 
 autonomous-coding 是一个“长运行、可跨会话接续”的自主编程智能体示例项目。它基于 Claude Agent SDK 运行，通过“初始化智能体 + 编码智能体”的分工，把一个应用从需求说明出发，逐步推进到实现与验证，并把进度持久化到本地项目目录，便于中断后继续。
@@ -83,3 +71,17 @@ autonomous-coding 是一个“长运行、可跨会话接续”的自主编程�
 - Anthropic 控制台：https://console.anthropic.com/
 - Claude Code CLI 安装脚本（macOS/Linux）：https://claude.ai/install.sh
 - Claude Code CLI 安装脚本（Windows）：https://claude.ai/install.ps1
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/Claude]]
+- [[00-元语/sdk]]
+- [[00-元语/github]]
+- [[00-元语/workflow]]
+- [[00-元语/prompt]]
+- [[00-元语/cli]]
+- [[00-元语/security]]
+- [[00-元语/compliance]]
+- [[00-元语/memory]]

@@ -26,15 +26,6 @@ SemiAnalysis 警告称，美国正在错失由通用机器人驱动的新型劳�
 * **欧洲核心资产流失**：由于早期缺乏严格的外资审查机制，德国库卡（KUKA）及多家意大利机器人企业被中国收购，导致欧盟在自动化领域的竞争优势严重受损。
 * **日韩的结构性危机**：韩国和日本虽自动化程度极高，但面临严重的超低出生率和劳动力短缺危机；且韩国自动化基础脆弱，约 60% 的机器人零部件仍严重依赖进口。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/hardware-control]]
-- [[00-元语/roadmap]]
-- [[00-元语/decision-making]]
-- [[00-元语/benchmark]]
-- [[00-元语/risk]]
-
 ## 正文
 **导读：**
 
@@ -482,3 +473,9 @@ KUKA 属于机器人行业中长期占据主导地位的“四大巨头”之一
 如希望深入了解机器人革命的最新发展，可查阅我们的合作伙伴 Edge of Automation 网站关于物理人工智能（Physical AI）革命的详细系列解读：[第一部分](https://www.edgeofautomation.com/p/the-physical-ai-revolution-part-1) 与 [第二部分](https://www.edgeofautomation.com/p/the-physical-ai-revolution-part-1)。
 
 * * *
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/hardware-control]]
+- [[00-元语/roadmap]]
+- [[00-元语/risk]]

@@ -3,7 +3,7 @@
 ## 文档信息
 
 - 类型：主题词条
-- 更新日期：2026-02-22
+- 更新日期：2026-02-23
 
 ## 定义
 
@@ -24,14 +24,24 @@ MCP（Model Context Protocol）是一种旨在标准化 AI 模型与外部数据
 
 - [[00-元语/Agent]]
 - [[00-元语/tool]]
+- [[00-元语/prompt]]
 - [[00-元语/context-database]]
 
+## 相关文档
+
+- [[00-元语/protocol|protocol]]；关联理由：解说；说明：mcp 是 protocol 在模型与外部系统交互场景下的具体实现形态。
+- [[00-元语/tool|tool]]；关联理由：上下游；说明：mcp 通过标准化工具 Schema 把模型调用意图映射到可执行工具能力。
+- [[00-元语/memory|memory]]；关联理由：上下游；说明：memory 系统常通过 mcp 对接外部存储与检索能力以支持跨会话状态延续。
+
 ## 关联主题
+- [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/protocol]]
 - [[00-元语/sdk]]
 - [[00-元语/tool]]
+- [[00-元语/prompt]]
 - [[00-元语/context-database]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/security]]
+- [[00-元语/memory]]

@@ -59,6 +59,7 @@ Intelligent automation and multi-agent orchestration for Claude Code
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
+- [[00-元语/llm]]
 - [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/skills]]

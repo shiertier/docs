@@ -87,3 +87,5 @@ Pathway 定位为面向实时数据与智能应用的数据处理框架。它以
 - [[00-元语/stream-processing]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/llmops]]
+- [[00-元语/compliance]]

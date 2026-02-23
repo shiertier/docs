@@ -60,11 +60,15 @@ MusicFree 是一款基于 TypeScript 开发的插件化、定制化且无广告�
 - README：https://raw.githubusercontent.com/maotoumao/MusicFree/master/README.md
 - Releases：https://github.com/maotoumao/MusicFree/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/spotube：基于 Dart 开发的跨平台开源音乐流媒体应用，支持通过插件集成多种音乐服务.md|spotube：基于 Dart 开发的跨平台开源音乐流媒体应用，支持通过插件集成多种音乐服务]]；关联理由：观点一致；说明：两者都采用“播放器壳 + 外部扩展”思路，通过插件能力接入音乐源而非内置完整音源体系。
+- [[02-资源/通用开发工具/AlgerMusicPlayer：基于 Vue 开发的开源第三方跨平台音乐播放器，集成了本地服务、桌面歌词、高音质下载、网易云账号同步及远程控制等功能.md|AlgerMusicPlayer：基于 Vue 开发的开源第三方跨平台音乐播放器，集成了本地服务、桌面歌词、高音质下载、网易云账号同步及远程控制等功能]]；关联理由：延伸思考；说明：两者同属开源第三方音乐播放器，但在技术栈与功能取向上不同，可用于对比“插件化壳层”与“功能集成型客户端”路线。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/audio]]
-- [[00-元语/desktop-client]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

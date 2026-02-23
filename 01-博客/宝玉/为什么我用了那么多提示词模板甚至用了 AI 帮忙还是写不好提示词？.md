@@ -101,4 +101,5 @@ AI 生成了提示词后，我拿去测试了一下，虽然也生成了一个�
 - [[00-元语/llm]]
 - [[00-元语/evals]]
 - [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
 - [[00-元语/workflow]]

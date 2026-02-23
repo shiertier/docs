@@ -57,6 +57,5 @@ An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that 
 
 ## 关联主题
 - [[00-元语/self-hosting]]
-- [[00-元语/serverless]]
 - [[00-元语/github]]
-- [[00-元语/workflow]]
+- [[00-元语/tool]]

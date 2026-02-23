@@ -25,17 +25,6 @@ MLOps和LLMOps是DevOps在AI和机器学习领域的延伸，尽管在技术栈�
 *   **安全与伦理风险**：模型发布前需要投入大量时间进行调优，否则容易出现安全和道德伦理问题。
 *   **数据处理瓶颈**：保证模型训练质量需要海量高质量数据，纯粹依靠人工无法完成该任务，存在数据处理能力不足的风险。
 
-## 关联主题
-
-- [[00-元语/llmops]]
-- [[00-元语/llm]]
-- [[00-元语/AI]]
-- [[00-元语/data-pipeline]]
-- [[00-元语/observability]]
-- [[00-元语/CI]]
-- [[00-元语/evals]]
-- [[00-元语/软件工程]]
-
 ## 正文
 相信你对 DevOps 已经非常熟悉，但你是否听说过 MLOps 或者 LLMOps 呢？
 
@@ -89,3 +78,15 @@ MLOps 时代所需的知识也更为丰富：
 
 *   [ML for Developers](https://madewithml.com/)
 *   [MLOps Course](https://github.com/GokuMohandas/mlops-course)
+
+## 关联主题
+
+- [[00-元语/llmops]]
+- [[00-元语/llm]]
+- [[00-元语/AI]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/observability]]
+- [[00-元语/CI]]
+- [[00-元语/evals]]
+- [[00-元语/软件工程]]
+- [[00-元语/workflow]]

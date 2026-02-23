@@ -25,15 +25,6 @@ ViMax 是一个基于 Python 和 MIT 协议开源的多智能体视频生成系�
 **风险与不足**
 - 截至当前记录，该项目尚未发布任何正式的 Release 版本（Release 数量为 0），用户必须直接克隆默认分支（main）的代码进行使用。
 
-## 关联主题
-
-- [[00-元语/Agent]]
-- [[00-元语/AI]]
-- [[00-元语/github]]
-- [[00-元语/video]]
-- [[00-元语/multimodal]]
-- [[00-元语/workflow]]
-
 ## 功能与定位
 ViMax 是一个基于智能体（Agentic）的视频生成开源项目。该系统定位为“导演、编剧、制片人和视频生成器”四合一的综合平台，旨在通过多智能体视频生成流水线与系统架构，实现高度自动化的视频创作流程。
 
@@ -69,3 +60,11 @@ ViMax 是一个基于智能体（Agentic）的视频生成开源项目。该系�
 - 中文 README：https://raw.githubusercontent.com/HKUDS/ViMax/main/README_ZH.md
 - 英文 README：https://raw.githubusercontent.com/HKUDS/ViMax/main/readme.md
 - 开源协议：https://raw.githubusercontent.com/HKUDS/ViMax/main/LICENSE
+
+## 关联主题
+- [[00-元语/Agent]]
+- [[00-元语/AI]]
+- [[00-元语/github]]
+- [[00-元语/video]]
+- [[00-元语/multimodal]]
+- [[00-元语/workflow]]

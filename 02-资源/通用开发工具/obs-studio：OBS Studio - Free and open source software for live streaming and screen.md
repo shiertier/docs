@@ -59,5 +59,6 @@ OBS Studio - Free and open source software for live streaming and screen recordi
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/video]]
+- [[00-元语/audio]]
 - [[00-元语/desktop-client]]
 - [[00-元语/github]]

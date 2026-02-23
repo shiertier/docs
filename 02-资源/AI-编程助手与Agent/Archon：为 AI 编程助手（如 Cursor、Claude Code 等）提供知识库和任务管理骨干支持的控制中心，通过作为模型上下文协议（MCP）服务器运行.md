@@ -56,9 +56,15 @@ Beta release of Archon OS - the knowledge and task management backbone for AI co
 - README：https://raw.githubusercontent.com/coleam00/Archon/main/README.md
 - Releases：https://github.com/coleam00/Archon/releases
 
+## 相关文档
+- [[02-资源/AI-编程助手与Agent/GreatScottyMac-context-portal：AI 编程助手与Agent工具|GreatScottyMac-context-portal：AI 编程助手与Agent工具]]；关联理由：观点一致；说明：两者都以 MCP + RAG 的项目级知识库为核心，目标都是补齐 AI 编程助手的上下文能力。
+- [[02-资源/AI-编程助手与Agent/Claude Task Master：任务拆解与执行编排工具|Claude Task Master：任务拆解与执行编排工具]]；关联理由：上下游；说明：Task Master 聚焦任务拆解执行，而 Archon 同时提供知识库与任务骨干，二者可在同一 AI 开发流程中组合使用。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/Cursor]]
+- [[00-元语/Claude]]
 - [[00-元语/mcp]]
 - [[00-元语/rag]]
 - [[00-元语/context-database]]

@@ -58,6 +58,7 @@ Playwright MCP server
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/mcp]]
+- [[00-元语/cli]]
 - [[00-元语/browser-automation]]
 - [[00-元语/protocol]]
 - [[00-元语/llm]]

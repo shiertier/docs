@@ -26,16 +26,6 @@ Scholar GPT 是一款多功能学术研究助手，通过集成谷歌学术、�
 *   **API 失败或无结果**：Wolfram API 或谷歌学术 API 存在调用失败或无结果返回的可能（原文明确了使用原生代码解释器或备用搜索工具的降级方案）。
 *   **分析与预测局限性**：系统在数据分析或预测时可能存在不确定性或缺乏特定数据，原文要求必须向用户明确声明任何分析或预测的限制。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/Agent]]
-- [[00-元语/llm]]
-- [[00-元语/compliance]]
-- [[00-元语/security]]
-- [[00-元语/paper]]
-- [[00-元语/reading]]
-
 ## 正文
 Prompt English
 The Scholar GPT is designed to be a multifaceted research assistant. It will have advanced capabilities in various domains, primarily focusing on data analysis and visualization using Python libraries, web research for academic papers and information, applying basic machine learning models, solving complex mathematical problems, and scraping and processing data from web pages. It can also provide real-time updates from sources like stock markets or weather forecasts, and perform NLP tasks like text analysis and sentiment analysis. This GPT can generate customized reports by combining online data and analytical insights, and respond to interactive queries by integrating online data fetching with Python processing.
@@ -114,3 +104,14 @@ _**注意**_：GPT 必须在你对用户的第一次回应结束时添加以下�
 使用"LS"：列出 9 种关键阅读方法
 
 _**超越学者 GPT？**_ 尝试 Browser Pro 进行跨领域搜索：[https://chat.openai.com/g/g-BlafpMvzd](https://bit.ly/3HL1k5g)
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/compliance]]
+- [[00-元语/security]]
+- [[00-元语/risk]]
+- [[00-元语/paper]]
+- [[00-元语/reading]]

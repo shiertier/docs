@@ -144,4 +144,5 @@ npx jest <testfilepath> -c './jest.config.ts' --no-coverage
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
 - [[00-元语/prompt]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]

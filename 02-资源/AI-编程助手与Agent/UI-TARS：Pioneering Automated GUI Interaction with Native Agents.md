@@ -54,10 +54,14 @@ Pioneering Automated GUI Interaction with Native Agents
 - README：https://raw.githubusercontent.com/bytedance/UI-TARS/main/README.md
 - Releases：https://github.com/bytedance/UI-TARS/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/UI-TARS Desktop：桌面端智能体交互工具|UI-TARS Desktop：桌面端智能体交互工具]]；关联理由：上下游；说明：UI-TARS Desktop 以 UI-TARS 模型能力为基础，把 GUI agent 能力落地到桌面与远程操作场景。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/github]]
 - [[00-元语/mcp]]
+- [[00-元语/multimodal]]
 - [[00-元语/browser-automation]]
 - [[00-元语/ui-protocol]]

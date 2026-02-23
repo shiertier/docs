@@ -60,6 +60,7 @@ the best agent harness
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
+- [[00-元语/typescript]]
 - [[00-元语/mcp]]
 - [[00-元语/context-optimization]]
 - [[00-元语/cli]]

@@ -83,5 +83,6 @@ LangWatch 将自身定位为 AI Agent 测试、LLM 评估与可观测性平台�
 - [[00-元语/llmops]]
 - [[00-元语/observability]]
 - [[00-元语/evals]]
+- [[00-元语/prompt]]
 - [[00-元语/self-hosting]]
 - [[00-元语/sdk]]

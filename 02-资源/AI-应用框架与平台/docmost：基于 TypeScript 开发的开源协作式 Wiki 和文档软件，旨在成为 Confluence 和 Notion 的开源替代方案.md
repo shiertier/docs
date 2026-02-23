@@ -59,3 +59,4 @@ Docmost is an open-source collaborative wiki and documentation software. It is a
 - [[00-元语/self-hosting]]
 - [[00-元语/github]]
 - [[00-元语/知识工作]]
+- [[00-元语/typescript]]

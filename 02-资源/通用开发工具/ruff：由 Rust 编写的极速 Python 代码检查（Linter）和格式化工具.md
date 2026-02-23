@@ -61,6 +61,9 @@ An extremely fast Python linter and code formatter, written in Rust.
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/cli]]
+- [[00-元语/CI]]
+- [[00-元语/benchmark]]
+- [[00-元语/github]]
 - [[00-元语/code-review]]
 - [[00-元语/productivity]]
 - [[00-元语/软件工程]]

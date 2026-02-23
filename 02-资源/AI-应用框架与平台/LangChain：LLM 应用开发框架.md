@@ -61,3 +61,6 @@ LangChain 是一个基于 Python 的开源框架，旨在通过模块化组件�
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
 - [[00-元语/github]]
+- [[00-元语/memory]]
+- [[00-元语/observability]]
+- [[00-元语/llmops]]

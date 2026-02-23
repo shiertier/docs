@@ -42,3 +42,4 @@ mudler/LocalRecall 是一个 AI 应用框架与平台，主要定位为专供智
 - [[00-元语/Agent]]
 - [[00-元语/github]]
 - [[00-元语/context-database]]
+- [[00-元语/self-hosting]]

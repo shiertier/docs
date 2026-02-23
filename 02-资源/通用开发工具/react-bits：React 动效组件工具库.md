@@ -62,5 +62,7 @@ React Bits 是一个专为 React 打造的动画 UI 组件库。它旨在帮助�
 ## 关联主题
 
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/design]]
+- [[00-元语/cli]]
 - [[00-元语/tool]]

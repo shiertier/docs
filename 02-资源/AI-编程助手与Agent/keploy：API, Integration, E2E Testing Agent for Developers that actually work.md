@@ -60,6 +60,6 @@ API, Integration, E2E Testing Agent for Developers that actually work. Generate 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/CI]]
-- [[00-元语/github]]
 - [[00-元语/mcp]]
+- [[00-元语/github]]
 - [[00-元语/软件工程]]

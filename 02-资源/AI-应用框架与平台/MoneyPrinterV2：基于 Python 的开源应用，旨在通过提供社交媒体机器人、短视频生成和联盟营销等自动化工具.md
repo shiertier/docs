@@ -59,6 +59,7 @@ Automate the process of making money online.
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/github]]
+- [[00-元语/workflow]]
 - [[00-元语/video]]
 - [[00-元语/tts]]
 - [[00-元语/x]]

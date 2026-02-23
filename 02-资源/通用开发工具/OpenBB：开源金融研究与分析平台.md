@@ -61,6 +61,8 @@ Financial data platform for analysts, quants and AI agents.
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]
+- [[00-元语/fastapi]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/trading]]
+- [[00-元语/sdk]]
 - [[00-元语/tool]]

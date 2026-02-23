@@ -28,14 +28,6 @@ Ladybird 是一款采用 C++ 编写、基于全套自研引擎的完全独立开
 * **成熟度极低**：项目当前处于 Pre-alpha（准内测）状态，尚未达到普通用户日常浏览网页的标准。
 * **无预编译版本**：目前 GitHub 仓库中暂无正式的 Release 发布版本，用户必须自行配置环境并从源码编译。
 
-## 关联主题
-
-- [[00-元语/github]]
-- [[00-元语/desktop-client]]
-- [[00-元语/wasm]]
-- [[00-元语/security]]
-- [[00-元语/windows]]
-
 ## 功能与定位
 Ladybird 是一款定位为“真正独立”的网页浏览器项目，其核心采用基于 Web 标准的全新自研引擎。项目的长远目标是为现代 Web 构建一个完整且可用的浏览器。目前该项目仍处于 Pre-alpha（准内测）阶段，仅适合开发者使用和研究。
 
@@ -70,3 +62,10 @@ Ladybird 是一款定位为“真正独立”的网页浏览器项目，其核�
 * 项目主页：https://github.com/LadybirdBrowser/ladybird
 * 官方网站：https://ladybird.org
 * Discord 社区：https://discord.gg/nvfjVJ4Svh
+
+## 关联主题
+- [[00-元语/github]]
+- [[00-元语/desktop-client]]
+- [[00-元语/wasm]]
+- [[00-元语/security]]
+- [[00-元语/windows]]

@@ -69,3 +69,4 @@ LLM Frontend for Power Users.
 - [[00-元语/risk]]
 - [[00-元语/security]]
 - [[00-元语/github]]
+- [[00-元语/tts]]

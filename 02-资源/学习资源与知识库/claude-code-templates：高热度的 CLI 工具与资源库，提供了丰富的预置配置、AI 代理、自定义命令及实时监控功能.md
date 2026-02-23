@@ -57,6 +57,7 @@ CLI tool for configuring and monitoring Claude Code
 
 ## 关联主题
 - [[00-元语/Claude]]
+- [[00-元语/github]]
 - [[00-元语/cli]]
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]

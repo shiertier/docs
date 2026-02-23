@@ -56,11 +56,11 @@ Powerful menu bar manager for macOS
 - README：https://raw.githubusercontent.com/jordanbaird/Ice/main/README.md
 - Releases：https://github.com/jordanbaird/Ice/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/stats：macOS system monitor in your menu bar.md|stats：macOS system monitor in your menu bar]]；关联理由：观点一致；说明：两者都围绕 macOS 菜单栏提供效率增强能力，可用于同类工具选型对比。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/desktop-client]]
 - [[00-元语/productivity]]
-
-## 相关文档
-- [[02-资源/通用开发工具/stats：macOS system monitor in your menu bar.md|stats：macOS system monitor in your menu bar]]；关联理由：观点一致；说明：两者都围绕 macOS 菜单栏提供效率增强能力，可用于同类工具选型对比。

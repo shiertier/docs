@@ -57,6 +57,7 @@ This repository delivers end-to-end, code-first tutorials covering every layer o
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/llmops]]
+- [[00-元语/memory]]
 - [[00-元语/rag]]
 - [[00-元语/knowledge-graph]]
 - [[00-元语/observability]]

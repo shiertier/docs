@@ -64,3 +64,6 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 - [[00-元语/workflow]]
 - [[00-元语/Claude]]
 - [[00-元语/Cursor]]
+- [[00-元语/ide]]
+- [[00-元语/typescript]]
+- [[00-元语/desktop-client]]

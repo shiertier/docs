@@ -360,4 +360,6 @@ Pi的设计告诉我们：在AI时代，减法比加法更难，但也更有价�
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/github]]
+- [[00-元语/x]]

@@ -36,3 +36,5 @@ memo 在本仓库中视为 memory 的同义表达，不单独设元语词条。
 - [[00-元语/mcp]]
 - [[00-元语/rag]]
 - [[00-元语/context-database]]
+- [[00-元语/context-optimization]]
+- [[00-元语/knowledge-graph]]

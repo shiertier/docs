@@ -61,6 +61,7 @@ Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FT
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/github]]
+- [[00-元语/cli]]
 - [[00-元语/self-hosting]]
 - [[00-元语/protocol]]
 - [[00-元语/security]]

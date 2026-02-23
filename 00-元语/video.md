@@ -3,7 +3,7 @@
 ## 文档信息
 
 - 类型：元语词条
-- 更新日期：2026-02-22
+- 更新日期：2026-02-23
 
 ## 定义
 
@@ -32,7 +32,9 @@
 - [[00-元语/audio]]
 - [[00-元语/multimodal]]
 - [[00-元语/image-editing]]
+- [[00-元语/interactive-storytelling]]
 - [[00-元语/stream-processing]]
 - [[00-元语/deepfake]]
 - [[00-元语/compliance]]
+- [[00-元语/security]]
 - [[00-元语/risk]]

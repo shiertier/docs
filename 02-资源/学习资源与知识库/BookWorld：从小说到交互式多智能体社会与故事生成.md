@@ -30,16 +30,6 @@ BookWorld 是一个专注于模拟已有小说世界与角色的交互式多智�
 *   **API 依赖**：运行官方提供的在线 Demo 空间需要用户自行准备并提供 API Key。
 *   **许可协议差异**：项目存在双重许可，网站页脚采用 CC BY-NC-ND 4.0，而代码仓库采用 Apache License 2.0，使用者需注意两者的适用范围差异。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/Agent]]
-- [[00-元语/interactive-storytelling]]
-- [[00-元语/game]]
-- [[00-元语/llm]]
-- [[00-元语/paper]]
-- [[00-元语/workflow]]
-
 ## 功能与定位
 
 BookWorld 是一个把“小说世界”转成可推演的多智能体社会模拟系统的研究项目。它的目标不是从零捏造角色与设定，而是基于已有作品中的角色关系、世界观与地理空间约束，驱动角色在环境中互动，并把推演记录进一步生成可读的故事文本。
@@ -80,3 +70,13 @@ BookWorld 是一个把“小说世界”转成可推演的多智能体社会模�
 - 论文：https://arxiv.org/abs/2504.14538
 - 在线 Demo：https://huggingface.co/spaces/alienet/BookWorld
 - 代码仓库：https://github.com/alienet1109/BookWorld
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/interactive-storytelling]]
+- [[00-元语/game]]
+- [[00-元语/llm]]
+- [[00-元语/paper]]
+- [[00-元语/workflow]]

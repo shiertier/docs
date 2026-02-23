@@ -24,11 +24,14 @@
 
 - [[00-元语/wiki]]
 - [[00-元语/README]]
+- [[00-元语/knowledge-graph]]
 - [[00-元语/关系图谱]]
 
 ## 关联主题
 - [[00-元语/wiki]]
+- [[00-元语/README]]
 - [[00-元语/knowledge-graph]]
 - [[00-元语/关系图谱]]
 - [[00-元语/workflow]]
 - [[00-元语/markdown]]
+- [[00-元语/skills]]

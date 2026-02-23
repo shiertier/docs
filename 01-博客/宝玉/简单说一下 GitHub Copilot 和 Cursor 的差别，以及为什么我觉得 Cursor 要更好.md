@@ -23,18 +23,6 @@
 *   **信息时效性风险**：GitHub Copilot 更新频繁，文章中提到的部分功能对比可能已经或即将过时。
 *   **AI 自动选择上下文的局限性**：现阶段完全寄希望于 AI 自动“猜测”并选择代码上下文是不靠谱的，必须依赖开发者的手动精确控制。
 
-## 关联主题
-
-- [[00-元语/Cursor]]
-- [[00-元语/copilot]]
-- [[00-元语/github]]
-- [[00-元语/ide]]
-- [[00-元语/Agent]]
-- [[00-元语/context-optimization]]
-- [[00-元语/productivity]]
-- [[00-元语/prompt]]
-- [[00-元语/workflow]]
-
 ## 正文
 简单说一下 GitHub Copilot 和 Cursor 的差别，以及为什么我觉得 Cursor 要更好。
 
@@ -85,3 +73,15 @@ Cursor 的 Composer，现在有两个模式：Normal 和 Agent，Normal 就是�
 Agent 功能 Windsurf 做的非常好，Cursor 可能是借鉴的 Windsurf，GitHub Copilot 据说也要推出了。
 
 综合下来，我觉得还是 Cursor 最好用，但最重要的是，你自己得试试用一用，适合自己的能最大化提升效率的才是最好的。
+
+## 关联主题
+
+- [[00-元语/Cursor]]
+- [[00-元语/copilot]]
+- [[00-元语/github]]
+- [[00-元语/ide]]
+- [[00-元语/Agent]]
+- [[00-元语/context-optimization]]
+- [[00-元语/productivity]]
+- [[00-元语/prompt]]
+- [[00-元语/workflow]]

@@ -60,7 +60,6 @@ GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)
 
 ## 关联主题
 - [[00-元语/github]]
-- [[00-元语/learning-resource]]
 - [[00-元语/tool]]
 - [[00-元语/community]]
 - [[00-元语/productivity]]

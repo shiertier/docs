@@ -60,5 +60,4 @@ We write your reusable computer vision tools. 💜
 - [[00-元语/AI]]
 - [[00-元语/github]]
 - [[00-元语/sdk]]
-- [[00-元语/multimodal]]
 - [[00-元语/tool]]

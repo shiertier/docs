@@ -23,15 +23,6 @@
 *   **模型更新风险**：大语言模型（如 GPT-4o）的官方微调可能会导致原本稳定运行的提示词突然失效或产生异常输出。
 *   **术语表定制限制**：受限于当前 GPT 的功能限制，翻译术语表目前无法实现用户动态定制，只能在提示词中硬编码预置常见的专业术语。
 
-## 关联主题
-- [[00-元语/llm]]
-- [[00-元语/prompt]]
-- [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/workflow]]
-- [[00-元语/multimodal]]
-- [[00-元语/ocr]]
-
 ## 正文
 最近有朋友反映[科技文章翻译 GPT](https://chat.openai.com/g/g-uBhKUJJTl-ke-ji-wen-zhang-fan-yi) 经常不能正常抓取 URL，另外有时候会不执行翻译，而输出的是英文结果。这可能是由于 GPT-4o 的模型微调，导致一些原本正常的 Prompt 无法正常执行。
 
@@ -169,3 +160,13 @@ For each step of the translation process, output your results within the appropr
 </step3_refined_translation>
 
 Remember to consistently use the provided glossary for technical terms throughout your translation. Ensure that your final translation in step 3 accurately reflects the original meaning while sounding natural in Chinese.
+
+## 关联主题
+- [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/OpenAI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/workflow]]
+- [[00-元语/multimodal]]
+- [[00-元语/ocr]]
+- [[00-元语/markdown]]

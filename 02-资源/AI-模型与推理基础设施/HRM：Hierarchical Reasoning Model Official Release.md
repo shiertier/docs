@@ -58,7 +58,6 @@ Hierarchical Reasoning Model Official Release
 
 ## 关联主题
 - [[00-元语/AI]]
-- [[00-元语/llm]]
 - [[00-元语/benchmark]]
+- [[00-元语/evals]]
 - [[00-元语/github]]
-- [[00-元语/llmops]]

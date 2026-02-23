@@ -236,4 +236,4 @@ If you found this helpful, a Like/Retweet is appreciated! Let me know in the com
 - [[00-元语/multimodal]]
 - [[00-元语/design]]
 - [[00-元语/workflow]]
-- [[00-元语/slideredit]]
+- [[00-元语/image-editing]]

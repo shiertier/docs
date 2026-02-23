@@ -59,8 +59,10 @@ MCP Toolbox for Databases is an open source MCP server for databases.
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
-- [[00-元语/context-database]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
+- [[00-元语/context-database]]
+- [[00-元语/workflow]]
+- [[00-元语/tool]]
 - [[00-元语/llm]]
 - [[00-元语/github]]

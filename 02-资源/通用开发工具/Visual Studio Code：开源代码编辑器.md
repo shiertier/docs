@@ -58,6 +58,6 @@ Visual Studio Code
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]
-- [[00-元语/tool]]

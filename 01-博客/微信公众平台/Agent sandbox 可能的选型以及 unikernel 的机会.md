@@ -187,3 +187,4 @@ Agent Sandbox 的设计有多种方案，各有优劣：
 - [[00-元语/Agent]]
 - [[00-元语/security]]
 - [[00-元语/wasm]]
+- [[00-元语/virtual-file-system]]

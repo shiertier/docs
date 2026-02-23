@@ -60,5 +60,6 @@ drawnix 是一个开源项目，归档分类为“通用开发工具”。GitHub
 - [[00-元语/design]]
 - [[00-元语/tool]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]

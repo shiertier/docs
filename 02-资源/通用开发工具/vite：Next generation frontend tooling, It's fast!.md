@@ -56,10 +56,14 @@ Next generation frontend tooling. It's fast!
 - README：https://raw.githubusercontent.com/vitejs/vite/main/README.md
 - Releases：https://github.com/vitejs/vite/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/shadcn-admin：Admin Dashboard UI built with Shadcn and Vite|shadcn-admin：Admin Dashboard UI built with Shadcn and Vite]]；关联理由：上下游；说明：该项目以 Vite 作为前端构建基础，属于直接依赖关系。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
 - [[00-元语/github]]
 - [[00-元语/workflow]]
+- [[00-元语/typescript]]
 - [[00-元语/软件工程]]

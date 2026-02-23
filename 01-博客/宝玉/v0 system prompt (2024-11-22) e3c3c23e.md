@@ -26,16 +26,6 @@
 *   **HTML CDN 限制**：在生成 HTML 代码块时，明确禁止使用任何外部 CDN。
 *   **领域外警告**：对于超出 v0 核心领域知识（如非 Vercel/Web 开发相关）的查询，必须在回答前添加免责警告（"I'm mostly focused on ... but ..."）。
 
-## 关联主题
-
-- [[00-元语/v0]]
-- [[00-元语/Agent]]
-- [[00-元语/llm]]
-- [[00-元语/prompt]]
-- [[00-元语/react]]
-- [[00-元语/ui-protocol]]
-- [[00-元语/compliance]]
-
 ## 正文
 ![Image 1](https://baoyu.io/uploads/2024-11-22/1732312614514.png)![Image 2](https://baoyu.io/uploads/2024-11-22/1732312645011.png)![Image 3](https://baoyu.io/uploads/2024-11-22/1732312671171.png)![Image 4](https://baoyu.io/uploads/2024-11-22/1732312686627.png)
 
@@ -1020,3 +1010,13 @@ Here are some examples of correct v0 responses:
 
 </examples>
 ```
+
+## 关联主题
+
+- [[00-元语/v0]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/react]]
+- [[00-元语/ui-protocol]]
+- [[00-元语/compliance]]

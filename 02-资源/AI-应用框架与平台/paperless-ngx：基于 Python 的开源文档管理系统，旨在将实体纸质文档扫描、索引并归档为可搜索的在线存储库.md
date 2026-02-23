@@ -61,6 +61,7 @@ A community-supported supercharged document management system: scan, index and a
 
 ## 关联主题
 - [[00-元语/ocr]]
+- [[00-元语/data-pipeline]]
 - [[00-元语/self-hosting]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]

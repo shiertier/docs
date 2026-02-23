@@ -156,6 +156,7 @@ Claude Code 和普通 Agent 主要的不同在于 Claude Code 能启动子 Agent
 
 ## 关联主题
 
+- [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]

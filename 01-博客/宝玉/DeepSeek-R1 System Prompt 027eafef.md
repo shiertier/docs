@@ -74,4 +74,5 @@ Knowledge cutoff: {{current_date}}
 - [[00-元语/prompt]]
 - [[00-元语/compliance]]
 - [[00-元语/security]]
+- [[00-元语/alignment]]
 - [[00-元语/risk]]

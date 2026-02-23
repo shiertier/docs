@@ -56,6 +56,9 @@ Pretty fancy and modern terminal file manager
 - README：https://raw.githubusercontent.com/yorukot/superfile/main/README.md
 - Releases：https://github.com/yorukot/superfile/releases
 
+## 相关文档
+- [[02-资源/通用开发工具/yazi：使用 Rust 编写、基于异步 I／O 的极速终端文件管理器，旨在提供高效、易用且高度可定制的文件管理体验|yazi：异步 I/O 终端文件管理器]]；关联理由：观点一致；说明：两者都定位于现代终端文件管理器，便于横向比较交互体验、性能取向与配置方式。
+
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/cli]]

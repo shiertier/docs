@@ -58,9 +58,11 @@ Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcr
 
 ## 关联主题
 - [[00-元语/AI]]
+- [[00-元语/github]]
 - [[00-元语/llm]]
 - [[00-元语/asr]]
 - [[00-元语/audio]]
 - [[00-元语/self-hosting]]
 - [[00-元语/desktop-client]]
 - [[00-元语/windows]]
+- [[00-元语/security]]

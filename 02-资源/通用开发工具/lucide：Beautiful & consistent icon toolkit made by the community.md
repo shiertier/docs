@@ -61,5 +61,4 @@ Beautiful & consistent icon toolkit made by the community. Open-source project a
 - [[00-元语/github]]
 - [[00-元语/design]]
 - [[00-元语/community]]
-- [[00-元语/软件工程]]
-- [[00-元语/productivity]]
+- [[00-元语/typescript]]

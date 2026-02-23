@@ -60,4 +60,5 @@ mihomo-party 是一个开源项目，归档分类为“通用开发工具”。G
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/desktop-client]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

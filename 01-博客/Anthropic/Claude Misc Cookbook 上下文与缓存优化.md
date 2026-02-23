@@ -64,6 +64,7 @@ def fetch_article_content(url):
 
 ## 相关文档
 - [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：上下游；说明：该文在工具调用场景落地 context compaction 与 memory 管理，是本篇缓存与会话优化策略的下游工程化实践。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：该文系统解释了上下文压缩与结构化记忆的设计原则，可作为本篇 notebook 策略的理论框架与方法补充。
 
 ## 关联主题
 - [[00-元语/Claude]]
@@ -71,5 +72,6 @@ def fetch_article_content(url):
 - [[00-元语/data-pipeline]]
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
+- [[00-元语/memory]]
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]

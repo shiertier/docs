@@ -35,16 +35,6 @@
 *   **行业泡沫与硬件危机**：记录了 2025 年末全球 AI 行业“狂热退潮，分化开始”的流量现状，以及“硅谷惊变：12万张 H100 的挽歌”所反映的产业波动。
 *   **项目落地失败风险**：明确记录了 AI Agent 在前端实际落地过程中经历过失败，并进行了真实复盘。
 
-## 关联主题
-
-- [[00-元语/learning-resource]]
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/Agent]]
-- [[00-元语/prompt]]
-- [[00-元语/workflow]]
-- [[00-元语/软件工程]]
-
 ## 正文
 - 2026-02-21 OpenAI 应用 CTO 和 Codex 负责人：AI 正在重塑构建软件的方式（https://baoyu.io/blog/2026-02-21/the-pragmatic-summit-inside-openai）
 - 2026-02-21 Cursor 设计负责人：只会画按钮的设计师，有麻烦了（https://baoyu.io/blog/2026-02-21/cursor-ryo-lu-design-team）
@@ -436,3 +426,16 @@
 - 2019-01-04 从软件工程的角度解读任正非的新年公开信（https://baoyu.io/blog/software-engineering/interpreting-ren-zhengfei-open-letter-from-a-software-engineering-perspective）
 - 2018-11-15 记在美国的一次校园招聘（https://baoyu.io/blog/engineering-management/a-campus-recruitment）
 - 2016-06-16 记录下两个孩子在 MineCraft 里面还原公寓的经历（https://baoyu.io/blog/life/two-kids-recreate-apartment-in-minecraft）
+
+## 关联主题
+
+- [[00-元语/learning-resource]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/prompt]]
+- [[00-元语/skills]]
+- [[00-元语/mcp]]
+- [[00-元语/workflow]]
+- [[00-元语/软件工程]]
+- [[00-元语/career]]

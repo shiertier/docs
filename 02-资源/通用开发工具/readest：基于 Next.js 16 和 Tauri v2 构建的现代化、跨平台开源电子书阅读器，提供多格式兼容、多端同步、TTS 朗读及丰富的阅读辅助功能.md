@@ -66,4 +66,5 @@ Readest is a modern, feature-rich ebook reader designed for avid readers offerin
 - [[00-元语/book]]
 - [[00-元语/tts]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

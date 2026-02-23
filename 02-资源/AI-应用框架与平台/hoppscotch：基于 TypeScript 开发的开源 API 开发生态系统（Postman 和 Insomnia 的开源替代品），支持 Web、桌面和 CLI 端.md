@@ -62,3 +62,4 @@ Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-
 - [[00-元语/protocol]]
 - [[00-元语/self-hosting]]
 - [[00-元语/tool]]
+- [[00-元语/typescript]]

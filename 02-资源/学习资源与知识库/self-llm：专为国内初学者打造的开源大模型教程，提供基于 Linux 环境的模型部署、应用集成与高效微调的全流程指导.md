@@ -53,6 +53,7 @@
 - Releases：https://github.com/datawhalechina/self-llm/releases
 
 ## 关联主题
+- [[00-元语/github]]
 - [[00-元语/learning-resource]]
 - [[00-元语/llm]]
 - [[00-元语/lora]]

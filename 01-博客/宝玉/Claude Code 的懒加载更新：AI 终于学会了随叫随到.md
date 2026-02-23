@@ -127,6 +127,7 @@ AI 工具生态也在经历同样的转变。从粗放到精细，从堆功能�
 
 - [[00-元语/mcp]]
 - [[00-元语/context-optimization]]
+- [[00-元语/memory]]
 - [[00-元语/tool]]
 - [[00-元语/protocol]]
 - [[00-元语/cloudflare]]

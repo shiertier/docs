@@ -59,5 +59,6 @@ FlashMLA: Efficient Multi-head Latent Attention Kernels
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/benchmark]]
 - [[00-元语/github]]

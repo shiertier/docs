@@ -55,6 +55,5 @@ chat log tool, easily use your own chat data. 聊天记录工具，轻松使用�
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/github]]
-- [[00-元语/compliance]]
-- [[00-元语/risk]]
+- [[00-元语/memory]]
 - [[00-元语/tool]]

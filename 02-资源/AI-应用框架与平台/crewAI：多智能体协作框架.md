@@ -54,6 +54,10 @@ Framework for orchestrating role-playing, autonomous AI agents. By fostering col
 - README：https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md
 - Releases：https://github.com/crewAIInc/crewAI/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/AutoGen：多智能体协作开发框架|AutoGen：多智能体协作开发框架]]；关联理由：观点一致；说明：两者都聚焦多智能体协作与任务编排，适合并行比较框架能力边界；
+- [[02-资源/AI-应用框架与平台/OpenAI Agents Python：OpenAI 智能体 Python SDK|OpenAI Agents Python：OpenAI 智能体 Python SDK]]；关联理由：解说；说明：可作为同类 Python 智能体开发能力的对照项，帮助区分框架化编排与 SDK 化实现侧重点；
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]

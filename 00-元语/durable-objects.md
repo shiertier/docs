@@ -3,11 +3,11 @@
 ## 文档信息
 
 - 类型：主题词条
-- 更新日期：2026-02-22
+- 更新日期：2026-02-23
 
 ## 定义
 
-用于聚合 Durable Objects 相关文档。Durable Objects 是一种在无服务器架构中提供强一致性状态管理的计算原语，允许开发者在边缘网络上构建有状态的应用程序。
+用于聚合 Durable Objects 相关文档。Durable Objects 是一种在无服务器架构中提供强一致性状态管理的计算原语，允许开发者在边缘网络上构建有状态的应用程序，并在 Cloudflare Workers 生态中作为有状态执行单元使用。
 
 ## 核心内涵
 
@@ -29,6 +29,10 @@
 - [[00-元语/serverless]]
 - [[00-元语/stream-processing]]
 - [[00-元语/rate-limiting]]
+
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/Cloudflare Agents：无服务器 AI Agent 平台|Cloudflare Agents：无服务器 AI Agent 平台]]；关联理由：上下游；说明：该平台以 Durable Objects 作为有状态 Agent 的运行基础，体现了该能力的实际落地场景。
 
 ## 关联主题
 - [[00-元语/cloudflare]]

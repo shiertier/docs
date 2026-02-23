@@ -22,17 +22,6 @@
 *   **上下文窗口限制**：直接向 AI 输入过长的完整数据会导致部分内容被截断或遗弃。
 *   **数学计算能力弱**：大语言模型本身不擅长数学，无法直接基于用户提供的结构化数据进行准确的计算操作。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]
-- [[00-元语/context-optimization]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/Claude]]
-- [[00-元语/数学]]
-
 ## 正文
 问：怎么能让ai更好的读我的prompt里 结构化数组对象数据呢？内容很长感觉就被遗弃了一些
 
@@ -241,3 +230,14 @@ Here is the analysis of your tweet impressions:
 
 Let me know if you'd like a more detailed visualization or further breakdown!
 ```
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/context-optimization]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/Claude]]
+- [[00-元语/workflow]]
+- [[00-元语/tool]]
+- [[00-元语/数学]]

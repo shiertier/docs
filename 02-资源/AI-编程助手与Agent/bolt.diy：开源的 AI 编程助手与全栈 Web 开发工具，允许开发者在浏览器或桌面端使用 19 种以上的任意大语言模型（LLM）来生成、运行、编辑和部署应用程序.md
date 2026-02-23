@@ -59,12 +59,18 @@ Prompt, run, edit, and deploy full-stack web applications using any LLM you want
 - README：https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/README.md
 - Releases：https://github.com/stackblitz-labs/bolt.diy/releases
 
+## 相关文档
+- [[02-资源/AI-编程助手与Agent/OpenCode：终端优先的 AI 编程助手|OpenCode：终端优先的 AI 编程助手]]；关联理由：观点一致；说明：两者都属于开源 AI 编程助手，并强调多模型接入与工程化开发流程。
+- [[02-资源/AI-编程助手与Agent/Cline：直接运行在 IDE 内的开源自治 coding agent，能够在用户全程授权与监控下|Cline：直接运行在 IDE 内的开源自治 coding agent，能够在用户全程授权与监控下]]；关联理由：解说；说明：Cline 代表 IDE 内自治 agent 路线，可作为 bolt.diy 在产品形态与交互边界上的对照参照。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
 - [[00-元语/desktop-client]]
+- [[00-元语/terminal]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]

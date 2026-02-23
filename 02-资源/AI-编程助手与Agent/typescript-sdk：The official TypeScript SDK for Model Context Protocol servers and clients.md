@@ -62,5 +62,6 @@ The official TypeScript SDK for Model Context Protocol servers and clients
 - [[00-元语/llm]]
 - [[00-元语/mcp]]
 - [[00-元语/sdk]]
+- [[00-元语/typescript]]
 - [[00-元语/protocol]]
 - [[00-元语/github]]

@@ -79,4 +79,5 @@ Streamdown 是一个 React 组件库，定位为 `react-markdown` 的 drop-in re
 - [[00-元语/markdown]]
 - [[00-元语/react]]
 - [[00-元语/sdk]]
+- [[00-元语/security]]
 - [[00-元语/stream-processing]]

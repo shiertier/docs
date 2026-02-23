@@ -60,5 +60,4 @@ DuckDB is an analytical in-process SQL database management system
 - [[00-元语/tool]]
 - [[00-元语/data-pipeline]]
 - [[00-元语/ETL]]
-- [[00-元语/PostgreSQL]]
 - [[00-元语/github]]

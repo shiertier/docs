@@ -62,4 +62,5 @@ The open source coding agent.
 - [[00-元语/cli]]
 - [[00-元语/terminal]]
 - [[00-元语/desktop-client]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

@@ -62,5 +62,5 @@ CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、�
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/skills]]
-- [[00-元语/context-database]]
+- [[00-元语/memory]]
 - [[00-元语/github]]

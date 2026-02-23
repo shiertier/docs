@@ -153,4 +153,5 @@ AI 的新篇章由您书写。
 - [[00-元语/memory]]
 - [[00-元语/AI]]
 - [[00-元语/mcp]]
-- [[00-元语/learning-resource]]
+- [[00-元语/Agent]]
+- [[00-元语/workflow]]

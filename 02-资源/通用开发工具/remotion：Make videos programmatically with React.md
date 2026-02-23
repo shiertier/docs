@@ -61,3 +61,4 @@ remotion 是一个开源项目，归档分类为“通用开发工具”。GitHu
 - [[00-元语/video]]
 - [[00-元语/react]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

@@ -18,15 +18,6 @@
 *   **思维链（CoT）原理**：虽然 GPT-4 一次到位的翻译质量尚可，但采用“直译+意译”分步执行能追求更高质量，其原理类似于思维链（CoT）。
 *   **生成即思考**：GPT 生成内容的过程可以理解为它的思考过程，正如人类思考也往往需要分步骤而非一步到位。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/Agent]]
-- [[00-元语/workflow]]
-
 ## 正文
 今天给朋友解释《[一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”](https://baoyu.io/blog/prompt-engineering/a-prompt-for-better-translation-result)》这个 Prompt，开始他没听懂，我说可以这么理解：
 
@@ -53,3 +44,12 @@
 ![Image 1: Two AI Agents](https://baoyu.io/images/prompt-engineering/two-ai-agents-in-one-prompt/two-ai-agents.jpeg)
 
 Two AI Agents
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/workflow]]

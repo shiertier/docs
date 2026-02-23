@@ -20,17 +20,6 @@
 *   **引用内容限制**：仅引用有内容的行，禁止引用空白行、之前的 PR diff、评论，且禁止将 git hash 作为 chunk id。
 *   **引用类型偏好**：优先使用文件引用；终端引用仅用于直接相关的输出（如测试结果）。在 PR 任务中，总结部分使用文件引用，测试部分使用终端引用；在问答任务中，仅在需要程序化验证答案时使用终端引用。
 
-## 关联主题
-
-- [[00-元语/Codex]]
-- [[00-元语/Agent]]
-- [[00-元语/git-worktree]]
-- [[00-元语/prompt]]
-- [[00-元语/terminal]]
-- [[00-元语/workflow]]
-- [[00-元语/compliance]]
-- [[00-元语/github]]
-
 ## 正文
 # Instructions
 
@@ -113,3 +102,14 @@ If completing the user's task requires writing or modifying files:
 - For PR creation tasks, use file citations when referring to code changes in the summary section of your final response, and terminal citations in the testing section.
 
 - For question-answering tasks, you should only use terminal citations if you need to programmatically verify an answer (i.e. counting lines of code). Otherwise, use file citations.
+
+## 关联主题
+
+- [[00-元语/Codex]]
+- [[00-元语/Agent]]
+- [[00-元语/git-worktree]]
+- [[00-元语/prompt]]
+- [[00-元语/terminal]]
+- [[00-元语/workflow]]
+- [[00-元语/compliance]]
+- [[00-元语/github]]

@@ -28,16 +28,6 @@ AgentFS 是一个专为 AI Agents 设计的虚拟文件系统，通过将底层 
 - 项目当前处于 BETA 阶段。
 - 官方建议生产环境谨慎使用并确保数据备份。
 
-## 关联主题
-
-- [[00-元语/Agent]]
-- [[00-元语/virtual-file-system]]
-- [[00-元语/context-database]]
-- [[00-元语/cli]]
-- [[00-元语/sdk]]
-- [[00-元语/compliance]]
-- [[00-元语/risk]]
-
 ## 功能与定位
 AgentFS 定位为“agent 运行时文件系统层”。它不是单纯的文件 API 封装，而是把 agent 的运行时状态（文件、键值上下文、工具调用历史）统一到可挂载、可查询、可快照的 SQLite 文件系统抽象中。
 
@@ -76,3 +66,13 @@ AgentFS 定位为“agent 运行时文件系统层”。它不是单纯的文件
 - User Manual：https://github.com/tursodatabase/agentfs/blob/main/MANUAL.md
 - SPEC：https://github.com/tursodatabase/agentfs/blob/main/SPEC.md
 - 发布页：https://github.com/tursodatabase/agentfs/releases
+
+## 关联主题
+- [[00-元语/Agent]]
+- [[00-元语/virtual-file-system]]
+- [[00-元语/context-database]]
+- [[00-元语/cli]]
+- [[00-元语/sdk]]
+- [[00-元语/protocol]]
+- [[00-元语/compliance]]
+- [[00-元语/risk]]

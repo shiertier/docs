@@ -59,5 +59,5 @@ An open-source framework for making universal native apps with React. Expo runs 
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/react]]
-- [[00-元语/sdk]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

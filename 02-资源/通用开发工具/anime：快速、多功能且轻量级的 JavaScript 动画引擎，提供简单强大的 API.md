@@ -56,5 +56,5 @@ JavaScript animation engine
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/design]]
-- [[00-元语/ui-protocol]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]

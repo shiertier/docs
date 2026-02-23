@@ -63,5 +63,5 @@ TrendRadar 是一款基于 Python 开发的 AI 驱动舆情监控与热点筛选
 - [[00-元语/mcp]]
 - [[00-元语/self-hosting]]
 - [[00-元语/rate-limiting]]
+- [[00-元语/web-crawling]]
 - [[00-元语/workflow]]
-- [[00-元语/tool]]

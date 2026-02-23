@@ -53,6 +53,7 @@ Legado 3.0 Book Reader with powerful controls & full functions❤️阅读3.0, �
 - Releases：https://github.com/gedoor/legado/releases
 
 ## 关联主题
+- [[00-元语/book]]
 - [[00-元语/reading]]
 - [[00-元语/web-crawling]]
 - [[00-元语/protocol]]

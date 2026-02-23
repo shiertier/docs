@@ -59,5 +59,4 @@ An Open Source Machine Learning Framework for Everyone
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/sdk]]
-- [[00-元语/tool]]
 - [[00-元语/github]]

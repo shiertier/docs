@@ -64,3 +64,4 @@ A TTS model capable of generating ultra-realistic dialogue in one pass.
 - [[00-元语/tts]]
 - [[00-元语/audio]]
 - [[00-元语/multimodal]]
+- [[00-元语/deepfake]]

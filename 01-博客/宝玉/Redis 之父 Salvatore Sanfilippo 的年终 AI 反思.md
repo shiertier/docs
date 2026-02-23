@@ -130,5 +130,7 @@ Reflections on AI at the end of 2025 [https://antirez.com/news/157](https://anti
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/evals]]
+- [[00-元语/benchmark]]
 - [[00-元语/软件工程]]
+- [[00-元语/alignment]]
 - [[00-元语/risk]]

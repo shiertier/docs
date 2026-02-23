@@ -63,5 +63,5 @@ An LLM-powered knowledge curation system that researches a topic and generates a
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
-- [[00-元语/knowledge-graph]]
 - [[00-元语/wiki]]
+- [[00-元语/workflow]]

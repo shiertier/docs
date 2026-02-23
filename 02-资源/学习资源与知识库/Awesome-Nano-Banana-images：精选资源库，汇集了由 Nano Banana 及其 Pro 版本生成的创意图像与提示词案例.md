@@ -53,6 +53,9 @@ A curated collection of fun and creative examples generated with Nano Banana & N
 - README：https://raw.githubusercontent.com/PicoTrex/Awesome-Nano-Banana-images/main/README.md
 - Releases：https://github.com/PicoTrex/Awesome-Nano-Banana-images/releases
 
+## 相关文档
+- [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：解说；说明：该文展示了 Nano Banana Pro 在 PPT 生成流程中的提示词与出图实践，可作为本资源库案例的应用解读。
+
 ## 关联主题
 - [[00-元语/github]]
 - [[00-元语/learning-resource]]

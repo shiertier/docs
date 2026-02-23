@@ -21,15 +21,6 @@
 ### 风险与不足
 *   **成本增加**：该三步翻译策略会消耗更多的 Token（但作者指出这可以减少人工校对的时间）。
 
-## 关联主题
-
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/context-optimization]]
-- [[00-元语/markdown]]
-- [[00-元语/workflow]]
-
 ## 正文
 我最近对我的[翻译 GPT](https://chat.openai.com/g/g-uBhKUJJTl-ke-ji-wen-zhang-fan-yi) 做了一点优化，将原来的直译->意译两步拆成了三步：
 
@@ -134,3 +125,12 @@
 现在请按照上面的要求从第一行开始翻译以下内容为简体中文：
 
 ![Image 3](https://baoyu.io/images/prompt-engineering/translator-gpt-prompt-v2/prompt.jpg)![Image 4](https://baoyu.io/images/prompt-engineering/translator-gpt-prompt-v2/result.jpg)
+
+## 关联主题
+
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/context-optimization]]
+- [[00-元语/markdown]]
+- [[00-元语/workflow]]

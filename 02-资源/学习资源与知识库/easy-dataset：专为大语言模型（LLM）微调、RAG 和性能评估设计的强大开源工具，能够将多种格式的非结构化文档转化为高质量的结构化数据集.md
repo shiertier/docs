@@ -57,8 +57,10 @@ A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval
 
 ## 关联主题
 - [[00-元语/llm]]
+- [[00-元语/llmops]]
 - [[00-元语/rag]]
 - [[00-元语/evals]]
 - [[00-元语/data-pipeline]]
+- [[00-元语/ETL]]
 - [[00-元语/multimodal]]
 - [[00-元语/tool]]

@@ -238,6 +238,7 @@ Non-Negotiable Safety Guardrails
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/AI]]
+- [[00-元语/alignment]]
 - [[00-元语/learning-resource]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

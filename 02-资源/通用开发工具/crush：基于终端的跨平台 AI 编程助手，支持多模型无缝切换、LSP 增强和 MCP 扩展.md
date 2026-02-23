@@ -62,6 +62,7 @@ Glamourous agentic coding for all 💘
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/cli]]
+- [[00-元语/ide]]
 - [[00-元语/terminal]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]

@@ -25,15 +25,6 @@
 * 使用 React Hook 方法时，若 ChatGPT 前端更改了属性名称或 state 名称，会导致获取失败。
 * React Hook 方法默认仅支持在控制台或页面直接执行；若在浏览器插件中使用，无法直接拿到该全局变量，必须通过 `RegisteredContentScript` 执行脚本并进行内部通信才能间接获取。
 
-## 关联主题
-
-- [[00-元语/ChatGPT]]
-- [[00-元语/react]]
-- [[00-元语/markdown]]
-- [[00-元语/browser-automation]]
-- [[00-元语/web-crawling]]
-- [[00-元语/prompt]]
-
 ## 正文
 ChatGPT 在输出消息时，会将 Markdown 格式解析成 HTML，虽然可以点击复制按钮去复制原始的 Markdown，但是用代码操作时，却无法通过模拟点击去复制 Markdown。
 
@@ -120,3 +111,12 @@ const messages = getMessagesWithReactDevTools();
 console.log(messages);
 
 })();
+
+## 关联主题
+
+- [[00-元语/ChatGPT]]
+- [[00-元语/react]]
+- [[00-元语/markdown]]
+- [[00-元语/browser-automation]]
+- [[00-元语/web-crawling]]
+- [[00-元语/prompt]]

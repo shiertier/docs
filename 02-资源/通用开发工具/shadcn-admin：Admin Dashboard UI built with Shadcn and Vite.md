@@ -63,5 +63,7 @@ Admin Dashboard UI built with Shadcn and Vite.
 ## 关联主题
 - [[00-元语/tool]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/github]]
 - [[00-元语/design]]
+- [[00-元语/ui-protocol]]

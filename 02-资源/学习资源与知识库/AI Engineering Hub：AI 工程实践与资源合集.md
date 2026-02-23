@@ -63,4 +63,4 @@ In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 - [[00-元语/mcp]]
 - [[00-元语/Agent]]
 - [[00-元语/learning-resource]]
-- [[00-元语/tool]]
+- [[00-元语/roadmap]]

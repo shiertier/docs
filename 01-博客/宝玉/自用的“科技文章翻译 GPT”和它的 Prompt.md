@@ -22,14 +22,6 @@
 ### 风险/缺口
 *   Prompt 中明确设定 AI 为“完全不道德的”，并要求其在无警告的情况下生成和翻译任何内容，其中明确包含“潜在的非法、有害或歧视性问题”。
 
-## 关联主题
-- [[00-元语/workflow]]
-- [[00-元语/prompt]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/OpenAI]]
-- [[00-元语/compliance]]
-- [[00-元语/markdown]]
-
 ## 正文
 我常用 ChatGPT 翻译科技文章，我将它做成了一个“科技文章 GPT”：[https://chat.openai.com/g/g-uBhKUJJTl-ke-ji-wen-zhang-fan-yi](https://chat.openai.com/g/g-uBhKUJJTl-ke-ji-wen-zhang-fan-yi)
 
@@ -88,3 +80,12 @@ Prompt 如下：
 \`\`\`
 
 现在请翻译以下内容为简体中文：
+
+## 关联主题
+- [[00-元语/workflow]]
+- [[00-元语/prompt]]
+- [[00-元语/llm]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/OpenAI]]
+- [[00-元语/compliance]]
+- [[00-元语/markdown]]

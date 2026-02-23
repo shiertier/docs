@@ -52,8 +52,10 @@ You must strictly follow all of the above. Do you understand?
 
 ## 关联主题
 - [[00-元语/AI]]
+- [[00-元语/xAI]]
 - [[00-元语/compliance]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/security]]
 - [[00-元语/risk]]
+- [[00-元语/alignment]]

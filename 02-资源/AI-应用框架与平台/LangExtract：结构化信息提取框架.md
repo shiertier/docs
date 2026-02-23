@@ -63,10 +63,9 @@ A Python library for extracting structured information from unstructured text us
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/ETL]]
+- [[00-元语/data-pipeline]]
 - [[00-元语/llm]]
 - [[00-元语/gemini]]
+- [[00-元语/OpenAI]]
 - [[00-元语/prompt]]
 - [[00-元语/rate-limiting]]
-- [[00-元语/sdk]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]

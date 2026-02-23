@@ -58,10 +58,9 @@ NextChat 是一个开源项目，归档分类为“AI-应用框架与平台”�
 
 ## 关联主题
 - [[00-元语/AI]]
-- [[00-元语/ChatGPT]]
 - [[00-元语/llm]]
-- [[00-元语/react]]
-- [[00-元语/self-hosting]]
+- [[00-元语/ChatGPT]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]
 - [[00-元语/desktop-client]]
 - [[00-元语/windows]]

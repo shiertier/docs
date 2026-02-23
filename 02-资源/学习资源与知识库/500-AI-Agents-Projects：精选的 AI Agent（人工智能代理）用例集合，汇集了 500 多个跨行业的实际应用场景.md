@@ -60,3 +60,4 @@ The 500 AI Agents Projects is a curated collection of AI agent use cases across 
 - [[00-元语/Agent]]
 - [[00-元语/learning-resource]]
 - [[00-元语/github]]
+- [[00-元语/rag]]

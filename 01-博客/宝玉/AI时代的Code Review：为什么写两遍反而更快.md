@@ -79,5 +79,6 @@ Ultimately, AI hasn't just changed how fast we write code, it's changed the econ
 - [[00-元语/CI]]
 - [[00-元语/vibe-coding]]
 - [[00-元语/productivity]]
+- [[00-元语/design]]
 - [[00-元语/软件工程]]
 - [[00-元语/workflow]]

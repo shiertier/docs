@@ -308,5 +308,7 @@ Juice: 256
 - [[00-元语/security]]
 - [[00-元语/compliance]]
 - [[00-元语/browser-automation]]
+- [[00-元语/multimodal]]
+- [[00-元语/workflow]]
 - [[00-元语/risk]]
 - [[00-元语/ocr]]

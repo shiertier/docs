@@ -64,5 +64,6 @@ An Open Source implementation of Notebook LM with more flexibility and features
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/self-hosting]]
+- [[00-元语/security]]
 - [[00-元语/rag]]
 - [[00-元语/mcp]]

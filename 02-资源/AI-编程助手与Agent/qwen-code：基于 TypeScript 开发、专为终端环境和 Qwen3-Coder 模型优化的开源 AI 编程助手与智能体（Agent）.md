@@ -62,6 +62,8 @@ An open-source AI agent that lives in your terminal.
 - [[00-元语/terminal]]
 - [[00-元语/ide]]
 - [[00-元语/sdk]]
+- [[00-元语/typescript]]
 - [[00-元语/llm]]
 - [[00-元语/gemini]]
+- [[00-元语/github]]
 - [[00-元语/workflow]]

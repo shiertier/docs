@@ -157,10 +157,18 @@ Claude 组几乎完成了我们的实验。到当天结束时，他们的机器�
 
 5. 无 Claude 组表现出更多的负面情绪（p = 0.0017），且效应量很大（d = 2.16）。两组之间净情绪表达的差异在统计学上不显著（p = 0.2703）。团队之间负面情绪和净情绪表达的统计比较使用了非参数的曼-惠特尼 U 检验（Mann-Whitney U test），该检验在不假设正态性的情况下测试两个独立组之间分布的差异。p 值是基于秩和统计量及其渐近正态近似，使用双侧备择假设计算的。效应量使用科恩 d 值（Cohen's d）进行量化，计算方法为组均值之差除以合并标准差。
 
-## 相关内容 (Related content)
+## 相关文档
 
-### 实践中测量 AI 智能体的自主性 (Measuring AI agent autonomy in practice)
+- [[01-博客/Anthropic/衡量 AI 智能体在实践中的自主性|衡量 AI 智能体在实践中的自主性]]；关联理由：延伸思考；说明：本文展示了机器人任务中的短期增益，该文补充了真实部署中智能体自主性随使用经验变化的长期观测。
+- [[01-博客/Anthropic/AI 辅助如何影响编程技能的形成|AI 辅助如何影响编程技能的形成]]；关联理由：观点一致；说明：两文都指出 AI 协作会显著改变人类完成技术任务的方式，并带来效率与能力结构变化的权衡。
 
-### 印度国家简报：Anthropic 经济指数 (India Country Brief: The Anthropic Economic Index)
+## 关联主题
 
-### AI 协助如何影响编码技能的形成 (How AI assistance impacts the formation of coding skills)
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/Claude]]
+- [[00-元语/alignment]]
+- [[00-元语/evals]]
+- [[00-元语/hardware-control]]
+- [[00-元语/productivity]]
+- [[00-元语/risk]]

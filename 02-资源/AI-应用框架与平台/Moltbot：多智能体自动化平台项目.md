@@ -56,6 +56,9 @@ Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 - README：https://raw.githubusercontent.com/moltbot/moltbot/main/README.md
 - Releases：https://github.com/moltbot/moltbot/releases
 
+## 相关文档
+- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了.md|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：同一项目的系统提示词拆解文可补充理解其多智能体行为约束与运行机制。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
@@ -65,4 +68,5 @@ Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 - [[00-元语/multimodal]]
 - [[00-元语/security]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]

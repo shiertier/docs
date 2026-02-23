@@ -60,6 +60,7 @@ Building a modern alternative to Salesforce, powered by the community.
 - [[00-元语/github]]
 - [[00-元语/community]]
 - [[00-元语/react]]
+- [[00-元语/typescript]]
 - [[00-元语/PostgreSQL]]
 - [[00-元语/self-hosting]]
 - [[00-元语/workflow]]

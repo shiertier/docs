@@ -55,6 +55,10 @@ Explain complex systems using visuals and simple terms. Help you prepare for sys
 - README：https://raw.githubusercontent.com/ByteByteGoHq/system-design-101/main/README.md
 - Releases：https://github.com/ByteByteGoHq/system-design-101/releases
 
+## 相关文档
+- [[02-资源/学习资源与知识库/System Design Primer：大规模系统设计学习与面试指南|System Design Primer：大规模系统设计学习与面试指南]]；关联理由：延伸思考；说明：两者都聚焦系统设计与面试备考，可互补用于建立从基础概念到题目演练的学习路径。
+- [[02-资源/学习资源与知识库/tech-interview-handbook：专为软件工程师打造的开源技术面试指南，提供从简历准备、算法刷题（如 Grind 75）、行为面试到薪资谈判的全流程精炼学习资源|tech-interview-handbook：专为软件工程师打造的开源技术面试指南，提供从简历准备、算法刷题（如 Grind 75）、行为面试到薪资谈判的全流程精炼学习资源]]；关联理由：引用；说明：该文档明确提到其系统设计内容暂缺并推荐 ByteByteGo 作为外部学习来源，存在直接引用关系。
+
 ## 关联主题
 - [[00-元语/learning-resource]]
 - [[00-元语/interview]]

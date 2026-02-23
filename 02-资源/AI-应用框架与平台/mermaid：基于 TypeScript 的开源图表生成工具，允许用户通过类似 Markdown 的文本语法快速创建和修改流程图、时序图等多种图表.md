@@ -53,8 +53,13 @@ Generation of diagrams like flowcharts or sequence diagrams from text in a simil
 - README：https://raw.githubusercontent.com/mermaid-js/mermaid/develop/README.md
 - Releases：https://github.com/mermaid-js/mermaid/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/Streamdown：面向 AI 流式输出的 Markdown 渲染组件|Streamdown：面向 AI 流式输出的 Markdown 渲染组件]]；关联理由：上下游；说明：Streamdown 将 Mermaid 作为可选渲染插件，Mermaid 是其图表能力的上游语法与渲染基础。
+- [[02-资源/AI-应用框架与平台/gitdiagram：基于 TypeScript 和 OpenAI GPT-5.2 构建的开源工具，能够将任何 GitHub 仓库的代码结构快速转化为可交互的系统架构图|gitdiagram：将 GitHub 仓库结构转化为可交互架构图的工具]]；关联理由：上下游；说明：gitdiagram 生成 Mermaid 代码并渲染架构图，Mermaid 在该流程中承担图表描述与展示层。
+
 ## 关联主题
 - [[00-元语/markdown]]
+- [[00-元语/typescript]]
 - [[00-元语/design]]
 - [[00-元语/软件工程]]
 - [[00-元语/tool]]

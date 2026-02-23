@@ -60,4 +60,5 @@ Hyprland is an independent, highly customizable, dynamic tiling Wayland composit
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/desktop-client]]
+- [[00-元语/protocol]]
 - [[00-元语/ui-protocol]]

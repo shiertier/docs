@@ -26,15 +26,6 @@
 *   **D1 数据库不成熟**：Cloudflare 的 D1 数据库在导入 dump 的 sql 文件时，若表记录内容过长会导致导入失败。
 *   **编辑器缺陷**：TipTap 编辑器在复制粘贴图文混排的 HTML 内容时，默认会将图片移除（作者后续参考 AIEditor 找到了解决方案）。
 
-## 关联主题
-
-- [[00-元语/cloudflare]]
-- [[00-元语/serverless]]
-- [[00-元语/data-pipeline]]
-- [[00-元语/markdown]]
-- [[00-元语/react]]
-- [[00-元语/workflow]]
-
 ## 正文
 之前我的博客系统是部署在 Vercel 上的，最初的版本是基于一个 MDX 静态文件的博客系统（[https://github.com/shadcn-ui/taxonomy](https://github.com/shadcn-ui/taxonomy)）构建的，运行的不错，但随着内容越来越多，流量越来越大后，也存在一些问题。
 
@@ -99,3 +90,12 @@ TipTap 编辑器很好，但是有个坑就是就是复制粘贴图文混排的H
 总的来说结果还不错，现在写一篇内容方便多了，富文本编辑，图片粘贴到编辑器就可以直接上传到服务器。
 
 ![Image 3](https://baoyu.io/uploads/2024-10-02/paste-1727901427654.png)
+
+## 关联主题
+
+- [[00-元语/cloudflare]]
+- [[00-元语/serverless]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/ETL]]
+- [[00-元语/markdown]]
+- [[00-元语/workflow]]

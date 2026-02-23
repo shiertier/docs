@@ -59,11 +59,16 @@ gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI
 - README：https://raw.githubusercontent.com/openai/gpt-oss/main/README.md
 - Releases：https://github.com/openai/gpt-oss/releases
 
+## 相关文档
+- [[02-资源/AI-编程助手与Agent/Codex：OpenAI 终端代码智能体仓库|Codex：OpenAI 终端代码智能体仓库]]；关联理由：上下游；说明：该条目强调 gpt-oss 可通过 Codex 等工具接入，Codex 条目可作为模型能力落地到终端开发流程的下游实现参考。
+- [[02-资源/AI-编程助手与Agent/LocalAI：开源、本地优先的 AI 推理引擎，作为 OpenAI、Claude 等 API 的直接替代方案|LocalAI：开源、本地优先的 AI 推理引擎，作为 OpenAI、Claude 等 API 的直接替代方案]]；关联理由：上下游；说明：两者都覆盖开源模型的本地化与私有化部署路径，LocalAI 条目可补充 gpt-oss 在推理引擎层面的部署对照。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/OpenAI]]
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
+- [[00-元语/Codex]]
 - [[00-元语/github]]
 - [[00-元语/protocol]]
 - [[00-元语/self-hosting]]

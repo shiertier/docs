@@ -130,5 +130,7 @@ Agent 时代已经到来，代码不再稀缺，软件也不再是必须精心�
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
 - [[00-元语/context-database]]
-- [[00-元语/workflow]]
+- [[00-元语/virtual-file-system]]
+- [[00-元语/llmops]]

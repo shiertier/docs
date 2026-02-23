@@ -63,6 +63,7 @@ auto sign cursor
 
 ## 关联主题
 - [[00-元语/Cursor]]
+- [[00-元语/ide]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]
 - [[00-元语/security]]

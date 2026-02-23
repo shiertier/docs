@@ -65,4 +65,7 @@ Free, simple, fast interactive diagrams for any GitHub repository
 - [[00-元语/github]]
 - [[00-元语/OpenAI]]
 - [[00-元语/llm]]
+- [[00-元语/typescript]]
 - [[00-元语/tool]]
+- [[00-元语/self-hosting]]
+- [[00-元语/PostgreSQL]]

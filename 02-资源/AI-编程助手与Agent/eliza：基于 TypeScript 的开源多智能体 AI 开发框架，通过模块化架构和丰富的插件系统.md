@@ -61,5 +61,7 @@ Autonomous agents for everyone
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/blockchain]]
 - [[00-元语/observability]]
 - [[00-元语/github]]
+- [[00-元语/typescript]]

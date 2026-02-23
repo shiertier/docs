@@ -62,4 +62,5 @@ Postiz 是一个基于 TypeScript 开发的开源 AI 社交媒体排期与管理
 - [[00-元语/github]]
 - [[00-元语/sdk]]
 - [[00-元语/self-hosting]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]

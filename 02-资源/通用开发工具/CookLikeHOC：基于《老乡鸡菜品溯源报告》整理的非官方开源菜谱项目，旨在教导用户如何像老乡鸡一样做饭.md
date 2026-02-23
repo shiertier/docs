@@ -60,3 +60,4 @@ Gar-b-age/CookLikeHOC 是一个基于《老乡鸡菜品溯源报告》整理的�
 - [[00-元语/community]]
 - [[00-元语/tool]]
 - [[00-元语/learning-resource]]
+- [[00-元语/self-hosting]]

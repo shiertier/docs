@@ -32,17 +32,6 @@ oh-my-opencode-slim 是一个支持混合多模型提供商的开放多智能体
 *   **环境依赖**：`cartography` 技能底层依赖 Python 引擎 (`cartographer.py`) 管理状态，运行环境必须支持 Python 3。
 *   **监控配置要求**：通过 Tmux 进行智能体实时监控的功能非默认开启，必须在安装时或配置中显式启用。
 
-## 关联主题
-
-- [[00-元语/Agent]]
-- [[00-元语/cli]]
-- [[00-元语/terminal]]
-- [[00-元语/llm]]
-- [[00-元语/skills]]
-- [[00-元语/browser-automation]]
-- [[00-元语/context-optimization]]
-- [[00-元语/workflow]]
-
 ## 功能与定位
 
 oh-my-opencode-slim 是一个面向 OpenCode 的多智能体套件与安装配置工具。它把不同角色的智能体、模型映射、技能与可选的监控集成整理成一套可安装、可切换的预设，让你能用“分工明确的一组智能体”来协作完成编码相关任务。
@@ -84,3 +73,16 @@ oh-my-opencode-slim 是一个面向 OpenCode 的多智能体套件与安装配�
 - README：https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/README.md
 - 安装指南：https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/docs/installation.md
 - 快速参考：https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/docs/quick-reference.md
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/cli]]
+- [[00-元语/terminal]]
+- [[00-元语/github]]
+- [[00-元语/skills]]
+- [[00-元语/browser-automation]]
+- [[00-元语/context-optimization]]
+- [[00-元语/workflow]]

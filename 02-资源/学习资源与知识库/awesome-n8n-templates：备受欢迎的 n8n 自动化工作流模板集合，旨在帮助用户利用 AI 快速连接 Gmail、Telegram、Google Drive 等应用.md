@@ -58,6 +58,10 @@ Supercharge your workflow automation with this curated collection of n8n templat
 - README：https://raw.githubusercontent.com/enescingoz/awesome-n8n-templates/main/README.md
 - Releases：https://github.com/enescingoz/awesome-n8n-templates/releases
 
+## 相关文档
+- [[02-资源/AI-应用框架与平台/n8n：可视化与代码结合的工作流自动化平台|n8n：可视化与代码结合的工作流自动化平台]]；关联理由：上下游；说明：该模板集合以上游 n8n 平台能力为前提，二者构成“平台与模板”的上下游关系。
+- [[02-资源/AI-应用框架与平台/n8n-workflows：n8n 自动化工作流模板集合|n8n-workflows：n8n 自动化工作流模板集合]]；关联理由：观点一致；说明：两者都在沉淀可复用的 n8n 工作流模板资源，可互为选型与对照参考。
+
 ## 关联主题
 - [[00-元语/AI]]
 - [[00-元语/data-pipeline]]

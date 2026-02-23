@@ -203,6 +203,7 @@ Boris 有一点没提的就是基础的 源代码管理/ CI（持续集成） / 
 - [[00-元语/code-review]]
 - [[00-元语/terminal]]
 - [[00-元语/cli]]
+- [[00-元语/memory]]
 - [[00-元语/security]]
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]

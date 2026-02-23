@@ -228,5 +228,6 @@ AI 时代，失败没什么，好过什么都没做。
 - [[00-元语/prompt]]
 - [[00-元语/sdk]]
 - [[00-元语/skills]]
+- [[00-元语/tool]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/workflow]]

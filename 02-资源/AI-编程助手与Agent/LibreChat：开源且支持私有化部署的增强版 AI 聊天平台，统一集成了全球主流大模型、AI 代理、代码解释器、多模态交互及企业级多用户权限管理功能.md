@@ -66,3 +66,5 @@ Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, 
 - [[00-元语/multimodal]]
 - [[00-元语/self-hosting]]
 - [[00-元语/security]]
+- [[00-元语/github]]
+- [[00-元语/typescript]]

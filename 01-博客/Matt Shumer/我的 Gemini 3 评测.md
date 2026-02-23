@@ -68,3 +68,4 @@ Antigravity IDE：很棒，但需要你盯紧它
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/ide]]
+- [[00-元语/Agent]]

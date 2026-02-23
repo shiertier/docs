@@ -61,3 +61,4 @@ def parallel(prompt: str, inputs: list[str], n_workers: int = 3) -> list[str]:
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/evals]]
+- [[00-元语/github]]

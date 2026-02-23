@@ -61,6 +61,7 @@ Community-contributed instructions, prompts, and configurations to help you make
 ## 关联主题
 - [[00-元语/copilot]]
 - [[00-元语/github]]
+- [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/mcp]]
@@ -69,3 +70,5 @@ Community-contributed instructions, prompts, and configurations to help you make
 - [[00-元语/community]]
 - [[00-元语/skills]]
 - [[00-元语/learning-resource]]
+- [[00-元语/sdk]]
+- [[00-元语/security]]

@@ -97,4 +97,8 @@ Agent Builder 构建在 Deep Agents 之上，这是 LangChain 用于自主、长
 - [[00-元语/memory]]
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/skills]]
+- [[00-元语/virtual-file-system]]
+- [[00-元语/llm]]
+- [[00-元语/context-optimization]]
 - [[00-元语/learning-resource]]

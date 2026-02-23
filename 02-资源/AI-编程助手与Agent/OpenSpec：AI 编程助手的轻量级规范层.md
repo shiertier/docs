@@ -31,15 +31,6 @@ OpenSpec 是一个专为 AI 编程助手设计的轻量级规范层工具，通�
 * **特定工具兼容性缺陷**：GitHub Copilot CLI 目前不支持从项目目录加载自定义斜杠命令，需手动设置自定义 Agent 作为变通方案（IDE 扩展不受此影响）。
 * **隐私与数据收集**：默认收集匿名使用统计数据（仅命令名称和版本），需手动设置环境变量（`OPENSPEC_TELEMETRY=0` 或 `DO_NOT_TRACK=1`）才能退出收集。
 
-## 关联主题
-
-- [[00-元语/AI]]
-- [[00-元语/Spec驱动开发]]
-- [[00-元语/workflow]]
-- [[00-元语/Agent]]
-- [[00-元语/tool]]
-- [[00-元语/cli]]
-
 ## 功能与定位
 
 OpenSpec 是一个面向 AI 编程助手的“规范与工件层”工具：把需求、设计与任务拆成可追踪的 Markdown 工件，让人和 AI 在写代码前先对齐“要做什么、怎么验证、怎么实现”，并把变更过程保存在代码库里，避免需求只停留在聊天上下文中。
@@ -91,3 +82,12 @@ OpenSpec 是一个面向 AI 编程助手的“规范与工件层”工具：把�
 - CLI 参考：https://github.com/Fission-AI/OpenSpec/blob/main/docs/cli.md
 - 支持的工具列表：https://github.com/Fission-AI/OpenSpec/blob/main/docs/supported-tools.md
 - Discord：https://discord.gg/YctCnvvshC
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Spec驱动开发]]
+- [[00-元语/workflow]]
+- [[00-元语/Agent]]
+- [[00-元语/tool]]
+- [[00-元语/cli]]
