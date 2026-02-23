@@ -284,6 +284,20 @@ cat > "$RUNTIME_DIR/quartz/styles/custom.scss" <<'CUSTOM_STYLE_EOF'
     background-color: #0a0a0a !important;
   }
 }
+
+/* Sidebar explorer: increase title spacing and add subtle separators. */
+.explorer .explorer-content li {
+  margin: 0.18rem 0;
+}
+
+.explorer .explorer-content li > a,
+.explorer .folder-container .folder-title,
+.explorer .folder-container .folder-button > span {
+  line-height: 1.38;
+  padding: 0.12rem 0.16rem 0.3rem;
+  border-bottom: 1px solid rgba(122, 133, 151, 0.32);
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 76%, transparent);
+}
 CUSTOM_STYLE_EOF
 
 echo "[quartz:prepare] runtime prepared at $RUNTIME_DIR"
