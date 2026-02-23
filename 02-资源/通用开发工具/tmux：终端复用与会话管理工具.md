@@ -51,5 +51,5 @@ Stars快照: "42104"
 - [[00-元语/tool]]
 - [[00-元语/github]]
 - [[00-元语/cli]]
-- [[00-元语/desktop-client]]
+- [[00-元语/terminal]]
 - [[00-元语/workflow]]

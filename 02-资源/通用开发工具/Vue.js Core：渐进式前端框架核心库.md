@@ -46,6 +46,5 @@ Vue.js 是一个开源项目，该仓库（vuejs/core）为其核心代码库。
 
 - [[00-元语/tool]]
 - [[00-元语/github]]
-- [[00-元语/cli]]
-- [[00-元语/desktop-client]]
+- [[00-元语/typescript]]
 - [[00-元语/workflow]]
