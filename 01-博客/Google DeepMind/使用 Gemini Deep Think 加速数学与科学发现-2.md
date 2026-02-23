@@ -82,3 +82,9 @@ Gemini Deep Think 模式在计算机科学和物理学领域也展现出了巨�
 ### 致谢
 
 本项目是 Google 内部的一项大规模合作，其成功归功于众多个人和团队的共同努力。Thang Luong 和 Vahab Mirrokni 领导了整体研究方向，Tony Feng 和 David Woodruff 提供了深厚的技术专长。我们感谢参与构建智能体推理的 Google 研究人员、进行验证与合作的学术专家，以及为 Deep Think 构建基础模型的 Gemini 后训练（Post-Training）团队。同时，也感谢数学、物理和计算机科学界的专家们为本项目提供的帮助与建议。
+
+## 关联主题
+- [[00-元语/gemini]]
+- [[00-元语/Agent]]
+- [[00-元语/数学]]
+- [[00-元语/llm]]

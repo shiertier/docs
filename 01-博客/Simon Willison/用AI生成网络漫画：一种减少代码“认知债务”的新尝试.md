@@ -43,3 +43,12 @@ Nathan Baschez 曾在 Twitter 上分享过他目前最喜欢的一个减少“�
 它确实生成了一份网络漫画。这份作品足够优秀到可以和版本发布说明一起公开吗？我认为还不够。
 
 我在这里分享这个案例，纯粹是为了展示这个想法。将创建此类内容作为一种个人思考工具，用来探索解释新功能的新颖方式，我认为是非常值得进一步探索的方向。
+
+## 相关文档
+- [[01-博客/Simon Willison/介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat|介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat]]；关联理由：版本演进；说明：两文都基于 Showboat v0.5.0 到 v0.6.0 的同一版本变化，本文是将该变更用于“代码差异可视化解释”的衍生实践。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/软件工程]]
+- [[00-元语/interactive-storytelling]]

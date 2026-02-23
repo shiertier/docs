@@ -60,3 +60,15 @@ Claude Code Security 建立在对 Claude 网络安全能力一年多的研究基
 即日起，我们向企业（Enterprise）和团队（Team）客户开放 Claude Code Security 的受限研究预览。参与者将获得早期访问权限，并与我们的团队直接合作以进一步完善该工具的能力。
 
 同时，我们强烈鼓励开源项目维护者申请免费的加速访问权限。
+
+## 相关文档
+
+- [[01-博客/Anthropic/Claude Code Security：为防御者提供前沿网络安全能力|Claude Code Security：为防御者提供前沿网络安全能力]]；关联理由：同一事件；说明：两篇文档都整理自同一篇 Anthropic 发布稿（`/news/claude-code-security`），属于同一发布事件的并行归档。
+- [[01-博客/Anthropic/为网络防御者构建 AI 系统|为网络防御者构建 AI 系统]]；关联理由：上下游；说明：本文提到的 Claude Code Security 能力建立在一年多网络防御研究基础上，关联文档展开了该上游能力建设与评测证据。
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Claude]]
+- [[00-元语/security]]
+- [[00-元语/risk]]

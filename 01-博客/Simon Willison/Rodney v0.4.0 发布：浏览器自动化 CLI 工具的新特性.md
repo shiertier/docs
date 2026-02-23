@@ -38,3 +38,8 @@
 我一直在使用 Showboat 来为新功能制作演示视频，目前已经完成了关于 `rodney assert`、`rodney reload --hard`、`rodney exit codes` 以及 `rodney start --local` 的功能演示。
 
 其中，`rodney assert` 命令非常巧妙：你现在可以通过编写 Shell 脚本，使用 Rodney 分多个步骤来测试 Web 应用程序（具体用法可参考 README 文件中的改编示例）。
+
+## 关联主题
+- [[00-元语/browser-automation]]
+- [[00-元语/cli]]
+- [[00-元语/tool]]

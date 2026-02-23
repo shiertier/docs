@@ -33,3 +33,12 @@ Alejandro R. Salamanca, Diana Abagyan, Daniel D’souza, Ammar Khairi, David Mor
 *   **SimMerge**：从相似性信号中学习选择合并操作（Learning to Select Merge Operators from Similarity Signals）
 *   **Making, not Taking, the Best of N**：关于最优生成的探索
 *   **EAGER**：用于自适应推理时间扩展的熵感知生成（Entropy-Aware Generation for Adaptive Inference-Time Scaling）
+
+## 相关文档
+- [[01-博客/Cohere/释放AI潜能：探索Aya多语言大模型系列.md|释放AI潜能：探索Aya多语言大模型系列]]；关联理由：解说；说明：该文系统梳理 Aya 系列演进并包含 Tiny Aya 的定位与版本划分，可补充本篇背景。
+- [[01-博客/Cohere/解锁大型语言模型在机器翻译中的推理能力.md|解锁大型语言模型在机器翻译中的推理能力]]；关联理由：延伸思考；说明：本文提到的 Best of N 研究在该文有更集中讨论，可延伸理解 Tiny Aya 的相关研究脉络。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/paper]]

@@ -49,3 +49,7 @@ NVIDIA正携手西门子、新思科技、Cadence等全球工业软件巨头以�
 *   **Tata Consulting Engineers**：正在推出其基于NVIDIA Omniverse构建的Cognitive Twin（认知孪生）平台，以创建实时工业模拟，将物理资产与制造、能源和基础设施领域的数字智能联系起来。该平台通过早期模拟和AI辅助决策，支持资本项目规划和运营优化。目前，该平台已与印度国家高速铁路公司、Torrent Power和印度电网公司开展试点项目。
 
 如需了解更多未来趋势，请关注NVIDIA GTC大会上的工业AI和制造相关会议。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/hardware-control]]

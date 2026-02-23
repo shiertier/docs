@@ -198,3 +198,12 @@ trainer.push_to_hub()
 * [Unsloth Jobs Explorers 免费额度领取](https://huggingface.co/unsloth-jobs)
 * [Hugging Face Jobs 上的 Unsloth 教程](https://unsloth.ai/docs/basics/inference-and-deployment/deploying-with-hugging-face-jobs)
 * [Unsloth Jobs 示例脚本](https://huggingface.co/datasets/unsloth/jobs)
+
+## 关联主题
+- [[00-元语/llm]]
+- [[00-元语/lora]]
+- [[00-元语/cli]]
+- [[00-元语/skills]]
+- [[00-元语/Agent]]
+- [[00-元语/Codex]]
+- [[00-元语/Claude]]

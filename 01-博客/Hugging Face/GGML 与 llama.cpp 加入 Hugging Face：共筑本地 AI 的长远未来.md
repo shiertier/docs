@@ -45,3 +45,14 @@ Hugging Face 将为该项目提供长期、可持续的资源支持，提升项�
 我们的共同目标是为社区提供坚实的构建块，在未来几年内让开源超级智能（open-source superintelligence）惠及全球。
 
 我们将与不断壮大的本地 AI 社区携手共进，继续打造能在我们的设备上以最高效率运行的终极推理技术栈。
+
+## 相关文档
+- [[01-博客/Hugging Face/GGML 与 llama.cpp 加入 Hugging Face|GGML 与 llama.cpp 加入 Hugging Face]]；关联理由：版本演进；说明：该文是同源主题的较早归档版本，可用于对照本稿的结构化整理结果。
+- [[02-资源/AI-模型与推理基础设施/llama.cpp：轻量级本地大模型推理引擎|llama.cpp：轻量级本地大模型推理引擎]]；关联理由：解说；说明：该档案补充了 llama.cpp 的技术定位与生态背景，有助于理解本文“本地推理基础构建块”的含义。
+- [[02-资源/AI-模型与推理基础设施/Transformers：Hugging Face 大模型框架|Transformers：Hugging Face 大模型框架]]；关联理由：上下游；说明：本文强调 transformers 与 llama.cpp 的衔接目标，该条目提供上游框架背景与生态上下文。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/community]]
+- [[00-元语/self-hosting]]

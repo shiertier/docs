@@ -58,3 +58,9 @@ CoreWeave 工程高级副总裁 Chen Goldberg 表示：“随着推理成为 AI 
 随着 NVIDIA Blackwell 系统的大规模部署，持续的软件优化将不断为现有用户解锁更多的性能提升和成本优化空间。
 
 展望未来，将六款新芯片整合为一台 AI 超级计算机的 NVIDIA Rubin 平台，即将带来新一轮的巨大性能飞跃。在 MoE 推理方面，与 Blackwell 相比，Rubin 的每兆瓦吞吐量提升了高达 10 倍，这意味着每百万 Token 的成本将降至十分之一。而对于下一代前沿 AI 模型，Rubin 训练大型 MoE 模型所需的 GPU 数量仅为 Blackwell 的四分之一。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/benchmark]]

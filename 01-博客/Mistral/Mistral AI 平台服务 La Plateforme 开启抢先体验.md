@@ -49,3 +49,8 @@ Mistral AI 正式开放其平台服务 La Plateforme 的 Beta 测试权限，首
 我们非常感谢 NVIDIA 在整合 TensorRT-LLM 和 Triton 方面给予的支持，并感谢他们与我们并肩合作，使稀疏混合专家模型（sparse mixture of experts）能够兼容 TRT-LLM。
 
 AI 的下一篇章属于你。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/sdk]]

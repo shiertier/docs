@@ -80,3 +80,9 @@ Gemini 3.1 Pro 专为那些“给出一个简单答案远远不够”的任务�
 *   https://www.ai.jp.net/article/google-s-gemini-3-1-pro-a-new-reasoning-champion-c710f5
 *   https://x.com/ShunyuYao14
 *   https://deepmind.google/models/gemini/pro/
+
+## 关联主题
+- [[00-元语/gemini]]
+- [[00-元语/benchmark]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]

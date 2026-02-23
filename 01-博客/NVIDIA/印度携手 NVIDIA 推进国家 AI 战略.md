@@ -73,3 +73,10 @@ NVIDIA 正与印度政府下属的法定机构——国家研究基金会（ANRF
 NVIDIA 将为 ANRF 的受资助机构提供 NVIDIA AI Enterprise 软件的免费访问权限，并通过 NVIDIA AI 技术中心提供专门的技术指导。此次合作还将包括 AI 训练营、研讨会和黑客马拉松，以加强印度的 AI 研究生态系统。
 
 此外，NVIDIA 还与 Peak XV、Z47、Elevation Capital、Nexus Venture Partners 和 Accel India 等知名风险投资公司合作，寻找并资助处于各个阶段、为印度和国际市场构建 AI 解决方案的优秀初创企业。目前，已有超过 4000 家印度 AI 初创企业加入了 NVIDIA Inception 计划。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/audio]]
+- [[00-元语/tts]]

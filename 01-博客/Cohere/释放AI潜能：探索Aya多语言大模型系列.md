@@ -64,3 +64,9 @@ Aya 项目在多语言 AI 领域不断取得突破，其重要发布历程如下
 **学术与行业认可：**
 *   **ACL 2024 最佳论文奖**：授予《Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model》。
 *   **斯坦福大学 HAI 2024 年度精选发布**：授予《Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning》。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/benchmark]]

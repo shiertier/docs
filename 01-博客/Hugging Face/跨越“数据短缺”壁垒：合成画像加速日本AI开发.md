@@ -92,3 +92,9 @@ NTT DATA 使用了 NVIDIA Nemotron-Personas-Japan（这是 NVIDIA 首个开源�
 *   **NTT DATA 详细技术报告:** [https://www.nttdata.com/jp/ja/trends/data-insight/2026/0219/](https://www.nttdata.com/jp/ja/trends/data-insight/2026/0219/)
 
 *(注：Nemotron-Personas-Japan 基于 CC BY 4.0 许可，支持商用与非商用。)*
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/compliance]]

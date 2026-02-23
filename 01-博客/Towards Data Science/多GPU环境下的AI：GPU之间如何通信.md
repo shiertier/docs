@@ -85,3 +85,11 @@ InfiniBand主要负责节点间通信。虽然它比NVSwitch慢得多（也便�
 ### 总结
 
 了解CPU-GPU和GPU-GPU通信的基础知识（PCIe、NVLink、NVSwitch和InfiniBand）以及分布式GPU计算的关键设计原则，能够帮助我们在设计AI工作负载时做出更明智的决策。在后续的内容中，我们将进一步探讨具体的并行技术，例如分布式数据并行（DDP）。
+
+## 相关文档
+- [[01-博客/Towards Data Science/构建企业级本地 AI 的 GPUaaS 架构：Kubernetes 上的多租户、调度与成本模型|构建企业级本地 AI 的 GPUaaS 架构：Kubernetes 上的多租户、调度与成本模型]]；关联理由：上下游；说明：该文聚焦企业侧多 GPU 资源调度与租户隔离，是本文通信基础设施在平台层落地的上游设计。
+- [[01-博客/Mistral/vLLM 内存泄漏排查|vLLM 内存泄漏排查]]；关联理由：延伸思考；说明：该文从 UCX 与 InfiniBand 相关问题切入，补充了跨节点高速通信栈在实际工程中的稳定性风险。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/protocol]]

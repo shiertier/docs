@@ -59,3 +59,8 @@ Pandas 团队正式发布了 pandas 3.0.0 版本。作为一次重大更新，�
 > “我并不认为行业真的抛弃了 pandas。相比 Polars，pandas 的使用规模依然十分庞大。但我完全认同，即便有这些改动，pandas 的 API 与性能仍远不及 Polars。”
 
 目前，Pandas 3.0.0 已经在 PyPI 和 conda 上发布，官方同时附带了迁移指南，详细概述了破坏性更改和推荐的升级步骤。
+
+## 关联主题
+- [[00-元语/ETL]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/benchmark]]

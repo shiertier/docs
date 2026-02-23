@@ -80,3 +80,11 @@ Claude Opus 4.6 今日起在 claude.ai、我们的 API 以及所有主要云平�
 *   **Claude Code Security**：现已在 Web 端 Claude Code 中提供有限的研究预览版，可扫描代码库中的安全漏洞并建议针对性的软件补丁，帮助团队发现传统方法经常遗漏的安全问题。
 *   **卢旺达合作**：Anthropic 与卢旺达政府签署了关于医疗和教育领域 AI 应用的谅解备忘录。
 *   **推出 Claude Sonnet 4.6**：同步推出，在编程、代理和专业工作方面提供规模化的前沿性能。
+
+## 关联主题
+- [[00-元语/Claude]]
+- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/benchmark]]
+- [[00-元语/context-optimization]]
+- [[00-元语/security]]

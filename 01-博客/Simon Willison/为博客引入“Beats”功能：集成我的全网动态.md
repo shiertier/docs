@@ -54,3 +54,10 @@ Claude 还处理了所有可能显得繁琐的网站 UI 集成工作，确保新
 经过几次迭代，我们得到了一个 Artifact 视觉稿。这足以让我确信这个概念是可行的，并值得交由完整的 Claude Code 来实现网页端。
 
 如果你想了解后续的构建过程，最有趣的 Pull Requests 是实现核心功能的 Beats #592，以及添加博物馆内容类型的 Add Museums Beat importer #595。
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/Claude]]
+- [[00-元语/github]]
+- [[00-元语/vibe-coding]]

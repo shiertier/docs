@@ -171,3 +171,9 @@ LangChain 是一个构建 LLM 驱动系统的框架，结合了推理和执行�
 ### 参考资料
 * Müller, T., Smith, J., & Li, K. (2023). LangChain: A framework for developing applications with large language models. GitHub repository.
 * OpenAI. (2023). OpenAI API documentation.
+
+## 关联主题
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/workflow]]
+- [[00-元语/observability]]

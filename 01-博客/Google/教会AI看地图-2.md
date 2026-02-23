@@ -89,3 +89,10 @@
 *   **增强无障碍体验：** 为视障人士提供清晰、循序渐进的建筑物内部路径描述工具。
 
 *(注：本研究由 Artemis Panagopoulou、Mohit Goyal 及 Google 研究团队的其他成员共同完成。)*
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/gemini]]
+- [[00-元语/benchmark]]

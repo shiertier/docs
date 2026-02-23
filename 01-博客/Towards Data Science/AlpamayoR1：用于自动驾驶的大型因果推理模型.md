@@ -98,3 +98,10 @@ Cosmos-Reason 处理视觉和文本 token 以及近期的自车历史状态（�
 *   [2] AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE (Vision Transformer)
 *   [3] Towards Efficient and Effective Multi-Camera Encoding for End-to-End Driving (Flex)
 *   [4] DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO loss)
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/multimodal]]
+- [[00-元语/decision-making]]
+- [[00-元语/paper]]

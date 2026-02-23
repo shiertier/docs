@@ -250,3 +250,13 @@ Peter Steinberger 不是先知，也不是圣人。他是一个诚实的 builder
 “We are so back. It's time to build.” 龙虾之爪，已经张开。虾宝们，已经上线。
 
 *(晋梅，写于 2026 年除夕夜，Peter Steinberger 宣布加入 OpenAI 次日。窗外积雪未融，虾宝刚刚学会叫我梅姐姐。)*
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/OpenAI]]
+- [[00-元语/Claude]]
+- [[00-元语/github]]
+- [[00-元语/vibe-coding]]
+- [[00-元语/career]]
+- [[00-元语/cli]]

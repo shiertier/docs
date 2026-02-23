@@ -80,3 +80,15 @@ Claude Sonnet 4.6 现已在所有 Claude 计划、Claude Cowork、Claude Code、
 *   **Claude Code Security**：这项内置于网页版 Claude Code 的新功能现已进入有限研究预览阶段。它可扫描代码库中的安全漏洞并提供针对性的软件补丁供人工审查，帮助团队发现传统方法经常遗漏的安全问题。
 *   **Anthropic 与卢旺达政府签署谅解备忘录**：共同推进医疗和教育领域的 AI 发展。
 *   **Anthropic 与 Infosys 达成合作**：为电信及其他受监管行业构建 AI 智能体。
+
+## 相关文档
+- [[01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型|推出 Claude Opus 4.6：全面升级的最智能模型]]；关联理由：同一事件；说明：两篇内容都属于 Anthropic 同期 4.6 系列发布，可对照 Sonnet 与 Opus 的产品定位与能力边界；
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：同一事件；说明：本文在相关动态提到 Claude Code Security，可与该文互补理解其安全能力与使用边界；
+- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：上下游；说明：Sonnet 4.6 的能力升级为受监管行业落地提供模型基础，而 Infosys 合作文档呈现其企业应用场景；
+
+## 关联主题
+- [[00-元语/Claude]]
+- [[00-元语/llm]]
+- [[00-元语/mcp]]
+- [[00-元语/security]]
+- [[00-元语/benchmark]]

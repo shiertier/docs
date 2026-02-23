@@ -58,3 +58,14 @@ OpenAI将在印度扩展“OpenAI认证”项目，TCS将成为美国本土以�
 > “OpenAI与塔塔集团的这项战略合作，是印度迈向全球AI领导者愿景的重要里程碑。我们很高兴能与OpenAI合作，在印度打造最先进的AI基础设施。对于OpenAI和TCS来说，这是推动行业转型的绝佳机遇。我们将共同致力于提升印度青年的技能，赋能他们在AI时代取得成功。”
 > 
 > —— N Chandrasekaran，塔塔集团董事长
+
+## 相关文档
+
+- [[01-博客/OpenAI/推出 OpenAI for India|推出 OpenAI for India]]；关联理由：同一事件；说明：两文均报道 2026-02-18 发布的 OpenAI for India 计划，可用于交叉核对同一发布事实与表述差异。
+
+## 关联主题
+
+- [[00-元语/OpenAI]]
+- [[00-元语/AI]]
+- [[00-元语/ChatGPT]]
+- [[00-元语/compliance]]

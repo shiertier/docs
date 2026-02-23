@@ -99,3 +99,8 @@ Gradio 内置了 32 个交互式组件，但有时你完美的 AI Web 应用需�
 **推荐阅读：**
 *   Gradio 指南：[使用 gr.HTML 的自定义组件 (Custom Components with gr.HTML)](https://www.gradio.app/guides/custom-HTML-components)
 *   API 文档：[gr.HTML](https://www.gradio.app/docs/gradio/html)
+
+## 关联主题
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/vibe-coding]]

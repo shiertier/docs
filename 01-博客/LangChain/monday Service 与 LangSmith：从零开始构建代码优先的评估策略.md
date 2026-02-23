@@ -125,3 +125,10 @@ monday Service 是一个 AI 原生的企业服务管理（ESM）平台，旨在�
 随着我们评估逻辑的成熟，我们希望以与生产代码相同的严谨性来管理它——版本控制、PR 审查、CI/CD。LangSmith 的 API 优先架构使这种实现变得自然，允许我们的自定义部署管道将 TypeScript 定义直接同步到 LangSmith 平台。
 
 这为我们带来了两全其美的结果：LangSmith 强大的评估基础设施与我们团队的 GitOps 工作流相结合。我们预计，随着生态系统的成熟，这种模式将变得更加普遍，并有可能演变成类似于 Terraform 模块的标准化“评估即基础设施（Evaluations as Infrastructure）”工具。
+
+## 关联主题
+- [[00-元语/Agent]]
+- [[00-元语/evals]]
+- [[00-元语/observability]]
+- [[00-元语/CI]]
+- [[00-元语/workflow]]
