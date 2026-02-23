@@ -15,6 +15,14 @@
     "其他": "#38bdf8"
   };
   var DEFAULT_SWATCHES = ["#ef5d5d", "#5b8bff", "#f3c75f", "#bf7cff", "#d97706", "#0ea5e9", "#10b981"];
+  var PRIORITY_PATH_COLOR_RULES = [
+    { terms: ["claude"], color: "#d97757" }, // 217,119,87
+    { terms: ["gemini"], color: "#a261d4" }, // 162,97,212
+    { terms: ["openai", "codex", "chatgpt", "chat-gpt"], color: "#000000" }, // 0,0,0
+    { terms: ["deepseek"], color: "#0072d1" }, // 0,114,209
+    { terms: ["memo", "memory"], color: "#00ffbf" }, // 0,255,191
+    { terms: ["ai", "agent"], color: "#82bcf2" }, // 130,188,242
+  ];
   var graphDataPromise = null;
   var mermaidReadyPromise = null;
   var tocCleanup = null;
@@ -517,7 +525,32 @@
     return defaults;
   }
 
-  function colorForGroup(group, paletteRows) {
+  function colorForPath(path) {
+    var normalizedPath = String(path || "").toLowerCase();
+    if (!normalizedPath) return null;
+    var filename = normalizedPath.split("/").pop() || "";
+
+    // pale yellow for coding-related paths or filenames containing "开发"
+    if (normalizedPath.indexOf("coding") !== -1 || filename.indexOf("开发") !== -1) {
+      return "#fef3c7";
+    }
+
+    for (var i = 0; i < PRIORITY_PATH_COLOR_RULES.length; i += 1) {
+      var rule = PRIORITY_PATH_COLOR_RULES[i];
+      for (var j = 0; j < rule.terms.length; j += 1) {
+        if (normalizedPath.indexOf(rule.terms[j]) !== -1) {
+          return rule.color;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  function colorForGroup(group, paletteRows, path) {
+    var keywordColor = colorForPath(path);
+    if (keywordColor) return keywordColor;
+
     var normalizedGroup = normalizeGroupToken(group || "其他");
 
     for (var i = 0; i < paletteRows.length; i += 1) {
@@ -1136,7 +1169,7 @@
         var isDimmed = !!focusSet && !focusSet.has(node.id);
         var visualRadius = (node.r || 5) * appearance.nodeScale;
 
-        var fill = colorForGroup(node.group, paletteRows);
+        var fill = colorForGroup(node.group, paletteRows, node.id);
 
         ctx.save();
         ctx.globalAlpha = isDimmed ? 0.3 : 1;
