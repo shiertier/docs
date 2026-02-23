@@ -24,11 +24,15 @@ CONTENT_DIR="$RUNTIME_DIR/content"
 rm -rf "$CONTENT_DIR"
 mkdir -p "$CONTENT_DIR"
 
-for dir in "00-元语" "01-博客" "02-资源" "03-图书" "04-聊天"; do
-  if [ -d "$ROOT_DIR/$dir" ]; then
-    cp -a "$ROOT_DIR/$dir" "$CONTENT_DIR/"
+shopt -s nullglob
+copied_dirs=0
+for src_dir in "$ROOT_DIR"/0[0-4]-*; do
+  if [ -d "$src_dir" ]; then
+    cp -a "$src_dir" "$CONTENT_DIR/"
+    copied_dirs=$((copied_dirs + 1))
   fi
 done
+shopt -u nullglob
 
 cat > "$CONTENT_DIR/index.md" <<'INDEX_EOF'
 ---
@@ -223,3 +227,5 @@ LAYOUT_EOF
 
 echo "[quartz:prepare] runtime prepared at $RUNTIME_DIR"
 echo "[quartz:prepare] baseUrl=$BASE_URL"
+markdown_count="$(find "$CONTENT_DIR" -type f -name '*.md' | wc -l | tr -d ' ')"
+echo "[quartz:prepare] copied_dirs=$copied_dirs markdown_files=$markdown_count"
