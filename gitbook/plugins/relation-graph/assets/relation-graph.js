@@ -4,6 +4,17 @@
   var GRAPH_DATA_FILE = "graph-data.json";
   var GRAPH_MAX_NODES = 320;
   var ROOT_SECTIONS = ["00-元语", "01-博客", "02-资源", "03-图书", "04-聊天"];
+  var GRAPH_STYLE_STORAGE_KEY = "relation-graph.style.v2";
+  var HOVER_HELP_TEXT = "悬停节点可查看标题，点击节点可跳转";
+  var DEFAULT_GROUP_COLORS = {
+    "00-元语": "#4f7cff",
+    "01-博客": "#ef5d5d",
+    "02-资源": "#6ee7b7",
+    "03-图书": "#f3c75f",
+    "04-聊天": "#bf7cff",
+    "其他": "#38bdf8"
+  };
+  var DEFAULT_SWATCHES = ["#ef5d5d", "#5b8bff", "#f3c75f", "#bf7cff", "#d97706", "#0ea5e9", "#10b981"];
   var graphDataPromise = null;
   var mermaidReadyPromise = null;
   var tocCleanup = null;
@@ -398,16 +409,137 @@
     return { nodes: selectedNodes, links: selectedLinks, truncated: true };
   }
 
-  function colorForGroup(group) {
-    var map = {
-      "00-元语": "#2563eb",
-      "01-博客": "#059669",
-      "02-资源": "#d97706",
-      "03-图书": "#7c3aed",
-      "04-聊天": "#db2777",
-      "其他": "#64748b"
-    };
-    return map[group] || map["其他"];
+  function clamp(value, min, max) {
+    return Math.min(max, Math.max(min, value));
+  }
+
+  function readNumberOr(value, fallback) {
+    var num = Number(value);
+    return Number.isFinite(num) ? num : fallback;
+  }
+
+  function sanitizeHexColor(value, fallback) {
+    var candidate = String(value || "").trim();
+    if (/^#[0-9a-f]{6}$/i.test(candidate)) return candidate.toLowerCase();
+    if (/^#[0-9a-f]{3}$/i.test(candidate)) {
+      return (
+        "#" +
+        candidate[1] + candidate[1] +
+        candidate[2] + candidate[2] +
+        candidate[3] + candidate[3]
+      ).toLowerCase();
+    }
+    return fallback;
+  }
+
+  function normalizeGroupToken(value) {
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[\s_]+/g, "-")
+      .replace(/[^\w\u4e00-\u9fa5-]/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function defaultColorForGroup(group, index) {
+    if (DEFAULT_GROUP_COLORS[group]) return DEFAULT_GROUP_COLORS[group];
+    return DEFAULT_SWATCHES[index % DEFAULT_SWATCHES.length];
+  }
+
+  function buildDefaultPaletteRows(groupCounts) {
+    var groups = Object.keys(groupCounts || {}).sort(function (a, b) {
+      return a.localeCompare(b, "zh-Hans-CN");
+    });
+
+    return groups.map(function (group, index) {
+      return {
+        id: "group-" + index + "-" + Date.now(),
+        groupKey: group,
+        query: "path:" + normalizeGroupToken(group || "其他"),
+        color: defaultColorForGroup(group, index),
+      };
+    });
+  }
+
+  function loadStoredGraphStyle() {
+    try {
+      var raw = window.localStorage.getItem(GRAPH_STYLE_STORAGE_KEY);
+      if (!raw) return null;
+      return JSON.parse(raw);
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function saveStoredGraphStyle(style) {
+    try {
+      window.localStorage.setItem(GRAPH_STYLE_STORAGE_KEY, JSON.stringify(style));
+    } catch (err) {
+      // ignore write failures in private mode or restricted storage
+    }
+  }
+
+  function buildPaletteRows(groupCounts, storedPalette) {
+    var defaults = buildDefaultPaletteRows(groupCounts);
+    if (!Array.isArray(storedPalette) || storedPalette.length === 0) return defaults;
+
+    var byGroup = new Map();
+    var custom = [];
+    storedPalette.forEach(function (item, index) {
+      if (!item || typeof item !== "object") return;
+      var row = {
+        id: String(item.id || ("custom-" + index + "-" + Date.now())),
+        groupKey: item.groupKey ? String(item.groupKey) : null,
+        query: String(item.query || ""),
+        color: sanitizeHexColor(item.color, DEFAULT_SWATCHES[index % DEFAULT_SWATCHES.length]),
+      };
+      if (row.groupKey) byGroup.set(row.groupKey, row);
+      else custom.push(row);
+    });
+
+    defaults.forEach(function (row, index) {
+      var saved = byGroup.get(row.groupKey);
+      if (!saved) return;
+      row.query = saved.query || row.query;
+      row.color = sanitizeHexColor(saved.color, row.color || defaultColorForGroup(row.groupKey, index));
+      row.id = saved.id || row.id;
+    });
+
+    custom.forEach(function (row, index) {
+      defaults.push({
+        id: row.id || ("custom-" + index + "-" + Date.now()),
+        groupKey: null,
+        query: row.query || "path:",
+        color: sanitizeHexColor(row.color, DEFAULT_SWATCHES[(index + defaults.length) % DEFAULT_SWATCHES.length]),
+      });
+    });
+
+    return defaults;
+  }
+
+  function colorForGroup(group, paletteRows) {
+    var normalizedGroup = normalizeGroupToken(group || "其他");
+
+    for (var i = 0; i < paletteRows.length; i += 1) {
+      var direct = paletteRows[i];
+      if (direct.groupKey && direct.groupKey === group) {
+        return sanitizeHexColor(direct.color, defaultColorForGroup(group, i));
+      }
+    }
+
+    for (var j = 0; j < paletteRows.length; j += 1) {
+      var row = paletteRows[j];
+      var query = String(row.query || "").trim().toLowerCase();
+      if (!query) continue;
+      var term = query.indexOf("path:") === 0 ? query.slice(5).trim() : query;
+      var normalizedTerm = normalizeGroupToken(term);
+      if (!normalizedTerm) continue;
+      if (normalizedGroup.indexOf(normalizedTerm) !== -1) {
+        return sanitizeHexColor(row.color, defaultColorForGroup(group, j));
+      }
+    }
+
+    return defaultColorForGroup(group || "其他", 0);
   }
 
   function buildInitialPositions(nodes) {
@@ -512,13 +644,15 @@
     };
   }
 
-  function findNodeAt(nodes, canvasState, x, y) {
+  function findNodeAt(nodes, canvasState, x, y, nodeScale) {
     var world = pointerToWorld(canvasState, x, y);
+    var scale = typeof nodeScale === "number" ? nodeScale : 1;
     for (var i = nodes.length - 1; i >= 0; i -= 1) {
       var node = nodes[i];
+      var radius = ((node.r || 5) * scale) + 4;
       var dx = world.x - node.x;
       var dy = world.y - node.y;
-      if (dx * dx + dy * dy <= (node.r + 4) * (node.r + 4)) {
+      if (dx * dx + dy * dy <= radius * radius) {
         return node;
       }
     }
@@ -536,13 +670,40 @@
     ctx.closePath();
   }
 
+  function drawArrowHead(ctx, from, to, radius, widthFactor) {
+    var dx = to.x - from.x;
+    var dy = to.y - from.y;
+    var dist = Math.sqrt(dx * dx + dy * dy);
+    if (!dist || dist < 1) return;
+
+    var nx = dx / dist;
+    var ny = dy / dist;
+    var tipGap = radius + 3;
+    var tipX = to.x - nx * tipGap;
+    var tipY = to.y - ny * tipGap;
+    var length = (9 + widthFactor * 2) / Math.max(1, widthFactor + 0.3);
+    var half = length * 0.46;
+
+    var baseX = tipX - nx * length;
+    var baseY = tipY - ny * length;
+    var ox = -ny * half;
+    var oy = nx * half;
+
+    ctx.beginPath();
+    ctx.moveTo(tipX, tipY);
+    ctx.lineTo(baseX + ox, baseY + oy);
+    ctx.lineTo(baseX - ox, baseY - oy);
+    ctx.closePath();
+    ctx.fill();
+  }
+
   function drawGrid(ctx, width, height, state) {
     var grid = 36;
     var startX = state.offsetX % grid;
     var startY = state.offsetY % grid;
 
     ctx.save();
-    ctx.strokeStyle = "rgba(120, 139, 177, 0.16)";
+    ctx.strokeStyle = "rgba(140, 161, 199, 0.1)";
     ctx.lineWidth = 1;
 
     for (var x = startX; x < width; x += grid) {
@@ -562,17 +723,18 @@
     ctx.restore();
   }
 
-  function buildGraphHud(container, groupCounts, statsText) {
+  function buildGraphHud(container, options) {
     var hud = document.createElement("div");
     hud.className = "relation-graph-hud";
 
-    var top = document.createElement("div");
-    top.className = "relation-graph-hud-top";
+    var panel = document.createElement("div");
+    panel.className = "relation-graph-panel";
+    hud.appendChild(panel);
 
-    var badge = document.createElement("div");
-    badge.className = "relation-graph-title";
-    badge.textContent = "关系图谱";
-    top.appendChild(badge);
+    var title = document.createElement("div");
+    title.className = "relation-graph-title";
+    title.textContent = "关系图谱";
+    panel.appendChild(title);
 
     var controls = document.createElement("div");
     controls.className = "relation-graph-controls";
@@ -589,60 +751,194 @@
 
     controls.appendChild(resetBtn);
     controls.appendChild(centerBtn);
-    top.appendChild(controls);
+    panel.appendChild(controls);
 
-    hud.appendChild(top);
+    var colorSection = document.createElement("section");
+    colorSection.className = "relation-graph-section";
 
-    var legend = document.createElement("div");
-    legend.className = "relation-graph-legend";
+    var colorTitle = document.createElement("div");
+    colorTitle.className = "relation-graph-section-title";
+    colorTitle.textContent = "颜色组";
+    colorSection.appendChild(colorTitle);
 
-    var orderedGroups = Object.keys(groupCounts).sort(function (a, b) {
-      return a.localeCompare(b, "zh-Hans-CN");
-    });
+    var colorList = document.createElement("div");
+    colorList.className = "relation-graph-color-list";
+    colorSection.appendChild(colorList);
 
-    orderedGroups.forEach(function (group) {
-      var item = document.createElement("div");
-      item.className = "relation-graph-legend-item";
+    var addColorBtn = document.createElement("button");
+    addColorBtn.type = "button";
+    addColorBtn.className = "relation-graph-btn relation-graph-btn-primary";
+    addColorBtn.textContent = "新建颜色组";
+    colorSection.appendChild(addColorBtn);
 
-      var dot = document.createElement("span");
-      dot.className = "dot";
-      dot.style.background = colorForGroup(group);
+    panel.appendChild(colorSection);
 
-      var text = document.createElement("span");
-      text.className = "text";
-      text.textContent = group + " · " + groupCounts[group];
+    var appearanceSection = document.createElement("section");
+    appearanceSection.className = "relation-graph-section";
 
-      item.appendChild(dot);
-      item.appendChild(text);
-      legend.appendChild(item);
-    });
+    var appearanceTitle = document.createElement("div");
+    appearanceTitle.className = "relation-graph-section-title";
+    appearanceTitle.textContent = "外观";
+    appearanceSection.appendChild(appearanceTitle);
+
+    var arrowRow = document.createElement("div");
+    arrowRow.className = "relation-graph-appearance-row";
+    var arrowLabel = document.createElement("span");
+    arrowLabel.textContent = "箭头";
+    var arrowToggle = document.createElement("input");
+    arrowToggle.type = "checkbox";
+    arrowToggle.className = "relation-graph-switch";
+    arrowToggle.checked = !!options.appearance.showArrows;
+    arrowRow.appendChild(arrowLabel);
+    arrowRow.appendChild(arrowToggle);
+    appearanceSection.appendChild(arrowRow);
+
+    function createSliderRow(labelText, min, max, step, value) {
+      var row = document.createElement("div");
+      row.className = "relation-graph-slider-row";
+      var label = document.createElement("label");
+      label.className = "relation-graph-slider-label";
+      label.textContent = labelText;
+      var input = document.createElement("input");
+      input.type = "range";
+      input.min = String(min);
+      input.max = String(max);
+      input.step = String(step);
+      input.value = String(value);
+      input.className = "relation-graph-slider";
+      row.appendChild(label);
+      row.appendChild(input);
+      appearanceSection.appendChild(row);
+      return input;
+    }
+
+    var textOpacityInput = createSliderRow("文本透明度", 0, 100, 1, Math.round(options.appearance.textOpacity * 100));
+    var nodeSizeInput = createSliderRow("节点大小", 60, 160, 1, Math.round(options.appearance.nodeScale * 100));
+    var edgeWidthInput = createSliderRow("连线粗细", 50, 220, 1, Math.round(options.appearance.edgeScale * 100));
+
+    var animateBtn = document.createElement("button");
+    animateBtn.type = "button";
+    animateBtn.className = "relation-graph-btn relation-graph-btn-primary";
+    animateBtn.textContent = "播放动画";
+    appearanceSection.appendChild(animateBtn);
+
+    panel.appendChild(appearanceSection);
 
     var hover = document.createElement("div");
     hover.className = "relation-graph-hover";
-    hover.textContent = "悬停节点可查看标题，点击节点可跳转";
+    hover.textContent = HOVER_HELP_TEXT;
 
     var stats = document.createElement("div");
     stats.className = "relation-graph-meta";
-    stats.textContent = statsText;
+    stats.textContent = options.statsText;
 
-    hud.appendChild(legend);
-    hud.appendChild(hover);
-    hud.appendChild(stats);
-
+    panel.appendChild(hover);
+    panel.appendChild(stats);
     container.appendChild(hud);
+
+    function renderColorRows() {
+      colorList.innerHTML = "";
+      options.paletteRows.forEach(function (row, index) {
+        var item = document.createElement("div");
+        item.className = "relation-graph-color-row";
+
+        var queryInput = document.createElement("input");
+        queryInput.type = "text";
+        queryInput.className = "relation-graph-color-query";
+        queryInput.value = row.query || "";
+        queryInput.placeholder = "path:关键词";
+        queryInput.setAttribute("aria-label", "颜色组筛选词");
+        queryInput.addEventListener("change", function () {
+          row.query = queryInput.value.trim();
+          options.onStyleChange();
+        });
+
+        var colorInput = document.createElement("input");
+        colorInput.type = "color";
+        colorInput.className = "relation-graph-color-picker";
+        colorInput.value = sanitizeHexColor(row.color, DEFAULT_SWATCHES[index % DEFAULT_SWATCHES.length]);
+        colorInput.setAttribute("aria-label", "颜色组颜色");
+        colorInput.addEventListener("input", function () {
+          row.color = colorInput.value;
+          options.onStyleChange();
+        });
+
+        var removeBtn = document.createElement("button");
+        removeBtn.type = "button";
+        removeBtn.className = "relation-graph-remove-btn";
+        removeBtn.textContent = "×";
+        removeBtn.setAttribute("aria-label", "删除颜色组");
+        removeBtn.addEventListener("click", function () {
+          options.paletteRows.splice(index, 1);
+          renderColorRows();
+          options.onStyleChange();
+        });
+
+        item.appendChild(queryInput);
+        item.appendChild(colorInput);
+        item.appendChild(removeBtn);
+        colorList.appendChild(item);
+      });
+    }
+
+    renderColorRows();
+
+    addColorBtn.addEventListener("click", function () {
+      options.paletteRows.push({
+        id: "custom-" + Date.now() + "-" + options.paletteRows.length,
+        groupKey: null,
+        query: "path:",
+        color: DEFAULT_SWATCHES[options.paletteRows.length % DEFAULT_SWATCHES.length],
+      });
+      renderColorRows();
+      options.onStyleChange();
+    });
+
+    arrowToggle.addEventListener("change", function () {
+      options.appearance.showArrows = !!arrowToggle.checked;
+      options.onStyleChange();
+    });
+
+    textOpacityInput.addEventListener("input", function () {
+      options.appearance.textOpacity = clamp(Number(textOpacityInput.value) / 100, 0, 1);
+      options.onStyleChange();
+    });
+
+    nodeSizeInput.addEventListener("input", function () {
+      options.appearance.nodeScale = clamp(Number(nodeSizeInput.value) / 100, 0.6, 1.6);
+      options.onStyleChange();
+    });
+
+    edgeWidthInput.addEventListener("input", function () {
+      options.appearance.edgeScale = clamp(Number(edgeWidthInput.value) / 100, 0.5, 2.2);
+      options.onStyleChange();
+    });
+
+    animateBtn.addEventListener("click", function () {
+      options.onToggleAnimation();
+    });
 
     return {
       hover: hover,
+      stats: stats,
       resetBtn: resetBtn,
       centerBtn: centerBtn,
-      stats: stats,
+      setAnimationState: function (running) {
+        animateBtn.textContent = running ? "停止动画" : "播放动画";
+      },
     };
   }
 
   function renderGraphCanvas(container, graph, currentSlug, siteBase, graphStats) {
     container.innerHTML = "";
-
-    var hud = buildGraphHud(container, graphStats.groupCounts, graphStats.metaText);
+    var storedStyle = loadStoredGraphStyle() || {};
+    var paletteRows = buildPaletteRows(graphStats.groupCounts || {}, storedStyle.palette);
+    var appearance = {
+      showArrows: !!(storedStyle.appearance && storedStyle.appearance.showArrows),
+      textOpacity: clamp(readNumberOr(storedStyle.appearance && storedStyle.appearance.textOpacity, 0.88), 0, 1),
+      nodeScale: clamp(readNumberOr(storedStyle.appearance && storedStyle.appearance.nodeScale, 1), 0.6, 1.6),
+      edgeScale: clamp(readNumberOr(storedStyle.appearance && storedStyle.appearance.edgeScale, 1), 0.5, 2.2),
+    };
 
     var canvas = document.createElement("canvas");
     canvas.className = "relation-graph-canvas";
@@ -694,7 +990,46 @@
       lastY: 0,
       downNode: null,
       hoverNode: null,
+      isAnimating: false,
+      animationFrame: null,
+      animationT: 0,
+      animationBaseX: 0,
+      animationBaseY: 0,
     };
+
+    function persistGraphStyle() {
+      saveStoredGraphStyle({
+        palette: paletteRows.map(function (row) {
+          return {
+            id: row.id,
+            groupKey: row.groupKey || null,
+            query: row.query || "",
+            color: sanitizeHexColor(row.color, "#64748b"),
+          };
+        }),
+        appearance: {
+          showArrows: !!appearance.showArrows,
+          textOpacity: clamp(appearance.textOpacity, 0, 1),
+          nodeScale: clamp(appearance.nodeScale, 0.6, 1.6),
+          edgeScale: clamp(appearance.edgeScale, 0.5, 2.2),
+        },
+      });
+    }
+
+    var hud = buildGraphHud(container, {
+      groupCounts: graphStats.groupCounts || {},
+      statsText: graphStats.metaText,
+      paletteRows: paletteRows,
+      appearance: appearance,
+      onStyleChange: function () {
+        persistGraphStyle();
+        draw();
+      },
+      onToggleAnimation: function () {
+        if (state.isAnimating) stopAnimation();
+        else startAnimation();
+      },
+    });
 
     var getCurrentNode = function () {
       return currentSlug ? nodeMap.get(currentSlug) : null;
@@ -719,6 +1054,39 @@
       state.offsetY = height / 2 - node.y * state.scale;
     };
 
+    function stopAnimation() {
+      if (!state.isAnimating) return;
+      state.isAnimating = false;
+      if (state.animationFrame) {
+        cancelAnimationFrame(state.animationFrame);
+        state.animationFrame = null;
+      }
+      state.offsetX = state.animationBaseX;
+      state.offsetY = state.animationBaseY;
+      hud.setAnimationState(false);
+      draw();
+    }
+
+    function startAnimation() {
+      if (state.isAnimating) return;
+      state.isAnimating = true;
+      state.animationT = 0;
+      state.animationBaseX = state.offsetX;
+      state.animationBaseY = state.offsetY;
+      hud.setAnimationState(true);
+
+      var tick = function () {
+        if (!state.isAnimating) return;
+        state.animationT += 0.03;
+        state.offsetX = state.animationBaseX + Math.sin(state.animationT * 1.6) * 12;
+        state.offsetY = state.animationBaseY + Math.cos(state.animationT * 1.2) * 8;
+        draw();
+        state.animationFrame = requestAnimationFrame(tick);
+      };
+
+      state.animationFrame = requestAnimationFrame(tick);
+    }
+
     function draw() {
       var width = canvas.clientWidth;
       var height = canvas.clientHeight;
@@ -737,6 +1105,8 @@
         neighbors.forEach(function (id) { focusSet.add(id); });
       }
 
+      var edgeBaseColor = "rgba(134, 152, 184, 0.3)";
+      var edgeFocusColor = "rgba(129, 160, 255, 0.78)";
       for (var i = 0; i < links.length; i += 1) {
         var link = links[i];
         var a = link._source;
@@ -747,13 +1117,16 @@
           state.hoverNode && (a.id === state.hoverNode.id || b.id === state.hoverNode.id);
 
         ctx.beginPath();
-        ctx.lineWidth = (isFocusEdge ? 1.9 : 1.05) / Math.max(1, state.scale);
-        ctx.strokeStyle = isFocusEdge
-          ? "rgba(37, 99, 235, 0.52)"
-          : "rgba(123, 138, 165, 0.19)";
+        ctx.lineWidth = (isFocusEdge ? 1.85 : 1.05) * appearance.edgeScale / Math.max(1, state.scale);
+        ctx.strokeStyle = isFocusEdge ? edgeFocusColor : edgeBaseColor;
         ctx.moveTo(a.x, a.y);
         ctx.lineTo(b.x, b.y);
         ctx.stroke();
+
+        if (appearance.showArrows) {
+          ctx.fillStyle = isFocusEdge ? edgeFocusColor : "rgba(134, 152, 184, 0.5)";
+          drawArrowHead(ctx, a, b, (b.r || 5) * appearance.nodeScale, appearance.edgeScale);
+        }
       }
 
       for (var n = 0; n < nodes.length; n += 1) {
@@ -761,31 +1134,32 @@
         var isCurrent = node.id === currentSlug;
         var isHover = state.hoverNode && state.hoverNode.id === node.id;
         var isDimmed = !!focusSet && !focusSet.has(node.id);
+        var visualRadius = (node.r || 5) * appearance.nodeScale;
 
-        var fill = colorForGroup(node.group);
+        var fill = colorForGroup(node.group, paletteRows);
 
         ctx.save();
-        ctx.globalAlpha = isDimmed ? 0.36 : 1;
-        ctx.shadowColor = isCurrent || isHover ? "rgba(30, 64, 175, 0.45)" : "rgba(15, 23, 42, 0.18)";
-        ctx.shadowBlur = isCurrent || isHover ? 16 : 7;
+        ctx.globalAlpha = isDimmed ? 0.3 : 1;
+        ctx.shadowColor = isCurrent || isHover ? "rgba(92, 123, 255, 0.64)" : "rgba(0, 0, 0, 0.45)";
+        ctx.shadowBlur = isCurrent || isHover ? 20 : 8;
 
         ctx.beginPath();
         ctx.fillStyle = fill;
-        ctx.arc(node.x, node.y, node.r + (isHover ? 1.1 : 0), 0, Math.PI * 2);
+        ctx.arc(node.x, node.y, visualRadius + (isHover ? 1.15 : 0), 0, Math.PI * 2);
         ctx.fill();
 
         if (isCurrent || isHover) {
           ctx.beginPath();
           ctx.lineWidth = 2.2 / Math.max(1, state.scale);
-          ctx.strokeStyle = isCurrent ? "#0f172a" : "#1d4ed8";
-          ctx.arc(node.x, node.y, node.r + 3.2, 0, Math.PI * 2);
+          ctx.strokeStyle = isCurrent ? "#f8fbff" : "#91a8ff";
+          ctx.arc(node.x, node.y, visualRadius + 3.4, 0, Math.PI * 2);
           ctx.stroke();
         }
         ctx.restore();
       }
 
-      var shouldShowLabels = state.scale > 0.9;
-      if (shouldShowLabels || state.hoverNode) {
+      var shouldShowLabels = state.scale > 0.92;
+      if ((shouldShowLabels || state.hoverNode) && appearance.textOpacity > 0.03) {
         ctx.font = "12px 'SF Pro Text','PingFang SC','Noto Sans SC',sans-serif";
         ctx.textBaseline = "middle";
         ctx.textAlign = "left";
@@ -800,15 +1174,18 @@
 
           var label = item.title || item.id;
           var textWidth = ctx.measureText(label).width;
-          var x = item.x + item.r + 5;
+          var x = item.x + ((item.r || 5) * appearance.nodeScale) + 5;
           var y = item.y;
 
           ctx.save();
-          ctx.globalAlpha = focus ? 1 : 0.9;
+          ctx.globalAlpha = (focus ? 1 : 0.92) * appearance.textOpacity;
           drawRoundedRect(ctx, x - 4, y - 9, textWidth + 8, 18, 6);
-          ctx.fillStyle = "rgba(255,255,255,0.88)";
+          ctx.fillStyle = "rgba(13, 17, 24, 0.84)";
           ctx.fill();
-          ctx.fillStyle = "#1f2937";
+          ctx.strokeStyle = "rgba(156, 176, 214, 0.32)";
+          ctx.lineWidth = 1 / Math.max(1, state.scale);
+          ctx.stroke();
+          ctx.fillStyle = "#e5edf9";
           ctx.fillText(label, x, y);
           ctx.restore();
         }
@@ -830,10 +1207,11 @@
     };
 
     var onMouseDown = function (event) {
+      if (state.isAnimating) stopAnimation();
       var rect = canvas.getBoundingClientRect();
       var x = event.clientX - rect.left;
       var y = event.clientY - rect.top;
-      var node = findNodeAt(nodes, state, x, y);
+      var node = findNodeAt(nodes, state, x, y, appearance.nodeScale);
 
       state.moved = false;
       state.lastX = x;
@@ -865,14 +1243,14 @@
         state.offsetY += dy;
       }
 
-      var hoverNode = findNodeAt(nodes, state, x, y);
+      var hoverNode = findNodeAt(nodes, state, x, y, appearance.nodeScale);
       if (hoverNode !== state.hoverNode) {
         state.hoverNode = hoverNode;
         if (hoverNode) {
           hud.hover.textContent = hoverNode.title || hoverNode.id;
           canvas.style.cursor = "pointer";
         } else {
-          hud.hover.textContent = "悬停节点可查看标题，点击节点可跳转";
+          hud.hover.textContent = HOVER_HELP_TEXT;
           canvas.style.cursor = state.isPanning ? "grabbing" : "grab";
         }
       }
@@ -902,12 +1280,13 @@
       state.isPanning = false;
       state.downNode = null;
       state.hoverNode = null;
-      hud.hover.textContent = "悬停节点可查看标题，点击节点可跳转";
+      hud.hover.textContent = HOVER_HELP_TEXT;
       canvas.style.cursor = "grab";
       draw();
     };
 
     var onWheel = function (event) {
+      if (state.isAnimating) stopAnimation();
       event.preventDefault();
       var rect = canvas.getBoundingClientRect();
       var x = event.clientX - rect.left;
@@ -923,11 +1302,13 @@
     };
 
     var onReset = function () {
+      if (state.isAnimating) stopAnimation();
       resetViewport();
       draw();
     };
 
     var onCenterCurrent = function () {
+      if (state.isAnimating) stopAnimation();
       var current = getCurrentNode();
       if (current) {
         centerOnNode(current, Math.max(1.05, state.scale));

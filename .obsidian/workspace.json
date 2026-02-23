@@ -11,14 +11,10 @@
             "id": "f8952b3405eee351",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-元语/windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "windows"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-元语/windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "windows 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-元语/windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "windows 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-元语/windows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "windows 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -185,42 +178,42 @@
   },
   "active": "f8952b3405eee351",
   "lastOpenFiles": [
+    "01-博客/Anthropic/Anthropic 班加罗尔办事处正式成立，全面深化印度市场合作.md",
+    "01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型-2.md",
+    "01-博客/Cohere/Tiny Aya：在规模与多语言深度之间架起桥梁.md",
+    "01-博客/Cohere/塑造机器学习研究的前沿：Cohere Labs 的使命与愿景.md",
+    "01-博客/Cohere/解锁大型语言模型在机器翻译中的推理能力-2.md",
+    "01-博客/Cohere/释放AI潜能：探索Aya多语言大模型系列.md",
+    "01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览.md",
+    "01-博客/Mistral/Mistral AI 平台服务 La Plateforme 开启抢先体验.md",
+    "01-博客/NVIDIA/NVIDIA Blackwell Ultra：为代理型 AI 带来 50 倍性能提升与 35 倍成本降低.md",
+    "01-博客/Google/教会AI看地图-2.md",
+    "01-博客/Google/我们的2026年负责任的AI进展报告.md",
+    "01-博客/InfoQ/当 AI 开始拥有灵魂：逐句解读 OpenClaw 的 SOUL.md",
+    "01-博客/Hugging Face/使用 Gradio 的 gr.HTML 一键构建任意 Web 应用.md",
+    "01-博客/InfoQ/Pandas 3.0 重磅发布：核心逻辑重构与关键特性解析.md",
+    "01-博客/InfoQ/OpenClaw 创始人正式加入 OpenAI：项目保持开源并成立基金会.md",
+    "01-博客/InfoQ/使用 AI 生成 MVP 对软件架构意味着什么.md",
+    "01-博客/Towards Data Science/现代大语言模型中最奇怪的瓶颈及TiDAR的破局之道.md",
+    "01-博客/NVIDIA/NVIDIA携手全球工业软件巨头与印度头部制造商，共推工业AI热潮.md",
+    "01-博客/Towards Data Science/铁三角：分析AI产品开发权衡的强大工具.md",
+    "01-博客/Towards Data Science/使用 OpenClaw 打造个人 AI 助手.md",
+    "01-博客/InfoQ/Shadcn 发布全新可视化项目构建工具.md",
+    "01-博客/Towards Data Science/从零开始构建 LangGraph 智能体.md",
+    "01-博客/NVIDIA/印度科技巨头借助 NVIDIA AI 打造下一代企业智能体，重塑业务流程.md",
+    "01-博客/Towards Data Science/AI项目评估的提前规划.md",
+    "01-博客/Towards Data Science/使用代理 AI 自动化现代深度学习实验.md",
+    "01-博客/Towards Data Science/为什么每个分析工程师都必须懂数据架构.md",
+    "01-博客/QbitAI",
+    "01-博客/Towards Data Science",
+    "01-博客/InfoQ",
+    "01-博客/NVIDIA",
+    "01-博客/Ethan Mollick",
+    "01-博客/Simon Willison",
     "scripts/push_dual_remote.sh",
-    "00-元语/web-crawling.md",
-    "00-元语/virtual-file-system.md",
-    "00-元语/Spec驱动开发.md",
-    "00-元语/react.md",
-    "00-元语/meta.md",
-    "00-元语/hardware-control.md",
-    "00-元语/context-optimization.md",
-    "00-元语/blockchain.md",
-    "00-元语/audio.md",
-    "01-博客/宝玉/有了 v0 的完整提示词，是不是就能做一个 v0出来了？.md",
-    "01-博客/Anthropic/构建高效智能体：Building Effective Agents.md",
-    "00-元语/无限大脑.md",
     "02-资源/AI-编程助手与Agent/sedlpNSM3",
     "02-资源/AI-编程助手与Agent/XXsTYv8f",
-    "00-元语/fastapi.md",
-    "00-元语/typescript.md",
-    "01-博客/微信公众平台/FLUX.2开源了，但是我好像也看到了小公司的无力。.md",
-    "00-元语/xAI.md",
-    "00-元语/alignment.md",
-    "01-博客/Anthropic/Building Effective Agents：构建高效智能体.md",
-    "01-博客/Anthropic/构建高效智能体.md",
     "scripts/prepare_quartz_site.sh",
-    "node_modules/qs/CHANGELOG.md",
-    "node_modules/es-define-property/test/index.js",
-    "node_modules/es-define-property/test",
-    "node_modules/livereload-js/dist/livereload.js",
-    "node_modules/livereload-js/dist",
-    "node_modules/tmp/lib/tmp.js",
-    "node_modules/tmp/lib",
-    "node_modules/gitbook-plugin-livereload/book/plugin.js",
-    "01-博客/微信公众平台/SuperDesign：输入自然语言即可生成UI界面的开源设计Agent.md",
-    "01-博客/微信公众平台/微软开源！80.6K星工具 MarkItDown，一键转换20+文件格式.md",
-    "01-博客/微信公众平台/推荐 4 个实用、好玩儿的 GitHub 开源项目.md",
-    "01-博客/知乎/为什么感觉现在AI Agent都是雷声大雨点小？.md",
-    "01-博客/微信公众平台/终于有个简单的多Agent入门教程了，蚂蚁这次上大分.md",
     "node_modules/cpr/cpr.jpg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/fonts/fontawesome/fontawesome-webfont.svg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/images/apple-touch-icon-precomposed-152.png",
