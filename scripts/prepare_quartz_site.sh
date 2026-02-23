@@ -270,6 +270,11 @@ cat > "$RUNTIME_DIR/quartz/styles/custom.scss" <<'CUSTOM_STYLE_EOF'
   --hero-shadow: 0 8px 24px color-mix(in srgb, var(--dark) 14%, transparent);
 }
 
+:root[saved-theme="dark"] {
+  --light: #0a0a0a;
+  --lightgray: #151515;
+}
+
 body[saved-theme="dark"] {
   --hero-border: color-mix(in srgb, var(--dark) 22%, transparent);
   --hero-surface: color-mix(in srgb, var(--light) 84%, var(--dark) 16%);
@@ -278,6 +283,11 @@ body[saved-theme="dark"] {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root[saved-theme="auto"] {
+    --light: #0a0a0a;
+    --lightgray: #151515;
+  }
+
   body[saved-theme="auto"] {
     --hero-border: color-mix(in srgb, var(--dark) 22%, transparent);
     --hero-surface: color-mix(in srgb, var(--light) 84%, var(--dark) 16%);
