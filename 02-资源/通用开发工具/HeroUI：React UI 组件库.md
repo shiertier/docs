@@ -1,5 +1,5 @@
 ---
-title: "heroui：packages-core-react-README.md项目"
+title: "HeroUI：React UI 组件库"
 对象: "GitHub 项目"
 项目主页: "https://github.com/heroui-inc/heroui"
 Stars快照: "28217"
@@ -21,6 +21,7 @@ HeroUI 是一个托管于 GitHub、拥有逾 2.8 万 Stars 的开源项目，主
 * 输入材料缺失具体的 README 文本内容，导致暂无更多详细的功能与应用场景描述。
 
 ## 功能与定位
+
 根据提供的仓库路径信息（`packages/core/react`），该项目包含与 React 相关的核心代码包。（注：因输入材料未包含具体的 README 文本内容，暂无更多功能与场景描述）。
 
 ## 链接

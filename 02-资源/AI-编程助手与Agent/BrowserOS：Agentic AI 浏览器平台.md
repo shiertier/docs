@@ -1,5 +1,5 @@
 ---
-title: "BrowserOS：开源的 Agentic AI 浏览器项目"
+title: "BrowserOS：Agentic AI 浏览器平台"
 对象: "GitHub 项目"
 项目主页: "https://github.com/browseros-ai/BrowserOS"
 Stars快照: "9429"

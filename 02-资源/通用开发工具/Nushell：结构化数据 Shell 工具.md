@@ -1,5 +1,5 @@
 ---
-title: "nushell：新型结构化 Shell项目"
+title: "Nushell：结构化数据 Shell 工具"
 对象: "GitHub 项目"
 项目主页: "https://github.com/nushell/nushell"
 Stars快照: "38506"

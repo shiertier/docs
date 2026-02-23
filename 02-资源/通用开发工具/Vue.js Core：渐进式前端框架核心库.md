@@ -1,5 +1,5 @@
 ---
-title: "core：vuejs-core项目"
+title: "Vue.js Core：渐进式前端框架核心库"
 对象: "GitHub 项目"
 项目主页: "https://github.com/vuejs/core"
 Stars快照: "53044"
@@ -24,12 +24,15 @@ Vue.js (vuejs/core) 是采用 MIT 协议的开源前端框架核心代码库，�
 * **Issue 关闭风险**：如果不遵守提交规范或未使用官方“Issue 助手”提交 Issue，可能会被直接且立即关闭。
 
 ## 功能与定位
+
 Vue.js 是一个开源项目，该仓库（vuejs/core）为其核心代码库。项目的持续开发完全依赖于赞助商（如 Better Stack 等）和社区支持者的资助。
 
 ## 使用方式概览
+
 仓库内未直接提供代码层面的使用步骤。用户需前往 Vue.js 官方网站（vuejs.org）查阅详细的入门指南和文档。
 
 ## 限制与注意事项
+
 * **问题反馈限制**：该仓库的 Issue 列表**仅限**用于提交 Bug 报告和功能请求（Feature requests）。一般的提问和技术支持需前往官方论坛或社区聊天室，不要在核心仓库中提问。
 * **Issue 提交规范**：提交 Issue 时必须遵守相关要求，并强制使用官方提供的“Issue 助手（Issue helper）”。不符合规范的 Issue 可能会被立即关闭。
 * **代码贡献要求**：提交 Pull Request 前必须阅读仓库内的贡献指南（Contributing Guide）。
