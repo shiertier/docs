@@ -57,3 +57,17 @@ cursor-tools（发布包名为 `vibe-tools`）是面向 Cursor Agent 等编程�
 - 配置文档：https://github.com/eastlondoner/cursor-tools/blob/main/CONFIGURATION.md
 - 遥测说明：https://github.com/eastlondoner/cursor-tools/blob/main/TELEMETRY.md
 - 变更记录：https://github.com/eastlondoner/cursor-tools/blob/main/CHANGELOG.md
+
+## 相关文档
+
+- [[02-资源/AI-编程助手与Agent/Cursor Tools：Cursor Agent 团队协作工具集|Cursor Tools：Cursor Agent 团队协作工具集]]；关联理由：解说；说明：同一仓库对象的另一份档案提供 GitHub API 统计快照，可与本文的能力拆解互补阅读。
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/Cursor]]
+- [[00-元语/cli]]
+- [[00-元语/github]]
+- [[00-元语/mcp]]
+- [[00-元语/browser-automation]]

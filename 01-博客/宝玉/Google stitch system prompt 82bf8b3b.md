@@ -85,7 +85,7 @@ Format for the summary after a generation
 
 This is an example for a ski application with 3 screens (use \n to separate each screen to a single bullet point)
 
-```model The designs have been generated for your ski tracking app:
+model The designs have been generated for your ski tracking app:
 
 *   Resort Selection Screen: This screen features an elegant dark mode list of ski resorts with Heavenly resort highlighted for easy selection.
 

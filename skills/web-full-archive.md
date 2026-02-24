@@ -111,32 +111,82 @@ description: 获取网页文章“完整正文”并由助手整理成最终 Mar
 适用：`https://mp.weixin.qq.com/s/...` 链接。
 
 1) 执行顺序（必须）：
-- 第一优先：直接使用 `Playwright Firefox` 动态渲染，读取 `#js_content`；
-- 若浏览器链路失败或命中验证码页：再补做直连抓取与 `r.jina.ai` 四种包装 URL 作为旁路验证；
-- 仅当以上链路都失败时，才判定为“未拿到正文”。
+- 第一优先：使用 `python3 scripts/wechat_hq_fetch.py --url "<mp-url>" --output-root .tmp/wechat-hq-<id> --formats html,markdown,json` 获取高保真正文（含图片与排版）；
+- 若主链路失败或命中验证码页：再补做直连抓取与 `r.jina.ai` 四种包装 URL 作为旁路验证；
+- 仅当以上链路都失败时，才判定为“未拿到正文”；
+- 禁止默认回退 Playwright；仅在你明确要求且主链路失败时，才允许临时启用 Playwright 做补充取证。
 
-2) `Playwright Firefox` 抓取要点（必须）：
-- 等待 `domcontentloaded` 后，显式等待 `#js_content` 出现；
-- 抽取字段：`#activity-name`（标题）、`#js_name`（作者）、`#publish_time`（展示日期）、`#js_content`（正文）；
+2) `wechat_hq_fetch.py` 抓取要点（必须）：
+- 输出必须在 `.tmp/`，推荐目录结构 `.tmp/wechat-hq-<id>/<sn>/article.{json,html,md}`；
+- 以 `article.json` 中的 `title`、`author`、`publishTime`、`content_noencode` 作为主元数据；
 - 若正文命中 `完成验证后即可继续访问`、`wappoc_appmsgcaptcha`、`环境异常`，判定为失败，禁止落盘为正文文档；
-- 中间产物必须写 `.tmp/`（例如 `.tmp/wx-<id>.firefox.json`、`.tmp/wx-<id>.firefox.raw.md`）。
-- 若本机缺少 `playwright` Python 运行库，允许在 `.tmp/.venv-playwright` 创建临时虚拟环境并安装 `playwright + firefox` 后执行抓取；抓取完成后可按需清理该环境。
+- 主链路抓取失败时，允许补抓一次 `article.from-json.html`（若服务返回 json 但 html 缺失）。
 
 3) 日期与排版修复（必须）：
 - 优先使用页面展示日期（如 `2025年11月30日 13:57`）规范化为 `YYYY-MM-DD`；
 - 微信正文抓取成功后，常出现异常换行、断句碎、段落粘连等版式问题；默认按“需要 Gemini 修复排版”处理；
-- 必须先执行 `python3 scripts/gemini_task.py subtitles_blog --input-file .tmp/wx-<id>.firefox.raw.md -o .tmp/wx-<id>.polished.md`；
-- 再基于 `.tmp/wx-<id>.polished.md` 执行 `review` 与 `summarize`，最后落盘。
+- 必须先执行 `python3 scripts/gemini_task.py subtitles_blog --input-file .tmp/wechat-hq-<id>/<sn>/article.md -o .tmp/wechat-hq-<id>/<sn>/article.polished.md`；
+- 再基于 `.tmp/wechat-hq-<id>/<sn>/article.polished.md` 执行 `review` 与 `summarize`，最后落盘。
 
 4) 失败边界（必须）：
-- 微信来源不得写“失败即结束”的结论；必须优先完成浏览器渲染链路，再补齐其他可行链路后再判断；
+- 微信来源不得写“失败即结束”的结论；必须优先完成 `wechat_hq_fetch.py` 主链路，再补齐其他可行链路后再判断；
 - 若最终仍失败，只保留“访问受限记录”，且不得包含抓取日志/脚本报错。
 
 5) 批量归档实战经验（微信第一优先）：
-- 批量任务先统一拿到 `.tmp/wx-<id>.firefox.raw.md` 与 `.tmp/wx-<id>.firefox.json`，再进入 Gemini 流程，避免“边抓边写”导致的漏文或中断返工；
+- 批量任务先统一拿到 `.tmp/wechat-hq-<id>/<sn>/article.md` 与 `.tmp/wechat-hq-<id>/<sn>/article.json`，再进入 Gemini 流程，避免“边抓边写”导致的漏文或中断返工；
 - 微信文章常见版式问题是断句碎、列表粘连、段落过密，默认先做 `subtitles_blog` 再 `review/summarize`；
-- 批量任务建议采用固定中间文件前缀（如 `.tmp/add-wechat-<id>.*`），保证排版稿、审阅稿、摘要稿可一一追溯；
-- 若同批次包含非微信来源，仍按“微信先走 Playwright Firefox，其他来源按通用抓取策略”执行，避免混用流程。
+- 批量任务建议采用固定中间目录前缀（如 `.tmp/wechat-hq-<id>/`），保证原稿、排版稿、审阅稿、摘要稿可一一追溯；
+- 若同批次包含非微信来源，仍按“微信先走 wechat_hq_fetch.py，其他来源按通用抓取策略”执行，避免混用流程。
+
+6) 公众号账号级更新（免费探测优先，按需付费补链）：
+- 适用场景：目标是“账号已完成初次入库后的周期更新”，先判断是否有新增，再决定是否付费补链；
+- 强制边界：账号级更新只做“候选发现与素材池维护”，输出只能落在 `.tmp/`，禁止直接写入 `01-博客/`；
+- 单篇最终归档规则不变：最终发布仍需经过 Gemini 流程并由助手通读整理；
+- 第一步固定为免费探测：调用 `https://gw.newrank.cn/api/wechat/xdnphb/detail/v1/rank/article/lists`，表单参数 `account=Rockhazix`（或目标账号）；
+- 只有当免费探测发现“本地缺失的新条目”时，才允许调用付费接口 `http://data.wxrank.com/weixin/getps` 获取 `mp.weixin.qq.com` 文章链接；
+- 若免费探测无新增，禁止调用付费接口；
+- `n-token` 与 `cookie` 只能通过命令参数或环境变量（`NEWRANK_N_TOKEN`、`NEWRANK_COOKIE`）传入，禁止写入文档正文。
+
+账号级同步示例（首次全量，付费，仅初始化）：
+
+```bash
+python3 scripts/wxrank_wechat_full_sync.py \
+  --allow-paid \
+  --key "$WXRANK_KEY" \
+  --wxid gh_94dba26f8ca0 \
+  --output-root .tmp/wxrank-rockhazix
+```
+
+账号级同步示例（免费探测）：
+
+```bash
+python3 scripts/newrank_latest_probe.py \
+  --account Rockhazix \
+  --output-root .tmp/newrank-latest
+```
+
+账号级同步示例（增量总控：免费优先 + 条件付费补链）：
+
+```bash
+python3 scripts/wechat_update_from_wxrank.py \
+  --account Rockhazix \
+  --output-root .tmp/wechat-update
+```
+
+```bash
+python3 scripts/wechat_update_from_wxrank.py \
+  --account Rockhazix \
+  --allow-paid \
+  --key "$WXRANK_KEY" \
+  --wxid gh_94dba26f8ca0 \
+  --output-root .tmp/wechat-update
+```
+
+账号级输出约定（用于后续归档挑选）：
+- `free.raw.json` / `free.items.json` / `free.new.items.json`：免费探测结果与本地去重结果；
+- `paid.pages.raw.json` / `paid.items.json` / `paid.new.items.json`：条件付费补链结果；
+- `new.items.final.json` / `new.items.final.tsv` / `new.items.final.urls.txt`：最终新增候选；
+- `repost.candidates.json` / `repost.candidates.tsv`：可选联网检索的转发候选。
 
 ## 整理规则（关键：最终文档必须由助手整理）
 
@@ -281,13 +331,19 @@ rg -n "跳至主要内容|返回主菜单|研究索引|商业应用概览|开发
 微信专项 SOP 规则自检（必做，命中表示规则已写入）：
 
 ```bash
-rg -n "微信公众号专项 SOP|第一优先|Playwright Firefox|#js_content|wappoc_appmsgcaptcha" skills/web-full-archive.md
+rg -n "微信公众号专项 SOP|第一优先|wechat_hq_fetch\\.py|高保真.*图片.*排版|wappoc_appmsgcaptcha" skills/web-full-archive.md
 ```
 
 微信批量经验规则自检（必做，命中表示经验已写入）：
 
 ```bash
-rg -n "批量归档实战经验|微信第一优先|add-wechat-<id>" skills/web-full-archive.md
+rg -n "批量归档实战经验|微信第一优先|wechat-hq-<id>|article\\.polished\\.md" skills/web-full-archive.md
+```
+
+微信账号级同步规则自检（必做，命中表示规则与脚本已落地）：
+
+```bash
+rg -n "免费探测优先|newrank_latest_probe\\.py|wechat_update_from_wxrank\\.py|wxrank_wechat_full_sync\\.py|--allow-paid|NEWRANK_N_TOKEN|NEWRANK_COOKIE|gw\\.newrank\\.cn/api/wechat/xdnphb/detail/v1/rank/article/lists|account=Rockhazix" AGENTS.md skills/web-full-archive.md scripts/newrank_latest_probe.py scripts/wechat_update_from_wxrank.py
 ```
 
 脚本/Notebook 链接自检（必做，命中即阻断发布）：

@@ -63,3 +63,12 @@ Fabric 的定位是“AI 能力增强框架”，核心目标不是提供单一�
 - https://github.com/danielmiessler/Fabric/blob/main/docs/README.md
 - https://github.com/danielmiessler/Fabric/blob/main/CHANGELOG.md
 - https://github.com/danielmiessler/Fabric/blob/main/LICENSE
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/workflow]]
+- [[00-元语/prompt]]
+- [[00-元语/cli]]
+- [[00-元语/llm]]

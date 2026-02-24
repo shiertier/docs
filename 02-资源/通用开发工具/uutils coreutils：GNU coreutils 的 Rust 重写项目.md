@@ -56,3 +56,9 @@ uutils coreutils 是 GNU coreutils 的 Rust 重写项目，定位为可直接替
 - Crates 页面：https://crates.io/crates/coreutils
 - 最新稳定版发布页：https://github.com/uutils/coreutils/releases/tag/0.6.0
 - Release 列表：https://github.com/uutils/coreutils/releases
+
+## 关联主题
+
+- [[00-元语/github]]
+- [[00-元语/cli]]
+- [[00-元语/tool]]

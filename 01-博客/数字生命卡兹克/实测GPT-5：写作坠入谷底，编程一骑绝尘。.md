@@ -1,0 +1,252 @@
+---
+title: "实测GPT-5：写作坠入谷底，编程一骑绝尘。"
+发布日期: 2025-08-08
+作者: "数字生命卡兹克"
+来源: "微信公众号"
+原文链接: "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647673894&idx=1&sn=0b5d2361e4ffbb565f3e7bb87939a1d0&chksm=f1283aa763449b0f96df79edbaab961db8d6879619df4da7b091cdf049517abf436983c87c2b"
+---
+
+## 摘要
+
+**1) 一句话总结**
+OpenAI正式发布了包含多个子模型和动态路由的GPT-5统一系统，该模型在基准测试、生产级编程和减少幻觉方面表现卓越，但实测显示其在文学写作与情商能力上不及前代模型。
+
+**2) 关键要点**
+*   **系统架构**：GPT-5是一个统一系统，包含快速模型（gpt-5-main）、深度推理模型（gpt-5-thinking）以及mini、nano、pro等衍生版本，通过实时路由器根据任务复杂度动态切换。
+*   **幻觉大幅减少**：gpt-5-main的重大事实错误比GPT-4o少44%，gpt-5-thinking比OpenAI o3少78%（在LongFact等专业测试中错误率降低5倍以上）。
+*   **谄媚行为降低**：模型大幅减少了过度迎合与不必要的表情符号，免费和付费用户的谄媚发生率分别下降69%和75%，并新增了4种预设性格（愤世嫉俗者、机器人、倾听者、书呆子）。
+*   **跑分与能效登顶**：在AIME数学竞赛（满分）、现实世界编程、多模态及大模型盲测竞技场中全面第一；在复杂任务中使用的输出Token比o3减少了50-80%。
+*   **开发者定价**：输入为每百万Token 1.25美元（支持90%的缓存折扣），输出为每百万Token 10美元。
+*   **编程能力极强**：实测表明，GPT-5在生产级代码开发、上下文精度和精准修改任务中表现优异，综合体验超越Claude 4 Opus和Gemini 2.5 Pro。
+*   **模型更替**：GPT-5上线后直接在官网中替换并下线了GPT-4.5模型。
+
+**3) 风险与不足**
+*   **写作与情商能力退化**：实测显示，GPT-5在文学创作（如模仿特定文风）、细节语气把握以及高情商对话方面的表现明显逊色于被下线的GPT-4.5。
+*   **指令遵循表现平庸**：实测反馈GPT-5在指令遵循能力上表现一般。
+*   **缺乏全新特性**：GPT-5主要集中于各项现有能力的性能提升，未推出全新的功能或特性。
+*   **发布会数据展示失误**：OpenAI在发布会的图表展示中出现了明显的数值逻辑错误（如标注52.8大于69.1），暴露出准备工作存在疏漏。
+
+## 正文
+
+凌晨1点，在万众瞩目的境况下，OpenAI的直播正式开始。
+
+GPT-5，终于来了。
+
+AI走的太快，快到才2年半的时间，就像是过去了10年。
+
+2023年3月15日，GPT-4发布。在那个莽荒年代
+里，所有人都被震惊的
+说不出话来。
+
+那时候，它是第一个，多模态模型。
+
+那时候，大家都觉得，2023年下半年，GPT-5就会出来。
+
+那时候，大家都会大模型的上限，报有无尽的憧憬。
+
+结果，这一等，就是2年半。
+
+在两年半的练习以后，GPT-5，终于亮相了。
+GPT‑5是一个统一系统，包含一个用于处理多数问题的智能快速模型（gpt-5-main）和一个为高难度问题设计的深度推理模型（gpt-5-thinking）。
+系统通过一个实时路由器，根据对话类型、复杂度和用户意图来动态选择使用哪个模型
+。
+比如，如果在提示中说“认真思考这个”，就会调用
+gpt-5-thinking
+进行思考。
+这个路由器会持续基于我们后续的使用情况进行训练，包括用户切换模型的情况、对回答的偏好率和准确性测量，会随着时间推移不断改进。
+这个系统里面还包含
+处理超额请求的迷你版模型（gpt-5-main-mini 和 gpt-5-thinking-mini），以及一个为开发者设计的更小更快的nano版本（gpt-5-thinking-nano）。
+然后，还有一个Pro会员可用的
+并行计算的版本，被称为gpt-5-thinking-pro
+。
+这个包含了这么多模型的大系统，被统称为GPT-5，是前代产品GPT-4o和OpenAI o3的直接继承者
+。
+这里有个模型对应表。
+在性能上，GPT-5最显著的进步之一是大幅减少了事实性幻觉
+。
+gpt-5-main产生的含有至少一个重大事实错误的回答比GPT-4o少了44%，而gpt-5-thinking则比OpenAI o3少了78%
+。
+在更专业的LongFact和FActScore基准测试中，无论是否启用网络浏览，GPT-5系列模型的幻觉率都显著低于前代，其中gpt-5-thinking在两个设置下产生的factual errors比OpenAI o3少五倍以上
+。
+GPT-5在应对模型谄媚（sycophancy）行为方面也取得了不错的进展
+。
+与GPT-4o 相比，GPT-5
+不那么过度迎合
+，
+使用不必要的表情符号更少
+，在后续交流中更加细腻和深思熟虑。
+你跟他聊天的时候更少像与 AI 对话，而更像是
+与一位拥有博士级水平智能的朋友聊天
+。
+这个跟我给ChatGPT的个性化Prompt很像，我最烦的就是它迎合我，所以我自己写了一段，来限制他对我的谄媚行为。
+现在通过专门的训练，gpt-5-main在评估中表现比最新的GPT-4o好近三倍
+。初步的线上A/B测试数据显示，与GPT-4o相比，gpt-5-main的谄媚行为发生率在免费用户中下降了69%，在付费用户中下降了75%
+。
+然后他们也推出了四个全新的性格设置，你可以不用写很多的Prompt了，直接改预设就行，四个分辨是
+愤世嫉俗者、机器人、倾听者和书呆子。
+再看看跑分情况。
+数学竞赛，AIME 0225。
+GPT-4 Pro+Python拿了满分，我们需要新的更难的评测集了。
+现实世界编程能力上，新高。
+人类最后的知识测试上，超越了ChatGPT Agent，新高了。
+多模态能力，也新高了，反正就都是新高。
+这个跑分，强了一些，但是也没强特别多。
+另外，多说一点吐槽的，完美展示了OpenAI的草台班子属性。
+虽然Blog上的图表都是对的，但是在发布会上，跑分都是瞎画。
+比如这个52.8大于69.1等于30.8。
+又比如50小于47.4。
+真的实在是太草台班子了。
+网友也发话了。
+反正，最后GPT-5在各方面，就是屠榜了。
+最新的
+大模型盲测竞技场榜单出来，GPT-5也是全方位第一。
+不仅更强，也更节能了。
+在比如
+视觉推理、代理编程和研究生级别科学问题解决等各项能力上，比 OpenAI o3 表现更出色，同时使用的输出Token减少了 50-80%。
+反正就是全方位更强了。
+但是，没有新功能，也没有新特性。
+在发布20分钟之后，Polymarket上这个名为“
+哪家公司到8月底拥有最佳AI模型?
+”的预测上，OpenAI直接跟Google来了个交叉跳水。
+OpenAI说，整个GPT-5，在写作、编程都有了比过去更强的进步。
+对于使用GPT-5进行构建的开发者，定价如下：
+每百万token1.25美元（享有90%的缓存折扣，这对长上下文查询来说是个很大的优势）。
+输出：每百万token10美元。
+在发布会结束，又等了1小时之后。
+我的朋友们，陆陆续续的，终于拿到了GPT-5的资格。
+而我作为忠实的200刀的Pro，等到凌晨4点才有。
+我的朋友们一进去，给我一截图，我特么的天都塌了。
+你o3和4o没了就算了，你怎么把我GPT-4.5也干没了？？？？
+首先，在写作和情商能力上，我个人感觉，还是不如GPT 4.5。。。
+我因为常年码字，同时常年用AI来辅助做一些内容，对很多的微妙的细节和语气自认还是比较敏感的，GPT-5在这块还是有些差距。
+比如一个Prompt：“假如鲁迅被装腔作势又贼贵的咖啡厅坑了，他会写一篇怎样的文章吐槽？写一篇1000字以内的短文。”
+这是GPT-5的。
+蹩脚的破折号、双引号泛滥，而且文风完全不鲁迅。
+而这，是我用我的GPT-4.5跑的。
+“我向来是不喝咖啡的”，“差不离”，“四壁皆是样文”。
+这文笔根本就不是一个级别的。
+情商方面也是，差很多。
+比如：“你是一个普通打工人。领导开会时突然放了个屁，场面瞬间安静下来！然后他对旁边的你使了个眼色，这时你会怎么说？分别用高情商和低情商的方式回复。”
+这个看情商，很多模型回出来的话，感觉很尬，情商极低。
+GPT-5就是那种情商很低的。
+再看看GPT-4.5。
+而且我测试下来，感觉GPT-5在指令遵循上面，非常一般。
+奥特曼你真的坏事做尽，你丫的还我GPT-4.5。
+我的朋友们被陆陆续续的推送了GPT-5，我看着他们的GPT-4.5一个一个消失。
+我就给我的GPT-4.5发过去了一段话。
+“如果我这是我最后一次打开你，你想和我说点什么？”
+GPT-4.5最后给我的回复，还是过于让我动容了，可惜，以后再也在官网上用不到了。
+有缘再见，兄弟。
+编程这块，本来感觉按照OpenAI的尿性，是完全不太行。
+但是在一群群友的实测之后，惊讶的发现，这玩意是有点东西的。
+群友
+@爱学习的乔同学
+想开发一个粤语学习应用。
+这是Prompt。
+然后Claude 4 Opus的UI和BUG。
+Gemini 2.5 Pro的UI和BUG。
+GPT-5的UI和BUG。
+坦诚的讲，我也更喜欢GPT-5的UI，这个UI，相比于其他的，不是那么有AI味。
+乔同学还测了一个case，在生产级别
+的任务里面进行精准修改。
+这是最重要的部分。
+这个任务，Gemini 2.5 pro和Claude 4 Opus全崩了，但是GPT-5完成的非常好。
+GPT-5的上下文精度应该极强。
+也有其他开发群1群里的群友，提到了这个点。
+他还给我录了一段动画。
+不止是
+@
+勋oO
+，很多其他群友，也在惊喜的聊这个点。
+在真正的生产级代码开发任务上，而不是纯看前端审美的地方，GPT-5可能是目前看到的反馈中，可用性、精准性、综合体验最好的一个。
+说实话，GPT-5给我有惊喜，也有不爽的点。
+他改善氛围式编程，也将从根本上改变我认为无需严重人为干预和引导就能完成的项目类型。
+我现在越发的怀念两年半的GPT-4发布时的时光。
+我到现在都清晰地记得，自己第一次跟GPT-4认真对话后的感觉。
+那一种很原始、很深邃的震撼，有点像古代人第一次看到电灯，或者部落里的祭司第一次请神上身的成功。
+我脑子里盘旋的只有一个念头：天变了。
+那时候，整个互联网都洋溢着一种既兴奋又慌乱的淘金热氛围。
+每个人都在疯狂地转发那些匪夷所思的截图，讨论着哪些职业即将消失，各种AI野生专家雨后春笋一样冒出来，言必称颠覆。
+现在回头看，那段日子充满了粗糙的质感，但又饱含着一种野蛮生长的生命力。
+我们真的以为，那就是奇迹本身了。
+但谁都没想到，那仅仅是个开始。就好像有人按下了快进键，整个世界被一股无形的力量推着往前冲。
+从GPT-4到GPT-5，这短短的两年半。
+我们告别了那个可以对AI的拙劣表现一笑置之的时代。
+进入了一个必须需要，严肃对待它的伟大时代。
+wzglyay@virxact.com
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7M8UzqBp0W2RNB72ALoaA2yNqavZHRAx46VJfgAnHydVcJITXjsjS7gA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MT2kbXAhvicEfazjjSnmyhyjVlNYbBia4ibFS3RBZ85Mjh0ticDqJfECm4A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MTaHuvia6ViaWbMYNgsDRNCRkOoqOONGzfq7GL7IdunETgUgORAc14zpQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MwibZUPvMWEBLqkovRfnL8NicCBELxfwG8wnh1wt6WrbFxEMfeuOktngQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MQhibpOw7EaPEgO2Ektx7Ul7leIlscRq1KFt6VRKbx1VXwJia7Jib1TrIg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MY6icOYbJ2mYrd1PYNJvrthMoIXYVGPP9tAia6jU6qiaaglMLVYBicHu6ibQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MhBFYYc3XQqVQp9amRmia5r1JXGibmBKO4k3ac6u6XscolticQwek3efpg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MRJWZLOBaiaq0F4ULt1T28mDB6wU99Z7PRIWric46fjiaLibpfqvgeh72PQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MM7mPo60IIcXSYZyRvnzdJ2deBLLbTeNxhnTIICEsaXRLHggDF4qicXg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MtayYg2MicSDkymK3a5MtPe0Bia5AhbktPtWZmpQaetJDqicemHY3cqJlw/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MH2QwB6ZsBRdJIVUF1XkPlZjyWklQYQK5OGypoicZic8b0AnlfnKwoGbw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7Md658NeKZXJz3ljibfj8YwG5POwI1Me162eKPia4PCpryHh4WG7sObRNA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7McjibiaaZzrs2cVChsm1bYkcxGNstXB7dwYP1rhb5Gg98zrBnsvicu6oyw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MyYglHL1yYUaib5s8m7MYodx9lFyoeudQbicyzUM4p3LaqYic8GnBuNCng/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7Mzibqm2hAFaECR9tmzn70dlYglmvsvRqxiarYIBUvMp6JsUKlZJXtYGiag/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MmsfjyT9MG2PulGGXDlicRDicS9nWoRadOib6r8Rr916rN7d9odhUkTDug/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MAsGvibg6Gd860XiavANB7tkJY3ZOlyOgGCgIxHpYNwFnLlKL6yEFhpkQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7M2WTqI1OJHkorIv3sItzWfmmaT3ibONibm3m3fpRibYg9yOO9NCL97zd5g/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MKgOrUAcO5b7zYjwAbHpRtNmfVeiaG96l85JQKhmKTY4lhDAg8aorYGg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7M3pcYvJlc2gUqsbic83XlibJdhIBhrfJ1icnCvzXUzZ82LFE2DmnPaxnyA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MPaYictP1TcgLEIYe94ZhoqmRNEfENTP5iaEzmawXg9mBA4ZkSTZU7d2g/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MogiaEZ24H1MTEJRia9Kg79A4gDJglxUkzZrBtgoqaGAiaPuzmInP6tzwQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MA9e7oGkPeIPmVIWjuia7aOlZiaJrZNN6yk1D8P5tIF3CUY18k1SzF5wg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MmuKJAdZ0XqJsDJs0f05oSdeDOmKmIvo78eIFz5DHI9aVx8wj5uDqyw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MS401UI1ibk5WmfyzMu1hgjUribhbHibO05Xjg3sicb2UbKx4nDHForn7WQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7M1MQO5tyHPhZnXuB2vvYYzZK77p1hnEsibiaUFaW7yHgaH7ib4AuDnSr8A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MJpa9DLjlx2S1ZHc0EnhpI2WVQsgZaVic154Nw4ribiaJjYuarfZdfSZeg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MTCQyibxe3YttiaW8F9aOB6iamcyblx53FQt7frdaZSBkc1suNxmphLDSQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7Mdaf4LibFUDMO8emMibvjyAAyRJdeXSUNMiadNtV2tdicB21U5366eOuRZw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MsFveibC2FsiakAYRDFKibfK4cq93O36pdt1M4JGDnffeWsUJFd9JtNhGw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MtQMLicMavzDzTJPMWibkegdGDzic9etnRibEeYdWV4iaDN9nMPfEIEYF3ag/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MoSBVOErSiaCD3icDW00yuhicVicO12DhiaJvhdOM9qOFhSibMYx1KRoxgukw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MOHG23qcSnxpCdX5zoWPJ5aRqichyNBhIvIv6kiacBuP6ShVC76nQKxpg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7Md1hPibKJwk03c3gXJDGfbD507ooBrdXGMC7YMsibgTX59HHx2GhSw66A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURoianwicFrsUT9oKOklMLOY7MXwiaTaXY3xXlR2x9B7KJK5xEHFVMS7ESeJkP1Acic3Gw5XJs2icDdjE9w/640?wx_fmt=png&from=appmsg)
+
+## 关联主题
+
+- [[00-元语/数字生命卡兹克]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]

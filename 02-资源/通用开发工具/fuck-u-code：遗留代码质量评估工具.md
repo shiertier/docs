@@ -54,3 +54,10 @@ fuck-u-code（npm 包名 `eff-u-code`）是一款面向遗留代码治理的质�
 - 中文 README：https://github.com/Done-0/fuck-u-code/blob/cd55ca09359fb0a41cecfed3f82f5f6901621d3a/README_ZH.md
 - 编码规范文档：https://github.com/Done-0/fuck-u-code/blob/cd55ca09359fb0a41cecfed3f82f5f6901621d3a/docs/coding-standards.zh-CN.md
 - NPM 页面：https://www.npmjs.com/package/eff-u-code
+
+## 关联主题
+
+- [[00-元语/code-review]]
+- [[00-元语/cli]]
+- [[00-元语/mcp]]
+- [[00-元语/软件工程]]

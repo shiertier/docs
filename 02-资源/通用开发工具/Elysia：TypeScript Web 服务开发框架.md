@@ -48,3 +48,8 @@ Elysia 面向需要快速构建 HTTP API 与实时服务的 TypeScript 开发者
 - 仓库主页：https://github.com/elysiajs/elysia
 - README：https://raw.githubusercontent.com/elysiajs/elysia/main/README.md
 - Changelog：https://raw.githubusercontent.com/elysiajs/elysia/main/CHANGELOG.md
+
+## 关联主题
+
+- [[00-元语/typescript]]
+- [[00-元语/tool]]

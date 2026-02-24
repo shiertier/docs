@@ -1,0 +1,280 @@
+---
+title: "安利5个我觉得超酷的AI学习大法。"
+发布日期: 2025-09-05
+作者: "数字生命卡兹克"
+来源: "微信公众号"
+原文链接: "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647674818&idx=1&sn=8fb125e1746c301ac7e61d448c12a333&chksm=f1346c752c71c4e863cc61ac6cc55ef565c9c69368c2fd8e04f5dfd5c9ef4fc91e1fe99f5e94"
+---
+
+## 摘要
+
+**1) 一句话总结**
+本文总结了五种实用的AI学习工具与方法（包括quizGPT、Gemini测验与引导式学习、MIT Learn及Sexy Math），展示了AI在提供个性化、互动式及多元化知识服务方面的应用趋势。
+
+**2) 核心要点**
+*   **quizGPT (ChatGPT)：** 需通过特定提示词（如“用x道quizGPT测试我：{主题}，用x语言”）唤醒，支持按主题或上传文件生成进阶式（基础到终极）问答卡片，适合快问快答和查缺补漏。
+*   **Gemini 测验 (Gemini Canvas)：** 支持直接出题或基于深度报告生成测验，提供即时的错题分析、成绩结算界面、学习成效分析，并能生成正反面知识翻转卡片，适合深度学习。
+*   **Gemini 引导式学习：** 针对复杂问题，AI不会直接给出答案，而是通过拆解问题、逐步启发的方式引导用户思考，并支持生成知识讲解图表辅助理解。
+*   **MIT Learn (麻省理工在线课程)：** 免费开放了5000多门课程，并配备专属AI助教“Ask TIM”（河狸吉祥物），可用于推荐课程、介绍课程内容及解答学习疑问。
+*   **Sexy Math：** 一个面向成人的另类趣味答题网站，通过解答中小学难度的数学题来逐步解锁残缺的美女图片，反映了知识学习方式正变得更加多元和游戏化。
+*   **行业趋势：** 知识本身不再稀缺，AI学习工具正深入日常生活，极大地改变未来学习的方式和形态，提供越来越个性化和全面的服务。
+
+**3) 风险与不足**
+*   **quizGPT 的不足：** 仅显示哪道题做错，但不提供错因分析，缺乏及时的反馈与纠错机制；且答题结束后不会生成学习总结。
+*   **MIT Learn 的局限：** AI助教 TIM 目前只能在课程介绍页面的特定窗口中进行问答，尚未实现课程播放期间的实时陪伴与讲解。
+*   **Sexy Math 的受众限制：** 包含成人向擦边内容，需确认年满18岁才能使用，尽管题目简单但完全不适合未成年人（学生）使用。
+
+## 正文
+
+在我前两天写过一篇AI自习室爆掉之后，很多粉丝在聊，有哪些好用的AI学习方法。
+
+然后我就想到了，前段时间ChatGPT上的一个隐藏功能，quizGPT。
+
+你可以定个主题，让它针对这个主题给你生成一系列知识问答卡片。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwMThqTB2n1SHb7MYKR2DLaGd5GOFTmTVlpYrDxPtpkkT8IXFVsy56aA/640?wx_fmt=png&from=appmsg)
+
+页面上找不到，OpenAI自己也没咋提过这个功能，所以，虽然已经默默存在好几天了，但不少人都没注意到它。
+
+而就在前天，它终于官宣上线了。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwkLicop5mII9HAI4OYyoiaNQXJmCIKWY3w3ibmqk7m3oreia7Q5t45picNOg/640?wx_fmt=jpeg&from=appmsg)
+
+所以今天，趁着这一波quizGPT上线，我也总结了五个我自己常用的超酷AI学习大法，带你们一键直达，AI学习的最新动态。
+
+一、quizGPT
+
+网址：
+https://chatgpt.com
+
+需要写提示词才能把quizGPT叫出来。
+
+提示词是这样的：
+用x道quizGPT测试我：{xx主题}，用x语言。
+
+比如我要做十道哈利波特主题的quiz，就在对话框输入，用10道quizGPT测试我：{哈利波特}，用中文。
+
+然后，卡片就出来了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwV83F0YZhpLHhOWwgTZM6l22sbmMVAj3BaBcwspE3lAqBM1tRACcQicg/640?wx_fmt=png&from=appmsg)
+
+有点想吐槽，明明是一个挺好用的AI学习工具，还免费，但就是不大大方方放出来，图啥。。。
+
+quizGPT的答题是进阶式的。
+
+你给它一个主题，它会先给你一套简单的卡片，然后再加码，再给你一套复杂一点的卡片，以此类推。
+
+比如这里，我让它测试我是不是甄嬛传十级学者，它先是出了一套基础模式的题。
+
+答完基础模式，它问我要不要解锁进阶模式。
+
+我同意之后，它又出了一套题，难度稍微提高了一点。
+
+再答完之后，它又给我出了一套终级模式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwuyjpO0KJG8azwraO5viaz4VPLSJThVZnFL2ic70XYnK5VIxAibtbQJZ5Q/640?wx_fmt=png&from=appmsg)
+
+到这还没完，它还想再给我出一套变态难度，感觉我要是不说停，它就可以给我一直出下去。
+
+一级一级挑战下来，就有种游戏闯关的感觉，还挺上头的。
+
+用它背单词也很方便。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwmKWNTlUPsJd8KkmMicOXXvOGD9HnzPiaEvK9F7ejIY6mQBKV28d1pxuw/640?wx_fmt=png&from=appmsg)
+
+也可以上传文件，让它针对文件里的内容给你出题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwshEnyoLTTLGnEiaCFVForx90LhXlyvqswM3nK6PsocyxM4wQhFJqImQ/640?wx_fmt=png&from=appmsg)
+
+不过quizGPT也有不完善的地方，就是，它只会显示你哪道题做错了，但不会给你分析为啥做错。
+
+没有一个很好的及时反馈和及时纠错。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwBlmGicNemHU2LaxY3OIFoiahicCeFNSg1sj3XYPcMg4KPoPib7wZQOt1cQ/640?wx_fmt=png&from=appmsg)
+
+做完题之后呢，也不会给你做一个总结。
+
+整体来说，比较适合快问快答，迅速查缺补漏。
+
+二、Gemini quiz
+
+网址：https://gemini.google.com/
+
+用法一，直接点开Gemini的Canvas，让它针对某个主题给你出题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQw7hVbsabhq3Q1M5PNXhPVA2lQ86ibxQjt6trL8arwQ23TrJdOobic666w/640?wx_fmt=png&from=appmsg)
+
+它就会按照你的要求，给你生成需要的习题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQw2meqx4ebibNLEx1wqKhlTho29oFKj9ChevxibWxdiasAvS8GpJUoln4gg/640?wx_fmt=png&from=appmsg)
+
+用法二，先让它针对某个主题出一篇深度报告，然后在报告的画布里面，点击测验，让它基于你的深度报告做一套针对性的测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwCqlduyBIKAIMomRDiaCCV3WGgwVuQrZv8he8C8fJrEaWFCHficwo7icfg/640?wx_fmt=png&from=appmsg)
+
+虽然Gemini的quiz功能和quizGPT一样，都是用小测试的方式帮你学习，但比起GPT，Gemini还是，太全面了。
+
+它会在你答完的当下给你分析哪儿错了，让你直接知道哪里错了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQw5SIUIMKiajUVuD3Zh7yGuboBaDywpQZKtkQOZnf34HUJ1Aj6GfibFdQg/640?wx_fmt=png&from=appmsg)
+
+全都答完之后，还会出现这样一个结算界面，展示你的分数和正确率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwERKHIiaREytlDn0mIicoU2p8JhjyjJ0Tpf6ibm3BNHA2Za0Sgnuib0zAIw/640?wx_fmt=png&from=appmsg)
+
+点击分析学习成效，还能看到一个它给你做的针对性分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwEj1ibA3XXFXPeaksTtpb4PicZoLcAqn2zoYCOH00HbuA2Kn1ha0yGefw/640?wx_fmt=png&from=appmsg)
+
+除此之外，还有学习卡。
+
+这个学习卡，会根据刚刚quiz里的知识，做一系列知识卡片，把问题和答案浓缩在卡片里面。
+
+卡片可以翻转，正面是问题，背面是答案。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwTyLhVtwibicx1cLPguYx0QOfJLqOo3GsiaccvOJKAwpuhRBRrlZqQEUtQ/640?wx_fmt=png&from=appmsg)
+
+我还上传了一个阅兵典礼的科普文章给它，让它给我出了一套国防科技相关的阅兵卡片。
+
+然后我就看到了这张，非常nb的卡片。
+
+这个答案，看的人还怪骄傲的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwW2WjDJfraFUO58x7tX696SbfUNiaBWkaNSEPzYicCcdLpFftNmBfgTLw/640?wx_fmt=png&from=appmsg)
+
+相比quizGPT，Gemini的quiz不会有一个明显的难度升级过程，而是更侧重偏深度的学习场景，主打一个，来了，就让你学懂学透。
+
+三、引导式学习
+
+这个功能，也在Gemini上。
+
+有一些比较复杂的问题，靠quiz模式的选择题解决不了，就可以用上Gemini的引导式学习了。
+
+Gemini的引导式学习和ChatGPT的学习模式非常像，两者都是AI一步一步对你进行引导，让你深入理解整个答案。
+
+出的时间也是前后脚，彼此较劲。
+
+因为能力和功能都很相似，所以在这里，我就只介绍出的更晚的Gemini引导式学习，你们习惯用哪个大模型就用哪个。反正，这俩都是免费的。
+
+这个模式，就非常适合理清做题的思路。
+
+我在这里问了一道题，它就会帮我拆解这个问题，然后启发我去思考问题的答案。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwm8zv0LSS0l9TRpkN6icPCBsr1xqZyUxZg10ibVFxa4pbPwYy1Bw5zXHQ/640?wx_fmt=png&from=appmsg)
+
+我没跟上思路，它就会讲得更细更基本，在这个基础上继续启发我。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwFDR2HtlgPkgYbhODQy00DZ6Wk4oWSq8Vxq5h3H1zAuWurLHWfwrkfg/640?wx_fmt=png&from=appmsg)
+
+如果还是觉得不够直观，还可以让它给我做个图来讲解。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwzkW19qD7kArWeAvQuvRDK8Je9rF5xp06LQicov4VoGVoNBF6OLsoXRg/640?wx_fmt=png&from=appmsg)
+
+就很得学习的精髓，不是把一个答案喂到你嘴边，而是通过引导的方式，让你逐步去领会和理解。
+
+生成的知识讲解图也很方便。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwxS5Vbs1ROEtVmWsLfoib2P1R5mNmbDqH6kWN4yRFwED4LnpaibFmU4BQ/640?wx_fmt=png&from=appmsg)
+
+四、Mit Learn
+
+网址：http://learn.mit.edu
+
+接下来分享的这个，是一个非常重量级的学习资源平台，麻省理工大学在线课程。
+
+就在不久前，麻省理工大学把自家压箱底的5000多个课程都给公开放出来了。
+
+里面很多都是免费的，点进去就能上。
+
+更贴心的是，麻省理工还为这些课程配备了一个AI助手，名字叫Ask TIM。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwRLh0QTs8u8SYGLZQXHbicA4zNYiaPORlBplBXAtbAIqlU0WW9FwTMdcw/640?wx_fmt=png&from=appmsg)
+
+不是我们熟悉的那个Tim，而是下面这个名叫TIM的河狸，麻省理工的吉祥物。名字TIM就是校名MIT反过来念。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwazLgpVAAEGoF7JQ4lVvOI66GcPVCUAtemFZDbyUAKZJFQEdWLO1moA/640?wx_fmt=png&from=appmsg)
+
+你可以让TIM给你推荐合适的课程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwsBibFuzeIdJY0ibXMbCU9ialoibEZ45Z81OLLTjz4OlyLgFe7HvDaDBqiaw/640?wx_fmt=png&from=appmsg)
+
+找到一门课后，你也可以问TIM有关这门课的各种问题。
+
+比如，给你介绍这个课程里都有哪些内容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwviaSFJHvwVyCwxPibOHdzl5RMXIwb3nVwLIDxtCrVV8HjfhXMx1xJ2Zw/640?wx_fmt=png&from=appmsg)
+
+如果你在学习过程中有哪些地方没跟上，它也可以给你解答。
+
+就相当于是一个在线的AI助教。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQw4FK90qFOrenj5YdhPxXmzwWGRmjqnNo77P7gn8uiatIibAIzdXTibKO9w/640?wx_fmt=png&from=appmsg)
+
+不过有点遗憾的是，这个助教还不能在你上课的时候实时陪伴。只能在课程介绍页面上的这个TIM窗口里询问它。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwgHZunqT7zWuPv9y3oozUVKAxwlfVQ25MbW2rq3IjLVLzxzwaib79pWw/640?wx_fmt=png&from=appmsg)
+
+不过，这还只是一个开始。
+
+也许不久的未来，实时陪伴讲解的功能就会实现。
+
+五、Sexy Math
+
+网址：https://absurd.website/sexy-math/
+
+如果说前面这几个工具是正道的光，这个东西，就是彻头彻尾的邪修。
+
+它来自一个非常奇葩的网站，https://absurd.website/，是这个网站上的一个项目。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwrSKBAOGkPOBTUP2lJtMt6SYEPE1JPkXwK1q7VzpVphJTvUQI1D9VJw/640?wx_fmt=png&from=appmsg)
+
+顾名思义，这个Sexy Math，和瑟瑟有一点关系。。。
+
+点开之后，会先象征性地问你一句，是不是年满十八岁了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwICVlibhibw2NT6VWXV4sD0g5jcOPR26YwEia8piarg3W7hAib9gicDrzwIhg/640?wx_fmt=png&from=appmsg)
+
+选择成年之后，就可以进入它的主界面了。
+
+你会在这里看到三张残缺不全的美女图片，随机选择一张，就可以开始做题了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwgHvejtQic285NOV51IPkiapMNIg1YMXglIcBdlc1I4NwVLCFtyF01rJg/640?wx_fmt=png&from=appmsg)
+
+随着做题，这张照片就会一点点变完整，至于最后是什么照片，我就不放了，你们可以自己去试一试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURrs2ld4SKUp10gsfWl2eUQwmVwlV6Dibib33emlcGV0NetTZsQkEhO92ObF9fe8Z5FIPnfjA07jzs3A/640?wx_fmt=png&from=appmsg)
+
+这个项目真的挺抽象的。
+
+题目都是小学生或者初中生的水平，但问题是哪个孩子的家长能心这么大地让孩子用这种方式学习。。。
+
+所以它的受众根本就不是小朋友，反而可能是大朋友更需要。。。
+
+不过，虽然抽象，它还是反映了一个很有意思的趋势。
+
+就是我们学习的方式、渠道，都在变得更有趣，更多元。知识在用各种稀奇古怪的方法进入我们的大脑。
+
+用一句话总结，就是万物皆可邪修学习。
+
+就比如刷抖音的时候，经常看到那种短剧一样的狗血剧情，看到情节最高潮的时候，主角突然邪魅一笑，用和剧情有关的谐音梗，说出一个英文单词。
+
+然后你就莫名其妙的，连着狗血短剧的剧情一起，记住了单词。。。
+
+因为知识不再稀缺，所以，怎么记住知识，运用知识，就成了重要的事情。
+
+而纵观最近的AI学习工具，还能看到另一个若隐若现的趋势，就是AI能够为人类提供越来越个性化，越来越全面的知识服务了。
+
+GPT、Gemini、MIT，包括我们之前写过的，用过的，豆包、元宝、秘塔、夸克，等等等等。
+
+这些学习工具，会深入到我们的生活中去，极大的改变未来学习的方式和形态。
+
+对此，我抱有期待。
+
+
+wzglyay@virxact.com
+
+## 关联主题
+
+- [[00-元语/数字生命卡兹克]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]

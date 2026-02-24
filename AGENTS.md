@@ -29,7 +29,9 @@
      - 禁止把 Gemini 输出直接写入最终目录；Gemini 的 `-o/--output` 必须写到 `.tmp/`，再由助手通读整理后落盘到最终目录  
    - 最终交付文档必须由助手通读、补齐缺失要素、去噪后再落盘
    - 技术文档若原文存在代码示例，最终文档必须保留对应代码块；若抓取结果出现“实现方式/代码示例/快速入门”等引导语但缺少代码块，必须回退到更完整的来源（优先 `r.jina.ai`）重新抓取后再翻译整理
-   - 微信公众号链接（`mp.weixin.qq.com/s/...`）抓取默认第一优先使用 `Playwright Firefox` 动态渲染，读取 `#js_content`；不得把“直连或 `r.jina.ai` 失败”当作结束条件
+   - 微信公众号链接（`mp.weixin.qq.com/s/...`）抓取默认第一优先使用 `scripts/wechat_hq_fetch.py`（高保真含图片与排版）；不得把“直连或 `r.jina.ai` 失败”当作结束条件
+   - 若目标是“公众号账号级更新”，必须先用 `scripts/newrank_latest_probe.py` 通过 `https://gw.newrank.cn/api/wechat/xdnphb/detail/v1/rank/article/lists`（`account=...`）做免费最新探测并与本地去重；仅当存在“本地缺失的新条目”时，才允许显式 `--allow-paid` 调用 `scripts/wechat_update_from_wxrank.py` 或 `scripts/wxrank_wechat_full_sync.py` 获取 `mp.weixin.qq.com` 文章链接
+   - Newrank 鉴权信息（`n-token`、`cookie`）只能通过命令参数或环境变量（`NEWRANK_N_TOKEN`、`NEWRANK_COOKIE`）传入；禁止写入文档正文与最终交付文档
 
 2) 存储位置固定：`01-博客/{品牌或作者姓名}/`  
    - `{品牌或作者姓名}` 优先使用站点品牌；个人博客用作者名  
@@ -67,7 +69,8 @@
    - 博客“当天/前一天日期”证据自检（命中条目必须在证据表中）：`rg -n "\\t2026-02-(22|23)\\t" .tmp/publish-date-evidence-final.tsv`
    - 代码块完整性自检（技术文档，命中即复核来源并重抓）：`rg -nP -U '(实现方式：|代码示例：|快速入门[\\s\\S]{0,20}：)\\n\\n(?!```)' 01-博客`
    - 微信来源额外自检（防止把验证码页当正文）：`rg -n "完成验证后即可继续访问|wappoc_appmsgcaptcha|^# 环境异常$" 01-博客`
-   - 微信优先策略自检（规范文件中必须存在“第一优先 Playwright Firefox”）：`rg -n "微信.*第一优先|第一优先.*Playwright Firefox|#js_content" AGENTS.md skills/web-full-archive.md`
+   - 微信优先策略自检（规范文件中必须存在“第一优先 wechat_hq_fetch.py”）：`rg -n "微信.*第一优先|第一优先.*wechat_hq_fetch\\.py|wecha[t]?_hq_fetch\\.py|高保真.*图片.*排版" AGENTS.md skills/web-full-archive.md`
+   - 微信账号级同步规则自检（规范与脚本均需命中）：`rg -n "免费探测优先|newrank_latest_probe\\.py|wechat_update_from_wxrank\\.py|wxrank_wechat_full_sync\\.py|--allow-paid|NEWRANK_N_TOKEN|NEWRANK_COOKIE|gw\\.newrank\\.cn/api/wechat/xdnphb/detail/v1/rank/article/lists|account=Rockhazix" AGENTS.md skills/web-full-archive.md scripts/newrank_latest_probe.py scripts/wechat_update_from_wxrank.py`
    - 站点导航噪音自检（命中即阻断发布并返工正文）：`rg -n "跳至主要内容|返回主菜单|研究索引|商业应用概览|开发者专区|^登录$|^转到$|^切换至$|\\[跳至主要内容\\]\\(|\\*\\s+\\[研究索引\\]\\(" 01-博客`
    - 涉及高风险来源时追加自检（按需扩展关键词，避免误伤正常社群链接）：`rg -n "mediafire\\.com|internxt\\.com|gen\\.paramore\\.su|vk\\.com/monkrus|t\\.me/s/real_monkrus" 01-博客 02-资源`
    - 索引链接安全自检（索引/汇总类文档必做）：`rg -n "^[0-9]+\\. https?://(127\\.0\\.0\\.1|localhost)|^[0-9]+\\. .*unsubscribe-auth|^[0-9]+\\. .*private-user-images\\.githubusercontent\\.com/.*(jwt=|X-Amz-)" 01-博客 02-资源`
@@ -338,6 +341,35 @@
     - `rg -n "GitHub 仓库文档入博客（价值筛选与归档）|单仓单次归档建议上限 3 篇|skills/github-repo-blog-archive\\.md|默认排除（除非有明显跨项目复用价值）" AGENTS.md skills/github-repo-blog-archive.md`
   - 脚本/Notebook 链接检查：
     - `rg -nP "\\[[^\\]]+\\]\\((?:https?://[^)\\s]+/[^)\\s]+\\.(?:ipynb|py|sh|js|ts|ps1)(?:[?#/][^)]*)?|(?:(?!https?://)[^)]*/[^)/?#]+\\.(?:ipynb|py|sh|js|ts|ps1)(?:[?#/][^)]*)?)|[^)]*/scripts/[^)]*)\\)" 00-元语 01-博客 02-资源 03-图书 skills`
+
+13) 新增场景：微信公众号账号级更新（免费探测优先，按需付费补链）
+
+目标是把“最新是否有新增”与“是否需要付费补链”拆开：先免费探测并本地去重，只在确认有新增时才调用付费接口拿文章链接。
+
+- 适用对象：
+  - 一个公众号已完成历史入库后的周期更新
+  - 首次全量之后的低成本巡检与补链
+- 脚本入口：
+  - 首次全量（付费，仅在初始化时使用）：`scripts/wxrank_wechat_full_sync.py`
+  - 免费最新探测：`scripts/newrank_latest_probe.py`
+  - 增量总控（免费优先 + 条件付费 + 转发检索）：`scripts/wechat_update_from_wxrank.py`
+- 流程边界（强制）：
+  - 第一步必须调用 Newrank 免费接口 `https://gw.newrank.cn/api/wechat/xdnphb/detail/v1/rank/article/lists`，表单参数 `account=Rockhazix`（或目标账号）。
+  - 只有当免费探测结果显示“存在本地缺失的新条目”时，才允许传 `--allow-paid --key` 调用付费接口 `http://data.wxrank.com/weixin/getps` 补齐 `mp.weixin.qq.com` 链接。
+  - 若免费探测无新增，禁止调用付费接口。
+  - 所有输出必须位于 `.tmp/`；禁止把账号级同步结果直接写入 `01-博客/`。
+  - `n-token` 与 `cookie` 仅允许通过命令参数或环境变量（`NEWRANK_N_TOKEN`、`NEWRANK_COOKIE`）传入，禁止写入文档正文。
+- 输出约定（强制）：
+  - 免费探测：`free.raw.json`、`free.items.json`、`free.new.items.json`
+  - 条件付费补链：`paid.pages.raw.json`、`paid.items.json`、`paid.new.items.json`
+  - 最终候选：`new.items.final.json`、`new.items.final.tsv`、`new.items.final.urls.txt`
+  - 可选转发检索：`repost.candidates.json`、`repost.candidates.tsv`
+- 推荐命令：
+  - `python3 scripts/newrank_latest_probe.py --account Rockhazix --output-root .tmp/newrank-latest`
+  - `python3 scripts/wechat_update_from_wxrank.py --account Rockhazix --output-root .tmp/wechat-update`
+  - `python3 scripts/wechat_update_from_wxrank.py --account Rockhazix --allow-paid --key "$WXRANK_KEY" --wxid gh_94dba26f8ca0 --output-root .tmp/wechat-update`
+- 发布前自检（必做）：
+  - `rg -n "免费探测优先|newrank_latest_probe\\.py|wechat_update_from_wxrank\\.py|wxrank_wechat_full_sync\\.py|--allow-paid|NEWRANK_N_TOKEN|NEWRANK_COOKIE|gw\\.newrank\\.cn/api/wechat/xdnphb/detail/v1/rank/article/lists|account=Rockhazix" AGENTS.md skills/web-full-archive.md scripts/newrank_latest_probe.py scripts/wechat_update_from_wxrank.py`
 
 ## 关联主题
 

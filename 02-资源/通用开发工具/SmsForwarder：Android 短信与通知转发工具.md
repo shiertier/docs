@@ -46,3 +46,10 @@ SmsForwarder 面向 Android 设备的消息转发与远程协同场景。根据�
 - 隐私说明：https://raw.githubusercontent.com/pppscn/SmsForwarder/master/PRIVACY
 - Releases：https://github.com/pppscn/SmsForwarder/releases
 - 最新版本（示例）：https://github.com/pppscn/SmsForwarder/releases/tag/v3.5.0
+
+## 关联主题
+
+- [[00-元语/github]]
+- [[00-元语/tool]]
+- [[00-元语/security]]
+- [[00-元语/compliance]]

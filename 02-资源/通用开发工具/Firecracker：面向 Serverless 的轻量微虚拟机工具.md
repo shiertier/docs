@@ -61,3 +61,14 @@ Firecracker 是面向 Serverless 运行模型设计的微虚拟机技术。它�
 - 规格文档：https://github.com/firecracker-microvm/firecracker/blob/main/SPECIFICATION.md
 - 发布策略：https://github.com/firecracker-microvm/firecracker/blob/main/docs/RELEASE_POLICY.md
 - Releases：https://github.com/firecracker-microvm/firecracker/releases
+
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Firecracker：轻量安全微虚拟机引擎|Firecracker：轻量安全微虚拟机引擎]]；关联理由：解说；说明：同一项目在另一资源分类下的条目，可用于交叉核对定位和来源信息。
+- [[01-博客/微信公众平台/Agent sandbox 可能的选型以及 unikernel 的机会|Agent sandbox 可能的选型以及 unikernel 的机会]]；关联理由：上下游；说明：该文讨论 Firecracker 在 Agent Sandbox 中的落地取舍，补充了本条目的应用上下游场景。
+
+## 关联主题
+
+- [[00-元语/serverless]]
+- [[00-元语/security]]
+- [[00-元语/tool]]

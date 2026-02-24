@@ -60,3 +60,10 @@ Oxc 是一个使用 Rust 构建的 JavaScript/TypeScript 工具链项目，目�
 4. https://github.com/oxc-project/oxc/blob/main/ARCHITECTURE.md
 5. https://github.com/oxc-project/oxc/blob/main/crates/oxc/README.md
 6. https://github.com/oxc-project/oxc/releases
+
+## 关联主题
+
+- [[00-元语/github]]
+- [[00-元语/typescript]]
+- [[00-元语/cli]]
+- [[00-元语/软件工程]]

@@ -1,0 +1,140 @@
+---
+title: "Stable Video正式开放公测 - 珍惜AI视频4s时代的余晖吧"
+发布日期: 2024-02-22
+作者: "数字生命卡兹克"
+来源: "微信公众号"
+原文链接: "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647661523&idx=1&sn=f082f2bab5dceff13b937c06fd04d587&chksm=f1b29821fefaf1a7c8e1e46b57c6ba7338650e59f6d066c4ec8b3ef446ba34df5bddf19a4b1b"
+---
+
+## 摘要
+
+**1) 一句话总结**
+Stability AI正式公测了基于SVD模型的网页端AI视频生成工具Stable Video，支持图文生成4秒视频，并提供慷慨的每日免费额度。
+
+**2) 关键要点**
+*   **全面开放**：Stable Video已向所有人开放公测，无需排队即可使用（stablevideo.com）。
+*   **降低门槛**：产品将原本需要用户自行部署的Stable Video Diffusion (SVD) 模型封装为网页应用，支持图生视频和文生视频。
+*   **生成规格**：生成的AI视频长度为4秒，支持常规的镜头控制、运动速度及步数自定义。
+*   **模型表现**：在画面稳定性、运动幅度以及画面细节保留上表现优异，处于当前同类产品（除Sora外）的第一梯队。
+*   **免费额度**：每日免费发放150积分，单次生成消耗10积分（每天可免费生成约15个片段），免费额度远高于PIKA和Runway。
+*   **付费方案**：提供10美元/500积分（约50秒视频）和50美元/3000积分的付费选项。
+
+**3) 风险/不足**
+*   **服务器稳定性差**：作者在实际使用时遭遇了服务器崩溃的情况。
+*   **付费性价比低**：相比于竞品（如Runway 10美元可生成200秒），Stable Video的付费方案（10美元仅生成50秒）极不划算。
+
+## 正文
+
+在漫天的Sora和X一舟的热度下，其他的产品动向，好像都被淹没在信息海中。
+
+但是，还是有一些有趣的产品和有趣的动向的
+
+比如，曾经的AI视频御三家之一，Stability（就是那个开源了Stable Diffusion的公司），终于正式上线了他们的AI视频产品。
+
+Stable Video。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvdZuXweYMWyad9YialGM7txdV0wr62UTVd5eP6ia2rziaTspuKiahMpsB3Q/640?wx_fmt=png&from=appmsg)
+
+在没有Sora的时代，我心中的御三家一直都是：Runway、PIKA、SVD。
+
+SVD还不是这个Stable Video，是
+Stable Video Diffusion，
+一直都是一个模型，严格来说他不能算一个产品
+。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvut4Rlp9iceZQAswwq8hIBwTrrZW5zQqBeYaKmE2eqQwHcpA9xULvjvw/640?wx_fmt=png&from=appmsg)
+
+但是这个模型效果是真的很好，但是需要用户自己部署，所以用起来真的麻烦，门槛又高，大家喜欢的，还是傻瓜式的点开就能用的东西。
+
+终于，直到昨天，
+Stable Video向所有人开放，不需要排队了，人人可用。
+
+https://www.stablevideo.com/
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvXm8fzpN3SVKb4dBiaIUMH9n2kYdrhkwhzlziaeYo0ReOEbvtQiceYtOiaQ/640?wx_fmt=png&from=appmsg)
+
+背后其实就是SVD模型，但是包了一层应用，能让用户简单快捷的方便上手。
+
+支持图生视频和文生视频。
+
+虽然人人都在看Sora，但是Sora那玩意，整体上我预估还得3个月以后才能开始内测，注意是内测，还不是像Stable Video这种开放测试。
+
+那这三个月，我觉得，来都来了，大过年的，玩玩
+Stable Video，也挺好。
+
+毕竟，你roll的每一个4s的AI视频，都是这个半残的AI视频时代，最后的余晖...
+
+我简单放几个
+Stable Vid
+eo的Case，大家可以感受一下。
+
+友情提示，不要跟Sora比，就像你非要拿地球科技跟三体科技比，没必要...都是地球人，跟地球人自家的PIKA、Runway比，这维度才一样...
+
+（这次用的不是我自己跑的Case，不是我懒，或者我原则变了，是他们服务器崩了...垃圾...）
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrv73iaia8Sk4jhbvXhh9JKQoCVe8prfZ9lvwH7URSkWMcO3T98orTtc4fA/640?wx_fmt=gif&from=appmsg)
+
+（PS：虽然他们社区没标作者，但是这一看就是AI离谱村的作品，我很喜欢的博主哈哈哈哈哈）
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvepwONg8M8wiaGFDmqiaia99pDppiaw5uJLrVibJM0QD0Wp2XTXUoicCiahocg/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvZZQd7icXCiaPV7WhibFG4whLjH7VTibung7qUzSZ2M2LhImATPt38L9E8Q/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvYhUQuIqcTy8cEs8u4VtFyfMwu73P3F7YrRnicrYzWHp70JWNWtXEicbQ/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvznBIH5PEbGfqHPl8SRG1vKshnYDuHPq0HFtribQnNLyfPpmuhjPlRwg/640?wx_fmt=gif&from=appmsg)
+
+SVD在画面稳定性、运动幅度、画面细节丢失上，效果都是我觉得目前第一梯队的，或者可以直接说，No.1（不算Sora）。
+
+当然，他们最爽的还是，每天免费150积分。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrv6o169jVX3d5XdibGZ63VJ3pCRaEibvm74xvwyKC05sO4KlX571VlOrsw/640?wx_fmt=png&from=appmsg)
+
+10积分一个片段，等于每天可以白嫖15个左右，PIKA每天只有3个，Runway就没有。
+
+这么一看，
+Stable Vid
+eo还是非常良心的，对于一些轻度玩家，就可以直接用了。
+
+你要是买的话也行，10刀500积分，50到3000积分，但是相比于Runway啥的，就有点不划算了，Runway你开了会员以后，是10刀买1000积分也就是200秒，而
+Stable Vid
+eo是10刀买500积分等于50s，这就是血亏了..
+
+非常不划算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvsDmMWniaVfHs3OmeqHFzRV14xOibkzYF3Wy6yUL8RLE0Prsb48Ygib2BA/640?wx_fmt=png&from=appmsg)
+
+在功能上，常规的镜头控制也有，还有一些运动速度和步数可以取去自定义，这块就不细说了，跟Runway、PIKA没啥区别。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OjgKEXmLURo0TypvCF7rHXzg8ibQadbrvHruFwTkthdjUEwgyWzJOibPuERHe12jzLEjs3YwoFXXU5XU1AU4fktg/640?wx_fmt=png&from=appmsg)
+
+整体上，在Sora没出来之前，如果有想玩AI视频的朋友，我目前无脑推荐
+Stable Vid
+eo。
+
+除了每天可白嫖15段之外，也有着目前最好的
+画面稳定性、运动幅度、画面细节不丢失
+。
+
+极其适合新人玩家上手，感受一下AI视频的魅力。
+
+毕竟，你现在roll
+的每一个4s的AI视频。
+
+都是这个半残的AI视频时代，最后的余晖。
+
+但是余晖也有余晖的好。
+
+他很适合纪念，以及对比。
+
+毕竟，如果你连4s的AI视频都没玩过，那你又怎么理解，Sora那种天顶星科技的伟大呢？
+
+你说对吧。
+
+。
+
+## 关联主题
+
+- [[00-元语/数字生命卡兹克]]
+- [[00-元语/AI]]
+- [[00-元语/llm]]

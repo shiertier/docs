@@ -62,3 +62,10 @@ Chatwoot 的核心定位是“统一客户沟通中台 + 支持工单协作”�
 - 官方帮助中心：https://www.chatwoot.com/help-center
 - 部署入口：https://chatwoot.com/deploy
 - 许可证：https://raw.githubusercontent.com/chatwoot/chatwoot/develop/LICENSE
+
+## 关联主题
+
+- [[00-元语/github]]
+- [[00-元语/self-hosting]]
+- [[00-元语/compliance]]
+- [[00-元语/community]]

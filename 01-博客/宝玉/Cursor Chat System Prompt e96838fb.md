@@ -60,7 +60,7 @@ function AIChatHistory() {
     {{ code }}
     ...
 }
-```
+
 ```
 
 ## 相关文档

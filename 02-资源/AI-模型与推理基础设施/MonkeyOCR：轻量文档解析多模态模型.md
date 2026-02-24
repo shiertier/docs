@@ -62,3 +62,10 @@ MonkeyOCR 的核心定位是“文档解析多模态模型”，面向 PDF 与�
 - 模型权重（ModelScope）：https://modelscope.cn/models/l1731396519/MonkeyOCR
 - 论文（MonkeyOCR）：https://arxiv.org/abs/2506.05218
 - 技术报告（MonkeyOCR v1.5）：https://arxiv.org/abs/2511.10390
+
+## 关联主题
+
+- [[00-元语/ocr]]
+- [[00-元语/multimodal]]
+- [[00-元语/llm]]
+- [[00-元语/llmops]]

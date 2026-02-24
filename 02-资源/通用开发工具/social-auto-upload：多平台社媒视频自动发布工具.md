@@ -55,3 +55,10 @@ title: social-auto-upload：多平台社媒视频自动发布工具
 - README：https://github.com/dreammis/social-auto-upload/blob/main/README.md
 - Releases：https://github.com/dreammis/social-auto-upload/releases
 - 官方文档站：https://sap-doc.nasdaddy.com/
+
+## 关联主题
+
+- [[00-元语/github]]
+- [[00-元语/browser-automation]]
+- [[00-元语/video]]
+- [[00-元语/compliance]]

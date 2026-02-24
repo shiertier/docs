@@ -62,3 +62,12 @@ FileConverter 的定位是“系统级轻量转换入口”。它直接集成在
 - 使用文档与排障：https://github.com/Tichau/FileConverter/wiki
 - 变更记录：https://github.com/Tichau/FileConverter/blob/master/CHANGELOG.md
 - 问题反馈：https://github.com/Tichau/FileConverter/issues
+
+## 关联主题
+
+- [[00-元语/windows]]
+- [[00-元语/desktop-client]]
+- [[00-元语/video]]
+- [[00-元语/audio]]
+- [[00-元语/image-editing]]
+- [[00-元语/tool]]

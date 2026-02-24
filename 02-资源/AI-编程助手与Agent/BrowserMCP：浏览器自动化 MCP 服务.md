@@ -52,3 +52,10 @@ BrowserMCP/mcp 是 BrowserMCP 体系中的 MCP 服务端核心代码，采用“
 - 官网：https://browsermcp.io
 - 文档：https://docs.browsermcp.io
 - 问题反馈：https://github.com/BrowserMCP/mcp/issues
+
+## 关联主题
+
+- [[00-元语/mcp]]
+- [[00-元语/browser-automation]]
+- [[00-元语/protocol]]
+- [[00-元语/Agent]]

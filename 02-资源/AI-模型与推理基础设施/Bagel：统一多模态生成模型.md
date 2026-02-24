@@ -63,3 +63,11 @@ Bagel 是面向多模态理解与生成的一体化基础模型项目。根据 R
 - 模型页：https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT
 - 演示：https://demo.bagel-ai.org/
 - 论文：https://arxiv.org/abs/2505.14683
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/multimodal]]
+- [[00-元语/llm]]
+- [[00-元语/evals]]
+- [[00-元语/github]]

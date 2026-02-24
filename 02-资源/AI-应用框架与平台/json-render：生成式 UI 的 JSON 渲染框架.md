@@ -60,3 +60,10 @@ json-render 面向“生成式 UI”应用开发，目标是把自然语言请�
 - README：https://raw.githubusercontent.com/vercel-labs/json-render/main/README.md
 - 文档目录：https://github.com/vercel-labs/json-render/tree/main/apps/web/app/(main)/docs
 - Changelog 页面源码：https://github.com/vercel-labs/json-render/blob/main/apps/web/app/(main)/docs/changelog/page.mdx
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/llm]]
+- [[00-元语/react]]
+- [[00-元语/ui-protocol]]

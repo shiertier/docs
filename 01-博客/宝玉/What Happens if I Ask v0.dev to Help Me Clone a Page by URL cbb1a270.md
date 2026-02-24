@@ -61,7 +61,7 @@ Now, let's create the category sidebar component:
 ```typescriptreact
 export function PromoBanner() {
 ...
-```
+
 ...
 </ReactProject>
 This implementation creates a simplified version of Taobao's homepage with the following features

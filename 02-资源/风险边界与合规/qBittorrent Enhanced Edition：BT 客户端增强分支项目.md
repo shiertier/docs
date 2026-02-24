@@ -54,3 +54,16 @@ qBittorrent Enhanced Edition 以原版 qBittorrent 为基础，延续其跨平�
 - 版本记录（仓库 Changelog）：https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/master/Changelog
 - 安全政策：https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/master/SECURITY.md
 - 上游项目官网：https://www.qbittorrent.org
+
+## 相关文档
+
+- [[02-资源/风险边界与合规/qBittorrent Enhanced Edition：增强型 BitTorrent 客户端项目|qBittorrent Enhanced Edition：增强型 BitTorrent 客户端项目]]；关联理由：同一事件；说明：同一仓库的另一份归档条目，补充了仓库统计快照与时间维度信息。
+- [[02-资源/风险边界与合规/trackerslist：公共 BitTorrent Tracker 列表项目|trackerslist：公共 BitTorrent Tracker 列表项目]]；关联理由：上下游；说明：该列表可作为 BT 客户端连接公共 Tracker 的外部依赖信息来源。
+
+## 关联主题
+
+- [[00-元语/compliance]]
+- [[00-元语/risk]]
+- [[00-元语/security]]
+- [[00-元语/protocol]]
+- [[00-元语/desktop-client]]

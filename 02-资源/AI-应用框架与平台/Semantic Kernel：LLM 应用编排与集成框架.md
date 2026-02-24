@@ -65,3 +65,11 @@ Semantic Kernel 的核心定位是 LLM 应用编排框架，强调“agent 能�
 10. https://learn.microsoft.com/en-us/python/api/semantic-kernel/semantic_kernel?view=semantic-kernel-python
 11. https://pypi.org/project/semantic-kernel/
 12. https://www.nuget.org/packages/Microsoft.SemanticKernel/
+
+## 关联主题
+
+- [[00-元语/AI]]
+- [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/sdk]]
+- [[00-元语/mcp]]

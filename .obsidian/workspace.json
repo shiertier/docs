@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-博客/阿布/神经网络速览与语言模型推理：从 Transformer 到提示方法.md",
+                "file": "01-博客/数字生命卡兹克/一手体验飞书多维表格应用模式 - 伟大，无需多言。.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "神经网络速览与语言模型推理：从 Transformer 到提示方法"
+              "title": "一手体验飞书多维表格应用模式 - 伟大，无需多言。"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-博客/阿布/神经网络速览与语言模型推理：从 Transformer 到提示方法.md",
+                "file": "01-博客/数字生命卡兹克/一手体验飞书多维表格应用模式 - 伟大，无需多言。.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "神经网络速览与语言模型推理：从 Transformer 到提示方法 的出链列表"
+              "title": "一手体验飞书多维表格应用模式 - 伟大，无需多言。 的出链列表"
             }
           },
           {
@@ -185,6 +185,24 @@
   },
   "active": "f8952b3405eee351",
   "lastOpenFiles": [
+    "01-博客/字节笔记本/Anthropic指名道姓控诉中国3家AI 公司蒸馏攻击，马斯克反击：你自己也不干净！.md",
+    "01-博客/字节笔记本",
+    "01-博客/Anthropic/检测与防范蒸馏攻击.md",
+    "00-元语/trading.md",
+    "2026-02-22.md",
+    "scripts/__pycache__/wechat_mp_full_sync.cpython-312.pyc.136030801014832",
+    "scripts/__pycache__/wechat_mp_incremental_sync.cpython-312.pyc",
+    "scripts/__pycache__/wechat_mp_full_sync.cpython-312.pyc",
+    "scripts/__pycache__/wechat_mp_sync_lib.cpython-312.pyc",
+    "scripts/wechat_mp_incremental_sync.py",
+    "scripts/wechat_mp_full_sync.py",
+    "scripts/wechat_mp_sync_lib.py",
+    "01-博客/宝玉/怎么能让ai更好的读我的prompt里 结构化数组对象数据呢？.md",
+    "01-博客/宝玉/Cursor Chat System Prompt e96838fb.md",
+    "01-博客/宝玉/Google stitch system prompt 82bf8b3b.md",
+    "01-博客/宝玉/What Happens if I Ask v0.dev to Help Me Clone a Page by URL cbb1a270.md",
+    "01-博客/宝玉/有了 v0 的完整提示词，是不是就能做一个 v0出来了？.md",
+    "01-博客/阿布/神经网络速览与语言模型推理：从 Transformer 到提示方法.md",
     "02-资源/风险边界与合规/nuclei：模板化漏洞扫描工具.md",
     "02-资源/风险边界与合规/social-analyzer：跨平台社交媒体资料分析工具.md",
     "02-资源/风险边界与合规/h4cker：综合网络安全资源库.md",
@@ -201,26 +219,8 @@
     "02-资源/通用开发工具/signoz：开源的 APM 与可观测性平台.md",
     "02-资源/AI-模型与推理基础设施/Qwen-Image：强大的图像生成与编辑基础模型.md",
     "02-资源/通用开发工具/nushell：新型结构化 Shell项目.md",
-    "02-资源/风险边界与合规/h4cker：网络安全与攻防学习资源清单.md",
-    "02-资源/风险边界与合规/douyin-downloader：短视频批量下载工具.md",
-    "02-资源/学习资源与知识库/awesome-machine-learning：机器学习资源汇总清单.md",
-    "02-资源/AI-模型与推理基础设施/vosk-api：离线开源语音识别工具包.md",
-    "02-资源/通用开发工具/nushell：现代化可组合 Shell 环境.md",
-    "02-资源/风险边界与合规/h4cker：综合网络安全与黑客技术资源库项目.md",
-    "02-资源/AI-编程助手与Agent/modelcontextprotocol：模型上下文协议规范与文档.md",
-    "02-资源/通用开发工具/rich：Python 终端富文本渲染库.md",
-    "02-资源/学习资源与知识库/awesome-machine-learning：机器学习框架与软件精选列表.md",
-    "02-资源/风险边界与合规/douyin-downloader：抖音无水印批量下载工具.md",
     "02-资源/AI-模型与推理基础设施/sed3rh3Rt",
     "scripts/normalize_h2_spacing.py",
-    "02-资源/AI-应用框架与平台/XXucDPPt",
-    "skills/文档关联性.md.tmp.1955720",
-    "skills/web-full-archive.md.tmp.1955720",
-    "skills/tag-index-wiki.md.tmp.1955720",
-    "skills/site-project-profile.md.tmp.1955720",
-    "skills/new-content-discovery.md.tmp.1955720",
-    "skills/github-repo-blog-archive.md.tmp.1955720",
-    "skills/gemini-task-usage.md.tmp.1955720",
     "node_modules/cpr/cpr.jpg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/fonts/fontawesome/fontawesome-webfont.svg",
     "node_modules/@honkit/honkit-plugin-theme-default/_assets/website/images/apple-touch-icon-precomposed-152.png",
