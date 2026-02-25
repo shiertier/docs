@@ -1,6 +1,6 @@
 ---
 title: "推出 Claude Opus 4.6"
-发布日期: 2026-02-24
+发布日期: 2026-02-05
 作者: "Anthropic"
 来源: "Anthropic News"
 原文链接: "https://www.anthropic.com/news/claude-opus-4-6"

@@ -1,6 +1,6 @@
 ---
 title: "La Plateforme：Mistral 首批 AI 端点开放早期访问"
-发布日期: 2026-02-24
+发布日期: 2023-12-11
 作者: "Mistral"
 来源: "Mistral"
 原文链接: "https://mistral.ai/news/la-plateforme"

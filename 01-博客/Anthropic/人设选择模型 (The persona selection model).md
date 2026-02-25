@@ -1,6 +1,6 @@
 ---
 title: "人设选择模型 (The persona selection model)"
-发布日期: 2026-02-24
+发布日期: 2026-02-23
 作者: "Anthropic"
 来源: "Anthropic Research"
 原文链接: "https://www.anthropic.com/research/persona-selection-model"

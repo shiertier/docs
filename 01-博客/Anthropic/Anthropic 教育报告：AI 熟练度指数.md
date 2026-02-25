@@ -1,6 +1,6 @@
 ---
 title: "Anthropic 教育报告：AI 熟练度指数"
-发布日期: 2026-02-24
+发布日期: 2026-02-23
 作者: "Anthropic"
 来源: "Anthropic Research"
 原文链接: "https://www.anthropic.com/research/AI-fluency-index"
