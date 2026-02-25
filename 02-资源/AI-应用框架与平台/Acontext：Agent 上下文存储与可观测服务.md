@@ -6,6 +6,7 @@ title: "Acontext：Agent 上下文存储与可观测服务"
 来源:
   - "https://github.com/memodb-io/Acontext"
   - "https://acontext.io/"
+  - "https://docs.acontext.app/api-reference/artifact/get-artifact"
 ---
 
 ## 摘要
@@ -72,10 +73,19 @@ Acontext 是一个专为生产级和自学习 AI Agent 打造的上下文数据�
 - 使用的 LLM 必须具备工具调用（Tool Calling）能力。
 - 项目目前采用 Apache License 2.0 开源协议。
 
+## 社区补充观察
+
+- 观点来源：寇佳新（对 Acontext 文档与能力边界的实务观察）。
+- 关键判断：`agent problem solver is entropy reducing`，强调 Agent 问题求解的本质是持续降低系统与任务的不确定性。
+- 文档演进信号：当前 Acontext 文档存在“API reference”和“Agent skill”两条线并行的割裂感，但 `API -> Skill` 是明确趋势。
+- 能力落地点：`Get artifact` 接口支持按路径和文件名读取 artifact，并可选择返回预签名下载地址与解析后的文件内容。
+- 工程价值：如果 artifact 能稳定落到真实磁盘并被技能链路直接消费，很多单独的 CRUD API 可以被统一的文件语义替代，从而降低接口数量与维护成本。
+
 ## 链接
 
 - GitHub 仓库: https://github.com/memodb-io/Acontext
 - 官网: https://acontext.io/
+- API 参考（Get artifact）: https://docs.acontext.app/api-reference/artifact/get-artifact
 
 ## 关联主题
 
