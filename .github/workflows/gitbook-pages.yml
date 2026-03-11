@@ -41,10 +41,27 @@ jobs:
         working-directory: /tmp/quartz-runtime
         run: npx quartz build
 
+      - name: Archive Pages Artifact
+        env:
+          INPUT_PATH: /tmp/quartz-runtime/public
+          ARTIFACT_PATH: ${{ runner.temp }}/artifact.tar
+        run: |
+          tar \
+            --dereference --hard-dereference \
+            --directory "$INPUT_PATH" \
+            -cvf "$ARTIFACT_PATH" \
+            --exclude=.git \
+            --exclude=.github \
+            --exclude=".[^/]*" \
+            .
+
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
-          path: /tmp/quartz-runtime/public
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
