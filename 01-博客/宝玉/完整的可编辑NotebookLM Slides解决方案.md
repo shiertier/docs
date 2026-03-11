@@ -1,5 +1,5 @@
 ---
-title: "The complete \"Editable NotebookLM Slides\" solution"
+title: 'The complete "Editable NotebookLM Slides" solution'
 
 来源: "https://baoyu.io/blog/the-complete-editable-notebooklm-slides-solution"
 发布日期: "2025-12-21"

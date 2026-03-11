@@ -5,7 +5,7 @@ title: "freeCodeCamp：开源编程学习社区与免费认证课程体系"
 对象: "GitHub 项目 `freeCodeCamp/freeCodeCamp`"
 项目主页: "https://github.com/freeCodeCamp/freeCodeCamp"
 官方网站: "https://contribute.freecodecamp.org"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "TypeScript"
 统计快照: "Stars 437404，Forks 43417，Watchers 8537（抓取时间：2026-02-22）"
 版本快照: "暂无正式发布记录"

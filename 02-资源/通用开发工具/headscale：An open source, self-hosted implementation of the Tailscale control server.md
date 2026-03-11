@@ -4,7 +4,7 @@ title: "headscale：An open source, self-hosted implementation of the Tailscale 
 发布日期: "2026-02-22"
 对象: "GitHub 项目 `juanfont/headscale`"
 项目主页: "https://github.com/juanfont/headscale"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "Go"
 统计快照: "Stars 35665，Forks 1913，Watchers 183（抓取时间：2026-02-22）"
 版本快照: "最新发布 v0.28.0（发布时间：2026-02-04T20:40:23Z）"

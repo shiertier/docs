@@ -1,5 +1,5 @@
 ---
-title: "Prompt to build a \"Retro Camera Web App\" by Gemini 3"
+title: 'Prompt to build a "Retro Camera Web App" by Gemini 3'
 
 来源: "https://baoyu.io/blog/retro-camera-web-app-prompt"
 发布日期: "2025-11-20"

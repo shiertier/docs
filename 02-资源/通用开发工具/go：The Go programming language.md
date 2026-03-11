@@ -5,7 +5,7 @@ title: "go：The Go programming language"
 对象: "GitHub 项目 `golang/go`"
 项目主页: "https://github.com/golang/go"
 官方网站: "https://go.dev"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "Go"
 统计快照: "Stars 132689，Forks 18824，Watchers 3338（抓取时间：2026-02-22）"
 版本快照: "暂无正式发布记录"

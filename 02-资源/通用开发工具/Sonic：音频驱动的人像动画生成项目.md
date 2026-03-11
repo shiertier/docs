@@ -1,5 +1,5 @@
 ---
-title: "Sonic：Official implementation of "So 开发工具"
+title: "Sonic：音频驱动的人像动画生成项目"
 对象: "GitHub 项目 `jixiaozhong/Sonic`"
 项目主页: "https://github.com/jixiaozhong/Sonic"
 开源协议: "NOASSERTION"
@@ -12,13 +12,13 @@ title: "Sonic：Official implementation of "So 开发工具"
 
 ## 摘要
 
-- Sonic：Official implementation of "So 开发工具 是一个开源项目，核心定位是 Official implementation of "Sonic: Shifting Focus to Global Audio Perception in Portrait Animation"。
+- Sonic 是一个开源的人像动画生成项目，核心定位是通过全局音频感知提升音频驱动人像动画的表现质量。
 - 仓库快照（2026-02-27）显示 Stars 3194、Forks 285，主要语言为 Python。
 - 本文聚焦可复用的功能定位、适用场景、差异点和使用边界，便于后续选型与归档检索。
 
 ## 功能与定位
 
-根据仓库公开描述，该项目定位为：Official implementation of "Sonic: Shifting Focus to Global Audio Perception in Portrait Animation"。
+根据仓库公开描述，该项目定位为一个围绕 “Sonic: Shifting Focus to Global Audio Perception in Portrait Animation” 论文实现的音频驱动人像动画项目。
 
 ## 典型使用场景
 

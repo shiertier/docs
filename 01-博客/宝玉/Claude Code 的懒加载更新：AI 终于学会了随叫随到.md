@@ -1,5 +1,5 @@
 ---
-title: "Claude Code 的\"懒加载\"更新：AI 终于学会了\"随叫随到"
+title: 'Claude Code 的“懒加载”更新：AI 终于学会了“随叫随到”'
 
 来源: "https://baoyu.io/blog/2026/01/14/claude-code-mcp-tool-search"
 发布日期: "2026-01-14"

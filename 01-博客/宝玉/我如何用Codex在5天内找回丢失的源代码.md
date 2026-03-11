@@ -1,5 +1,5 @@
 ---
-title: "How I Used Codex to \\\"Recover\\\" Lost Source Code in 5 Days"
+title: 'How I Used Codex to "Recover" Lost Source Code in 5 Days'
 
 来源: "https://baoyu.io/blog/2026/01/31/codex-recover-source-code"
 发布日期: "2026-01-31"

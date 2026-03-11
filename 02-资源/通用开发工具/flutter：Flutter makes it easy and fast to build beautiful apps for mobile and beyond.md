@@ -5,7 +5,7 @@ title: "flutter：Flutter makes it easy and fast to build beautiful apps for mob
 对象: "GitHub 项目 `flutter/flutter`"
 项目主页: "https://github.com/flutter/flutter"
 官方网站: "https://flutter.dev"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "Dart"
 统计快照: "Stars 175275，Forks 30025，Watchers 3469（抓取时间：2026-02-22）"
 版本快照: "最新发布 3.19.0-0.1.pre（发布时间：2024-01-11T18:31:57Z）"

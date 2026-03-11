@@ -1,5 +1,5 @@
 ---
-title: "System Prompt of \"Brainstomer\""
+title: 'System Prompt of "Brainstomer"'
 
 来源: "https://baoyu.io/blog/system-prompt-of-brainstomer"
 发布日期: "2025-08-26"

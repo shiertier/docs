@@ -1,5 +1,5 @@
 ---
-title: "System prompt of \"Writing editor\""
+title: 'System prompt of "Writing editor"'
 
 来源: "https://baoyu.io/blog/system-prompt-of-writing-editor"
 发布日期: "2025-08-25"

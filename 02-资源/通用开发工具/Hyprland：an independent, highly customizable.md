@@ -5,7 +5,7 @@ title: "Hyprland：an independent, highly customizable"
 对象: "GitHub 项目 `hyprwm/Hyprland`"
 项目主页: "https://github.com/hyprwm/Hyprland"
 官方网站: "https://hypr.land"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "C++"
 统计快照: "Stars 33980，Forks 1574，Watchers 127（抓取时间：2026-02-22）"
 版本快照: "最新发布 v0.53.3（发布时间：2026-01-24T20:04:27Z）"

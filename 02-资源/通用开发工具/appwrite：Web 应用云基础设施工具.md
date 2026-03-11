@@ -5,7 +5,7 @@ title: "appwrite：Web 应用云基础设施工具"
 对象: "GitHub 项目 `appwrite/appwrite`"
 项目主页: "https://github.com/appwrite/appwrite"
 官方网站: "https://appwrite.io"
-开源协议: "BSD 3-Clause \"New\" or \"Revised\" License"
+开源协议: 'BSD 3-Clause "New" or "Revised" License'
 主要语言: "TypeScript"
 统计快照: "Stars 54907，Forks 5014，Watchers 394（抓取时间：2026-02-22）"
 版本快照: "最新发布 1.8.1（发布时间：2025-12-23T18:17:09Z）"
