@@ -112,13 +112,16 @@ python3 scripts/discover_ai_content.py --days 7 --limit 1000 --show-top 20
 
 - 最终文档：`01-博客/内容发现/YYYY年M月D日：AI 当日热门 Blog 与 News 清单.md`
 - 中间结果：`.tmp/daily-hot-*.json`、`.tmp/daily-hot-*.md`、`.tmp/daily-hot-publish-evidence.tsv`
+- 默认摘要来源：`scripts/gemini_task.py summarize`
+- 若已确认 Gemini 摘要接口因 DNS/连接错误不可用：允许在离线日榜 payload 中写入 `summary` 字段作为助手撰写回退摘要，再由渲染脚本直接落盘；禁止伪称为 Gemini 产物
 
 ### 强制约束
 
 - 单日文档必须恰好包含：
   - `Blog Top 10`：10 条
   - `News Top 10`：10 条
-- 同平台总计不得超过 3 条
+- 同平台每类不得超过 3 条
+  - `Blog Top 10` 与 `News Top 10` 分别独立计数
   - 平台按归一化域名统计，例如 `www.techcrunch.com` 与 `techcrunch.com` 视为同平台
 - 每条必须写出真实 `发布时间`
 - `发布时间` 必须来自可复核证据：
@@ -237,7 +240,10 @@ rg -n "^- 处理建议：(归档|观察|丢弃)$" .tmp/discovery-*.review.md
 rg -n "完成验证后即可继续访问|wappoc_appmsgcaptcha|^# 环境异常$" .tmp/discovery-*.review.md
 
 # 每日热门文档规则存在性
-rg -n "每日热门 Blog 与 News 清单|同平台总计不得超过 3 条|真实 `发布时间`|daily-hot-publish-evidence\\.tsv|不足 10 条时，不得发布" skills/new-content-discovery.md AGENTS.md
+rg -n '每日热门 Blog 与 News 清单|同平台每类不得超过 3 条|Blog Top 10.*独立计数|真实 .*发布时间.*|daily-hot-publish-evidence\.tsv|不足 10 条时，不得发布' skills/new-content-discovery.md AGENTS.md
+
+# Gemini 摘要回退规则存在性
+rg -n 'Gemini .*不可用|summary 字段|回退摘要|禁止伪称为 Gemini' AGENTS.md skills/new-content-discovery.md scripts/daily_hot_blog_news.py
 
 # 每日热门文档与证据一致性
 python3 scripts/daily_hot_blog_news.py --check-docs 01-博客/内容发现 --date-from 2026-02-28 --date-to 2026-03-11 --evidence .tmp/daily-hot-publish-evidence.tsv

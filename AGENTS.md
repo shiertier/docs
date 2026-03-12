@@ -306,10 +306,12 @@
 - 新增子场景：按天热门 blog/news 清单（每日 10+10）
   - 最终文档落盘到：`01-博客/内容发现/`
   - 文件名与 `title` 推荐格式：`YYYY年M月D日：AI 当日热门 Blog 与 News 清单`
+  - 默认摘要来源：`scripts/gemini_task.py summarize`
+  - 若已确认 Gemini 摘要接口因 DNS/连接错误不可用：允许在离线日榜 payload 中写入 `summary` 字段作为助手撰写回退摘要，再由渲染脚本直接落盘；禁止伪称为 Gemini 产物
   - 单日文档必须同时满足：
     - `Blog Top 10` 恰好 10 条
     - `News Top 10` 恰好 10 条
-    - 同平台总计不得超过 3 条（平台按归一化域名统计，如去掉 `www.`）
+    - 同平台每类不得超过 3 条（`Blog Top 10` 与 `News Top 10` 分别独立计数；平台按归一化域名统计，如去掉 `www.`）
     - 每条都必须写出真实 `发布时间`
     - `发布时间` 必须可追溯到一手证据，禁止使用入库时间、脚本运行时间、Google News 聚合时间替代
   - 日榜分桶规则（强制）：
@@ -336,7 +338,8 @@
   - `rg -n "^- 处理建议：(归档|观察|丢弃)$" .tmp/discovery-*.review.md`
   - `rg -n "完成验证后即可继续访问|wappoc_appmsgcaptcha|^# 环境异常$" .tmp/discovery-*.review.md`
   - `rg -n "新内容发现（候选分级与归档优先级）|skills/new-content-discovery\\.md|scripts/discover_ai_content\\.py|高价值：85-100|处理建议（仅限 .*归档.*观察.*丢弃.*）" AGENTS.md skills/new-content-discovery.md`
-  - `rg -n "每日热门 blog/news 清单|同平台总计不得超过 3 条|真实 `发布时间`|daily-hot-publish-evidence\\.tsv|不足 10 条时，不得发布" AGENTS.md skills/new-content-discovery.md`
+  - `rg -n '每日热门 blog/news 清单|同平台每类不得超过 3 条|Blog Top 10.*独立计数|真实 .*发布时间.*|daily-hot-publish-evidence\.tsv|不足 10 条时，不得发布' AGENTS.md skills/new-content-discovery.md`
+  - `rg -n 'Gemini .*不可用|summary 字段|回退摘要|禁止伪称为 Gemini' AGENTS.md skills/new-content-discovery.md scripts/daily_hot_blog_news.py`
   - `python3 scripts/daily_hot_blog_news.py --check-docs 01-博客/内容发现 --date-from 2026-02-28 --date-to 2026-03-11 --evidence .tmp/daily-hot-publish-evidence.tsv`
 
 12) 新增场景：GitHub 仓库文档入博客（价值筛选与归档）

@@ -104,7 +104,7 @@ title: "baoyu.io 博客目录（页 1–8）"
 - 2025-12-20 Redis 之父 Salvatore Sanfilippo 的年终 AI 反思（https://baoyu.io/blog/redis-creator-salvatore-sanfilippos-year-end-ai-reflections）
 - 2025-12-20 Reborn from Failure: A Real-World Retrospective on Landing a Frontend AI Agent（https://baoyu.io/blog/reborn-from-failure-frontend-ai-agent-retrospective）
 - 2025-12-19 Coding Agent 的舒适区（https://baoyu.io/blog/coding-agents-comfort-zone）
-- 2025-12-18 4人28天，85%AI代码：揭秘Sora Android背后的“凡尔赛”开发法（https://baoyu.io/blog/sora-android-85-ai-code-development-method）
+- 2025-12-18 4人28天，85百分之AI代码：揭秘Sora Android背后的“凡尔赛”开发法（https://baoyu.io/blog/sora-android-85-ai-code-development-method）
 - 2025-12-17 Gemini 引导式学习系统提示词（https://baoyu.io/blog/gemini-guided-learning-system-prompts-cn）
 - 2025-12-17 Gemini Guided Learning System Prompt（https://baoyu.io/blog/gemini-guided-learning-system-prompt）
 - 2025-12-16 《AI 与自动化的讽刺》读后感（https://baoyu.io/blog/the-irony-of-ai-and-automation-review）
