@@ -36,11 +36,11 @@ ChatGPT 在输出消息时，会将 Markdown 格式解析成 HTML，虽然可以
 
 两种方法，使用场景各有不同：
 
-1.   借助 [Turndown](https://github.com/mixmark-io/turndown) 这样的库将 HTML 转成 Markdown，缺点就是转换后可能和原始 Markdown 有出入，尤其是 Turndown 默认不支持表格的转换
+1. 借助 [Turndown](https://github.com/mixmark-io/turndown) 这样的库将 HTML 转成 Markdown，缺点就是转换后可能和原始 Markdown 有出入，尤其是 Turndown 默认不支持表格的转换
 
-方法 1 还有一个衍生版本，就是要求 ChatGPT 在输出内容时，将要输出的所有内容都放在 ``` 对中，这样它就不会解析里面的 Markdown，当成代码块来输出原始格式。这种方法大部分场景是适用的，就是有一个小问题，如果要输出的内容中正好有 ``` ，就会有多个代码块，格式会乱掉，一部分在代码块，一部分在外面，结果还是要解析 完整的 HTML。
+方法 1 还有一个衍生版本，就是要求 ChatGPT 在输出内容时，将要输出的所有内容都放在 ``` 中，这样它就不会解析里面的 Markdown，而是当成代码块来输出原始格式。这种方法大部分场景是适用的，就是有一个小问题，如果要输出的内容中正好有 ```，就会有多个代码块，格式会乱掉，一部分在代码块，一部分在外面，结果还是要解析完整的 HTML。
 
-1.   借助 React Dev Tool 的 Hook
+2. 借助 React Dev Tool 的 Hook
 
 这种方法可能绝大多数人都没听说过。React 为了支持 React Dev Tool，暴露了一个 Hook，是个全局变量，名称是“`__REACT_DEVTOOLS_GLOBAL_HOOK__`”，通过它可以注入到 React 组件内部，拿到组件内部的状态。这就是为什么通过 React Dev Tool 能看到每一个组件的属性和状态。
 
@@ -54,65 +54,48 @@ ChatGPT 的网页是 Nextjs 和 React 开发的，默认是支持 React Dev Tool
 
 参考代码如下：
 
+```javascript
 (function () {
+  const getMessagesWithReactDevTools = () => {
+    const messages = [];
 
-const getMessagesWithReactDevTools = () => {
+    function traverseComponentTree(fiberNode) {
+      const parts = fiberNode.memoizedProps?.parts;
 
-const messages = [];
+      if (Array.isArray(parts)) {
+        // console.log(fiberNode, parts);
+        if (typeof parts[0] === "string") {
+          messages.push(parts.join(""));
+        }
+      }
 
-function traverseComponentTree(fiberNode) {
+      let child = fiberNode.child;
+      while (child) {
+        traverseComponentTree(child);
+        child = child.sibling;
+      }
+    }
 
-let parts = fiberNode.memoizedProps?.parts;
+    const devtools = window.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+    const rootFiber = devtools?.getFiberRoots(1)?.values()?.next()?.value?.current;
 
-if (Array.isArray(parts)) {
+    if (rootFiber) {
+      traverseComponentTree(rootFiber);
+    } else {
+      console.error("No root fiber found");
+    }
 
-// console.log(fiberNode, parts);
+    return messages;
+  };
 
-if (typeof parts[0] === "string") {
-
-messages.push(parts.join(""));
-
-}
-
-}
-
-let child = fiberNode.child;
-
-while (child) {
-
-traverseComponentTree(child);
-
-child = child.sibling;
-
-}
-
-}
-
-const devtools = window. __REACT_DEVTOOLS_GLOBAL_HOOK__ ;
-
-const rootFiber = devtools?.getFiberRoots(1)?.values()?.next()
-
-?.value?.current;
-
-if (rootFiber) {
-
-traverseComponentTree(rootFiber);
-
-} else {
-
-console.error("No root fiber found");
-
-}
-
-return messages;
-
-};
-
-const messages = getMessagesWithReactDevTools();
-
-console.log(messages);
-
+  const messages = getMessagesWithReactDevTools();
+  console.log(messages);
 })();
+```
+
+## 相关文档
+
+- [[01-博客/宝玉/如何控制 LLM 的输出格式和解析其输出结果？|如何控制 LLM 的输出格式和解析其输出结果？]]；关联理由：延伸思考；说明：该文把本文提到的“让 ChatGPT 用代码块输出以便复制 Markdown”扩展为更一般的 LLM 输出约束与程序解析问题。
 
 ## 关联主题
 
@@ -120,5 +103,4 @@ console.log(messages);
 - [[00-元语/react]]
 - [[00-元语/markdown]]
 - [[00-元语/browser-automation]]
-- [[00-元语/web-crawling]]
 - [[00-元语/prompt]]

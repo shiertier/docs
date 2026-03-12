@@ -201,7 +201,17 @@ Peter Stein berger 没有等 AI 变得完美才开始写 SOUL.md。他在 AI 还
 
 .   《当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS. md》
 
+## 相关文档
+
+- [[01-博客/InfoQ/从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路|从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路]]；关联理由：上下游；说明：这是同一 OpenClaw 系列的起点，提供 Peter Steinberger 与项目诞生背景，构成本文讨论“出厂设置”为何重要的上游上下文。
+- [[01-博客/InfoQ/当 AI 开始拥有灵魂：逐句解读 OpenClaw 的 SOUL|当 AI 开始拥有灵魂：逐句解读 OpenClaw 的 SOUL]]；关联理由：引用；说明：本文直接把 SOUL 中关于身份与价值取向的设定，对照到虾宝主动为团队寻找岗位的真实行为上。
+- [[01-博客/InfoQ/当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活|当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活]]；关联理由：引用；说明：本文逐段回扣 AgentS 中的记忆写入、参与不主导与存疑先问等规则，用虾宝案例验证这些行为约束如何落地。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/memory]]
+- [[00-元语/skills]]
+- [[00-元语/组织设计]]
+- [[00-元语/知识工作]]

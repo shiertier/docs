@@ -1,5 +1,5 @@
 ---
-title: 'Prompt to build a "Retro Camera Web App" by Gemini 3'
+title: "Gemini 3 复古相机 Web App 提示词"
 
 来源: "https://baoyu.io/blog/retro-camera-web-app-prompt"
 发布日期: "2025-11-20"
@@ -25,13 +25,13 @@ title: 'Prompt to build a "Retro Camera Web App" by Gemini 3'
 
 ![Image 1](https://baoyu.io/uploads/2025-11-20/1763608541944.png)
 
-Share:
+分享链接：
 
 *   v1: [https://ai.studio/apps/drive/1q42BaBYgV2szCt0tgaDnut4y2DNqYyLG](https://ai.studio/apps/drive/1q42BaBYgV2szCt0tgaDnut4y2DNqYyLG)
 
 *   v2: [https://ai.studio/apps/drive/1eg4iNENmZcsfFzuTAyiSwx-DAvJVLMx5](https://ai.studio/apps/drive/1eg4iNENmZcsfFzuTAyiSwx-DAvJVLMx5)
 
-Prompt:
+提示词原文：
 
 ```
 Please generate a single-file React application for a "Retro Camera Web App" with the following specifications:
@@ -106,9 +106,8 @@ Technical Stack
 ## 关联主题
 
 - [[00-元语/gemini]]
-- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/vibe-coding]]
-- [[00-元语/llm]]
 - [[00-元语/react]]
 - [[00-元语/multimodal]]
+- [[00-元语/llm]]

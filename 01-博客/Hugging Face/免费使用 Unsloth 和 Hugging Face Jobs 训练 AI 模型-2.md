@@ -202,6 +202,10 @@ trainer.push_to_hub()
 * [Hugging Face Jobs 上的 Unsloth 教程](https://unsloth.ai/docs/basics/inference-and-deployment/deploying-with-hugging-face-jobs)
 * [Unsloth Jobs 示例脚本](https://huggingface.co/datasets/unsloth/jobs)
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Unsloth：LLM 微调与训练加速工具库|Unsloth：LLM 微调与训练加速工具库]]；关联理由：解说；说明：本文把 Unsloth 作为在 Hugging Face Jobs 上完成低成本微调的核心组件，该资源页补充了 Unsloth 的能力边界、性能特征与适用场景。
+
 ## 关联主题
 
 - [[00-元语/llm]]
@@ -211,4 +215,4 @@ trainer.push_to_hub()
 - [[00-元语/skills]]
 - [[00-元语/Agent]]
 - [[00-元语/Codex]]
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]

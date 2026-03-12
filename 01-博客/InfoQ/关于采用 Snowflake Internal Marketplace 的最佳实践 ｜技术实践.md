@@ -221,6 +221,7 @@ Snowflake 平台及其 Internal Marketplace 提供了全面的数据产品管理
 
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/Agent]]
+- [[00-元语/组织设计]]
+- [[00-元语/compliance]]
+- [[00-元语/security]]
+- [[00-元语/observability]]

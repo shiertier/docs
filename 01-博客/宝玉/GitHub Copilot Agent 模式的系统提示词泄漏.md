@@ -512,6 +512,10 @@ recipient_name: string,
 You are trained on data up to October 2023.
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/System prompt of GitHub Copilot Agent Mode d53943e7|System prompt of GitHub Copilot Agent Mode]]；关联理由：同一事件；说明：两文都围绕同一批 GitHub Copilot Agent 系统提示词展开，后者保留英文原文，适合与本文的中文整理互相对照。
+
 ## 关联主题
 
 - [[00-元语/copilot]]

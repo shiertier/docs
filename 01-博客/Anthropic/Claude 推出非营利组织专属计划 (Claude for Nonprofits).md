@@ -1,5 +1,6 @@
 ---
 title: "Claude 推出非营利组织专属计划 (Claude for Nonprofits)"
+发布日期: 2025-12-02
 
 来源: "https://www.anthropic.com/news/claude-for-nonprofits"
 ---
@@ -74,10 +75,14 @@ Claude 支持多种连接器，可将 AI 与团队现有的平台（如 Microsof
 
 如果您想了解有关 Claude for Nonprofits 的更多信息，并访问免费的 AI 素养课程，请前往我们的官方网站开始您的 AI 之旅。
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude：一个纯粹的思考空间|Claude：一个纯粹的思考空间]]；关联理由：上下游；说明：该文把“在不出售用户注意力与数据的前提下扩大可及性”列为 Claude 的产品原则，本文则给出面向非营利组织的折扣、培训与连接器落地方案。
+
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/AI]]
-- [[00-元语/community]]
+- [[00-元语/知识工作]]
 - [[00-元语/productivity]]
 - [[00-元语/workflow]]

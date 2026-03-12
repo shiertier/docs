@@ -1,7 +1,7 @@
 ---
 title: "Claude Skills Cookbook 使用指南"
 
-发布日期: "2026-02-17"
+发布日期: 2026-02-17
 作者: "Anthropic"
 来源仓库: "anthropics/claude-cookbooks"
 原文链接: "https://github.com/anthropics/claude-cookbooks/blob/main/skills/README.md"
@@ -29,8 +29,6 @@ title: "Claude Skills Cookbook 使用指南"
 *   **配置强依赖**：若未正确设置环境变量（API 密钥）或缺失指定的 Beta 请求头，将直接导致功能调用失败。
 
 ## 正文
-
-# Claude Skills Cookbook 🚀
 
 一份关于使用 Claude 的 Skills（技能）功能进行文档生成、数据分析和业务自动化的综合指南。本 Cookbook 演示了如何利用 Claude 内置的 Excel、PowerPoint 和 PDF 创建技能，以及如何为特定工作流构建自定义技能。
 
@@ -387,17 +385,15 @@ Error: Request exceeds token limit
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：解说；说明：同属 Skills Cookbook 体系，该文补充 SDK、Files API 与排障细节。
-- [[01-博客/Anthropic/Claude Skills Notebook 实战进阶|Claude Skills Notebook 实战进阶]]；关联理由：上下游；说明：本篇给出 Skills 总览与入门路径，该文承接到 Notebook 实操进阶。
+- [[01-博客/Anthropic/Claude 开发平台发布说明：API 与 SDK 更新总览|Claude 开发平台发布说明：API 与 SDK 更新总览]]；关联理由：版本演进；说明：该文记录 Agent Skills 与 Files API 进入平台发布说明的时间线，本文则展示同一能力在 `skills/README` 中的后续接入方式与使用边界。
+- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：解说；说明：两文都围绕同一套 Skills Cookbook，本篇给总览与入门路径，该文补充 SDK、Files API 与排障细节。
+- [[01-博客/Anthropic/Claude Skills Notebook 实战进阶|Claude Skills Notebook 实战进阶]]；关联理由：上下游；说明：本篇先定义三份 Notebook 的结构与能力边界，该文继续展开到分层实操路径与示例代码。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/skills]]
 - [[00-元语/context-optimization]]
-- [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/sdk]]
 - [[00-元语/Agent]]
-- [[00-元语/github]]
-- [[00-元语/llm]]

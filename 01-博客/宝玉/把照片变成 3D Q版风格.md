@@ -21,23 +21,22 @@ title: "把照片变成 3D Q版风格"
 
 ## 正文
 
-[宝玉的分享](https://baoyu.io/)[博客](https://baoyu.io/blog)[翻译](https://baoyu.io/translations)
-
-[See all posts](https://baoyu.io/translations)
-
-Published on 2025-04-04
+这是一条很短的实操提示，适合在上传参考照片后，直接把人物转成 3D Q版风格，同时保留原始场景与服装信息。
 
 ![Image 1](https://baoyu.io/uploads/2025-04-04/20250404_1036_3D%20Q%E7%89%88%E8%A7%92%E8%89%B2%E8%BD%AC%E6%8D%A2_remix_01jr0q47b9e95r8qw87j8aeqhc.png)
 
-工具：[Sora.com](http://sora.com/) 或 GPT-4o
+工具：[Sora.com](https://sora.com/) 或 GPT-4o
 
 提示词（需要上传一张照片）：
 
-将场景中的角色转化为3D Q版风格，同时保持原本的场景布置和服装造型不变。
+```text
+将场景中的角色转化为 3D Q版风格，同时保持原本的场景布置和服装造型不变。
+```
 
-* * *
+## 相关文档
 
-[See all posts](https://baoyu.io/translations)
+- [[01-博客/宝玉/3D风格的Q版人物APP图标|3D风格的Q版人物APP图标]]；关联理由：延伸思考；说明：两文都采用“上传照片 + Sora/GPT-4o + 3D Q版化”的工作流，只是该文把输出收束为 APP 图标，而本文保留原场景与服装。
+- [[01-博客/宝玉/将照片人像化作梦幻水晶玻璃球的提示词，以及如何衍生版本|将照片人像化作梦幻水晶玻璃球的提示词，以及如何衍生版本]]；关联理由：上下游；说明：本文给出最基础的“照片转 3D Q版”指令，而该文在同类输入上继续加入水晶球容器、角色关系与环境元素等更细的构图约束。
 
 ## 关联主题
 

@@ -41,6 +41,10 @@ For this particular slide deck, we want the content to focus on: {Add a high-lev
 We have also attached some producer notes below for this slide deck which will help guide the overall structure and narrative of the deck.
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/完整的可编辑NotebookLM Slides解决方案|完整的可编辑NotebookLM Slides解决方案]]；关联理由：上下游；说明：该文把本文的幻灯片大纲提示词扩展为“先规划、后绘制”的完整流程，用于生成可编辑版 NotebookLM Slides。
+
 ## 关联主题
 
 - [[00-元语/AI]]

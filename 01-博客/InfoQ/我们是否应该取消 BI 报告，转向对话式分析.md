@@ -28,8 +28,6 @@ title: "我们是否应该取消 BI 报告，转向对话式分析"
 
 ## 正文
 
-2026 年，智能体将在企业级应用中取得哪些实质性突破？ 点击下载 《2026 年 AI 与数据发展预测》白皮书，获悉专家一手前瞻，抢先拥抱新的工作方式！
-
 在医疗健康领域，商业智能（BI）的演进始终受行业迫切需求的驱动，即获取及时、可操作的洞见，以提升患者治疗效果、优化运营流程并满足合规监管要求。早期的商业智能不仅停留在记录已发生事件的层面，更开始引入机器学习（ML）模型，以更精准地预测未来趋势。
 
 然而，尽管取得了这些进展，传统商业智能在解读新兴趋势、赋能临床医生及管理人员等非技术用户交互式探索数据、发掘潜在洞见方面，仍常面临诸多挑战。
@@ -68,10 +66,14 @@ Snowflake Cortex AI 是实现这一加速的关键。它充当了受治理的商
 
 原文地址： https://medium.com/snowflake/should-we-get-rid-of-bi-reports-in-pursuit-of-conversational-analytics-08957872425d
 
-点击链接立即报名注册： Ascent - Snowflake Platform Training - China ， 更多 Snowflake 精彩活动请关注 专区 。
+## 相关文档
+
+- [[01-博客/OpenAI/Snowflake与OpenAI达成合作：将前沿人工智能引入企业数据.md|Snowflake与OpenAI达成合作：将前沿人工智能引入企业数据]]；关联理由：上下游；说明：该文解释了 Snowflake Cortex AI 与 Snowflake Intelligence 如何把企业受治理数据接入自然语言分析，是本文医疗场景落地背后的平台能力。
+- [[01-博客/Towards Data Science/AI能否解决供应链中的故障？.md|AI能否解决供应链中的故障？]]；关联理由：观点一致；说明：两文都认为静态 BI/仪表板难以回答根因问题，主张用可对话的 AI 分析直接服务一线业务决策。
 
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]
+- [[00-元语/Agent]]
+- [[00-元语/healthcare]]
+- [[00-元语/decision-making]]

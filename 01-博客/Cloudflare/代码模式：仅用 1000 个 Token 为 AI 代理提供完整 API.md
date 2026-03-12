@@ -1,5 +1,9 @@
 ---
 title: "代码模式：仅用 1000 个 Token 为 AI 代理提供完整 API"
+发布日期: 2026-02-20
+作者: "Matt Carey"
+官方中文链接: "https://blog.cloudflare.com/zh-cn/code-mode-mcp/"
+原文链接: "https://blog.cloudflare.com/code-mode-mcp/"
 ---
 
 ## 摘要
@@ -85,19 +89,18 @@ Cloudflare MCP 服务器现已可用。将您的 MCP 客户端指向服务器 UR
 
 ## 相关文档
 
-- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：观点一致；说明：两文都强调以代码执行替代海量工具定义注入上下文，以显著降低 Token 消耗并提升 MCP 工具调用效率。
-- [[01-博客/宝玉/MCP 遇上代码执行：构建更高效率的 AI 智能体|MCP 遇上代码执行：构建更高效率的 AI 智能体]]；关联理由：解说；说明：该文从通用方法论解释把 MCP 作为代码 API 的机制，并明确将 Cloudflare Code Mode 作为同类实践。
-- [[02-资源/AI-应用框架与平台/Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行|Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行]]；关联理由：上下游；说明：本文聚焦 Cloudflare MCP 代码模式，关联文档补充其 Agents 平台与 SDK 生态的运行底座与落地边界。
+- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：引用；说明：正文明确提到 Anthropic 对同类 MCP 代码执行模式的独立探索，可作为本文方法论的直接旁证。
+- [[01-博客/宝玉/MCP 遇上代码执行：构建更高效率的 AI 智能体|MCP 遇上代码执行：构建更高效率的 AI 智能体]]；关联理由：解说；说明：该文从通用方法论解释把 MCP 当作代码 API 的机制，并把 Cloudflare Code Mode 纳入同类实践对照。
+- [[01-博客/宝玉/Claude Code 的懒加载更新：AI 终于学会了随叫随到|Claude Code 的“懒加载”更新：AI 终于学会了“随叫随到”]]；关联理由：延伸思考；说明：两文都处理 MCP 工具定义挤占上下文的问题，但该文展示的是按需工具搜索路线，适合横向比较不同的 Token 缩减方案。
+- [[02-资源/AI-应用框架与平台/Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行|Cloudflare Agents：开发服务无服务器 AI Agent 构建与运行]]；关联理由：上下游；说明：本文提到代码模式 SDK 已在 Cloudflare Agents SDK 开源，关联文档补足其平台运行模型与 SDK 生态边界。
 
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/cloudflare]]
-- [[00-元语/mcp]]
 - [[00-元语/context-optimization]]
+- [[00-元语/mcp]]
+- [[00-元语/protocol]]
+- [[00-元语/sandbox]]
 - [[00-元语/security]]
 - [[00-元语/sdk]]
-- [[00-元语/serverless]]
-- [[00-元语/protocol]]

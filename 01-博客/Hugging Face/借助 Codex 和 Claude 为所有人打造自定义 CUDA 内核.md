@@ -288,11 +288,16 @@ rmsnorm = get_kernel("your-org/your-kernel")
 *   [我们让 Claude 教授开源模型](https://huggingface.co/blog/upskill)
 *   [HuggingFace 内核社区](https://huggingface.co/kernels-community)
 
+## 相关文档
+
+- [[01-博客/Hugging Face/让 Claude 编写 CUDA 内核并指导开源模型|让 Claude 编写 CUDA 内核并指导开源模型]]；关联理由：引用；说明：本文在参考资源中直接指向该文，而该文完整展开了 CUDA 内核技能的生成、评测与迭代流程。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/Codex]]
 - [[00-元语/Claude]]
+- [[00-元语/CUDA]]
 - [[00-元语/benchmark]]
-- [[00-元语/llm]]
 - [[00-元语/skills]]
+- [[00-元语/软件工程]]

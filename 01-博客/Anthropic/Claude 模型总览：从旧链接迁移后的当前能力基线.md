@@ -101,12 +101,15 @@ Claude 4 模型在以下方面表现出色：
 
 如果您有任何问题或需要帮助，请随时联系[支持团队](https://support.claude.com/)或咨询 [Discord 社区](https://www.anthropic.com/discord)。
 
-此页面对您有帮助吗？
+## 相关文档
+
+- [[01-博客/Anthropic/推出 Claude Opus 4.6|推出 Claude Opus 4.6]]；关联理由：解说；说明：该文展开 Opus 4.6 的评测表现、1M Token 上下文与开发者平台更新，可补足本页对旗舰模型的简要对比。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：解说；说明：该文细化 Sonnet 4.6 的定价、默认部署位置与长上下文、计算机使用能力，可补足本页对主力模型的选型依据。
+- [[01-博客/Anthropic/Claude 开发平台发布说明：API 与 SDK 更新总览|Claude 开发平台发布说明：API 与 SDK 更新总览]]；关联理由：版本演进；说明：该文记录了旧模型停用、Sonnet 4.6 与 Haiku 4.5 的替代关系和平台功能更新，可补足本页“当前能力基线”背后的迁移背景。
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
-- [[00-元语/benchmark]]
+- [[00-元语/AI]]

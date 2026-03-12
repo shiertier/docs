@@ -96,10 +96,16 @@ Claude 是目前唯一在三大主流云服务（AWS、Google Cloud 和 Microsof
 
 全新的连接器和代理技能现已向所有 Claude 订阅用户（包括 Pro、Max、Teams 和 Enterprise）全面开放。
 
+## 相关文档
+
+- [[01-博客/Anthropic/Anthropic 携手艾伦研究所与 HHMI，共同加速生命科学发现|Anthropic 携手艾伦研究所与 HHMI，共同加速生命科学发现]]；关联理由：上下游；说明：该文聚焦 Anthropic 与科研机构共建生命科学工作流，本文则展示这些能力如何进一步产品化为连接器、代理技能与临床试验支持。
+
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/healthcare]]
+- [[00-元语/life-sciences]]
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/compliance]]
-- [[00-元语/benchmark]]
+- [[00-元语/workflow]]

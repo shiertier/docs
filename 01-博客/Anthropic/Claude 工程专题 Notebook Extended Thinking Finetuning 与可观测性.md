@@ -66,17 +66,17 @@ def print_thinking_response(response):
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：延伸思考；说明：该文将本文提到的工具治理与可观测诉求延展到工具检索、上下文压缩和记忆管理的生产化实践。
-- [[01-博客/Anthropic/Claude Agent SDK Notebook 实战进阶|Claude Agent SDK Notebook 实战进阶]]；关联理由：上下游；说明：本文给出扩展思考、评估与成本治理框架，该文对应这些能力在 Agent SDK 编排与观测中的实现落地。
+- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：延伸思考；说明：本文梳理预算、评估、成本与微调等治理问题，该文把同一生产化目标延展到大规模工具调用、上下文压缩与记忆管理。
+- [[01-博客/Anthropic/Claude Agent SDK Notebook 实战进阶|Claude Agent SDK Notebook 实战进阶]]；关联理由：上下游；说明：本文总结 Agent 进入生产环境所需的工程关注点，该文把其中的多角色编排与可观测能力落实到 SDK 实现。
+- [[01-博客/Anthropic/揭秘 AI 智能体评估 Evals|揭秘 AI 智能体评估 Evals]]；关联理由：解说；说明：本文只概括 tool evaluation notebook 的工程价值，该文补齐任务设计、评分器与回归测试的通用评估方法。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
-- [[00-元语/llm]]
-- [[00-元语/sdk]]
-- [[00-元语/observability]]
-- [[00-元语/evals]]
 - [[00-元语/prompt]]
 - [[00-元语/tool]]
+- [[00-元语/evals]]
+- [[00-元语/observability]]
 - [[00-元语/llmops]]
+- [[00-元语/finetuning]]

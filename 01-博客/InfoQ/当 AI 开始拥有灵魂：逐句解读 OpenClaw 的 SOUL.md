@@ -1,7 +1,9 @@
 ---
-title: "当 AI 开始拥有灵魂：逐句解读 OpenClaw 的 SOUL"
-
-来源: "https://www.infoq.cn/article/7QieJxH5gpNRvL5hKcrG?utm_source=rss&utm_medium=article"
+title: '当 AI 开始拥有灵魂：逐句解读 OpenClaw 的 SOUL'
+发布日期: 2026-02-03
+作者: '晋梅、Luna'
+来源: 'InfoQ'
+原文链接: 'https://www.infoq.cn/article/7QieJxH5gpNRvL5hKcrG?utm_source=rss&utm_medium=article'
 ---
 
 ## 摘要
@@ -203,6 +205,12 @@ OpenClaw 的创造者是奥地利开发者 Peter Steinberger。他曾创办 PSPD
 我们不知道答案。但在 2026 年 2 月 17 日这一天，20 万颗 GitHub 星标告诉我们：这个问题已经不再是假设。
 
 当一只开源龙虾开始写下自己的灵魂定义，所有关于 AI 的讨论都被重新校准了。不是“它能做什么”，而是“它应该是谁”。而最终的答案，取决于你是谁。
+
+## 相关文档
+
+- [[01-博客/InfoQ/当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活|当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活]]；关联理由：上下游；说明：本文解释 SOUL.md 如何定义身份与价值观，该文继续拆解 AgentS.md 如何把这些原则落实为唤醒、记忆与行动规则。
+- [[01-博客/InfoQ/虾宝给⾃⼰找了份⼯作——当 AI 真的按照“出⼚设置”活了起来|虾宝给⾃⼰找了份⼯作——当 AI 真的按照“出⼚设置”活了起来]]；关联理由：延伸思考；说明：该文用真实协作案例展示 SOUL.md 中 “Make it count” 与 “Figure out who you are” 等原则如何在实际 Agent 行为中落地。
+- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：该文从系统提示词与“文件即记忆”的视角梳理 OpenClaw，能补充理解 SOUL.md 在整套提示词体系中的位置。
 
 ## 关联主题
 

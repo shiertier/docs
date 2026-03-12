@@ -78,9 +78,14 @@ Skill 是 Claude Code 的技能模块 ，放在 .claude/skills/ 目录下，用 
 
 文件路径： .claude/settings.local.json （相关部分）
 
+## 相关文档
+
+- [[01-博客/微信公众平台/Claude Code Hooks 从入门到实战（附安全检查+代码质量+Git工作流脚本）|Claude Code Hooks 从入门到实战（附安全检查+代码质量+Git工作流脚本）]]；关联理由：解说；说明：本文只展示了 Stop Hook 驱动自动提交的具体用法，而该文系统拆解了 Hook 的通信机制、配置三要素与 Git 工作流脚本，可补足实现背景。
+- [[01-博客/宝玉/Skill 不就是长一点的提示词吗？|Skill 不就是长一点的提示词吗？]]；关联理由：解说；说明：本文把 Commit Skill 作为执行模块直接使用，而该文进一步解释了 `SKILL.md` 的分层结构、渐进式加载与 Agent 语境下的能力边界。
+
 ## 关联主题
 
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
 - [[00-元语/skills]]
 - [[00-元语/cli]]

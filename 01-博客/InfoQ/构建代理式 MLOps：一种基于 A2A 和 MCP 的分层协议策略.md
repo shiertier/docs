@@ -248,8 +248,18 @@ retrieve_agent_skills：获取特定智能体的详细能力。
 
 https://www.infoq.com/articles/architecting-agentic-mlops-a2a-mcp/
 
+## 相关文档
+
+- [[01-博客/数字生命卡兹克/5000字长文带你看懂，Agent世界里的A2A、MCP协议到底是个啥。|5000字长文带你看懂，Agent世界里的A2A、MCP协议到底是个啥。]]；关联理由：解说；说明：该文系统拆解了 A2A 与 MCP 的职责分工，可直接补足本文分层协议策略的概念背景。
+- [[02-资源/AI-应用框架与平台/Agent2Agent A2A Protocol：多 Agent 互操作开放标准|Agent2Agent A2A Protocol：多 Agent 互操作开放标准]]；关联理由：上下游；说明：本文把 A2A 作为上层通信总线，这个协议页可补充其标准定位、治理归属与生态接入边界。
+- [[01-博客/宝玉/你是否听说过 MLOps 或者 LLMOps 呢？|你是否听说过 MLOps 或者 LLMOps 呢？]]；关联理由：延伸思考；说明：该文解释传统 MLOps 的基本目标与工程原则，可作为本文“代理式 MLOps”改造前的基线背景。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/llm]]
 - [[00-元语/Agent]]
+- [[00-元语/MLOps]]
+- [[02-资源/AI-应用框架与平台/Agent2Agent A2A Protocol：多 Agent 互操作开放标准]]
+- [[00-元语/mcp]]
+- [[00-元语/protocol]]
+- [[00-元语/workflow]]

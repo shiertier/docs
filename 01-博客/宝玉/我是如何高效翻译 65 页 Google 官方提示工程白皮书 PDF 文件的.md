@@ -115,15 +115,19 @@ OpenAI 的 DeepResearch 和 Google Gemini 的 DeepResearch 都可以胜任这个
 
 注意用 DeepResearch 翻译也不是无限长度的，依旧受限于其产品长度限制，65页已经是接近极限的长度了，更长建议就要拆分成多个小 PDF 去翻译了。
 
+## 相关文档
+
+- [[01-博客/宝玉/Google 官方提示工程 (Prompt Engineering)白皮书|Google 官方提示工程 (Prompt Engineering)白皮书]]；关联理由：上下游；说明：本文讨论的核心任务就是把这份 65 页白皮书转成 Markdown 并翻译，白皮书正文是该流程的直接上游材料。
+- [[01-博客/宝玉/你需要的不是智能体，而是一个适合 AI 的工作流|你需要的不是智能体，而是一个适合 AI 的工作流]]；关联理由：观点一致；说明：两文都主张先把复杂 PDF 拆成适合模型处理的中间表示，再组合 OCR、Markdown 和模型能力完成任务。
+- [[01-博客/宝玉/Deep Research 实践经验总结：从“进度条”到“提示词”，一次搞懂！|Deep Research 实践经验总结：从“进度条”到“提示词”，一次搞懂！]]；关联理由：解说；说明：本文把 Deep Research 用于长 PDF 翻译，该文补充了 Deep Research 的触发机制、提示词组织和后续追问边界。
+
 ## 关联主题
 
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
+- [[00-元语/machine-translation]]
 - [[00-元语/gemini]]
 - [[00-元语/OpenAI]]
+- [[00-元语/multimodal]]
 - [[00-元语/ocr]]
 - [[00-元语/markdown]]
-- [[00-元语/prompt]]
-- [[00-元语/paper]]
-- [[00-元语/tool]]
+- [[00-元语/context-optimization]]
 - [[00-元语/workflow]]

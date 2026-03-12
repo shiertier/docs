@@ -32,8 +32,8 @@ EOF
   esac
 done
 
-WORKERS="${WORKERS:-30}"
-MAX_WORKERS="${MAX_WORKERS:-100}"
+WORKERS="${WORKERS:-500}"
+MAX_WORKERS="${MAX_WORKERS:-500}"
 # Optional strict count check. Leave empty/0 to disable.
 EXPECTED_TOTAL="${EXPECTED_TOTAL:-0}"
 MAX_ROUNDS="${MAX_ROUNDS:-4}"

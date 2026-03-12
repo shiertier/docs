@@ -1,8 +1,7 @@
 ---
-title: "RAG 架构设计"
-
-发布日期: "2026-01-05"
-原文链接: "https://cohere.com/blog/rag-architecture"
+title: RAG 架构设计
+发布日期: 2025-02-17
+原文链接: https://cohere.com/blog/rag-architecture
 ---
 
 ## 摘要
@@ -19,14 +18,10 @@ title: "RAG 架构设计"
 
 ## 正文
 
-2025年2月17日
-
 检索增强生成（Retrieval-augmented generation，简称 RAG）是一种不断发展的与大语言模型（LLM）交互的方法。了解 RAG 架构的优势和用例。
-
-分享：
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/rag]]
+- [[00-元语/retrieval]]
 - [[00-元语/llm]]

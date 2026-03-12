@@ -3,7 +3,7 @@ title: "Harness engineering：在代理优先的世界里运用 Codex"
 
 来源: "https://openai.com/index/harness-engineering/"
 中文页面: "https://openai.com/zh-Hans-CN/index/harness-engineering/"
-发布日期: "2026年2月11日"
+发布日期: 2026-02-11
 分类: "[工程](https://openai.com/news/engineering/)"
 译注: "该中文页面当前正文仍为英文，以下为人工翻译。"
 ---
@@ -216,18 +216,16 @@ title: "Harness engineering：在代理优先的世界里运用 Codex"
 
 ## 相关文档
 
-- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文拆解了智能体循环与上下文管理机制，是本文工程实践的底层运行逻辑；
-- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：解说；说明：该文展开了 harness 的协议与运行框架实现，补齐本文的系统层细节；
-- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：延伸思考；说明：该文把本文强调的反馈回路落到可执行评测方法，形成质量保障闭环；
+- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文拆解了智能体循环与上下文管理，是本文各类工程约束与反馈回路得以成立的底层机制。
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：解说；说明：该文补齐了本文所说 harness 的协议、线程与运行时结构，能帮助理解系统层实现。
+- [[01-博客/OpenAI/我们如何使用 Codex 在 28 天内构建 Android 版 Sora|我们如何使用 Codex 在 28 天内构建 Android 版 Sora]]；关联理由：观点一致；说明：该文提供了另一条真实交付案例，印证了本文关于人类从写代码转向规划、上下文管理与审查的判断。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
-- [[00-元语/workflow]]
-- [[00-元语/evals]]
+- [[00-元语/context-optimization]]
 - [[00-元语/prompt]]
 - [[00-元语/CI]]
 - [[00-元语/code-review]]

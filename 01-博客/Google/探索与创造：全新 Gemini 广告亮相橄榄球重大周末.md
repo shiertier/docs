@@ -1,7 +1,10 @@
 ---
 title: "探索与创造：全新 Gemini 广告亮相橄榄球重大周末"
-
-来源: "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/"
+发布日期: 2026-02-05
+作者: "Marvin Chow"
+来源: "Google"
+原文链接: "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/"
+译注: "根据原文翻译整理"
 ---
 
 ## 摘要
@@ -44,6 +47,11 @@ title: "探索与创造：全新 Gemini 广告亮相橄榄球重大周末"
 去年，Gemini Live 还新增了实时分享功能。您可以向它分享您正在看到的事物、正在处理的工作或正在观看的内容，随时提出问题，并获取有关周围世界的解答。
 
 无论您是在关注圣克拉拉（Santa Clara）的重大比赛，还是在留意意大利的全球赛事，Gemini 都是您更加个性化、更加主动的 AI 助手，随时准备着帮助您探索、学习和创造。
+
+## 相关文档
+
+- [[01-博客/Google/谷歌一月 AI 动态回顾：迈向个性化智能新纪元|谷歌一月 AI 动态回顾：迈向个性化智能新纪元]]；关联理由：上下游；说明：该文梳理了 Gemini 接入 Gmail、Google Photos 等应用以及 Nano Banana 能力更新，是本文广告场景的上游产品背景。
+- [[01-博客/Google/尝试向 Google Photos 提问的 9 个有趣问题|尝试向 Google Photos 提问的 9 个有趣问题]]；关联理由：解说；说明：该文具体展开 Gemini 与 Google Photos 的对话检索和编辑用法，可补足本文“回顾相册回忆并带入创意项目”的实际场景。
 
 ## 关联主题
 

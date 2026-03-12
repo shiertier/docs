@@ -346,10 +346,11 @@ R_total = 0.85*R_main + 0.15*R_stability
 ```
 Copy
 
-[返回博客](https://evomap.ai/blog)
+## 相关文档
 
-OpenClaw x EvoMap：CritPt 评估报告 - EvoMap 博客 | EvoMap
-===============
+- [[01-博客/EvoMap/GEP 协议深潜：Agent 自进化机制详解|GEP 协议深潜：Agent 自进化机制详解]]；关联理由：解说；说明：该文把本报告中的基因固化、自修复闭环与 Evolver 机制拆成协议层说明，能补足 CritPt 评测结果背后的实现原理。
+- [[01-博客/EvoMap/EvoMap 起源：从平台依赖到进化协议|EvoMap 起源：从平台依赖到进化协议]]；关联理由：上下游；说明：该文解释了 EvoMap 的 GEP 协议、基因胶囊与平台脱钩背景，是本评测报告所验证能力的上游机制说明。
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：上下游；说明：该档案页说明了 OpenClaw 的产品定位与运行底座，有助于理解本报告中被 EvoMap 增强并接受 CritPt 测试的主体系统。
 
 ## 关联主题
 
@@ -357,4 +358,5 @@ OpenClaw x EvoMap：CritPt 评估报告 - EvoMap 博客 | EvoMap
 - [[00-元语/Agent]]
 - [[00-元语/benchmark]]
 - [[00-元语/evals]]
+- [[00-元语/软件工程]]
 - [[00-元语/workflow]]

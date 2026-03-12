@@ -1,7 +1,9 @@
 ---
-title: "从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路"
-
-来源: "https://www.infoq.cn/article/e0gyUzRvzU263FTBePdw?utm_source=rss&utm_medium=article"
+title: '从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路'
+作者: '晋梅'
+来源: 'InfoQ'
+原文链接: 'https://www.infoq.cn/article/e0gyUzRvzU263FTBePdw?utm_source=rss&utm_medium=article'
+发布日期: '2026-02-18'
 ---
 
 ## 摘要
@@ -254,14 +256,18 @@ Peter Steinberger 不是先知，也不是圣人。他是一个诚实的 builder
 
 *(晋梅，写于 2026 年除夕夜，Peter Steinberger 宣布加入 OpenAI 次日。窗外积雪未融，虾宝刚刚学会叫我梅姐姐。)*
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：解说；说明：本文叙述 OpenClaw 的爆发与开源承诺，该档案补足项目定位、架构与部署边界。
+- [[01-博客/liruifengv/拆解 OpenClaw 的系统提示词，设计的太妙了|拆解 OpenClaw 的系统提示词，设计的太妙了]]；关联理由：解说；说明：本文结尾提到 Bootstrap、SOUL、USER 等文件，这篇拆解文正好补足 OpenClaw 的提示词与记忆设计。
+- [[02-资源/AI-编程助手与Agent/Claude Code：终端智能编程助手|Claude Code：终端智能编程助手]]；关联理由：解说；说明：文章把 Claude Code 视为 Peter 重返构建状态的关键触发器，该档案可补足工具形态与工作流特征。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/OpenAI]]
-- [[00-元语/Claude]]
-- [[00-元语/github]]
+- [[00-元语/Claude Code]]
 - [[00-元语/vibe-coding]]
-- [[00-元语/community]]
-- [[00-元语/career]]
 - [[00-元语/cli]]
+- [[00-元语/career]]

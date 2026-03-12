@@ -53,14 +53,19 @@ title: "为什么 AI 还不能完成复杂项目？"
 
 所以现阶段，AI 还是辅助为主，人类提出模块级别的要求，AI 去生成代码，然后人去审查去测试，最后再集成到项目中。
 
+## 相关文档
+
+- [[01-博客/宝玉/What You Need Is Not an AI Agent, But an AI-Friendly Workflow 279d6559|What You Need Is Not an AI Agent, But an AI-Friendly Workflow]]；关联理由：观点一致；说明：两文都认为当前 AI 更适合作为人类主导流程中的辅助能力，而不是独立承担开放式复杂软件项目。
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：解说；说明：该文系统区分 workflow 与 Agent 的适用边界，可补足本文“模块级任务可做、开放式复杂项目难做”的方法论解释。
+- [[01-博客/宝玉/使用最新的 Claude 4，我用两天就开发出一个视频编辑器，但却无法维护|使用最新的 Claude 4，我用两天就开发出一个视频编辑器，但却无法维护]]；关联理由：延伸思考；说明：该文用复杂视频编辑器案例把本文关于全局理解、架构设计、测试反馈和可维护性的限制进一步展开。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]
 - [[00-元语/context-optimization]]
 - [[00-元语/decision-making]]
+- [[00-元语/tool]]
 - [[00-元语/软件工程]]
-- [[00-元语/code-review]]
-- [[00-元语/workflow]]
-- [[00-元语/multimodal]]
 - [[00-元语/risk]]

@@ -134,14 +134,14 @@ title: "超越速率限制：扩大 Codex 和 Sora 的访问规模"
 
 ## 相关文档
 
-- [[01-博客/OpenAI/将 PostgreSQL 扩展至支持 8 亿 ChatGPT 用户|将 PostgreSQL 扩展至支持 8 亿 ChatGPT 用户]]；关联理由：延伸思考；说明：两文分别覆盖高并发系统中的访问控制与数据库扩展，可组合理解 OpenAI 在不同技术层面的扩容策略。
+- [[01-博客/OpenAI/超越速率限制：扩展 Codex 与 Sora 的访问权限|超越速率限制：扩展 Codex 与 Sora 的访问权限]]；关联理由：同一事件；说明：两文对应同一篇 OpenAI 原文，可用于交叉核对译名、术语与细节取舍。
+- [[01-博客/InfoQ/Uber 和 OpenAI 重组了限流系统|Uber 和 OpenAI 重组了限流系统]]；关联理由：引用；说明：该文在对比 Uber 与 OpenAI 的限流重构时直接建立在本文内容之上，并补充了横向对照视角。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
-- [[00-元语/video]]
 - [[00-元语/rate-limiting]]
 - [[00-元语/stream-processing]]
+- [[00-元语/data-pipeline]]
 - [[00-元语/observability]]
-- [[00-元语/llmops]]

@@ -1,7 +1,7 @@
 ---
 title: "没有任何技术能像AI一样让我拥有如此宏大的梦想"
-
 来源: "https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/"
+发布日期: 2026-02-19
 ---
 
 ## 摘要
@@ -83,8 +83,13 @@ title: "没有任何技术能像AI一样让我拥有如此宏大的梦想"
 
 现在，我们必须携手共进，付诸行动。
 
+## 相关文档
+
+- [[01-博客/Google/2026年AI影响力峰会：我们如何通过合作让AI惠及所有人|2026年AI影响力峰会：我们如何通过合作让AI惠及所有人]]；关联理由：同一事件；说明：该文汇总了同一场 AI Impact Summit 的基础设施、技能培训与安全举措，可对照这篇 CEO 主题演讲的战略表述。
+- [[01-博客/Google DeepMind/借助AI驱动的科学与教育，加速印度的创新与发现|借助AI驱动的科学与教育，加速印度的创新与发现]]；关联理由：同一事件；说明：该文展开了同一峰会中 Google DeepMind 在印度推进 AI for Science、教育与农业合作的具体落地项目。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/alignment]]
+- [[00-元语/compliance]]
 - [[00-元语/risk]]

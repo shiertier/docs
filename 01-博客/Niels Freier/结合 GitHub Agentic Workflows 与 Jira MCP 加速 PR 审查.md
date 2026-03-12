@@ -211,6 +211,12 @@ gh extension install github/gh-aw
 
 *感谢阅读。如果你觉得这篇文章有用，请分享给那些在 PR 考古上花费太多时间的人。*
 
+## 相关文档
+
+- [[01-博客/hamy.xyz/使用9个并行AI智能体进行代码审查（基于Claude Code）|使用9个并行AI智能体进行代码审查（基于Claude Code）]]；关联理由：上下游；说明：本文解决审查前的需求与设计上下文补全，该文解决审查中的多维度变更分析，二者可串成同一条 AI 审查链路。
+- [[02-资源/AI-编程助手与Agent/claude-code-action：AI Agent 工具|claude-code-action：AI Agent 工具]]；关联理由：观点一致；说明：两者都把 AI agent 放进 GitHub 工作流处理 PR 协作，只是一个偏 GitHub Next 的 Markdown 工作流定义，一个偏 Anthropic 的 Action 封装。
+- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：该文把 PR 评审、CI 与仓库内知识组织扩展为更完整的 agent-first 工程体系，可作为本文单点实践的上位背景。
+
 ## 关联主题
 
 - [[00-元语/github]]
@@ -219,3 +225,4 @@ gh extension install github/gh-aw
 - [[00-元语/code-review]]
 - [[00-元语/workflow]]
 - [[00-元语/CI]]
+- [[00-元语/security]]

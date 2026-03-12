@@ -76,14 +76,16 @@ Mac 客户端下载地址：[https://openai.com/chatgpt/desktop](https://openai.
 
 只是个小小的产品功能而已，过些天大家就会忘记了。
 
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第十一天 —— ChatGPT 桌面应用如何与各类应用无缝协作，让工作更高效|OpenAI 连续 12 天 AI 发布会：第十一天 —— ChatGPT 桌面应用如何与各类应用无缝协作，让工作更高效]]；关联理由：版本演进；说明：这篇发布会实录展示了同一跨应用读取能力在 2024 年 12 月的扩展形态，从 IDE 与终端进一步延伸到 Warp、Notion 与语音交互。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
-- [[00-元语/AI]]
 - [[00-元语/desktop-client]]
 - [[00-元语/ide]]
 - [[00-元语/terminal]]
-- [[00-元语/cli]]
 - [[00-元语/prompt]]
 - [[00-元语/context-optimization]]

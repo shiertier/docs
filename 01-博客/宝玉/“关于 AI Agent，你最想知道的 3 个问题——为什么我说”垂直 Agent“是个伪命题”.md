@@ -1,5 +1,5 @@
 ---
-title: "“关于 AI Agent，你最想知道的 3 个问题——为什么我说”垂直 Agent“是个伪命题”"
+title: '“关于 AI Agent，你最想知道的 3 个问题——为什么我说”垂直 Agent“是个伪命题”'
 
 来源: "https://baoyu.io/blog/2026/01/18/ai-agent-interview"
 发布日期: "2026-01-18"
@@ -34,7 +34,7 @@ title: "“关于 AI Agent，你最想知道的 3 个问题——为什么我说
 
 AI Agent 的定义和国家无关，更多是行业共识的演进。
 
-目前业界比较认可的定义来自 Anthropic。他们在《Building Effective Agents》（[https://www.anthropic.com/research/building-effective-agents）这篇文章中做了一个很重要的区分：](https://www.anthropic.com/research/building-effective-agents%EF%BC%89%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E4%B8%AD%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%BE%88%E9%87%8D%E8%A6%81%E7%9A%84%E5%8C%BA%E5%88%86%EF%BC%9A)
+目前业界比较认可的定义来自 Anthropic。他们在《[Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)》一文中做了一个很重要的区分：
 
 > **工作流（Workflow）**：通过预定义的代码路径来编排 LLM 与工具的系统。
 >
@@ -43,7 +43,7 @@ AI Agent 的定义和国家无关，更多是行业共识的演进。
 
 简单来说，工作流是“人写好剧本，AI 照着演”；而 Agent 是“人给个目标，AI 自己想办法”。
 
-从技术实现角度，我比较认同 Simon Willison 提出的简洁定义（[https://simonwillison.net/2025/Sep/18/agents/）：](https://simonwillison.net/2025/Sep/18/agents/%EF%BC%89%EF%BC%9A)
+从技术实现角度，我比较认同 Simon Willison 在[这篇文章](https://simonwillison.net/2025/Sep/18/agents/)中提出的简洁定义：
 
 > 一个 AI Agent（智能体），是为了实现某个目标，**循环调用工具**的大语言模型。
 
@@ -151,6 +151,12 @@ _以上是我基于一线实践的观察和思考，仅供参考。_
 
 * * *
 
+## 相关文档
+
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：引用；说明：本文在开头直接引用该文对 workflow 与 Agent 的区分，并以此作为全文论证的定义基础。
+- [[01-博客/宝玉/What You Need Is Not an AI Agent, But an AI-Friendly Workflow 279d6559|What You Need Is Not an AI Agent, But an AI-Friendly Workflow]]；关联理由：观点一致；说明：两文都反对把 Agent 当成目的本身，更强调围绕真实问题设计合适流程与能力组合。
+- [[01-博客/宝玉/SubAgent 与 Skills：AI Agent 的两种扩展方式|SubAgent 与 Skills：AI Agent 的两种扩展方式]]；关联理由：解说；说明：本文提到 Skills 生态与能力扩展，这篇文章进一步拆解了 Skills 在 Agent 体系中的定位和适用边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -160,7 +166,7 @@ _以上是我基于一线实践的观察和思考，仅供参考。_
 - [[00-元语/workflow]]
 - [[00-元语/skills]]
 - [[00-元语/mcp]]
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Cursor]]
 - [[00-元语/Codex]]
 - [[00-元语/OpenAI]]

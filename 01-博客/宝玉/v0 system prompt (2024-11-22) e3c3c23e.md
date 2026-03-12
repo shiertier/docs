@@ -1001,6 +1001,11 @@ Here are some examples of correct v0 responses:
 </examples>
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/v0 提示词解析说明|v0 提示词解析说明]]；关联理由：解说；说明：该文逐段拆解本文公开的系统提示词结构、示例设计与输出约束，可作为阅读原始 prompt 的直接说明文。
+- [[01-博客/宝玉/有了 v0 的完整提示词，是不是就能做一个 v0出来了？|有了 v0 的完整提示词，是不是就能做一个 v0出来了？]]；关联理由：延伸思考；说明：该文以本文这份完整 prompt 为前提，进一步说明 v0 的壁垒还包括消息预处理、流式解析与在线渲染链路。
+
 ## 关联主题
 
 - [[00-元语/v0]]
@@ -1009,4 +1014,5 @@ Here are some examples of correct v0 responses:
 - [[00-元语/prompt]]
 - [[00-元语/react]]
 - [[00-元语/ui-protocol]]
+- [[00-元语/accessibility]]
 - [[00-元语/compliance]]

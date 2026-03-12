@@ -128,11 +128,21 @@ title: "直译、反思、意译：提升 GPT 翻译质量的一种新策略"
 
 ![Image 3](https://baoyu.io/images/prompt-engineering/translator-gpt-prompt-v2/prompt.jpg)![Image 4](https://baoyu.io/images/prompt-engineering/translator-gpt-prompt-v2/result.jpg)
 
+## 相关文档
+
+- [[01-博客/宝玉/自用的“科技文章翻译 GPT”和它的 Prompt|自用的“科技文章翻译 GPT”和它的 Prompt]]；关联理由：版本演进；说明：本文直接把这篇旧版“科技文章翻译 GPT”的两步 Prompt 升级为“直译-反思-意译”三步结构，并延续同一套 Markdown 与术语约束。
+- [[01-博客/宝玉/一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”|一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别“机翻感”]]；关联理由：版本演进；说明：该文系统说明了“直译-意译”两步法，本文在此基础上插入“反思”步骤来提升译文稳定性。
+- [[01-博客/宝玉/一个相对通用的翻译 Prompt，可以适用于多种不同的语言翻译|一个相对通用的翻译 Prompt，可以适用于多种不同的语言翻译]]；关联理由：版本演进；说明：该文把本文面向中译的三步模板抽象为 `${LANGUAGE}` 占位符，扩展成可复用的多语言版本。
+- [[01-博客/宝玉/翻译 GPT 的提示词更新和优化|翻译 GPT 的提示词更新和优化]]；关联理由：版本演进；说明：该文沿用本文的三步翻译骨架，并进一步加入英文指令、XML 输出与图片/PDF 处理等工程化改造。
+- [[01-博客/宝玉/Prompt Engineering 的核心是逻辑|Prompt Engineering 的核心是逻辑]]；关联理由：引用；说明：该文直接把本文作为“拆步骤并输出中间结果”的翻译案例，用来论证 Prompt Engineering 的核心在任务拆解逻辑。
+- [[01-博客/宝玉/AI 民科和 AI 科学家之间的差距|AI 民科和 AI 科学家之间的差距]]；关联理由：引用；说明：该文直接引用本文，并把这套三步翻译策略与吴恩达的翻译工作流对照，讨论经验方法如何上升为通用设计模式。
+
 ## 关联主题
 
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/machine-translation]]
+- [[00-元语/workflow]]
 - [[00-元语/context-optimization]]
 - [[00-元语/markdown]]
-- [[00-元语/workflow]]

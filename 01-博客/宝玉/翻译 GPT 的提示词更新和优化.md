@@ -163,13 +163,18 @@ For each step of the translation process, output your results within the appropr
 
 Remember to consistently use the provided glossary for technical terms throughout your translation. Ensure that your final translation in step 3 accurately reflects the original meaning while sounding natural in Chinese.
 
+## 相关文档
+
+- [[01-博客/宝玉/自用的“科技文章翻译 GPT”和它的 Prompt|自用的“科技文章翻译 GPT”和它的 Prompt]]；关联理由：版本演进；说明：本文对应同一“科技文章翻译 GPT”的后续升级版，把早期“直译-意译”两步 Prompt 改成更稳定的三步翻译结构。
+- [[01-博客/宝玉/直译、反思、意译：提升 GPT 翻译质量的一种新策略|直译、反思、意译：提升 GPT 翻译质量的一种新策略]]；关联理由：版本演进；说明：本文直接在该文的“直译-反思-意译”骨架上继续加入英文指令、XML 输出和图片/PDF 输入处理。
+- [[01-博客/宝玉/GPT 无法翻译超长内容的提示词优化尝试|GPT 无法翻译超长内容的提示词优化尝试]]；关联理由：版本演进；说明：该文沿用本文的英文指令、XML 结构和三步翻译框架，继续解决超长内容分页输出问题。
+
 ## 关联主题
 
-- [[00-元语/llm]]
 - [[00-元语/prompt]]
-- [[00-元语/OpenAI]]
+- [[00-元语/llm]]
 - [[00-元语/ChatGPT]]
-- [[00-元语/Agent]]
+- [[00-元语/machine-translation]]
 - [[00-元语/workflow]]
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]

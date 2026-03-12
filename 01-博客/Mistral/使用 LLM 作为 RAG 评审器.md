@@ -28,8 +28,6 @@ title: "使用 LLM 作为 RAG 评审器"
 
 ## 正文
 
-使用 Mistral 模型将 LLM 作为裁判（结合结构化输出）
-
 大型语言模型 (LLM) 正迅速成为创建广泛使用的应用程序的必备工具。但是，确保这些模型按预期运行说起来容易做起来难。评估 LLM 系统不仅要验证输出是否连贯，还要确保回答具有相关性并满足必要的要求。
 
 ## RAG 系统的兴起
@@ -78,25 +76,12 @@ Mistral 的模型结合结构化输出，提供了一种实用的方法来实现
 
 ### 完整代码
 
-您可以在此处找到用于 RAG 的“LLM 作为裁判”的完整代码：https://github.com/mistralai/cookbook/blob/main/mistral/evaluation/RAG_evaluation.ipynb
+您可以在 `mistralai/cookbook` 仓库的 `mistral/evaluation/RAG_evaluation.ipynb` 中查看用于 RAG 的“LLM 作为裁判”完整示例。
 
-### 联系我们
+## 相关文档
 
-有兴趣与 Mistral AI 团队进行更多定制合作吗？请联系我们获取解决方案支持。
-
-## 分享本文
-
-## 更多来自 Mistral AI 的内容
-
-- 新闻
-
-- 模型
-
-- AI 服务
-
-## AI 的下一章由您书写。
-
-AI 的下一章由您书写。
+- [[02-资源/AI-模型与推理基础设施/ragas：RAG 应用评测框架|ragas：RAG 应用评测框架]]；关联理由：解说；说明：本文把 RAGAS 作为相邻评测框架一笔带过，这份档案页补充了它的定位与接入边界。
+- [[01-博客/LangChain/monday Service 与 LangSmith：从零开始构建代码优先的评估策略|monday Service 与 LangSmith：从零开始构建代码优先的评估策略]]；关联理由：延伸思考；说明：该文把“LLM 作为裁判”扩展到生产环境的离线与在线评估流程，补齐本文未展开的工程化落地部分。
 
 ## 关联主题
 
@@ -104,3 +89,4 @@ AI 的下一章由您书写。
 - [[00-元语/llm]]
 - [[00-元语/rag]]
 - [[00-元语/evals]]
+- [[00-元语/retrieval]]

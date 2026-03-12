@@ -160,15 +160,20 @@ AI Agent的能力在进步，但人类的认知结构没变。监控疲劳还是
 
 推荐阅读原文： 《Ironies of Automation》：[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf](https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf) 《AI and the ironies of automation - Part 1》 [https://www.ufried.com/blog/ironies_of_ai_1/](https://www.ufried.com/blog/ironies_of_ai_1/) 《AI and the ironies of automation - Part 2》 [https://www.ufried.com/blog/ironies_of_ai_2/](https://www.ufried.com/blog/ironies_of_ai_2/)
 
+## 相关文档
+
+- [[01-博客/Anthropic/AI辅助如何影响编程技能的形成|AI辅助如何影响编程技能的形成]]；关联理由：解说；说明：该文用随机对照试验验证了“AI 代做会削弱技能掌握与调试能力”，正好为本文的“专家变监工后监督能力退化”提供实证支撑。
+- [[01-博客/Anthropic/AI 如何重塑 Anthropic 的日常工作|AI 如何重塑 Anthropic 的日常工作]]；关联理由：观点一致；说明：两文都指出 AI 提升产出同时重塑角色分工，并把技能退化、监督悖论与职业不确定性视为同一组现实问题。
+- [[01-博客/Anthropic/衡量 AI 智能体在实践中的自主性|衡量 AI 智能体在实践中的自主性]]；关联理由：延伸思考；说明：本文强调“AI 干活、人类监督”的认知极限，该文进一步给出已部署智能体从逐项审批转向主动监控的实证数据与监控基础设施建议。
+
 ## 关联主题
 
-- [[00-元语/Agent]]
 - [[00-元语/AI]]
-- [[00-元语/paper]]
+- [[00-元语/Agent]]
 - [[00-元语/risk]]
-- [[00-元语/career]]
 - [[00-元语/memory]]
-- [[00-元语/知识工作]]
 - [[00-元语/decision-making]]
-- [[00-元语/软件工程]]
-- [[00-元语/design]]
+- [[00-元语/知识工作]]
+- [[00-元语/组织设计]]
+- [[00-元语/career]]
+- [[00-元语/paper]]

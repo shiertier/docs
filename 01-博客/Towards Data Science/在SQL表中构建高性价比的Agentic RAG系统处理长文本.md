@@ -94,11 +94,16 @@ title: "在SQL表中构建高性价比的Agentic RAG系统处理长文本"
 
 借助精心设计的 Agentic RAG 层，传统的SQL数据库无需进行Schema更改、昂贵的数据迁移或牺牲性能，即可为语义应用程序提供强大的动力。
 
+## 相关文档
+
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：解说；说明：该文系统拆解了路由工作流、工具接口和 Agent 边界，正好补足本文 SQL 工具与向量工具分工背后的通用设计原则。
+- [[01-博客/宝玉/ReAct 框架与 AI Agent：当 AI 学会自己思考和行动|ReAct 框架与 AI Agent：当 AI 学会自己思考和行动]]；关联理由：解说；说明：本文把 ReAct 代理作为查询路由器使用，该文进一步解释了 Thought-Action-Observation 循环与工具调用闭环如何成立。
+
 ## 关联主题
 
 - [[00-元语/rag]]
+- [[00-元语/retrieval]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
-- [[00-元语/context-database]]
 - [[00-元语/prompt]]
 - [[00-元语/tool]]

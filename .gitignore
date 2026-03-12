@@ -1,6 +1,7 @@
 .env
 .env.example
-scripts/
+scripts/*
+!scripts/check_recent_blog_publish_dates.py
 __pycache__/
 *.pyc
 .tmp/

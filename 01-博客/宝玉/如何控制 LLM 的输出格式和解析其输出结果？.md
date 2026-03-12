@@ -319,13 +319,18 @@ return JSON.parse(fixedContent);
 
 以上就是我对于我在日常使用 LLM 中，如何控制输出结果格式，以及如何对输出结果进行解析的一些经验总结，希望对你有帮助。也欢迎分享你的经验，一起进步。
 
+## 相关文档
+
+- [[01-博客/宝玉/Prompt 技巧：使用 Type 定义得到想要的 JSON 输出格式|Prompt 技巧：使用 Type 定义得到想要的 JSON 输出格式]]；关联理由：解说；说明：该文单独展开了本文第三种“用 TypeScript 类型声明约束 JSON 输出”的方法，适合把这一支技巧拆开细看。
+- [[01-博客/宝玉/OpenAI 的 Chat Completions API 的一些更新|OpenAI 的 Chat Completions API 的一些更新]]；关联理由：版本演进；说明：该文补上了本文所用 `functions` 与 `function_call` 接口后续更名为 `tools` 与 `tool_choice` 的 API 演进脉络。
+- [[01-博客/宝玉/OpenAI 官方出的三个结构化提取示例应用|OpenAI 官方出的三个结构化提取示例应用]]；关联理由：版本演进；说明：该文展示了 OpenAI 后续用 JSON Schema 和官方示例把本文讨论的结构化输出需求推进到更完整的业务场景中。
+
 ## 关联主题
 
-- [[00-元语/prompt]]
 - [[00-元语/llm]]
+- [[00-元语/prompt]]
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/tool]]
 - [[00-元语/typescript]]
 - [[00-元语/markdown]]
-- [[00-元语/protocol]]
-- [[00-元语/sdk]]

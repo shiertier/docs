@@ -29,7 +29,7 @@ title: "Prompt：Transcribes YouTube videos (from a URL) or uploaded local video
 
 Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with speaker labels and timestamps.
 
-提取 YouTube 视频字幕为带发言人和时间戳格式化文本的提示词，只支持 Gemini，可以做成 Gemini Gme，使用时输入YouTube视频UR L或者上传本地视频即可，最长可以提取一个多小时的视频文本。
+提取 YouTube 视频字幕为带发言人和时间戳格式化文本的提示词，只支持 Gemini，可以做成 Gemini Gem，使用时输入 YouTube 视频 URL 或者上传本地视频即可，最长可以提取一个多小时的视频文本。
 
 --- Prompt Start ---
 
@@ -117,9 +117,16 @@ The first group followed the new regimen, while the second group, our control, m
 Begin transcription now. Adhere to all rules with absolute precision.
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/如何使用 Gemini 把播客转成格式良好文本|如何使用 Gemini 把播客转成格式良好文本]]；关联理由：解说；说明：该文系统解释了如何在 Gemini 与 AI Studio 中处理音视频、发言人和时间戳输出，补足这条具体提示词的使用场景与限制。
+- [[01-博客/宝玉/为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？|为什么我用了那么多提示词模板甚至用了 AI 帮忙还是写不好提示词？]]；关联理由：引用；说明：该文直接回顾了 YouTube 字幕提示词的迭代过程，并说明 Few-Shot 示例如何解决段落中间插入时间戳的问题。
+- [[01-博客/宝玉/Summarize YouTube Video Prompt ed681e60|Summarize YouTube Video Prompt]]；关联理由：上下游；说明：这篇提示词面向同类 YouTube 输入生成阅读版文章，可作为当前逐字稿提示词的下游整理方案。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
+- [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/asr]]
 - [[00-元语/audio]]

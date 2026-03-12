@@ -47,11 +47,15 @@ WebMCP 已向抢先预览计划参与者开放原型试用。
 
 可注册加入[抢先预览计划](https://developer.chrome.com/docs/ai/join-epp?hl=zh-cn)，访问文档与演示，了解最新变化并探索新 API。
 
+## 相关文档
+
+- [[01-博客/Insforge/WebMCP：AI 代理的浏览器原生执行模型|WebMCP：AI 代理的浏览器原生执行模型]]；关联理由：解说；说明：该文围绕同一 WebMCP 预览版进一步展开了执行模型、会话继承和与传统 MCP 的差异，能补足本篇公告的技术细节。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
+- [[00-元语/tool]]
 - [[00-元语/browser-automation]]
-- [[00-元语/ui-protocol]]

@@ -1,7 +1,7 @@
 ---
 title: "Claude Skills Notebook 实战进阶"
 
-发布日期: "2026-02-17"
+发布日期: 2026-02-17
 来源仓库: "anthropics/claude-cookbooks"
 原文链接: "https://github.com/anthropics/claude-cookbooks/tree/main/skills/notebooks"
 覆盖范围:
@@ -62,14 +62,13 @@ def create_skills_message(client, prompt, skills, prefix="", show_token_usage=Tr
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Skills Cookbook 使用指南|Claude Skills Cookbook 使用指南]]；关联理由：解说；说明：该文提供 Skills 的完整概念与能力边界，是本篇 Notebook 实战内容的基础说明。
-- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：上下游；说明：本篇强调实战进阶，手册补充了同一能力在真实开发中的排障与验证流程。
+- [[01-博客/Anthropic/Claude Skills Cookbook 使用指南|Claude Skills Cookbook 使用指南]]；关联理由：解说；说明：该文对应 `skills/README`，先定义 Skills 的能力边界与三份 Notebook 结构，是理解本篇进阶路径的直接前置说明。
+- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：上下游；说明：该文围绕同一组 Skills Notebook 展开 SDK 配置、Files API 处理和测试验证细节，正好补齐本篇的落地实现与排障环节。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/skills]]
+- [[00-元语/Agent]]
 - [[00-元语/sdk]]
-- [[00-元语/evals]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]

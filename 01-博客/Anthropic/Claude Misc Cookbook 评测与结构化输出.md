@@ -66,16 +66,16 @@ def build_input_prompt(animal_statement):
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：上下游；说明：两文同属 Claude Cookbooks 的 `misc` 实践，前者优化上下文与成本，本文补齐评测与结构化输出的质量控制环节。
-- [[01-博客/Anthropic/Claude Capabilities Notebook 实战补充|Claude Capabilities Notebook 实战补充]]；关联理由：观点一致；说明：两文都要求以评测驱动落地，并在结构化输出与 Text-to-SQL 场景强调可验证的工程约束。
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文在仓库级能力地图中直接列出本文覆盖的 `misc` notebook，本文是这些条目的下钻整理。
+- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：上下游；说明：两文共同拆解 `claude-cookbooks/misc` 子目录，前者处理成本与上下文管理，本文补齐评测、结构化输出与可验证性的另一半工程链路。
+- [[01-博客/Anthropic/Claude Capabilities Notebook 实战补充|Claude Capabilities Notebook 实战补充]]；关联理由：延伸思考；说明：该文把 Text-to-SQL 的数据准备、查询验证与小样本评测拆成独立能力路径，可作为本文结构化输出部分的跨目录延伸。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/evals]]
-- [[00-元语/data-pipeline]]
-- [[00-元语/llm]]
-- [[00-元语/protocol]]
+- [[00-元语/llmops]]
 - [[00-元语/prompt]]
+- [[00-元语/protocol]]
+- [[00-元语/data-pipeline]]
 - [[00-元语/security]]
-- [[00-元语/workflow]]

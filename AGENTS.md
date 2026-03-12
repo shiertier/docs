@@ -59,15 +59,16 @@
    - frontmatter 日期字段统一使用：`发布日期: YYYY-MM-DD`
    - 仅 `01-博客/` 强制要求 `发布日期`；`00-元语/`、`02-资源/`、`03-图书/` 不按本条强制
    - `01-博客/` 的 `发布日期` 必须是“可证据化的网络原始发布时间”，禁止使用入库日期/采集日期替代
-   - 若 `01-博客/` 的 `发布日期` 为“当天或前一天”（当前批次为 `2026-02-23`、`2026-02-22`），必须先完成联网取证并写入 `.tmp/publish-date-evidence-final.tsv` 后才能发布
+   - 若 `01-博客/` 的 `发布日期` 为“当天或前一天”（按 UTC 日期计算），必须先完成联网取证并写入 `.tmp/publish-date-evidence-final.tsv` 后才能发布
+   - `.tmp/publish-date-evidence-final.tsv` 每行至少保留 4 列：最终文档相对路径、发布日期、原文链接、证据来源域名；如需补充说明或取证链接，只能追加到后续列
    - `## 摘要` 必须由 Gemini 生成（`scripts/gemini_task.py summarize`）
    - 若抓取正文存在明显断句/版式错乱（异常换行、段落破碎、列表粘连），必须先调用 `scripts/gemini_task.py subtitles_blog` 生成排版优化稿，再基于优化稿执行 `review` 与 `summarize`
    - 发布前必须跑自检：`rg -n "正文（|站点中文链接（|（中文翻译）|（如识别到）|未识别|（提取）" 01-博客`
    - 占位词自检（命中即修复）：`rg -n "待补充|TODO 占位|占位文件|## TODO" 01-博客`
    - 版式优化规则自检（规范文件中必须存在该规则）：`rg -n "版式错乱|subtitles_blog|排版优化稿" AGENTS.md skills/web-full-archive.md skills/gemini-task-usage.md`
-   - 博客发布日期存在性自检（应无输出）：`rg --files-without-match -P -U '\\A---\\n(?:.*\\n)*?发布日期:\\s*\\d{4}-\\d{2}-\\d{2}\\n(?:.*\\n)*?---\\n' 01-博客 -g '*.md'`
-   - 博客“当天/前一天日期”自检（命中需有联网证据并人工复核）：`rg -n "^发布日期:\\s*2026-02-(22|23)$" 01-博客`
-   - 博客“当天/前一天日期”证据自检（命中条目必须在证据表中）：`rg -n "\\t2026-02-(22|23)\\t" .tmp/publish-date-evidence-final.tsv`
+   - 博客发布日期存在性自检（应无输出）：`python3 scripts/check_recent_blog_publish_dates.py --missing-publish-date 01-博客`
+   - 博客“当天/前一天日期”自检（输出命中条目，用于人工复核）：`python3 scripts/check_recent_blog_publish_dates.py --list-recent 01-博客`
+   - 博客“当天/前一天日期”证据自检（应无输出）：`python3 scripts/check_recent_blog_publish_dates.py 01-博客 .tmp/publish-date-evidence-final.tsv`
    - 代码块完整性自检（技术文档，命中即复核来源并重抓）：`rg -nP -U '(实现方式：|代码示例：|快速入门[\\s\\S]{0,20}：)\\n\\n(?!```)' 01-博客`
    - 微信来源额外自检（防止把验证码页当正文）：`rg -n "完成验证后即可继续访问|wappoc_appmsgcaptcha|^# 环境异常$" 01-博客`
    - 微信优先策略自检（规范文件中必须存在“第一优先 wechat_hq_fetch.py”）：`rg -n "微信.*第一优先|第一优先.*wechat_hq_fetch\\.py|wecha[t]?_hq_fetch\\.py|高保真.*图片.*排版" AGENTS.md skills/web-full-archive.md`
@@ -302,6 +303,30 @@
   - `等级`
   - `处理建议`（仅限 `归档`、`观察`、`丢弃`）
   - `链接`
+- 新增子场景：按天热门 blog/news 清单（每日 10+10）
+  - 最终文档落盘到：`01-博客/内容发现/`
+  - 文件名与 `title` 推荐格式：`YYYY年M月D日：AI 当日热门 Blog 与 News 清单`
+  - 单日文档必须同时满足：
+    - `Blog Top 10` 恰好 10 条
+    - `News Top 10` 恰好 10 条
+    - 同平台总计不得超过 3 条（平台按归一化域名统计，如去掉 `www.`）
+    - 每条都必须写出真实 `发布时间`
+    - `发布时间` 必须可追溯到一手证据，禁止使用入库时间、脚本运行时间、Google News 聚合时间替代
+  - 日榜分桶规则（强制）：
+    - 按“已取证的真实发布时间”归入对应自然日
+    - 默认以 `UTC` 日期裁剪单日窗口；正文可保留完整 ISO 8601 时间戳
+    - 不允许把前一天或后一天内容机械补位到目标日期
+    - 任一类别不足 10 条时，不得发布该日文档；必须补源或继续取证
+  - 取证规则（强制）：
+    - 每条入选项必须写入 `.tmp/daily-hot-publish-evidence.tsv`
+    - 证据表至少包含：`date`、`kind`、`platform`、`url`、`published_at`、`evidence_source`
+    - `evidence_source` 只允许使用可复核来源，如源站 RSS/Atom、源站页面 meta/JSON-LD、源站 sitemap；禁止写“模型判断”
+  - 最终文档正文推荐结构：
+    - `## 摘要`
+    - `## 正文`
+    - `### Blog Top 10`
+    - `### News Top 10`
+    - 每条至少包含：标题、平台、发布时间、链接
 - 入口方案：`skills/new-content-discovery.md`
 - 发布前自检（必做）：
   - `rg -n "discover_ai_content\\.py|Discovery Summary|family_counts|collection_counts|top_sources|outputs" AGENTS.md skills/new-content-discovery.md scripts/discover_ai_content.py`
@@ -311,6 +336,8 @@
   - `rg -n "^- 处理建议：(归档|观察|丢弃)$" .tmp/discovery-*.review.md`
   - `rg -n "完成验证后即可继续访问|wappoc_appmsgcaptcha|^# 环境异常$" .tmp/discovery-*.review.md`
   - `rg -n "新内容发现（候选分级与归档优先级）|skills/new-content-discovery\\.md|scripts/discover_ai_content\\.py|高价值：85-100|处理建议（仅限 .*归档.*观察.*丢弃.*）" AGENTS.md skills/new-content-discovery.md`
+  - `rg -n "每日热门 blog/news 清单|同平台总计不得超过 3 条|真实 `发布时间`|daily-hot-publish-evidence\\.tsv|不足 10 条时，不得发布" AGENTS.md skills/new-content-discovery.md`
+  - `python3 scripts/daily_hot_blog_news.py --check-docs 01-博客/内容发现 --date-from 2026-02-28 --date-to 2026-03-11 --evidence .tmp/daily-hot-publish-evidence.tsv`
 
 12) 新增场景：GitHub 仓库文档入博客（价值筛选与归档）
 

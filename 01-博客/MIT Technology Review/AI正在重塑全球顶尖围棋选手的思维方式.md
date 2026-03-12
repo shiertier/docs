@@ -100,5 +100,7 @@ Google DeepMind在同年[让AlphaGo退役](https://deepmind.google/blog/alphagos
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/gemini]]
+- [[00-元语/game]]
+- [[00-元语/reinforcement-learning]]
+- [[00-元语/interpretability]]
+- [[00-元语/decision-making]]

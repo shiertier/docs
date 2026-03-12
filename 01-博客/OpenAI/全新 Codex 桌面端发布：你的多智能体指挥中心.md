@@ -96,17 +96,18 @@ Codex macOS 桌面端于今日正式上线。任何拥有 ChatGPT Plus、Pro、B
 
 Codex 的构建基于一个简单的理念：一切皆由代码控制。智能体在推理和生成代码方面越出色，它在所有形式的技术和知识工作中的能力就越强。Codex 旨在消除前沿模型能力与实际应用之间的鸿沟，让人们更容易指导、监督并将模型的全部智能应用于实际工作。我们期待看到你用 Codex 构建出令人惊叹的成果！
 
+## 相关文档
+
+- [[01-博客/OpenAI/OpenAI Codex 与 Figma：打通代码到设计的无缝流程|OpenAI Codex 与 Figma：打通代码到设计的无缝流程]]；关联理由：上下游；说明：本文把 Figma 转 UI 列为桌面端内置 skills 场景，该文进一步展开这项设计到代码集成如何落地。
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：上下游；说明：该文解释桌面端并行编排多个 Codex 智能体所依赖的 App Server 运行框架与客户端集成方式。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
-- [[00-元语/ChatGPT]]
 - [[00-元语/Agent]]
 - [[00-元语/desktop-client]]
 - [[00-元语/skills]]
-- [[00-元语/workflow]]
 - [[00-元语/git-worktree]]
-- [[00-元语/cli]]
-- [[00-元语/ide]]
-- [[00-元语/rate-limiting]]
-- [[00-元语/security]]
+- [[00-元语/sandbox]]
+- [[00-元语/workflow]]

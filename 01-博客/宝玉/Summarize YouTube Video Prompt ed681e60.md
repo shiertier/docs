@@ -64,12 +64,16 @@ You are tasked with transforming YouTube video transcripts into comprehensive "r
 [YouTube URL]
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with|Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with speaker labels and timestamps]]；关联理由：上下游；说明：该文先把 YouTube 视频整理成带时间戳与说话人标签的结构化逐字稿，正好可作为本文“阅读版文章”提示词的上游输入。
+- [[01-博客/宝玉/YouTube Video - Blog Post Prompt (Gemini Only) 59b5a3be|YouTube Video -> Blog Post Prompt (Gemini Only)]]；关联理由：版本演进；说明：两篇都面向 Gemini 的 YouTube 转文章场景，但这篇后续稿把“阅读版总结”进一步推进为更强叙事和独立表达的深度博客改写。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
 - [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
+- [[00-元语/multimodal]]
 - [[00-元语/video]]
-- [[00-元语/asr]]
-- [[00-元语/workflow]]

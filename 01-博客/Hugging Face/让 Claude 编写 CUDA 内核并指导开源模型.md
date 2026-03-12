@@ -334,8 +334,9 @@ sonnet
 
 ## 相关文档
 
-- [[01-博客/Hugging Face/借助 Codex 和 Claude 为所有人打造自定义 CUDA 内核|借助 Codex 和 Claude 为所有人打造自定义 CUDA 内核]]；关联理由：同一事件；说明：两文都围绕 Hugging Face 的 CUDA 内核技能实践，分别覆盖技能迁移评估与端到端落地案例。
-- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：解说；说明：该文展开了 Agent Skills 的评测设计与回归方法，可补充本文对 `upskill eval` 的高层说明。
+- [[01-博客/Hugging Face/借助 Codex 和 Claude 为所有人打造自定义 CUDA 内核|借助 Codex 和 Claude 为所有人打造自定义 CUDA 内核]]；关联理由：上下游；说明：本文聚焦用 `upskill` 从教师模型追踪生成并评估 CUDA skill，另一文展示这类 skill 被 Claude 与 Codex 消费后落到可发布内核与集成案例。
+- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：解说；说明：本文只展示 `upskill eval` 的高层做法，该文把 Agent Skills 的提示词集、运行轨迹、确定性检查与结构化评分拆得更细。
+- [[01-博客/微信公众平台/Vercel 给 Agent Skills 泼了一盆冷水|Vercel 给 Agent Skills 泼了一盆冷水]]；关联理由：延伸思考；说明：本文强调 Skill 对特定编码任务和小模型的增益，该文补充了知识检索场景下 Skills 触发不稳定的适用边界。
 
 ## 关联主题
 

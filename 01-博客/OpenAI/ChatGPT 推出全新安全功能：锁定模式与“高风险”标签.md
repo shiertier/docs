@@ -2,6 +2,7 @@
 title: "ChatGPT 推出全新安全功能：锁定模式与“高风险”标签"
 
 来源: "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt"
+发布日期: "2026-02-13"
 ---
 
 ## 摘要
@@ -64,8 +65,8 @@ ChatGPT 的商业计划已经提供了企业级的数据安全保障。锁定模
 
 ## 相关文档
 
-- [[01-博客/OpenAI/在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签|在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签]]；关联理由：同一事件；说明：与本文报道同一项功能发布，提供同主题的另一版整理。
-- [[01-博客/OpenAI/当 AI 代理点击链接时，如何保护您的数据安全|当 AI 代理点击链接时，如何保护您的数据安全]]；关联理由：解说；说明：该文展开 URL 数据外泄与提示词注入防护机制，补充本文提到的风险缓解路径。
+- [[01-博客/OpenAI/在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签|在 ChatGPT 中引入 Lockdown Mode 与 Elevated Risk 标签]]；关联理由：同一事件；说明：两文整理的是同一篇 OpenAI 公告，这篇可作为更完整译稿对照 Lockdown Mode 与 Elevated Risk 标签的原始表述。
+- [[01-博客/OpenAI/当 AI 代理点击链接时，如何保护您的数据安全|当 AI 代理点击链接时，如何保护您的数据安全]]；关联理由：上下游；说明：原文把 URL 数据外泄防护列为既有保护层之一，该文正好展开这一具体机制与提示词注入下的数据泄露路径。
 
 ## 关联主题
 

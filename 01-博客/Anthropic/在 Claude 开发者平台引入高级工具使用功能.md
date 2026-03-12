@@ -1,5 +1,6 @@
 ---
 title: "在 Claude 开发者平台引入高级工具使用功能"
+发布日期: 2025-11-24
 
 站点: "Anthropic Engineering"
 原文链接: "https://www.anthropic.com/engineering/advanced-tool-use"
@@ -574,16 +575,17 @@ client.beta.messages.create(
 
 ## 相关文档
 
-- [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：解说；说明：本文的工具搜索章节在该文有完整 API 机制、限制与错误处理细节。
-- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：版本演进；说明：本文的编程式工具调用建立在该文“代码执行结合 MCP”方法之上，并进一步演进为平台级能力。
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：引用；说明：正文开头直接引用该文，把“高效智能体”作为按需加载工具与代码编排的总体设计背景。
+- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：版本演进；说明：本文的编程式工具调用延续了该文“代码执行结合 MCP”的思路，并进一步演进为开发者平台原生能力。
+- [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：解说；说明：该文把本文中的工具搜索能力展开为独立说明，补足了延迟加载、搜索变体、返回结构与兼容性细节。
+- [[01-博客/Anthropic/Programmatic Tool Calling：Claude API 程序化工具调用指南|Programmatic Tool Calling：Claude API 程序化工具调用指南]]；关联理由：解说；说明：该文把本文介绍的编程式工具调用展开为 API 级配置、调用流程与限制说明。
+- [[01-博客/Anthropic/Claude 开发平台发布说明：API 与 SDK 更新总览|Claude 开发平台发布说明：API 与 SDK 更新总览]]；关联理由：版本演进；说明：该文记录了工具搜索、编程式工具调用和工具使用示例从 beta 到正式发布的后续时间线。
 
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
 - [[00-元语/mcp]]
-- [[00-元语/tool]]
-- [[00-元语/llm]]
 - [[00-元语/context-optimization]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
-- [[00-元语/sdk]]

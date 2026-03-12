@@ -55,6 +55,5 @@ title: "惠普 PC 物料成本中 RAM 占比升至 35%"
 
 ## 关联主题
 
-- [[00-元语/hardware-control]]
+- [[00-元语/decision-making]]
 - [[00-元语/risk]]
-- [[00-元语/AI]]

@@ -593,13 +593,18 @@ function extractSurroundingContext(sourceRange: SourceRange, content: string): S
 
 通过以上架构图和流程图，可以清晰地理解代码的整体结构和运行流程。代码主要是根据用户的操作类型和选中的文本，生成相应的提示，发送到外部服务进行处理，然后处理返回的结果。
 
+## 相关文档
+
+- [[01-博客/宝玉/分享一点前沿 AI 用法：用 o1 逆向代码|分享一点前沿 AI 用法：用 o1 逆向代码]]；关联理由：引用；说明：正文在介绍如何还原混淆代码时，直接把这篇文章作为方法来源引用出来。
+- [[01-博客/宝玉/Full Prompt of ChatGPT 4o with canvas c4e2da71|Full Prompt of ChatGPT 4o with canvas]]；关联理由：解说；说明：该文整理了 Canvas 的完整系统提示词与工具规则，能和本文逆向出的前端 Prompt 拼接逻辑互相对照。
+- [[01-博客/数字生命卡兹克/ChatGPT上线全新功能Canvas - 我消灭你，与你无关。|ChatGPT上线全新功能Canvas - 我消灭你，与你无关。]]；关联理由：同一事件；说明：两文都围绕 2024 年 10 月 Canvas 初次上线展开，这篇偏用户侧功能体验，本文偏前端实现拆解。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
+- [[00-元语/context-optimization]]
 - [[00-元语/typescript]]
 - [[00-元语/软件工程]]
-- [[00-元语/workflow]]
-- [[00-元语/tool]]

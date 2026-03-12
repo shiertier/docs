@@ -292,15 +292,21 @@ title: "AI Memory：高质量仓库与博客产品清单"
 20. ICLR 2026｜把LLM Embedding Model算力瓶颈，从Query侧彻底移走，LightRetriever来了（评分：89）
 - 链接：https://www.jiqizhixin.com/articles/2026-02-22-4
 
+## 相关文档
+
+- [[01-博客/LangChain/我们是如何构建 Agent Builder 记忆系统的|我们是如何构建 Agent Builder 记忆系统的]]；关联理由：解说；说明：当前清单将其列为高分博客之一，这篇归档展开了 Agent 记忆系统的具体实现与取舍。
+- [[01-博客/Anthropic/Contextual Retrieval：上下文检索方法|Contextual Retrieval：上下文检索方法]]；关联理由：解说；说明：当前清单将其列为高分博客之一，这篇归档详细解释了“上下文检索”这条主线的方法设计。
+- [[02-资源/AI-模型与推理基础设施/mem0ai-mem0：AI 记忆与检索基础设施|mem0ai-mem0：AI 记忆与检索基础设施]]；关联理由：解说；说明：摘要明确点名 mem0 作为头部通用记忆层项目，这篇资源页补足了它的定位与基础信息。
+- [[02-资源/AI-模型与推理基础设施/OSU-NLP-Group-HippoRAG：AI 记忆与检索基础设施|OSU-NLP-Group-HippoRAG：AI 记忆与检索基础设施]]；关联理由：解说；说明：摘要用 HippoRAG 说明“RAG 与知识图谱结合”的趋势，这篇资源页补足了对应项目的机制概览。
+
 ## 关联主题
 
 - [[00-元语/memory]]
-- [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
 - [[00-元语/rag]]
+- [[00-元语/retrieval]]
 - [[00-元语/mcp]]
 - [[00-元语/context-optimization]]
 - [[00-元语/knowledge-graph]]
-- [[00-元语/github]]
 - [[00-元语/learning-resource]]

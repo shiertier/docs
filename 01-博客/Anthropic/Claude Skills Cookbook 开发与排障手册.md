@@ -1,7 +1,7 @@
 ---
 title: "Claude Skills Cookbook 开发与排障手册"
 
-发布日期: "2025-10-24"
+发布日期: 2025-10-24
 作者: "Anthropic"
 来源仓库: "anthropics/claude-cookbooks"
 原文链接: "https://github.com/anthropics/claude-cookbooks/blob/main/skills/CLAUDE.md"
@@ -31,8 +31,6 @@ title: "Claude Skills Cookbook 开发与排障手册"
 * **环境隔离失效风险**：在 VSCode 或 Jupyter 中若未手动切换至 `venv` 内核，会导致依赖项错误；且修改辅助模块（如 `file_utils.py`）后若不重启内核或重新加载模块，更改将不会生效。
 
 ## 正文
-
-# Skills Cookbook - Claude 代码指南
 
 ## 项目概述
 
@@ -272,16 +270,15 @@ ANTHROPIC_BASE_URL=https://api.anthropic.com  # 如果使用代理
 ## 相关文档
 
 - [[01-博客/Anthropic/Claude Skills Cookbook 使用指南|Claude Skills Cookbook 使用指南]]；关联理由：解说；说明：该文给出 Skills 能力与基础用法总览，本篇补齐开发期 API 细节与排障路径。
-- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：仓库级贡献规范定义环境、依赖和提交流程，是本篇 Notebook 开发实践的上游约束。
-- [[01-博客/Anthropic/Cookbook Notebook 审核规范与评分清单|Cookbook Notebook 审核规范与评分清单]]；关联理由：上下游；说明：该文提供 Notebook 审核与评分标准，可作为本篇示例与产出的下游验收准则。
+- [[01-博客/Anthropic/Claude Skills Notebook 实战进阶|Claude Skills Notebook 实战进阶]]；关联理由：上下游；说明：该文按三份 Skills notebook 拆解能力路径，本篇则补齐这些 notebook 落地时的 SDK 配置、Files API 处理与调试细节。
+- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：该文定义仓库级环境、模型命名与 notebook 提交流程，是本篇“测试检查清单”和开发约束的直接上游。
+- [[01-博客/Anthropic/Cookbook Notebook 审核规范与评分清单|Cookbook Notebook 审核规范与评分清单]]；关联理由：上下游；说明：该文把 notebook 的结构、技术准确性与质量门禁展开成审核准则，可作为本篇开发产物的直接验收标准。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/skills]]
 - [[00-元语/sdk]]
-- [[00-元语/workflow]]
-- [[00-元语/Agent]]
 - [[00-元语/tool]]
 - [[00-元语/bug-fix]]
-- [[00-元语/github]]
+- [[00-元语/软件工程]]

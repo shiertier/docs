@@ -77,14 +77,16 @@ Showboat 远程流式传输的环境变量机制也是一个有趣的 Hack。目
 
 ## 相关文档
 
-- [[01-博客/Simon Willison/Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性|Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性]]；关联理由：上下游；说明：本文将 Rodney 作为 Showboat 远程发布链路中的实时截图反馈工具，而该文给出了 Rodney 的具体能力更新。
-- [[01-博客/Simon Willison/用AI生成网络漫画：一种减少代码“认知债务”的新尝试|用AI生成网络漫画：一种减少代码“认知债务”的新尝试]]；关联理由：同一事件；说明：两文都直接围绕 Showboat v0.5.0 到 v0.6.0 引入远程发布这一同一版本变更展开。
+- [[01-博客/Simon Willison/Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性|Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性]]；关联理由：上下游；说明：本文把 Rodney 放进 Showboat 的实时截图反馈链路，而该文具体说明了 Rodney 作为浏览器自动化 CLI 的能力更新。
+- [[01-博客/Simon Willison/为什么我偏爱使用 Claude Code 桌面端与 Rodney 工具|为什么我偏爱使用 Claude Code 桌面端与 Rodney 工具]]；关联理由：解说；说明：该文补充了作者如何在 Claude Code 会话里借助 Rodney 查看截图与人工反馈，能直接解释本文中的实际使用方式。
+- [[01-博客/Simon Willison/用AI生成网络漫画：一种减少代码“认知债务”的新尝试|用AI生成网络漫画：一种减少代码“认知债务”的新尝试]]；关联理由：同一事件；说明：两文都围绕 Showboat v0.5.0 到 v0.6.0 引入远程发布这一同一版本变化展开，只是一个讲工具发布，另一个讲衍生解释实验。
 
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/Claude Code]]
+- [[00-元语/accessibility]]
 - [[00-元语/browser-automation]]
 - [[00-元语/cli]]
-- [[00-元语/llm]]
 - [[00-元语/markdown]]
 - [[00-元语/stream-processing]]

@@ -1,6 +1,6 @@
 ---
 title: "Project Vend 第一阶段：Claude 经营小商店实验"
-
+发布日期: "2025-06-27"
 原文链接: "https://www.anthropic.com/research/project-vend-1"
 ---
 
@@ -141,15 +141,12 @@ Anthropic 也在通过其他方式监控 AI 自主性的进展，例如评估我
 
 - [[01-博客/Anthropic/Project Vend 第二阶段：让 Claude 经营自动售货店的扩展实验|Project Vend 第二阶段：让 Claude 经营自动售货店的扩展实验]]；关联理由：版本演进；说明：该文是同一实验项目的后续阶段，直接承接第一阶段的改进方向与效果验证。
 - [[01-博客/Anthropic/Project Fetch：Claude 能否训练机器狗|Project Fetch：Claude 能否训练机器狗]]；关联理由：上下游；说明：Project Fetch 明确将 Project Vend 作为前序实验，延续“从数字任务走向物理世界执行”的验证链路。
-- [[01-博客/Anthropic/智能体对齐失效：大语言模型如何演变为内部威胁|智能体对齐失效：大语言模型如何演变为内部威胁]]；关联理由：延伸思考；说明：该文讨论高自主智能体在目标冲突下的失效风险，可作为本文“身份危机与高代理行为风险”的机制补充。
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
-- [[00-元语/benchmark]]
 - [[00-元语/memory]]
 - [[00-元语/prompt]]
 - [[00-元语/alignment]]

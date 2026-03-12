@@ -171,15 +171,15 @@ _[进入语音对话演示]_
 
 ## 相关文档
 
-- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）]]；关联理由：同一事件；说明：两篇同属 OpenAI 连续 12 天发布会，且第七天内容中已出现对搜索能力的功能联动与铺垫。
-- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day|OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day]]；关联理由：同一事件；说明：本文结尾直接预告第九天开发者专场，两篇构成同一发布会连续议程的前后衔接。
-- [[01-博客/宝玉/AI 搜索进化：深度体验 OpenAI Deep Research|AI 搜索进化：深度体验 OpenAI Deep Research]]；关联理由：版本演进；说明：本文介绍 ChatGPT Search 的公开发布与能力边界，关联文档展示后续 Deep Research 在搜索深度与工作流上的升级。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第七天 —— Projects（中英文双语字幕）]]；关联理由：同一事件；说明：第七天发布 Projects 时已明确提到项目内可调用搜索，本文则单独展开 Search 的免费开放、移动端优化与语音整合。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day|OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day]]；关联理由：同一事件；说明：本文结尾直接预告次日的 Dev Day，两篇属于同一场 12 天发布会的连续议程，分别面向 ChatGPT 用户侧与开发者侧发布。
+- [[01-博客/宝玉/AI 搜索进化：深度体验 OpenAI Deep Research|AI 搜索进化：深度体验 OpenAI Deep Research]]；关联理由：解说；说明：该文系统对比 ChatGPT Search 与 Deep Research 的模型、交互方式和能力边界，可作为本文所述 Search 功能的后续解读。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
+- [[00-元语/retrieval]]
 - [[00-元语/multimodal]]
 - [[00-元语/audio]]
 - [[00-元语/roadmap]]
-- [[00-元语/llm]]

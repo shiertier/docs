@@ -1,5 +1,9 @@
 ---
 title: "苹果 Xcode 正式支持 Claude Agent SDK"
+发布日期: 2026-02-03
+作者: "Anthropic"
+来源: "Anthropic"
+原文链接: "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk"
 ---
 
 ## 摘要
@@ -14,8 +18,6 @@ title: "苹果 Xcode 正式支持 Claude Agent SDK"
 * **自主执行任务**：开发者只需设定“目标”，Claude 即可自行拆解任务、修改文件、查阅苹果官方文档，并持续工作直到任务完成或需要用户输入。
 * **MCP 支持**：Xcode 26.3 通过模型上下文协议（MCP）开放功能，允许使用 Claude Code 的开发者在命令行（CLI）中直接捕获视觉预览。
 * **版本发布**：Xcode 26.3 发布候选版（RC）现已向苹果开发者计划成员开放，即将正式登陆 App Store。
-* **安全功能**：推出 Claude Code Security 有限预览版，可扫描代码库漏洞并提出软件补丁供人工审查。
-* **其他动态**：Anthropic 与卢旺达政府签署谅解备忘录以推进 AI 在医疗和教育领域的应用；同时正式推出在编程和智能体方面性能更强的 Claude Sonnet 4.6。
 
 ## 正文
 
@@ -38,23 +40,18 @@ title: "苹果 Xcode 正式支持 Claude Agent SDK"
 
 从即日起，Xcode 26.3 的发布候选版（Release Candidate）已向所有苹果开发者计划（Apple Developer Program）成员开放，并将在不久后正式登陆苹果 App Store。
 
-### 其他相关动态
+## 相关文档
 
-**为防御者提供前沿的网络安全能力**
-内置于网页版 Claude Code 的新功能 Claude Code Security 现已推出有限制的预览版。它能够扫描代码库中的安全漏洞，并提出针对性的软件补丁供人工审查，帮助团队发现和修复传统方法经常遗漏的安全问题。
-
-**Anthropic 与卢旺达政府签署 AI 合作谅解备忘录**
-双方将共同推进人工智能在医疗和教育领域的应用。
-
-**推出 Claude Sonnet 4.6**
-全新的 Sonnet 4.6 在编程、智能体（agents）以及大规模专业工作方面均展现出了前沿的性能。
+- [[01-博客/Anthropic/Claude Code 核心功能与使用概览|Claude Code 核心功能与使用概览]]；关联理由：解说；说明：本文说明 Xcode 26.3 直接提供 Claude Code 的完整能力，关联文档可补足 Claude Code 在终端、IDE 与跨端协作中的整体产品形态。
+- [[01-博客/Anthropic/使用 Claude Agent SDK 构建强大智能体教程|使用 Claude Agent SDK 构建强大智能体教程]]；关联理由：上下游；说明：本文聚焦 Claude Agent SDK 被原生集成进 Xcode，关联文档则展开了这套 SDK 的子智能体、长任务执行与 MCP 集成能力。
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
 - [[00-元语/sdk]]
 - [[00-元语/ide]]
 - [[00-元语/mcp]]
 - [[00-元语/cli]]
+- [[00-元语/multimodal]]

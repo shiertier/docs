@@ -229,18 +229,17 @@ If you found this helpful, a Like/Retweet is appreciated! Let me know in the com
 
 ## 相关文档
 
-- [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：同一事件；说明：两篇文章都围绕“可编辑版 NotebookLM Slides”给出同源工作流与提示词框架，属于同一主题的不同表述。
-- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：上下游；说明：该文提供用于产出幻灯片大纲的系统提示词，是本文“先规划后生成”流程中的上游输入。
+- [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：同一事件；说明：两篇文章都在讲同一套“可编辑 NotebookLM Slides”方案，核心问题、四段式大纲约束和逐页绘制流程基本一致，只是表述语言与标题不同。
+- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：上下游；说明：该文直接给出了本文第一步“Planner”的系统提示词模板，是这套可编辑 Slides 工作流的上游输入。
+- [[01-博客/宝玉/NotebookLM信息图System prompt|System prompt of NotebookLM Infographic]]；关联理由：版本演进；说明：该文更早把“Gemini 先产出结构化设计说明，再交给 Nano Banana Pro 绘制”的方法用于信息图，本文则把同一路径扩展成逐页可控的 Slides 工作流。
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/gemini]]
-- [[00-元语/ChatGPT]]
-- [[00-元语/Claude]]
 - [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
-- [[00-元语/design]]
 - [[00-元语/workflow]]
+- [[00-元语/design]]
+- [[00-元语/text-to-image]]
 - [[00-元语/image-editing]]
+- [[00-元语/multimodal]]
+- [[00-元语/llm]]

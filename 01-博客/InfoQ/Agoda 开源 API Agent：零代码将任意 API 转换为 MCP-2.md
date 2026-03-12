@@ -1,7 +1,8 @@
 ---
 title: "Agoda 开源 API Agent：零代码将任意 API 转换为 MCP"
-
-来源: "https://www.infoq.cn/article/lTdPVphiffHFz6prrxu3?utm_source=rss&utm_medium=article"
+发布日期: 2026-02-20
+来源: "InfoQ"
+原文链接: "https://www.infoq.cn/article/lTdPVphiffHFz6prrxu3?utm_source=rss&utm_medium=article"
 ---
 
 ## 摘要
@@ -61,11 +62,18 @@ DuckDB 可以在进程内运行，原生支持 JSON 并能自动推断 Schema。
 
 目前，该项目已正式开源（项目地址为 `api-agent`），开发者可将其用于 REST 和 GraphQL 相关的 AI 实验与集成。
 
+## 相关文档
+
+- [[02-资源/AI-应用框架与平台/FastMCP：MCP 服务与客户端开发的 Python 工具库|FastMCP：MCP 服务与客户端开发的 Python 工具库]]；关联理由：上下游；说明：本文中的 API Agent 以 FastMCP 承担 MCP 服务端层，这份档案可补充其底层框架的能力边界与生态位置。
+- [[02-资源/AI-应用框架与平台/OpenAI Agents Python：OpenAI 智能体 Python SDK|OpenAI Agents Python：OpenAI 智能体 Python SDK]]；关联理由：上下游；说明：本文明确把 OpenAI Agents SDK 用作模型编排层，该档案可补充其多智能体编排、会话与追踪能力。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/context-database]]
 - [[00-元语/mcp]]
 - [[00-元语/llm]]
-- [[00-元语/security]]
 - [[00-元语/observability]]
+- [[00-元语/sdk]]
+- [[00-元语/security]]

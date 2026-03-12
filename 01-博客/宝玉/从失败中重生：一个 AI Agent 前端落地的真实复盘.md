@@ -218,18 +218,19 @@ AI 时代，失败没什么，好过什么都没做。
 
 ![Image 19](https://baoyu.io/uploads/2025-12-20-G8lcgA1XQAAHwH1.jpg)
 
+## 相关文档
+
+- [[01-博客/宝玉/What You Need Is Not an AI Agent, But an AI-Friendly Workflow 279d6559|What You Need Is Not an AI Agent, But an AI-Friendly Workflow]]；关联理由：观点一致；说明：两文都强调不要把 Agent 当成目的本身，真正需要重构的是适合 AI 的工作流。
+- [[01-博客/宝玉/MCP 和 Skills 到底什么区别？一篇文章说清楚|MCP 和 Skills 到底什么区别？一篇文章说清楚]]；关联理由：解说；说明：本文用 MCP 承担验证环节、用 Skill 承担设计系统能力，这篇文章把两者的分工边界系统化讲清楚了。
+- [[01-博客/宝玉/SubAgent 与 Skills：AI Agent 的两种扩展方式|SubAgent 与 Skills：AI Agent 的两种扩展方式]]；关联理由：延伸思考；说明：本文把验证工具下沉到 Skill 或 SubAgent，这篇文章进一步解释了为什么要把局部能力和复杂子任务从主 Agent 上下文中拆出去。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
-- [[00-元语/Claude]]
-- [[00-元语/Cursor]]
 - [[00-元语/design]]
-- [[00-元语/llm]]
+- [[00-元语/ide]]
 - [[00-元语/mcp]]
-- [[00-元语/prompt]]
 - [[00-元语/sdk]]
 - [[00-元语/skills]]
-- [[00-元语/tool]]
 - [[00-元语/virtual-file-system]]
 - [[00-元语/workflow]]

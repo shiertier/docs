@@ -286,6 +286,12 @@ _本文由 Adam Jones 和 Conor Kelly 撰写。感谢 Jeremy Fox、Jerome Swanna
 
 来源： [https://www.anthropic.com/engineering/code-execution-with-mcp](https://www.anthropic.com/engineering/code-execution-with-mcp)
 
+## 相关文档
+
+- [[01-博客/宝玉/MCP 和 Skills 到底什么区别？一篇文章说清楚|MCP 和 Skills 到底什么区别？一篇文章说清楚]]；关联理由：引用；说明：该文直接引用本文所述“150,000 token 降到 2,000”的案例，用来说明 MCP 与 Skills 的分工边界。
+- [[01-博客/宝玉/Claude Code 的懒加载更新：AI 终于学会了随叫随到|Claude Code 的懒加载更新：AI 终于学会了随叫随到]]；关联理由：延伸思考；说明：该文把本文的“按需发现工具、减少上下文膨胀”继续推进到懒加载与 Tool Search 的产品形态。
+- [[01-博客/Anthropic/Programmatic Tool Calling Cookbook：多工具调用的低延迟实践|Programmatic Tool Calling Cookbook：多工具调用的低延迟实践]]；关联理由：延伸思考；说明：该文把“在代码执行环境中编排工具调用”的思路扩展到更通用的多工具场景，并补足 API 级落地细节。
+
 ## 关联主题
 
 - [[00-元语/mcp]]
@@ -296,4 +302,5 @@ _本文由 Adam Jones 和 Conor Kelly 撰写。感谢 Jeremy Fox、Jerome Swanna
 - [[00-元语/context-optimization]]
 - [[00-元语/memory]]
 - [[00-元语/skills]]
+- [[00-元语/sandbox]]
 - [[00-元语/security]]

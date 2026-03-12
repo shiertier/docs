@@ -77,18 +77,16 @@ title: "Deepgram 与 LlamaIndex 集成入口"
 
 ## 相关文档
 
-- [[01-博客/Anthropic/ElevenLabs 与 Claude 低延迟语音助手实践|ElevenLabs 与 Claude 低延迟语音助手实践]]；关联理由：解说；说明：两篇都属于 Claude Cookbooks 的 third_party 集成实践，本文补充了 Deepgram 语音能力与 LlamaIndex 结构化检索入口。
-- [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：上下游；说明：本篇 LlamaIndex 的 RAG 查询能力通常以上游 Embeddings 质量为基础，该文对应向量化环节。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 语音与多模态应用|Claude 第三方集成 Cookbook 语音与多模态应用]]；关联理由：上下游；说明：该文把 Deepgram 音频转录与 LlamaIndex Multi-Modal notebook 放进同一条语音与多模态链路中，本文补齐对应 README 入口与资源范围。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 检索与知识工具|Claude 第三方集成 Cookbook 检索与知识工具]]；关联理由：解说；说明：该文展开了本文 LlamaIndex 部分列出的 Basic RAG、Router、SubQuestion、ReAct 与 Multi-Document notebooks 的实际用途与架构主线。
 - [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：引用；说明：总览文档将 Deepgram 与 LlamaIndex 列在 third_party 集成中，本篇是对应条目的下钻入口。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
-- [[00-元语/github]]
-- [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
-- [[00-元语/tool]]
+- [[00-元语/retrieval]]
 - [[00-元语/audio]]
 - [[00-元语/asr]]
 - [[00-元语/tts]]

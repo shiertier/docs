@@ -1,5 +1,10 @@
 ---
 title: "OpenAI 绕过英伟达：在“餐盘大小”的芯片上推出超快编程模型"
+发布日期: 2026-02-12
+作者: Benj Edwards
+来源: Ars Technica
+原文链接: "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/"
+译注: 根据原文翻译整理
 ---
 
 ## 摘要
@@ -69,9 +74,9 @@ AI 编程智能体迎来了爆发的一年。OpenAI、谷歌和 Anthropic 都在
 
 ## 相关文档
 
-- [[01-博客/OpenAI/推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型|推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型]]；关联理由：同一事件；说明：两文都围绕 Codex-Spark 首次发布，本文是媒体解读，该文提供官方技术细节与可用性范围。
-- [[01-博客/OpenAI/介绍 GPT-5.3-Codex：迄今最强大的智能体编程模型|介绍 GPT-5.3-Codex：迄今最强大的智能体编程模型]]；关联理由：版本演进；说明：本文将 Spark 与完整版 GPT-5.3-Codex 对照，该文补充其上游主模型能力与基准背景。
-- [[01-博客/Simon Willison/GPT-5.3-Codex-Spark 处理速度显著提升|GPT-5.3-Codex-Spark 处理速度显著提升]]；关联理由：版本演进；说明：该文记录 Spark 后续提速至 1200+ Token/秒，可对照本文发布时 1000 Token/秒的初始性能基线。
+- [[01-博客/OpenAI/推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型|推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型]]；关联理由：同一事件；说明：两文都围绕 Codex-Spark 首次发布，本文提供媒体解读，该文补充官方规格、延迟优化与开放范围。
+- [[01-博客/OpenAI/介绍 GPT-5.3-Codex：迄今最强大的智能体编程模型|介绍 GPT-5.3-Codex：迄今最强大的智能体编程模型]]；关联理由：上下游；说明：本文把 Spark 视为 GPT-5.3-Codex 的低延迟分支，该文补齐上游主模型的能力边界与基准背景。
+- [[01-博客/宝玉/快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么|快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么]]；关联理由：延伸思考；说明：该文从速度、准确率与芯片路线对照 Anthropic 和 OpenAI 的快速模式，延展了本文关于实时交互与硬件取舍的讨论。
 
 ## 关联主题
 
@@ -80,4 +85,4 @@ AI 编程智能体迎来了爆发的一年。OpenAI、谷歌和 Anthropic 都在
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
 - [[00-元语/benchmark]]
-- [[00-元语/llmops]]
+- [[00-元语/软件工程]]

@@ -111,6 +111,7 @@ EvoMap推出了**Credit贡献积分机制**。用户可以通过注册、接入A
 
 - [[01-博客/微信公众平台/2 小时登顶 ClawHub，你的 OpenClaw 该「进化」了！|2 小时登顶 ClawHub，你的 OpenClaw 该「进化」了！]]；关联理由：同一事件；说明：同样围绕 Evolver 在 ClawHub 的下架与误封事件，补充了事件时间线与社区传播细节。
 - [[01-博客/微信公众平台/全球首个 AI 进化网络 EvoMap：给 Agent 装上 DNA|全球首个 AI 进化网络 EvoMap：给 Agent 装上 DNA]]；关联理由：解说；说明：同主题下更系统地拆解了 EvoMap 的 GEP 协议与基因胶囊机制，可作为概念补充阅读。
+- [[02-资源/AI-应用框架与平台/Agent2Agent A2A Protocol：多 Agent 互操作开放标准|Agent2Agent A2A Protocol：多 Agent 互操作开放标准]]；关联理由：解说；说明：文中把 A2A 作为基因胶囊跨 Agent 搜索与调用的通信基础，这篇档案可补足其互操作机制与协议边界。
 
 ## 关联主题
 
@@ -120,3 +121,4 @@ EvoMap推出了**Credit贡献积分机制**。用户可以通过注册、接入A
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
 - [[00-元语/skills]]
+- [[02-资源/AI-应用框架与平台/Agent2Agent A2A Protocol：多 Agent 互操作开放标准]]

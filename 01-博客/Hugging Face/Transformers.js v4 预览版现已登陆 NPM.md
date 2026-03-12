@@ -104,9 +104,16 @@ const encoded = tokenizer.encode("Hello World");
 
 我们衷心感谢所有为这个大版本做出贡献的人，特别是 ONNX Runtime 团队在全新 WebGPU 运行时上的出色工作以及他们在整个开发过程中的支持，同时也感谢所有外部贡献者和早期测试人员。
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/Transformers：开源模型定义库，面向多模态模型训练与推理|Transformers：开源模型定义库，面向多模态模型训练与推理]]；关联理由：上下游；说明：本文讨论的是 Hugging Face 将同一模型生态延伸到 JavaScript 与 WebGPU 运行时，该档案补足其上游核心模型定义框架的背景。
+- [[01-博客/Hugging Face/Transformers 中的混合专家模型：原理与工程实现|Transformers 中的混合专家模型：原理与工程实现]]；关联理由：解说；说明：本文提到 v4 新增对 MoE 等高级架构的支持，该文进一步展开了 Hugging Face 在 `transformers` 生态中为 MoE 做的工程改造。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/webgpu]]
 - [[00-元语/wasm]]
 - [[00-元语/sdk]]
+- [[00-元语/软件工程]]

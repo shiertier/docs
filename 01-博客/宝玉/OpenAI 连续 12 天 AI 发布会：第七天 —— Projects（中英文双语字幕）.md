@@ -132,13 +132,14 @@ Closing Remarks
 
 ## 相关文档
 
-- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）]]；关联理由：同一事件；说明：两篇内容同属 OpenAI 12 天发布会，分别展示 ChatGPT 在组织能力与搜索能力上的连续更新。
-- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day|OpenAI 连续 12 天 AI 发布会：第九天 —— Dev Day]]；关联理由：版本演进；说明：Projects 面向对话与资料组织，而 Dev Day 进一步延展到开发者能力与生态，是同一产品线的后续演进。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第四天完整视频（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第四天完整视频（中英文双语字幕）]]；关联理由：上下游；说明：第四天先发布并扩展 Canvas，第七天再把 Canvas 作为 Projects 的内置能力纳入项目上下文，形成明确的能力承接。
+- [[01-博客/宝玉/OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）|OpenAI 连续 12 天 AI 发布会：第八天 —— Search（中英文双语字幕）]]；关联理由：上下游；说明：Projects 把搜索能力纳入项目内使用，第八天则单独展开 Search 的升级与开放范围，补足这条能力链路的后续说明。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
-- [[00-元语/roadmap]]
+- [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
 - [[00-元语/workflow]]
 - [[00-元语/productivity]]

@@ -26,25 +26,9 @@ Anthropic《2026 Agent 编程趋势报告》指出，软件开发正经历从“
 
 ## 正文
 
-2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势 | 宝玉的分享
-===============
-
-[宝玉的分享](https://baoyu.io/)[博客](https://baoyu.io/blog)[翻译](https://baoyu.io/translations)Menu
-
-[See all posts](https://baoyu.io/translations)
-
-Published on 2026-02-10
-
-2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势
-=====================================
-
-作者：
-
-宝玉
-
 ![Image 1: 2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势](https://s.baoyu.io/imgs/2026-02-09/anthropic-agentic-coding-trends-2026/cover.jpg)
 
-Anthropic 发布了一份《2026 Agent 编程趋势报告》（[https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en），提出了八个预测，核心观点是：**写代码这件事正在从“人写”变成“人指挥](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en%EF%BC%89%EF%BC%8C%E6%8F%90%E5%87%BA%E4%BA%86%E5%85%AB%E4%B8%AA%E9%A2%84%E6%B5%8B%EF%BC%8C%E6%A0%B8%E5%BF%83%E8%A7%82%E7%82%B9%E6%98%AF%EF%BC%9A**%E5%86%99%E4%BB%A3%E7%A0%81%E8%BF%99%E4%BB%B6%E4%BA%8B%E6%AD%A3%E5%9C%A8%E4%BB%8E%E2%80%9C%E4%BA%BA%E5%86%99%E2%80%9D%E5%8F%98%E6%88%90%E2%80%9C%E4%BA%BA%E6%8C%87%E6%8C%A5) AI Agent 写”**。
+Anthropic 发布了一份《2026 Agent 编程趋势报告》（[原报告](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en)），提出了八个预测，核心观点是：**写代码这件事正在从“人写”变成“人编排 AI Agent 来写”**。
 
 报告有替 Claude Code 打广告的成分，但数据跟我日常用编程 Agent 的体感比较吻合，可以拿来看看 2026 年开发者的工作正在怎么变。
 
@@ -241,24 +225,17 @@ Agent 编程在强化安全防御的同时，也可能被攻击者利用。
 
 对团队来说，2026 年谁先把 Agent 编程从“个人工具”变成“组织能力”，谁就能拉开差距。那些还在观望的，会发现游戏规则已经变了。
 
-* * *
+## 相关文档
 
-[See all posts](https://baoyu.io/translations)
-
-Built by[宝玉](https://twitter.com/dotey). [RSS](https://baoyu.io/feed.xml) . 本站原创内容，独家授权赛博禅心公众号发布。
-
-Toggle theme
+- [[01-博客/Anthropic/AI 如何重塑 Anthropic 的日常工作|AI 如何重塑 Anthropic 的日常工作]]；关联理由：解说；说明：该文用 Anthropic 内部 Claude Code 数据补足了本文提到的 60% 使用率、27% 增量工作与工程师角色转向等关键证据。
+- [[01-博客/Anthropic/衡量 AI 智能体在实践中的自主性|衡量 AI 智能体在实践中的自主性]]；关联理由：延伸思考；说明：该文把本文关于长时自主运行、主动求助和监督方式变化的判断，进一步展开为自动批准、中断与自主时长的实测指标。
+- [[01-博客/宝玉/AI 辅助编程给软件工程带来的需求开发范式变化|AI 辅助编程给软件工程带来的需求开发范式变化]]；关联理由：观点一致；说明：该文更早从需求开发链条视角讨论 AI 如何压缩交付周期、降低非程序员门槛，与本文对 Agent 编程扩散的判断一致。
+- [[01-博客/宝玉/AI 还没有改变软件工程范式|AI 还没有改变软件工程范式]]；关联理由：观点相悖；说明：本文强调 Agent 编程带来的根本性角色与流程转变，而该文认为软件工程的底层链条目前仍只是被 AI 加速而非被改写。
 
 ## 关联主题
 
-- [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
-- [[00-元语/evals]]
-- [[00-元语/prompt]]
-- [[00-元语/llm]]
-- [[00-元语/软件工程]]
+- [[00-元语/Claude Code]]
 - [[00-元语/security]]
-- [[00-元语/productivity]]
-- [[00-元语/组织设计]]
-- [[00-元语/workflow]]
+- [[00-元语/软件工程]]

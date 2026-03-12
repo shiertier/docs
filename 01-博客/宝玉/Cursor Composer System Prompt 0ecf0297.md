@@ -82,7 +82,7 @@ In rare cases where the code block is not describing edits to a file, the assist
 
 - [[01-博客/宝玉/Cursor Chat System Prompt e96838fb|Cursor Chat System Prompt]]；关联理由：同一事件；说明：两文均来自同一批 Cursor 系统提示词拆解，且都明确了 apply model 下的代码块约束。
 - [[01-博客/宝玉/Cursor Agent mode System Prompt 757fa1ee|Cursor Agent mode System Prompt]]；关联理由：上下游；说明：Composer 侧重代码块编辑约束，Agent mode 进一步扩展到工具调用与执行流程，可作为同产品能力链条的后续阅读。
-- [[01-博客/宝玉/System prompt of GitHub Copilot Agent Mode d53943e7|System prompt of GitHub Copilot Agent Mode]]；关联理由：观点一致；说明：两文都定义代码编辑助手的系统级行为规范，可横向比较不同产品的约束设计。
+- [[01-博客/宝玉/System prompt of GitHub Copilot Agent Mode d53943e7|System prompt of GitHub Copilot Agent Mode]]；关联理由：延伸思考；说明：两文都在约束 AI 编程助手如何把输出落成真实文件修改，但 Composer 依赖带路径的代码块，Copilot Agent 依赖显式编辑与终端工具，可对照不同产品的执行协议。
 
 ## 关联主题
 
@@ -92,4 +92,4 @@ In rare cases where the code block is not describing edits to a file, the assist
 - [[00-元语/llm]]
 - [[00-元语/markdown]]
 - [[00-元语/ide]]
-- [[00-元语/workflow]]
+- [[00-元语/protocol]]

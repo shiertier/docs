@@ -62,21 +62,19 @@ message = anthropic_client.messages.create(
 
 ## 相关文档
 
-- [[01-博客/Anthropic/ElevenLabs 与 Claude 低延迟语音助手实践|ElevenLabs 与 Claude 低延迟语音助手实践]]；关联理由：引用；说明：本篇明确覆盖 ElevenLabs notebook，这篇文档是对应语音链路实现与排障细节的直接来源。
-- [[01-博客/Anthropic/Deepgram 与 LlamaIndex 集成入口|Deepgram 与 LlamaIndex 集成入口]]；关联理由：引用；说明：本篇涉及 Deepgram 与 LlamaIndex 集成，这篇文档提供对应入口与能力边界说明。
-- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：延伸思考；说明：本篇覆盖语音与第三方多模态集成链路，该文补充 Claude 原生视觉工作流，可用于对比两类落地路径。
+- [[01-博客/Anthropic/ElevenLabs 与 Claude 低延迟语音助手实践|ElevenLabs 与 Claude 低延迟语音助手实践]]；关联理由：引用；说明：本篇覆盖 `low_latency_stt_claude_tts.ipynb`，该文把同一条低延迟语音助手链路展开到流式传输、播放与排障细节。
+- [[01-博客/Anthropic/Deepgram 与 LlamaIndex 集成入口|Deepgram 与 LlamaIndex 集成入口]]；关联理由：解说；说明：该文补齐 Deepgram 与 LlamaIndex 的 README 入口、资源范围与能力边界，正好解释本篇所覆盖 notebook 的上游背景。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 检索与知识工具|Claude 第三方集成 Cookbook 检索与知识工具]]；关联理由：同一事件；说明：两文共同拆解 `claude-cookbooks` 的 `third_party` 分组，本文覆盖语音与 Multi-Modal 链路，关联文覆盖其余检索与知识工具 notebook。
+- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：延伸思考；说明：两文都回答如何把 Claude 用于多模态应用，本文走第三方语音与检索集成路线，该文聚焦 Claude 原生视觉工作流，可用于方案对照。
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出 Claude Cookbooks 的仓库级模块地图，本篇是其中 third_party 语音与多模态分支的下钻整理。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
-- [[00-元语/llm]]
 - [[00-元语/multimodal]]
 - [[00-元语/audio]]
 - [[00-元语/asr]]
 - [[00-元语/tts]]
-- [[00-元语/rag]]
-- [[00-元语/sdk]]
-- [[00-元语/tool]]
+- [[00-元语/retrieval]]
 - [[00-元语/workflow]]
-- [[00-元语/stream-processing]]
 - [[00-元语/observability]]

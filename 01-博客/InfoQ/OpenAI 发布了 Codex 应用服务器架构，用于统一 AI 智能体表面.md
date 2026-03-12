@@ -59,8 +59,17 @@ Codex 应用服务器的所有源代码都可以在开源 Codex CLI 存储库中
 
 https://www.infoq.com/news/2026/02/opanai-codex-app-server
 
+## 相关文档
+
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：引用；说明：本文是对 OpenAI 原始 App Server 文章的二次报道，核心架构、协议原语与部署模式均直接来自该文。
+- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文解释 App Server 所复用的 Codex 智能体循环与线程机制，是理解本文协议设计的直接上游背景。
+
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
+- [[00-元语/OpenAI]]
+- [[00-元语/Codex]]
 - [[00-元语/Agent]]
+- [[00-元语/protocol]]
+- [[00-元语/mcp]]
+- [[00-元语/cli]]
+- [[00-元语/ide]]

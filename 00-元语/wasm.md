@@ -2,35 +2,46 @@
 title: "wasm"
 
 类型: "元语词条"
-更新日期: "2026-02-22"
+更新日期: "2026-03-12"
 ---
 
 ## 定义
 
-wasm（WebAssembly）是一种可移植的二进制执行格式，常用于高性能跨平台运行。
+Wasm（WebAssembly）是一种面向栈式虚拟机的可移植二进制指令格式，通常作为 C/C++、Rust、Go 等语言的编译目标，用于在浏览器和非浏览器宿主中安全执行高性能模块。
 
 ## 核心内涵
 
-WebAssembly 提供了一种接近原生执行速度的沙箱化运行环境。它不仅是 C/C++、Rust、Go 等高级语言的编译目标，还打破了传统 Web 开发中 JavaScript 的性能瓶颈。随着 WASI（WebAssembly System Interface）的发展，Wasm 的应用场景已从浏览器扩展至边缘计算、微服务和插件系统，成为一种轻量级、高安全性的通用计算抽象层。
+WebAssembly 提供了一种接近原生执行速度的沙箱化运行环境，但它并不是 JavaScript 的替代品，而是与宿主环境协作的低层执行层。一个 Wasm 程序通常以 Module 形式分发，在运行时实例化为 Instance，并通过 imports/exports 与宿主交换能力；其线性内存模型带来可预测性能，也要求调用方显式处理内存边界与数据拷贝。随着 WASI（WebAssembly System Interface）与组件化接口的发展，Wasm 的应用场景已从浏览器扩展到边缘计算、serverless、插件系统与部分嵌入式场景。
 
 ## 实践要点
 
 - 识别系统中的计算密集型任务（如图像处理、音视频编解码、复杂物理模拟），将其卸载至 Wasm 模块以提升性能。
+- 明确模块依赖的宿主能力，区分浏览器 Web API、WASI 与运行时私有扩展，避免误以为“同一模块在任意宿主中都能直接运行”。
 - 妥善处理宿主环境与 Wasm 模块之间的内存边界，减少不必要的数据拷贝开销。
 - 在浏览器外运行时优先确认运行时与 WASI 版本兼容性，避免系统接口差异导致模块不可移植。
 - 关注 Wasm 模块的体积优化，利用死代码消除和压缩工具加快网络加载与实例化速度。
 - 严格限制 Wasm 模块的系统访问权限，确保沙箱环境的隔离性与安全性。
 
+## 边界与区分
+
+- Wasm 与 JavaScript 不同：Wasm 是二进制执行格式与运行模型，通常与 JavaScript 和宿主 API 协作，而不是简单替代前端脚本。
+- Wasm 与 sandbox 不同：Wasm 运行时提供隔离基础，但文件系统、网络与系统调用能力是否可用，仍取决于宿主和运行时授予的边界。
+- Wasm 与 serverless 不同：Wasm 可以成为边缘执行或 serverless 的运行载体，但部署模型、计费方式与状态管理仍属于上层平台设计。
+
 ## 相关词条
 
-- [[00-元语/serverless]]
-- [[00-元语/cloudflare]]
 - [[00-元语/security]]
-- [[00-元语/benchmark]]
+- [[00-元语/sandbox]]
+- [[00-元语/serverless]]
+
+## 相关文档
+
+- [[00-元语/sandbox|sandbox]]；关联理由：解说；说明：sandbox 词条补充了 Wasm 只是隔离执行的一种实现手段，真正的权限边界仍由宿主和运行时决定。
+- [[00-元语/serverless|serverless]]；关联理由：上下游；说明：Wasm 在浏览器外最常见的落地之一就是 serverless 与边缘执行，二者经常作为同一技术栈配套出现。
+- [[01-博客/微信公众平台/Agent sandbox 可能的选型以及 unikernel 的机会|Agent sandbox 可能的选型以及 unikernel 的机会]]；关联理由：解说；说明：该文专门比较 Wasm 作为 Agent sandbox 的优势与限制，能补足本词条对非浏览器场景的理解。
 
 ## 关联主题
 
-- [[00-元语/serverless]]
-- [[00-元语/cloudflare]]
-- [[00-元语/benchmark]]
 - [[00-元语/security]]
+- [[00-元语/sandbox]]
+- [[00-元语/serverless]]

@@ -66,16 +66,15 @@ def fetch_article_content(url):
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：上下游；说明：该文在工具调用场景落地 context compaction 与 memory 管理，是本篇缓存与会话优化策略的下游工程化实践。
-- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：该文系统解释了上下文压缩与结构化记忆的设计原则，可作为本篇 notebook 策略的理论框架与方法补充。
+- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：上下游；说明：该文把 context compaction 与 memory 管理嵌入工具调用链路，是本篇会话压缩与状态保留策略在 Agent 编排中的落地场景。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：该文系统解释上下文压缩、结构化记忆与按需加载原则，可作为本篇 prompt caching、会话压缩与长任务管理的总体方法论。
+- [[01-博客/Thariq/构建 Claude Code 的经验教训：提示词缓存决定一切|构建 Claude Code 的经验教训：提示词缓存决定一切]]；关联理由：延伸思考；说明：该文把本篇的提示词缓存进一步展开为前缀稳定、消息注入与压缩缓冲区等生产级架构约束，补充了 cookbook 之外的工程细节。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/context-optimization]]
-- [[00-元语/data-pipeline]]
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
 - [[00-元语/memory]]
 - [[00-元语/prompt]]
-- [[00-元语/workflow]]

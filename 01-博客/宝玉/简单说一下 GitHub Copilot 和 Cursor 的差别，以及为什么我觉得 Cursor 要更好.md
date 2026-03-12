@@ -76,15 +76,18 @@ Agent 功能 Windsurf 做的非常好，Cursor 可能是借鉴的 Windsurf，Git
 
 综合下来，我觉得还是 Cursor 最好用，但最重要的是，你自己得试试用一用，适合自己的能最大化提升效率的才是最好的。
 
+## 相关文档
+
+- [[01-博客/宝玉/Cursor Agent 使用体验|Cursor Agent 使用体验]]；关联理由：延伸思考；说明：该文把本文强调的 Cursor Agent 优势落到真实改码案例，也补充了其排错仍需人工纠偏的边界。
+- [[01-博客/宝玉/新手 Cursor 用户 vs 专业 Cursor 用户|新手 Cursor 用户 vs 专业 Cursor 用户]]；关联理由：解说；说明：该文用对照案例具体展开了本文所说的“清晰指令 + 手动选择上下文”为什么会显著影响 Cursor 的实际效果。
+- [[01-博客/宝玉/GitHub Copilot Agent 模式的系统提示词泄漏|GitHub Copilot Agent 模式的系统提示词泄漏]]；关联理由：版本演进；说明：本文写作时 Copilot 的 Agent 能力仍处于“据说将推出”的阶段，这篇后续文章展示了其实际工具链与执行约束。
+
 ## 关联主题
 
 - [[00-元语/Cursor]]
 - [[00-元语/copilot]]
-- [[00-元语/github]]
 - [[00-元语/ide]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
 - [[00-元语/context-optimization]]
 - [[00-元语/productivity]]
 - [[00-元语/prompt]]
-- [[00-元语/workflow]]

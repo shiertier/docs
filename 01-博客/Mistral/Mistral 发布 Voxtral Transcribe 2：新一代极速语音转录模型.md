@@ -1,7 +1,9 @@
 ---
 title: "Mistral 发布 Voxtral Transcribe 2：新一代极速语音转录模型"
-
-来源: "https://mistral.ai/news/voxtral-transcribe-2"
+发布日期: 2026-02-04
+作者: "Mistral AI"
+来源: "Mistral"
+原文链接: "https://mistral.ai/news/voxtral-transcribe-2"
 ---
 
 ## 摘要
@@ -97,3 +99,4 @@ Voxtral 正在为各行各业的语音工作流提供强大动力：
 - [[00-元语/benchmark]]
 - [[00-元语/compliance]]
 - [[00-元语/self-hosting]]
+- [[00-元语/stream-processing]]

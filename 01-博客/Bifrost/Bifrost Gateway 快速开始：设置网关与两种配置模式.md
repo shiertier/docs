@@ -231,6 +231,4 @@ Bifrost 支持**两种配置方法** - 您不能同时使用两者：
 - [[00-元语/OpenAI]]
 - [[00-元语/cli]]
 - [[00-元语/observability]]
-- [[00-元语/rate-limiting]]
-- [[00-元语/mcp]]
 - [[00-元语/self-hosting]]

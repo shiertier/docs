@@ -178,10 +178,14 @@ Agentation 不是一场革命，也不是前端工程的替代品。它是一个
 * [agentation.dev/mcp](https://agentation.dev/mcp) — MCP 集成文档
 * [benji.org/agentation](https://benji.org/agentation) — 作者关于演示与理念的文章
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude Code 核心功能与使用概览|Claude Code 核心功能与使用概览]]；关联理由：上下游；说明：本文聚焦把前端 UI 上下文传给 Claude Code 的配套工具，该文补足 Claude Code 本身的能力边界与工具接入方式。
+
 ## 关联主题
 
 - [[00-元语/react]]
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/mcp]]
 - [[00-元语/ui-protocol]]
 - [[00-元语/workflow]]

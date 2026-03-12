@@ -182,9 +182,14 @@ Agent Sandbox 的设计有多种方案，各有优劣：
 [15] dragonfly: https://github.com/dragonflydb/dragonfly
 [16] CC BY-NC-SA 3.0: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
+## 相关文档
+
+- [[01-博客/LangChain/AI Agent 连接沙盒的两种架构模式|AI Agent 连接沙盒的两种架构模式]]；关联理由：上下游；说明：该文先讨论 Agent 应如何接入沙盒，这篇文章进一步下钻到接入之后该选哪类 sandbox 底座与运行时实现。
+- [[02-资源/通用开发工具/Firecracker：面向 Serverless 的轻量微虚拟机工具|Firecracker：面向 Serverless 的轻量微虚拟机工具]]；关联理由：解说；说明：本文把 Firecracker 作为核心候选方案之一进行比较，该条目可补足 Firecracker 本身的定位、能力边界与典型场景。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
+- [[00-元语/sandbox]]
 - [[00-元语/security]]
 - [[00-元语/wasm]]
-- [[00-元语/virtual-file-system]]

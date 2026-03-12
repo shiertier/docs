@@ -1,6 +1,6 @@
 ---
 title: "Programmatic Tool Calling：Claude API 程序化工具调用指南"
-发布日期: 2023-06-01
+发布日期: 2025-11-24
 作者: "Anthropic"
 来源: "Claude API Docs"
 原文链接: "https://docs.claude.com/en/docs/agents-and-tools/tool-use/programmatic-tool-calling"
@@ -61,6 +61,27 @@ title: "Programmatic Tool Calling：Claude API 程序化工具调用指南"
 
 以下是一个简单的示例，展示了 Claude 如何以编程方式多次查询数据库并汇总结果：
 
+```python
+department = "marketing"
+members = await get_team_members(department=department)
+over_budget = []
+
+for member in members:
+    expenses = await get_expenses(employee_id=member["id"], quarter="Q4")
+    budget = await get_budget(role=member["role"], quarter="Q4")
+
+    if expenses["total"] > budget["amount"]:
+        over_budget.append(
+            {
+                "name": member["name"],
+                "spent": expenses["total"],
+                "budget": budget["amount"],
+            }
+        )
+
+print(over_budget)
+```
+
 编程式工具调用如何工作
 -----------------------------------
 
@@ -103,7 +124,28 @@ title: "Programmatic Tool Calling：Claude API 程序化工具调用指南"
 
 **直接调用（传统工具使用）：**
 
+```json
+{
+  "type": "tool_use",
+  "id": "toolu_123",
+  "name": "search_database",
+  "input": {"query": "customers in SF"},
+  "caller": "direct"
+}
+```
+
 **编程式调用：**
+
+```json
+{
+  "type": "tool_use",
+  "id": "toolu_456",
+  "name": "search_database",
+  "input": {"query": "customers in SF"},
+  "caller": "code_execution_20260120",
+  "tool_id": "toolu_789"
+}
+```
 
 `tool_id` 引用了进行编程式调用的代码执行工具。
 
@@ -129,13 +171,120 @@ title: "Programmatic Tool Calling：Claude API 程序化工具调用指南"
 
 在工具描述中提供有关工具输出格式的详细说明。如果您指定该工具返回 JSON，Claude 将尝试在代码中反序列化并处理该结果。您提供的输出 schema 细节越丰富，Claude 就越能以编程方式处理响应。
 
+```json
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "max_tokens": 1024,
+  "tools": [
+    {
+      "type": "code_execution_20260120",
+      "name": "code_execution"
+    },
+    {
+      "name": "get_weather",
+      "description": "Get the weather for a given city. Returns a JSON object with temperature, conditions, humidity, and wind speed.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "city": {"type": "string"}
+        },
+        "required": ["city"]
+      },
+      "allowed_callers": ["code_execution_20260120"]
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Compare the weather in San Francisco, New York, and London"
+    }
+  ]
+}
+```
+
 ### 第 2 步：带有工具调用的 API 响应
 
 Claude 编写调用您工具的代码。API 暂停并返回：
 
+```json
+{
+  "id": "msg_123",
+  "content": [
+    {
+      "type": "tool_use",
+      "id": "toolu_456",
+      "name": "get_weather",
+      "input": {"city": "San Francisco"},
+      "caller": "code_execution_20260120",
+      "tool_id": "toolu_789"
+    }
+  ],
+  "container": {
+    "id": "container_abc",
+    "expires_at": "2025-01-22T12:34:56Z"
+  },
+  "stop_reason": "tool_use"
+}
+```
+
 ### 第 3 步：提供工具结果
 
 包含完整的对话历史记录以及您的工具结果：
+
+```json
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "max_tokens": 1024,
+  "container": "container_abc",
+  "tools": [
+    {
+      "type": "code_execution_20260120",
+      "name": "code_execution"
+    },
+    {
+      "name": "get_weather",
+      "description": "Get the weather for a given city",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "city": {"type": "string"}
+        },
+        "required": ["city"]
+      },
+      "allowed_callers": ["code_execution_20260120"]
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": "Compare the weather in San Francisco, New York, and London"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "toolu_456",
+          "name": "get_weather",
+          "input": {"city": "San Francisco"},
+          "caller": "code_execution_20260120",
+          "tool_id": "toolu_789"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_456",
+          "content": "{\"temperature\": 18, \"conditions\": \"sunny\"}"
+        }
+      ]
+    }
+  ]
+}
+```
 
 ### 第 4 步：下一个工具调用或完成
 
@@ -145,12 +294,36 @@ Claude 编写调用您工具的代码。API 暂停并返回：
 
 一旦代码执行完成，Claude 将提供最终响应：
 
+```json
+{
+  "id": "msg_124",
+  "content": [
+    {
+      "type": "text",
+      "text": "San Francisco is the warmest at 18C and sunny. New York is cooler, while London is the coolest and wettest."
+    }
+  ],
+  "stop_reason": "end_turn"
+}
+```
+
 高级模式
 -----------------
 
 ### 使用循环进行批处理
 
 Claude 可以编写高效处理多个项目的代码：
+
+```python
+regions = ["us-east", "us-west", "eu-west", "ap-south"]
+results = {}
+
+for region in regions:
+    results[region] = await check_health(region=region)
+
+healthy = [r for r, status in results.items() if status["healthy"]]
+print(f"Healthy regions: {healthy}")
+```
 
 这种模式：
 
@@ -162,9 +335,31 @@ Claude 可以编写高效处理多个项目的代码：
 
 一旦满足成功标准，Claude 就可以停止处理：
 
+```python
+for candidate in candidates:
+    result = await evaluate_candidate(candidate_id=candidate["id"])
+    if result["score"] >= 95:
+        print(f"Found ideal candidate: {candidate['name']}")
+        break
+```
+
 ### 条件工具选择
 
 ### 数据过滤
+
+```python
+logs = await fetch_logs(service="payments", limit=1000)
+errors = [log for log in logs if log["level"] == "error"]
+high_severity = [log for log in errors if log["severity"] >= 4]
+
+print(
+    {
+        "total_logs": len(logs),
+        "error_count": len(errors),
+        "high_severity_errors": high_severity[:10],
+    }
+)
+```
 
 响应格式
 ---------------
@@ -173,13 +368,43 @@ Claude 可以编写高效处理多个项目的代码：
 
 当代码执行调用工具时：
 
+```json
+{
+  "type": "tool_use",
+  "id": "toolu_456",
+  "name": "search_database",
+  "input": {"query": "customers in SF"},
+  "caller": "code_execution_20260120",
+  "tool_id": "toolu_789"
+}
+```
+
 ### 工具结果处理
 
 您的工具结果将被传回正在运行的代码：
 
+```json
+{
+  "type": "tool_result",
+  "tool_use_id": "toolu_456",
+  "content": "{\"customers\": [{\"name\": \"Acme Corp\", \"city\": \"San Francisco\"}]}"
+}
+```
+
 ### 代码执行完成
 
 当所有工具调用都得到满足且代码完成时：
+
+```json
+{
+  "type": "code_execution_tool_result",
+  "content": {
+    "stdout": "Found 1 customer in San Francisco",
+    "stderr": "",
+    "return_code": 0
+  }
+}
+```
 
 错误处理
 --------------
@@ -195,6 +420,10 @@ Claude 可以编写高效处理多个项目的代码：
 ### 工具调用期间容器过期
 
 如果您的工具响应时间过长，代码执行将收到 `TimeoutError`。Claude 会在 stderr 中看到此错误，并且通常会重试：
+
+```text
+TimeoutError: Tool result not received before container expiration
+```
 
 为防止超时：
 
@@ -228,6 +457,40 @@ Claude 的代码将收到此错误并可以进行适当处理。
 响应编程式工具调用时，有严格的格式要求：
 
 **仅包含工具结果的响应**：如果有等待结果的挂起编程式工具调用，您的响应消息必须**仅**包含 `tool_result` 块。您不能包含任何文本内容，即使在工具结果之后也不行。
+
+错误示例：
+
+```json
+{
+  "role": "user",
+  "content": [
+    {
+      "type": "tool_result",
+      "tool_use_id": "toolu_123",
+      "content": "result data"
+    },
+    {
+      "type": "text",
+      "text": "Here are the results"
+    }
+  ]
+}
+```
+
+正确示例：
+
+```json
+{
+  "role": "user",
+  "content": [
+    {
+      "type": "tool_result",
+      "tool_use_id": "toolu_123",
+      "content": "result data"
+    }
+  ]
+}
+```
 
 此限制仅适用于响应编程式（代码执行）工具调用。对于常规的客户端工具调用，您可以在工具结果之后包含文本内容。
 
@@ -377,12 +640,19 @@ Anthropic 的编程式工具调用是沙盒执行的托管版本，具有专为 
 
 如果您使用的是 Claude API，请考虑使用 Anthropic 的托管解决方案。
 
-本页面对您有帮助吗？
+## 相关文档
+
+- [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：引用；说明：本文正文明确引用该文，用来解释编程式工具调用为何能降低推理开销与上下文成本。
+- [[01-博客/Anthropic/Programmatic Tool Calling Cookbook：多工具调用的低延迟实践|Programmatic Tool Calling Cookbook：多工具调用的低延迟实践]]；关联理由：解说；说明：本文给出 API 机制、返回结构与限制条件，该文用团队费用分析案例把同一能力展开为端到端实现。
+- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：延伸思考；说明：该文从“代码执行结合 MCP”的角度解释为何把工具编排移入执行环境能显著减少 token 与延迟。
+- [[01-博客/Anthropic/Claude 开发平台发布说明：API 与 SDK 更新总览|Claude 开发平台发布说明：API 与 SDK 更新总览]]；关联理由：版本演进；说明：该文记录了编程式工具调用从 2025-11-24 公测到 2026-02-17 正式发布的时间线与模型支持变化。
 
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
-- [[00-元语/mcp]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]
+- [[00-元语/context-optimization]]
+- [[00-元语/sandbox]]
+- [[00-元语/security]]

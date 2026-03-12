@@ -270,21 +270,23 @@ Anthropic 团队把 BigQuery 的使用封装成了一个 skill，所有人都可
 
 Boris 在推文开头强调“没有唯一正确的使用方式”，这是最重要的一条。他的团队内部使用方式都各不相同。这些技巧是起点，不是终点。找到适合你自己的方式，比照搬别人的设置更重要。
 
+## 相关文档
+
+- [[01-博客/微信公众平台/CC之父分享：Claude Code内部团队的10大高效使用技巧|CC之父分享：Claude Code内部团队的10大高效使用技巧]]；关联理由：同一事件；说明：两篇都在整理 Boris Cherny 对 Claude Code 内部 10 条使用技巧的公开分享，只是取材角度与细节侧重点不同。
+- [[01-博客/宝玉/Claude Code 5亿美元背后的AI工程革命|Claude Code 5亿美元背后的AI工程革命]]；关联理由：解说；说明：该文把这 10 条技巧放回 Claude Code 团队的工程组织、产品节奏与 Subagents 设计背景中，能解释这些做法为何在 Anthropic 内部成立。
+- [[01-博客/宝玉/SubAgent 与 Skills：AI Agent 的两种扩展方式|SubAgent 与 Skills：AI Agent 的两种扩展方式]]；关联理由：解说；说明：本文第 4 条与第 8 条分别谈 Skills 和 Subagents，这篇文章正好把两者的职责边界、上下文隔离与适用场景单独展开。
+- [[01-博客/微信公众平台/Vercel 给 Agent Skills 泼了一盆冷水|Vercel 给 Agent Skills 泼了一盆冷水]]；关联理由：延伸思考；说明：该文从知识获取场景出发提醒 Skills 并非默认最优解，可作为本文“高频重复任务才值得做成 Skill”的边界补充。
+
 ## 关联主题
 
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
 - [[00-元语/skills]]
 - [[00-元语/prompt]]
 - [[00-元语/mcp]]
 - [[00-元语/git-worktree]]
 - [[00-元语/terminal]]
-- [[00-元语/cli]]
 - [[00-元语/CI]]
 - [[00-元语/bug-fix]]
-- [[00-元语/code-review]]
 - [[00-元语/context-optimization]]
 - [[00-元语/memory]]
-- [[00-元语/workflow]]
-- [[00-元语/productivity]]

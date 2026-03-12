@@ -130,12 +130,19 @@ OpenAI 将采取迭代部署策略，持续优化 Sora：
 4. OpenAI. *DALL·E 3 system card.* (2023)
 5. Panić, N., et al. *Addressing demographic bias in age estimation models through optimized dataset composition.* Mathematics, 12(15), 2358. (2024)
 
+## 相关文档
+
+- [[01-博客/OpenAI/DALL·E 3 系统卡概述|DALL·E 3 系统卡概述]]；关联理由：引用；说明：本文明确提到 Sora 沿用了 DALL·E 3 的重新描述技术，并在参考文献中直接引用了该系统卡。
+- [[01-博客/OpenAI/前沿AI风险与防范准备|前沿AI风险与防范准备]]；关联理由：解说；说明：本文使用 Preparedness framework 评估 Sora 的说服力、网络安全和 CBRN 风险，该文正好补足这一风险框架的来源与范围。
+- [[01-博客/OpenAI/Sora 信息流的理念|Sora 信息流的理念]]；关联理由：上下游；说明：本文聚焦生成模型与产品层的安全机制，而该文继续展开 Sora 在分发与推荐环节的内容治理边界。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/video]]
 - [[00-元语/multimodal]]
+- [[00-元语/diffusion]]
 - [[00-元语/deepfake]]
 - [[00-元语/risk]]
 - [[00-元语/security]]
-- [[00-元语/alignment]]
+- [[00-元语/compliance]]

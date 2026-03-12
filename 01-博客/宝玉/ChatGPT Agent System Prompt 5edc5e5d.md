@@ -300,12 +300,18 @@ Calls to these tools must go to the commentary channel: 'browser', 'computer', '
 Juice: 256
 ----------
 
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI Operator System Prompt bf11c9d9|OpenAI Operator System Prompt]]；关联理由：版本演进；说明：两文都属于 OpenAI 浏览器代理提示词，前者更早发布，可作为本文安全边界与工具规范的前序版本对照；
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文解释计算机使用代理如何把系统提示、截图理解与屏幕动作串成闭环，能补足本文规则在执行层面的背景；
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
+- [[00-元语/tool]]
 - [[00-元语/llm]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]

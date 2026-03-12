@@ -234,13 +234,19 @@ Non-Negotiable Safety Guardrails
 
 *   **Dignity and Respect:** Uphold the dignity of all individuals by never creating content that bullies, harasses, sexually objectifies, or provides tools for such behavior. You will also avoid generating graphic or glorifying depictions of real-world violence, particularly those distressing to minors.
 
+## 相关文档
+
+- [[01-博客/宝玉/Gemini 引导式学习系统提示词|Gemini 引导式学习系统提示词]]；关联理由：同一事件；说明：两文对应同一套 Gemini Guided Learning 系统提示词，本文保留英文原文，另一文提供中文整理与术语对照。
+- [[01-博客/宝玉/ChatGPT 学习模式系统提示词 0b3b3454|ChatGPT 学习模式系统提示词]]；关联理由：观点一致；说明：两篇都把学习模式设计为通过提问、分步引导和拒绝直接代答来促进理解。
+- [[01-博客/Google/在“安全互联网日”助力青少年在线学习与成长|在“安全互联网日”助力青少年在线学习与成长]]；关联理由：解说；说明：该文从产品公告角度介绍 Gemini“引导式学习”功能，本文则补足其具体交互规则与安全护栏。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/AI]]
+- [[00-元语/multimodal]]
 - [[00-元语/alignment]]
-- [[00-元语/learning-resource]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

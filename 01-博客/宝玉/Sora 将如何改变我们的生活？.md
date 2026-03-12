@@ -219,12 +219,17 @@ X 讨论帖：[https://twitter.com/dotey/status/1759861034708251116](https://twi
 *   [微博](https://weibo.com/6498373231/O1E3dzFky)
 *   [今日头条](https://www.toutiao.com/video/7338363509970993703)
 
+## 相关文档
+
+- [[01-博客/宝玉/Sora 和之前 Runway 那些在架构上有啥区别呢？|Sora 和之前 Runway 那些在架构上有啥区别呢？]]；关联理由：解说；说明：本文只概括了 Sora 与 Runway 的架构差异，而该文把 Diffusion Transformer、Patch 与训练输入尺度问题单独展开。
+- [[01-博客/OpenAI/OpenAI Sora 系统卡：模型概览、风险评估与安全机制|OpenAI Sora 系统卡：模型概览、风险评估与安全机制]]；关联理由：延伸思考；说明：本文讨论 Sora 的产品前景与深度伪造风险，该文补足了 OpenAI 后续公开的安全评估、审核机制与治理边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/OpenAI]]
-- [[00-元语/ChatGPT]]
 - [[00-元语/llm]]
+- [[00-元语/diffusion]]
 - [[00-元语/video]]
 - [[00-元语/multimodal]]
 - [[00-元语/deepfake]]

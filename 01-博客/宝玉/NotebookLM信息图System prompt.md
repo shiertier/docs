@@ -70,7 +70,9 @@ Rule 4: Handling of source data. All data from the source document MUST be copie
 
 ## 相关文档
 
+- [[01-博客/宝玉/如何给知识类文章画信息图风格的配图|如何给知识类文章画信息图风格的配图]]；关联理由：版本演进；说明：该文是更早期的文章配图方案，先让模型从文章中提炼要点再生成信息图提示词，本文则把流程升级为 Gemini 先产出结构化说明、再交给 Nano Banana Pro 绘制。
 - [[01-博客/宝玉/预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT|预订本年度最有价值提示词 —— 生成既有质感，又能随意修改文字的完美 PPT]]；关联理由：版本演进；说明：后文将本文的信息图提示词流程扩展到可编辑 PPT 生成，属于同一路径的后续演进。
+- [[01-博客/微信公众平台/Nano-Banana Pro看这一篇就够了，Google刚发布官方最强教程！|Nano-Banana Pro看这一篇就够了，Google刚发布官方最强教程！]]；关联理由：解说；说明：该文系统说明 Nano Banana Pro 的文本渲染、信息图与布局控制能力，补足本文只给出流程而未展开的绘制能力边界。
 
 ## 关联主题
 
@@ -78,6 +80,6 @@ Rule 4: Handling of source data. All data from the source document MUST be copie
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/multimodal]]
+- [[00-元语/text-to-image]]
 - [[00-元语/design]]
-- [[00-元语/markdown]]
 - [[00-元语/workflow]]

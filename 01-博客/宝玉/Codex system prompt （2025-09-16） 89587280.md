@@ -215,6 +215,12 @@ path: string,
 # Juice: 240
 ```
 
+## 相关文档
+
+- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：解说；说明：该文具体拆解系统消息、AGENTS.md 聚合、工具调用与权限消息如何进入 Codex 的提示上下文，可直接补全本文这份 system prompt 的运行机制。
+- [[01-博客/Simon Willison/深入理解 OpenAI Codex：模型、工具与交互面|深入理解 OpenAI Codex：模型、工具与交互面]]；关联理由：解说；说明：该文把 Codex 归纳为“模型、Harness 与交互面”的组合，有助于理解本文这份提示词在整个 Codex 体系中的位置。
+- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：该文把本文里的 AGENTS.md、工具访问与验证要求延伸到真实团队的仓库治理、反馈回路与高吞吐协作实践。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
@@ -225,7 +231,6 @@ path: string,
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]
 - [[00-元语/compliance]]
-- [[00-元语/git-worktree]]
 - [[00-元语/terminal]]
 - [[00-元语/browser-automation]]
 - [[00-元语/github]]

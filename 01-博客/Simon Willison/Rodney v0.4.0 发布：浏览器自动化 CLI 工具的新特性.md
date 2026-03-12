@@ -42,6 +42,11 @@ title: "Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性"
 
 其中，`rodney assert` 命令非常巧妙：你现在可以通过编写 Shell 脚本，使用 Rodney 分多个步骤来测试 Web 应用程序（具体用法可参考 README 文件中的改编示例）。
 
+## 相关文档
+
+- [[01-博客/Simon Willison/为什么我偏爱使用 Claude Code 桌面端与 Rodney 工具|为什么我偏爱使用 Claude Code 桌面端与 Rodney 工具]]；关联理由：解说；说明：该文解释了作者在 Claude Code 工作流里如何实际使用 Rodney，补充了本篇发布说明之外的使用场景与动机。
+- [[01-博客/Simon Willison/介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat|介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat]]；关联理由：上下游；说明：该文把 Rodney 放进 Showboat 的实时截图反馈链路，能对应本篇所述 Rodney 新能力的实际用法。
+
 ## 关联主题
 
 - [[00-元语/browser-automation]]

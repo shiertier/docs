@@ -213,18 +213,19 @@ Failure is acceptable. It is infinitely better than doing nothing at all.
 
 ![Image 19](https://baoyu.io/uploads/2025-12-20-G8mH8R6XUAAsqEz.jpg)
 
+## 相关文档
+
+- [[01-博客/宝玉/设计师该不该写代码？一个被问错的问题——AI时代的设计价值与慢思考|设计师该不该写代码？一个被问错的问题——AI时代的设计价值与慢思考]]；关联理由：引用；说明：该文直接回指这次失败复盘，并把“先定义问题再决定是否做 Agent”扩展到 AI 时代的设计方法论。
+- [[01-博客/宝玉/AI Agent 要变强：两条路径（Skills vs SubAgent）|AI Agent 要变强：两条路径（Skills vs SubAgent）]]；关联理由：解说；说明：本文提到把验证工具放进 Skill 或 SubAgent 以避免污染主上下文，该文正面拆解了这两种扩展方式与 Chrome DevTools MCP 的封装思路。
+- [[01-博客/宝玉/Skill 不就是长一点的提示词吗？|Skill 不就是长一点的提示词吗？]]；关联理由：解说；说明：本文把设计系统收敛为“Markdown 文档 + 自动化脚本”的 Skill，该文继续解释这种能力封装为何比独立 Agent 平台更适合复用与集成。
+
 ## 关联主题
 
-- [[00-元语/Claude]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
-- [[00-元语/llm]]
-- [[00-元语/Cursor]]
+- [[00-元语/skills]]
+- [[00-元语/workflow]]
 - [[00-元语/design]]
 - [[00-元语/mcp]]
-- [[00-元语/evals]]
 - [[00-元语/sdk]]
-- [[00-元语/skills]]
-- [[00-元语/github]]
-- [[00-元语/virtual-file-system]]
-- [[00-元语/workflow]]
+- [[00-元语/Claude Code]]
+- [[00-元语/sandbox]]

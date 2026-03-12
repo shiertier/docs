@@ -113,6 +113,7 @@ title: "从 Kimi K2 适配 vLLM 复盘理解大模型 API 的 Render Completion 
 ## 相关文档
 
 - [[02-资源/AI-模型与推理基础设施/vLLM：高吞吐低延迟 LLM 推理与服务引擎|vLLM：高吞吐低延迟 LLM 推理与服务引擎]]；关联理由：上下游；说明：本文聚焦 Kimi K2 在 vLLM 上的适配排障，该文档补充了 vLLM 作为推理与服务引擎的能力边界与工程背景。
+- [[02-资源/AI-编程助手与Agent/12-factor-agents：该项目受“12-Factor Apps”启发，提出了12条核心工程原则|12-factor-agents：该项目受“12-Factor Apps”启发，提出了12条核心工程原则]]；关联理由：观点一致；说明：两文都强调工具调用本质上仍是结构化输出与协议约束，而不是模型突然获得了新的能力。
 
 ## 关联主题
 
@@ -120,6 +121,7 @@ title: "从 Kimi K2 适配 vLLM 复盘理解大模型 API 的 Render Completion 
 - [[00-元语/llm]]
 - [[00-元语/llmops]]
 - [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
 - [[00-元语/tool]]
 - [[00-元语/protocol]]
 - [[00-元语/bug-fix]]

@@ -53,7 +53,8 @@ def parallel(prompt: str, inputs: list[str], n_workers: int = 3) -> list[str]:
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Building Effective Agents 常见工作流最小实现|Building Effective Agents 常见工作流最小实现]]；关联理由：上下游；说明：该文给出同一批工作流模式的 README 级最小实现，本篇是对应 Notebook 的实操展开。
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：上下游；说明：该文先定义提示词链、路由、并行、评估优化与编排分工的适用边界，本篇再把其中三组模式落实到 Notebook 示例。
+- [[01-博客/Anthropic/Building Effective Agents 常见工作流最小实现|Building Effective Agents 常见工作流最小实现]]；关联理由：解说；说明：该文给出同一批工作流模式的 README 级最小实现，本篇继续展开为对应 Notebook 的结构与示例代码。
 - [[01-博客/Anthropic/Claude Agent SDK Notebook 实战进阶|Claude Agent SDK Notebook 实战进阶]]；关联理由：延伸思考；说明：该文把本篇的工作流模板延伸到 SDK、多角色协同与可观测工程实践。
 
 ## 关联主题

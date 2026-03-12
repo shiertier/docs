@@ -22,49 +22,39 @@ title: "Prompt 技巧：使用 Type 定义得到想要的 JSON 输出格式"
 
 如果只是为了格式化 JSON，用不着 Function Calling，一个最简单有效的办法就是用 TypeScript 的类型声明，还可以配合注释，比如这是我用的一个 Prompt，在 GPT-4 下可以稳定的输出指定的 JSON 格式：
 
-* * *
-
 Your output should resemble a VALID JSON Object with the type TranslatedResult as illustrated below:
 
+```ts
 type TranslatedResult = {
+  // The comprehensive translated content from step 1
+  fullTranslatedContent: string;
 
-// The comprehensive translated content from step 1
+  // All individual translated sentences.
+  translatedSentences: Array<{
+    // A distinct translated sentence.
+    translated: string;
 
-fullTranslatedContent: string;
+    // Related input items, 1 translated sentence
+    // corresponds to 1 or more input items.
+    related: Array<{
+      // The timestamp of the input item
+      timestamp: number;
 
-// All individual translated sentences.
-
-translatedSentences: Array<{
-
-// A distinct translated sentence.
-
-translated: string;
-
-// Related input items, 1 translated sentence
-
-corresponds to 1 or more input items
-
-related: Array<{
-
-// The timestamp of the input item
-
-timestamp: number;
-
-// The initial word of the related input item.
-
-firstWord: string;
-
-}>
-
-}>;
-
+      // The initial word of the related input item.
+      firstWord: string;
+    }>;
+  }>;
 };
-
-* * *
+```
 
 ![Image 1](https://baoyu.io/images/prompt-engineering/prompt-skills-using-type-to-define-json-output/F49BHtjWUAA04Aw.jpeg)
 
 ![Image 2](https://baoyu.io/images/prompt-engineering/prompt-skills-using-type-to-define-json-output/F49BlpAXsAMHH61.png)
+
+## 相关文档
+
+- [[01-博客/宝玉/如何控制 LLM 的输出格式和解析其输出结果？|如何控制 LLM 的输出格式和解析其输出结果？]]；关联理由：解说；说明：该文把本文的 TypeScript 类型约束方法放回 Function Calling、few-shot 与容错解析的完整比较框架中，补全了适用条件与解析策略。
+- [[01-博客/宝玉/OpenAI 官方出的三个结构化提取示例应用|OpenAI 官方出的三个结构化提取示例应用]]；关联理由：版本演进；说明：该文展示了 OpenAI 后续用 JSON Schema 与原生结构化输出承接同类需求，可视为从 Prompt 约束走向官方能力的演进。
 
 ## 关联主题
 

@@ -1,5 +1,5 @@
 ---
-title: "测试 Chrome 内置  Gemini Nano 大语言模型 (4bit 3.25B) 的方法"
+title: "测试 Chrome 内置 Gemini Nano 大语言模型 (4bit 3.25B) 的方法"
 
 来源: "https://baoyu.io/blog/ai/how-to-enable-gemini-nano-for-chrome"
 发布日期: "2024-06-08"
@@ -24,47 +24,41 @@ title: "测试 Chrome 内置  Gemini Nano 大语言模型 (4bit 3.25B) 的方法
 
 测试 Chrome 内置 Gemini Nano 的方法：
 
-1.   下载 Chrome 127，可以到 [Chrome Release Channels](https://chromium.org/getting-involved/dev-channel/) 下载 Canary 版本
+1. 下载 Chrome 127，可以到 [Chrome Release Channels](https://chromium.org/getting-involved/dev-channel/) 下载 Canary 版本。
 
-2.   打开 [chrome://flags/](chrome://flags/)，搜索以下设置并启用：
+2. 打开 `chrome://flags/`，搜索以下设置并启用：
 
-*   a) 找到 `Prompt API for Gemini Nano` 设置为 `Enable`
-*   b) 找到 `Enables optimization guide on device` 设置为 `Enable BypassPerfR` (不是 `Enable`)
-*   c) 重启 Chrome
+- 找到 `Prompt API for Gemini Nano`，设置为 `Enable`。
+- 找到 `Enables optimization guide on device`，设置为 `Enable BypassPerfR`，不是 `Enable`。
+- 重启 Chrome。
 
 ![Image 1](https://baoyu.io/images/ai/how-to-enable-gemini-nano-for-chrome/GPh99BfXQAAQIZK.jpeg)
 
-1.   打开 [chrome://components/](chrome://components/)，检查 `Optimization Guide On Device Model` 中模型是否成功下载，点击 `Check for update`
+3. 打开 `chrome://components/`，检查 `Optimization Guide On Device Model` 中模型是否成功下载，点击 `Check for update`。
 
 ![Image 2](https://baoyu.io/images/ai/how-to-enable-gemini-nano-for-chrome/GPh-W8DWYAEGaY7.jpeg)
 
-1.   打开控制台，输入 `window.ai` 测试是否能有返回结果，可以用下面的完整代码测试：
+4. 打开控制台，输入 `window.ai` 测试是否能有返回结果，可以用下面的完整代码测试：
 
+```javascript
 const canCreate = await window.ai.canCreateGenericSession()
 
 if (canCreate !== "no") {
+  const session = await window.ai.createTextSession();
+  const stream = session.promptStreaming("Tell me a joke!")
 
-const session = await window.ai.createTextSession();
+  for await (const chunk of stream) {
+    console.log(chunk)
+  }
 
-const stream = session.promptStreaming("Tell me a joke!")
-
-for await (const chunk of stream) {
-
-console.log(chunk)
-
-}
-
-session.destroy()
-
+  session.destroy()
 } else {
-
-console.error(" can't create generic session", canCreate)
-
+  console.error(" can't create generic session", canCreate)
 }
+```
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/gemini]]
 - [[00-元语/llm]]
-- [[00-元语/desktop-client]]

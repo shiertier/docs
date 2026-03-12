@@ -77,10 +77,15 @@ NVIDIA 将为 ANRF 的受资助机构提供 NVIDIA AI Enterprise 软件的免费
 
 此外，NVIDIA 还与 Peak XV、Z47、Elevation Capital、Nexus Venture Partners 和 Accel India 等知名风险投资公司合作，寻找并资助处于各个阶段、为印度和国际市场构建 AI 解决方案的优秀初创企业。目前，已有超过 4000 家印度 AI 初创企业加入了 NVIDIA Inception 计划。
 
+## 相关文档
+
+- [[01-博客/NVIDIA/印度科技巨头借助 NVIDIA AI 打造下一代企业智能体，重塑业务流程|印度科技巨头借助 NVIDIA AI 打造下一代企业智能体，重塑业务流程]]；关联理由：同一事件；说明：两文都围绕印度 AI Impact Summit 展开的 NVIDIA 合作，一篇讲国家级算力与模型战略，另一篇落到企业智能体部署成果。
+- [[01-博客/Hugging Face/跨越“数据短缺”壁垒：合成画像加速日本AI开发|跨越“数据短缺”壁垒：合成画像加速日本AI开发]]；关联理由：延伸思考；说明：两文都以 NVIDIA Nemotron Personas 合成数据支持本土化与主权 AI，日本一文侧重训练数据实证，本文侧重印度的基础设施和多语言模型落地。
+- [[01-博客/NVIDIA/NVIDIA DGX Spark 助力全球高等教育领域的重大科研项目|NVIDIA DGX Spark 助力全球高等教育领域的重大科研项目]]；关联理由：延伸思考；说明：本文把 DGX Spark 放进印度主权 AI 基础设施，另一文补充了该设备在高校科研与本地模型迭代中的具体使用场景。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
-- [[00-元语/audio]]
-- [[00-元语/tts]]
+- [[00-元语/roadmap]]

@@ -43,7 +43,14 @@ Schema 校验与发布流程
 
 https://www.infoq.com/news/2026/02/amazon-key-event-driven-platform/
 
+## 相关文档
+
+- [[01-博客/宝玉/微服务的本质不是模块的拆分，而是组织架构的拆分|微服务的本质不是模块的拆分，而是组织架构的拆分]]；关联理由：延伸思考；说明：该文从团队边界与沟通成本解释微服务拆分条件，正好补足本文为何要把事件接入和治理重新集中化。
+
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
+- [[00-元语/serverless]]
+- [[00-元语/stream-processing]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/observability]]
+- [[00-元语/security]]

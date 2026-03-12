@@ -10,24 +10,31 @@ title: "特朗普要求联邦机构停用 Anthropic AI"
 ## 摘要
 
 **一句话总结**
-特朗普要求联邦机构停用 Anthropic AI。本文围绕“AI 公司与政府部门在使用边界和供应链治理上的博弈”提炼了可供复盘与跟踪的核心信息。
+特朗普要求联邦机构停用 Anthropic 产品，并为仍在使用 Claude 的部门设置六个月退场期；争议核心是 Anthropic 拒绝接受国防部要求其 AI 允许“任何合法用途”的新版协议。
 
 **关键要点**
-* 主题定位：原文重点落在“AI 公司与政府部门在使用边界和供应链治理上的博弈”，不是泛泛而谈。
-* 信息结构：包含背景、关键动作、约束条件与后续影响四类信息。
-* 使用建议：可作为同主题条目的事实补充，并用于后续趋势对照。
+* 直接动作：特朗普在 Truth Social 上要求联邦机构立即停止使用 Anthropic 技术，并给现有使用部门六个月退场期。
+* 核心分歧：Anthropic 拒绝签署允许“任何合法用途”的更新协议，因为这会放开对大规模国内监控和全自动武器的使用限制。
+* 文档价值：这篇可作为“Anthropic 与五角大楼争端”链路中的总统层级行政动作节点，与后续官方声明和风险认定报道对照阅读。
 
 ## 正文
 
-本文基于 The Verge 在 2026-02-27 发布的内容整理，主题为“特朗普要求联邦机构停用 Anthropic AI”。
+The Verge 报道称，特朗普于 2026 年 2 月 27 日在 Truth Social 发文，指责 Anthropic 试图“强迫”五角大楼接受其服务条款，并要求美国联邦机构“立即停止”使用 Anthropic 的技术。对已经在不同层级使用 Claude 的部门，帖文给出了六个月的退场期。
 
-从内容重点看，文章主要讨论了AI 公司与政府部门在使用边界和供应链治理上的博弈，并对当前阶段的策略选择、执行难点或治理边界进行了展开。这类信息对构建“事件-决策-结果”的链路理解很有价值。
+这场升级的直接导火索，是 Anthropic CEO Dario Amodei 拒绝接受美国国防部更新后的协议文本。根据报道，国防部长 Pete Hegseth 在 2026 年 1 月的备忘录中要求合作 AI 公司接受“任何合法用途”，而 Anthropic 认为这会把其模型开放给大规模国内监控和致命性全自动武器等用途，因此拒绝签字。
 
-> 原文摘录：On Friday afternoon, Donald Trump posted on Truth Social , accusing Anthropic, the AI company behind Claude, of attempting to “STRONG-ARM” the Pentagon and directing federal agencies to “IMMEDIATELY CEASE” use of its products. At issue is Anthropic CEO Dario Amodei’s refusal of an updated agreement with the US military
+报道还提到，OpenAI 和 xAI 据称已经接受了这套新条款，而 OpenAI 仍在尝试与五角大楼协商，希望沿用 Anthropic 所坚持的红线。放在事件链路里看，这篇文章的重要性不在于补充技术细节，而在于记录争端如何从合同谈判和公司声明，迅速升级为总统层面的行政施压。
 
-在文档系统内，建议与同平台同期条目及相关元语词条联读，重点比较：问题定义是否变化、解决路径是否调整、风险描述是否前移。
+## 相关文档
+
+- [[01-博客/Anthropic/Dario Amodei 关于我们与战争部讨论的声明|Dario Amodei 关于我们与战争部讨论的声明]]；关联理由：引用；说明：The Verge 报道直接建立在 Amodei 拒签更新协议的公开声明之上，这篇声明交代了两条安全红线与拒绝原因。
+- [[01-博客/The Verge/五角大楼将 Anthropic 列为供应链风险|五角大楼将 Anthropic 列为供应链风险]]；关联理由：同一事件；说明：该文记录了同一天争端的进一步升级，可与本篇的总统行政动作形成前后连续的事件链。
+- [[01-博客/Anthropic/Anthropic 就“供应链风险”言论发布官方声明|Anthropic 就“供应链风险”言论发布官方声明]]；关联理由：同一事件；说明：该文呈现 Anthropic 对后续“供应链风险”威胁的正式回应，补足公司侧的法律与治理立场。
 
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/Claude]]
 - [[00-元语/llm]]
+- [[00-元语/compliance]]
+- [[00-元语/risk]]

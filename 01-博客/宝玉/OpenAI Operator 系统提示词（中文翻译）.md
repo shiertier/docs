@@ -224,6 +224,13 @@ id: string,
 
 任务:
 
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI Operator System Prompt bf11c9d9|OpenAI Operator System Prompt]]；关联理由：同一事件；说明：两文对应同一套 Operator 系统提示词，本文给出中文翻译，另一文保留英文原文与接口命名，适合交叉核对术语和工具定义。
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文解释 CUA 如何结合截图理解、推理与屏幕操作执行任务，能补足本文规则在实际运行中的工作机制。
+- [[01-博客/OpenAI/OpenAI Operator 系统卡：计算机使用代理的安全与风险评估|OpenAI Operator 系统卡：计算机使用代理的安全与风险评估]]；关联理由：解说；说明：该文补充了提示词之外的产品级安全措施，如注入监视器、人在回路确认和风险评级，可对照本文的安全边界阅读。
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文都约束 OpenAI 浏览器代理的工具使用与安全边界，后者展示了该路线在 ChatGPT Agent 阶段的扩展规则。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
@@ -232,7 +239,5 @@ id: string,
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]
 - [[00-元语/compliance]]
-- [[00-元语/alignment]]
 - [[00-元语/prompt]]
 - [[00-元语/security]]
-- [[00-元语/risk]]

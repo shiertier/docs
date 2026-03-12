@@ -1,6 +1,7 @@
 ---
 title: "尝试向 Google Photos 提问的 9 个有趣问题"
 
+发布日期: "2026-02-10"
 来源: "https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/"
 ---
 
@@ -57,8 +58,7 @@ Ask Photos 非常擅长分析照片并为您撰写描述。这在二手平台转
 
 ## 相关文档
 
-- [[01-博客/Google/谷歌一月 AI 动态回顾：迈向个性化智能新纪元.md|谷歌一月 AI 动态回顾：迈向个性化智能新纪元]]；关联理由：解说；说明：该文在月度产品更新中概述了 Gemini 与 Google Photos 的联动，是本文 9 个用法的上位背景。
-- [[02-资源/通用开发工具/Immich：照片与视频自托管管理工具.md|Immich：照片与视频自托管管理工具]]；关联理由：延伸思考；说明：该工具作为 Google Photos 的替代方案，可用于对照理解照片检索与管理能力的不同实现路径。
+- [[01-博客/Google/谷歌一月 AI 动态回顾：迈向个性化智能新纪元.md|谷歌一月 AI 动态回顾：迈向个性化智能新纪元]]；关联理由：解说；说明：该文直接提到 Gemini 可连接 Google Photos 提供个性化帮助，可作为本文 Ask Photos 用法与开放背景的上位说明。
 
 ## 关联主题
 

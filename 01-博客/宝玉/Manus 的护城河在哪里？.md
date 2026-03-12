@@ -113,10 +113,15 @@ Manus 的护城河在哪里？
 
 Manus 开了个好头，但挑战还是不小的，开源的实现、商业上的山寨版本应该很快就要出来了，用户的热度也会消散的很快，一旦有新的热点马上就会去追逐新的热点了，就像你还记得 OpenAI 家的 Operator 吗？
 
+## 相关文档
+
+- [[01-博客/宝玉/What You Need Is Not an AI Agent, But an AI-Friendly Workflow 279d6559|What You Need Is Not an AI Agent, But an AI-Friendly Workflow]]；关联理由：延伸思考；说明：该文从方法论层面论证 AI 友好 workflow 比盲目追求 Agent 更重要，正好补足本文对 Manus 的 ToDo List 规划与动态调整能力的批评。
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：本文把 Manus 的网页浏览 Agent 视作类 Operator 机制，该文可补足浏览器型 Agent 的虚拟机、视觉感知与操作循环细节。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
+- [[00-元语/workflow]]
 - [[00-元语/llm]]
 - [[00-元语/browser-automation]]
 - [[00-元语/ocr]]

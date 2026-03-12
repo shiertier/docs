@@ -141,6 +141,12 @@ Management as AI superpower
 *   原文：[https://www.oneusefulthing.org/p/management-as-ai-superpower](https://www.oneusefulthing.org/p/management-as-ai-superpower)
 *   翻译：[https://baoyu.io/translations/2026/01/29/management-ai-superpower](https://baoyu.io/translations/2026/01/29/management-ai-superpower)
 
+## 相关文档
+
+- [[01-博客/Ethan Mollick/管理能力：AI 时代的超级能力|管理能力：AI 时代的超级能力]]；关联理由：引用；说明：本文直接基于该文提出的“委派公式”“管理能力”与“完成标准”展开，并补入了作者自己的 AI 协作实践。
+- [[01-博客/宝玉/既然 AI 越来越聪明，那么学习提示词不是浪费时间吗？|既然 AI 越来越聪明，那么学习提示词不是浪费时间吗？]]；关联理由：观点一致；说明：两文都把“把目标、约束和验收标准说清楚”视为 AI 时代比执行更稀缺的核心能力。
+- [[01-博客/宝玉/你需要的不是智能体，而是一个适合 AI 的工作流|你需要的不是智能体，而是一个适合 AI 的工作流]]；关联理由：延伸思考；说明：本文强调人类要负责定义问题和验收结果，该文进一步把这种管理要求展开为可落地的 AI 友好工作流设计。
+
 ## 关联主题
 
 - [[00-元语/AI]]
@@ -150,4 +156,4 @@ Management as AI superpower
 - [[00-元语/evals]]
 - [[00-元语/Spec驱动开发]]
 - [[00-元语/知识工作]]
-- [[00-元语/workflow]]
+- [[00-元语/productivity]]

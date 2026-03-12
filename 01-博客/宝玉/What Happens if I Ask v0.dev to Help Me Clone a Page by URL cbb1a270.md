@@ -90,14 +90,19 @@ The entire process involves more than just passing along a prompt to the AI. v0.
 
 Ultimately, the process of cloning a webpage by URL is an intricate dance of AI prompt engineering, thoughtful pre-processing, and robust user interface design—all working together to create something as simple (and powerful) as an interactive code preview that lets you build a site like Taobao with just a few messages.
 
+## 相关文档
+
+- [[01-博客/宝玉/有了 v0 的完整提示词，是不是就能做一个 v0出来了？|有了 v0 的完整提示词，是不是就能做一个 v0出来了？]]；关联理由：解说；说明：该文用中文完整展开了同一条“URL 截图、上下文拼装、流式解析到在线渲染”的实现链路，和本文的工程拆解主线直接对应。
+- [[01-博客/宝玉/v0 提示词解析说明|v0 提示词解析说明]]；关联理由：上下游；说明：该文拆解了 v0 的系统提示词、能力边界与输出约束，是本文“如何构造发给 Claude 的结构化输入”的上游背景。
+- [[01-博客/宝玉/v0 system prompt (2024-11-22) e3c3c23e|v0 system prompt (2024-11-22)]]；关联理由：上下游；说明：原始提示词明确了 `<ReactProject>`、文件操作和预览能力，正是本文所分析生成链路的协议基础。
+
 ## 关联主题
 
 - [[00-元语/v0]]
 - [[00-元语/Claude]]
-- [[00-元语/Agent]]
 - [[00-元语/llm]]
-- [[00-元语/workflow]]
-- [[00-元语/stream-processing]]
 - [[00-元语/prompt]]
+- [[00-元语/context-optimization]]
+- [[00-元语/stream-processing]]
+- [[00-元语/protocol]]
 - [[00-元语/react]]
-- [[00-元语/ui-protocol]]

@@ -1,5 +1,10 @@
 ---
 title: "Google DeepMind 升级 Game Arena：用狼人杀与德州扑克推进 AI 基准测试"
+发布日期: 2026-02-02
+作者: "Oran Kelly"
+来源: "Google DeepMind"
+原文链接: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/"
+译注: "根据原文整理"
 ---
 
 ## 摘要
@@ -67,9 +72,14 @@ Google DeepMind 升级了 Kaggle Game Arena 基准测试平台，在原有的国
 
 无论是寻找极具创造力的将死之法、在狼人杀中谈判休战，还是在扑克桌上全押（All-in），Kaggle Game Arena 都是我们发现这些 AI 模型真正实力的绝佳舞台。
 
+## 相关文档
+
+- [[01-博客/Google/超越一对一：构建、模拟与测试动态人机群体对话|超越一对一：构建、模拟与测试动态人机群体对话]]；关联理由：延伸思考；说明：狼人杀基准依赖多方对话、轮流发言与共识形成，这篇文章从群体对话框架角度补足了此类社交互动为何值得被构建和测试。
+- [[01-博客/Google/迈向智能体系统扩展的科学：智能体系统何时且为何有效|迈向智能体系统扩展的科学：智能体系统何时且为何有效]]；关联理由：延伸思考；说明：该文把部分可观测、多步交互和错误放大率作为智能体评测核心属性，可作为 Game Arena 用游戏逼近真实世界能力与安全评测的工程化补充。
+
 ## 关联主题
 
-- [[00-元语/AI]]
+- [[00-元语/Agent]]
 - [[00-元语/alignment]]
 - [[00-元语/benchmark]]
 - [[00-元语/decision-making]]

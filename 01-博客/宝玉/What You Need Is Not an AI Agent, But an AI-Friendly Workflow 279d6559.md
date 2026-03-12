@@ -124,16 +124,22 @@ Conclusion
 
 To make the most of AI, the key is to design workflows that fit AI's strengths. Whether it involves an AI agent, an LLM, or another model is secondary. The true focus should always be on solving the core problem effectively, using AI as a tool rather than an end in itself.
 
+## 相关文档
+
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：解说；说明：该文把 workflow 与 Agent 的边界拆成可复用模式与适用条件，正好补足本文“别把 Agent 当银弹”的方法框架。
+- [[01-博客/宝玉/ReAct 框架与 AI Agent：当 AI 学会自己思考和行动|ReAct 框架与 AI Agent：当 AI 学会自己思考和行动]]；关联理由：延伸思考；说明：该文进一步说明固定任务更适合显式 workflow、开放问题才更适合 Agent，可与本文的 workflow-first 观点对照阅读。
+- [[01-博客/宝玉/一文看懂“提示词” vs “提示词工程” vs “上下文工程”|一文看懂“提示词” vs “提示词工程” vs “上下文工程”]]；关联理由：解说；说明：该文把本文涉及的 prompt、CoT 和工具补齐机制进一步拆成提示词工程与上下文工程，有助于解释为何关键在流程设计而不在 Agent 名称。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
 - [[00-元语/llm]]
-- [[00-元语/copilot]]
-- [[00-元语/decision-making]]
 - [[00-元语/prompt]]
+- [[00-元语/decision-making]]
+- [[00-元语/tool]]
+- [[00-元语/copilot]]
 - [[00-元语/multimodal]]
 - [[00-元语/ocr]]
-- [[00-元语/tool]]
-- [[00-元语/github]]
+- [[00-元语/machine-translation]]

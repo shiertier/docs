@@ -267,12 +267,14 @@ total_tokens = vo.count_tokens(["Sample text"])
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：上下游；说明：本篇提供 Voyage Embeddings 接入与参数边界，作为该文 RAG 评测流程的前置依赖。
-- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：引用；说明：该文在 third_party 集成目录中直接引用本篇作为 Voyage embeddings 入口。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 检索与知识工具|Claude 第三方集成 Cookbook 检索与知识工具]]；关联理由：上下游；说明：该文总览 Claude 接入外部检索系统的链路，本文补齐其中 Voyage embeddings 的向量化接入细节。
+- [[01-博客/Anthropic/Contextual Retrieval：上下文检索方法|Contextual Retrieval：上下文检索方法]]；关联理由：上下游；说明：该文把上下文化文本块送入嵌入模型前作为核心步骤，本文补齐 Voyage embeddings 的模型选择、检索参数与向量化接入方式。
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：引用；说明：该文在 Claude Cookbooks 的 third_party 分组中明确列出本文对应的 Voyage AI embeddings 条目。
+- [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：上下游；说明：该文的 contextual embeddings 与 RAG 评测依赖 `VOYAGE_API_KEY`，本文补齐 Voyage API 与检索参数的接入边界。
 
 ## 关联主题
 
+- [[00-元语/Claude]]
 - [[00-元语/rag]]
-- [[00-元语/llm]]
+- [[00-元语/retrieval]]
 - [[00-元语/sdk]]
-- [[00-元语/context-database]]

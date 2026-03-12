@@ -144,7 +144,7 @@ python3 scripts/gemini_task.py summarize --input-file .tmp/profile.draft.md -o .
    - `## 摘要` 必须来自 Gemini `summarize` 输出；
    - 日期字段写在 frontmatter：`发布日期: YYYY-MM-DD`；
    - 仅 `01-博客/` 强制要求 `发布日期`，且必须是“可证据化的网络原始发布时间”，禁止把入库日期/采集日期当发布日期；
-   - 若 `01-博客/` 命中“当天/前一天日期”（当前批次为 `2026-02-23`、`2026-02-22`），先联网取证并写入 `.tmp/publish-date-evidence-final.tsv`，再决定保留或修正；
+   - 若 `01-博客/` 命中“当天/前一天日期”（按 UTC 日期计算），先联网取证并写入 `.tmp/publish-date-evidence-final.tsv`，再决定保留或修正；
    - 仅中文正文 + 原文链接；
    - 禁止在标题/小标题里添加括号式说明（形如“正文（……）”）。
 6) 临时文件约定：

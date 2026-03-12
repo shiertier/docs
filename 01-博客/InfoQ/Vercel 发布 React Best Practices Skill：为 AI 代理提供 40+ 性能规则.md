@@ -26,9 +26,6 @@ Vercel 开源了专为 AI 编程智能体设计的 `react-best-practices` 仓库
 
 ## 正文
 
-# Vercel 发布专为 AI 智能体设计的 React 最佳实践
-
-
 Next.js 背后的云平台 Vercel 近日发布了开源仓库 `react-best-practices`。该仓库包含了 40 多条针对 React 和 Next.js 应用程序的性能优化规则，凝聚了 Vercel 生产代码库中十多年的工程知识。其结构专门为 AI 编程智能体（AI coding agents）和大型语言模型（LLM）的使用而设计，同时对人类开发者也具有极高的参考价值。
 
 ### 规则分类与核心优化点
@@ -71,3 +68,16 @@ npx skills add vercel-labs/agent-skills
 对于希望在现有项目中采用该框架的团队，该仓库的结构使得每条规则都可以独立审查和应用。单独的规则文件位于 `rules` 目录中，并包含对每种模式为何重要的解释以及修改前后的代码示例，使得渐进式采用变得简单明了。
 
 `react-best-practices` 在 MIT 许可证下开源，开发者可在 GitHub 上获取该仓库及完整的 `AGENTS.md` 编译文档。
+
+## 相关文档
+
+- [[01-博客/微信公众平台/Vercel 给 Agent Skills 泼了一盆冷水|Vercel 给 Agent Skills 泼了一盆冷水]]；关联理由：延伸思考；说明：同样来自 Vercel 的实践总结，但指出 Skills 更适合任务流而不适合版本化知识检索，可帮助界定本文所述 React 规则 Skill 的适用边界。
+- [[01-博客/Antoine van der Lee/使用 SwiftUI Agent Skill：借助 AI 构建更优秀的视图|使用 SwiftUI Agent Skill：借助 AI 构建更优秀的视图]]；关联理由：观点一致；说明：两文都把前端框架最佳实践沉淀为可复用 Skill，用于提升 AI 生成、审查和重构代码的质量。
+- [[02-资源/AI-编程助手与Agent/agentskills：赋予 AI 代理新能力的开放格式项目|agentskills：赋予 AI 代理新能力的开放格式项目]]；关联理由：解说；说明：本文提到该规则集作为 Agent Skills 生态的一部分分发，这份项目档案可补足其依赖的开放格式与发现机制。
+
+## 关联主题
+
+- [[00-元语/react]]
+- [[00-元语/Agent]]
+- [[00-元语/skills]]
+- [[00-元语/security]]

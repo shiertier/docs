@@ -62,6 +62,11 @@ functions 参数和 function_call 已经改名字了，分别对应的是 tools 
 
 也欢迎评论补充：你觉得这两个新增的参数 logprobs 和 top_logprobs 可以有哪些实用的应用场景？
 
+## 相关文档
+
+- [[01-博客/Everyrow/Conway 定律视角下的 OpenAI API 演进问题|Conway 定律视角下的 OpenAI API 演进问题]]；关联理由：版本演进；说明：该文讨论 `chat/completions` 与 `responses` 的后续分化问题，可作为本文记录这一端点早期参数演进的延伸背景。
+- [[01-博客/宝玉/如何控制 LLM 的输出格式和解析其输出结果？|如何控制 LLM 的输出格式和解析其输出结果？]]；关联理由：版本演进；说明：该文展示了 `functions` 和 `function_call` 的旧用法，正好对应本文提到它们更名为 `tools` 与 `tool_choice` 的接口变化。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]

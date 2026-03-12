@@ -69,9 +69,14 @@ Step-by-step instructions
 
 *   Offer to generate the edited text: Offer to rewrite my work, incorporating all our suggested changes.
 
+## 相关文档
+
+- [[01-博客/宝玉/如何写一个批改英语作业的 Prompt？|如何写一个批改英语作业的 Prompt？]]；关联理由：解说；说明：该文把“批改文本并解释错误原因”的 prompt 拆成任务、步骤、输出格式与样例，能直接解释本文这份写作编辑 system prompt 的设计结构。
+- [[01-博客/宝玉/提示词救不了平庸的 AI 写作|提示词救不了平庸的 AI 写作]]；关联理由：延伸思考；说明：本文给出写作编辑 prompt 的具体模板，而该文进一步指出写作质量还受素材、模型与审稿能力制约，可补足其能力边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/Agent]]
-- [[00-元语/prompt]]
 - [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/workflow]]

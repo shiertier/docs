@@ -161,10 +161,21 @@ Claw ，就是让这条 Prompt 住下来、⼀直跑下去的那层东西。
 
 Karpathy 嘴上说着安全噩梦 ，⾝体很诚实——Mac mini 已经买了。
 
-Karpathy 原帖： htps://x.com/karpathy/status/202498717407743212 6
+Karpathy 原帖：https://x.com/karpathy/status/2024987174077432126
+
+## 相关文档
+
+- [[01-博客/Simon Willison/AI 智能体的新演进：“Claw” 系统的兴起|AI 智能体的新演进：“Claw” 系统的兴起]]；关联理由：同一事件；说明：两文都围绕 Karpathy 对 “Claw” 的命名与定义展开，这篇文章则补充了更完整的背景、NanoClaw 细节和工程判断。
+- [[01-博客/InfoQ/代码暴减99.9%：独立开发者仅用500行代码做出安全版OpenClaw，GitHub星数狂飙|代码暴减99.9%：独立开发者仅用500行代码做出安全版OpenClaw，GitHub星数狂飙]]；关联理由：解说；说明：该文单独拆解 NanoClaw 的极简架构、容器隔离和与 OpenClaw 的权衡，正好解释本文为何把它视为代表性 Claw 实现。
+- [[01-博客/ZDNet/服务器被毁与 DoS 攻击：当 OpenClaw AI 智能体相互交互时会发生什么|服务器被毁与 DoS 攻击：当 OpenClaw AI 智能体相互交互时会发生什么]]；关联理由：延伸思考；说明：本文把 OpenClaw 称为“安全噩梦”，该文进一步展示常驻智能体在隔离、提示注入和资源失控上的实际风险。
 
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
 - [[00-元语/Agent]]
+- [[00-元语/llm]]
+- [[00-元语/memory]]
+- [[00-元语/skills]]
+- [[00-元语/self-hosting]]
+- [[00-元语/security]]
+- [[00-元语/vibe-coding]]
+- [[00-元语/软件工程]]

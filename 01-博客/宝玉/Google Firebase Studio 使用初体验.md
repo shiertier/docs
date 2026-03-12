@@ -50,13 +50,19 @@ Firebase Studio 的 AI 代码编辑应该是基于 Gemini 2.5 Pro，编程能力
 
 目前是免费的，推荐去试试，使用地址：[studio.firebase.google.com](http://studio.firebase.google.com/)
 
+## 相关文档
+
+- [[01-博客/宝玉/What Happens if I Ask v0.dev to Help Me Clone a Page by URL cbb1a270|What Happens if I Ask v0.dev to Help Me Clone a Page by URL?]]；关联理由：解说；说明：该文拆解了 v0 在截图输入、在线编辑器与实时预览上的工程机制，可作为本文比较 Firebase Studio 交互体验的直接参照。
+- [[01-博客/宝玉/我日常 AI 辅助编程的模型和工具搭配|我日常 AI 辅助编程的模型和工具搭配]]；关联理由：延伸思考；说明：该文系统比较作者日常使用的 v0、Cursor、Gemini 等工具分工，能补充本文对 Firebase Studio 定位与优劣的比较语境。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/Cursor]]
-- [[00-元语/gemini]]
-- [[00-元语/ide]]
 - [[00-元语/llm]]
+- [[00-元语/gemini]]
+- [[00-元语/multimodal]]
+- [[00-元语/prompt]]
+- [[00-元语/ide]]
 - [[00-元语/react]]
 - [[00-元语/v0]]
-- [[00-元语/vibe-coding]]
+- [[00-元语/Cursor]]

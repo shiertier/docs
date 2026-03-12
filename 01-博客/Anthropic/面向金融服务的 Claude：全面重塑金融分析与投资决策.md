@@ -1,6 +1,6 @@
 ---
 title: "面向金融服务的 Claude：全面重塑金融分析与投资决策"
-
+发布日期: 2025-07-15
 来源: "https://www.anthropic.com/news/claude-for-financial-services"
 ---
 
@@ -79,24 +79,17 @@ Claude 为金融 AI 提供了从即时部署到定制开发的完整平台。您
 
 欢迎联系我们的销售团队，了解更多关于面向金融服务的 Claude 的信息、安排演示或讨论针对您组织的实施方案。
 
----
-
-### 相关动态
-
-*   **为防御者提供前沿的网络安全能力**：Claude Code Security 是一项内置于网页版 Claude Code 中的新功能，现已进入有限研究预览阶段。它能够扫描代码库中的安全漏洞，并提出针对性的软件补丁供人工审查，帮助团队发现并修复传统方法通常会遗漏的安全问题。
-*   **Anthropic 与卢旺达政府签署谅解备忘录（MOU）**：共同推进 AI 在医疗和教育领域的应用。
-*   **推出 Claude Sonnet 4.6**：Sonnet 4.6 在编程、智能体和大规模专业工作方面展现了前沿的性能。
-
 ## 相关文档
 
-- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：引用；说明：本文“相关动态”直接提到 Claude Code Security，该文提供该能力的独立发布信息与适用边界。
-- [[01-博客/Anthropic/Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用|Anthropic与卢旺达达成三年期合作：推动AI在医疗、教育与公共领域的应用]]；关联理由：引用；说明：本文“相关动态”直接引用卢旺达合作，该文完整展开合作范围与实施期限。
-- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：引用；说明：本文“相关动态”直接提到 Sonnet 4.6，该文补充模型能力升级与可用范围细节。
+- [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：解说；说明：该文直接以 Claude for Excel 为例解释编程式工具调用如何处理大规模电子表格，正好补足本文金融建模与 Excel 智能体能力的技术机制。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：版本演进；说明：该文把这里的金融数据连接与 Excel 工作流进一步产品化，明确写到可在 Excel 中通过 MCP 接入 S&P Global、PitchBook、Daloopa、FactSet 等金融数据源。
+- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：上下游；说明：本文介绍 Anthropic 自有金融分析方案及咨询伙伴生态，该文则展开了面向金融等受监管行业的服务交付与实施路径。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/mcp]]
 - [[00-元语/trading]]
 - [[00-元语/decision-making]]

@@ -1,7 +1,9 @@
 ---
 title: "谷歌云 AI 助力美国滑雪队提升竞技技巧"
-
-来源: "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/"
+发布日期: 2026-02-05
+作者: "Keyword Team"
+来源: "Google"
+原文链接: "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/"
 ---
 
 ## 摘要

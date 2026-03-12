@@ -1,6 +1,7 @@
 ---
 title: "欢迎首位首席运营官 Lila Ibrahim：带领 DeepMind 迈向新阶段"
-
+作者: "Demis Hassabis"
+发布日期: 2018-04-11
 来源: "https://deepmind.google/blog/our-first-coo-lila-ibrahim-takes-deepmind-to-the-next-level/"
 ---
 
@@ -50,7 +51,7 @@ Lila 拥有丰富的组织和技术经验，她的职业生涯履历十分亮眼
 
 ## 相关文档
 
-- [[01-博客/Google DeepMind/扩大新加坡业务版图：推动亚太地区人工智能发展|扩大新加坡业务版图：推动亚太地区人工智能发展]]；关联理由：上下游；说明：本文聚焦 Lila Ibrahim 的履新背景，关联文档展示其作为 COO 推动区域战略落地的后续实践。
+- [[01-博客/Google DeepMind/扩大新加坡业务版图：推动亚太地区人工智能发展|扩大新加坡业务版图：推动亚太地区人工智能发展]]；关联理由：上下游；说明：本文记录 Lila Ibrahim 出任 DeepMind 首位 COO 的起点，关联文档则展示她以 COO 身份推动亚太区域扩张的后续落地。
 
 ## 关联主题
 

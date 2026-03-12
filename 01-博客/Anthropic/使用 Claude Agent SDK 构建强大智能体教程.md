@@ -165,22 +165,19 @@ Claude Code 已成为 Anthropic 最成功的产品之一，但这不仅仅是因
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Building Effective Agents 常见工作流最小实现|Building Effective Agents 常见工作流最小实现]]；关联理由：解说；说明：该文给出常见 Agent 工作流最小范式，可作为本教程多智能体编排的结构化补充。
-- [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：延伸思考；说明：本教程讲解工具与 MCP 集成，该文进一步延伸到高级工具能力的边界与接入策略。
+- [[01-博客/Anthropic/Claude Agent SDK Notebook 实战进阶|Claude Agent SDK Notebook 实战进阶]]；关联理由：解说；说明：该文逐项拆解同一套 `claude_agent_sdk` 三份 notebook 的能力主线、示例代码与落地建议，可作为本教程总览的实操展开。
+- [[01-博客/Anthropic/Claude Code 核心功能与使用概览|Claude Code 核心功能与使用概览]]；关联理由：上下游；说明：本文把 Claude Code CLI、斜杠命令、hooks 与子智能体能力延伸到 Agent SDK 教程中，该文则补足这些能力在 Claude Code 产品形态中的入口与边界。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：本文涉及的 `CLAUDE.md` 持久化指令、子智能体协同与按需加载工具，都能在该文找到更系统的上下文工程解释。
+- [[01-博客/Anthropic/使用 MCP 执行代码|使用 MCP 执行代码]]；关联理由：上下游；说明：本文的可观测性智能体依赖 MCP 连接外部系统，该文进一步解释大规模 MCP 工具接入时的代码执行、按需加载与上下文成本控制。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
 - [[00-元语/sdk]]
-- [[00-元语/cli]]
+- [[00-元语/tool]]
 - [[00-元语/mcp]]
 - [[00-元语/memory]]
 - [[00-元语/observability]]
-- [[00-元语/CI]]
 - [[00-元语/compliance]]
-- [[00-元语/multimodal]]
-- [[00-元语/github]]
-- [[00-元语/llm]]
-- [[00-元语/tool]]
-- [[00-元语/workflow]]

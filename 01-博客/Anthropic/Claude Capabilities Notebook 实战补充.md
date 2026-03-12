@@ -65,14 +65,14 @@ def evaluate_retrieval(
 
 ## 相关文档
 
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出 Claude Cookbooks 的仓库级能力地图，本篇继续下钻到 capabilities 子目录的 notebook 实战。
 - [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：解说；说明：两文都围绕 Capabilities 目录，前者给出总览与评测框架，后者补足可运行 Notebook 细节。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
-- [[00-元语/github]]
 - [[00-元语/rag]]
+- [[00-元语/retrieval]]
 - [[00-元语/evals]]
-- [[00-元语/benchmark]]
 - [[00-元语/prompt]]

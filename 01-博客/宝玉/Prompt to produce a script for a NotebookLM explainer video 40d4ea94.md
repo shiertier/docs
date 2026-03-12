@@ -109,14 +109,14 @@ Based on the outline above, design each key slide (or each core knowledge point)
 
 ## 相关文档
 
-- [[01-博客/宝玉/Google NotebookLM 系统提示词|Google NotebookLM 系统提示词]]；关联理由：解说；说明：该文解释了 NotebookLM 的底层提示词设计目标，可作为本篇“讲解视频脚本提示词”的人设与目标来源背景。
-- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：版本演进；说明：两篇都面向 NotebookLM 的幻灯片叙事生成，本篇偏讲解视频脚本，该文延展到可读型 Slide Deck 大纲。
-- [[01-博客/宝玉/完整的可编辑NotebookLM Slides解决方案|The complete "Editable NotebookLM Slides" solution]]；关联理由：上下游；说明：本篇给出脚本生成提示词，而该文提供后续把大纲落到可编辑幻灯片与图像生成的执行工作流。
+- [[01-博客/宝玉/Google NotebookLM 系统提示词|Google NotebookLM 系统提示词]]；关联理由：解说；说明：该文拆解 NotebookLM 的音频概览提示词，与本文共享“5 分钟、面向专注学习者、角色化讲解”的核心约束，可补足本篇的人设背景。
+- [[01-博客/宝玉/AI 播客原理解析|AI 播客原理解析]]；关联理由：解说；说明：该文把目标听众、双角色分工和约束设计拆成可理解的提示词结构，能解释本文为何同样强调节奏、角色与信息控制。
+- [[01-博客/宝玉/NotebookLM幻灯片System Prompt|NotebookLM Slide Deck System Prompt]]；关联理由：延伸思考；说明：该文把相近的视觉叙事提示词改写为“无需演讲者也能阅读”的 Slide Deck 大纲，可与本文对照两种 NotebookLM 风格内容组织方式。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
+- [[00-元语/design]]
 - [[00-元语/video]]
-- [[00-元语/workflow]]

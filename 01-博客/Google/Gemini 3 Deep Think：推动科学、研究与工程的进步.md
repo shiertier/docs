@@ -1,6 +1,7 @@
 ---
 title: "Gemini 3 Deep Think：推动科学、研究与工程的进步"
 
+发布日期: 2026-02-12
 来源: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
 ---
 
@@ -58,6 +59,11 @@ title: "Gemini 3 Deep Think：推动科学、研究与工程的进步"
 
 * **Google AI Ultra 订阅用户**：即日起可在 Gemini 应用程序中访问更新后的 Deep Think 模式。
 * **研究人员、工程师和企业**：现在可以申请加入抢先体验计划（Early Access Program），通过 Gemini API 测试 Deep Think。
+
+## 相关文档
+
+- [[01-博客/Google DeepMind/使用 Gemini Deep Think 加速数学与科学发现-2|使用 Gemini Deep Think 加速数学与科学发现]]；关联理由：版本演进；说明：该文延展了本文提到的 Deep Think 科学研究路线，具体展开其在数学、物理与计算机科学中的研究级应用与论文成果。
+- [[01-博客/InfoQ/代码界新王登基！Gemini 3.1 Pro 血洗 Claude 与 GPT，12 项基准测试第一！|代码界新王登基！Gemini 3.1 Pro 血洗 Claude 与 GPT，12 项基准测试第一！]]；关联理由：上下游；说明：本文展示 Deep Think 作为专属推理模式的能力上限，彼文补充了 Gemini 3.1 Pro 如何将相关推理能力下放为更通用的基础模型。
 
 ## 关联主题
 

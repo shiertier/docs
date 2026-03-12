@@ -107,15 +107,19 @@ In the end, our pursuit is not a "super-program" force-fed with commands and too
 
 * * *
 
+## 相关文档
+
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：两文都把上下文工程的核心落在压缩、总结与子智能体隔离上，这篇 Anthropic 文章给出了更系统的工程拆解。
+- [[01-博客/LangChain/深度智能体（Deep Agents）的上下文管理|深度智能体（Deep Agents）的上下文管理]]；关联理由：解说；说明：本文提出把大输出卸载到文件系统并在必要时总结，LangChain 这篇文章进一步给出了文件系统卸载、压缩阈值与恢复测试的实现细节。
+- [[01-博客/宝玉/AI Agent 要变强：两条路径（Skills vs SubAgent）|AI Agent 要变强：两条路径（Skills vs SubAgent）]]；关联理由：延伸思考；说明：本文区分“通信式”与“共享上下文式”协作，该文继续从 Skills 与 SubAgent 的取舍角度讨论如何保持主 Agent 上下文干净。
+- [[01-博客/宝玉/一文看懂“提示词” vs “提示词工程” vs “上下文工程”|一文看懂“提示词” vs “提示词工程” vs “上下文工程”]]；关联理由：解说；说明：本文标题强调 beyond prompting，这篇文章正好补上提示词工程与上下文工程的概念边界。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/tool]]
-- [[00-元语/cli]]
 - [[00-元语/context-optimization]]
-- [[00-元语/context-database]]
 - [[00-元语/memory]]
-- [[00-元语/workflow]]
+- [[00-元语/sandbox]]

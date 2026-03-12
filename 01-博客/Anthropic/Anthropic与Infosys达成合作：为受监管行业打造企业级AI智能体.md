@@ -1,5 +1,6 @@
 ---
 title: "Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体"
+发布日期: 2025-09-17
 
 来源: "https://www.anthropic.com/news/anthropic-infosys"
 ---
@@ -64,9 +65,16 @@ Claude是目前唯一在三大全球主流云服务平台（Amazon Bedrock、Goo
 *   **卢旺达政府合作**：Anthropic与卢旺达政府签署了谅解备忘录（MOU），致力于在医疗和教育领域应用AI技术。
 *   **Claude Sonnet 4.6发布**：全新推出的Sonnet 4.6在代码编写、智能体应用以及大规模专业工作方面展现了前沿的性能。
 
+## 相关文档
+
+- [[01-博客/Anthropic/Anthropic 班加罗尔办事处正式成立，全面深化印度市场合作|Anthropic 班加罗尔办事处正式成立，全面深化印度市场合作]]；关联理由：解说；说明：该文补充了 Anthropic 在印度设立办事处、本地化建设与多行业合作的整体布局，可把 Infosys 合作放回其后续扩张背景中理解。
+- [[01-博客/Anthropic/印度国家简报：Anthropic 经济指数|印度国家简报：Anthropic 经济指数]]；关联理由：解说；说明：该文用国家级采用数据补充了“印度是 Claude 关键市场、需求集中于软件与系统现代化”的背景，可解释 Infosys 合作的市场基础。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/compliance]]
+- [[00-元语/软件工程]]

@@ -47,12 +47,18 @@ Mac 桌面端应用有一个让我特别欣赏的功能：它允许你查看 Cla
 
 目前，Claude 的 iPhone 应用还无法显示已打开的图片。因此，我刚刚在 Twitter 的一个帖子中向官方提出了这个功能请求。
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude Code 核心功能与使用概览|Claude Code 核心功能与使用概览]]；关联理由：解说；说明：该文补足了 Claude Code 在 Web、桌面端与其他入口之间的产品形态，能帮助理解本文偏爱“原生客户端 + 云端会话”的使用背景。
+- [[01-博客/Simon Willison/Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性|Rodney v0.4.0 发布：浏览器自动化 CLI 工具的新特性]]；关联理由：解说；说明：该文具体展开 Rodney 的浏览器自动化、截图与断言能力，是本文把 Rodney 用作页面和菜单测试工具的直接补充。
+- [[01-博客/Simon Willison/利用 Claude 会话日志找回丢失的代码|利用 Claude 会话日志找回丢失的代码]]；关联理由：延伸思考；说明：该文把本文“尽量不要让本地环境承担全部风险”的思路延伸到故障恢复场景，展示 Claude Code 工作流中的另一种风险控制方式。
+
 ## 关联主题
 
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
 - [[00-元语/desktop-client]]
-- [[00-元语/security]]
+- [[00-元语/sandbox]]
 - [[00-元语/browser-automation]]
 - [[00-元语/cli]]
-- [[00-元语/tool]]
+- [[00-元语/multimodal]]

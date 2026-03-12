@@ -50,10 +50,15 @@ title: "如何让 GPT-4 生成更好的摘要"
 
 ![Image 1](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt0.webp)![Image 2](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt1.webp)![Image 3](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt2.webp)![Image 4](https://baoyu.io/images/prompt-engineering/how-to-get-a-better-summary-result/prompt3.webp)
 
+## 相关文档
+
+- [[01-博客/宝玉/如何让 GPT-4 帮你写 Prompt？|如何让 GPT-4 帮你写 Prompt？]]；关联理由：解说；说明：该文总结了为 GPT-4 设计结构化提示词的通用方法，能解释本文为何强调分步拆解摘要任务。
+- [[01-博客/宝玉/对比一下两种不同生成摘要提示词的效果|对比一下两种不同生成摘要提示词的效果]]；关联理由：延伸思考；说明：该文继续围绕摘要提示词优化展开，对比不同写法如何影响摘要的信息密度与吸引力。
+- [[01-博客/宝玉/一句话提示词，让 AI 帮你总结整理论坛的讨论帖子|一句话提示词，让 AI 帮你总结整理论坛的讨论帖子]]；关联理由：延伸思考；说明：该文展示了在长上下文模型和论坛材料场景下，摘要任务也可以被压缩成更轻量的提示形式，与本文的分步方法形成对照。
+
 ## 关联主题
 
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/OpenAI]]
-- [[00-元语/Claude]]
 - [[00-元语/workflow]]

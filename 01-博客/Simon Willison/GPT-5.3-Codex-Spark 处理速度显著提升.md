@@ -39,12 +39,11 @@ OpenAI 宣布 GPT-5.3-Codex-Spark 的处理速度提升约 30%（超过 1200 Tok
 ## 相关文档
 
 - [[01-博客/Simon Willison/介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat|介绍两款全新的 Showboat 工具：Chartroom 与 datasette-showboat]]；关联理由：引用；说明：本文在“博客近期文章回顾”中直接提到这篇文章。
-- [[01-博客/Simon Willison/深入理解 OpenAI Codex：模型、工具与交互面|深入理解 OpenAI Codex：模型、工具与交互面]]；关联理由：延伸思考；说明：本文报告 Codex 模型速度提升，该文补充了 Codex 的结构与训练背景。
-- [[01-博客/Simon Willison/为博客引入“Beats”功能：集成我的全网动态|为博客引入“Beats”功能：集成我的全网动态]]；关联理由：同一事件；说明：本文提及的 2026-02-20 博客能力更新与该文主题相对应。
+- [[01-博客/Simon Willison/为博客引入“Beats”功能：集成我的全网动态|为博客引入“Beats”功能：集成我的全网动态]]；关联理由：同一事件；说明：本文回顾的“添加 TIL、发布、博物馆、工具与研究”这条更新，对应的正是 Beats 功能把这些内容类型接入博客时间线。
+- [[01-博客/OpenAI/推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型|推出 GPT-5.3-Codex-Spark：专为实时编程打造的超快模型]]；关联理由：版本演进；说明：该文是 GPT-5.3-Codex-Spark 的首发说明，本文可视为其上线后一周内的性能提速更新。
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
 - [[00-元语/llm]]
-- [[00-元语/benchmark]]

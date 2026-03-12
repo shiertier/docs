@@ -1,5 +1,6 @@
 ---
 title: "全新推出 Claude Sonnet 4.6"
+发布日期: 2026-02-17
 
 来源: "https://www.anthropic.com/news/claude-sonnet-4-6"
 ---
@@ -86,16 +87,17 @@ Claude Sonnet 4.6 现已在所有 Claude 计划、Claude Cowork、Claude Code、
 
 ## 相关文档
 
-- [[01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型-2|推出 Claude Opus 4.6：全面升级的最智能模型]]；关联理由：同一事件；说明：两篇内容都属于 Anthropic 同期 4.6 系列发布，可对照 Sonnet 与 Opus 的产品定位与能力边界。
-- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：解说；说明：本文仅概述了 Claude Code Security 动态，该文补足其工作机制、人工审批边界与实战发现。
-- [[01-博客/Anthropic/Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体|Anthropic与Infosys达成合作：为受监管行业打造企业级AI智能体]]；关联理由：上下游；说明：Sonnet 4.6 的模型能力构成企业落地基础，而该文展开了其在受监管行业的交付场景与合作路径。
+- [[01-博客/Anthropic/推出 Claude Opus 4.6：全面升级的最智能模型-2|推出 Claude Opus 4.6：全面升级的最智能模型]]；关联理由：同一事件；说明：两篇文章同属 Anthropic 在 2026 年 2 月推进的 Claude 4.6 产品线更新，适合对照 Sonnet 与 Opus 在能力、定价和产品定位上的差异。
+- [[01-博客/Anthropic/缓解浏览器使用中的提示词注入风险|缓解浏览器使用中的提示词注入风险]]；关联理由：解说；说明：本文把“计算机使用中的提示词注入”列为核心风险，该文进一步展开了浏览器环境下的攻击面、评测方式与防御手段。
+- [[01-博客/Anthropic/将前沿网络安全能力赋予防御者：Claude Code Security 开启预览|将前沿网络安全能力赋予防御者：Claude Code Security 开启预览]]；关联理由：引用；说明：本文“相关动态”直接提到 Claude Code Security 预览，关联文档补足了其漏洞扫描机制、人工审批边界与适用范围。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
 - [[00-元语/Agent]]
-- [[00-元语/mcp]]
+- [[00-元语/browser-automation]]
 - [[00-元语/security]]
 - [[00-元语/benchmark]]
 - [[00-元语/context-optimization]]
+- [[00-元语/mcp]]

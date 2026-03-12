@@ -118,16 +118,15 @@ I want to design a ski app to track my runs at famous ski resorts, what pages do
 *   Settings: Where users can update personal information, preferences, and app settings.
 
 ## 相关文档
+
 - [[01-博客/宝玉/v0 system prompt (2024-11-22) e3c3c23e|v0 system prompt (2024-11-22)]]；关联理由：解说；说明：两篇都以系统提示词形式约束界面生成行为，但该文聚焦 Stitch 的页面生成与编辑规则，v0 文档补充了前端代码与组件层面的约束细节。
-- [[01-博客/宝玉/What Happens if I Ask v0.dev to Help Me Clone a Page by URL cbb1a270|What Happens if I Ask v0.dev to Help Me Clone a Page by URL?]]；关联理由：解说；说明：本文给出 Stitch 在提示词层的生成约束，该文补充了同类 UI 生成产品在请求预处理、流式解析与实时渲染侧的工程落地。
+- [[01-博客/宝玉/What Happens if I Ask v0.dev to Help Me Clone a Page by URL cbb1a270|What Happens if I Ask v0.dev to Help Me Clone a Page by URL?]]；关联理由：上下游；说明：本文公开的是 Stitch 的上游提示约束，该文对应同类 UI 生成产品把提示词、截图预处理与实时渲染接成完整链路的实现侧细节。
 
 ## 关联主题
+
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/design]]
 - [[00-元语/Agent]]
-- [[00-元语/multimodal]]
-- [[00-元语/protocol]]
-- [[00-元语/ui-protocol]]
 - [[00-元语/workflow]]
 - [[00-元语/tool]]

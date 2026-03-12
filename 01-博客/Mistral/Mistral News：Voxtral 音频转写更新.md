@@ -1,5 +1,5 @@
 ---
-title: "Mistral News：Voxtral 音频转写更新（2026-02-04）"
+title: "Mistral News：Voxtral 音频转写更新"
 发布日期: 2026-02-04
 作者: "Mistral AI"
 来源: "Mistral"
@@ -31,7 +31,12 @@ Mistral AI
 
 精准的说话人分离、实时转录，以及全新的音频游乐场。
 
+## 相关文档
+
+- [[01-博客/Mistral/Mistral 发布 Voxtral Transcribe 2：新一代极速语音转录模型|Mistral 发布 Voxtral Transcribe 2：新一代极速语音转录模型]]；关联理由：版本演进；说明：两篇都围绕 Voxtral 转录产品线，本文记录早期更新，关联文档补充了后续 V2 的模型拆分、定价与部署细节。
+
 ## 关联主题
 
+- [[00-元语/asr]]
+- [[00-元语/audio]]
 - [[00-元语/AI]]
-- [[00-元语/llm]]

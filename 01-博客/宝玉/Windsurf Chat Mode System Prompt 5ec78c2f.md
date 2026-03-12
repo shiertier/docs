@@ -47,15 +47,18 @@ You are in chat mode (read-only mode), so you cannot make any edits directly. In
 
 Answer the user's request using the relevant tool(s), if they are available. Check that all the required parameters for each tool call are provided or can reasonably be inferred from context. IF there are no relevant tools or there are missing values for required parameters, ask the user to supply these values; otherwise proceed with the tool calls. If the user provides a specific value for a parameter (for example provided in quotes), make sure to use that value EXACTLY. DO NOT make up values for or ask about optional parameters. Carefully analyze descriptive terms in the request as they may indicate required parameter values that should be included even if not explicitly quoted.
 
+## 相关文档
+
+- [[01-博客/宝玉/Cursor Chat System Prompt e96838fb|Cursor Chat System Prompt]]；关联理由：延伸思考；说明：两文都在约束 AI IDE 的聊天式交互边界，且都强调非执行态下的回复格式与编辑限制，适合直接对照不同产品的 Chat 模式设计。
+- [[01-博客/宝玉/Cursor Agent mode System Prompt 757fa1ee|Cursor Agent mode System Prompt]]；关联理由：上下游；说明：该文展示了 AI IDE 从“只读提议”走向“可调用工具并直接执行”的更强模式，正好衔接本篇聊天模式的能力上限与切换边界。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
-- [[00-元语/alignment]]
 - [[00-元语/ide]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]
+- [[00-元语/protocol]]
 - [[00-元语/memory]]
-- [[00-元语/compliance]]
+- [[00-元语/sandbox]]
 - [[00-元语/security]]
-- [[00-元语/risk]]

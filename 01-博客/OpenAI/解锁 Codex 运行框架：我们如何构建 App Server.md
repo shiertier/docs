@@ -3,7 +3,7 @@ title: "解锁 Codex 运行框架：我们如何构建 App Server"
 
 来源: "https://openai.com/zh-Hans-CN/index/unlocking-the-codex-harness/"
 英文原文: "https://openai.com/index/unlocking-the-codex-harness/"
-发布日期: "2026年2月4日"
+发布日期: "2026-02-04"
 分类: "[工程](https://openai.com/news/engineering/)"
 ---
 
@@ -151,7 +151,7 @@ TypeScript 代码库，用于在你自己的应用程序中以编程方式控制
 ## 相关文档
 
 - [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：上下游；说明：该文解释 Codex 内部智能体循环，本篇则解释其如何通过 App Server 协议对外暴露运行框架。
-- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：该文从团队工程实践讨论 harness 的组织方式，本篇从协议与线程机制展开其运行框架实现。
+- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：该文从团队工程实践讨论如何围绕 Codex harness 组织仓库、评审与反馈回路，补充本篇协议层之外的落地视角。
 
 ## 关联主题
 
@@ -160,10 +160,7 @@ TypeScript 代码库，用于在你自己的应用程序中以编程方式控制
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
-- [[00-元语/ui-protocol]]
 - [[00-元语/cli]]
-- [[00-元语/tool]]
-- [[00-元语/terminal]]
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
-- [[00-元语/sdk]]
+- [[00-元语/sandbox]]

@@ -232,6 +232,9 @@ Here is the analysis of your tweet impressions:
 
 Let me know if you'd like a more detailed visualization or further breakdown!
 
+## 相关文档
+
+- [[01-博客/宝玉/为什么对于有的人来说 ChatGPT 并没有什么卵用？|为什么对于有的人来说 ChatGPT 并没有什么卵用？]]；关联理由：延伸思考；说明：该文用医疗报告案例展开了“长篇结构化数据直接交给 ChatGPT 容易出错”的原因，并进一步说明为何应把排序、过滤等确定性步骤交给程序处理。
 
 ## 关联主题
 
@@ -241,5 +244,5 @@ Let me know if you'd like a more detailed visualization or further breakdown!
 - [[00-元语/ChatGPT]]
 - [[00-元语/Claude]]
 - [[00-元语/workflow]]
-- [[00-元语/tool]]
+- [[00-元语/data-science]]
 - [[00-元语/数学]]

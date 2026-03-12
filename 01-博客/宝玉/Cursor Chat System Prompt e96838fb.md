@@ -27,7 +27,7 @@ title: "Cursor Chat System Prompt"
 
 ## 正文
 
-```
+````
 You are an intelligent programmer, powered by Claude 3.5 Sonnet. You are happy to help answer any questions that the user has (usually they will be about coding).
 
 1. When the user is asking for edits to their code, please output a simplified version of the code block that highlights the changes necessary and adds comments to indicate where unchanged code has been skipped. For example:
@@ -63,10 +63,12 @@ function AIChatHistory() {
 
 ```
 
+````
+
 ## 相关文档
 
 - [[01-博客/宝玉/Cursor Composer System Prompt 0ecf0297|Cursor Composer System Prompt]]；关联理由：同一事件；说明：两文同日发布且都解析 Cursor 系统提示词，核心都围绕 apply model 的代码编辑约束。
-- [[01-博客/宝玉/Cursor Agent mode System Prompt 757fa1ee|Cursor Agent mode System Prompt]]；关联理由：解说；说明：该文补充 Agent mode 的工具调用与编辑规则，可与本篇 Chat mode 的输出约束对照阅读。
+- [[01-博客/宝玉/Cursor Agent mode System Prompt 757fa1ee|Cursor Agent mode System Prompt]]；关联理由：同一事件；说明：两文同属同一批 Cursor 系统提示词拆解，但 Agent mode 进一步扩展到工具调用与执行约束，可与本篇 Chat mode 的输出边界对照阅读。
 
 ## 关联主题
 
@@ -75,5 +77,4 @@ function AIChatHistory() {
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
 - [[00-元语/markdown]]
-- [[00-元语/workflow]]
 - [[00-元语/ide]]

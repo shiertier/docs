@@ -1,7 +1,10 @@
 ---
 title: "推动AI安全与政策制定：Anthropic向Public First Action捐赠2000万美元"
-
-来源: "https://www.anthropic.com/news/donate-public-first-action"
+发布日期: 2026-02-12
+作者: "Anthropic"
+来源: "Anthropic"
+原文链接: "https://www.anthropic.com/news/donate-public-first-action"
+译注: "根据原文翻译整理"
 ---
 
 ## 摘要
@@ -77,9 +80,16 @@ Public First Action 正致力于填补这一空白。该组织由共和党和民
 *   **Anthropic 与卢旺达政府签署谅解备忘录：** 旨在将 AI 应用于医疗和教育领域。
 *   **推出 Claude Sonnet 4.6：** Sonnet 4.6 在编程、智能体和大规模专业工作方面展现了前沿的性能。
 
+## 相关文档
+
+- [[01-博客/Anthropic/Anthropic 负责任扩展政策 RSP v3 更新解读|Anthropic 负责任扩展政策 RSP v3 更新解读]]；关联理由：解说；说明：该文把前沿模型透明度、安全护栏与对外问责机制落实为 RSP、风险报告和外部审查，是本文政策主张在公司内部治理层面的具体化。
+- [[01-博客/Anthropic/Dario Amodei 关于我们与战争部讨论的声明|Dario Amodei 关于我们与战争部讨论的声明]]；关联理由：观点一致；说明：两文都主张在维护美国安全优势的同时保留明确护栏，说明 Anthropic 的政策参与并非单纯反监管，而是强调“领先”和“约束”并行。
+- [[01-博客/Anthropic/应对 AI 经济影响的政策路径|应对 AI 经济影响的政策路径]]；关联理由：延伸思考；说明：该文把本文“不在政策制定中袖手旁观”的表态延伸到劳动力与财政层面的具体政策工具，展示 Anthropic 持续投入公共政策议题的另一条线。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/compliance]]
-- [[00-元语/risk]]
 - [[00-元语/security]]
+- [[00-元语/risk]]
+- [[00-元语/compliance]]
+- [[00-元语/decision-making]]

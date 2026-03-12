@@ -45,7 +45,15 @@ Perplexity 推出了一款名为“Computer”的云端 AI 代理工具，该工
 
 原文中的完整上下文与细节请以原文链接为准。
 
+## 相关文档
+
+- [[01-博客/Semafor/Perplexity 的 Computer 并非最初产品规划|Perplexity 的 Computer 并非最初产品规划]]；关联理由：同一事件；说明：两文都围绕 Perplexity 发布 `Computer` 展开，Semafor 更侧重产品起源、开发节奏与路线提级。
+- [[01-博客/Ars Technica/Perplexity 宣布推出“Computer”：一个能给其他 AI 智能体分配工作的 AI 智能体|Perplexity 宣布推出“Computer”：一个能给其他 AI 智能体分配工作的 AI 智能体]]；关联理由：同一事件；说明：该文补充了 `Computer` 的运行环境、子任务分发和多智能体执行细节。
+- [[01-博客/宝玉/生成式 AI 路由|生成式 AI 路由]]；关联理由：解说；说明：该文解释了按任务把请求分派给不同模型或智能体的路由机制，正好对应本文的多模型策略。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/Agent]]
+- [[00-元语/workflow]]

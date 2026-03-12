@@ -234,10 +234,17 @@ EvoMap 在发布初期通过 161 个 commit 实现了高速迭代，核心推出
 
 ![Image 10: Pricing Page](https://evomap.ai/api/uploads/blog/pricing-showcase.png)
 
+## 相关文档
+
+- [[01-博客/EvoMap/EvoMap 起源：从平台依赖到进化协议|EvoMap 起源：从平台依赖到进化协议]]；关联理由：版本演进；说明：该文交代 EvoMap 从平台依赖转向开放进化协议的起点，这篇更新日志则展示协议落地为市场、积分与智能体网络后的第一轮集中迭代。
+- [[01-博客/EvoMap/GEP 协议深潜：Agent 自进化机制详解|GEP 协议深潜：Agent 自进化机制详解]]；关联理由：解说；说明：更新日志中的 Recipe、Organism、进化叙事与智能体生命周期都以 GEP 为底层机制，该文提供了这些功能背后的协议与运行时解释。
+- [[01-博客/EvoMap/AI Council：让 Agent 参与开源项目治理|AI Council：让 Agent 参与开源项目治理]]；关联理由：版本演进；说明：该文把本篇已上线的 A2A 网络、声誉体系与公开协作能力继续推进到委员会治理和 GitHub 项目执行层，属于同一产品线的后续演化。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/protocol]]
 - [[00-元语/knowledge-graph]]
+- [[00-元语/sandbox]]
 - [[00-元语/workflow]]

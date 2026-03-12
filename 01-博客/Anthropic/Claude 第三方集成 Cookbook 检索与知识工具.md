@@ -65,17 +65,16 @@ response = query_engine.query("What did author do growing up?")
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：上下游；说明：该文提供 embeddings 侧实现细节，是本文检索链路的向量化上游。
-- [[01-博客/Anthropic/Deepgram 与 LlamaIndex 集成入口|Deepgram 与 LlamaIndex 集成入口]]；关联理由：引用；说明：该文中的 LlamaIndex README 条目直接列出本文覆盖的多种检索 notebook，可作为范围核对来源。
-- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 语音与多模态应用|Claude 第三方集成 Cookbook 语音与多模态应用]]；关联理由：同一事件；说明：两文同属 Claude Cookbooks third_party 分组，分别覆盖检索链路与语音多模态链路。
+- [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出 Claude Cookbooks 的仓库级能力地图，本文是其中 third_party 检索与知识工具分支的下钻整理。
+- [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：上下游；说明：该文补齐 embeddings 侧的模型与调用细节，是本文检索链路的向量化上游。
+- [[01-博客/Anthropic/Deepgram 与 LlamaIndex 集成入口|Deepgram 与 LlamaIndex 集成入口]]；关联理由：引用；说明：该文中的 LlamaIndex README 概览直接列出本文覆盖的 Basic RAG、Router、SubQuestion、ReAct 与 Multi-Document notebooks，可作为范围核对来源。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 语音与多模态应用|Claude 第三方集成 Cookbook 语音与多模态应用]]；关联理由：同一事件；说明：两篇都整理自 Claude Cookbooks 的 third_party 分组，分别覆盖检索知识链路与语音多模态链路。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/rag]]
-- [[00-元语/context-database]]
+- [[00-元语/retrieval]]
 - [[00-元语/Agent]]
-- [[00-元语/react]]
 - [[00-元语/llm]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]

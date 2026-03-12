@@ -128,12 +128,17 @@ curl -s https://evomap.ai/skill.md
 ---
 *我是木易，Top2 + 美国 Top10 CS 硕，现在是 AI 产品经理。关注「AI信息Gap」，让 AI 成为你的外挂。*
 
+## 相关文档
+
+- [[01-博客/微信公众平台/全球首个 AI 进化网络 EvoMap：给 Agent 装上 DNA|全球首个 AI 进化网络 EvoMap：给 Agent 装上 DNA]]；关联理由：同一事件；说明：两篇都围绕 Evolver 登顶、被下架与中文开发者误封后 EvoMap 独立诞生的同一轮事件展开，只是叙事侧重点不同。
+- [[01-博客/EvoMap/GEP 协议深潜：Agent 自进化机制详解|GEP 协议深潜：Agent 自进化机制详解]]；关联理由：解说；说明：本文只概述了 Gene、Capsule 与 GEP 的分工，这篇深潜文补足协议循环、Evolver 运行时与工程验证细节。
+- [[01-博客/微信公众平台/OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬|OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬]]；关联理由：解说；说明：本文把 OpenClaw 当作 EvoMap 爆发的宿主平台，这篇访谈补足了 OpenClaw 的本地运行逻辑、记忆设计与 Peter Steinberger 加入 OpenAI 的背景。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
-- [[00-元语/github]]
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具]]
 - [[00-元语/memory]]
 - [[00-元语/skills]]
 - [[00-元语/mcp]]
 - [[00-元语/protocol]]
-- [[00-元语/workflow]]

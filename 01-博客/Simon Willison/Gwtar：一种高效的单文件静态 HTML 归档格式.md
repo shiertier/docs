@@ -61,5 +61,4 @@ perl -ne'print $_ if $x; $x=1 if /<!-- GWTAR END/' < foo.gwtar.html | tar --extr
 ## 关联主题
 
 - [[00-元语/protocol]]
-- [[00-元语/virtual-file-system]]
-- [[00-元语/cli]]
+- [[00-元语/security]]

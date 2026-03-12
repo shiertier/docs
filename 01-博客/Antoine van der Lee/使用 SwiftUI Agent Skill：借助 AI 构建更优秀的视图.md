@@ -1,5 +1,10 @@
 ---
 title: "使用 SwiftUI Agent Skill：借助 AI 构建更优秀的视图"
+发布日期: 2026-02-02
+作者: "Antoine van der Lee"
+来源: "SwiftLee"
+原文链接: "https://www.avanderlee.com/ai-development/swiftui-agent-skill-build-better-views-with-ai/"
+译注: "当前未检索到该文的官方中文版本，本文为基于原文的中文整理译稿。"
 ---
 
 ## 摘要
@@ -75,14 +80,16 @@ SwiftUI Agent Skill 已经对我使用代理生成的代码产生了积极影响
 
 ## 相关文档
 
-- [[01-博客/OpenAI/用 Evals 系统化测试 Agent Skills|用 Evals 系统化测试 Agent Skills]]；关联理由：上下游；说明：本文给出 SwiftUI Skill 的构建与使用案例，该文补充了同类 Skill 的系统化评测与回归验证方法。
-- [[01-博客/宝玉/SubAgent 与 Skills：AI Agent 的两种扩展方式|SubAgent 与 Skills：AI Agent 的两种扩展方式]]；关联理由：解说；说明：本文展示 Skill 在开发中的实际收益，该文进一步解释 Skills 与 SubAgent 的机制边界和适用场景。
-- [[01-博客/宝玉/我写了个 Skill，让 Agent 自动给文章配图|我写了个 Skill，让 Agent 自动给文章配图]]；关联理由：观点一致；说明：两文都强调将领域经验沉淀为可复用 Skill，以减少重复提示并提升 AI 产出质量。
+- [[01-博客/数字生命卡兹克/一文带你看懂，火爆全网的Skills到底是个啥。|一文带你看懂，火爆全网的Skills到底是个啥。]]；关联理由：解说；说明：本文默认读者已理解 Agent Skills 的渐进式加载与 `SKILL.md` 结构，这篇文章正好补齐这部分基础背景。
+- [[01-博客/InfoQ/Vercel 发布 React Best Practices Skill：为 AI 代理提供 40+ 性能规则|Vercel 发布 React Best Practices Skill：为 AI 代理提供 40+ 性能规则]]；关联理由：观点一致；说明：两文都把前端框架最佳实践封装成可复用 Skill，用于提升 AI 的首版生成、代码审查与重构质量。
+- [[01-博客/宝玉/OpenAI 智能体工程指南：10 条实战技巧和 3 种构建模式|OpenAI 智能体工程指南：10 条实战技巧和 3 种构建模式]]；关联理由：延伸思考；说明：本文提到代理不一定总能自动找到 SwiftUI Skill，这篇指南进一步解释了技能描述、负面示例与路由边界如何影响触发效果。
+- [[01-博客/微信公众平台/Vercel 给 Agent Skills 泼了一盆冷水|Vercel 给 Agent Skills 泼了一盆冷水]]；关联理由：延伸思考；说明：本文展示 Skills 如何改善 SwiftUI 视图质量，这篇文章则补充了 Skills 在版本化知识检索场景中的失效边界。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/skills]]
-- [[00-元语/github]]
+- [[00-元语/code-review]]
+- [[00-元语/design]]
 - [[00-元语/软件工程]]

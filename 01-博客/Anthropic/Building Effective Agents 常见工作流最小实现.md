@@ -38,14 +38,13 @@ Erik Schluntz 和 Barry Zhang 撰写的文章 [Building Effective Agents](https:
 详细示例请参阅以下 Jupyter Notebook：
 
 - 基础工作流（`basic_workflows.ipynb`）
-- 评估者-优化者工作流（`evaluator_optimizer.ipynb`） 
+- 评估者-优化者工作流（`evaluator_optimizer.ipynb`）
 - 编排者-工作者工作流（`orchestrator_workers.ipynb`）
 
 ## 相关文档
 
-- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：引用；说明：本篇明确作为该文提出的五类工作流模式的最小参考实现，可对照方法论与代码示例阅读。
-- [[01-博客/Anthropic/使用 Claude Agent SDK 构建强大智能体教程|使用 Claude Agent SDK 构建强大智能体教程]]；关联理由：延伸思考；说明：该文将本篇的最小工作流模式扩展到 SDK 驱动的多智能体工程实现与外部系统集成。
-- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：解说；说明：该文对本篇同一组工作流模式提供了 Notebook 级别的逐项展开与实践说明。
+- [[01-博客/Anthropic/构建高效智能体：Building Effective Agents|构建高效智能体：Building Effective Agents]]；关联理由：引用；说明：本篇是该文附带的参考实现 README，把文中五类工作流模式落到最小代码示例上。
+- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：解说；说明：本篇只概述三组 notebook 与对应模式，该文逐项展开同一批 notebook 的结构与示例代码。
 
 ## 关联主题
 
@@ -55,4 +54,5 @@ Erik Schluntz 和 Barry Zhang 撰写的文章 [Building Effective Agents](https:
 - [[00-元语/llm]]
 - [[00-元语/evals]]
 - [[00-元语/Claude]]
+- [[00-元语/learning-resource]]
 - [[00-元语/github]]

@@ -248,14 +248,14 @@ _图片来自_[_Latent Space_](https://x.com/nlpguy_/status/1883776497858883669)
 
 ## 相关文档
 
-- [[01-博客/宝玉/Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点.md|Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点]]；关联理由：版本演进；说明：同为 Dario 访谈脉络，后文延展了本篇对中美竞争与安全治理的后续判断。
+- [[01-博客/宝玉/Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点.md|Anthropic CEO Dario Amodei 访谈：我们正在接近指数的终点]]；关联理由：版本演进；说明：同为 Dario 的长访谈，后文把本篇对中美竞争、芯片限制与安全治理的判断进一步延展到 AGI 时间表、算力投资与联邦监管。
+- [[01-博客/Anthropic/检测与防范蒸馏攻击.md|检测与防范蒸馏攻击]]；关联理由：延伸思考；说明：Anthropic 在后续正式通告里把本篇对 DeepSeek、安全护栏与出口管制的担忧，进一步具体化为蒸馏攻击和能力外流的证据链。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
-- [[00-元语/alignment]]
 - [[00-元语/security]]
 - [[00-元语/risk]]
+- [[00-元语/alignment]]
 - [[00-元语/compliance]]
-- [[00-元语/hardware-control]]

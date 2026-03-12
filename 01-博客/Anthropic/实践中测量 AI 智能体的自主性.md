@@ -1,7 +1,9 @@
 ---
 title: "实践中测量 AI 智能体的自主性"
-
-来源: "https://www.anthropic.com/research/measuring-agent-autonomy"
+站点: "Anthropic Research"
+原文链接: "https://www.anthropic.com/research/measuring-agent-autonomy"
+发布日期: 2026-02-18
+译注: "未找到官方中文版本，本文基于英文原文翻译整理。"
 ---
 
 ## 摘要
@@ -135,13 +137,18 @@ Miles McCain, Thomas Millar, Saffron Huang, Jake Eaton, Kunal Handa, Michael Ste
 8.  **人类参与的估算：** 估算人类参与度非常困难。在我们的手动验证中，Claude 在分类“无人类参与”时几乎总是正确的，但有时会在没有人类参与的地方错误识别出人类参与。因此，我们报告的 80% 和 73% 应被视为人类参与度的上限。
 9.  **风险与自主性评分：** 我们将这些分数视为比较指标而非精确测量。我们依赖 Claude 对每个工具调用周围上下文的总体判断，这使得分数在相互比较动作时比绝对解释更有意义。
 
+## 相关文档
+
+- [[01-博客/Anthropic/AI 如何重塑 Anthropic 的日常工作|AI 如何重塑 Anthropic 的日常工作]]；关联理由：解说；说明：该文用 Anthropic 内部 Claude Code 数据呈现可委托比例、监督需求与任务复杂性变化，可直接补充本文对自主性增长的组织内视角。
+- [[01-博客/Anthropic/Anthropic 经济指数：理解 AI 使用的新基石|Anthropic 经济指数：理解 AI 使用的新基石]]；关联理由：上下游；说明：该文先把 AI 自主性纳入经济基元框架衡量真实任务中的增强与自动化，本文则沿着同一测量思路下钻到已部署智能体的自主运行时长、打断与风险分布。
+- [[01-博客/Anthropic/AI 辅助如何影响编程技能的形成|AI 辅助如何影响编程技能的形成]]；关联理由：延伸思考；说明：本文指出有效监督更接近关键节点监控与干预，而该文说明代码理解和调试能力下降会削弱人类承担这种监督角色的能力。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
-- [[00-元语/alignment]]
-- [[00-元语/evals]]
+- [[00-元语/Claude Code]]
 - [[00-元语/observability]]
 - [[00-元语/risk]]
 - [[00-元语/软件工程]]

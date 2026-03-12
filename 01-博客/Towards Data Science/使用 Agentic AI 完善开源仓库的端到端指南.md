@@ -132,13 +132,17 @@ GAN-MFS 是一个提供 Wasserstein GAN 带有梯度惩罚 (WGAN-GP) 的 PyTorch
 如果你希望在你的工作中使用 OSA，可以引用为：
 *Nikitin N. et al. An LLM-Powered Tool for Enhancing Scientific Open-Source Repositories // Championing Open-source DEvelopment in ML Workshop@ ICML25.*
 
+## 相关文档
+
+- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：延伸思考；说明：本文聚焦用 Agent 自动补齐科研仓库的 README、文档与 CI，另一文把同类思路扩展到百万行产品仓库，并补充了 PR、知识库与机械约束如何规模化落地。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
-- [[00-元语/github]]
 - [[00-元语/CI]]
-- [[00-元语/README]]
 - [[00-元语/cli]]
+- [[00-元语/workflow]]
+- [[00-元语/paper]]
+- [[00-元语/github]]
 - [[00-元语/软件工程]]

@@ -212,13 +212,19 @@ FastVideo 团队：[Peiyuan Zhang](https://github.com/jzhang38), [William Lin](h
 *   路线图：[Diffusion (2025 Q4)](https://github.com/sgl-project/sglang/issues/12799)
 *   Slack 频道：[#diffusion](https://sgl-fru7574.slack.com/archives/C09P0HTKE6A)（通过 slack.sglang.io 加入）
 
+## 相关文档
+
+- [[02-资源/AI-模型与推理基础设施/sglang：推理服务系统用于大语言模型与多模态模型高性能部署|sglang：推理服务系统用于大语言模型与多模态模型高性能部署]]；关联理由：版本演进；说明：本文专门展开 sglang 在扩散模型推理上的架构、基准与接口，可视为通用项目档案的能力扩展。
+- [[02-资源/AI-模型与推理基础设施/Wan2.1：视频生成大模型项目|Wan2.1：视频生成大模型项目]]；关联理由：上下游；说明：本文以 Wan2.1 作为文本到视频与图像到视频示例，补足该模型在 SGLang 推理引擎中的部署侧信息。
+- [[02-资源/AI-模型与推理基础设施/Qwen-Image：强大的图像生成与编辑基础模型|Qwen-Image：强大的图像生成与编辑基础模型]]；关联理由：上下游；说明：本文展示 Qwen-Image 与 Qwen-Image-Edit 在 SGLang Diffusion 中的调用方式，可作为该模型的推理集成补充。
+
 ## 关联主题
 
 - [[00-元语/AI]]
+- [[00-元语/diffusion]]
 - [[00-元语/multimodal]]
 - [[00-元语/video]]
+- [[00-元语/text-to-image]]
 - [[00-元语/image-editing]]
 - [[00-元语/benchmark]]
 - [[00-元语/cli]]
-- [[00-元语/roadmap]]
-- [[00-元语/github]]

@@ -93,6 +93,10 @@ title: "教会AI看地图"
 
 *(注：本研究由 Artemis Panagopoulou、Mohit Goyal 及 Google 研究团队的其他成员共同完成。)*
 
+## 相关文档
+
+- [[01-博客/Anthropic/Project Fetch：Claude 能否训练机器狗|Project Fetch：Claude 能否训练机器狗]]；关联理由：上下游；说明：本文把地图空间推理明确指向机器人与自主智能体导航场景，该文展示了模型辅助真实机器人完成定位与导航任务的下游应用摩擦。
+
 ## 关联主题
 
 - [[00-元语/AI]]

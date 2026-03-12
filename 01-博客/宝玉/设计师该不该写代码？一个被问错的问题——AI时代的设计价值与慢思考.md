@@ -150,14 +150,19 @@ Karri 文章最后写道：
 
 ![Image 1](https://baoyu.io/uploads/2025-12-26/Gemini_Generated_Image_p092xxp092xxp092.png)
 
+## 相关文档
+
+- [[01-博客/宝玉/Cursor 设计负责人：只会画按钮的设计师，有麻烦了|Cursor 设计负责人：只会画按钮的设计师，有麻烦了]]；关联理由：观点一致；说明：两文都认为 AI 时代设计的核心价值不在于画按钮或产出 mock，而在于定义问题、抽象概念和引导实现方向。
+- [[01-博客/宝玉/从失败中重生：一次Frontend AI Agent落地的真实复盘|Reborn from Failure: A Real-World Retrospective on Landing a Frontend AI Agent]]；关联理由：引用；说明：正文提到作者前几天分享的 Agent 落地失败故事，该文就是这次案例的完整复盘，并把“先定义问题再决定是否做 Agent”落到设计系统场景。
+- [[01-博客/宝玉/当翻译层消失，还剩下什么？|当翻译层消失，还剩下什么？]]；关联理由：延伸思考；说明：本文把设计中的“慢思考”落在问题定义与概念探索上，该文把同一判断扩展到 PM 等知识工作角色的重估。
+
 ## 关联主题
 
+- [[00-元语/design]]
+- [[00-元语/decision-making]]
 - [[00-元语/Agent]]
 - [[00-元语/AI]]
 - [[00-元语/prompt]]
-- [[00-元语/design]]
-- [[00-元语/decision-making]]
-- [[00-元语/workflow]]
 - [[00-元语/知识工作]]
-- [[00-元语/career]]
 - [[00-元语/组织设计]]
+- [[00-元语/career]]

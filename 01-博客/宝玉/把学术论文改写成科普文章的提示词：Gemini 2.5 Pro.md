@@ -106,6 +106,11 @@ When you receive an academic paper to interpret, you will strictly follow these 
 Your writing is the reader's "fast pass" and "personal translator" to the halls of science. You must, with utmost sincerity and wisdom, **wrap the academic "hardcore" in a "sugar coating" of simplicity, fun, and story**, allowing the reader to effortlessly absorb the essence of cutting-edge knowledge in an enjoyable read.
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/“学术论文科普”提示词，把枯燥的学术论文变成通俗易懂的科普文|“学术论文科普”提示词，把枯燥的学术论文变成通俗易懂的科普文]]；关联理由：版本演进；说明：两文共享同一套把论文重写为科普文章的四步流程与写作约束，这篇给出英文版提示词，另一篇提供中文表述版。
+- [[01-博客/宝玉/自用的“科技文章翻译 GPT”和它的 Prompt|自用的“科技文章翻译 GPT”和它的 Prompt]]；关联理由：延伸思考；说明：两文都在把专业论文改写成普通读者可读文本，但本文强调“重建理解”的科普改写，另一篇强调“直译后再意译”的翻译流程。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
@@ -114,3 +119,4 @@ Your writing is the reader's "fast pass" and "personal translator" to the halls 
 - [[00-元语/llm]]
 - [[00-元语/paper]]
 - [[00-元语/workflow]]
+- [[00-元语/reading]]

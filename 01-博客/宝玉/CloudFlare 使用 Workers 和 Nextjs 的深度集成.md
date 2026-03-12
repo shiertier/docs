@@ -56,8 +56,12 @@ export default {
 } satisfies ExportedHandler<CloudflareEnv>;
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/将博客系统迁移至了 CloudFlare|将博客系统迁移至了 CloudFlare]]；关联理由：延伸思考；说明：同一作者在博客迁移实战中补充了 OpenNext 对 Next.js 的兼容背景，能作为本文集成方案的落地案例。
+
 ## 关联主题
 
 - [[00-元语/cloudflare]]
 - [[00-元语/serverless]]
-- [[00-元语/react]]
+- [[02-资源/AI-应用框架与平台/next.js：React 全栈 Web 应用开发工具，集成 Rust JavaScript 工具链以加速构建|Next.js]]

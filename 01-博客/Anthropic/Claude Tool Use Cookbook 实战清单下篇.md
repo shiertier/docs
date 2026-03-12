@@ -75,20 +75,19 @@ tools = [
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单上篇|Claude Tool Use Cookbook 实战清单上篇]]；关联理由：版本演进；说明：两篇同属 Tool Use Cookbook 的连续整理，上篇提供基础能力，下篇聚焦生产化能力扩展。
-- [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：解说；说明：下篇覆盖 tool search notebook，关联文提供官方文档级机制说明与接口细节。
-- [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：同一事件；说明：该文发布了 tool search 与 programmatic tool calling，和本文覆盖的下篇 notebook 能力一一对应。
+- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单上篇|Claude Tool Use Cookbook 实战清单上篇]]；关联理由：版本演进；说明：两篇同属 Tool Use Cookbook 连续整理，上篇聚焦基础工具调用，下篇扩展到检索、压缩、记忆与视觉链路。
+- [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：解说；说明：本文覆盖的工具检索 notebook 处理大规模工具路由，关联文补充官方 Tool Search 的接口约束、搜索变体与自定义实现边界。
+- [[01-博客/Anthropic/Programmatic Tool Calling：Claude API 程序化工具调用指南|Programmatic Tool Calling：Claude API 程序化工具调用指南]]；关联理由：解说；说明：本文提到的 programmatic tool calling 在关联文中被展开为更完整的执行流程、限制条件与响应格式说明。
+- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：上下游；说明：本文把 context compaction 与 memory 管理放进工具调用链路，关联文补充长会话压缩与会话优化的工程实现。
+- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：上下游；说明：关联文先处理视觉输入、裁剪与图文理解，本文的 `vision_with_tools` 再把这些结果接入外部工具链执行后续动作。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
-- [[00-元语/llm]]
 - [[00-元语/tool]]
-- [[00-元语/prompt]]
+- [[00-元语/retrieval]]
 - [[00-元语/context-optimization]]
 - [[00-元语/memory]]
 - [[00-元语/multimodal]]
 - [[00-元语/observability]]
-- [[00-元语/llmops]]
-- [[00-元语/workflow]]

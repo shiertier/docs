@@ -89,13 +89,16 @@ seeds?: number[],
 
 } // namespace dalle
 
+## 相关文档
+
+- [[01-博客/宝玉/Full Prompt of ChatGPT 4o with canvas c4e2da71|Full Prompt of ChatGPT 4o with canvas]]；关联理由：版本演进；说明：两文都披露 ChatGPT 内置绘图工具的系统提示词与限制规则，后者可作为 DALL-E 工具策略在 2024 年的演进对照。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/prompt]]
-- [[00-元语/multimodal]]
-- [[00-元语/image-editing]]
+- [[00-元语/text-to-image]]
 - [[00-元语/alignment]]
 - [[00-元语/compliance]]
 - [[00-元语/risk]]

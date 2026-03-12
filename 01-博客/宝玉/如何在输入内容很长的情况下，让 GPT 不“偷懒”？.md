@@ -56,8 +56,7 @@ title: "如何在输入内容很长的情况下，让 GPT 不“偷懒”？"
 ## 关联主题
 
 - [[00-元语/prompt]]
+- [[00-元语/machine-translation]]
 - [[00-元语/context-optimization]]
-- [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/ChatGPT]]
-- [[00-元语/workflow]]

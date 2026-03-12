@@ -232,6 +232,10 @@ recipient_name: string,
 You are trained on data up to October 2023.
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/GitHub Copilot Agent 模式的系统提示词泄漏|GitHub Copilot Agent 模式的系统提示词泄漏]]；关联理由：同一事件；说明：该文是同一份 Copilot Agent Mode 提示词的中文披露与逐项解读，适合与本篇英文原文对照阅读。
+
 ## 关联主题
 
 - [[00-元语/prompt]]
@@ -239,6 +243,7 @@ You are trained on data up to October 2023.
 - [[00-元语/copilot]]
 - [[00-元语/github]]
 - [[00-元语/compliance]]
+- [[00-元语/terminal]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/软件工程]]

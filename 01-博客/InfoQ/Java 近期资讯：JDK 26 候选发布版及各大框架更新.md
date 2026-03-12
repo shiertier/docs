@@ -82,6 +82,7 @@ Gradle 9.4.0 的第一个候选版本（RC1）带来了以下更新：
 ## 关联主题
 
 - [[00-元语/软件工程]]
-- [[00-元语/observability]]
 - [[00-元语/sdk]]
-- [[00-元语/community]]
+- [[00-元语/roadmap]]
+- [[00-元语/bug-fix]]
+- [[00-元语/observability]]

@@ -93,11 +93,14 @@ TipTap 编辑器很好，但是有个坑就是就是复制粘贴图文混排的H
 
 ![Image 3](https://baoyu.io/uploads/2024-10-02/paste-1727901427654.png)
 
+## 相关文档
+
+- [[01-博客/宝玉/CloudFlare 使用 Workers 和 Nextjs 的深度集成|CloudFlare 使用 Workers 和 Nextjs 的深度集成]]；关联理由：延伸思考；说明：本文提到 OpenNext 改善了 Cloudflare 对 Next.js 的支持，而该文继续展开了 Workers 与 Next.js 深度集成的具体实现方式。
+
 ## 关联主题
 
 - [[00-元语/cloudflare]]
 - [[00-元语/serverless]]
-- [[00-元语/data-pipeline]]
 - [[00-元语/ETL]]
 - [[00-元语/markdown]]
 - [[00-元语/workflow]]

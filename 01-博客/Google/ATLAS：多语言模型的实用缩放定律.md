@@ -1,5 +1,7 @@
 ---
 title: "ATLAS：多语言模型的实用缩放定律"
+来源: "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/"
+发布日期: 2026-01-27
 ---
 
 ## 摘要
@@ -82,4 +84,5 @@ ATLAS超越了以英语为中心的缩放定律，为全球模型开发者提供
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/benchmark]]
+- [[00-元语/evals]]
 - [[00-元语/paper]]

@@ -129,18 +129,19 @@ Different directions, but the same core methodology: treat Codex as a highly cap
 
 ![Image 4: Three pillars of Codex methodology: clear instructions, external memory, verification](https://s.baoyu.io/imgs/2026-01-31/codex-recover-source-code/04-infographic-methodology.png)
 
+## 相关文档
+
+- [[01-博客/OpenAI/我们如何使用 Codex 在 28 天内构建 Android 版 Sora|我们如何使用 Codex 在 28 天内构建 Android 版 Sora]]；关联理由：引用；说明：本文明确提到这篇 OpenAI 文章是作者想到用 Codex 恢复丢失源码的直接触发点。
+- [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：解说；说明：该文解释 Codex 在长会话中的上下文管理与压缩机制，可补全本文“新会话继续执行”背后的运行背景。
+- [[01-博客/Anthropic/面向 AI Agent 的上下文工程实践|面向 AI Agent 的上下文工程实践]]；关联理由：解说；说明：该文系统说明结构化笔记、上下文压缩与长周期任务管理，正好对应本文用 `AGENT.md` 和 `PLAN.md` 维护外部记忆的做法。
+- [[01-博客/Simon Willison/利用 Claude 会话日志找回丢失的代码|利用 Claude 会话日志找回丢失的代码]]；关联理由：延伸思考；说明：两文都围绕代码丢失后的恢复，但本文强调逆向重建与自动修复循环，另一文强调从会话日志直接提取丢失代码。
+
 ## 关联主题
 
-- [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
 - [[00-元语/Agent]]
+- [[00-元语/memory]]
+- [[00-元语/context-optimization]]
 - [[00-元语/workflow]]
 - [[00-元语/bug-fix]]
-- [[00-元语/context-optimization]]
-- [[00-元语/memory]]
-- [[00-元语/terminal]]
-- [[00-元语/cli]]
 - [[00-元语/typescript]]
-- [[00-元语/desktop-client]]
-- [[00-元语/evals]]
-- [[00-元语/软件工程]]

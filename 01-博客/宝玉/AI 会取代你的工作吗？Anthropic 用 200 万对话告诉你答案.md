@@ -169,11 +169,17 @@ AI 到底能让生产力提升多少？
 
 ![Image 9: 未来工作：与 AI 协作](https://s.baoyu.io/imgs/2026-01-16/anthropic-economic-index-primitives/illustration-future-work.png)
 
+## 相关文档
+
+- [[01-博客/Anthropic/Anthropic 经济指数：理解 AI 使用的新基石|Anthropic 经济指数：理解 AI 使用的新基石]]；关联理由：引用；说明：本文关于经济原语、任务成功率、有效覆盖率与去技能化的核心结论，直接来自这份 Anthropic 官方报告。
+- [[01-博客/Anthropic/估算 Claude 对话带来的 AI 生产力收益|估算 Claude 对话带来的 AI 生产力收益]]；关联理由：版本演进；说明：本文讨论“1.8% 基线估算打折后仍有显著提升”时，所承接的正是这篇更早的生产力测算研究。
+- [[01-博客/Anthropic/Anthropic 教育报告：AI 熟练度指数|Anthropic 教育报告：AI 熟练度指数]]；关联理由：延伸思考；说明：本文最后强调用户输入质量和多轮协作决定 AI 价值，该文把这种差异进一步拆解为可观察的 AI 熟练度行为。
+- [[01-博客/Anthropic/AI 如何重塑 Anthropic 的日常工作|AI 如何重塑 Anthropic 的日常工作]]；关联理由：解说；说明：本文抽象讨论白领工作的去技能化与岗位重排，该文则用 Anthropic 内部调研给出更具体的组织层证据。
+
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/AI]]
-- [[00-元语/evals]]
 - [[00-元语/prompt]]
 - [[00-元语/知识工作]]
 - [[00-元语/productivity]]

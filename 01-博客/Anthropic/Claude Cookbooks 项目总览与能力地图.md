@@ -98,20 +98,23 @@ Claude Cookbooks 的蓬勃发展离不开开发者社区的贡献。我们非常
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：本篇是目录与能力地图，上述文档给出该仓库的贡献和实现规范，形成从总览到落地的上下游关系。
 - [[01-博客/Anthropic/Claude Capabilities 指南与 Promptfoo 评测实践|Claude Capabilities 指南与 Promptfoo 评测实践]]；关联理由：解说；说明：该文对本篇列出的 capabilities 分组做了展开，并补充了评测方法与执行细节。
 - [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单上篇|Claude Tool Use Cookbook 实战清单上篇]]；关联理由：解说；说明：该文细化了本篇 tool_use 分组中的工具定义、调用策略与并行执行实践。
-- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：解说；说明：该文对应本篇 multimodal 分组，补充视觉输入、裁剪工具与子代理协同的落地方法。
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 检索与知识工具|Claude 第三方集成 Cookbook 检索与知识工具]]；关联理由：解说；说明：该文对应本篇 third_party 分组中的检索与知识工具路线，补齐外部知识系统接入方式。
 - [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：引用；说明：本篇在 third_party 集成中明确列出 Voyage AI embeddings 条目，该文是对应的实作细化页。
+- [[01-博客/Anthropic/Claude Multimodal Cookbook 实战手册|Claude Multimodal Cookbook 实战手册]]；关联理由：解说；说明：该文对应本篇 multimodal 分组，补充视觉输入、裁剪工具与子代理协同的落地方法。
+- [[01-博客/Anthropic/Claude Misc Cookbook 评测与结构化输出|Claude Misc Cookbook 评测与结构化输出]]；关联理由：解说；说明：该文展开本篇 advanced techniques 里的 evals、JSON 模式、SQL、引用与 PDF 处理等实践。
+- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：解说；说明：该文对应本篇 advanced techniques 里的 prompt caching 与上下文优化主题，补齐成本与延迟控制方法。
+- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：解说；说明：本篇给出仓库总览与贡献入口，该文进一步展开代码规范、提交流程与新增示例的落地约束。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
-- [[00-元语/Agent]]
 - [[00-元语/github]]
+- [[00-元语/learning-resource]]
 - [[00-元语/rag]]
 - [[00-元语/multimodal]]
+- [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/evals]]
 - [[00-元语/tool]]
-- [[00-元语/learning-resource]]

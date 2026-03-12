@@ -343,26 +343,18 @@ Toggle theme
 
 ## 相关文档
 
-- [[01-博客/微信公众平台/OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬|OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬]]；关联理由：观点一致；说明：两篇访谈都强调 OpenClaw 的本地执行能力，并提出“80% 的 App 将被 Agent 替代”的同一核心判断。
-- [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：引用；说明：该文在并行开发方法部分直接引用了 Peter 的多目录工作流，是本篇实践观点在开发流程层面的延伸。
-- [[01-博客/InfoQ/从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路|从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路]]；关联理由：解说；说明：该文补充了 Peter 的长期工程背景与 OpenClaw 演进脉络，能解释本篇观点形成的上下文。
+- [[01-博客/微信公众平台/OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬|OpenClaw 创始人 YC 访谈：80% 的 App 将被 Agent 吞噬]]；关联理由：观点一致；说明：同为 Peter 的访谈整理，两文都把 OpenClaw 的本地执行能力与“80% 的 App 会被 Agent 吞噬”作为核心判断。
+- [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：引用；说明：该文在讨论并行开发时直接转述 Peter 的多目录并行做法，可作为本篇工程工作流观点的直接引用。
+- [[01-博客/InfoQ/从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路|从维也纳的 PDF 到旧金山的爪子：Peter Steinberger 的来时路]]；关联理由：解说；说明：该文补足 Peter 从 PSPDFKit 到 OpenClaw 的经历与方法论背景，能帮助理解本篇访谈中的工程判断从何而来。
 
 ## 关联主题
 
 - [[00-元语/interview]]
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/软件工程]]
 - [[00-元语/vibe-coding]]
 - [[00-元语/cli]]
 - [[00-元语/mcp]]
-- [[00-元语/prompt]]
 - [[00-元语/browser-automation]]
 - [[00-元语/hardware-control]]
 - [[00-元语/community]]
-- [[00-元语/github]]
-- [[00-元语/workflow]]
-- [[00-元语/memory]]
-- [[00-元语/Codex]]
-- [[00-元语/Claude]]
-- [[00-元语/OpenAI]]

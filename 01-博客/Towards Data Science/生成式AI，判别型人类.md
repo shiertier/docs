@@ -189,3 +189,6 @@ Kasagga A, Sapkota A, Changaramkumarath G, Abucha JM, Wollel MM, Somannagari N, 
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/知识工作]]
+- [[00-元语/decision-making]]
+- [[00-元语/risk]]

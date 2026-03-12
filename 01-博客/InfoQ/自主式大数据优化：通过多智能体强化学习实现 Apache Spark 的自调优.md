@@ -258,6 +258,7 @@ https://www.infoq.com/articles/agent-reinforcement-learning-apache-spark/
 
 ## 关联主题
 
-- [[00-元语/AI]]
-- [[00-元语/llm]]
 - [[00-元语/Agent]]
+- [[00-元语/reinforcement-learning]]
+- [[00-元语/data-pipeline]]
+- [[00-元语/ETL]]

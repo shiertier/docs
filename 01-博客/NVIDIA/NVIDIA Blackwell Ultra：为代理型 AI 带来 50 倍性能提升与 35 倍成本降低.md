@@ -62,10 +62,14 @@ CoreWeave 工程高级副总裁 Chen Goldberg 表示：“随着推理成为 AI 
 
 展望未来，将六款新芯片整合为一台 AI 超级计算机的 NVIDIA Rubin 平台，即将带来新一轮的巨大性能飞跃。在 MoE 推理方面，与 Blackwell 相比，Rubin 的每兆瓦吞吐量提升了高达 10 倍，这意味着每百万 Token 的成本将降至十分之一。而对于下一代前沿 AI 模型，Rubin 训练大型 MoE 模型所需的 GPU 数量仅为 Blackwell 的四分之一。
 
+## 相关文档
+
+- [[01-博客/NVIDIA/顶级推理提供商借助 NVIDIA Blackwell 和开源模型将 AI 成本降低高达 10 倍|顶级推理提供商借助 NVIDIA Blackwell 和开源模型将 AI 成本降低高达 10 倍]]；关联理由：版本演进；说明：本文开篇明确承接 Blackwell 已将每 Token 成本降低 10 倍的前一阶段成果，并进一步展开到 Blackwell Ultra 面向代理型 AI 的后续升级。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/llm]]
-- [[00-元语/llmops]]
 - [[00-元语/benchmark]]
+- [[00-元语/CUDA]]

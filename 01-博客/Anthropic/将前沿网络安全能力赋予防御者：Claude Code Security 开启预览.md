@@ -1,7 +1,7 @@
 ---
 title: "将前沿网络安全能力赋予防御者：Claude Code Security 开启预览"
-
-来源: "https://www.anthropic.com/news/claude-code-security"
+发布日期: 2026-02-20
+原文链接: "https://www.anthropic.com/news/claude-code-security"
 ---
 
 ## 摘要
@@ -66,12 +66,15 @@ Claude Code Security 建立在对 Claude 网络安全能力一年多的研究基
 
 ## 相关文档
 
-- [[01-博客/Anthropic/为网络防御者构建 AI 系统|为网络防御者构建 AI 系统]]；关联理由：上下游；说明：本文提到的 Claude Code Security 能力建立在一年多网络防御研究基础上，关联文档展开了该上游能力建设与评测证据。
+- [[01-博客/Anthropic/为网络防御者构建 AI 系统|为网络防御者构建 AI 系统]]；关联理由：上下游；说明：本文将 Anthropic 已验证的网络防御研究沉淀为 Claude Code 内置安全产品，关联文档则展开了其上游评测、补丁修复能力与防御定位。
+- [[01-博客/Anthropic/评估与缓解大语言模型发现零日漏洞的风险|评估与缓解大语言模型发现零日漏洞的风险]]；关联理由：引用；说明：本文把“Opus 4.6 在开源代码库中发现 500 多个漏洞”作为核心论据，关联文档系统展开了这批零日漏洞的发现流程、人工验证与防滥用措施。
 
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/security]]
+- [[00-元语/code-review]]
 - [[00-元语/risk]]

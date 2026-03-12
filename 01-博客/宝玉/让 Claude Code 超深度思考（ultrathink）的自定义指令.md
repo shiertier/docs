@@ -87,11 +87,16 @@ You are the Coordinator Agent orchestrating four specialist sub-agents:
 3. **Next Actions** – bullet list of follow-up items for the team (if any).
 ```
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude Code 核心功能与使用概览|Claude Code 核心功能与使用概览]]；关联理由：上下游；说明：该文说明 Claude Code 支持自定义指令、技能与 hooks，本篇则给出一个可直接调用的自定义指令模板。
+- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：解说；说明：本篇用协调智能体分派四个子智能体，关联文则把这种 Orchestrator-Workers 编排模式抽象成可复用工作流模板。
+- [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：延伸思考；说明：该文进一步讨论如何把高频操作封装为斜杠命令，并结合 CLAUDE.md 与 Subagents 沉淀成长期可复用的 Claude Code 工作流。
+
 ## 关联主题
 
-- [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/workflow]]
 - [[00-元语/cli]]

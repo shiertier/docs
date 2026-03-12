@@ -1,10 +1,10 @@
 ---
-title: "Conway 定律视角下的 OpenAI API 演进问题"
-作者: "Everyrow"
-来源: "everyrow.io"
-原文链接: "https://everyrow.io/blog/openai-is-conways-law-in-action"
-发布日期: "2026-02-26"
-译注: "本文基于原文翻译整理，保留关键术语英文。"
+title: Conway 定律视角下的 OpenAI API 演进问题
+作者: Everyrow
+来源: everyrow.io
+原文链接: https://everyrow.io/blog/openai-is-conways-law-in-action
+发布日期: 2026-02-26
+译注: 本文基于原文翻译整理，保留关键术语英文。
 ---
 
 ## 摘要
@@ -28,17 +28,39 @@ title: "Conway 定律视角下的 OpenAI API 演进问题"
 
 ## 正文
 
-## 文档信息
-- 来源：https://everyrow.io/blog/openai-is-conways-law-in-action
-
-## 正文
 软件设计中有一个被称为“康威定律”（Conway's Law）的原则：组织所设计的系统，往往会反映出其内部的沟通结构（也就是俗称的“交付组织架构图”）。
 
 OpenAI 有两个功能大体相似的端点（endpoints）：较早的 chat/completions API 和较新的 responses API。（更不用说他们那个更早且现已弃用的 completions 端点了。）
 
 两者都允许你生成文本、调用工具以及生成结构化输出。乍看之下，它们非常相似。但随着深入探究，差异很快就会显现。以结构化输出为例。使用 chat/completions 时，你会这样写：
 
+```json
+{
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "Response",
+      "description": "A response to the user's question",
+      "schema": {"type": "object", "properties": "..."}
+    }
+  }
+}
+```
+
 但对于 responses，则需要写成这样：
+
+```json
+{
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "Response",
+      "description": "A response to the user's question",
+      "schema": {"type": "object", "properties": "..."}
+    }
+  }
+}
+```
 
 我看不出有什么理由非得让它们不一样。这不禁让我怀疑，他们是不是在故意增加从一个端点迁移到另一个端点的难度。而且官方文档对此毫无解释！文档里只有寥寥几个示例，其中至少还有一个是错的。我不得不去阅读他们 Python 包的源代码才弄明白怎么回事。
 
@@ -48,9 +70,17 @@ Google 也存在同样的问题。他们的 Gemini API 会拒绝包含 `{"type":
 
 平心而论，我们自己的 API 也存在一些不一致的地方。如果其中任何问题拖慢了你的开发进度，请告诉我们，我们将尽最大努力满足你的需求！
 
+## 相关文档
+
+- [[01-博客/宝玉/OpenAI 的 Chat Completions API 的一些更新|OpenAI 的 Chat Completions API 的一些更新]]；关联理由：版本演进；说明：该文记录了 `chat/completions` 端点更早一阶段的参数演进，可作为本文批评端点分化问题的历史背景。
+- [[01-博客/宝玉/微服务的本质不是模块的拆分，而是组织架构的拆分|微服务的本质不是模块的拆分，而是组织架构的拆分]]；关联理由：解说；说明：该文直接解释了康威定律与组织沟通结构如何反映到系统设计上，补足了本文使用的核心分析框架。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
+- [[00-元语/gemini]]
+- [[00-元语/康威定律]]
+- [[00-元语/组织设计]]
+- [[00-元语/protocol]]
 - [[00-元语/sdk]]
-- [[00-元语/design]]
-- [[00-元语/workflow]]
+- [[00-元语/软件工程]]

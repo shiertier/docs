@@ -55,14 +55,15 @@ async for msg in query(
 ## 相关文档
 
 - [[01-博客/Anthropic/使用 Claude Agent SDK 构建强大智能体教程|使用 Claude Agent SDK 构建强大智能体教程]]；关联理由：解说；说明：该文对应同一套 Claude Agent SDK 教程总览，补充了本篇三份 Notebook 的环境准备与能力边界。
-- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：上下游；说明：该文先给出通用多 Agent 工作流模板，本篇再落到 Claude Agent SDK 的工程化实战实现。
+- [[01-博客/Anthropic/Claude Agent Workflow Notebook 实战|Claude Agent Workflow Notebook 实战]]；关联理由：上下游；说明：该文先抽象链式、并行与编排分工等通用工作流模式，本篇再把这些模式落实到 Claude Agent SDK 的多角色协同与可观测实践。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/memory]]
+- [[00-元语/retrieval]]
 - [[00-元语/sdk]]
 - [[00-元语/observability]]
-- [[00-元语/llmops]]
+- [[00-元语/tool]]
 - [[00-元语/workflow]]

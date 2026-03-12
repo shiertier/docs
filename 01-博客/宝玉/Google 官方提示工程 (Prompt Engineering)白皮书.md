@@ -1153,15 +1153,18 @@ Built by[宝玉](https://twitter.com/dotey). [RSS](https://baoyu.io/feed.xml) . 
 
 Toggle theme
 
+## 相关文档
+
+- [[01-博客/宝玉/一文看懂“提示词” vs “提示词工程” vs “上下文工程”|一文看懂“提示词” vs “提示词工程” vs “上下文工程”]]；关联理由：解说；说明：该文专门厘清 prompt、提示词工程与上下文工程的边界，可作为这份白皮书的方法论补充。
+- [[01-博客/宝玉/ReAct 框架与 AI Agent：当 AI 学会自己思考和行动|ReAct 框架与 AI Agent：当 AI 学会自己思考和行动]]；关联理由：延伸思考；说明：白皮书把 ReAct 作为高级提示技巧之一介绍，该文进一步讨论 ReAct 在 Agent 模型中的内化与适用边界。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/gemini]]
-- [[00-元语/multimodal]]
 - [[00-元语/Agent]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]
+- [[00-元语/evals]]
 - [[00-元语/paper]]
 - [[00-元语/learning-resource]]

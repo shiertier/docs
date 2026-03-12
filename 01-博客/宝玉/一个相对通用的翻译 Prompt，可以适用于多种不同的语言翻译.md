@@ -95,10 +95,16 @@ Please output strictly in the following format
 
 Please translate the following content into ${LANGUAGE}:
 
+## 相关文档
+
+- [[01-博客/宝玉/直译、反思、意译：提升 GPT 翻译质量的一种新策略|直译、反思、意译：提升 GPT 翻译质量的一种新策略]]；关联理由：版本演进；说明：本文把该文面向中英翻译的三步结构抽象成 `${LANGUAGE}` 占位符，扩展成可复用的多语言翻译 Prompt。
+- [[01-博客/宝玉/Prompt Engineering 的核心是逻辑|Prompt Engineering 的核心是逻辑]]；关联理由：解说；说明：该文直接解释了“拆成多步并输出中间结果”为何能提升翻译质量，正好说明本文三步设计背后的方法论。
+- [[01-博客/宝玉/翻译 GPT 的提示词更新和优化|翻译 GPT 的提示词更新和优化]]；关联理由：版本演进；说明：该文继续沿用本文的三步翻译骨架，并进一步加入 XML 输出、多模态输入与术语表等工程化约束。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/llm]]
+- [[00-元语/machine-translation]]
 - [[00-元语/prompt]]
 - [[00-元语/markdown]]
 - [[00-元语/workflow]]

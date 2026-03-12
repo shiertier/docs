@@ -1,5 +1,9 @@
 ---
 title: "苹果研发端侧AI智能体：可自动与App交互的 Ferret-UI Lite"
+发布日期: 2026-02-20
+作者: "Marcus Mendes"
+来源: "9to5Mac"
+原文链接: "https://9to5mac.com/2026/02/20/apple-researchers-develop-on-device-ai-agent-that-interacts-with-apps-for-you/"
 ---
 
 ## 摘要
@@ -85,9 +89,9 @@ Ferret-UI Lite 的核心技术包括：
 
 ## 相关文档
 
-- [[01-博客/Hugging Face/H公司发布全新Holo2模型：在UI定位领域取得领先地位|H公司发布全新Holo2模型：在UI定位领域取得领先地位]]；关联理由：延伸思考；说明：两篇都讨论了 GUI 智能体在 UI 定位与交互上的关键能力，可用于横向比较端侧轻量化与大模型路线。
-- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：观点一致；说明：两篇都用 OSWorld 作为计算机使用能力参照，结论都强调模型在真实多步任务上仍有明显上限。
-- [[01-博客/OpenAI/OpenAI Operator 系统卡：计算机使用代理的安全与风险评估|OpenAI Operator 系统卡：计算机使用代理的安全与风险评估]]；关联理由：解说；说明：该文补充了 GUI 代理落地时的提示词注入与人在回路等安全边界，能解释本文“端侧隐私优势”的现实约束。
+- [[01-博客/数字生命卡兹克/AutoGLM深夜开源，千千万万个手机Agent要站起来了。|AutoGLM深夜开源，千千万万个手机Agent要站起来了。]]；关联理由：延伸思考；说明：两篇都讨论手机端 GUI Agent 在本地或近端运行的可行性，并把隐私保护与设备算力限制作为核心权衡。
+- [[01-博客/Anthropic/全新推出 Claude Sonnet 4.6|全新推出 Claude Sonnet 4.6]]；关联理由：延伸思考；说明：两篇都把 OSWorld 视作“像人一样操作软件”的关键参照，并都指出受控基准之外的复杂多步任务仍更难。
+- [[01-博客/OpenAI/OpenAI Operator 系统卡：计算机使用代理的安全与风险评估|OpenAI Operator 系统卡：计算机使用代理的安全与风险评估]]；关联理由：解说；说明：该文补充了 GUI 代理在提示词注入、敏感操作确认和人在回路上的安全边界，可对照本文强调的端侧隐私优势。
 
 ## 关联主题
 
@@ -95,5 +99,6 @@ Ferret-UI Lite 的核心技术包括：
 - [[00-元语/Agent]]
 - [[00-元语/multimodal]]
 - [[00-元语/llm]]
+- [[00-元语/reinforcement-learning]]
 - [[00-元语/benchmark]]
 - [[00-元语/security]]

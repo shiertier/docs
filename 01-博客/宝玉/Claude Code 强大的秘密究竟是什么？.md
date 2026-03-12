@@ -58,23 +58,24 @@ Claude Code 的强大，首先来自其强大的模型基础。无论是 Claude 
 
 ## 相关文档
 
-- [[01-博客/宝玉/Claude Code 为何如此强大？Anthropic 万字长文揭秘 AI Agent 工具开发五大“心法”|Claude Code 为何如此强大？Anthropic 万字长文揭秘 AI Agent 工具开发五大“心法”]]；关联理由：观点一致；说明：两文都把 Claude Code 的领先性归因于模型能力与工具体系的协同。
+- [[01-博客/宝玉/Claude Code 为何如此强大？Anthropic 万字长文揭秘 AI Agent 工具开发五大“心法”|Claude Code 为何如此强大？Anthropic 万字长文揭秘 AI Agent 工具开发五大“心法”]]；关联理由：解说；说明：该文从 Anthropic 的工具设计原则出发，系统补充了本文对 Claude Code 优势来源的解释。
 - [[01-博客/宝玉/【访谈对话】造过 Codex 的人，为什么每天用 Claude Code|【访谈对话】造过 Codex 的人，为什么每天用 Claude Code]]；关联理由：解说；说明：该访谈从 CLI 架构与上下文拆分机制补充了本文对优势来源的解释。
 - [[01-博客/宝玉/Claude Code 团队的 10 个内部技巧，但你不一定都要学|Claude Code 团队的 10 个内部技巧，但你不一定都要学]]；关联理由：上下游；说明：本文解释“为什么强”，该文展示这些能力在团队日常工作流中的落地方式。
+- [[01-博客/宝玉/Claude Code 的懒加载更新：AI 终于学会了随叫随到|Claude Code 的“懒加载”更新：AI 终于学会了“随叫随到”]]；关联理由：版本演进；说明：该文展示了 Claude Code 后续如何继续优化工具加载与上下文占用，是本文“上下文优势”论点的产品演进补充。
 
 ## 关联主题
 
+- [[00-元语/Claude Code]]
+- [[00-元语/Claude]]
 - [[00-元语/OpenAI]]
 - [[00-元语/Codex]]
-- [[00-元语/Claude]]
 - [[00-元语/Cursor]]
 - [[00-元语/Agent]]
-- [[00-元语/AI]]
 - [[00-元语/cli]]
 - [[00-元语/ide]]
-- [[00-元语/terminal]]
 - [[00-元语/tool]]
 - [[00-元语/workflow]]
 - [[00-元语/llm]]
-- [[00-元语/软件工程]]
 - [[00-元语/context-optimization]]
+- [[00-元语/reinforcement-learning]]
+- [[00-元语/软件工程]]

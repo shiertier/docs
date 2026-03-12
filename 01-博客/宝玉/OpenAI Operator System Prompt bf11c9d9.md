@@ -218,18 +218,19 @@ Task:
 
 ## 相关文档
 
-- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文补充 Operator 的产品机制与执行流程，可用于解释本篇规则在实际运行中的落地方式；
-- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文均为 OpenAI 浏览器代理提示词，后者在安全与工具规范上可视为同路线的后续扩展；
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文补充 CUA、虚拟机与屏幕操作循环，可用于解释本篇系统提示词在产品中的实际执行方式；
+- [[01-博客/OpenAI/OpenAI Operator 系统卡：计算机使用代理的安全与风险评估|OpenAI Operator 系统卡：计算机使用代理的安全与风险评估]]；关联理由：同一事件；说明：该文从官方安全评估视角解释了确认机制、提示词注入防护与高风险任务限制，能对应本篇里的关键硬约束；
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：版本演进；说明：两文均为 OpenAI 浏览器代理提示词，后者把屏幕注入防护、实时浏览与工具使用规范扩展成更完整的 Agent 模式约束；
 
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/Agent]]
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
+- [[00-元语/prompt]]
+- [[00-元语/tool]]
 - [[00-元语/browser-automation]]
+- [[00-元语/multimodal]]
+- [[00-元语/ocr]]
 - [[00-元语/compliance]]
 - [[00-元语/security]]
-- [[00-元语/risk]]
-- [[00-元语/ocr]]
-- [[00-元语/prompt]]
+- [[00-元语/sandbox]]

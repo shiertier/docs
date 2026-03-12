@@ -76,14 +76,18 @@ AI 将彻底改变 Shopify，改变我们的工作方式，乃至我们生活的
 
 - Tobi CEO, Shopify
 
+## 相关文档
+
+- [[01-博客/宝玉/程序员究竟怎样用 AI？深度解读 WIRED 调查报告《How Software Engineers Actually Use AI》|程序员究竟怎样用 AI？深度解读 WIRED 调查报告《How Software Engineers Actually Use AI》]]；关联理由：解说；说明：该文给出开发者把 AI 接入 IDE 与日常 workflow 的一线样本，可作为本文“将 AI 融入日常工作”要求的现实对照。
+- [[01-博客/宝玉/我们真的变成巫师了：OpenAI API 负责人谈 AI 如何重塑软件工程|我们真的变成巫师了：OpenAI API 负责人谈 AI 如何重塑软件工程]]；关联理由：延伸思考；说明：该文强调企业落地 AI 不能只靠高层强推和绩效指标，还需要自下而上的试验与分享机制，正好补足本文的执行边界。
+
 ## 关联主题
 
 - [[00-元语/AI]]
 - [[00-元语/Agent]]
-- [[00-元语/career]]
-- [[00-元语/workflow]]
-- [[00-元语/decision-making]]
 - [[00-元语/prompt]]
+- [[00-元语/workflow]]
 - [[00-元语/productivity]]
+- [[00-元语/career]]
 - [[00-元语/知识工作]]
 - [[00-元语/组织设计]]

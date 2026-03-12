@@ -9,25 +9,28 @@ title: "五角大楼将 Anthropic 列为供应链风险"
 
 ## 摘要
 
-**一句话总结**
-五角大楼将 Anthropic 列为供应链风险。本文围绕“网络安全、身份安全与平台治理实践”提炼了可供复盘与跟踪的核心信息。
-
-**关键要点**
-* 主题定位：原文重点落在“网络安全、身份安全与平台治理实践”，不是泛泛而谈。
-* 信息结构：包含背景、关键动作、约束条件与后续影响四类信息。
-* 使用建议：可作为同主题条目的事实补充，并用于后续趋势对照。
+特朗普要求联邦机构停用 Anthropic 产品后不到两小时，美国国防部长 Pete Hegseth 又将 Anthropic 认定为“供应链风险”。Anthropic 表示将通过法院挑战这一认定，而争议核心并非一般商业分歧，而是公司拒绝放开 AI 在“大规模国内监控”和“全自动武器”两类用途上的安全边界。
 
 ## 正文
 
-本文基于 The Verge 在 2026-02-27 发布的内容整理，主题为“五角大楼将 Anthropic 列为供应链风险”。
+The Verge 报道称，特朗普在 Truth Social 上要求联邦机构“立即停止”使用 Anthropic 产品后，五角大楼迅速把压力升级为正式的“供应链风险”认定。相比前一条“停用”指令，这一步意味着争议已经从政治施压和合同博弈，推进到带有采购与制度后果的风险标签。
 
-从内容重点看，文章主要讨论了网络安全、身份安全与平台治理实践，并对当前阶段的策略选择、执行难点或治理边界进行了展开。这类信息对构建“事件-决策-结果”的链路理解很有价值。
+Anthropic 的公开立场是，不会移除两条底线：禁止将其模型用于大规模国内监控，禁止用于完全自主武器。公司认为这两类用途既触及民主社会的治理边界，也超出当前前沿 AI 系统可被安全、可靠部署的范围。因此，在五角大楼把“接受任何合法用途”作为合作前提后，Anthropic 选择拒绝，并表示如果被贴上“供应链风险”标签，将在法院提出挑战。
 
-> 原文摘录：Nearly two hours after President Donald Trump announced on Truth Social that he was banning Anthropic products from the federal government , Secretary of Defense Pete Hegseth took it one step further and announced that he was now designating the AI company as a “supply-chain risk,” which Anthropic says it is willing to
+这篇报道的价值不在于重复“政府与 AI 公司起冲突”这一表层结论，而在于把冲突的性质讲清楚：Anthropic 并未反对为美国国家安全体系提供模型，真正的分歧在于，供应商能否保留针对高风险军事和监控用途的安全护栏；而五角大楼则试图通过“供应链风险”这一强硬标签，把这种护栏视作不可接受的采购障碍。
 
-在文档系统内，建议与同平台同期条目及相关元语词条联读，重点比较：问题定义是否变化、解决路径是否调整、风险描述是否前移。
+从文档系统的角度看，这篇文章适合作为事件链中的“升级节点”来读：前序是特朗普和战争部对 Anthropic 施压，后续则是 Anthropic 的官方声明、Dario Amodei 对安全红线的长文解释，以及其他科技公司员工和媒体围绕此事展开的公开支持与法律讨论。
+
+## 相关文档
+
+- [[01-博客/The Verge/特朗普要求联邦机构停用 Anthropic AI|特朗普要求联邦机构停用 Anthropic AI]]；关联理由：同一事件；说明：该文记录特朗普先要求联邦机构停用 Anthropic 产品，是本篇“供应链风险”认定的直接前序。
+- [[01-博客/Anthropic/Anthropic 就“供应链风险”言论发布官方声明|Anthropic 就“供应链风险”言论发布官方声明]]；关联理由：同一事件；说明：该文是 Anthropic 对本篇事件的正式回应，明确表示会通过法院挑战“供应链风险”认定。
+- [[01-博客/Anthropic/Dario Amodei 关于我们与战争部讨论的声明|Dario Amodei 关于我们与战争部讨论的声明]]；关联理由：解说；说明：该文系统交代了双方争议的实质，即 Anthropic 拒绝移除针对大规模国内监控和全自动武器的安全护栏。
 
 ## 关联主题
 
-- [[00-元语/security]]
+- [[00-元语/AI]]
+- [[00-元语/Claude]]
 - [[00-元语/compliance]]
+- [[00-元语/risk]]
+- [[00-元语/security]]

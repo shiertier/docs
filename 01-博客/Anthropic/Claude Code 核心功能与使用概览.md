@@ -1,7 +1,9 @@
 ---
 title: "Claude Code 核心功能与使用概览"
-
-来源: "https://www.anthropic.com/engineering/claude-code-best-practices"
+发布日期: "2025-04-18"
+作者: "Anthropic"
+来源: "Anthropic"
+原文链接: "https://www.anthropic.com/engineering/claude-code-best-practices"
 ---
 
 ## 摘要
@@ -61,14 +63,20 @@ Claude Code 打破了设备与平台的限制，支持跨端无缝协作：
 *   **个性化与支持**：通过设置（Settings）为你的工作流定制 Claude Code；遇到问题时可查阅故障排除（Troubleshooting）指南。
 *   **了解更多**：访问 code.claude.com 查看产品演示、定价以及更多产品细节。
 
+## 相关文档
+
+- [[01-博客/微信公众平台/CC之父分享：Claude Code内部团队的10大高效使用技巧|CC之父分享：Claude Code内部团队的10大高效使用技巧]]；关联理由：延伸思考；说明：本文概览 Claude Code 的平台支持与能力边界，该文进一步展开内部团队在 Plan 模式、并行工作树和技能配置上的高效实践。
+- [[01-博客/Anthropic/使用 Claude Agent SDK 构建强大智能体教程|使用 Claude Agent SDK 构建强大智能体教程]]；关联理由：上下游；说明：该教程把 Claude Code CLI 作为前置执行入口，把本文概览的终端、工具调用和多智能体能力延伸到 SDK 场景。
+
 ## 关联主题
 
+- [[00-元语/Claude Code]]
 - [[00-元语/Claude]]
 - [[00-元语/Agent]]
 - [[00-元语/mcp]]
 - [[00-元语/cli]]
-- [[00-元语/workflow]]
 - [[00-元语/terminal]]
 - [[00-元语/ide]]
 - [[00-元语/desktop-client]]
 - [[00-元语/CI]]
+- [[00-元语/workflow]]

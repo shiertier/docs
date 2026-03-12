@@ -2,7 +2,7 @@
 title: "为博客引入“Beats”功能：集成我的全网动态"
 
 来源: "https://simonwillison.net/2026/Feb/20/beats/#atom-everything"
-发布日期: "2024-06-12"
+发布日期: "2026-02-20"
 ---
 
 ## 摘要
@@ -58,11 +58,15 @@ Claude 还处理了所有可能显得繁琐的网站 UI 集成工作，确保新
 
 如果你想了解后续的构建过程，最有趣的 Pull Requests 是实现核心功能的 Beats #592，以及添加博物馆内容类型的 Add Museums Beat importer #595。
 
+## 相关文档
+
+- [[01-博客/Simon Willison/囤积你掌握的技能 - 智能体工程模式|囤积你掌握的技能 - 智能体工程模式]]；关联理由：上下游；说明：该文解释了 tools.simonwillison.net 与 simonw/research 等资产为何被持续积累，而本文展示这些资产被进一步接入博客时间线的产品化落地。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
 - [[00-元语/ETL]]
 - [[00-元语/github]]
 - [[00-元语/vibe-coding]]

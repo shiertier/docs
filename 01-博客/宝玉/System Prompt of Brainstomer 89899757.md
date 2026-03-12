@@ -56,4 +56,3 @@ Step-by-step instructions
 - [[00-元语/AI]]
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
-- [[00-元语/Agent]]

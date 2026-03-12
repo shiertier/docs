@@ -1,5 +1,9 @@
 ---
 title: "Spaghetti Bench：评估 AI 智能体修复并发漏洞的能力"
+作者: "Vasu Vikram、Ao Li、Rohan Padhye"
+发布日期: 2026-02-13
+来源: "PASTA Lab"
+原文链接: "https://pastalab.org/spaghetti-bench/blog.html"
 ---
 
 ## 摘要
@@ -168,6 +172,11 @@ Spaghetti Bench 是开源的，并在 GitHub 上可用。你可以：
 - Jimenez, Carlos E., et al. "Swe-bench: Can language models resolve real-world github issues?" arXiv preprint arXiv:2310.06770 (2023).
 - Li, Ao, et al. "Fray: An Efficient General-Purpose Concurrency Testing Platform for the JVM." Proceedings of the ACM on Programming Languages 9.OOPSLA2 (2025): 4035-4063.
 - Thomson, Paul, Alastair F. Donaldson, and Adam Betts. "Concurrency testing using schedule bounding: An empirical study." Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming (2014).
+
+## 相关文档
+
+- [[01-博客/Kiro/修复漏洞的悖论：为什么 AI 智能体总会破坏正常运行的代码|修复漏洞的悖论：为什么 AI 智能体总会破坏正常运行的代码]]；关联理由：延伸思考；说明：该文讨论功能性漏洞修复时如何用“修复属性 + 保留属性”约束智能体，而本文进一步说明并发漏洞因非确定性更需要专门的验证工具来避免伪修复。
+- [[01-博客/Anthropic/量化智能体编程评估中的基础设施噪音|量化智能体编程评估中的基础设施噪音]]；关联理由：观点一致；说明：两文都指出编程智能体评测会被能力之外的因素扭曲，本文聚焦并发测试的假阳性问题，该文聚焦资源与沙盒配置带来的分数偏差。
 
 ## 关联主题
 

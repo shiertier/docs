@@ -30,8 +30,6 @@ title: "使用 SAM 优化深度学习模型"
 
 ## 正文
 
-# 使用 SAM 优化深度学习模型
-
 深入探讨锐度感知最小化（Sharpness-Aware-Minimization, SAM）算法及其如何提升现代深度学习模型的泛化能力。
 
 ## 引言：过参数化、泛化能力与 SAM
@@ -60,7 +58,7 @@ title: "使用 SAM 优化深度学习模型"
 
 - 快速演示该优化器在使用 ResNet-18 模型进行图像分类任务时提升泛化能力的有效性。
 
-本文使用的完整代码可以在此 Github 仓库中找到——欢迎随意尝试！
+作者还在 [GitHub 示例仓库](https://github.com/anindyahepth/Demos/tree/main/sam) 中提供了完整实现；下面保留与正文讲解直接对应的关键代码片段。
 
 ## 锐度（Sharpness）的概念
 
@@ -102,7 +100,7 @@ title: "使用 SAM 优化深度学习模型"
 
 ## 训练循环中的 PyTorch 实现
 
-代码块 `sam_training_loop.py` 中给出了一个带有 SAM 优化器的训练循环的说明性示例。为了具体起见，我们选择了一个通用的图像分类问题，但相同的结构广泛适用于各种计算机视觉和 NLP 任务。SAM 优化器类显示在代码块 `sam_optimizer_class.py` 中。
+作者示例仓库把 SAM 优化器核心实现放在 `sam.py` 中，把训练循环与 BatchNorm 状态切换放在 `utils/utils.py` 中。虽然仓库里的实验脚本会随版本演进调整数据集和模型配置，但与正文一一对应的实现结构仍然很清楚。
 
 请注意，定义 SAM 优化器需要指定两项数据：
 
@@ -110,27 +108,123 @@ title: "使用 SAM 优化深度学习模型"
 
 - 一个超参数 ρ，它为允许的扰动大小设定了上限。
 
-优化器的单次迭代涉及两次前向传播和两次反向传播。让我们梳理一下 `sam_training_loop.py` 中代码的关键步骤：
+优化器的单次迭代涉及两次前向传播和两次反向传播。让我们梳理一下训练循环中的关键步骤：
 
 - 第 5 行计算当前小批量 B 的损失函数 L(w, B)——第一次前向传播。
 
 - 第 6 行计算损失函数 L(w, B) 的梯度——第一次反向传播。
 
-- 第 7 行调用 SAM 优化器类（见下文）中的 `sam_optimizer.first_step` 函数，该函数使用上述公式计算对抗性扰动，并如前所述对模型的权重进行扰动。
+- 第 7 行调用 `optimizer.first_step`，该函数使用上述公式计算对抗性扰动，并如前所述对模型的权重进行扰动。
 
 - 第 10 行计算扰动后模型的损失函数——第二次前向传播。
 
 - 第 11 行计算扰动后模型的损失函数的梯度——第二次反向传播。
 
-- 第 12 行调用优化器类（见下文）中的 `sam_optimizer.second_step` 函数，该函数将权重恢复为 w_t，然后使用基础优化器利用在扰动点计算出的梯度来更新权重 w_t。
+- 第 12 行调用 `optimizer.second_step`，该函数将权重恢复为 w_t，然后使用基础优化器利用在扰动点计算出的梯度来更新权重 w_t。
+
+下面是 `sam.py` 中与正文数学推导直接对应的核心实现：
+
+```python
+import torch
+from torch.optim.optimizer import Optimizer
+
+
+class SAM(Optimizer):
+    def __init__(self, params, base_optimizer: Optimizer, rho: float = 0.05, p: int = 2):
+        defaults = dict(rho=rho, p=p)
+        super().__init__(params, defaults)
+        self.base_optimizer = base_optimizer
+        self.rho = rho
+        self.p = p
+
+    @torch.no_grad()
+    def first_step(self, zero_grad: bool = False):
+        grad_norm = self._grad_norm()
+        for group in self.param_groups:
+            for p in group["params"]:
+                if p.grad is None:
+                    continue
+                e_hat = self.rho * p.grad / (grad_norm + 1e-12)
+                self.state[p]["e_hat"] = e_hat
+                p.data.add_(e_hat)
+        if zero_grad:
+            self.base_optimizer.zero_grad()
+
+    @torch.no_grad()
+    def second_step(self, zero_grad: bool = False):
+        for group in self.param_groups:
+            for p in group["params"]:
+                if p.grad is None:
+                    continue
+                p.data.sub_(self.state[p]["e_hat"])
+                del self.state[p]["e_hat"]
+        self.base_optimizer.step()
+        if zero_grad:
+            self.base_optimizer.zero_grad()
+```
+
+训练循环里的关键片段如下，它正对应“两次前向传播 + 两次反向传播 + 最后一步基础优化器更新”的执行顺序：
+
+```python
+import torch.nn as nn
+
+
+def train_single_epoch(model, train_loader, device, optimizer, epoch, criterion=nn.CrossEntropyLoss()):
+    use_sam = hasattr(optimizer, "first_step") and hasattr(optimizer, "second_step")
+    model.train()
+
+    for batch in train_loader:
+        pixel_values = batch["pixel_values"].to(device)
+        labels = batch["labels"].to(device)
+
+        if use_sam:
+            enable_bn_stats(model)
+            output = model(pixel_values)
+            loss = criterion(output, labels)
+            loss.backward()
+            optimizer.first_step(zero_grad=True)
+
+            disable_bn_stats(model)
+            output = model(pixel_values)
+            loss = criterion(output, labels)
+            loss.backward()
+            enable_bn_stats(model)
+            optimizer.second_step(zero_grad=True)
+        else:
+            output = model(pixel_values)
+            loss = criterion(output, labels)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+```
 
 ## 注意事项：SAM 与 BatchNorm
 
 如果在训练循环中部署 SAM，且模型包含任何带有批量归一化（batch-normalization, BatchNorm）层的模块，则需要牢记一个重要的一点。在训练期间，BatchNorm 使用当前批次的统计数据执行归一化，并在每次前向传播时更新运行统计数据（running statistics）。在评估期间，它使用运行统计数据。
 
-现在，正如我们上面看到的，SAM 每次迭代涉及两次前向传播。在第一次传播中，BatchNorm 以标准方式工作。然而，在第二次传播期间，我们使用扰动后的权重来计算损失，而代码块 `sam_training_loop.py` 中朴素的训练函数将允许 BatchNorm 层在第二次传播期间也更新运行统计数据。这是不可取的，因为运行统计数据应该只反映原始模型的行为，而不是扰动后模型的行为，后者只是计算梯度的中间步骤。因此，必须在第二次传播期间显式禁用运行统计数据的更新，并在下一次迭代之前启用它。
+现在，正如我们上面看到的，SAM 每次迭代涉及两次前向传播。在第一次传播中，BatchNorm 以标准方式工作。然而，在第二次传播期间，我们使用扰动后的权重来计算损失，而朴素的训练函数会允许 BatchNorm 层在第二次传播期间也更新运行统计数据。这是不可取的，因为运行统计数据应该只反映原始模型的行为，而不是扰动后模型的行为，后者只是计算梯度的中间步骤。因此，必须在第二次传播期间显式禁用运行统计数据的更新，并在下一次迭代之前启用它。
 
-为此，我们将在训练循环中使用两个显式函数 `disable_bn_stats` 和 `enable_bn_stats`——代码块 `running_stat.py` 中展示了此类函数的简单示例——它们切换 PyTorch 中 BatchNorm 函数的 `track_running_stats` 参数（第 4 行和第 9 行）。修改后的训练循环在代码块 `mod_train.py` 中给出。
+对应的状态切换函数可以写成下面这样：
+
+```python
+import torch.nn as nn
+
+
+def disable_bn_stats(model):
+    for module in model.modules():
+        if isinstance(module, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+            module.track_running_stats = False
+        elif "BatchNormAct" in module.__class__.__name__:
+            module.track_running_stats = False
+
+
+def enable_bn_stats(model):
+    for module in model.modules():
+        if isinstance(module, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+            module.track_running_stats = True
+        elif "BatchNormAct" in module.__class__.__name__:
+            module.track_running_stats = True
+```
 
 ## 演示：使用 ResNet-18 进行图像分类
 
@@ -172,21 +266,8 @@ SGD 模型的差距随着训练稳步增长，在 150 轮后达到 `gap_SGD=6.8%
 
 SAM 还有几个有趣的方面我在这里没有机会涉及。让我简要提及其中两个。首先，作为一种实用工具，SAM 在小数据集上微调预训练模型时特别有用——Foret 等人（2019）针对 CNN 类型的架构详细探讨了这一点，随后的许多工作也针对更通用的架构进行了探讨。其次，既然我们以损失曲面中平坦极小值与泛化能力之间的联系开始了讨论，那么很自然地会问：一个经过 SAM 训练的模型（已被证明能提高泛化能力）是否真的收敛到了一个更平坦的极小值？这是一个不简单的问题，需要仔细分析训练后模型的 Hessian 谱，并与其经过 SGD 训练的对应模型进行比较。但那是另一个话题了！
 
-感谢阅读！如果你喜欢这篇文章，并且有兴趣阅读更多关于深度学习的教学文章，请在 Medium 和 LinkedIn 上关注我。除非另有说明，本文中使用的所有图像和图表均由作者生成。
-
-作者
-
-分享本文
-
-- 在 Facebook 上分享
-
-- 在 LinkedIn 上分享
-
-- 在 X 上分享
-
-Towards Data Science 是一个社区出版物。提交您的见解以触达我们的全球受众，并通过 TDS 作者付款计划赚取收益。
-
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/llm]]
+- [[00-元语/深度学习]]
+- [[00-元语/优化器]]

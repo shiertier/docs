@@ -392,8 +392,8 @@ codex exec \
 ## 相关文档
 
 - [[01-博客/OpenAI/深入解析 Codex 智能体循环|深入解析 Codex 智能体循环]]；关联理由：解说；说明：该文解释了 Codex 事件循环与工具调用轨迹，正是本篇做 `codex exec --json` 确定性评估的基础上下文。
-- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：延伸思考；说明：该文补充了 `item/turn/thread` 等运行时原语，有助于扩展本篇评测粒度与事件建模。
-- [[01-博客/OpenAI/Harness engineering：在代理优先的世界里运用 Codex|Harness engineering：在代理优先的世界里运用 Codex]]；关联理由：观点一致；说明：该文强调以可验证反馈回路驱动智能体交付，与本篇“用 Evals 防回归”的工程方法一致。
+- [[01-博客/OpenAI/解锁 Codex 运行框架：我们如何构建 App Server|解锁 Codex 运行框架：我们如何构建 App Server]]；关联理由：解说；说明：该文拆解了 `item`、`turn`、`thread` 的生命周期，有助于理解本文基于 JSONL 事件做确定性评分时所依赖的运行时粒度。
+- [[01-博客/OpenAI/走进 OpenAI 的自研数据智能体|走进 OpenAI 的自研数据智能体]]；关联理由：上下游；说明：该文展示了 OpenAI 如何把 Evals 落到真实业务 Agent 的 SQL 生成与结果比对中，属于本文方法在生产场景中的直接应用。
 
 ## 关联主题
 
@@ -407,7 +407,6 @@ codex exec \
 - [[00-元语/skills]]
 - [[00-元语/cli]]
 - [[00-元语/prompt]]
-- [[00-元语/llm]]
 - [[00-元语/llmops]]
 - [[00-元语/observability]]
 - [[00-元语/软件工程]]

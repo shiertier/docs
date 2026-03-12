@@ -25,9 +25,10 @@ NASA 调整阿耳忒弥斯计划以加速重返月球。本文围绕“大型科
 
 > 原文摘录：NASA Administrator Jared Isaacman announced sweeping changes to the Artemis program on Friday morning, including an increased cadence of missions and cancellation of an expensive rocket stage.
 
-在文档系统内，建议与同平台同期条目及相关元语词条联读，重点比较：问题定义是否变化、解决路径是否调整、风险描述是否前移。
+更值得跟踪的是三条线索：任务节奏是否真正提速、为了提速取消了哪些高成本环节、这些取舍又会把预算与执行风险转移到哪里。
 
 ## 关联主题
 
-- [[00-元语/tool]]
-- [[00-元语/workflow]]
+- [[00-元语/roadmap]]
+- [[00-元语/decision-making]]
+- [[00-元语/risk]]

@@ -389,15 +389,15 @@ title: "Claude Capabilities 指南与 Promptfoo 评测实践"
 ## 相关文档
 
 - [[01-博客/Anthropic/Claude Cookbooks 项目总览与能力地图|Claude Cookbooks 项目总览与能力地图]]；关联理由：上下游；说明：该文给出 Claude Cookbooks 的总览目录与能力分层，本篇是其中 capabilities 子目录的实战拆解。
-- [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：解说；说明：本篇在评测前置条件中要求 `VOYAGE_API_KEY`，关联文补充了 Voyage Embeddings 的接入方式与检索参数边界。
+- [[01-博客/Anthropic/Claude Capabilities Notebook 实战补充|Claude Capabilities Notebook 实战补充]]；关联理由：解说；说明：两文覆盖同一组 capabilities 条目，本篇整理 README 与评测框架，关联文补充 `guide.ipynb` 的可运行实现细节。
+- [[01-博客/Anthropic/Voyage AI Embeddings 接入与检索实践|Voyage AI Embeddings 接入与检索实践]]；关联理由：上下游；说明：本篇的 contextual embeddings 与 RAG 评测要求 `VOYAGE_API_KEY`，关联文补齐 Voyage Embeddings 的模型、参数与接入方式。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
 - [[00-元语/rag]]
+- [[00-元语/retrieval]]
 - [[00-元语/evals]]
 - [[00-元语/prompt]]
-- [[00-元语/github]]
-- [[00-元语/benchmark]]
 - [[00-元语/rate-limiting]]

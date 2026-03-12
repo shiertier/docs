@@ -92,13 +92,15 @@ Agent Builder 构建在 Deep Agents 之上，这是 LangChain 用于自主、长
 
 试用 Agent Builder
 
+## 相关文档
+
+- [[01-博客/LangChain/我们是如何构建 Agent Builder 记忆系统的|我们是如何构建 Agent Builder 记忆系统的]]；关联理由：解说；说明：本文从用户侧讲如何沉淀和调用记忆，该文补充了 Agent Builder 记忆系统的文件化设计、热路径更新与安全取舍。
+- [[01-博客/LangChain/深度智能体（Deep Agents）的上下文管理|深度智能体（Deep Agents）的上下文管理]]；关联理由：上下游；说明：本文把技能按需加载和文件系统记忆作为使用建议提出，该文解释了支撑这些能力的底层上下文压缩与文件系统抽象。
+
 ## 关联主题
 
 - [[00-元语/memory]]
-- [[00-元语/AI]]
 - [[00-元语/Agent]]
 - [[00-元语/skills]]
 - [[00-元语/virtual-file-system]]
-- [[00-元语/llm]]
 - [[00-元语/context-optimization]]
-- [[00-元语/learning-resource]]

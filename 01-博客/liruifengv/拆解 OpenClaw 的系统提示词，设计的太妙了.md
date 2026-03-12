@@ -50,12 +50,18 @@ title: "拆解 OpenClaw 的系统提示词，设计的太妙了"
 
 作者最后总结，这套提示词的意义在于把 Agent 从“工具范式”推向“伙伴范式”。即使现阶段模型尚未完全达到这一目标，这种设计思路已经展示了很强的可迁移性。
 
+## 相关文档
+
+- [[01-博客/InfoQ/当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活|当 AI 开始学做⼈：逐句解读 OpenClaw 的 AgentS.md ——SOUL.md 定义了灵魂，AgentS.md 教会它怎么活]]；关联理由：解说；说明：该文逐段展开 AgentS.md 的启动顺序、记忆写回与群聊边界，正好细化本文概览式提到的核心文件职责。
+- [[01-博客/Manthan Gupta/Clawdbot 如何记住一切：本地持久记忆系统解析|Clawdbot 如何记住一切：本地持久记忆系统解析]]；关联理由：版本演进；说明：该文分析了 OpenClaw 早期命名阶段的同一套工作区与双层 Markdown 记忆机制，可作为本文所述“文件即记忆”的实现侧补充。
+- [[01-博客/CoPaw/CoPaw 长期记忆机制：Markdown 持久化与混合检索|CoPaw 长期记忆机制：Markdown 持久化与混合检索]]；关联理由：延伸思考；说明：CoPaw 明确说明其长期记忆机制受 OpenClaw 启发，展示了“Markdown 持久化记忆”在另一套 Agent 体系里的延展实现。
+- [[02-资源/AI-应用框架与平台/OpenClaw：自托管个人 AI 助手网关工具|OpenClaw：自托管个人 AI 助手网关工具]]；关联理由：解说；说明：该条目从产品与架构视角概括 OpenClaw 的定位，能补足本文主要关注提示词设计而较少展开的整体系统背景。
+
 ## 关联主题
 
 - [[00-元语/Agent]]
 - [[00-元语/prompt]]
-- [[00-元语/llm]]
 - [[00-元语/memory]]
 - [[00-元语/markdown]]
 - [[00-元语/alignment]]
-- [[00-元语/workflow]]
+- [[00-元语/context-optimization]]

@@ -182,14 +182,18 @@ Cartoon-style street scene again. The Wolf confronts the Rabbit with an imposing
 
 ![Image 1](https://baoyu.io/uploads/2024-12-26/1735199915322.png)![Image 2](https://baoyu.io/uploads/2024-12-26/1735199939417.png)![Image 3](https://baoyu.io/uploads/2024-12-26/1735199947438.png)![Image 4](https://baoyu.io/uploads/2024-12-26/1735199956691.png)![Image 5](https://baoyu.io/uploads/2024-12-26/1735199964112.png)![Image 6](https://baoyu.io/uploads/2024-12-26/1735199980888.png)![Image 7](https://baoyu.io/uploads/2024-12-26/1735199990385.png)![Image 8](https://baoyu.io/uploads/2024-12-26/1735199998724.png)![Image 9](https://baoyu.io/uploads/2024-12-26/1735200009612.png)![Image 10](https://baoyu.io/uploads/2024-12-26/1735200019633.png)
 
+## 相关文档
+
+- [[01-博客/宝玉/GPT-4o 生成复杂四格漫画提示词|GPT-4o 生成复杂四格漫画提示词]]；关联理由：上下游；说明：后者把本文“先拆场景再写提示词”的方法压缩为四格漫画的定制化出图流程，可视为同类创作的下游实践。
+- [[01-博客/宝玉/将文章、故事变成漫画脚本提示词参考|将文章、故事变成漫画脚本提示词参考]]；关联理由：版本演进；说明：后者把本文的故事拆场景思路升级为更完整的漫画脚本模板，适合长篇叙事与逐页分镜规划。
+
 ## 关联主题
 
 - [[00-元语/AI]]
-- [[00-元语/book]]
-- [[00-元语/image-editing]]
-- [[00-元语/llm]]
-- [[00-元语/multimodal]]
-- [[00-元语/prompt]]
 - [[00-元语/OpenAI]]
+- [[00-元语/llm]]
+- [[00-元语/prompt]]
+- [[00-元语/text-to-image]]
+- [[00-元语/multimodal]]
 - [[00-元语/workflow]]
 - [[00-元语/risk]]

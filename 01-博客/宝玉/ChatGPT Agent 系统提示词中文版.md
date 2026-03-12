@@ -675,15 +675,24 @@ summary: string,
 Juice: 256
 ----------
 
+## 相关文档
+
+- [[01-博客/宝玉/ChatGPT Agent System Prompt 5edc5e5d|ChatGPT Agent System Prompt]]；关联理由：同一事件；说明：两文对应同一套 ChatGPT Agent 系统提示词，前者保留英文原文，本篇提供中文整理版。
+- [[01-博客/宝玉/OpenAI Operator System Prompt bf11c9d9|OpenAI Operator System Prompt]]；关联理由：版本演进；说明：两文都约束 OpenAI 浏览器代理的工具使用与安全边界，Operator 可视为更早一代的前序版本。
+- [[01-博客/宝玉/OpenAI Operator 的工作原理|OpenAI Operator 的工作原理]]；关联理由：解说；说明：该文解释计算机使用代理如何结合截图理解、动作规划与工具执行，能补足本篇提示词在执行层面的背景。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/Agent]]
-- [[00-元语/llm]]
 - [[00-元语/prompt]]
-- [[00-元语/protocol]]
-- [[00-元语/browser-automation]]
+- [[00-元语/tool]]
+- [[00-元语/llm]]
 - [[00-元语/security]]
 - [[00-元语/compliance]]
+- [[00-元语/browser-automation]]
+- [[00-元语/multimodal]]
 - [[00-元语/workflow]]
+- [[00-元语/risk]]
+- [[00-元语/ocr]]

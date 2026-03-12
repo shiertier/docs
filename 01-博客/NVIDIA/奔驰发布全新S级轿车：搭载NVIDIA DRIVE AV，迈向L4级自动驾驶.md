@@ -74,6 +74,7 @@ NVIDIA广泛的AI生态系统（包括NVIDIA Alpamayo系列开放模型、自动
 ## 相关文档
 
 - [[01-博客/NVIDIA/走进 Omniverse：物理 AI 开源模型与框架如何推动机器人与自主系统发展|走进 Omniverse：物理 AI 开源模型与框架如何推动机器人与自主系统发展]]；关联理由：上下游；说明：该文介绍的 Cosmos、Alpamayo 与仿真框架是本文 S 级 L4 方案落地的上游技术栈。
+- [[02-资源/AI-模型与推理基础设施/Cosmos：GitHub仓库集合用于NVIDIA模型与推理基础设施|Cosmos：GitHub仓库集合用于NVIDIA模型与推理基础设施]]；关联理由：上下游；说明：本文把 Cosmos 世界模型作为 DRIVE AV 仿真验证链路的一部分，该条目补充了该项目的入口与基础设施定位。
 - [[01-博客/Towards Data Science/AlpamayoR1：用于自动驾驶的大型因果推理模型|AlpamayoR1：用于自动驾驶的大型因果推理模型]]；关联理由：解说；说明：该文细化了本文提到的 Alpamayo 推理机制与训练路径，能补充技术细节背景。
 
 ## 关联主题

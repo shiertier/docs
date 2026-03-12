@@ -364,12 +364,18 @@ Make this text 50% shorter.
 
 Make this text 75% shorter.
 
+## 相关文档
+
+- [[01-博客/宝玉/用 AI 反向代码案例：揭秘 OpenAI Canvas 如何根据用户操作拼接生成 Prompt|用 AI 反向代码案例：揭秘 OpenAI Canvas 如何根据用户操作拼接生成 Prompt]]；关联理由：引用；说明：正文直接引用该文作为补充材料，它解释了 Canvas 前端如何按用户操作拼接出本文展示的 Prompt。
+- [[01-博客/宝玉/ChatGPT Atlas 系统提示词|ChatGPT Atlas 系统提示词]]；关联理由：版本演进；说明：两文都披露 ChatGPT 内部工具与 canmore 规则，Atlas 文档可对照 2025 年版本在工具栈和指令优先级上的扩展。
+- [[01-博客/宝玉/ChatGPT 中 DALL-E 3 的系统提示词 [译]|ChatGPT 中 DALL-E 3 的系统提示词 [译]]]；关联理由：版本演进；说明：本文包含 DALL-E 工具段落，该文聚焦 2023 年 DALL-E 3 规则，可对照图像生成策略如何演变到 4o 的整合提示词中。
+
 ## 关联主题
 
 - [[00-元语/OpenAI]]
 - [[00-元语/ChatGPT]]
 - [[00-元语/prompt]]
 - [[00-元语/ui-protocol]]
-- [[00-元语/multimodal]]
 - [[00-元语/tool]]
-- [[00-元语/workflow]]
+- [[00-元语/multimodal]]
+- [[00-元语/text-to-image]]

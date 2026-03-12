@@ -74,15 +74,13 @@ def make_query_and_print_result(messages, tools=None):
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：版本演进；说明：下篇延续上篇的工具调用基础，补充大规模工具检索与生产化能力。
+- [[01-博客/Anthropic/Claude Tool Use Cookbook 实战清单下篇|Claude Tool Use Cookbook 实战清单下篇]]；关联理由：上下游；说明：下篇承接上篇的基础工具调用，继续扩展到工具检索、上下文压缩与生产化链路。
 - [[01-博客/Anthropic/在 Claude 开发者平台引入高级工具使用功能|在 Claude 开发者平台引入高级工具使用功能]]；关联理由：延伸思考；说明：本文覆盖基础工具调用范式，关联文进一步展开大规模工具库下的高级能力与取舍。
-- [[01-博客/Anthropic/工具搜索工具|工具搜索工具]]；关联理由：上下游；说明：本文先建立通用 Tool Use 基础，关联文对应工具规模扩大后的按需检索能力。
 
 ## 关联主题
 
+- [[00-元语/Agent]]
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
 - [[00-元语/tool]]
-- [[00-元语/Agent]]
-- [[00-元语/sdk]]
 - [[00-元语/workflow]]

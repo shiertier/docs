@@ -232,10 +232,15 @@ _正在进行的对话_
 
 </Guided_Learning>
 
+## 相关文档
+
+- [[01-博客/宝玉/ChatGPT 学习模式系统提示词 0b3b3454|ChatGPT 学习模式系统提示词]]；关联理由：观点一致；说明：两篇文档都把学习模式设计成通过提问、分步引导和延迟给答案来促成理解，而不是直接代替用户完成任务。
+- [[01-博客/宝玉/Google NotebookLM 系统提示词|Google NotebookLM 系统提示词]]；关联理由：延伸思考；说明：两篇文章都在拆解 Google 的学习向系统提示词，但本文聚焦互动式引导学习，后者聚焦基于材料的双声部讲解结构。
+- [[01-博客/宝玉/Gemini Coding partner System Prompt b907f902|Gemini Coding partner System Prompt]]；关联理由：延伸思考；说明：两篇文档都属于 Gemini 的 LearnLM 体系，但本文强调“先引导再给答案”，后者强调“直接交付代码并同步教学”，适合对照不同任务下的教学策略。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
-- [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]

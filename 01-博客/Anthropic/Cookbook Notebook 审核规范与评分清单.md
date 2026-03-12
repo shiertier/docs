@@ -491,8 +491,7 @@ client = anthropic.Anthropic()
 
 ## 相关文档
 
-- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：仓库规范定义贡献与模型命名底线，本文在其基础上给出 Notebook 审核与打分执行细则。
-- [[01-博客/Anthropic/Claude Skills Cookbook 开发与排障手册|Claude Skills Cookbook 开发与排障手册]]；关联理由：上下游；说明：该文给出 Skills Notebook 的实现与排障细节，本文可作为其质量验收与评分准绳。
+- [[01-博客/Anthropic/Claude Cookbooks 仓库开发规范|Claude Cookbooks 仓库开发规范]]；关联理由：上下游；说明：该文定义仓库级的 notebook 提交流程、模型命名与 `/notebook-review` 门禁，本文把这套门禁展开为可执行的审核流程与评分细则。
 
 ## 关联主题
 
@@ -500,7 +499,4 @@ client = anthropic.Anthropic()
 - [[00-元语/workflow]]
 - [[00-元语/skills]]
 - [[00-元语/Claude]]
-- [[00-元语/evals]]
-- [[00-元语/compliance]]
 - [[00-元语/security]]
-- [[00-元语/markdown]]

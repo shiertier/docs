@@ -469,7 +469,10 @@ ggml 的 gguf 格式现在是 executorch（端侧）推理的首选默认格式 
 
 ## 相关文档
 
-- [[01-博客/Hugging Face/GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来|GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来]]；关联理由：版本演进；说明：该文是同一事件的去噪重整版本，内容结构更聚焦核心信息。
+- [[01-博客/Hugging Face/GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来|GGML 与 llama.cpp 加入 Hugging Face：共筑本地 AI 的长远未来]]；关联理由：版本演进；说明：该文是同源公告的去噪整理版，保留了核心论点并去除了站点评论与模板噪音。
+- [[01-博客/Simon Willison/ggml.ai 加入 Hugging Face：本地 AI 模型的未来展望|ggml.ai 加入 Hugging Face：本地 AI 模型的未来展望]]；关联理由：延伸思考；说明：该文从行业观察者视角解释这一加入事件对本地 AI 生态和开源治理的意义。
+- [[02-资源/AI-模型与推理基础设施/llama.cpp：轻量级本地大模型推理引擎|llama.cpp：轻量级本地大模型推理引擎]]；关联理由：解说；说明：本文多次将 llama.cpp 视为本地推理基础构建块，该档案补充了其工程定位与能力边界。
+- [[02-资源/AI-模型与推理基础设施/Transformers：开源模型定义库，面向多模态模型训练与推理|Transformers：开源模型定义库，面向多模态模型训练与推理]]；关联理由：上下游；说明：本文强调 transformers 与 llama.cpp 的衔接目标，该档案对应模型定义层的上游背景。
 
 ## 关联主题
 
@@ -477,4 +480,5 @@ ggml 的 gguf 格式现在是 executorch（端侧）推理的首选默认格式 
 - [[00-元语/llm]]
 - [[00-元语/community]]
 - [[00-元语/self-hosting]]
-- [[00-元语/tool]]
+- [[02-资源/AI-模型与推理基础设施/llama.cpp：轻量级本地大模型推理引擎]]
+- [[02-资源/AI-模型与推理基础设施/Transformers：开源模型定义库，面向多模态模型训练与推理]]

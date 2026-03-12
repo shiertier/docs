@@ -131,10 +131,14 @@ Your mission is to fully internalize and absorb the YouTube video I provide, the
 * **纯粹输出：** 最终交付的内容应只有纯粹的文章本身，不包含任何关于指令（如字数要求）或创作过程的元语言。
 ```
 
+## 相关文档
+
+- [[01-博客/宝玉/Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with|Prompt：Transcribes YouTube videos (from a URL) or uploaded local videos into a structured, formatted text complete with speaker labels and timestamps]]；关联理由：上下游；说明：该文先把 YouTube 视频整理成带发言人和时间戳的结构化逐字稿，可作为本文把视频重写为独立博客文章的上游输入。
+- [[01-博客/宝玉/Summarize YouTube Video Prompt ed681e60|Summarize YouTube Video Prompt]]；关联理由：版本演进；说明：两篇都面向 Gemini 的 YouTube 转文章场景，彼文偏“阅读版总结”，本文进一步推进为更强调叙事重构与作者口吻的博客改写。
+
 ## 关联主题
 
 - [[00-元语/gemini]]
-- [[00-元语/AI]]
 - [[00-元语/prompt]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]

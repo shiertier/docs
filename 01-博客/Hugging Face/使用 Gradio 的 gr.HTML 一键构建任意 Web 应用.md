@@ -1,6 +1,6 @@
 ---
 title: "使用 Gradio 的 gr.HTML 一键构建任意 Web 应用"
-
+发布日期: 2026-02-18
 来源: "https://huggingface.co/blog/gradio-html-one-shot-apps"
 ---
 

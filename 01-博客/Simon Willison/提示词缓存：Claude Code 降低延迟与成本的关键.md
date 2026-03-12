@@ -23,7 +23,7 @@ title: "提示词缓存：Claude Code 降低延迟与成本的关键"
 
 ## 正文
 
-这是 Simon Willison 在 2026 年 2 月 20 日收集并发布的一段来自 Thariq Shihipar 的引言，深入探讨了提示词缓存（Prompt Caching）在 AI 代理产品中的核心地位。
+这篇短文整理了 Thariq Shihipar 关于提示词缓存的观点，并点明它为何是 Claude Code 这类长时运行代理型产品的底层约束。
 
 ### 提示词缓存的核心作用
 
@@ -38,25 +38,18 @@ title: "提示词缓存：Claude Code 降低延迟与成本的关键"
 
 为了确保系统的高效运行，团队对提示词缓存的命中率设置了严格的监控告警。如果命中率过低，团队会直接将其宣告为严重级别的系统事件（SEVs）并进行处理。
 
-### 博客近期更新
-
-除了上述引言，Simon Willison 的博客近期还发布了以下内容：
-
-- 为博客添加 TILs（今天我学到了）、发布记录、博物馆、工具和研究内容（2026年2月20日）
-- 两款新的 Showboat 工具：Chartroom 与 datasette-showboat（2026年2月17日）
-- 深蓝（Deep Blue）（2026年2月15日）
-
 ## 相关文档
 
 - [[01-博客/Thariq/构建 Claude Code 的经验教训：提示词缓存决定一切|构建 Claude Code 的经验教训：提示词缓存决定一切]]；关联理由：引用；说明：本文核心观点来自 Thariq 的引言，该文提供了同一命题的完整工程展开。
-- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：解说；说明：该文系统解释了提示词缓存在成本与延迟优化中的工程做法，可作为本文结论的实践补充。
+- [[01-博客/Anthropic/Claude Misc Cookbook 上下文与缓存优化|Claude Misc Cookbook 上下文与缓存优化]]；关联理由：解说；说明：该文系统解释 prompt caching、会话压缩与成本控制策略，可作为本文“缓存降低延迟与成本”结论的工程补充。
 
 ## 关联主题
 
 - [[00-元语/Claude]]
+- [[00-元语/Claude Code]]
+- [[00-元语/Agent]]
 - [[00-元语/prompt]]
 - [[00-元语/context-optimization]]
 - [[00-元语/observability]]
 - [[00-元语/rate-limiting]]
 - [[00-元语/llmops]]
-- [[00-元语/Agent]]

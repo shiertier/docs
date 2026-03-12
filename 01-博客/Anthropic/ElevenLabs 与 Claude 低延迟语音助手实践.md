@@ -1,7 +1,7 @@
 ---
 title: "ElevenLabs 与 Claude 低延迟语音助手实践"
 
-发布日期: "2025-11-01"
+发布日期: 2025-11-01
 作者: "Anthropic"
 来源仓库: "anthropics/claude-cookbooks"
 原文链接: "https://github.com/anthropics/claude-cookbooks/blob/main/third_party/ElevenLabs/README.md"
@@ -27,8 +27,6 @@ title: "ElevenLabs 与 Claude 低延迟语音助手实践"
 * **网络与连接中断**：WebSocket 流式传输可能会因防火墙拦截（443 端口）、VPN 干扰或超出 API 速率限制而导致连接失败或超时。
 
 ## 正文
-
-# ElevenLabs <> Claude Cookbooks
 
 [ElevenLabs](https://elevenlabs.io/) 提供由 AI 驱动的语音转文本 (speech-to-text) 和文本转语音 (text-to-speech) API，用于创建声音自然的语音应用程序，并具备语音克隆和流式合成等高级功能。
 
@@ -238,14 +236,17 @@ python -c "import sounddevice as sd; print(sd.query_devices())"
 - [API 游乐场 (Playground)](https://elevenlabs.io/app/speech-synthesis/text-to-speech) - 交互式测试声音
 - [Python SDK](https://github.com/elevenlabs/elevenlabs-python) - 官方 Python SDK
 
+## 相关文档
+
+- [[01-博客/Anthropic/Claude 第三方集成 Cookbook 语音与多模态应用|Claude 第三方集成 Cookbook 语音与多模态应用]]；关联理由：上下游；说明：该文从 `claude-cookbooks` 的 third_party 语音与多模态分组概览切入，本文则把其中的 ElevenLabs 低延迟语音助手链路展开到流式传输、播放与排障细节。
+- [[01-博客/宝玉/快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么|快不等于好：Anthropic 和 OpenAI 的快速模式藏着什么]]；关联理由：延伸思考；说明：该文从实时语音流水线的延迟预算解释为什么 LLM 推理速度会直接影响语音助手的可用性，与本文的 WebSocket 低延迟实践互相印证。
+
 ## 关联主题
 
 - [[00-元语/Claude]]
 - [[00-元语/llm]]
-- [[00-元语/Agent]]
-- [[00-元语/multimodal]]
 - [[00-元语/audio]]
 - [[00-元语/asr]]
 - [[00-元语/tts]]
+- [[00-元语/multimodal]]
 - [[00-元语/stream-processing]]
-- [[00-元语/protocol]]

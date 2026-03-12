@@ -66,6 +66,5 @@ Claude 提示词参考：
 - [[00-元语/llm]]
 - [[00-元语/prompt]]
 - [[00-元语/knowledge-graph]]
-- [[00-元语/关系图谱]]
 - [[00-元语/workflow]]
 - [[00-元语/Claude]]

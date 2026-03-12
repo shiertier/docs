@@ -36,12 +36,16 @@ title: "保姆级教程：超前体验 Gemini3 和 Nano Banana Pro"
 
 文章结尾鼓励读者尽快尝试，并注明内容发布于“人人都是产品经理”，原文标注的作者字段为 `null`，并附带公众号来源“卡尔的AI沃茨”。
 
+## 相关文档
+
+- [[01-博客/ZDNet/Nano Banana 2 变得更好更快的 7 种方式——如何体验 Google 的最新图像模型|Nano Banana 2 变得更好更快的 7 种方式——如何体验 Google 的最新图像模型]]；关联理由：版本演进；说明：该文记录 Nano Banana 2 成为默认模型且 Pro 版继续保留，可作为本文所述 Nano Banana Pro 早期体验路径的后续演进。
+- [[01-博客/数字生命卡兹克/一手实测Nano Banana Pro后，我总结了8种全新的超神玩法。|一手实测Nano Banana Pro后，我总结了8种全新的超神玩法。]]；关联理由：同一事件；说明：两文都围绕 2025 年 11 月这一轮 Gemini 3 与 Nano Banana Pro 的开放体验展开，后者补充了更完整的实测场景与能力边界。
+
 ## 关联主题
 
-- [[00-元语/AI]]
 - [[00-元语/gemini]]
 - [[00-元语/llm]]
 - [[00-元语/multimodal]]
-- [[00-元语/image-editing]]
+- [[00-元语/text-to-image]]
 - [[00-元语/benchmark]]
 - [[00-元语/risk]]

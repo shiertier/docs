@@ -62,4 +62,6 @@ https://www.infoq.com/news/2026/02/openai-frontier-agent-platform/
 - [[00-元语/OpenAI]]
 - [[00-元语/Agent]]
 - [[00-元语/workflow]]
-- [[00-元语/observability]]
+- [[00-元语/llmops]]
+- [[00-元语/compliance]]
+- [[00-元语/security]]
