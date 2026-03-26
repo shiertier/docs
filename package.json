@@ -4,6 +4,7 @@
   "private": true,
   "description": "GitBook/HonKit site generator for wsl-docs with wiki graph navigation",
   "scripts": {
+    "docs-system:check": "python3 scripts/check_docs_system.py",
     "gitbook:prepare": "node gitbook/prepare.mjs",
     "gitbook:build": "npm run gitbook:prepare && honkit build .tmp/gitbook-src ../gitbook-dist",
     "gitbook:serve": "npm run gitbook:prepare && honkit serve .tmp/gitbook-src",

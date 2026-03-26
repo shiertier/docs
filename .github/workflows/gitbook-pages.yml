@@ -30,6 +30,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Verify Docs System
+        run: python3 scripts/check_docs_system.py
+
       - name: Prepare Quartz Runtime
         run: bash scripts/prepare_quartz_site.sh
 

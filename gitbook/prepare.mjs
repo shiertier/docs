@@ -2,7 +2,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const CONTENT_ROOTS = ["00-元语", "01-博客", "02-资源", "03-图书", "04-聊天"];
+const CONTENT_ROOTS = ["00-元语", "01-博客", "02-资源", "03-图书", "04-聊天", "06-文档系统"];
 const SOURCE_DIR = path.join(process.cwd(), ".tmp", "gitbook-src");
 const GRAPH_DATA_FILE = "graph-data.json";
 const RECENT_ROOT = "01-博客";

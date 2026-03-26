@@ -42,15 +42,23 @@ CONTENT_DIR="$RUNTIME_DIR/content"
 rm -rf "$CONTENT_DIR"
 mkdir -p "$CONTENT_DIR"
 
-shopt -s nullglob
+CONTENT_ROOTS=(
+  "00-元语"
+  "01-博客"
+  "02-资源"
+  "03-图书"
+  "04-聊天"
+  "06-文档系统"
+)
+
 copied_dirs=0
-for src_dir in "$ROOT_DIR"/0[0-4]-*; do
+for root_name in "${CONTENT_ROOTS[@]}"; do
+  src_dir="$ROOT_DIR/$root_name"
   if [ -d "$src_dir" ]; then
     cp -a "$src_dir" "$CONTENT_DIR/"
     copied_dirs=$((copied_dirs + 1))
   fi
 done
-shopt -u nullglob
 
 RECENT_PAGE_SIZE="${QUARTZ_RECENT_PAGE_SIZE:-200}"
 RECENT_SECTION_DIR="$CONTENT_DIR/最近更新"
@@ -176,6 +184,8 @@ def render_page(page_no: int, page_entries: list[dict], include_catalog: bool = 
             lines.append("- [[03-图书|图书记录]]")
         if (content_dir / "04-聊天").exists():
             lines.append("- [[04-聊天|聊天整理]]")
+        if (content_dir / "06-文档系统").exists():
+            lines.append("- [[06-文档系统/README|文档系统]]")
 
     lines.append("")
     return "\n".join(lines)
@@ -395,7 +405,7 @@ META_EOF
 
 cat > "$RUNTIME_DIR/quartz/components/scripts/randomDoc.inline.ts" <<'RANDOM_SCRIPT_EOF'
 const RANDOM_DOC_CACHE_KEY = "__randomDocCandidates"
-const allowedPrefixes = ["01-博客/", "02-资源/", "03-图书/", "04-聊天/"]
+const allowedPrefixes = ["01-博客/", "02-资源/", "03-图书/", "04-聊天/", "06-文档系统/"]
 
 type ContentIndexEntry = {
   slug?: string
